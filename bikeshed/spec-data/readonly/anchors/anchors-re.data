@@ -135,6 +135,17 @@ enum-value
 web-animations-1
 web-animations
 1
+snapshot
+https://www.w3.org/TR/web-animations-1/#dom-animationreplacestate-removed
+1
+1
+AnimationReplaceState
+-
+"removed"
+enum-value
+web-animations-1
+web-animations
+1
 current
 https://drafts.csswg.org/web-animations-1/#dom-animationreplacestate-removed
 1
@@ -147,10 +158,11 @@ web-animations-1
 web-animations
 1
 snapshot
-https://www.w3.org/TR/web-animations-1/#dom-iterationcompositeoperation-replace
+https://www.w3.org/TR/web-animations-1/#dom-compositeoperation-replace
 1
 1
-IterationCompositeOperation
+CompositeOperation
+CompositeOperationOrAuto
 -
 "replace"
 enum-value
@@ -582,6 +594,16 @@ https://www.w3.org/TR/css-backgrounds-3/#typedef-repeat-style
 1
 1
 -
+<repeat-style>
+type
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds-3/#typedef-repeat-style
+1
+1
+-
 <resolution>
 value
 css-images-4
@@ -643,6 +665,27 @@ current
 https://drafts.csswg.org/css-values-4/#resolution-value
 1
 1
+-
+<reversed-counter-name>
+type
+css-lists-3
+css-lists
+3
+current
+https://drafts.csswg.org/css-lists-3/#typedef-reversed-counter-name
+1
+1
+-
+<reversed-counter-name> <integer>?
+value
+css-lists-3
+css-lists
+3
+current
+https://drafts.csswg.org/css-lists-3/#valdef-counter-reset-reversed-counter-name-integer
+1
+1
+counter-reset
 -
 @region
 at-rule
@@ -2080,17 +2123,6 @@ Element
 -
 [[readable]]
 dfn
-serial-1
-serial
-1
-current
-https://wicg.github.io/serial/#dfn-readable
-1
-1
-SerialPort
--
-[[readable]]
-dfn
 streams
 streams
 1
@@ -2110,17 +2142,6 @@ https://streams.spec.whatwg.org/#readablestream-reader
 
 1
 ReadableStream
--
-[[readfatal]]
-dfn
-serial-1
-serial
-1
-current
-https://wicg.github.io/serial/#dfn-readfatal
-1
-1
-SerialPort
 -
 [[readintorequests]]
 dfn
@@ -2361,6 +2382,17 @@ attribute
 webaudio
 webaudio
 1
+snapshot
+https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-rendering-thread-state-slot
+1
+1
+BaseAudioContext
+-
+[[rendering thread state]]
+attribute
+webaudio
+webaudio
+1
 current
 https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-rendering-thread-state-slot
 1
@@ -2472,6 +2504,16 @@ css-scroll-snap
 1
 snapshot
 https://www.w3.org/TR/css-scroll-snap-1/#re-snap
+1
+1
+-
+re-snap
+dfn
+css-scroll-snap-1
+css-scroll-snap
+1
+current
+https://drafts.csswg.org/css-scroll-snap-1/#re-snap
 1
 1
 -
@@ -2692,6 +2734,26 @@ streams
 current
 https://streams.spec.whatwg.org/#read-request
 1
+1
+-
+read the imports
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#read-the-imports
+
+1
+-
+read the imports
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#read-the-imports
+
 1
 -
 read the resource header
@@ -3161,16 +3223,6 @@ https://w3c.github.io/sensors/#reading-change-threshold
 
 1
 -
-reading current permission state
-dfn
-mediacapture-streams
-mediacapture-streams
-1
-snapshot
-https://www.w3.org/TR/mediacapture-streams/#dfn-reading-current-permission-state
-
-1
--
 reading timestamp
 dfn
 generic-sensor-1
@@ -3242,6 +3294,7 @@ snapshot
 https://html.spec.whatwg.org/multipage/custom-elements.html#attr-face-readonly
 1
 1
+form-associated custom elements
 -
 readonly flag
 dfn
@@ -3804,6 +3857,17 @@ https://www.w3.org/TR/css-color-4/#valdef-color-rebeccapurple
 1
 <color>
 -
+rebeccapurple
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-rebeccapurple
+1
+1
+<color>
+-
 rec2020
 value
 css-color-4
@@ -3811,6 +3875,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#valdef-color-rec2020
+1
+1
+color()
+-
+rec2020
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-rec2020
 1
 1
 color()
@@ -4489,16 +4564,6 @@ CanvasPath
 -
 rectangle
 dfn
-css-exclusions-1
-css-exclusions
-1
-current
-https://drafts.csswg.org/css-exclusions-1/Exclusions.src.html#rectangle
-
-1
--
-rectangle
-dfn
 geometry-1
 geometry
 1
@@ -4528,7 +4593,7 @@ https://html.spec.whatwg.org/multipage/image-maps.html#attr-area-shape-keyword-r
 1
 -
 rectangle state
-element-attr
+attr-value
 html
 html
 1
@@ -4536,7 +4601,7 @@ snapshot
 https://html.spec.whatwg.org/multipage/image-maps.html#attr-area-shape-rect
 1
 1
-area
+area/shape
 -
 rectangular orthogonal color
 dfn
@@ -4545,6 +4610,16 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#rectangular-orthogonal-color
+1
+1
+-
+rectangular orthogonal color
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#rectangular-orthogonal-color
 1
 1
 -
@@ -4732,6 +4807,17 @@ https://www.w3.org/TR/css-color-4/#valdef-color-red
 -
 red
 value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-red
+1
+1
+<color>
+-
+red
+value
 css2
 css2
 1
@@ -4773,6 +4859,16 @@ https://fetch.spec.whatwg.org/#concept-request-redirect-count
 1
 1
 request
+-
+redirect count
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/infrastructure.html#concept-request-redirect-count
+
+1
 -
 redirect end time
 dfn
@@ -4892,6 +4988,17 @@ https://www.w3.org/TR/navigation-timing-2/#dom-performancetiming-redirectend
 1
 PerformanceTiming
 -
+redirectEnd
+attribute
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dom-performanceresourcetiming-redirectend
+1
+1
+PerformanceResourceTiming
+-
 redirectStart
 attribute
 navigation-timing-2
@@ -4902,6 +5009,17 @@ https://www.w3.org/TR/navigation-timing-2/#dom-performancetiming-redirectstart
 1
 1
 PerformanceTiming
+-
+redirectStart
+attribute
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dom-performanceresourcetiming-redirectstart
+1
+1
+PerformanceResourceTiming
 -
 redirected
 attribute
@@ -5533,14 +5651,15 @@ https://html.spec.whatwg.org/multipage/dom.html#dom-document-referrer
 Document
 -
 referrer
-dfn
+attr-value
 html
 html
 1
 snapshot
 https://html.spec.whatwg.org/multipage/semantics.html#meta-referrer
-
 1
+1
+meta/name
 -
 referrer
 dfn
@@ -5590,21 +5709,10 @@ html
 html
 1
 snapshot
-https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy
+https://html.spec.whatwg.org/multipage/origin.html#policy-container-referrer-policy
 1
 1
-Document
--
-referrer policy
-dfn
-html
-html
-1
-snapshot
-https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-referrer-policy
-1
-1
-environment settings object
+policy container
 -
 referrer policy
 dfn
@@ -5615,17 +5723,6 @@ snapshot
 https://html.spec.whatwg.org/multipage/webappapis.html#concept-script-fetch-options-referrer-policy
 
 1
--
-referrer policy
-dfn
-html
-html
-1
-snapshot
-https://html.spec.whatwg.org/multipage/workers.html#concept-workerglobalscope-referrer-policy
-1
-1
-WorkerGlobalScope
 -
 referrer policy
 dfn
@@ -5686,17 +5783,6 @@ service-workers
 1
 snapshot
 https://www.w3.org/TR/service-workers-1/#dfn-referrer-policy
-1
-1
-script resource
--
-referrer policy
-dfn
-service-workers
-service-workers
-1
-current
-https://w3c.github.io/ServiceWorker/#dfn-referrer-policy
 1
 1
 script resource
@@ -5978,6 +6064,7 @@ snapshot
 https://html.spec.whatwg.org/multipage/semantics.html#attr-meta-http-equiv-keyword-refresh
 1
 1
+meta/http-equiv
 -
 refresh state
 element-attr
@@ -6498,6 +6585,16 @@ https://drafts.css-houdini.org/css-properties-values-api-1/#register-a-custom-pr
 
 1
 -
+register a protocol handler
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/system-state.html#protocol-handler-registration
+1
+1
+-
 register(scriptURL)
 method
 service-workers
@@ -6552,17 +6649,6 @@ https://wicg.github.io/background-sync/spec/#dom-syncmanager-register
 1
 1
 SyncManager
--
-registerAnArbitaryClass(type, classConstructor)
-method
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#dom-fakeworkletglobalscope-registeranarbitaryclass
-1
-
-FakeWorkletGlobalScope
 -
 registerAnimator(name, animatorCtor)
 method
@@ -6757,16 +6843,6 @@ snapshot
 https://html.spec.whatwg.org/multipage/worklets.html#registered-class-constructors-map
 
 1
--
-registered class constructors map
-dfn
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#registered-class-constructors-map
-
-
 -
 registered custom property
 dfn
@@ -7260,16 +7336,6 @@ https://html.spec.whatwg.org/multipage/links.html#reinitialise-url
 -
 reject
 dfn
-mediacapture-streams
-mediacapture-streams
-1
-snapshot
-https://www.w3.org/TR/mediacapture-streams/#dfn-reject
-
-1
--
-reject
-dfn
 webidl
 webidl
 1
@@ -7285,16 +7351,6 @@ webrtc
 1
 snapshot
 https://www.w3.org/TR/webrtc/#dfn-reject
-
-1
--
-reject a promise
-dfn
-web-animations-1
-web-animations
-1
-snapshot
-https://www.w3.org/TR/web-animations-1/#reject-a-promise
 
 1
 -
@@ -7330,16 +7386,6 @@ https://html.spec.whatwg.org/multipage/media.html#reject-pending-play-promises
 -
 rejected
 dfn
-mediacapture-streams
-mediacapture-streams
-1
-snapshot
-https://www.w3.org/TR/mediacapture-streams/#dfn-reject
-
-1
--
-rejected
-dfn
 webrtc-1
 webrtc
 1
@@ -7350,31 +7396,11 @@ https://www.w3.org/TR/webrtc/#dfn-reject
 -
 rejecting
 dfn
-mediacapture-streams
-mediacapture-streams
-1
-snapshot
-https://www.w3.org/TR/mediacapture-streams/#dfn-reject
-
-1
--
-rejecting
-dfn
 webrtc-1
 webrtc
 1
 snapshot
 https://www.w3.org/TR/webrtc/#dfn-reject
-
-1
--
-rejection
-dfn
-mediacapture-streams
-mediacapture-streams
-1
-snapshot
-https://www.w3.org/TR/mediacapture-streams/#dfn-reject
 
 1
 -
@@ -7828,8 +7854,28 @@ dfn
 css-color-5
 css-color
 5
+snapshot
+https://www.w3.org/TR/css-color-5/#relative-color
+1
+1
+-
+relative color
+dfn
+css-color-5
+css-color
+5
 current
 https://drafts.csswg.org/css-color-5/#relative-color
+1
+1
+-
+relative high resolution coarse time
+dfn
+hr-time-3
+hr-time
+3
+snapshot
+https://www.w3.org/TR/hr-time-3/#dfn-relative-high-resolution-coarse-time
 1
 1
 -
@@ -8003,6 +8049,27 @@ https://www.w3.org/TR/css-color-4/#valdef-color-profile-rendering-intent-relativ
 1
 1
 @color-profile/rendering-intent
+-
+relative-colorimetric
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-profile-rendering-intent-relative-colorimetric
+1
+1
+@color-profile/rendering-intent
+-
+relative-colorimetric
+value
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/infrastructure.html#'relative-colorimetric'
+
+1
 -
 relative-url string
 dfn
@@ -8422,6 +8489,16 @@ dfn
 web-animations-1
 web-animations
 1
+snapshot
+https://www.w3.org/TR/web-animations-1/#relevant-animation
+
+1
+-
+relevant animation
+dfn
+web-animations-1
+web-animations
+1
 current
 https://drafts.csswg.org/web-animations-1/#relevant-animation
 
@@ -8599,6 +8676,17 @@ https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothcharacteristicprope
 1
 1
 BluetoothCharacteristicProperties
+-
+reload
+attribute
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/infrastructure.html#dom-navigationtype-reload
+
+1
+navigationtype
 -
 reload
 dfn
@@ -9355,6 +9443,16 @@ dfn
 web-animations-1
 web-animations
 1
+snapshot
+https://www.w3.org/TR/web-animations-1/#remove-event
+
+1
+-
+remove event
+dfn
+web-animations-1
+web-animations
+1
 current
 https://drafts.csswg.org/web-animations-1/#remove-event
 
@@ -9392,6 +9490,16 @@ https://fetch.spec.whatwg.org/#concept-headers-remove-privileged-no-cors-request
 
 1
 Headers
+-
+remove replaced animations
+dfn
+web-animations-1
+web-animations
+1
+snapshot
+https://www.w3.org/TR/web-animations-1/#remove-replaced-animations
+
+1
 -
 remove replaced animations
 dfn
@@ -9664,6 +9772,28 @@ https://dom.spec.whatwg.org/#dom-namednodemap-removenameditemns
 1
 NamedNodeMap
 -
+removeParameter
+method
+dom
+dom
+1
+snapshot
+https://dom.spec.whatwg.org/#dom-xsltprocessor-removeparameter
+1
+1
+XSLTProcessor
+-
+removeParameter(namespaceURI, localName)
+method
+dom
+dom
+1
+snapshot
+https://dom.spec.whatwg.org/#dom-xsltprocessor-removeparameter
+1
+1
+XSLTProcessor
+-
 removeProperty(property)
 method
 cssom-1
@@ -9848,6 +9978,16 @@ html
 snapshot
 https://html.spec.whatwg.org/multipage/infrastructure.html#remove-an-element-from-a-document
 1
+1
+-
+removed replace state
+dfn
+web-animations-1
+web-animations
+1
+snapshot
+https://www.w3.org/TR/web-animations-1/#removed-replace-state
+
 1
 -
 removed replace state
@@ -10129,6 +10269,26 @@ https://html.spec.whatwg.org/multipage/rendering.html#rendered-legend
 
 1
 -
+rendered text collection steps
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/dom.html#rendered-text-collection-steps
+
+1
+-
+rendered text fragment
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/dom.html#rendered-text-fragment
+
+1
+-
 renderedBuffer
 attribute
 webaudio
@@ -10253,16 +10413,6 @@ https://webaudio.github.io/web-audio-api/#rendering-thread
 
 1
 -
-rendering thread state
-dfn
-webaudio
-webaudio
-1
-snapshot
-https://www.w3.org/TR/webaudio/#rendering-thread-state
-
-1
--
 rendering tree
 dfn
 svg2
@@ -10290,6 +10440,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#descdef-color-profile-rendering-intent
+1
+1
+@color-profile
+-
+rendering-intent
+descriptor
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#descdef-color-profile-rendering-intent
 1
 1
 @color-profile
@@ -10327,7 +10488,7 @@ https://notifications.spec.whatwg.org/#dom-notificationoptions-renotify
 1
 NotificationOptions
 -
-renotify preference flag
+renotify preference
 dfn
 notifications
 notifications
@@ -10366,6 +10527,28 @@ css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#valdef-border-image-repeat-repeat
+1
+1
+border-image-repeat
+-
+repeat
+value
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds-3/#valdef-background-repeat-repeat
+1
+1
+background-repeat
+-
+repeat
+value
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds-3/#valdef-border-image-repeat-repeat
 1
 1
 border-image-repeat
@@ -10443,6 +10626,17 @@ https://www.w3.org/TR/css-backgrounds-3/#valdef-background-repeat-repeat-x
 1
 background-repeat
 -
+repeat-x
+value
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds-3/#valdef-background-repeat-repeat-x
+1
+1
+background-repeat
+-
 repeat-y
 value
 css-backgrounds-3
@@ -10450,6 +10644,17 @@ css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#valdef-background-repeat-repeat-y
+1
+1
+background-repeat
+-
+repeat-y
+value
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds-3/#valdef-background-repeat-repeat-y
 1
 1
 background-repeat
@@ -10731,6 +10936,26 @@ https://dom.spec.whatwg.org/#concept-cd-replace
 1
 1
 -
+replace data
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/infrastructure.html#replace-data
+
+1
+-
+replace state
+dfn
+web-animations-1
+web-animations
+1
+snapshot
+https://www.w3.org/TR/web-animations-1/#replace-state
+
+1
+-
 replace state
 dfn
 web-animations-1
@@ -10740,6 +10965,17 @@ current
 https://drafts.csswg.org/web-animations-1/#replace-state
 
 1
+-
+replace(text)
+method
+cssom-1
+cssom
+1
+current
+https://drafts.csswg.org/cssom-1/#dom-cssstylesheet-replace
+1
+1
+CSSStyleSheet
 -
 replace(token, newToken)
 method
@@ -10823,6 +11059,17 @@ attribute
 web-animations-1
 web-animations
 1
+snapshot
+https://www.w3.org/TR/web-animations-1/#dom-animation-replacestate
+1
+1
+Animation
+-
+replaceState
+attribute
+web-animations-1
+web-animations
+1
 current
 https://drafts.csswg.org/web-animations-1/#dom-animation-replacestate
 1
@@ -10839,6 +11086,17 @@ https://html.spec.whatwg.org/multipage/history.html#dom-history-replacestate
 1
 1
 History
+-
+replaceSync(text)
+method
+cssom-1
+cssom
+1
+current
+https://drafts.csswg.org/cssom-1/#dom-cssstylesheet-replacesync
+1
+1
+CSSStyleSheet
 -
 replaceTrack
 method
@@ -10916,6 +11174,16 @@ https://dom.spec.whatwg.org/#dom-childnode-replacewith
 1
 1
 ChildNode
+-
+replaceable animation
+dfn
+web-animations-1
+web-animations
+1
+snapshot
+https://www.w3.org/TR/web-animations-1/#replaceable-animation
+
+1
 -
 replaceable animation
 dfn
@@ -11720,6 +11988,16 @@ network-error-logging
 1
 snapshot
 https://www.w3.org/TR/network-error-logging/#dfn-requests
+
+1
+-
+request
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-request
 
 1
 -
@@ -12532,6 +12810,17 @@ https://www.w3.org/TR/navigation-timing-2/#dom-performancetiming-requeststart
 1
 PerformanceTiming
 -
+requestStart
+attribute
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dom-performanceresourcetiming-requeststart
+1
+1
+PerformanceResourceTiming
+-
 requestSubmit()
 method
 html
@@ -12542,17 +12831,6 @@ https://html.spec.whatwg.org/multipage/forms.html#dom-form-requestsubmit
 1
 1
 HTMLFormElement
--
-requestToSend
-dict-member
-serial-1
-serial
-1
-current
-https://wicg.github.io/serial/#dom-serialoutputsignals-requesttosend
-1
-1
-SerialOutputSignals
 -
 requestType
 dict-member
@@ -12635,6 +12913,17 @@ current
 https://w3c.github.io/sensors/#requested-sampling-frequency
 
 1
+-
+requested url
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-requested-url
+
+1
+PerformanceResourceTiming
 -
 requested viewport scale
 dfn
@@ -12754,7 +13043,7 @@ https://www.w3.org/TR/webrtc/#dom-rtcrtcpmuxpolicy-require
 1
 RTCRtcpMuxPolicy
 -
-require interaction preference flag
+require interaction preference
 dfn
 notifications
 notifications
@@ -13140,6 +13429,16 @@ https://www.w3.org/TR/SVG11/struct.html#RequiredFeaturesAttribute
 1
 switch
 -
+requires storing the policy container in history
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/origin.html#requires-storing-the-policy-container-in-history
+
+1
+-
 requires user mediation
 dfn
 credential-management-1
@@ -13244,6 +13543,17 @@ https://heycam.github.io/webidl/#dfn-reserved-identifier
 1
 -
 reset
+method
+dom
+dom
+1
+snapshot
+https://dom.spec.whatwg.org/#dom-xsltprocessor-reset
+1
+1
+XSLTProcessor
+-
+reset
 attr-value
 html
 html
@@ -13254,7 +13564,7 @@ https://html.spec.whatwg.org/multipage/input.html#attr-input-type-reset-keyword
 1
 -
 reset
-element-attr
+attr-value
 html
 html
 1
@@ -13262,7 +13572,7 @@ snapshot
 https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-type-reset
 1
 1
-button
+button/type
 -
 reset
 dfn
@@ -13388,6 +13698,26 @@ https://html.spec.whatwg.org/multipage/parsing.html#reset-the-insertion-mode-app
 
 1
 -
+reset the memory buffer
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#reset-the-memory-buffer
+
+1
+-
+reset the memory buffer
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#reset-the-memory-buffer
+
+1
+-
 reset the rendering context to its default state
 dfn
 html
@@ -13400,6 +13730,17 @@ https://html.spec.whatwg.org/multipage/canvas.html#reset-the-rendering-context-t
 -
 reset()
 method
+dom
+dom
+1
+snapshot
+https://dom.spec.whatwg.org/#dom-xsltprocessor-reset
+1
+1
+XSLTProcessor
+-
+reset()
+method
 html
 html
 1
@@ -13408,6 +13749,17 @@ https://html.spec.whatwg.org/multipage/forms.html#dom-form-reset
 1
 1
 HTMLFormElement
+-
+reset()
+method
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-reset
+1
+1
+CanvasState
 -
 reset()
 method
@@ -13427,6 +13779,16 @@ css-cascade
 3
 snapshot
 https://www.w3.org/TR/css-cascade-3/#reset-only-sub-property
+1
+1
+-
+reset-only sub-property
+dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#reset-only-sub-property
 1
 1
 -
@@ -13592,6 +13954,16 @@ css-ui
 3
 snapshot
 https://www.w3.org/TR/css-ui-3/#propdef-resize
+1
+1
+-
+resize
+property
+css-ui-3
+css-ui
+3
+current
+https://drafts.csswg.org/css-ui-3/#propdef-resize
 1
 1
 -
@@ -13890,16 +14262,6 @@ blob URL
 -
 resolve
 dfn
-mediacapture-streams
-mediacapture-streams
-1
-snapshot
-https://www.w3.org/TR/mediacapture-streams/#dfn-resolve
-
-1
--
-resolve
-dfn
 webidl
 webidl
 1
@@ -13928,6 +14290,16 @@ https://drafts.csswg.org/scroll-animations-1/#resolve-a-container-based-offset
 
 1
 -
+resolve a domain
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#resolve-a-domain
+
+1
+-
 resolve a module specifier
 dfn
 html
@@ -13935,16 +14307,6 @@ html
 1
 snapshot
 https://html.spec.whatwg.org/multipage/webappapis.html#resolve-a-module-specifier
-
-1
--
-resolve a promise
-dfn
-web-animations-1
-web-animations
-1
-snapshot
-https://www.w3.org/TR/web-animations-1/#resolve-a-promise
 
 1
 -
@@ -13965,6 +14327,16 @@ scroll-animations
 1
 current
 https://drafts.csswg.org/scroll-animations-1/#resolve-an-element-based-offset
+
+1
+-
+resolve an origin
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#resolve-an-origin
 
 1
 -
@@ -14065,16 +14437,6 @@ webxr
 1
 current
 https://immersive-web.github.io/webxr/#resolve-the-requested-features
-
-1
--
-resolved
-dfn
-mediacapture-streams
-mediacapture-streams
-1
-snapshot
-https://www.w3.org/TR/mediacapture-streams/#dfn-resolve
 
 1
 -
@@ -14306,6 +14668,16 @@ https://mimesniff.spec.whatwg.org/#resource
 
 1
 -
+resource
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-resource
+
+1
+-
 resource fetch algorithm
 dfn
 html
@@ -14356,6 +14728,61 @@ https://html.spec.whatwg.org/multipage/media.html#concept-media-load-algorithm
 
 1
 -
+resource timing buffer current size
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-resource-timing-buffer-current-size
+
+1
+Performance
+-
+resource timing buffer full event pending flag
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-resource-timing-buffer-full-event-pending-flag
+
+1
+Performance
+-
+resource timing buffer size limit
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-resource-timing-buffer-size-limit
+
+1
+Performance
+-
+resource timing secondary buffer
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-resource-timing-secondary-buffer
+
+1
+Performance
+-
+resource timing secondary buffer current size
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-resource-timing-secondary-buffer-current-size
+
+1
+Performance
+-
 resources
 dfn
 html
@@ -14365,6 +14792,17 @@ snapshot
 https://html.spec.whatwg.org/multipage/microdata.html#md-vevent-resources
 
 1
+-
+resourcetimingbufferfull
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-resourcetimingbufferfull
+
+1
+Performance
 -
 respond(bytesWritten)
 method
@@ -14593,28 +15031,6 @@ https://xhr.spec.whatwg.org/#response
 1
 XMLHttpRequest
 -
-response check
-dfn
-csp3
-csp
-3
-snapshot
-https://www.w3.org/TR/CSP3/#directive-response-check
-1
-1
-directive
--
-response check
-dfn
-csp3
-csp
-3
-current
-https://w3c.github.io/webappsec-csp/#directive-response-check
-1
-1
-directive
--
 response header
 dfn
 network-error-logging-1
@@ -14688,6 +15104,17 @@ https://www.w3.org/TR/navigation-timing-2/#dom-performancetiming-responseend
 1
 PerformanceTiming
 -
+responseEnd
+attribute
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dom-performanceresourcetiming-responseend
+1
+1
+PerformanceResourceTiming
+-
 responseStart
 attribute
 navigation-timing-2
@@ -14698,6 +15125,17 @@ https://www.w3.org/TR/navigation-timing-2/#dom-performancetiming-responsestart
 1
 1
 PerformanceTiming
+-
+responseStart
+attribute
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dom-performanceresourcetiming-responsestart
+1
+1
+PerformanceResourceTiming
 -
 responseText
 attribute
@@ -15370,6 +15808,16 @@ https://w3c.github.io/IndexedDB/#retrieve-multiple-values-from-an-object-store
 
 1
 -
+retrieving an extern value
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#retrieving-an-extern-value
+
+1
+-
 retry()
 method
 payment-request-1
@@ -15617,6 +16065,17 @@ https://drafts.csswg.org/web-animations-1/#dom-animation-reverse
 Animation
 -
 reversed
+dfn
+css-lists-3
+css-lists
+3
+current
+https://drafts.csswg.org/css-lists-3/#css-counter-reversed
+1
+1
+CSS counter
+-
+reversed
 element-attr
 html
 html
@@ -15649,6 +16108,17 @@ https://www.w3.org/TR/css-transitions-1/#transition-reversing-shortening-factor
 1
 transition
 -
+reversing shortening factor
+dfn
+css-transitions-1
+css-transitions
+1
+current
+https://drafts.csswg.org/css-transitions-1/#transition-reversing-shortening-factor
+1
+1
+transition
+-
 reversing-adjusted start value
 dfn
 css-transitions-1
@@ -15656,6 +16126,17 @@ css-transitions
 1
 snapshot
 https://www.w3.org/TR/css-transitions-1/#transition-reversing-adjusted-start-value
+1
+1
+transition
+-
+reversing-adjusted start value
+dfn
+css-transitions-1
+css-transitions
+1
+current
+https://drafts.csswg.org/css-transitions-1/#transition-reversing-adjusted-start-value
 1
 1
 transition

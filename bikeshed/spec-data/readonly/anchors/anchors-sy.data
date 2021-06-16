@@ -58,6 +58,16 @@ https://www.w3.org/TR/css-color-4/#typedef-system-color
 1
 1
 -
+<system-color>
+type
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#typedef-system-color
+1
+1
+-
 SYNTAX_ERR
 const
 webidl
@@ -306,7 +316,7 @@ https://drafts.csswg.org/css-counter-styles-3/#funcdef-symbols
 1
 -
 sync
-element-attr
+attr-value
 html
 html
 1
@@ -314,6 +324,7 @@ snapshot
 https://html.spec.whatwg.org/multipage/images.html#attr-img-decoding-sync
 1
 1
+img/decoding
 -
 sync
 element-state
@@ -778,6 +789,16 @@ https://www.w3.org/TR/css-color-4/#system-color-pairings
 1
 1
 -
+system color pairings
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#system-color-pairings
+1
+1
+-
 system colors
 dfn
 css-color-4
@@ -788,6 +809,16 @@ https://www.w3.org/TR/css-color-4/#css-system-colors
 1
 1
 -
+system colors
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#css-system-colors
+1
+1
+-
 system focus
 dfn
 html
@@ -795,8 +826,9 @@ html
 1
 snapshot
 https://html.spec.whatwg.org/multipage/interaction.html#tlbc-system-focus
-
 1
+1
+top-level browsing context
 -
 system font fallback
 dfn

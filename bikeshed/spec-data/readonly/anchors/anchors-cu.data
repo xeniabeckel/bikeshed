@@ -101,6 +101,49 @@ https://drafts.csswg.org/css-extensions-1/#typedef-custom-arg
 1
 1
 -
+<custom-highlight-name>
+type
+css-highlight-api-1
+css-highlight-api
+1
+current
+https://drafts.csswg.org/css-highlight-api-1/#typedef-custom-highlight-name
+1
+1
+-
+<custom-ident>
+value
+css-color-adjust-1
+css-color-adjust
+1
+snapshot
+https://www.w3.org/TR/css-color-adjust-1/#valdef-color-scheme-custom-ident
+1
+1
+color-scheme
+-
+<custom-ident>
+value
+css-color-adjust-1
+css-color-adjust
+1
+current
+https://drafts.csswg.org/css-color-adjust-1/#valdef-color-scheme-custom-ident
+1
+1
+color-scheme
+-
+<custom-ident>
+value
+css-contain-3
+css-contain
+3
+current
+https://drafts.csswg.org/css-contain-3/#valdef-container-name-custom-ident
+1
+1
+container-name
+-
 <custom-ident>
 value
 css-grid-1
@@ -683,6 +726,16 @@ https://www.w3.org/TR/navigation-timing-2/#dfn-current-document
 
 1
 -
+current document
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-current-document
+
+1
+-
 current document readiness
 dfn
 html
@@ -1140,6 +1193,16 @@ https://svgwg.org/svg2-draft/text.html#TermCurrentTextPosition
 -
 current time
 dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-current-time
+
+1
+-
+current time
+dfn
 web-animations-1
 web-animations
 1
@@ -1248,16 +1311,6 @@ https://www.w3.org/TR/css-counter-styles-3/#current-tuple
 
 1
 -
-current tuple
-dfn
-css-counter-styles-3
-css-counter-styles
-3
-current
-https://drafts.csswg.org/css-counter-styles-3/#current-tuple
-
-1
--
 current url
 dfn
 fetch
@@ -1301,6 +1354,16 @@ https://www.w3.org/TR/css-transitions-1/#current-value
 -
 current value
 dfn
+css-transitions-1
+css-transitions
+1
+current
+https://drafts.csswg.org/css-transitions-1/#current-value
+1
+1
+-
+current value
+dfn
 html
 html
 1
@@ -1321,7 +1384,7 @@ https://immersive-web.github.io/webxr/#view-current-viewport-scale
 view
 -
 current-password
-element-attr
+attr-value
 html
 html
 1
@@ -1329,6 +1392,13 @@ snapshot
 https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete-current-password
 1
 1
+button/autocomplete
+fieldset/autocomplete
+input/autocomplete
+object/autocomplete
+output/autocomplete
+select/autocomplete
+textarea/autocomplete
 -
 currentDirection
 attribute
@@ -1672,6 +1742,17 @@ https://www.w3.org/TR/css-color-4/#valdef-color-currentcolor
 -
 currentcolor
 value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-currentcolor
+1
+1
+<color>
+-
+currentcolor
+value
 html
 html
 1
@@ -1785,6 +1866,16 @@ https://www.w3.org/TR/css-text-3/#cursive-script
 
 1
 -
+cursive script
+dfn
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#cursive-script
+
+1
+-
 cursor
 property
 css-ui-3
@@ -1792,6 +1883,16 @@ css-ui
 3
 snapshot
 https://www.w3.org/TR/css-ui-3/#propdef-cursor
+1
+1
+-
+cursor
+property
+css-ui-3
+css-ui
+3
+current
+https://drafts.csswg.org/css-ui-3/#propdef-cursor
 1
 1
 -
@@ -1940,6 +2041,17 @@ snapshot
 https://html.spec.whatwg.org/multipage/infrastructure.html#concept-element-custom
 
 1
+-
+custom
+value
+mediaqueries-5
+mediaqueries
+5
+current
+https://drafts.csswg.org/mediaqueries-5/#valdef-media-prefers-contrast-custom
+1
+1
+@media/prefers-contrast
 -
 custom
 enum-value
@@ -2095,6 +2207,16 @@ https://drafts.csswg.org/css-highlight-api-1/#custom-highlight
 
 1
 -
+custom highlight name
+dfn
+css-highlight-api-1
+css-highlight-api
+1
+current
+https://drafts.csswg.org/css-highlight-api-1/#custom-highlight-name
+
+1
+-
 custom highlight pseudo-element
 dfn
 css-highlight-api-1
@@ -2215,6 +2337,26 @@ https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#custom-v
 
 1
 -
+custom-params
+dfn
+css-color-5
+css-color
+5
+snapshot
+https://www.w3.org/TR/css-color-5/#custom-params
+
+1
+-
+custom-params
+dfn
+css-color-5
+css-color
+5
+current
+https://drafts.csswg.org/css-color-5/#custom-params
+
+1
+-
 customElements
 attribute
 html
@@ -2236,6 +2378,28 @@ https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-vali
 1
 1
 ValidityState
+-
+customSections(moduleObject, sectionName)
+method
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-module-customsections
+1
+1
+Module
+-
+customSections(moduleObject, sectionName)
+method
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-module-customsections
+1
+1
+Module
 -
 customized built-in element
 dfn

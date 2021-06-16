@@ -204,6 +204,17 @@ cursor
 -
 ne-resize
 value
+css-ui-3
+css-ui
+3
+current
+https://drafts.csswg.org/css-ui-3/#valdef-cursor-ne-resize
+1
+1
+cursor
+-
+ne-resize
+value
 css-ui-4
 css-ui
 4
@@ -663,6 +674,17 @@ cursor
 -
 nesw-resize
 value
+css-ui-3
+css-ui
+3
+current
+https://drafts.csswg.org/css-ui-3/#valdef-cursor-nesw-resize
+1
+1
+cursor
+-
+nesw-resize
+value
 css-ui-4
 css-ui
 4
@@ -981,6 +1003,28 @@ https://www.w3.org/TR/webrtc/#dom-rtcdtlstransportstate-new
 1
 RTCDtlsTransportState
 -
+new ImageData(data, sw, sh, settings)
+constructor
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/canvas.html#dom-imagedata-with-data
+1
+1
+ImageData
+-
+new ImageData(sw, sh, settings)
+constructor
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/canvas.html#dom-imagedata
+1
+1
+ImageData
+-
 new broadcastchannel(name)
 dfn
 html
@@ -1022,7 +1066,7 @@ https://html.spec.whatwg.org/multipage/web-messaging.html#dom-messagechannel
 1
 -
 new-password
-element-attr
+attr-value
 html
 html
 1
@@ -1030,6 +1074,13 @@ snapshot
 https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete-new-password
 1
 1
+button/autocomplete
+fieldset/autocomplete
+input/autocomplete
+object/autocomplete
+output/autocomplete
+select/autocomplete
+textarea/autocomplete
 -
 newParent
 argument
@@ -1054,7 +1105,7 @@ https://dom.spec.whatwg.org/#dom-domtokenlist-replace-token-newtoken-newtoken
 DOMTokenList/replace(token, newToken)
 -
 newURL
-dict-member
+attribute
 html
 html
 1
@@ -1062,7 +1113,7 @@ snapshot
 https://html.spec.whatwg.org/multipage/browsing-the-web.html#dom-hashchangeevent-newurl
 1
 1
-HashChangeEventInit
+HashChangeEvent
 -
 newValue
 attribute
@@ -1320,6 +1371,17 @@ https://dom.spec.whatwg.org/#dom-nondocumenttypechildnode-nextelementsibling
 1
 1
 NonDocumentTypeChildNode
+-
+nextHopProtocol
+attribute
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dom-performanceresourcetiming-nexthopprotocol
+1
+1
+PerformanceResourceTiming
 -
 nextInBox
 attribute

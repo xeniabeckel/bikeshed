@@ -78,24 +78,35 @@ https://drafts.css-houdini.org/css-typed-om-1/#csscolor
 1
 1
 -
-CSSColor(colorspace, channels, optional alpha)
-constructor
-css-typed-om-1
-css-typed-om
-1
-current
-https://drafts.css-houdini.org/css-typed-om-1/#dom-csscolor-csscolor-colorspace-channels-optional-alpha
-1
-1
-CSSColor
--
-CSSColor(variant)
+CSSColor(colorSpace, channels)
 constructor
 css-typed-om-1
 css-typed-om
 1
 current
 https://drafts.css-houdini.org/css-typed-om-1/#dom-csscolor-csscolor
+1
+1
+CSSColor
+-
+CSSColor(colorSpace, channels, alpha)
+constructor
+css-typed-om-1
+css-typed-om
+1
+current
+https://drafts.css-houdini.org/css-typed-om-1/#dom-csscolor-csscolor
+1
+1
+CSSColor
+-
+CSSColor(colorSpace, channels, optional alpha)
+constructor
+css-typed-om-1
+css-typed-om
+1
+current
+https://drafts.css-houdini.org/css-typed-om-1/#dom-csscolor-csscolor-colorspace-channels-optional-alpha
 1
 1
 CSSColor
@@ -120,6 +131,16 @@ https://www.w3.org/TR/css3-conditional/#cssconditionrule
 1
 1
 -
+CSSConditionRule
+interface
+css-conditional-3
+css-conditional
+3
+current
+https://drafts.csswg.org/css-conditional-3/#cssconditionrule
+1
+1
+-
 CSSCounterStyleRule
 interface
 css-counter-styles-3
@@ -139,6 +160,49 @@ current
 https://drafts.csswg.org/css-counter-styles-3/#csscounterstylerule
 1
 1
+-
+CSSDeviceCMYK
+interface
+css-typed-om-1
+css-typed-om
+1
+current
+https://drafts.css-houdini.org/css-typed-om-1/#cssdevicecmyk
+1
+1
+-
+CSSDeviceCMYK(c, m, y, k)
+constructor
+css-typed-om-1
+css-typed-om
+1
+current
+https://drafts.css-houdini.org/css-typed-om-1/#dom-cssdevicecmyk-cssdevicecmyk
+1
+1
+CSSDeviceCMYK
+-
+CSSDeviceCMYK(c, m, y, k, alpha)
+constructor
+css-typed-om-1
+css-typed-om
+1
+current
+https://drafts.css-houdini.org/css-typed-om-1/#dom-cssdevicecmyk-cssdevicecmyk
+1
+1
+CSSDeviceCMYK
+-
+CSSDeviceCMYK(c, m, y, k, optional alpha)
+constructor
+css-typed-om-1
+css-typed-om
+1
+current
+https://drafts.css-houdini.org/css-typed-om-1/#dom-cssdevicecmyk-cssdevicecmyk-c-m-y-k-optional-alpha
+1
+1
+CSSDeviceCMYK
 -
 CSSFontFaceLoadEvent
 interface
@@ -239,38 +303,6 @@ current
 https://drafts.csswg.org/css-fonts-4/#cssfontpalettevaluesrule
 1
 1
--
-CSSGray
-interface
-css-typed-om-1
-css-typed-om
-1
-current
-https://drafts.css-houdini.org/css-typed-om-1/#cssgray
-1
-1
--
-CSSGray(gray)
-constructor
-css-typed-om-1
-css-typed-om
-1
-current
-https://drafts.css-houdini.org/css-typed-om-1/#dom-cssgray-cssgray
-1
-1
-CSSGray
--
-CSSGray(gray, alpha)
-constructor
-css-typed-om-1
-css-typed-om
-1
-current
-https://drafts.css-houdini.org/css-typed-om-1/#dom-cssgray-cssgray
-1
-1
-CSSGray
 -
 CSSGroupingRule
 interface
@@ -626,7 +658,7 @@ https://drafts.css-houdini.org/css-typed-om-1/#cssmathclamp
 1
 1
 -
-CSSMathClamp(min, val, max)
+CSSMathClamp(lower, value, upper)
 constructor
 css-typed-om-1
 css-typed-om
@@ -1053,6 +1085,16 @@ css-conditional
 3
 snapshot
 https://www.w3.org/TR/css3-conditional/#cssmediarule
+1
+1
+-
+CSSMediaRule
+interface
+css-conditional-3
+css-conditional
+3
+current
+https://drafts.csswg.org/css-conditional-3/#cssmediarule
 1
 1
 -
@@ -1725,6 +1767,38 @@ https://drafts.csswg.org/cssom-1/#cssstylesheet
 1
 1
 -
+CSSStyleSheet()
+constructor
+cssom-1
+cssom
+1
+current
+https://drafts.csswg.org/cssom-1/#dom-cssstylesheet-cssstylesheet
+1
+1
+CSSStyleSheet
+-
+CSSStyleSheet(options)
+constructor
+cssom-1
+cssom
+1
+current
+https://drafts.csswg.org/cssom-1/#dom-cssstylesheet-cssstylesheet
+1
+1
+CSSStyleSheet
+-
+CSSStyleSheetInit
+dictionary
+cssom-1
+cssom
+1
+current
+https://drafts.csswg.org/cssom-1/#dictdef-cssstylesheetinit
+1
+1
+-
 CSSStyleValue
 interface
 css-typed-om-1
@@ -1752,6 +1826,16 @@ css-conditional
 3
 snapshot
 https://www.w3.org/TR/css3-conditional/#csssupportsrule
+1
+1
+-
+CSSSupportsRule
+interface
+css-conditional-3
+css-conditional
+3
+current
+https://drafts.csswg.org/css-conditional-3/#csssupportsrule
 1
 1
 -
@@ -2101,17 +2185,6 @@ global object
 -
 csp list
 dfn
-fetch
-fetch
-1
-current
-https://fetch.spec.whatwg.org/#concept-response-csp-list
-1
-1
-response
--
-csp list
-dfn
 html
 html
 1
@@ -2126,31 +2199,10 @@ html
 html
 1
 snapshot
-https://html.spec.whatwg.org/multipage/infrastructure.html#concept-response-csp-list
-
-1
--
-csp list
-dfn
-html
-html
-1
-snapshot
-https://html.spec.whatwg.org/multipage/dom.html#concept-document-csp-list
+https://html.spec.whatwg.org/multipage/origin.html#policy-container-csp-list
 1
 1
-Document
--
-csp list
-dfn
-html
-html
-1
-snapshot
-https://html.spec.whatwg.org/multipage/workers.html#concept-workerglobalscope-csp-list
-1
-1
-WorkerGlobalScope
+policy container
 -
 csp violation report
 dfn
@@ -2243,6 +2295,16 @@ https://www.w3.org/TR/css-color-4/#css-color-profile
 
 1
 -
+css color profile
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#css-color-profile
+
+1
+-
 css counters set
 dfn
 css-lists-3
@@ -2329,9 +2391,10 @@ css-values-3
 css-values
 3
 current
-https://drafts.csswg.org/css-values-3/#css-identifier
+https://drafts.csswg.org/css-values-3/#css-css-identifier
 1
 1
+CSS
 -
 css ident
 dfn
@@ -2349,9 +2412,10 @@ css-values-4
 css-values
 4
 current
-https://drafts.csswg.org/css-values-4/#css-identifier
+https://drafts.csswg.org/css-values-4/#css-css-identifier
 1
 1
+CSS
 -
 css identifier
 dfn
@@ -2379,9 +2443,10 @@ css-values-3
 css-values
 3
 current
-https://drafts.csswg.org/css-values-3/#css-identifier
+https://drafts.csswg.org/css-values-3/#css-css-identifier
 1
 1
+CSS
 -
 css identifier
 dfn
@@ -2399,9 +2464,10 @@ css-values-4
 css-values
 4
 current
-https://drafts.csswg.org/css-values-4/#css-identifier
+https://drafts.csswg.org/css-values-4/#css-css-identifier
 1
 1
+CSS
 -
 css layout box
 dfn

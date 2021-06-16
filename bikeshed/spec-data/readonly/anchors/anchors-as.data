@@ -699,6 +699,17 @@ https://drafts.csswg.org/css-fonts-4/#aspect-value
 1
 -
 aspect-ratio
+descriptor
+css-contain-3
+css-contain
+3
+current
+https://drafts.csswg.org/css-contain-3/#descdef-container-aspect-ratio
+1
+1
+@container
+-
+aspect-ratio
 property
 css-sizing-4
 css-sizing
@@ -1002,6 +1013,27 @@ https://dom.spec.whatwg.org/#assign-slotables-for-a-tree
 
 1
 -
+assign slottables for a tree
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/infrastructure.html#assign-slottables-for-a-tree
+
+1
+-
+assign(...nodes)
+method
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/scripting.html#dom-slot-assign
+1
+1
+HTMLSlotElement
+-
 assign(url)
 method
 html
@@ -1274,8 +1306,28 @@ dfn
 web-animations-1
 web-animations
 1
+snapshot
+https://www.w3.org/TR/web-animations-1/#associated-effect
+
+1
+-
+associated effect
+dfn
+web-animations-1
+web-animations
+1
 current
 https://drafts.csswg.org/web-animations-1/#associated-effect
+
+1
+-
+associated effect end
+dfn
+web-animations-1
+web-animations
+1
+snapshot
+https://www.w3.org/TR/web-animations-1/#associated-effect-end
 
 1
 -
@@ -1419,6 +1471,37 @@ https://w3c.github.io/sensors/#associated-sensors
 1
 1
 -
+associated store
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#associated-store
+
+1
+-
+associated store
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#associated-store
+
+1
+-
+associated task queue
+dfn
+webaudio
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio/#baseaudiocontext-associated-task-queue
+
+1
+BaseAudioContext
+-
 associated task queue
 dfn
 webaudio
@@ -1471,7 +1554,7 @@ https://drafts.csswg.org/web-animations-1/#associated-with-an-animation
 1
 -
 async
-element-attr
+attr-value
 html
 html
 1
@@ -1479,6 +1562,7 @@ snapshot
 https://html.spec.whatwg.org/multipage/images.html#attr-img-decoding-async
 1
 1
+img/decoding
 -
 async
 element-state
@@ -1565,6 +1649,26 @@ https://w3c.github.io/FileAPI/#asynchronous-read-methods
 
 1
 -
+asynchronously compile a webassembly module
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#asynchronously-compile-a-webassembly-module
+
+1
+-
+asynchronously compile a webassembly module
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#asynchronously-compile-a-webassembly-module
+
+1
+-
 asynchronously execute a request
 dfn
 indexeddb-2
@@ -1572,6 +1676,26 @@ indexeddb
 2
 current
 https://w3c.github.io/IndexedDB/#asynchronously-execute-a-request
+
+1
+-
+asynchronously instantiate a webassembly module
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#asynchronously-instantiate-a-webassembly-module
+
+1
+-
+asynchronously instantiate a webassembly module
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#asynchronously-instantiate-a-webassembly-module
 
 1
 -

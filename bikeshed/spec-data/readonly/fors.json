@@ -98,6 +98,7 @@
     "-webkit-flex-grow",
     "-webkit-flex-shrink",
     "-webkit-flex-wrap",
+    "-webkit-image-set()",
     "-webkit-justify-content",
     "-webkit-line-clamp",
     "-webkit-linear-gradient()",
@@ -136,7 +137,6 @@
     "-webkit-transition-timing-function",
     "-webkit-user-select",
     "/deep/",
-    "1",
     "100...900 weight values",
     "1st <length>",
     "200 response",
@@ -168,6 +168,7 @@
     "::first-letter",
     "::first-line",
     "::grammar-error",
+    "::highlight(<custom-highlight-name>)",
     "::highlight(<highlight-name>)",
     "::marker",
     "::nth-fragment()",
@@ -184,6 +185,7 @@
     ":autofill",
     ":before",
     ":blank",
+    ":buffering",
     ":checked",
     ":current",
     ":current()",
@@ -224,6 +226,7 @@
     ":link",
     ":local-link",
     ":matches()",
+    ":muted",
     ":not()",
     ":nth-child()",
     ":nth-col()",
@@ -247,6 +250,8 @@
     ":root",
     ":scope",
     ":scope element",
+    ":seeking",
+    ":stalled",
     ":start-of-page",
     ":target",
     ":target-within",
@@ -254,6 +259,7 @@
     ":user-valid",
     ":valid",
     ":visited",
+    ":volume-locked",
     ":where()",
     ":xr-overlay",
     "<(-token>",
@@ -313,12 +319,12 @@
     "<colon-token>",
     "<color-adjuster>",
     "<color-font-technology>",
+    "<color-space>",
     "<color-stop-angle>",
     "<color-stop-length>",
     "<color-stop-list>",
     "<color-stop>",
     "<color>",
-    "<colorspace>",
     "<combinator>",
     "<comma-token>",
     "<common-lig-values>",
@@ -328,6 +334,8 @@
     "<compositing-operator>",
     "<compound-selector-list>",
     "<compound-selector>",
+    "<container-name>",
+    "<container-query-list>",
     "<content-distribution>",
     "<content-position>",
     "<contextual-alt-values>",
@@ -338,6 +346,7 @@
     "<counter>",
     "<cubic-bezier-easing-function>",
     "<custom-arg>",
+    "<custom-highlight-name>",
     "<custom-ident>",
     "<custom-property-name>",
     "<custom-selector>",
@@ -422,13 +431,13 @@
     "<keyframe-selector>",
     "<keyframes-name>",
     "<lab-adjuster>",
+    "<layer-name>",
     "<layout-box>",
     "<lch-adjuster>",
     "<leader-type>",
     "<left>",
     "<length-percentage>",
     "<length>",
-    "<length>{1,4}",
     "<line-name-list>",
     "<line-names>",
     "<line-style>",
@@ -503,6 +512,7 @@
     "<relative-size>",
     "<repeat-style>",
     "<resolution>",
+    "<reversed-counter-name>",
     "<right>",
     "<rounding-strategy>",
     "<row-height>",
@@ -595,6 +605,7 @@
     "@bottom-right-corner",
     "@charset",
     "@color-profile",
+    "@container",
     "@counter-style",
     "@custom-media",
     "@custom-selector",
@@ -737,6 +748,7 @@
     "BluetoothDevice",
     "BluetoothDeviceEventHandlers",
     "BluetoothLEScanFilterInit",
+    "BluetoothManufacturerDataFilterInit",
     "BluetoothManufacturerDataMap",
     "BluetoothPermissionDescriptor",
     "BluetoothPermissionResult",
@@ -745,6 +757,7 @@
     "BluetoothRemoteGATTDescriptor",
     "BluetoothRemoteGATTServer",
     "BluetoothRemoteGATTService",
+    "BluetoothServiceDataFilterInit",
     "BluetoothServiceDataMap",
     "BluetoothServiceUUID",
     "BluetoothUUID",
@@ -769,13 +782,13 @@
     "CSSColorValue",
     "CSSConditionRule",
     "CSSCounterStyleRule",
+    "CSSDeviceCMYK",
     "CSSFontFaceLoadEvent",
     "CSSFontFaceLoadEventInit",
     "CSSFontFaceRule",
     "CSSFontFeatureValuesMap",
     "CSSFontFeatureValuesRule",
     "CSSFontPaletteValuesRule",
-    "CSSGray",
     "CSSGroupingRule",
     "CSSHSL",
     "CSSHWB",
@@ -825,6 +838,7 @@
     "CSSStyleDeclaration",
     "CSSStyleRule",
     "CSSStyleSheet",
+    "CSSStyleSheetInit",
     "CSSStyleValue",
     "CSSSupportsRule",
     "CSSTransformComponent",
@@ -841,6 +855,7 @@
     "CacheStorage",
     "CameraDevicePermissionDescriptor",
     "CanPlayTypeResult",
+    "CanTransferArrayBuffer",
     "CanvasCompositing",
     "CanvasDirection",
     "CanvasDrawImage",
@@ -848,6 +863,9 @@
     "CanvasFillRule",
     "CanvasFillStrokeStyles",
     "CanvasFilters",
+    "CanvasFontKerning",
+    "CanvasFontStretch",
+    "CanvasFontVariantCaps",
     "CanvasGradient",
     "CanvasImageData",
     "CanvasImageSmoothing",
@@ -866,6 +884,7 @@
     "CanvasTextAlign",
     "CanvasTextBaseline",
     "CanvasTextDrawingStyles",
+    "CanvasTextRendering",
     "CanvasTransform",
     "CanvasUserInterface",
     "Capabilities",
@@ -891,6 +910,7 @@
     "CollectedClientData",
     "ColorSpaceConversion",
     "Comment",
+    "CompileError",
     "CompositeOperation",
     "CompositeOperationOrAuto",
     "CompositionEvent",
@@ -1060,7 +1080,6 @@
     "FillMode",
     "Float32Array",
     "Float64Array",
-    "FlowControlType",
     "FocusEvent",
     "FocusEventInit",
     "FocusOptions",
@@ -1103,6 +1122,7 @@
     "GetRootNodeOptions",
     "GetSVGDocument",
     "Global",
+    "GlobalDescriptor",
     "GlobalEventHandlers",
     "HTMLAllCollection",
     "HTMLAnchorElement",
@@ -1225,10 +1245,12 @@
     "ImageBitmapRenderingContextSettings",
     "ImageBitmapSource",
     "ImageData",
+    "ImageDataSettings",
     "ImageEncodeOptions",
     "ImageOrientation",
     "ImageResource",
     "ImageSmoothingQuality",
+    "ImportExportKind",
     "InUseAttributeError",
     "IndexSizeError",
     "InitializeReadableStream",
@@ -1237,6 +1259,7 @@
     "InputDeviceInfo",
     "InputEvent",
     "InputEventInit",
+    "Instance",
     "Int16Array",
     "Int32Array",
     "Int8Array",
@@ -1258,7 +1281,6 @@
     "IsNonNegativeNumber",
     "IsReadableStreamLocked",
     "IsWritableStreamLocked",
-    "IterationCompositeOperation",
     "JsonLdContext",
     "JsonLdError",
     "JsonLdErrorCode",
@@ -1300,6 +1322,7 @@
     "LegacyUnenumerableNamedProperties",
     "LegacyUnforgeable",
     "LegacyWindowAlias",
+    "LinkError",
     "LinkStyle",
     "LoadDocumentCallback",
     "LoadDocumentOptions",
@@ -1331,6 +1354,8 @@
     "MediaTrackConstraints",
     "MediaTrackSettings",
     "MediaTrackSupportedConstraints",
+    "Memory",
+    "MemoryDescriptor",
     "MessageChannel",
     "MessageEvent",
     "MessageEventInit",
@@ -1343,6 +1368,9 @@
     "MockSensorConfiguration",
     "MockSensorReadingValues",
     "MockSensorType",
+    "Module",
+    "ModuleExportDescriptor",
+    "ModuleImportDescriptor",
     "MouseEvent",
     "MouseEventInit",
     "MultiCacheQueryOptions",
@@ -1405,7 +1433,6 @@
     "OfflineAudioContext",
     "OfflineAudioContextOptions",
     "OffscreenCanvas",
-    "OffscreenCanvas(width, height)",
     "OffscreenCanvasRenderingContext2D",
     "OffscreenRenderingContext",
     "OffscreenRenderingContextId",
@@ -1435,7 +1462,6 @@
     "PannerOptions",
     "PanningModelType",
     "ParentNode",
-    "ParityType",
     "PasswordCredential",
     "PasswordCredentialData",
     "PasswordCredentialInit",
@@ -1465,6 +1491,7 @@
     "Performance",
     "PerformanceNavigation",
     "PerformanceNavigationTiming",
+    "PerformanceResourceTiming",
     "PerformanceTiming",
     "PeriodicWave",
     "PeriodicWaveConstraints",
@@ -1485,6 +1512,7 @@
     "PopStateEvent",
     "PopStateEventInit",
     "PostMessageOptions",
+    "PredefinedColorSpace",
     "PremultiplyAlpha",
     "Prevent Silent Access",
     "Printer",
@@ -1746,6 +1774,7 @@
     "RsaOaepParams",
     "RsaOtherPrimesInfo",
     "RsaPssParams",
+    "RuntimeError",
     "SVGAElement",
     "SVGAltGlyphDefElement",
     "SVGAltGlyphElement",
@@ -1932,13 +1961,6 @@
     "SensorErrorEvent",
     "SensorErrorEventInit",
     "SensorOptions",
-    "SerialInputSignals",
-    "SerialOptions",
-    "SerialOutputSignals",
-    "SerialPort",
-    "SerialPortFilter",
-    "SerialPortInfo",
-    "SerialPortRequestOptions",
     "Serializable",
     "ServiceEventHandlers",
     "ServiceWorker",
@@ -1968,6 +1990,8 @@
     "ShareData",
     "SharedWorker",
     "SharedWorkerGlobalScope",
+    "Show what links to this definition",
+    "SlotAssignmentMode",
     "Slottable",
     "SpatialNavigationDirection",
     "SpatialNavigationSearchOptions",
@@ -2001,6 +2025,9 @@
     "SyncEventInit",
     "SyncManager",
     "SyntaxError",
+    "Table",
+    "TableDescriptor",
+    "TableKind",
     "Text",
     "TextDecodeOptions",
     "TextDecoder",
@@ -2111,6 +2138,7 @@
     "ValidityStateFlags",
     "ValueEvent",
     "ValueEventInit",
+    "ValueType",
     "VersionError",
     "VideoFacingModeEnum",
     "VideoResizeModeEnum",
@@ -2120,6 +2148,8 @@
     "WatchAdvertisementsOptions",
     "WaveShaperNode",
     "WaveShaperOptions",
+    "WebAssembly",
+    "WebAssemblyInstantiatedSource",
     "WebKitCSSMatrix",
     "WebSocket",
     "WheelEvent",
@@ -2274,7 +2304,7 @@
     "XRWebGLLayerInit",
     "XRWebGLRenderingContext",
     "XRWebGLSubImage",
-    "[ <length> | <percentage> ]{1,4}",
+    "XSLTProcessor",
     "[[algorithm]]",
     "[[associatedmediastreamids]]",
     "[[associatedremotemediastreams]]",
@@ -2390,6 +2420,7 @@
     "a language",
     "a list of zero or more cues",
     "a mode",
+    "a new exported function",
     "a new promise",
     "a pause-on-exit flag",
     "a plausible language",
@@ -2549,19 +2580,13 @@
     "additional-name",
     "additionaldata",
     "additive",
+    "additive color space",
     "additive environment blending",
     "additive light",
     "additive tuple",
     "address",
     "address line",
     "address type strings",
-    "address-level1",
-    "address-level2",
-    "address-level3",
-    "address-level4",
-    "address-line1",
-    "address-line2",
-    "address-line3",
     "addressable character",
     "addtrack",
     "adjoining",
@@ -2638,20 +2663,8 @@
     "allocate depth textures for projection layers",
     "allocate the color textures for the secondary views",
     "allocate the depth textures for the secondary views",
-    "allow-downloads",
-    "allow-forms",
     "allow-list",
     "allow-list-value",
-    "allow-modals",
-    "allow-orientation-lock",
-    "allow-pointer-lock",
-    "allow-popups",
-    "allow-popups-to-escape-sandbox",
-    "allow-presentation",
-    "allow-same-origin",
-    "allow-scripts",
-    "allow-top-navigation",
-    "allow-top-navigation-by-user-activation",
     "allowed in non-secure contexts",
     "allowed in the body",
     "allowed required constraints for device selection",
@@ -2675,7 +2688,6 @@
     "alternative",
     "altglyph",
     "altglyphdef",
-    "always",
     "ambiguous ampersand",
     "ambiguous ampersand state",
     "an end time",
@@ -2686,6 +2698,8 @@
     "an in-band metadata track dispatch type",
     "an unstyled document view",
     "an+b",
+    "analysernode",
+    "analyseroptions",
     "ancestor",
     "ancestor browsing context",
     "ancestor origins list",
@@ -2778,7 +2792,6 @@
     "application manifest",
     "application manifest mime type",
     "application's name",
-    "application-name",
     "application/atom+xml",
     "application/ecmascript",
     "application/javascript",
@@ -2896,6 +2909,7 @@
     "associated option object",
     "associated realm",
     "associated sensors",
+    "associated store",
     "associated with a timeline",
     "associated with an animation",
     "async",
@@ -2903,7 +2917,9 @@
     "asynchronous iterator prototype object",
     "asynchronous iterator return",
     "asynchronous read method",
+    "asynchronously compile a webassembly module",
     "asynchronously execute a request",
+    "asynchronously instantiate a webassembly module",
     "asynchronously iterable declaration",
     "at-keyword",
     "at-risk",
@@ -2968,6 +2984,27 @@
     "audio or video mime type",
     "audio or video type pattern matching algorithm",
     "audio sample",
+    "audiobuffer",
+    "audiobufferoptions",
+    "audiobuffersourcenode",
+    "audiobuffersourceoptions",
+    "audiocontext",
+    "audiocontextoptions",
+    "audiodestinationnode",
+    "audiolistener",
+    "audionode",
+    "audionodeoptions",
+    "audioparam",
+    "audioparamdescriptor",
+    "audioprocessingevent",
+    "audioprocessingeventinit",
+    "audioscheduledsourcenode",
+    "audiotimestamp",
+    "audioworklet",
+    "audioworkletglobalscope",
+    "audioworkletnode",
+    "audioworkletnodeoptions",
+    "audioworkletprocessor",
     "augmented grid",
     "aural \"box\" model",
     "aural box model",
@@ -3059,8 +3096,6 @@
     "await a stable state",
     "axis value",
     "axis-lock",
-    "axis-snap",
-    "axis-snapping",
     "azimuth",
     "azure",
     "b",
@@ -3106,6 +3141,7 @@
     "base64 encoding",
     "base64-value",
     "base64url encoding",
+    "baseaudiocontext",
     "basefont",
     "baseline",
     "baseline alignment",
@@ -3133,9 +3169,6 @@
     "batch cache operations",
     "bd_addr",
     "bday",
-    "bday-day",
-    "bday-month",
-    "bday-year",
     "bdi",
     "bdo",
     "be directionally scrolled",
@@ -3188,13 +3221,14 @@
     "big5 lead",
     "bigint",
     "biginteger",
-    "billing",
     "billing address",
     "binary data byte",
     "binary object store",
     "binding edge",
     "biometric authenticator",
     "biometric recognition",
+    "biquadfilternode",
+    "biquadfilteroptions",
     "bisque",
     "bitmap",
     "bitmap data",
@@ -3206,7 +3240,6 @@
     "blank node",
     "blank node identifier",
     "blank!!pseudo-element",
-    "bleed",
     "bleed area",
     "blend technique",
     "blink",
@@ -3229,6 +3262,7 @@
     "block flow direction",
     "block formatting context",
     "block formatting context root",
+    "block layout",
     "block overflow ellipsis",
     "block scripts",
     "block size",
@@ -3244,6 +3278,7 @@
     "block-level content",
     "block-level elements",
     "block-size",
+    "block-size containment",
     "block-start",
     "block-step",
     "block-step-align",
@@ -3279,7 +3314,6 @@
     "bookmark-label",
     "bookmark-level",
     "bookmark-state",
-    "bookmark-target",
     "bookmarks",
     "boolean",
     "boolean attributes",
@@ -3349,11 +3383,6 @@
     "border-left-style",
     "border-left-width",
     "border-limit",
-    "border-parts",
-    "border-parts-bottom",
-    "border-parts-left",
-    "border-parts-right",
-    "border-parts-top",
     "border-radius",
     "border-right",
     "border-right-color",
@@ -3370,7 +3399,6 @@
     "border-top-style",
     "border-top-width",
     "border-width",
-    "both",
     "bottle map",
     "bottom",
     "bound credential",
@@ -3467,6 +3495,7 @@
     "calibration",
     "call",
     "call a user object's operation",
+    "call an exported function",
     "callback",
     "callback context",
     "callback function",
@@ -3548,16 +3577,6 @@
     "case-sensitive",
     "categories",
     "cbor",
-    "cc-additional-name",
-    "cc-csc",
-    "cc-exp",
-    "cc-exp-month",
-    "cc-exp-year",
-    "cc-family-name",
-    "cc-given-name",
-    "cc-name",
-    "cc-number",
-    "cc-type",
     "ccdtostring",
     "cdata section bracket state",
     "cdata section end state",
@@ -3584,7 +3603,10 @@
     "channel messaging",
     "channel name",
     "channelcount",
-    "chapters",
+    "channelmergernode",
+    "channelmergeroptions",
+    "channelsplitternode",
+    "channelsplitteroptions",
     "character",
     "character encoding",
     "character encoding declaration",
@@ -3643,6 +3665,7 @@
     "chocolate",
     "chorded button interactions",
     "chromatic adaptation transform",
+    "chromaticity",
     "chunk",
     "circ",
     "circle",
@@ -3682,6 +3705,7 @@
     "click",
     "click focusable",
     "click in progress flag",
+    "click, auxclick, and contextmenu events",
     "client",
     "client characteristic configuration",
     "client data",
@@ -3704,6 +3728,7 @@
     "clipping region",
     "clone",
     "clone a node",
+    "clone a policy container",
     "clone a track",
     "cloneNode()",
     "cloning steps",
@@ -3725,7 +3750,9 @@
     "closing",
     "closing procedure",
     "clustered scripts",
+    "coalesced and predicted events",
     "coalesced event list",
+    "coalesced events",
     "coalesced events targets dirty",
     "coarsen time",
     "coarsened shared current time",
@@ -3761,7 +3788,8 @@
     "collection",
     "color",
     "color interpolation hint",
-    "color schemes",
+    "color scheme",
+    "color space",
     "color state (type=color)",
     "color stop",
     "color stop list",
@@ -3778,7 +3806,7 @@
     "color-rendering",
     "color-scheme",
     "color:<color>",
-    "colorspace",
+    "colorspace-params",
     "colortextures",
     "column",
     "column box",
@@ -3837,6 +3865,7 @@
     "compatible baseline alignment preferences",
     "compatible graphics adapter",
     "compatible units",
+    "compile a webassembly module",
     "compiled pattern regular expression",
     "completed transition",
     "completely available",
@@ -3912,6 +3941,7 @@
     "conforming user agent",
     "conforming-touch-behavior",
     "conforms to an element's touch-action",
+    "conic-gradient",
     "conic-gradient()",
     "connect",
     "connect to sensor",
@@ -3929,6 +3959,8 @@
     "considered text",
     "console",
     "constant",
+    "constantsourcenode",
+    "constantsourceoptions",
     "constrainable object",
     "constrainedness",
     "constraint",
@@ -3937,6 +3969,7 @@
     "constraints and constraintset",
     "construct",
     "construct a fragment result",
+    "construct a webassembly module object",
     "construct policy from dictionary and origin",
     "constructing",
     "constructing entry list",
@@ -3982,12 +4015,16 @@
     "contain-intrinsic-size",
     "contain-intrinsic-width",
     "container",
-    "container document",
     "container element",
+    "container feature",
     "container frame element",
+    "container length",
     "container mapping",
     "container policy",
+    "container query",
     "container-based offset",
+    "container-name",
+    "container-type",
     "containing block",
     "containing block chain",
     "containing block for all descendants",
@@ -4037,7 +4074,6 @@
     "context",
     "context element",
     "context mode",
-    "context object",
     "context-base-iri",
     "context-inverse",
     "context-specific sniffing algorithm",
@@ -4054,7 +4090,6 @@
     "control message",
     "control message queue",
     "control thread",
-    "control thread state",
     "control transfer",
     "control's data",
     "control-character-in-input-stream",
@@ -4078,9 +4113,11 @@
     "convert an infra value to a json-compatible javascript value",
     "convert code unit to scalar value",
     "convert data to a format suitable for ingestion into the target",
+    "convert fetch timestamp",
     "convert from native entity type",
     "convert header names to a sorted-lowercase set",
     "convert line endings to native",
+    "convert to a list of name-value pairs",
     "converted to a numeric type or bigint",
     "converted to an ecmascript value",
     "converted to an idl value",
@@ -4089,11 +4126,15 @@
     "converted to serialized values",
     "converting",
     "converting a character width to pixels",
+    "converting a color value from a non-premultiplied representation to a premultiplied one",
+    "converting a color value from a premultiplied representation to a non-premultiplied one",
     "converting a json-derived javascript value to an infra value",
     "converting an infra value to a json-compatible javascript value",
     "converting arguments for an asynchronous iterator method",
     "converting line endings to native",
     "converting nodes into a node",
+    "convolvernode",
+    "convolveroptions",
     "cookie",
     "cookie-averse document object",
     "cookie-string",
@@ -4160,6 +4201,7 @@
     "create a bluetoothremotegattdescriptor representing",
     "create a bluetoothremotegattservice representing",
     "create a classic script",
+    "create a connection",
     "create a css style sheet",
     "create a cssunitvalue from a pair",
     "create a cssunitvalue from a sum value item",
@@ -4177,10 +4219,12 @@
     "create a domrect from the dictionary",
     "create a domrectreadonly from the dictionary",
     "create a frozen array",
+    "create a global object",
     "create a hit test result",
     "create a hit test result for transient input",
     "create a hit test source",
     "create a hit test source for transient input",
+    "create a host function",
     "create a layout api context",
     "create a layout constraints object",
     "create a layout fragment",
@@ -4188,6 +4232,8 @@
     "create a legacy factory function",
     "create a mediaerror",
     "create a medialist object",
+    "create a memory buffer",
+    "create a memory object",
     "create a module script",
     "create a named properties object",
     "create a namespace object",
@@ -4199,7 +4245,6 @@
     "create a new javascript realm",
     "create a new nested browsing context",
     "create a new object implementing the interface",
-    "create a new resolved promise",
     "create a new top-level browsing context",
     "create a notification",
     "create a paintrenderingcontext2d object",
@@ -4209,20 +4254,21 @@
     "create a permissionstatus",
     "create a potential-cors request",
     "create a reference space",
+    "create a sorted name list",
     "create a storage bucket",
     "create a storage shelf",
     "create a sum value",
+    "create a table object",
     "create a type",
     "create a type from a unit map",
     "create a worklet global scope",
-    "create a workletglobalscope",
     "create an agent",
     "create an element",
     "create an element for a token",
     "create an entry",
     "create an event",
+    "create an exports object",
     "create an identity transformstream",
-    "create an imagedata object",
     "create an inheritance stack",
     "create an interface object",
     "create an interface prototype object",
@@ -4240,6 +4286,7 @@
     "create client",
     "create job",
     "create mock sensor",
+    "create the navigation timing entry",
     "create window client",
     "createDocument()",
     "createElement()",
@@ -4254,6 +4301,7 @@
     "creating a notification",
     "creating a permissions policy",
     "creating a permissions policy from a response",
+    "creating a policy container from a fetch response",
     "creating a sequence from an iterable",
     "creating a sum value",
     "creating a type",
@@ -4296,6 +4344,7 @@
     "cross-document messaging",
     "cross-end",
     "cross-fade()",
+    "cross-origin",
     "cross-origin accessible window property name",
     "cross-origin credentials",
     "cross-origin isolation mode",
@@ -4400,7 +4449,6 @@
     "current tuple",
     "current url",
     "current value",
-    "current-password",
     "currentcolor",
     "currently focused area of a top-level browsing context",
     "currently running task",
@@ -4417,6 +4465,7 @@
     "custom element reactions stack",
     "custom element state",
     "custom highlight",
+    "custom highlight name",
     "custom highlight pseudo-element",
     "custom media query",
     "custom property",
@@ -4424,6 +4473,7 @@
     "custom property registration",
     "custom selector",
     "custom validity error message",
+    "custom-params",
     "customized built-in element",
     "cx",
     "cy",
@@ -4433,6 +4483,7 @@
     "cyclic percentage size",
     "cylindrical polar color",
     "d",
+    "dark color scheme",
     "darkblue",
     "darkcyan",
     "darkgoldenrod",
@@ -4509,6 +4560,7 @@
     "decoding",
     "decorated bounding box",
     "decorating box",
+    "decreasing",
     "decrypt",
     "dedicated media source failure steps",
     "dedicated worker agent",
@@ -4561,9 +4613,9 @@
     "default value",
     "default value override",
     "default-src",
-    "default-style",
     "default/on",
-    "defaultview",
+    "defaultcolorspace",
+    "defaultvalue",
     "define an algorithm",
     "define an inherited policy for feature in browsing context",
     "define an inherited policy for feature in container at origin",
@@ -4600,6 +4652,8 @@
     "del",
     "delaying load events mode",
     "delaying-the-load-event flag",
+    "delaynode",
+    "delayoptions",
     "delayreader",
     "delays the load event",
     "delaywriter",
@@ -4655,6 +4709,7 @@
     "details notification task steps",
     "detector curve",
     "determine if dtmf can be sent",
+    "determine navigation params policy container",
     "determine nosniff",
     "determine request's referrer",
     "determine the creation sandboxing flags",
@@ -4669,6 +4724,7 @@
     "determine the purpose of an image",
     "determine the target of an event handler",
     "determine the type of a calculation",
+    "determine the used color scheme",
     "determine the value of a named property",
     "determine the value of an indexed property",
     "determines the set of origins on which the public key credential may be exercised",
@@ -4703,9 +4759,11 @@
     "dimension",
     "dimension attribute source",
     "dimension attributes",
+    "dimensional queries",
     "dimgray",
     "dimgrey",
     "dir",
+    "direct manipulation",
     "direct nesting",
     "directed progress",
     "direction",
@@ -4718,8 +4776,6 @@
     "directional embedding",
     "directional keyword",
     "directional override",
-    "directional scroll",
-    "directional scrolling",
     "directionality of an attribute",
     "directionality-capable attributes",
     "directionally scroll an element",
@@ -4767,6 +4823,7 @@
     "display state",
     "display technology",
     "display type",
+    "display-p3",
     "disposition",
     "distance along the ray",
     "distinguishable",
@@ -4800,6 +4857,7 @@
     "document language",
     "document layout definition",
     "document layout definitions",
+    "document load timing info",
     "document open steps",
     "document order",
     "document paint definition",
@@ -4807,6 +4865,7 @@
     "document timeline",
     "document tree",
     "document type",
+    "document unload timing info",
     "document white space",
     "document white space characters",
     "document write steps",
@@ -4818,6 +4877,7 @@
     "documents",
     "documenttype",
     "dodgerblue",
+    "dom",
     "dom application",
     "dom interface",
     "dom level 0",
@@ -4879,6 +4939,8 @@
     "duration time component",
     "duration time component scale",
     "dynamic markup insertion",
+    "dynamicscompressornode",
+    "dynamicscompressoroptions",
     "eager",
     "earliest possible position",
     "earliest possible position when the script started",
@@ -5156,13 +5218,13 @@
     "explicit grid row",
     "explicit grid track",
     "explicit intrinsic inner size",
-    "explicit scroll",
-    "explicit scrolling",
     "explicithistorynavigation",
     "explicitly enabled",
     "explicitly supported json mime type",
     "explicitly supported xml mime type",
     "explicitly-assigned line name",
+    "exported function",
+    "exported function cache",
     "exportkey",
     "expose a user interface to the user",
     "exposed",
@@ -5184,6 +5246,7 @@
     "extensions in use",
     "extensions to the predefined set of link types",
     "extensions to the predefined set of metadata names",
+    "extern value cache",
     "external application resource",
     "external application resource's",
     "external file reference",
@@ -5271,13 +5334,11 @@
     "fetch a module worker script graph",
     "fetch a modulepreload module script graph",
     "fetch a single module script",
-    "fetch a worklet script",
     "fetch a worklet script graph",
     "fetch a worklet/module worker script graph",
     "fetch an external module script graph",
     "fetch an import() module script graph",
     "fetch an inline module script graph",
-    "fetch and invoke a worklet script",
     "fetch and process the linked resource",
     "fetch directives",
     "fetch finale",
@@ -5311,6 +5372,7 @@
     "fill painting area",
     "fill positioning area",
     "fill rule",
+    "fill style",
     "fill-break",
     "fill-color",
     "fill-image",
@@ -5375,7 +5437,6 @@
     "fire a pointer event named e",
     "fire a progress event",
     "fire a service worker notification event",
-    "fire a simple event",
     "fire a success event",
     "fire a sync event",
     "fire a track event",
@@ -5560,8 +5621,6 @@
     "forgiving-base64 decode",
     "forgiving-base64 encode",
     "form",
-    "form control maxlength attribute",
-    "form control minlength attribute",
     "form element pointer",
     "form owner",
     "form submission",
@@ -5623,8 +5682,6 @@
     "fulfilled",
     "fulfillment",
     "full glyph cell",
-    "full justification",
-    "full text justification",
     "full-width",
     "fullscreen",
     "fullscreen an element",
@@ -5654,8 +5711,11 @@
     "fy",
     "g",
     "gain focus",
+    "gainnode",
+    "gainoptions",
     "gainsboro",
     "gamut",
+    "gamut-map",
     "gap",
     "gap interoperability requirements",
     "garbage-collect the connection",
@@ -5699,7 +5759,6 @@
     "generatekey",
     "generating a new blob url",
     "generation",
-    "generator",
     "generator-unable-to-provide-required-alt",
     "generic attribute profile",
     "generic javascript object formatting",
@@ -5734,6 +5793,7 @@
     "get an encoder",
     "get an encoding",
     "get an output encoding",
+    "get an xml encoding",
     "get credentials",
     "get frame type",
     "get mock sensor",
@@ -5760,12 +5820,14 @@
     "getactivescriptormodule",
     "getfunctionrealm",
     "getgattchildren",
+    "getglobalvalue",
     "getprioritizedhashfunction",
     "getprioritizedhashfunction(a, b)",
     "getrandomvalues",
     "getter",
     "getter steps",
     "getters",
+    "getting",
     "getting a promise to wait for all",
     "getting a structured field value",
     "getting a text response",
@@ -5784,6 +5846,7 @@
     "global monotonic clock",
     "global names",
     "global object",
+    "global object cache",
     "globalcompositeoperation",
     "globalcrypto",
     "glyph",
@@ -5873,6 +5936,7 @@
     "h5",
     "h6",
     "half-leading",
+    "half-width",
     "hand-off to external software",
     "handle",
     "handle attribute changes",
@@ -5898,6 +5962,7 @@
     "has active observations",
     "has an attribute",
     "has been shipped",
+    "has cross-origin redirects",
     "has default method steps",
     "has focus steps",
     "has no style sheet that is blocking scripts",
@@ -5960,6 +6025,7 @@
     "history traversal task source",
     "history-navigation flag",
     "historyhandling",
+    "historypolicycontainer",
     "hit test",
     "hit-test",
     "hit-testing",
@@ -5985,6 +6051,7 @@
     "horizontal element",
     "horizontal offset",
     "horizontal script",
+    "horizontal typographic mode",
     "horizontal writing mode",
     "horizontal-only",
     "host",
@@ -6065,15 +6132,11 @@
     "hyperlink auditing",
     "hyphen-separated matching",
     "hyphenate",
-    "hyphenate-after",
-    "hyphenate-before",
     "hyphenate-character",
     "hyphenate-limit-chars",
     "hyphenate-limit-last",
     "hyphenate-limit-lines",
     "hyphenate-limit-zone",
-    "hyphenate-lines",
-    "hyphenate-resource",
     "hyphenation",
     "hyphenation opportunity",
     "hyphens",
@@ -6101,6 +6164,7 @@
     "id selector",
     "ident",
     "identical to",
+    "identified with",
     "identifier",
     "identifier code point",
     "identifier-start code point",
@@ -6132,9 +6196,10 @@
     "ignore unknown",
     "ignore valid",
     "ignore-destructive-writes counter",
-    "ignore-opens-during-unload counter",
     "ignored",
     "iin",
+    "iirfilternode",
+    "iirfilteroptions",
     "illegal",
     "image",
     "image button state (type=image)",
@@ -6227,10 +6292,13 @@
     "includes a nullable type",
     "includes credentials",
     "includes statement",
+    "includes undefined",
     "inclusion criteria",
     "inclusive ancestor",
+    "inclusive descendants",
     "incorrectly-closed-comment",
     "incorrectly-opened-comment",
+    "increasing",
     "increment the marquee current loop index",
     "incrementally-read loop",
     "incumbent",
@@ -6259,6 +6327,7 @@
     "index jis0212",
     "index map",
     "index mapping",
+    "index of the host function",
     "index pointer",
     "index shift_jis pointer",
     "index single-byte",
@@ -6275,8 +6344,6 @@
     "indistinguishable by user-agent string",
     "individual",
     "inert",
-    "inertial scroll",
-    "inertial scrolling",
     "infinitely growable",
     "info",
     "infobackground",
@@ -6316,13 +6383,17 @@
     "initial-width",
     "initialinsertion",
     "initialize a cylinder layer",
-    "initialize a document's csp list",
     "initialize a equirect layer",
-    "initialize a global object's csp list",
+    "initialize a global object",
     "initialize a global's endpoint list",
+    "initialize a memory object",
     "initialize a new intersectionobserver",
     "initialize a quad layer",
     "initialize a sensor object",
+    "initialize a table object",
+    "initialize a worker global scope's policy container",
+    "initialize an imagedata object",
+    "initialize an instance object",
     "initialize the render state",
     "initialize the session",
     "initialize the viewport",
@@ -6364,6 +6435,7 @@
     "inline-level content",
     "inline-level elements",
     "inline-size",
+    "inline-size containment",
     "inline-sizing",
     "inline-start",
     "inline-table",
@@ -6378,7 +6450,6 @@
     "inner inline size",
     "inner invoke",
     "inner size",
-    "inner text collection steps",
     "inner type",
     "inner width",
     "innerHTML",
@@ -6390,6 +6461,7 @@
     "input method editor",
     "input progress value",
     "input stream",
+    "input-security",
     "inputs",
     "ins",
     "insecure requests policy",
@@ -6414,10 +6486,9 @@
     "inset-inline-end",
     "inset-inline-start",
     "inset-modified containing block",
-    "inset-rectangle",
+    "inside",
     "inside area",
     "install",
-    "installability signal",
     "installation",
     "installed",
     "installed font fallback",
@@ -6425,7 +6496,10 @@
     "installing",
     "instance root",
     "instant scroll",
+    "instantiate a promise of a module",
+    "instantiate a webassembly module",
     "instantiate counter",
+    "instantiate the core of a webassembly module",
     "integer",
     "integer types",
     "integrity metadata",
@@ -6532,12 +6606,14 @@
     "invoke a layout callback",
     "invoke a named property setter",
     "invoke a paint callback",
+    "invoke a protocol handler",
     "invoke an indexed property setter",
     "invoke an intrinsic sizes callback",
     "invoke custom element reactions",
     "invoke the indexed property setter",
     "invoke the named property setter",
     "invoking",
+    "ip address",
     "ipv4 address",
     "ipv4 number parser",
     "ipv4 parser",
@@ -6563,6 +6639,7 @@
     "is feature enabled by policy for origin",
     "is feature enabled in document for origin?",
     "is gbk",
+    "is initial about:blank",
     "is local",
     "is modal",
     "is not a registrable domain suffix of and is not equal to",
@@ -6630,15 +6707,11 @@
     "iterable declaration",
     "iterate",
     "iterate a cursor",
-    "iteration composite operation",
-    "iteration composite operation accumulate",
-    "iteration composite operation replace",
     "iteration count",
     "iteration duration",
     "iteration interval",
     "iteration progress",
     "iteration start",
-    "iterationcompositeoperation",
     "iterations",
     "iterator prototype object",
     "iterator result",
@@ -6721,7 +6794,6 @@
     "keyword",
     "keyword alias",
     "keyword-source",
-    "keywords",
     "khaki",
     "kin",
     "kind",
@@ -6739,7 +6811,6 @@
     "landscape-primary",
     "landscape-secondary",
     "lang",
-    "language",
     "language map",
     "language mapping",
     "language range",
@@ -6827,6 +6898,7 @@
     "li",
     "license",
     "lifecycle callbacks",
+    "light color scheme",
     "light source",
     "light tree",
     "lightblue",
@@ -7025,6 +7097,7 @@
     "long",
     "long attribute values",
     "long long",
+    "longer",
     "longhand",
     "longhand property",
     "look up a custom element definition",
@@ -7065,13 +7138,13 @@
     "main-start",
     "make disappear",
     "making a buffer available for reading",
-    "mandatory",
     "mandatory conditions",
     "manifest",
     "manifest image resource",
     "manifest url",
     "manifest's",
     "manifest-src",
+    "manual slot assignment",
     "manufacturer specific data",
     "map",
     "map document language elements to table elements",
@@ -7080,6 +7153,7 @@
     "map of animation frame callbacks",
     "map size getter",
     "map to the aspect-ratio property",
+    "map to the aspect-ratio property (using dimension rules)",
     "maplike",
     "maplike declaration",
     "mapping logic",
@@ -7109,6 +7183,7 @@
     "margin-trim",
     "mark",
     "mark paint timing",
+    "mark resource timing",
     "marker",
     "marker box",
     "marker image",
@@ -7119,7 +7194,6 @@
     "marker-side",
     "marker-start",
     "markers",
-    "marks",
     "markup declaration open state",
     "maroon",
     "marquee",
@@ -7261,9 +7335,16 @@
     "media-dependent import",
     "media-resource-specific text track",
     "media-src",
+    "mediaelementaudiosourcenode",
+    "mediaelementaudiosourceoptions",
     "mediasource",
     "mediastream",
+    "mediastreamaudiodestinationnode",
+    "mediastreamaudiosourcenode",
+    "mediastreamaudiosourceoptions",
     "mediastreamtrack",
+    "mediastreamtrackaudiosourcenode",
+    "mediastreamtrackaudiosourceoptions",
     "mediumaquamarine",
     "mediumblue",
     "mediumorchid",
@@ -7276,9 +7357,11 @@
     "member",
     "member types",
     "members",
+    "memory object cache",
     "menu",
     "menuitem",
     "menutext",
+    "merge with the next text node",
     "merged",
     "merged annotation",
     "message",
@@ -7377,7 +7460,6 @@
     "mixed content",
     "mixed download",
     "mixing rules",
-    "mobile",
     "moccasin",
     "mock sensor",
     "mock sensor already created",
@@ -7453,6 +7535,7 @@
     "name",
     "name code point",
     "name discovery procedure",
+    "name of the webassembly function",
     "name to cache map",
     "name-start code point",
     "named attribute",
@@ -7476,7 +7559,6 @@
     "named property setters",
     "named property visibility algorithm",
     "named string",
-    "named strings",
     "namedItem()",
     "namedcurve",
     "namedflows",
@@ -7523,7 +7605,6 @@
     "navigation-override",
     "navigationtype",
     "navigator compatibility mode",
-    "navigator.hardwareconcurrency",
     "navigator.online",
     "navy",
     "nearest ancestor autofocus scoping root element",
@@ -7566,7 +7647,6 @@
     "new domparser()",
     "new information about the user's intent",
     "new messagechannel()",
-    "new-password",
     "newline",
     "newlines",
     "newobjectenvironment",
@@ -7697,7 +7777,6 @@
     "notify new reading",
     "notreadableerror",
     "notsupportederror",
-    "now hidden algorithm",
     "now visible algorithm",
     "nth()",
     "null",
@@ -7767,6 +7846,10 @@
     "off",
     "official moment of creation",
     "official playback position",
+    "offlineaudiocompletionevent",
+    "offlineaudiocompletioneventinit",
+    "offlineaudiocontext",
+    "offlineaudiocontextoptions",
     "offscreen 2d context creation algorithm",
     "offset",
     "offset distance",
@@ -7788,7 +7871,6 @@
     "omitted",
     "on",
     "one permitted sandboxed navigator",
-    "one-time-code",
     "online",
     "only if border is not equivalent to zero",
     "onshow",
@@ -7857,7 +7939,6 @@
     "org",
     "organization",
     "organization-name",
-    "organization-title",
     "organization-unit",
     "orientation values",
     "orientationchange",
@@ -7881,6 +7962,8 @@
     "orphans",
     "orthogonal",
     "orthogonal flow",
+    "oscillatornode",
+    "oscillatoroptions",
     "other applicable specifications",
     "other space separators",
     "out of flow",
@@ -7913,6 +7996,7 @@
     "output progress value",
     "outputs",
     "outset",
+    "outside",
     "outside-inside",
     "outstanding rejected promises weak set",
     "over",
@@ -7935,6 +8019,7 @@
     "overloaded",
     "overridden constructor steps",
     "override mime type",
+    "override the color scheme",
     "overscroll behavior",
     "overscroll-behavior",
     "overscroll-behavior-block",
@@ -8001,7 +8086,6 @@
     "page-margin property",
     "paged media",
     "pager",
-    "pageshow",
     "pagination",
     "paint",
     "paint class instances",
@@ -8023,6 +8107,8 @@
     "palevioletred",
     "palpable content",
     "pan",
+    "pannernode",
+    "panneroptions",
     "papayawhip",
     "paragraph",
     "parallel queue",
@@ -8070,6 +8156,8 @@
     "parse a privatekeyinfo",
     "parse a referrer policy from a `referrer-policy` header",
     "parse a relative selector",
+    "parse a response's Content Security Policies",
+    "parse a response's content security policies",
     "parse a root margin",
     "parse a rule",
     "parse a sandboxing directive",
@@ -8102,6 +8190,7 @@
     "parse json from bytes",
     "parse json into infra values",
     "parse policy directive",
+    "parse response's content security policies",
     "parsed according to a particular css grammar",
     "parsed as a forgiving selector list",
     "parsemodule",
@@ -8190,7 +8279,6 @@
     "pending request",
     "pending scroll event targets",
     "pending table character tokens",
-    "pending tasks struct",
     "pending text track change notification flag",
     "pending-substitution value",
     "percent-column",
@@ -8206,6 +8294,9 @@
     "performanceentry",
     "performanceresourcetiming",
     "performing a microtask checkpoint",
+    "periodicwave",
+    "periodicwaveconstraints",
+    "periodicwaveoptions",
     "peripheral",
     "permissible worker",
     "permission",
@@ -8251,7 +8342,6 @@
     "picked",
     "picture",
     "pinch zoom",
-    "ping",
     "pink",
     "pipe chain",
     "piping",
@@ -8297,8 +8387,6 @@
     "plum",
     "pmi",
     "point",
-    "point-snap",
-    "point-snapping",
     "pointer",
     "pointer capture",
     "pointer capture target override",
@@ -8315,6 +8403,7 @@
     "pointerup",
     "pointerup event",
     "policy cache",
+    "policy container",
     "policy directive",
     "policy directives",
     "policy origin",
@@ -8330,6 +8419,7 @@
     "populate the bluetooth cache",
     "populate the list of pending text tracks",
     "populate the pose",
+    "populating and maintaining the coalesced and predicted event lists",
     "popup sandboxing flag set",
     "port",
     "port 1",
@@ -8387,10 +8477,14 @@
     "pre-multiply",
     "pre-remove",
     "preceding element",
+    "predefined-rgb",
+    "predefined-rgb-params",
     "predicate",
     "predicted event list",
+    "predicted events",
     "predicted events targets dirty",
     "preferred aspect ratio",
+    "preferred color scheme",
     "preferred css style sheet set name",
     "preferred height",
     "preferred line height",
@@ -8406,6 +8500,8 @@
     "prefixed",
     "prefw",
     "preloadable hsts host",
+    "premultiplied alpha",
+    "premultiplied color values",
     "preparation-time document",
     "prepare a script",
     "prepare an event",
@@ -8423,6 +8519,8 @@
     "previous block",
     "previous context",
     "previous current time",
+    "previous sibling",
+    "previously focused element",
     "primary account number",
     "primary action",
     "primary filter primitive tree",
@@ -8441,6 +8539,7 @@
     "principal box",
     "principal writing mode",
     "print when loaded",
+    "print-color-adjust",
     "printable area",
     "printing steps",
     "priority",
@@ -8491,6 +8590,7 @@
     "processing an item",
     "processing blob parts",
     "processing equivalence",
+    "processing extension-point of web manifest",
     "processing mode",
     "processing model",
     "processing modes",
@@ -8531,11 +8631,6 @@
     "protected",
     "protected mode",
     "protected worker",
-    "prototype",
-    "prototype-insert",
-    "prototype-insert-policy",
-    "prototype-insert-position",
-    "proximity",
     "proxy-authentication entry",
     "pseudo-class",
     "pseudo-classes",
@@ -8567,6 +8662,8 @@
     "query",
     "query a permission",
     "query cache",
+    "query container",
+    "query container name",
     "query percent-encode set",
     "query state",
     "query the \"bluetooth\" permission",
@@ -8595,6 +8692,8 @@
     "queue an element task",
     "queue an intersection observer task",
     "queue an intersectionobserverentry",
+    "queue entry.",
+    "queue the navigation timing entry",
     "queue violation reports for accesses",
     "queuing strategy",
     "quirks mode",
@@ -8652,6 +8751,7 @@
     "read only arraybuffer",
     "read operation",
     "read request",
+    "read the imports",
     "read the resource header",
     "read-into request",
     "read-loop",
@@ -8664,10 +8764,8 @@
     "readable stream reader",
     "reader",
     "reading change threshold",
-    "reading current permission state",
     "reading timestamp",
     "reading value",
-    "readonly",
     "readonlyerror",
     "ready",
     "ready for post-load tasks",
@@ -8704,6 +8802,7 @@
     "rectify a percentish value",
     "rectifying a numberish value",
     "red",
+    "redirect count",
     "redirect mode",
     "redirect status",
     "redirects",
@@ -8722,7 +8821,6 @@
     "referrer-policy",
     "referrerurl",
     "reflect",
-    "refresh",
     "refused to allow the document to be unloaded",
     "regexp",
     "regexpbuiltinexec",
@@ -8736,6 +8834,7 @@
     "region.",
     "register",
     "register a custom property",
+    "register a protocol handler",
     "registered",
     "registered class constructors map",
     "registered custom property",
@@ -8761,7 +8860,6 @@
     "reify as a cssstylevalue",
     "reinitialize url",
     "reject",
-    "reject a promise",
     "reject job promise",
     "reject pending play promises",
     "rejected",
@@ -8774,6 +8872,7 @@
     "relationship strings",
     "relative",
     "relative color",
+    "relative high resolution coarse time",
     "relative high resolution time",
     "relative iri reference",
     "relative length",
@@ -8784,6 +8883,7 @@
     "relative state",
     "relative units",
     "relative url",
+    "relative-colorimetric",
     "relative-url string",
     "relative-url-with-fragment string",
     "relatively position",
@@ -8848,10 +8948,11 @@
     "rendered content",
     "rendered element",
     "rendered legend",
+    "rendered text collection steps",
+    "rendered text fragment",
     "renderer",
     "rendering opportunity",
     "rendering thread",
-    "rendering thread state",
     "rendering tree",
     "reorder",
     "repeat()",
@@ -8929,6 +9030,7 @@
     "required features",
     "required-ascii-whitespace",
     "requiredExtensions",
+    "requires storing the policy container in history",
     "reregisteredwhilefiring",
     "reserialized",
     "reserved client",
@@ -8941,6 +9043,7 @@
     "reset button state (type=reset)",
     "reset the form owner",
     "reset the insertion mode appropriately",
+    "reset the memory buffer",
     "reset the rendering context to its default state",
     "reset-only sub-property",
     "resettable elements",
@@ -8952,10 +9055,11 @@
     "resolvable private address resolution procedure",
     "resolve",
     "resolve a container-based offset",
+    "resolve a domain",
     "resolve a module specifier",
-    "resolve a promise",
     "resolve a scroll timeline offset",
     "resolve an element-based offset",
+    "resolve an origin",
     "resolve get client promise",
     "resolve job promise",
     "resolve pending play promises",
@@ -9009,6 +9113,7 @@
     "retrieve multiple referenced values from an index",
     "retrieve multiple values from an index",
     "retrieve multiple values from an object store",
+    "retrieving an extern value",
     "return state",
     "return type",
     "rev",
@@ -9134,11 +9239,15 @@
     "rules on anonymous table objects",
     "run a classic script",
     "run a generator",
+    "run a host function",
     "run a module script",
     "run a work queue",
     "run a worker",
     "run an upgrade transaction",
     "run animators",
+    "run csp initialization for a document",
+    "run csp initialization for a global object",
+    "run csp initialization for a global object.",
     "run job",
     "run service worker",
     "run the animation frame callbacks",
@@ -9290,6 +9399,7 @@
     "scripting flag",
     "scripting is disabled",
     "scripting is enabled",
+    "scriptprocessornode",
     "scroll",
     "scroll an element",
     "scroll an element into view",
@@ -9303,9 +9413,7 @@
     "scroll snap",
     "scroll snap area",
     "scroll snap container",
-    "scroll snap margin area 2",
     "scroll snap position",
-    "scroll snap positions",
     "scroll snapport",
     "scroll timeline",
     "scroll timeline offset",
@@ -9336,27 +9444,6 @@
     "scroll-padding-right",
     "scroll-padding-top",
     "scroll-snap-align",
-    "scroll-snap-margin",
-    "scroll-snap-margin-block",
-    "scroll-snap-margin-block-end",
-    "scroll-snap-margin-block-start",
-    "scroll-snap-margin-bottom",
-    "scroll-snap-margin-inline",
-    "scroll-snap-margin-inline-end",
-    "scroll-snap-margin-inline-start",
-    "scroll-snap-margin-left",
-    "scroll-snap-margin-right",
-    "scroll-snap-margin-top",
-    "scroll-snap-padding",
-    "scroll-snap-padding-block",
-    "scroll-snap-padding-block-start",
-    "scroll-snap-padding-bottom",
-    "scroll-snap-padding-inline",
-    "scroll-snap-padding-inline-end",
-    "scroll-snap-padding-inline-start",
-    "scroll-snap-padding-left",
-    "scroll-snap-padding-right",
-    "scroll-snap-padding-top",
     "scroll-snap-stop",
     "scroll-snap-type",
     "scrollable overflow",
@@ -9388,7 +9475,6 @@
     "second-factor roaming authenticator",
     "secondary view",
     "section",
-    "section-",
     "sectioning content",
     "sectioning roots",
     "secure connection establishment",
@@ -9428,6 +9514,7 @@
     "send() flag",
     "sender report",
     "sensitive information",
+    "sensitive text input",
     "sensor feature names",
     "sensor fusion",
     "sensor hubs",
@@ -9549,6 +9636,7 @@
     "service worker client",
     "service worker has no pending events",
     "service worker registration",
+    "service worker timing info",
     "service-worker",
     "service-worker-allowed",
     "serviceworker",
@@ -9590,7 +9678,6 @@
     "set registration",
     "set remote session description",
     "set request's referrer policy on redirect",
-    "set response's csp list",
     "set sensor settings",
     "set size getter",
     "set the active document",
@@ -9611,7 +9698,6 @@
     "set the selection range",
     "set the session description",
     "set the start time",
-    "set the target effect of an animation",
     "set the timeline of an animation",
     "set the url",
     "set the username",
@@ -9627,7 +9713,6 @@
     "set up the module script request",
     "set user verified",
     "set value",
-    "set-cookie",
     "set-dest",
     "set-device-information-exposure",
     "set-mode",
@@ -9651,6 +9736,7 @@
     "settled",
     "setup packet",
     "setup stage",
+    "setup the resource timing entry",
     "sex",
     "sha-2",
     "sha-256",
@@ -9696,7 +9782,6 @@
     "shift_jis decoder",
     "shift_jis encoder",
     "shift_jis lead",
-    "shipping",
     "shipping address changed algorithm",
     "shipping option changed algorithm",
     "shippingaddresschange",
@@ -9705,6 +9790,7 @@
     "shortcut item",
     "shortcut item's",
     "shorten a url's path",
+    "shorter",
     "shorthand",
     "shorthand properties",
     "shorthand property",
@@ -9726,6 +9812,7 @@
     "should skip event",
     "show poster flag",
     "show steps",
+    "show what links to this definition",
     "showing",
     "shut down the session",
     "shutdown",
@@ -9792,6 +9879,7 @@
     "slategray",
     "slategrey",
     "slot",
+    "slot assignment",
     "slot!!pseudo-element",
     "slots",
     "slottable",
@@ -9803,14 +9891,6 @@
     "smooth scroll completed",
     "smoothing over time",
     "sms:",
-    "snap",
-    "snap alignment container",
-    "snap behavior",
-    "snap margin",
-    "snapped",
-    "snapping",
-    "snapping behavior",
-    "snapping behaviors",
     "snapshot profile",
     "snapshot state",
     "snapshotstate",
@@ -9823,7 +9903,6 @@
     "solid",
     "solid fill",
     "sort a calculation's children",
-    "sorted name list",
     "sorting code",
     "sound",
     "source",
@@ -9875,6 +9954,7 @@
     "specific type",
     "specifications whose evaluations are both affected by the same changes to the user environment, and so always must be evaluated together in order to ensure proper rendering.",
     "specificity",
+    "specified",
     "specified flow",
     "specified order",
     "specified size",
@@ -9945,6 +10025,7 @@
     "state",
     "state function",
     "state override",
+    "state queries",
     "statechange",
     "stateful animator",
     "stateful animator definition",
@@ -9974,22 +10055,24 @@
     "step position",
     "step scale factor",
     "step unit",
+    "step-final-queue",
     "steps",
     "steps for determining the web app's chosen display mode",
     "steps for selecting the payment handler",
     "steps for when a user changes payment method",
     "steps to check if a payment can be made",
     "steps to check if an instrument is supported",
-    "steps to determine if the document is hidden",
-    "steps to determine the visibility state",
     "steps to expose a media-resource-specific text track",
     "steps to respond to a payment request",
+    "stereopannernode",
+    "stereopanneroptions",
     "sticky activation",
     "sticky activation-gated apis",
     "sticky position",
     "sticky view rectangle",
     "sticky-positioned",
     "sticky-positioned box",
+    "still on its initial about:blank document",
     "stop",
     "stop document loading",
     "stop intersection-observing a lazy loading element",
@@ -10032,6 +10115,7 @@
     "string descriptor",
     "string replace all",
     "string types",
+    "string value of the extern type",
     "string()",
     "string-set",
     "stringification behavior",
@@ -10046,6 +10130,7 @@
     "stroke painting area",
     "stroke positioning area",
     "stroke shape",
+    "stroke style",
     "stroke-align",
     "stroke-break",
     "stroke-color",
@@ -10076,6 +10161,7 @@
     "style attribute",
     "style change event",
     "style containment",
+    "style queries",
     "style rule",
     "style sheet",
     "style sheet!!as conformance class",
@@ -10189,6 +10275,7 @@
     "svg script",
     "svg servers",
     "svg svg",
+    "svg text-rendering",
     "svg title",
     "svg use",
     "svg user agent",
@@ -10228,7 +10315,6 @@
     "synthesized baseline",
     "system color pairings",
     "system colors",
-    "system focus",
     "system font fallback",
     "system fonts",
     "systemLanguage",
@@ -10248,6 +10334,7 @@
     "table intrinsic offsets",
     "table model",
     "table model error",
+    "table object cache",
     "table wrapper box",
     "table-caption",
     "table-cell",
@@ -10289,8 +10376,6 @@
     "tan()",
     "tao check",
     "target",
-    "target effect",
-    "target effect end",
     "target element",
     "target main size",
     "target object",
@@ -10308,13 +10393,6 @@
     "teal",
     "tee a readable stream",
     "tel",
-    "tel-area-code",
-    "tel-country-code",
-    "tel-extension",
-    "tel-local",
-    "tel-local-prefix",
-    "tel-local-suffix",
-    "tel-national",
     "telephone state (type=tel)",
     "telephone type strings",
     "template",
@@ -10378,7 +10456,6 @@
     "text-over baseline",
     "text-overflow",
     "text-rendering",
-    "text-replace",
     "text-shadow",
     "text-size-adjust",
     "text-space-collapse",
@@ -10393,7 +10470,6 @@
     "text/ecmascript",
     "text/event-stream",
     "text/html",
-    "text/html\"",
     "text/javascript",
     "text/javascript1.0",
     "text/javascript1.1",
@@ -10496,7 +10572,6 @@
     "the xml syntax",
     "thead",
     "theme color",
-    "theme-color",
     "this",
     "thistle",
     "threeddarkshadow",
@@ -10534,6 +10609,8 @@
     "timer table",
     "timer task source",
     "timing function",
+    "timing info",
+    "timing-allow-origin",
     "title",
     "titling-caps",
     "tmbl",
@@ -10541,6 +10618,7 @@
     "toboolean",
     "toggle",
     "toggle()",
+    "tojsvalue",
     "token",
     "tokenization",
     "tokenize the features argument",
@@ -10550,7 +10628,6 @@
     "toomanyreads",
     "top",
     "top layer",
-    "top level browsing context",
     "top-level browsing context",
     "top-level calculation",
     "top-level element",
@@ -10565,6 +10642,8 @@
     "touch-action",
     "touchend",
     "touint32",
+    "tovaluetype",
+    "towebassemblyvalue",
     "tr",
     "trace a path",
     "track",
@@ -10582,8 +10661,6 @@
     "tracking vector",
     "traditional",
     "transaction",
-    "transaction-amount",
-    "transaction-currency",
     "transactioninactiveerror",
     "transceiver kind",
     "transfer function element",
@@ -10689,6 +10766,10 @@
     "typeof",
     "types",
     "types array",
+    "typeset sideways",
+    "typeset upright",
+    "typesetting sideways",
+    "typesetting upright",
     "typographic character",
     "typographic character unit",
     "typographic letter unit",
@@ -10712,6 +10793,7 @@
     "unauthenticated response",
     "unavailable",
     "unbounded key range",
+    "unbounded text track cue",
     "undefined",
     "under",
     "underline zero position",
@@ -10743,6 +10825,7 @@
     "unicode east asian width",
     "unicode general category",
     "unicode script",
+    "unicode vertical orientation",
     "unicode-bidi",
     "unicode-range",
     "union",
@@ -10757,6 +10840,7 @@
     "unknownerror",
     "unload",
     "unload a document",
+    "unload counter",
     "unloading document cleanup steps",
     "unloading document visibility change steps",
     "unmute",
@@ -10801,6 +10885,7 @@
     "update registration state",
     "update service worker extended events set",
     "update style attribute for",
+    "update the current document readiness",
     "update the data max message size",
     "update the file selection",
     "update the ice gathering state",
@@ -10875,7 +10960,6 @@
     "use a negative sign",
     "use credentials",
     "use srcset or picture",
-    "use-credentials",
     "use-element shadow tree",
     "use-url-credentials flag",
     "used",
@@ -10958,6 +11042,7 @@
     "valid",
     "valid browsing context name",
     "valid browsing context name or keyword",
+    "valid color",
     "valid css property",
     "valid custom element name",
     "valid date string",
@@ -11046,7 +11131,9 @@
     "vertical dimension",
     "vertical element",
     "vertical offset",
+    "vertical orientation",
     "vertical script",
+    "vertical typographic mode",
     "vertical writing mode",
     "vertical-align",
     "vertical-only",
@@ -11072,9 +11159,6 @@
     "virtual word boundary",
     "visibility",
     "visibility state",
-    "visibility states",
-    "visibilitychange",
-    "visibilitystate",
     "visible character",
     "visible to reportingobservers",
     "visible track",
@@ -11101,6 +11185,8 @@
     "waiting",
     "waiting for all",
     "watch advertisements manager",
+    "waveshapernode",
+    "waveshaperoptions",
     "wbr",
     "weaker inset",
     "weakref",
@@ -11198,11 +11284,8 @@
     "worklet animation",
     "worklet destination type",
     "worklet event loop",
-    "worklet global scope",
-    "worklet global scope execution environment",
     "worklet global scope type",
     "worklet global scopes",
-    "worklet's workletglobalscopes",
     "would need a browsing context group switch due to report-only",
     "would start a number",
     "would start an identifier",
@@ -11236,7 +11319,6 @@
     "x-height baseline",
     "x-mac-cyrillic",
     "x-middle baseline",
-    "x-ua-compatible",
     "x-user-defined",
     "x-user-defined decoder",
     "x-user-defined encoder",
@@ -11265,6 +11347,7 @@
     "xr input source",
     "xr task source",
     "xsltprocessor",
+    "xyz-params",
     "y",
     "y-axis",
     "y1",
@@ -11351,6 +11434,14 @@
   "<by-to>": [
     "by",
     "to"
+  ],
+  "<color-space>": [
+    "hsl",
+    "hwb",
+    "lab",
+    "lch",
+    "srgb",
+    "xyz"
   ],
   "<color>": [
     "aliceblue",
@@ -11828,6 +11919,7 @@
     "auto"
   ],
   "@color-profile": [
+    "components",
     "rendering-intent",
     "src"
   ],
@@ -11836,6 +11928,18 @@
     "perceptual",
     "relative-colorimetric",
     "saturation"
+  ],
+  "@container": [
+    "aspect-ratio",
+    "block-size",
+    "height",
+    "inline-size",
+    "orientation",
+    "width"
+  ],
+  "@container/orientation": [
+    "landscape",
+    "portrait"
   ],
   "@counter-style": [
     "additive-symbols",
@@ -11912,9 +12016,6 @@
     "base-palette",
     "font-family",
     "override-color"
-  ],
-  "@layer": [
-    "<layer-ident>"
   ],
   "@media": [
     "-webkit-device-pixel-ratio",
@@ -12025,6 +12126,7 @@
     "none"
   ],
   "@media/prefers-contrast": [
+    "custom",
     "forced",
     "high",
     "less",
@@ -12431,6 +12533,9 @@
   ],
   "ArrayBuffer": [
     "detach"
+  ],
+  "AssignedNodeOptions": [
+    "flatten"
   ],
   "AttestationConveyancePreference": [
     "\"direct\"",
@@ -13412,6 +13517,9 @@
     "serviceData",
     "services"
   ],
+  "BluetoothManufacturerDataFilterInit": [
+    "companyIdentifier"
+  ],
   "BluetoothManufacturerDataMap": [
     "[[BackingMap]]"
   ],
@@ -13524,6 +13632,9 @@
     "service"
   ],
   "BluetoothRemoteGATTService/getIncludedServices(service)": [
+    "service"
+  ],
+  "BluetoothServiceDataFilterInit": [
     "service"
   ],
   "BluetoothServiceDataMap": [
@@ -13644,6 +13755,8 @@
     "cm",
     "cm(value)",
     "component value",
+    "css ident",
+    "css identifier",
     "declaration",
     "decode bytes",
     "deg",
@@ -13676,6 +13789,8 @@
     "highlights",
     "ic",
     "ic(value)",
+    "ident",
+    "identifier",
     "in",
     "in(value)",
     "internal representation",
@@ -13756,6 +13871,7 @@
   "CSS counter": [
     "creator",
     "name",
+    "reversed",
     "value"
   ],
   "CSS declaration": [
@@ -13889,34 +14005,47 @@
     "\"padding\""
   ],
   "CSSColor": [
-    "CSSColor(colorspace, channels, optional alpha)",
-    "CSSColor(variant)",
+    "CSSColor(colorSpace, channels)",
+    "CSSColor(colorSpace, channels, alpha)",
+    "CSSColor(colorSpace, channels, optional alpha)",
     "alpha",
+    "channels",
+    "colorSpace",
     "colorspace",
     "constructor",
-    "constructor(variant)"
+    "constructor(colorSpace, channels)",
+    "constructor(colorSpace, channels, alpha)"
   ],
-  "CSSColor/CSSColor(variant)": [
-    "variant"
+  "CSSColor/CSSColor(colorSpace, channels)": [
+    "alpha",
+    "channels",
+    "colorSpace"
   ],
-  "CSSColor/constructor(variant)": [
-    "variant"
+  "CSSColor/CSSColor(colorSpace, channels, alpha)": [
+    "alpha",
+    "channels",
+    "colorSpace"
+  ],
+  "CSSColor/constructor(colorSpace, channels)": [
+    "alpha",
+    "channels",
+    "colorSpace"
+  ],
+  "CSSColor/constructor(colorSpace, channels, alpha)": [
+    "alpha",
+    "channels",
+    "colorSpace"
   ],
   "CSSColorValue": [
+    "colorSpace",
     "parse(cssText)",
-    "toColor(colorspace)",
-    "toGray()",
-    "toHSL()",
-    "toHWB()",
-    "toLCH()",
-    "toLab()",
-    "toRGB()"
+    "to(colorSpace)"
   ],
   "CSSColorValue/parse(cssText)": [
     "cssText"
   ],
-  "CSSColorValue/toColor(colorspace)": [
-    "colorspace"
+  "CSSColorValue/to(colorSpace)": [
+    "colorSpace"
   ],
   "CSSConditionRule": [
     "conditionText"
@@ -13933,6 +14062,47 @@
     "suffix",
     "symbols",
     "system"
+  ],
+  "CSSDeviceCMYK": [
+    "CSSDeviceCMYK(c, m, y, k)",
+    "CSSDeviceCMYK(c, m, y, k, alpha)",
+    "CSSDeviceCMYK(c, m, y, k, optional alpha)",
+    "alpha",
+    "c",
+    "constructor",
+    "constructor(c, m, y, k)",
+    "constructor(c, m, y, k, alpha)",
+    "k",
+    "m",
+    "y"
+  ],
+  "CSSDeviceCMYK/CSSDeviceCMYK(c, m, y, k)": [
+    "alpha",
+    "c",
+    "k",
+    "m",
+    "y"
+  ],
+  "CSSDeviceCMYK/CSSDeviceCMYK(c, m, y, k, alpha)": [
+    "alpha",
+    "c",
+    "k",
+    "m",
+    "y"
+  ],
+  "CSSDeviceCMYK/constructor(c, m, y, k)": [
+    "alpha",
+    "c",
+    "k",
+    "m",
+    "y"
+  ],
+  "CSSDeviceCMYK/constructor(c, m, y, k, alpha)": [
+    "alpha",
+    "c",
+    "k",
+    "m",
+    "y"
   ],
   "CSSFontFaceLoadEvent": [
     "fontfaces"
@@ -13967,31 +14137,6 @@
   "CSSFontPaletteValuesRule": [
     "basePalette",
     "fontFamily"
-  ],
-  "CSSGray": [
-    "CSSGray(gray)",
-    "CSSGray(gray, alpha)",
-    "alpha",
-    "constructor",
-    "constructor(gray)",
-    "constructor(gray, alpha)",
-    "gray"
-  ],
-  "CSSGray/CSSGray(gray)": [
-    "alpha",
-    "gray"
-  ],
-  "CSSGray/CSSGray(gray, alpha)": [
-    "alpha",
-    "gray"
-  ],
-  "CSSGray/constructor(gray)": [
-    "alpha",
-    "gray"
-  ],
-  "CSSGray/constructor(gray, alpha)": [
-    "alpha",
-    "gray"
   ],
   "CSSGroupingRule": [
     "cssRules",
@@ -14207,22 +14352,22 @@
     "negate a cssnumericvalue"
   ],
   "CSSMathClamp": [
-    "CSSMathClamp(min, val, max)",
-    "constructor(min, val, max)",
-    "max",
-    "min",
+    "CSSMathClamp(lower, value, upper)",
+    "constructor(lower, value, upper)",
+    "lower",
     "operator",
-    "val"
+    "upper",
+    "value"
   ],
-  "CSSMathClamp/CSSMathClamp(min, val, max)": [
-    "max",
-    "min",
-    "val"
+  "CSSMathClamp/CSSMathClamp(lower, value, upper)": [
+    "lower",
+    "upper",
+    "value"
   ],
-  "CSSMathClamp/constructor(min, val, max)": [
-    "max",
-    "min",
-    "val"
+  "CSSMathClamp/constructor(lower, value, upper)": [
+    "lower",
+    "upper",
+    "value"
   ],
   "CSSMathInvert": [
     "CSSMathInvert(arg)",
@@ -14816,16 +14961,23 @@
     "rule"
   ],
   "CSSStyleSheet": [
+    "CSSStyleSheet()",
+    "CSSStyleSheet(options)",
     "addRule()",
     "addRule(selector)",
     "addRule(selector, block, optionalIndex)",
     "addRule(selector, style)",
     "addRule(selector, style, index)",
     "alternate flag",
+    "constructed flag",
+    "constructor document",
+    "constructor()",
+    "constructor(options)",
     "css rules",
     "cssRules",
     "deleteRule(index)",
     "disabled flag",
+    "disallow modification flag",
     "insertRule(rule)",
     "insertRule(rule, index)",
     "location",
@@ -14838,9 +14990,18 @@
     "referrer policy",
     "removeRule()",
     "removeRule(index)",
+    "replace(text)",
+    "replaceSync(text)",
     "rules",
+    "stylesheet base url",
     "title",
     "type"
+  ],
+  "CSSStyleSheet/CSSStyleSheet()": [
+    "options"
+  ],
+  "CSSStyleSheet/CSSStyleSheet(options)": [
+    "options"
   ],
   "CSSStyleSheet/addRule()": [
     "index",
@@ -14862,6 +15023,12 @@
     "selector",
     "style"
   ],
+  "CSSStyleSheet/constructor()": [
+    "options"
+  ],
+  "CSSStyleSheet/constructor(options)": [
+    "options"
+  ],
   "CSSStyleSheet/deleteRule(index)": [
     "index"
   ],
@@ -14878,6 +15045,17 @@
   ],
   "CSSStyleSheet/removeRule(index)": [
     "index"
+  ],
+  "CSSStyleSheet/replace(text)": [
+    "text"
+  ],
+  "CSSStyleSheet/replaceSync(text)": [
+    "text"
+  ],
+  "CSSStyleSheetInit": [
+    "baseURL",
+    "disabled",
+    "media"
   ],
   "CSSStyleValue": [
     "[[associatedProperty]]",
@@ -15145,6 +15323,7 @@
     "nonzero"
   ],
   "CanvasFillStrokeStyles": [
+    "createConicGradient(startAngle, x, y)",
     "createLinearGradient(x0, y0, x1, y1)",
     "createPattern(image, repetition)",
     "createRadialGradient(x0, y0, r0, x1, y1, r1)",
@@ -15154,11 +15333,37 @@
   "CanvasFilters": [
     "filter"
   ],
+  "CanvasFontKerning": [
+    "auto",
+    "none",
+    "normal"
+  ],
+  "CanvasFontStretch": [
+    "condensed",
+    "expanded",
+    "extra-condensed",
+    "extra-expanded",
+    "normal",
+    "semi-condensed",
+    "semi-expanded",
+    "ultra-condensed",
+    "ultra-expanded"
+  ],
+  "CanvasFontVariantCaps": [
+    "all-petite-caps",
+    "all-small-caps",
+    "normal",
+    "petite-caps",
+    "small-caps",
+    "titling-caps",
+    "unicase"
+  ],
   "CanvasGradient": [
     "addColorStop(offset, color)"
   ],
   "CanvasImageData": [
-    "createImageData()",
+    "createImageData(imagedata)",
+    "createImageData(sw, sh)",
     "getImageData(sx, sy, sw, sh)",
     "putImageData()"
   ],
@@ -15200,6 +15405,7 @@
   ],
   "CanvasRenderingContext2DSettings": [
     "alpha",
+    "colorSpace",
     "desynchronized"
   ],
   "CanvasShadowStyles": [
@@ -15209,6 +15415,7 @@
     "shadowOffsetY"
   ],
   "CanvasState": [
+    "reset()",
     "restore()",
     "save()"
   ],
@@ -15235,8 +15442,20 @@
   "CanvasTextDrawingStyles": [
     "direction",
     "font",
+    "fontKerning",
+    "fontStretch",
+    "fontVariantCaps",
     "textAlign",
-    "textBaseline"
+    "textBaseline",
+    "textLetterSpacing",
+    "textRendering",
+    "textWordSpacing"
+  ],
+  "CanvasTextRendering": [
+    "auto",
+    "geometricPrecision",
+    "optimizeLegibility",
+    "optimizeSpeed"
   ],
   "CanvasTransform": [
     "getTransform()",
@@ -16524,6 +16743,9 @@
   "DOMParser": [
     "parseFromString(string, type)"
   ],
+  "DOMParserSupportedType": [
+    "text/html\""
+  ],
   "DOMPoint": [
     "DOMPoint()",
     "DOMPoint(x)",
@@ -17207,7 +17429,6 @@
     "createTreeWalker(root)",
     "createTreeWalker(root, whatToShow)",
     "createTreeWalker(root, whatToShow, filter)",
-    "csp list",
     "currentScript",
     "defaultView",
     "dir",
@@ -17228,13 +17449,13 @@
     "fullscreen",
     "fullscreenEnabled",
     "fully active",
-    "getAnimations()",
     "getElementsByClassName(classNames)",
     "getElementsByName(name)",
     "getElementsByTagName(qualifiedName)",
     "getElementsByTagNameNS(namespace, localName)",
     "hasFocus()",
     "head",
+    "hidden",
     "images",
     "implementation",
     "importNode(node)",
@@ -17246,6 +17467,7 @@
     "layoutNow()",
     "linkColor",
     "links",
+    "load timing info",
     "location",
     "measureElement",
     "measureElement(element)",
@@ -17314,6 +17536,7 @@
     "onsuspend",
     "ontimeupdate",
     "ontoggle",
+    "onvisibilitychange",
     "onvolumechange",
     "onwaiting",
     "onwebkitanimationend",
@@ -17321,11 +17544,15 @@
     "onwebkitanimationstart",
     "onwebkittransitionend",
     "onwheel",
+    "open(unused1, unused2)",
+    "open(url, name, features)",
     "origin",
     "permissions policy",
     "permissionsPolicy",
     "plugins",
+    "policy container",
     "policy object",
+    "previous document unload timing",
     "processed manifest",
     "queryCommandEnabled()",
     "queryCommandIndeterm()",
@@ -17335,19 +17562,20 @@
     "readyState",
     "readystatechange",
     "referrer",
-    "referrer policy",
     "releaseEvents()",
     "renameNode()",
     "resizeObservers",
     "scripts",
     "scroll",
     "scrollingElement",
+    "show what links to this definition",
     "strictErrorChecking",
     "styleSheets",
     "timeline",
     "title",
     "type",
     "url",
+    "visibilityState",
     "vlinkColor",
     "will declaratively refresh",
     "xmlEncoding",
@@ -18126,7 +18354,6 @@
     "IsSearchProviderInstalled()"
   ],
   "FakeWorkletGlobalScope": [
-    "registerAnArbitaryClass(type, classConstructor)",
     "registerFake(type, classConstructor)"
   ],
   "FederatedCredential": [
@@ -18304,8 +18531,7 @@
     "\"none\""
   ],
   "FlowControlType": [
-    "hardware",
-    "none"
+    "Show what links to this definition"
   ],
   "FocusEvent": [
     "Constructor",
@@ -18745,6 +18971,34 @@
   "GetRootNodeOptions": [
     "composed"
   ],
+  "Global": [
+    "Global(descriptor)",
+    "Global(descriptor, v)",
+    "constructor(descriptor)",
+    "constructor(descriptor, v)",
+    "value",
+    "valueOf()"
+  ],
+  "Global/Global(descriptor)": [
+    "descriptor",
+    "v"
+  ],
+  "Global/Global(descriptor, v)": [
+    "descriptor",
+    "v"
+  ],
+  "Global/constructor(descriptor)": [
+    "descriptor",
+    "v"
+  ],
+  "Global/constructor(descriptor, v)": [
+    "descriptor",
+    "v"
+  ],
+  "GlobalDescriptor": [
+    "mutable",
+    "value"
+  ],
   "GlobalEventHandlers": [
     "drag",
     "dragend",
@@ -18964,7 +19218,6 @@
     "attachInternals()",
     "autocapitalize",
     "blur",
-    "blur()",
     "cancel",
     "change",
     "click()",
@@ -19048,6 +19301,7 @@
     "onwebkitanimationstart",
     "onwebkittransitionend",
     "onwheel",
+    "outerText",
     "paste",
     "reset",
     "securitypolicyviolation",
@@ -19447,6 +19701,7 @@
   "HTMLOrSVGElement": [
     "[[CryptographicNonce]]",
     "autofocus",
+    "blur()",
     "dataset",
     "nonce",
     "tabIndex"
@@ -19521,8 +19776,10 @@
     "willValidate"
   ],
   "HTMLSlotElement": [
+    "assign(...nodes)",
     "assignedElements()",
     "assignedNodes()",
+    "manually assigned nodes",
     "name",
     "slotchange"
   ],
@@ -19685,7 +19942,7 @@
   "HashAlgorithmIdentifier": [
     "HashAlgorithmIdentifier"
   ],
-  "HashChangeEventInit": [
+  "HashChangeEvent": [
     "newURL",
     "oldURL"
   ],
@@ -19735,13 +19992,24 @@
     "value"
   ],
   "Highlight": [
+    "Highlight()",
+    "Highlight(...initialRanges)",
+    "Highlight(AbstractRange... initialRanges)",
     "Highlight(CSSOMString name, AbstractRange... initialRanges)",
     "Highlight(name)",
     "Highlight(name, ...initialRanges)",
+    "constructor()",
+    "constructor(...initialRanges)",
     "constructor(name)",
     "constructor(name, ...initialRanges)",
     "name",
     "priority"
+  ],
+  "Highlight/Highlight()": [
+    "initialRanges"
+  ],
+  "Highlight/Highlight(...initialRanges)": [
+    "initialRanges"
   ],
   "Highlight/Highlight(name)": [
     "initialRanges",
@@ -19751,6 +20019,12 @@
     "initialRanges",
     "name"
   ],
+  "Highlight/constructor()": [
+    "initialRanges"
+  ],
+  "Highlight/constructor(...initialRanges)": [
+    "initialRanges"
+  ],
   "Highlight/constructor(name)": [
     "initialRanges",
     "name"
@@ -19758,10 +20032,6 @@
   "Highlight/constructor(name, ...initialRanges)": [
     "initialRanges",
     "name"
-  ],
-  "HighlightRegistry": [
-    "add(Highlight value)",
-    "add(value)"
   ],
   "HighlightsRegister": [
     "add(Highlight value)",
@@ -20316,10 +20586,15 @@
     "alpha"
   ],
   "ImageData": [
-    "ImageData()",
+    "colorSpace",
     "data",
     "height",
+    "new ImageData(data, sw, sh, settings)",
+    "new ImageData(sw, sh, settings)",
     "width"
+  ],
+  "ImageDataSettings": [
+    "colorSpace"
   ],
   "ImageOrientation": [
     "flipY",
@@ -20336,6 +20611,12 @@
     "high",
     "low",
     "medium"
+  ],
+  "ImportExportKind": [
+    "\"function\"",
+    "\"global\"",
+    "\"memory\"",
+    "\"table\""
   ],
   "InputDeviceInfo": [
     "getCapabilities",
@@ -20357,6 +20638,29 @@
     "data",
     "inputType",
     "isComposing"
+  ],
+  "Instance": [
+    "Instance(module)",
+    "Instance(module, importObject)",
+    "constructor(module)",
+    "constructor(module, importObject)",
+    "exports"
+  ],
+  "Instance/Instance(module)": [
+    "importObject",
+    "module"
+  ],
+  "Instance/Instance(module, importObject)": [
+    "importObject",
+    "module"
+  ],
+  "Instance/constructor(module)": [
+    "importObject",
+    "module"
+  ],
+  "Instance/constructor(module, importObject)": [
+    "importObject",
+    "module"
   ],
   "IntersectionObserver": [
     "IntersectionObserver(callback)",
@@ -20457,10 +20761,6 @@
   "IntrinsicSizesResultOptions": [
     "maxContentSize",
     "minContentSize"
-  ],
-  "IterationCompositeOperation": [
-    "\"accumulate\"",
-    "\"replace\""
   ],
   "JavaScript string": [
     "code point length",
@@ -20662,7 +20962,6 @@
     "constructor(target, keyframes)",
     "constructor(target, keyframes, options)",
     "getKeyframes()",
-    "iterationComposite",
     "pseudoElement",
     "setKeyframes(keyframes)",
     "target",
@@ -20684,7 +20983,6 @@
   ],
   "KeyframeEffectOptions": [
     "composite",
-    "iterationComposite",
     "pseudoElement"
   ],
   "LargeBlobSupport": [
@@ -21151,6 +21449,25 @@
     "sampleSize",
     "width"
   ],
+  "Memory": [
+    "Memory(descriptor)",
+    "buffer",
+    "constructor(descriptor)",
+    "grow(delta)"
+  ],
+  "Memory/Memory(descriptor)": [
+    "descriptor"
+  ],
+  "Memory/constructor(descriptor)": [
+    "descriptor"
+  ],
+  "Memory/grow(delta)": [
+    "delta"
+  ],
+  "MemoryDescriptor": [
+    "initial",
+    "maximum"
+  ],
   "MessageChannel": [
     "port1",
     "port2"
@@ -21217,6 +21534,38 @@
     "\"proximity\"",
     "\"relative-orientation\"",
     "\"uncalibrated-magnetometer\""
+  ],
+  "Module": [
+    "Module(bytes)",
+    "constructor(bytes)",
+    "customSections(moduleObject, sectionName)",
+    "exports(moduleObject)",
+    "imports(moduleObject)"
+  ],
+  "Module/Module(bytes)": [
+    "bytes"
+  ],
+  "Module/constructor(bytes)": [
+    "bytes"
+  ],
+  "Module/customSections(moduleObject, sectionName)": [
+    "moduleObject",
+    "sectionName"
+  ],
+  "Module/exports(moduleObject)": [
+    "moduleObject"
+  ],
+  "Module/imports(moduleObject)": [
+    "moduleObject"
+  ],
+  "ModuleExportDescriptor": [
+    "kind",
+    "name"
+  ],
+  "ModuleImportDescriptor": [
+    "kind",
+    "module",
+    "name"
   ],
   "MouseEvent": [
     "Constructor",
@@ -21338,42 +21687,21 @@
     "node"
   ],
   "NamedFlowMap": [
-    "delete",
     "delete()",
-    "delete(flowName)",
-    "get",
     "get()",
-    "get(flowName)",
-    "has",
     "has()",
-    "has(flowName)",
-    "set",
-    "set()",
-    "set(flowName, flowValue)"
+    "set()"
   ],
   "NamedFlowMap/delete()": [
-    "flowName"
-  ],
-  "NamedFlowMap/delete(flowName)": [
     "flowName"
   ],
   "NamedFlowMap/get()": [
     "flowName"
   ],
-  "NamedFlowMap/get(flowName)": [
-    "flowName"
-  ],
   "NamedFlowMap/has()": [
     "flowName"
   ],
-  "NamedFlowMap/has(flowName)": [
-    "flowName"
-  ],
   "NamedFlowMap/set()": [
-    "flowName",
-    "flowValue"
-  ],
-  "NamedFlowMap/set(flowName, flowValue)": [
     "flowName",
     "flowValue"
   ],
@@ -21478,6 +21806,9 @@
     "share(data)",
     "usb",
     "xr"
+  ],
+  "NavigatorConcurrentHardware": [
+    "navigator.hardwareConcurrency"
   ],
   "NavigatorContentUtils": [
     "registerProtocolHandler(scheme, url)",
@@ -21834,6 +22165,7 @@
     "sampleRate"
   ],
   "OffscreenCanvas": [
+    "OffscreenCanvas(width, height)",
     "convertToBlob()",
     "getContext(contextId)",
     "height",
@@ -21940,7 +22272,7 @@
     "constructor(constraint)",
     "constructor(constraint, message)"
   ],
-  "PageTransitionEventInit": [
+  "PageTransitionEvent": [
     "persisted"
   ],
   "PaintRenderingContext2D": [
@@ -22088,9 +22420,7 @@
     "nodes"
   ],
   "ParityType": [
-    "even",
-    "none",
-    "odd"
+    "Show what links to this definition"
   ],
   "PasswordCredential": [
     "PasswordCredential(data)",
@@ -22308,9 +22638,25 @@
     "Performance.timeOrigin",
     "Performance.toJSON",
     "Performance.toJSON()",
+    "add a performanceresourcetiming entry",
+    "can add resource timing entry",
+    "clearResourceTimings",
+    "clearResourceTimings()",
+    "copy secondary buffer",
+    "fire a buffer full event",
     "navigation",
     "now",
     "now()",
+    "onresourcetimingbufferfull",
+    "resource timing buffer current size",
+    "resource timing buffer full event pending flag",
+    "resource timing buffer size limit",
+    "resource timing secondary buffer",
+    "resource timing secondary buffer current size",
+    "resourcetimingbufferfull",
+    "setResourceTimingBufferSize",
+    "setResourceTimingBufferSize()",
+    "setResourceTimingBufferSize(maxSize)",
     "timeOrigin",
     "timing",
     "toJSON",
@@ -22341,7 +22687,34 @@
     "unloadEventStart"
   ],
   "PerformanceResourceTiming": [
+    "connectEnd",
+    "connectStart",
+    "decodedBodySize",
+    "domainLookupEnd",
+    "domainLookupStart",
+    "duration",
+    "encodedBodySize",
+    "entrytype",
+    "fetchStart",
+    "initiator type",
+    "initiatorType",
     "initiatortype",
+    "name",
+    "nextHopProtocol",
+    "performanceentry",
+    "redirectEnd",
+    "redirectStart",
+    "requestStart",
+    "requested url",
+    "responseEnd",
+    "responseStart",
+    "secureConnectionStart",
+    "starttime",
+    "timing info",
+    "toJSON",
+    "toJSON()",
+    "transferSize",
+    "workerStart",
     "workerstart"
   ],
   "PerformanceTiming": [
@@ -22415,7 +22788,6 @@
     "\"background-sync\"",
     "\"bluetooth\"",
     "\"camera\"",
-    "\"clipboard-read\"",
     "\"clipboard-write\"",
     "\"device-info\"",
     "\"display-capture\"",
@@ -22522,9 +22894,7 @@
     "constructor()",
     "constructor(type)",
     "constructor(type, eventInitDict)",
-    "getCoalescedEvents",
     "getCoalescedEvents()",
-    "getPredictedEvents",
     "getPredictedEvents()",
     "height",
     "isPrimary",
@@ -22553,11 +22923,15 @@
     "twist",
     "width"
   ],
-  "PopStateEventInit": [
+  "PopStateEvent": [
     "state"
   ],
   "PostMessageOptions": [
     "transfer"
+  ],
+  "PredefinedColorSpace": [
+    "display-p3",
+    "srgb"
   ],
   "PremultiplyAlpha": [
     "default",
@@ -23850,10 +24224,17 @@
     "need more data",
     "needs more data",
     "options",
+    "pipe",
+    "pipe through",
+    "pipe to",
     "pipeThrough(transform)",
     "pipeThrough(transform, options)",
     "pipeTo(destination)",
     "pipeTo(destination, options)",
+    "piped through",
+    "piped to",
+    "piping through",
+    "piping to",
     "readable",
     "set up",
     "tee",
@@ -23900,6 +24281,18 @@
   "ReadableStream/getReader(options)": [
     "options"
   ],
+  "ReadableStream/pipe through": [
+    "preventabort",
+    "preventcancel",
+    "preventclose",
+    "signal"
+  ],
+  "ReadableStream/pipe to": [
+    "preventabort",
+    "preventcancel",
+    "preventclose",
+    "signal"
+  ],
   "ReadableStream/pipeThrough(transform)": [
     "options",
     "transform"
@@ -23915,6 +24308,18 @@
   "ReadableStream/pipeTo(destination, options)": [
     "destination",
     "options"
+  ],
+  "ReadableStream/piped through": [
+    "preventabort",
+    "preventcancel",
+    "preventclose",
+    "signal"
+  ],
+  "ReadableStream/piped to": [
+    "preventabort",
+    "preventcancel",
+    "preventclose",
+    "signal"
   ],
   "ReadableStream/set up": [
     "cancelalgorithm",
@@ -24692,6 +25097,10 @@
   "ScrollOptions": [
     "behavior"
   ],
+  "ScrollRestoration": [
+    "auto",
+    "manual"
+  ],
   "ScrollTimeline": [
     "ScrollTimeline()",
     "ScrollTimeline(options)",
@@ -24731,18 +25140,14 @@
     "SecurityPolicyViolationEvent(type)",
     "SecurityPolicyViolationEvent(type, eventInitDict)",
     "blockedURI",
-    "blockedURL",
-    "colno",
     "columnNumber",
     "constructor",
     "constructor(type)",
     "constructor(type, eventInitDict)",
     "disposition",
     "documentURI",
-    "documentURL",
     "effectiveDirective",
     "lineNumber",
-    "lineno",
     "originalPolicy",
     "referrer",
     "sample",
@@ -24771,17 +25176,18 @@
     "\"report\""
   ],
   "SecurityPolicyViolationEventInit": [
-    "blockedURL",
-    "colno",
+    "blockedURI",
+    "columnNumber",
     "disposition",
-    "documentURL",
+    "documentURI",
     "effectiveDirective",
-    "lineno",
+    "lineNumber",
     "originalPolicy",
     "referrer",
     "sample",
     "sourceFile",
-    "statusCode"
+    "statusCode",
+    "violatedDirective"
   ],
   "SelectionMode": [
     "end",
@@ -24826,71 +25232,49 @@
     "frequency"
   ],
   "Serial": [
-    "Serial",
-    "connect",
-    "disconnect",
+    "Show what links to this definition",
     "getPorts()",
     "onconnect",
     "ondisconnect",
     "requestPort()",
-    "requestPort(options)"
+    "requestPort(options)",
+    "show what links to this definition"
   ],
   "SerialInputSignals": [
-    "clearToSend",
-    "dataCarrierDetect",
-    "dataSetReady",
-    "ringIndicator"
+    "Show what links to this definition"
   ],
   "SerialOptions": [
-    "baudRate",
-    "bufferSize",
-    "dataBits",
-    "flowControl",
-    "parity",
-    "stopBits"
+    "Show what links to this definition"
   ],
   "SerialOutputSignals": [
-    "break",
-    "dataTerminalReady",
-    "requestToSend"
+    "Show what links to this definition"
   ],
   "SerialPort": [
-    "[[buffersize]]",
-    "[[pendingclosepromise]]",
-    "[[readable]]",
-    "[[readfatal]]",
-    "[[state]]",
-    "[[writable]]",
-    "[[writefatal]]",
     "close()",
     "getInfo()",
     "getSignals()",
-    "handle closing the readable stream",
-    "handle closing the writable stream",
     "onconnect",
     "ondisconnect",
     "open()",
     "open(options)",
     "readable",
-    "serial port task source",
     "setSignals()",
     "setSignals(signals)",
+    "show what links to this definition",
     "writable"
   ],
   "SerialPortFilter": [
+    "Show what links to this definition",
     "match any filter",
     "match the filter",
     "matches any filter",
-    "matches the filter",
-    "usbProductId",
-    "usbVendorId"
+    "matches the filter"
   ],
   "SerialPortInfo": [
-    "usbProductId",
-    "usbVendorId"
+    "Show what links to this definition"
   ],
   "SerialPortRequestOptions": [
-    "filters"
+    "Show what links to this definition"
   ],
   "ServiceEventHandlers": [
     "onserviceadded",
@@ -25025,13 +25409,17 @@
   "ShadowRoot": [
     "available to element internals",
     "delegates focus",
+    "delegatesFocus",
     "host",
     "mode",
-    "onslotchange"
+    "onslotchange",
+    "slot assignment",
+    "slotAssignment"
   ],
   "ShadowRootInit": [
     "delegatesFocus",
-    "mode"
+    "mode",
+    "slotAssignment"
   ],
   "ShadowRootMode": [
     "\"closed\"",
@@ -25056,6 +25444,10 @@
     "credentials",
     "name",
     "onconnect"
+  ],
+  "SlotAssignmentMode": [
+    "\"manual\"",
+    "\"named\""
   ],
   "Slottable": [
     "assignedSlot"
@@ -25301,6 +25693,62 @@
   ],
   "SyncManager/register(tag)": [
     "tag"
+  ],
+  "Table": [
+    "Table(descriptor)",
+    "Table(descriptor, value)",
+    "constructor(descriptor)",
+    "constructor(descriptor, value)",
+    "get(index)",
+    "grow(delta)",
+    "grow(delta, value)",
+    "length",
+    "set(index)",
+    "set(index, value)"
+  ],
+  "Table/Table(descriptor)": [
+    "descriptor",
+    "value"
+  ],
+  "Table/Table(descriptor, value)": [
+    "descriptor",
+    "value"
+  ],
+  "Table/constructor(descriptor)": [
+    "descriptor",
+    "value"
+  ],
+  "Table/constructor(descriptor, value)": [
+    "descriptor",
+    "value"
+  ],
+  "Table/get(index)": [
+    "index"
+  ],
+  "Table/grow(delta)": [
+    "delta",
+    "value"
+  ],
+  "Table/grow(delta, value)": [
+    "delta",
+    "value"
+  ],
+  "Table/set(index)": [
+    "index",
+    "value"
+  ],
+  "Table/set(index, value)": [
+    "index",
+    "value"
+  ],
+  "TableDescriptor": [
+    "element",
+    "initial",
+    "maximum"
+  ],
+  "TableKind": [
+    "\"anyfunc\"",
+    "\"externref\""
   ],
   "Text": [
     "Text()",
@@ -25638,12 +26086,27 @@
     "controller"
   ],
   "TransitionEvent": [
+    "TransitionEvent(type)",
     "TransitionEvent(type, transitionEventInitDict)",
+    "constructor(type)",
+    "constructor(type, transitionEventInitDict)",
     "elapsedTime",
     "propertyName",
     "pseudoElement"
   ],
+  "TransitionEvent/TransitionEvent(type)": [
+    "transitionEventInitDict",
+    "type"
+  ],
   "TransitionEvent/TransitionEvent(type, transitionEventInitDict)": [
+    "transitionEventInitDict",
+    "type"
+  ],
+  "TransitionEvent/constructor(type)": [
+    "transitionEventInitDict",
+    "type"
+  ],
+  "TransitionEvent/constructor(type, transitionEventInitDict)": [
     "transitionEventInitDict",
     "type"
   ],
@@ -26253,6 +26716,14 @@
   "ValueEventInit": [
     "value"
   ],
+  "ValueType": [
+    "\"anyfunc\"",
+    "\"externref\"",
+    "\"f32\"",
+    "\"f64\"",
+    "\"i32\"",
+    "\"i64\""
+  ],
   "VideoFacingModeEnum": [
     "environment",
     "left",
@@ -26280,6 +26751,9 @@
     "onremovetrack",
     "removetrack",
     "selectedIndex"
+  ],
+  "VisibilityState": [
+    "Show what links to this definition"
   ],
   "WatchAdvertisementsOptions": [
     "signal"
@@ -26319,6 +26793,40 @@
   ],
   "Web IDL arguments list": [
     "converting"
+  ],
+  "WebAssembly": [
+    "compile(bytes)",
+    "instantiate(bytes)",
+    "instantiate(bytes, importObject)",
+    "instantiate(moduleObject)",
+    "instantiate(moduleObject, importObject)",
+    "validate(bytes)"
+  ],
+  "WebAssembly/compile(bytes)": [
+    "bytes"
+  ],
+  "WebAssembly/instantiate(bytes)": [
+    "bytes",
+    "importObject"
+  ],
+  "WebAssembly/instantiate(bytes, importObject)": [
+    "bytes",
+    "importObject"
+  ],
+  "WebAssembly/instantiate(moduleObject)": [
+    "importObject",
+    "moduleObject"
+  ],
+  "WebAssembly/instantiate(moduleObject, importObject)": [
+    "importObject",
+    "moduleObject"
+  ],
+  "WebAssembly/validate(bytes)": [
+    "bytes"
+  ],
+  "WebAssemblyInstantiatedSource": [
+    "instance",
+    "module"
   ],
   "WebGLContextAttributes": [
     "xrCompatible"
@@ -26376,7 +26884,6 @@
   "Window": [
     "[[defaultElementStylesMap]]",
     "[[registeredPropertySet]]",
-    "abort",
     "afterprint",
     "alert()",
     "alert(message)",
@@ -26504,8 +27011,6 @@
     "onwebkitanimationstart",
     "onwebkittransitionend",
     "onwheel",
-    "open(unused1, unused2)",
-    "open(url, name, features)",
     "open(url, target, features)",
     "opener",
     "orientation",
@@ -26658,8 +27163,8 @@
     "registered reporting observer list",
     "report buffer",
     "reports",
-    "setInterval()",
-    "setTimeout()"
+    "setInterval(handler, timeout, ...arguments)",
+    "setTimeout(handler, timeout, ...arguments)"
   ],
   "WindowOrWorkerGlobalScope/fetch(input)": [
     "init",
@@ -26689,7 +27194,6 @@
   "WorkerGlobalScope": [
     "closing",
     "cross-origin isolated capability",
-    "csp list",
     "embedder policy",
     "error",
     "importScripts(urls)",
@@ -26707,13 +27211,12 @@
     "onrejectionhandled",
     "onunhandledrejection",
     "owner set",
-    "referrer policy",
+    "policy container",
     "rejectionhandled",
     "self",
     "type",
     "unhandledrejection",
-    "url",
-    "worker set"
+    "url"
   ],
   "WorkerLocation": [
     "hash",
@@ -26734,16 +27237,7 @@
   ],
   "Worklet": [
     "addModule(moduleURL)",
-    "addModule(moduleURL, options)",
     "global scopes"
-  ],
-  "Worklet/addModule(moduleURL)": [
-    "moduleURL",
-    "options"
-  ],
-  "Worklet/addModule(moduleURL, options)": [
-    "moduleURL",
-    "options"
   ],
   "WorkletAnimation": [
     "WorkletAnimation(animatorName)",
@@ -26809,10 +27303,6 @@
     "getTiming()",
     "localTime"
   ],
-  "WorkletGlobalScope": [
-    "module map",
-    "owner document"
-  ],
   "WorkletGroupEffect": [
     "getChildren",
     "getChildren()"
@@ -26845,6 +27335,8 @@
     "constructor()",
     "constructor(underlyingSink)",
     "constructor(underlyingSink, strategy)",
+    "error",
+    "erroring",
     "get a writer",
     "getWriter()",
     "getting a writer",
@@ -28023,6 +28515,7 @@
     "constructor(session, context)",
     "constructor(session, context, layerInit)",
     "context",
+    "fixedFoveation",
     "framebuffer",
     "framebufferHeight",
     "framebufferWidth",
@@ -28072,6 +28565,50 @@
     "imageIndex",
     "textureHeight",
     "textureWidth"
+  ],
+  "XSLTProcessor": [
+    "XSLTProcessor()",
+    "clearParameters",
+    "clearParameters()",
+    "constructor",
+    "constructor()",
+    "getParameter",
+    "getParameter(namespaceURI, localName)",
+    "importStylesheet",
+    "importStylesheet(style)",
+    "removeParameter",
+    "removeParameter(namespaceURI, localName)",
+    "reset",
+    "reset()",
+    "setParameter",
+    "setParameter(namespaceURI, localName, value)",
+    "transformToDocument",
+    "transformToDocument(source)",
+    "transformToFragment",
+    "transformToFragment(source, output)"
+  ],
+  "XSLTProcessor/getParameter(namespaceURI, localName)": [
+    "localName",
+    "namespaceURI"
+  ],
+  "XSLTProcessor/importStylesheet(style)": [
+    "style"
+  ],
+  "XSLTProcessor/removeParameter(namespaceURI, localName)": [
+    "localName",
+    "namespaceURI"
+  ],
+  "XSLTProcessor/setParameter(namespaceURI, localName, value)": [
+    "localName",
+    "namespaceURI",
+    "value"
+  ],
+  "XSLTProcessor/transformToDocument(source)": [
+    "source"
+  ],
+  "XSLTProcessor/transformToFragment(source, output)": [
+    "output",
+    "source"
   ],
   "a": [
     "charset",
@@ -28286,21 +28823,27 @@
   ],
   "area": [
     "alt",
-    "circle state",
     "coords",
-    "default state",
     "download",
     "href",
     "hreflang",
     "nohref",
-    "polygon state",
-    "rectangle state",
+    "ping",
     "referrerpolicy",
     "rel",
     "shape",
     "target",
-    "type",
-    "usemap"
+    "type"
+  ],
+  "area/shape": [
+    "circle state",
+    "default state",
+    "polygon state",
+    "rectangle state"
+  ],
+  "ascent-override!!descriptor": [
+    "<percentage>",
+    "normal"
   ],
   "aspect-ratio": [
     "<ratio>",
@@ -28329,6 +28872,24 @@
     "substitution value",
     "time",
     "url"
+  ],
+  "audio": [
+    "autoplay",
+    "controls",
+    "crossorigin",
+    "loop",
+    "muted",
+    "preload",
+    "src"
+  ],
+  "audio/crossorigin": [
+    "anonymous",
+    "use-credentials"
+  ],
+  "audio/preload": [
+    "auto",
+    "metadata",
+    "none"
   ],
   "authenticator": [
     "credentials map"
@@ -28727,7 +29288,8 @@
     "avoid-region"
   ],
   "browsing context": [
-    "active window"
+    "active window",
+    "container document"
   ],
   "browsing session": [
     "storage shed"
@@ -28735,7 +29297,6 @@
   "button": [
     "action",
     "autocomplete",
-    "button",
     "dirname",
     "disabled",
     "enctype",
@@ -28748,11 +29309,90 @@
     "method",
     "name",
     "novalidate",
-    "reset",
-    "submit",
     "target",
     "type",
     "value"
+  ],
+  "button/autocomplete": [
+    "additional-name",
+    "address-level1",
+    "address-level2",
+    "address-level3",
+    "address-level4",
+    "address-line1",
+    "address-line2",
+    "address-line3",
+    "bday",
+    "bday-day",
+    "bday-month",
+    "bday-year",
+    "billing",
+    "cc-additional-name",
+    "cc-csc",
+    "cc-exp",
+    "cc-exp-month",
+    "cc-exp-year",
+    "cc-family-name",
+    "cc-given-name",
+    "cc-name",
+    "cc-number",
+    "cc-type",
+    "country",
+    "country-name",
+    "current-password",
+    "email",
+    "family-name",
+    "fax",
+    "given-name",
+    "home",
+    "honorific-prefix",
+    "honorific-suffix",
+    "impp",
+    "language",
+    "mobile",
+    "name",
+    "new-password",
+    "nickname",
+    "off",
+    "on",
+    "one-time-code",
+    "organization",
+    "organization-title",
+    "pager",
+    "photo",
+    "postal-code",
+    "section-",
+    "sex",
+    "shipping",
+    "street-address",
+    "tel",
+    "tel-area-code",
+    "tel-country-code",
+    "tel-extension",
+    "tel-local",
+    "tel-local-prefix",
+    "tel-local-suffix",
+    "tel-national",
+    "transaction-amount",
+    "transaction-currency",
+    "url",
+    "username",
+    "work"
+  ],
+  "button/enctype": [
+    "application/x-www-form-urlencoded",
+    "multipart/form-data",
+    "text/plain"
+  ],
+  "button/method": [
+    "dialog",
+    "get",
+    "post"
+  ],
+  "button/type": [
+    "button",
+    "reset",
+    "submit"
   ],
   "byte": [
     "percent-encode",
@@ -28883,16 +29523,23 @@
   ],
   "color()": [
     "a98-rgb",
+    "b",
     "display-p3",
-    "lab",
+    "g",
     "prophoto-rgb",
+    "r",
     "rec2020",
     "srgb",
-    "xyz"
+    "x",
+    "xyz",
+    "y",
+    "z"
   ],
-  "color-adjust": [
-    "economy",
-    "exact"
+  "color-contrast()": [
+    "aa",
+    "aa-large",
+    "aaa",
+    "aaa-large"
   ],
   "color-interpolation-filters": [
     "auto",
@@ -28906,9 +29553,11 @@
     "xlink:href"
   ],
   "color-scheme": [
+    "<custom-ident>",
     "dark",
     "light",
-    "normal"
+    "normal",
+    "only"
   ],
   "column-count": [
     "<integer [1,∞]>",
@@ -28946,7 +29595,10 @@
   "connection": [
     "close pending flag",
     "closed",
+    "credentials",
+    "key",
     "object store set",
+    "origin",
     "timing info",
     "version",
     "versionchange"
@@ -29128,7 +29780,9 @@
     "data"
   ],
   "contain": [
+    "block-size",
     "content",
+    "inline-size",
     "layout",
     "none",
     "paint",
@@ -29153,7 +29807,6 @@
   ],
   "contain-intrinsic-size": [
     "<length>",
-    "<length>{2}",
     "auto && <length>",
     "none"
   ],
@@ -29161,6 +29814,18 @@
     "<length>",
     "auto && <length>",
     "none"
+  ],
+  "container-name": [
+    "<custom-ident>",
+    "<string>",
+    "none"
+  ],
+  "container-type": [
+    "block-size",
+    "inline-size",
+    "size",
+    "state",
+    "style"
   ],
   "content": [
     "/ [ <string> | <counter> ]+",
@@ -29224,6 +29889,7 @@
   ],
   "counter-reset": [
     "<counter-name> <integer>?",
+    "<reversed-counter-name> <integer>?",
     "list-item",
     "none"
   ],
@@ -29385,6 +30051,10 @@
     "cite",
     "datetime"
   ],
+  "descent-override!!descriptor": [
+    "<percentage>",
+    "normal"
+  ],
   "destination": [
     "translate"
   ],
@@ -29417,7 +30087,6 @@
     "post-request check",
     "pre-navigation check",
     "pre-request check",
-    "response check",
     "value"
   ],
   "discard": [
@@ -29462,11 +30131,6 @@
   "dl": [
     "compact"
   ],
-  "document": [
-    "hidden",
-    "is installable",
-    "onvisibilitychange"
-  ],
   "document animator definition": [
     "stateful flag"
   ],
@@ -29475,10 +30139,22 @@
     "input properties",
     "layout options"
   ],
+  "document load timing info": [
+    "DOM complete time",
+    "DOM content loaded event end time",
+    "DOM content loaded event start time",
+    "DOM interactive time",
+    "load event end time",
+    "load event start time"
+  ],
   "document paint definition": [
     "input argument syntaxes",
     "input properties",
     "paintrenderingcontext2dsettings object"
+  ],
+  "document unload timing info": [
+    "unload event end time",
+    "unload event start time"
   ],
   "dominant-baseline": [
     "alphabetic",
@@ -29573,9 +30249,9 @@
     "global object",
     "module map",
     "origin",
+    "policy container",
     "realm",
     "realm execution context",
-    "referrer policy",
     "responsible document",
     "responsible event loop",
     "service worker object map",
@@ -29783,6 +30459,72 @@
     "disabled",
     "form",
     "name"
+  ],
+  "fieldset/autocomplete": [
+    "additional-name",
+    "address-level1",
+    "address-level2",
+    "address-level3",
+    "address-level4",
+    "address-line1",
+    "address-line2",
+    "address-line3",
+    "bday",
+    "bday-day",
+    "bday-month",
+    "bday-year",
+    "billing",
+    "cc-additional-name",
+    "cc-csc",
+    "cc-exp",
+    "cc-exp-month",
+    "cc-exp-year",
+    "cc-family-name",
+    "cc-given-name",
+    "cc-name",
+    "cc-number",
+    "cc-type",
+    "country",
+    "country-name",
+    "current-password",
+    "email",
+    "family-name",
+    "fax",
+    "given-name",
+    "home",
+    "honorific-prefix",
+    "honorific-suffix",
+    "impp",
+    "language",
+    "mobile",
+    "name",
+    "new-password",
+    "nickname",
+    "off",
+    "on",
+    "one-time-code",
+    "organization",
+    "organization-title",
+    "pager",
+    "photo",
+    "postal-code",
+    "section-",
+    "sex",
+    "shipping",
+    "street-address",
+    "tel",
+    "tel-area-code",
+    "tel-country-code",
+    "tel-extension",
+    "tel-local",
+    "tel-local-prefix",
+    "tel-local-suffix",
+    "tel-national",
+    "transaction-amount",
+    "transaction-currency",
+    "url",
+    "username",
+    "work"
   ],
   "file": [
     "lastModified",
@@ -30136,7 +30878,8 @@
   ],
   "forced-color-adjust": [
     "auto",
-    "none"
+    "none",
+    "preserve-parent-color"
   ],
   "foreignObject": [
     "height",
@@ -30162,6 +30905,19 @@
     "on",
     "rel",
     "target"
+  ],
+  "form-associated custom elements": [
+    "readonly"
+  ],
+  "form/enctype": [
+    "application/x-www-form-urlencoded",
+    "multipart/form-data",
+    "text/plain"
+  ],
+  "form/method": [
+    "dialog",
+    "get",
+    "post"
   ],
   "from I/O queue": [
     "convert"
@@ -30456,6 +31212,24 @@
     "vspace",
     "width"
   ],
+  "iframe/loading": [
+    "eager",
+    "lazy"
+  ],
+  "iframe/sandbox": [
+    "allow-downloads",
+    "allow-forms",
+    "allow-modals",
+    "allow-orientation-lock",
+    "allow-pointer-lock",
+    "allow-popups",
+    "allow-popups-to-escape-sandbox",
+    "allow-presentation",
+    "allow-same-origin",
+    "allow-scripts",
+    "allow-top-navigation",
+    "allow-top-navigation-by-user-activation"
+  ],
   "image": [
     "crossorigin",
     "height",
@@ -30512,8 +31286,22 @@
     "sizes",
     "src",
     "srcset",
+    "usemap",
     "vspace",
     "width"
+  ],
+  "img/crossorigin": [
+    "anonymous",
+    "use-credentials"
+  ],
+  "img/decoding": [
+    "async",
+    "auto",
+    "sync"
+  ],
+  "img/loading": [
+    "eager",
+    "lazy"
   ],
   "in": [
     "backgroundalpha",
@@ -30607,8 +31395,78 @@
     "value",
     "vspace"
   ],
+  "input-security": [
+    "auto",
+    "none"
+  ],
   "input-value": [
     "filename"
+  ],
+  "input/autocomplete": [
+    "additional-name",
+    "address-level1",
+    "address-level2",
+    "address-level3",
+    "address-level4",
+    "address-line1",
+    "address-line2",
+    "address-line3",
+    "bday",
+    "bday-day",
+    "bday-month",
+    "bday-year",
+    "billing",
+    "cc-additional-name",
+    "cc-csc",
+    "cc-exp",
+    "cc-exp-month",
+    "cc-exp-year",
+    "cc-family-name",
+    "cc-given-name",
+    "cc-name",
+    "cc-number",
+    "cc-type",
+    "country",
+    "country-name",
+    "current-password",
+    "email",
+    "family-name",
+    "fax",
+    "given-name",
+    "home",
+    "honorific-prefix",
+    "honorific-suffix",
+    "impp",
+    "language",
+    "mobile",
+    "name",
+    "new-password",
+    "nickname",
+    "off",
+    "on",
+    "one-time-code",
+    "organization",
+    "organization-title",
+    "pager",
+    "photo",
+    "postal-code",
+    "section-",
+    "sex",
+    "shipping",
+    "street-address",
+    "tel",
+    "tel-area-code",
+    "tel-country-code",
+    "tel-extension",
+    "tel-local",
+    "tel-local-prefix",
+    "tel-local-suffix",
+    "tel-national",
+    "transaction-amount",
+    "transaction-currency",
+    "url",
+    "username",
+    "work"
   ],
   "ins": [
     "cite",
@@ -30777,9 +31635,6 @@
     "layout generator function",
     "layout options"
   ],
-  "layout-containment": [
-    "containing box"
-  ],
   "lch()": [
     "alpha",
     "c",
@@ -30834,6 +31689,10 @@
     "<integer>",
     "none"
   ],
+  "line-gap-override!!descriptor": [
+    "<percentage>",
+    "normal"
+  ],
   "line-grid": [
     "create",
     "match-parent"
@@ -30881,6 +31740,10 @@
     "type",
     "urn",
     "x-ua-compatible state"
+  ],
+  "link/crossorigin": [
+    "anonymous",
+    "use-credentials"
   ],
   "list": [
     "append",
@@ -31160,14 +32023,7 @@
     "stretch"
   ],
   "media": [
-    "autoplay",
-    "controls",
-    "crossorigin",
-    "loop",
-    "muted",
-    "preload",
-    "seek",
-    "src"
+    "seek"
   ],
   "menu": [
     "compact",
@@ -31180,6 +32036,25 @@
     "http-equiv",
     "name",
     "scheme"
+  ],
+  "meta/http-equiv": [
+    "content-language",
+    "content-security-policy",
+    "content-type",
+    "default-style",
+    "refresh",
+    "set-cookie",
+    "x-ua-compatible"
+  ],
+  "meta/name": [
+    "application-name",
+    "author",
+    "color-scheme",
+    "description",
+    "generator",
+    "keywords",
+    "referrer",
+    "theme-color"
   ],
   "metadata": [
     "role"
@@ -31233,6 +32108,11 @@
   "mouseevent": [
     "relatedTarget"
   ],
+  "navigationtype": [
+    "back_forward",
+    "navigate",
+    "reload"
+  ],
   "no-composite": [
     "no-composite"
   ],
@@ -31249,10 +32129,10 @@
     "image url",
     "language",
     "origin",
-    "renotify preference flag",
-    "require interaction preference flag",
+    "renotify preference",
+    "require interaction preference",
     "service worker registration",
-    "silent preference flag",
+    "silent preference",
     "tag",
     "timestamp",
     "title",
@@ -31306,6 +32186,72 @@
     "object store",
     "transaction"
   ],
+  "object/autocomplete": [
+    "additional-name",
+    "address-level1",
+    "address-level2",
+    "address-level3",
+    "address-level4",
+    "address-line1",
+    "address-line2",
+    "address-line3",
+    "bday",
+    "bday-day",
+    "bday-month",
+    "bday-year",
+    "billing",
+    "cc-additional-name",
+    "cc-csc",
+    "cc-exp",
+    "cc-exp-month",
+    "cc-exp-year",
+    "cc-family-name",
+    "cc-given-name",
+    "cc-name",
+    "cc-number",
+    "cc-type",
+    "country",
+    "country-name",
+    "current-password",
+    "email",
+    "family-name",
+    "fax",
+    "given-name",
+    "home",
+    "honorific-prefix",
+    "honorific-suffix",
+    "impp",
+    "language",
+    "mobile",
+    "name",
+    "new-password",
+    "nickname",
+    "off",
+    "on",
+    "one-time-code",
+    "organization",
+    "organization-title",
+    "pager",
+    "photo",
+    "postal-code",
+    "section-",
+    "sex",
+    "shipping",
+    "street-address",
+    "tel",
+    "tel-area-code",
+    "tel-country-code",
+    "tel-extension",
+    "tel-local",
+    "tel-local-prefix",
+    "tel-local-suffix",
+    "tel-national",
+    "transaction-amount",
+    "transaction-currency",
+    "url",
+    "username",
+    "work"
+  ],
   "observable array attribute": [
     "backing list",
     "delete an indexed value",
@@ -31349,6 +32295,11 @@
     "reversed",
     "start",
     "type"
+  ],
+  "ol/type": [
+    "1",
+    "a",
+    "i"
   ],
   "opaque framebuffer": [
     "session"
@@ -31408,6 +32359,72 @@
     "for",
     "form",
     "name"
+  ],
+  "output/autocomplete": [
+    "additional-name",
+    "address-level1",
+    "address-level2",
+    "address-level3",
+    "address-level4",
+    "address-line1",
+    "address-line2",
+    "address-line3",
+    "bday",
+    "bday-day",
+    "bday-month",
+    "bday-year",
+    "billing",
+    "cc-additional-name",
+    "cc-csc",
+    "cc-exp",
+    "cc-exp-month",
+    "cc-exp-year",
+    "cc-family-name",
+    "cc-given-name",
+    "cc-name",
+    "cc-number",
+    "cc-type",
+    "country",
+    "country-name",
+    "current-password",
+    "email",
+    "family-name",
+    "fax",
+    "given-name",
+    "home",
+    "honorific-prefix",
+    "honorific-suffix",
+    "impp",
+    "language",
+    "mobile",
+    "name",
+    "new-password",
+    "nickname",
+    "off",
+    "on",
+    "one-time-code",
+    "organization",
+    "organization-title",
+    "pager",
+    "photo",
+    "postal-code",
+    "section-",
+    "sex",
+    "shipping",
+    "street-address",
+    "tel",
+    "tel-area-code",
+    "tel-country-code",
+    "tel-extension",
+    "tel-local",
+    "tel-local-prefix",
+    "tel-local-suffix",
+    "tel-national",
+    "transaction-amount",
+    "transaction-currency",
+    "url",
+    "username",
+    "work"
   ],
   "overflow": [
     "auto",
@@ -31510,9 +32527,6 @@
     "paint function",
     "paintrenderingcontext2dsettings object"
   ],
-  "paint-containment": [
-    "containing box"
-  ],
   "pair": [
     "item",
     "name"
@@ -31571,9 +32585,6 @@
     "node reference",
     "transferred port"
   ],
-  "pending tasks struct": [
-    "counter"
-  ],
   "perspective": [
     "<length [0,∞]>",
     "none"
@@ -31602,6 +32613,10 @@
     "self-origin",
     "source"
   ],
+  "policy container": [
+    "csp list",
+    "referrer policy"
+  ],
   "polygon": [
     "points"
   ],
@@ -31618,9 +32633,16 @@
   "pre": [
     "width"
   ],
+  "prescan a byte stream to determine its encoding": [
+    "end condition"
+  ],
   "primitiveUnits": [
     "objectboundingbox",
     "userspaceonuse"
+  ],
+  "print-color-adjust": [
+    "economy",
+    "exact"
   ],
   "processor construction data": [
     "name",
@@ -31640,6 +32662,11 @@
   "promise": [
     "react",
     "reacting"
+  ],
+  "propdef-footnote-display": [
+    "block",
+    "compact",
+    "inline"
   ],
   "property": [
     "scoped",
@@ -31664,6 +32691,7 @@
   ],
   "pull-into descriptor": [
     "buffer",
+    "buffer byte length",
     "byte length",
     "byte offset",
     "bytes filled",
@@ -31817,6 +32845,7 @@
     "origin",
     "parser metadata",
     "placed",
+    "policy container",
     "prevent no-cache cache-control header modification flag",
     "priority",
     "processed",
@@ -31855,10 +32884,10 @@
     "cache state",
     "clone",
     "cors-exposed header-name list",
-    "csp list",
     "header list",
     "location url",
     "range-requested flag",
+    "service worker timing info",
     "status",
     "status message",
     "timing allow passed flag",
@@ -31983,7 +33012,12 @@
   "script resource": [
     "has ever been evaluated flag",
     "https state",
+    "policy container",
     "referrer policy"
+  ],
+  "script/crossorigin": [
+    "anonymous",
+    "use-credentials"
   ],
   "scroll-anchoring": [
     "anchor node"
@@ -32036,7 +33070,6 @@
     "inline",
     "mandatory",
     "none",
-    "point",
     "proximity",
     "x",
     "y"
@@ -32052,6 +33085,8 @@
     "auto",
     "both",
     "force",
+    "match-parent",
+    "mirror",
     "stable"
   ],
   "scrollbar-width": [
@@ -32059,10 +33094,6 @@
     "auto",
     "none",
     "thin"
-  ],
-  "scrollrestoration": [
-    "auto",
-    "manual"
   ],
   "secondary view": [
     "secondary-views"
@@ -32078,6 +33109,72 @@
     "name",
     "required",
     "size"
+  ],
+  "select/autocomplete": [
+    "additional-name",
+    "address-level1",
+    "address-level2",
+    "address-level3",
+    "address-level4",
+    "address-line1",
+    "address-line2",
+    "address-line3",
+    "bday",
+    "bday-day",
+    "bday-month",
+    "bday-year",
+    "billing",
+    "cc-additional-name",
+    "cc-csc",
+    "cc-exp",
+    "cc-exp-month",
+    "cc-exp-year",
+    "cc-family-name",
+    "cc-given-name",
+    "cc-name",
+    "cc-number",
+    "cc-type",
+    "country",
+    "country-name",
+    "current-password",
+    "email",
+    "family-name",
+    "fax",
+    "given-name",
+    "home",
+    "honorific-prefix",
+    "honorific-suffix",
+    "impp",
+    "language",
+    "mobile",
+    "name",
+    "new-password",
+    "nickname",
+    "off",
+    "on",
+    "one-time-code",
+    "organization",
+    "organization-title",
+    "pager",
+    "photo",
+    "postal-code",
+    "section-",
+    "sex",
+    "shipping",
+    "street-address",
+    "tel",
+    "tel-area-code",
+    "tel-country-code",
+    "tel-extension",
+    "tel-local",
+    "tel-local-prefix",
+    "tel-local-suffix",
+    "tel-national",
+    "transaction-amount",
+    "transaction-currency",
+    "url",
+    "username",
+    "work"
   ],
   "selector": [
     "combinator",
@@ -32126,6 +33223,10 @@
     "unregistered",
     "update via cache mode",
     "waiting worker"
+  ],
+  "service worker timing info": [
+    "fetch event dispatch time",
+    "start time"
   ],
   "set": [
     "append",
@@ -32223,9 +33324,6 @@
     "auto",
     "none"
   ],
-  "size-containment": [
-    "containing box"
-  ],
   "skeleton joint": [
     "radius"
   ],
@@ -32236,6 +33334,7 @@
   "slottable": [
     "assigned",
     "assigned slot",
+    "manual slot assignment",
     "name"
   ],
   "source": [
@@ -32401,9 +33500,29 @@
     "title",
     "type"
   ],
+  "subscript-position-override!!descriptor": [
+    "<percentage>",
+    "from-font",
+    "normal"
+  ],
+  "subscript-size-override!!descriptor": [
+    "<percentage>",
+    "from-font",
+    "normal"
+  ],
   "sum value": [
     "unit map",
     "value"
+  ],
+  "superscript-position-override!!descriptor": [
+    "<percentage>",
+    "from-font",
+    "normal"
+  ],
+  "superscript-size-override!!descriptor": [
+    "<percentage>",
+    "from-font",
+    "normal"
   ],
   "supported open() feature name": [
     "height",
@@ -32724,7 +33843,6 @@
     "dirname",
     "disabled",
     "form",
-    "hard",
     "maxlength",
     "minlength",
     "name",
@@ -32732,8 +33850,77 @@
     "readonly",
     "required",
     "rows",
-    "soft",
     "wrap"
+  ],
+  "textarea/autocomplete": [
+    "additional-name",
+    "address-level1",
+    "address-level2",
+    "address-level3",
+    "address-level4",
+    "address-line1",
+    "address-line2",
+    "address-line3",
+    "bday",
+    "bday-day",
+    "bday-month",
+    "bday-year",
+    "billing",
+    "cc-additional-name",
+    "cc-csc",
+    "cc-exp",
+    "cc-exp-month",
+    "cc-exp-year",
+    "cc-family-name",
+    "cc-given-name",
+    "cc-name",
+    "cc-number",
+    "cc-type",
+    "country",
+    "country-name",
+    "current-password",
+    "email",
+    "family-name",
+    "fax",
+    "given-name",
+    "home",
+    "honorific-prefix",
+    "honorific-suffix",
+    "impp",
+    "language",
+    "mobile",
+    "name",
+    "new-password",
+    "nickname",
+    "off",
+    "on",
+    "one-time-code",
+    "organization",
+    "organization-title",
+    "pager",
+    "photo",
+    "postal-code",
+    "section-",
+    "sex",
+    "shipping",
+    "street-address",
+    "tel",
+    "tel-area-code",
+    "tel-country-code",
+    "tel-extension",
+    "tel-local",
+    "tel-local-prefix",
+    "tel-local-suffix",
+    "tel-national",
+    "transaction-amount",
+    "transaction-currency",
+    "url",
+    "username",
+    "work"
+  ],
+  "textarea/wrap": [
+    "hard",
+    "soft"
   ],
   "texttrack": [
     "showing"
@@ -32748,23 +33935,25 @@
   "th": [
     "abbr",
     "align",
-    "auto",
     "axis",
     "bgcolor",
     "char",
     "charoff",
-    "col",
-    "colgroup",
     "colspan",
     "headers",
     "height",
     "nowrap",
-    "row",
-    "rowgroup",
     "rowspan",
     "scope",
     "valign",
     "width"
+  ],
+  "th/scope": [
+    "auto",
+    "col",
+    "colgroup",
+    "row",
+    "rowgroup"
   ],
   "time": [
     "datetime"
@@ -32781,7 +33970,8 @@
     "add"
   ],
   "top-level browsing context": [
-    "browsing session"
+    "browsing session",
+    "system focus"
   ],
   "tr": [
     "align",
@@ -32792,7 +33982,6 @@
     "valign"
   ],
   "track": [
-    "auto",
     "captions",
     "chapters metadata",
     "default",
@@ -32801,9 +33990,15 @@
     "kind",
     "label",
     "metadata",
-    "none",
     "src",
     "srclang",
+    "subtitles"
+  ],
+  "track/kind": [
+    "captions",
+    "chapters",
+    "descriptions",
+    "metadata",
     "subtitles"
   ],
   "transaction": [
@@ -33038,10 +34233,26 @@
     "top"
   ],
   "video": [
+    "autoplay",
+    "controls",
+    "crossorigin",
     "height",
+    "loop",
+    "muted",
     "playsinline",
     "poster",
+    "preload",
+    "src",
     "width"
+  ],
+  "video/crossorigin": [
+    "anonymous",
+    "use-credentials"
+  ],
+  "video/preload": [
+    "auto",
+    "metadata",
+    "none"
   ],
   "view": [
     "active",
@@ -33079,10 +34290,6 @@
   ],
   "visibility": [
     "collapse",
-    "hidden",
-    "visible"
-  ],
-  "visibilitystate": [
     "hidden",
     "visible"
   ],
@@ -33233,7 +34440,14 @@
     "'wrap-flow'!!'end'",
     "'wrap-flow'!!'maximum'",
     "'wrap-flow'!!'minimum'",
-    "'wrap-flow'!!'start'"
+    "'wrap-flow'!!'start'",
+    "auto",
+    "both",
+    "clear",
+    "end",
+    "maximum",
+    "minimum",
+    "start"
   ],
   "wrap-inside": [
     "auto",
@@ -33243,7 +34457,9 @@
     "'none'",
     "'wrap'",
     "'wrap-through'!!'none'",
-    "'wrap-through'!!'wrap'"
+    "'wrap-through'!!'wrap'",
+    "none",
+    "wrap"
   ],
   "writing-mode": [
     "horizontal-tb",

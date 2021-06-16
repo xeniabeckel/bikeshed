@@ -613,6 +613,16 @@ https://html.spec.whatwg.org/multipage/webappapis.html#creating-a-classic-script
 
 1
 -
+create a connection
+dfn
+fetch
+fetch
+1
+current
+https://fetch.spec.whatwg.org/#create-a-connection
+
+1
+-
 create a css style sheet
 dfn
 cssom-1
@@ -923,6 +933,26 @@ https://heycam.github.io/webidl/#dfn-create-frozen-array
 1
 1
 -
+create a global object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#create-a-global-object
+
+1
+-
+create a global object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#create-a-global-object
+
+1
+-
 create a hit test result
 dfn
 webxr-hit-test-1
@@ -960,6 +990,26 @@ webxr-hit-test
 1
 current
 https://immersive-web.github.io/hit-test/#create-a-hit-test-source-for-transient-input
+
+1
+-
+create a host function
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#create-a-host-function
+
+1
+-
+create a host function
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#create-a-host-function
 
 1
 -
@@ -1051,6 +1101,46 @@ cssom
 current
 https://drafts.csswg.org/cssom-1/#create-a-medialist-object
 1
+1
+-
+create a memory buffer
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#create-a-memory-buffer
+
+1
+-
+create a memory buffer
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#create-a-memory-buffer
+
+1
+-
+create a memory object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#create-a-memory-object
+
+1
+-
+create a memory object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#create-a-memory-object
+
 1
 -
 create a module script
@@ -1170,16 +1260,6 @@ html
 1
 snapshot
 https://html.spec.whatwg.org/multipage/infrastructure.html#new
-
-1
--
-create a new resolved promise
-dfn
-web-animations-1
-web-animations
-1
-snapshot
-https://www.w3.org/TR/web-animations-1/#create-a-new-resolved-promise
 
 1
 -
@@ -1324,6 +1404,16 @@ https://immersive-web.github.io/webxr/#create-a-reference-space
 
 1
 -
+create a sorted name list
+dfn
+indexeddb-2
+indexeddb
+2
+current
+https://w3c.github.io/IndexedDB/#create-a-sorted-name-list
+
+1
+-
 create a storage bucket
 dfn
 storage
@@ -1362,6 +1452,26 @@ css-typed-om
 current
 https://drafts.css-houdini.org/css-typed-om-1/#create-a-sum-value
 1
+1
+-
+create a table object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#create-a-table-object
+
+1
+-
+create a table object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#create-a-table-object
+
 1
 -
 create a type
@@ -1412,16 +1522,6 @@ html
 1
 snapshot
 https://html.spec.whatwg.org/multipage/worklets.html#create-a-worklet-global-scope
-1
-1
--
-create a workletglobalscope
-dfn
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#create-a-workletglobalscope
 1
 1
 -
@@ -1516,6 +1616,26 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#creating-an-event
 
 1
 -
+create an exports object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#create-an-exports-object
+
+1
+-
+create an exports object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#create-an-exports-object
+
+1
+-
 create an identity transformstream
 dfn
 streams
@@ -1524,16 +1644,6 @@ streams
 current
 https://streams.spec.whatwg.org/#create-an-identity-transformstream
 1
-1
--
-create an imagedata object
-dfn
-html
-html
-1
-snapshot
-https://html.spec.whatwg.org/multipage/canvas.html#create-an-imagedata-object
-
 1
 -
 create an inheritance stack
@@ -1765,6 +1875,16 @@ generic-sensor
 1
 current
 https://w3c.github.io/sensors/#create-mock-sensor
+
+1
+-
+create the navigation timing entry
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/infrastructure.html#create-the-navigation-timing-entry
 
 1
 -
@@ -2128,6 +2248,17 @@ https://dom.spec.whatwg.org/#dom-document-createcomment
 1
 1
 Document
+-
+createConicGradient(startAngle, x, y)
+method
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-createconicgradient
+1
+1
+CanvasFillStrokeStyles
 -
 createConstantSource()
 method
@@ -2708,7 +2839,18 @@ https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#dom-creat
 1
 WindowOrWorkerGlobalScope
 -
-createImageData()
+createImageData(imagedata)
+method
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-createimagedata-imagedata
+1
+1
+CanvasImageData
+-
+createImageData(sw, sh)
 method
 html
 html
@@ -3620,6 +3762,16 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#creating-a-permission
 
 1
 -
+creating a policy container from a fetch response
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/origin.html#creating-a-policy-container-from-a-fetch-response
+1
+1
+-
 creating a proxy
 dfn
 streams
@@ -4342,6 +4494,17 @@ fetch
 fetch
 1
 current
+https://fetch.spec.whatwg.org/#connection-credentials
+
+1
+connection
+-
+credentials
+dfn
+fetch
+fetch
+1
+current
 https://fetch.spec.whatwg.org/#credentials
 1
 1
@@ -4397,17 +4560,6 @@ html
 1
 snapshot
 https://html.spec.whatwg.org/multipage/worklets.html#dom-workletoptions-credentials
-1
-1
-WorkletOptions
--
-credentials
-dict-member
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#dom-workletoptions-credentials
 1
 1
 WorkletOptions
@@ -4512,6 +4664,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#valdef-color-crimson
+1
+1
+<color>
+-
+crimson
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-crimson
 1
 1
 <color>
@@ -4804,6 +4967,16 @@ css-images
 current
 https://drafts.csswg.org/css-images-4/#funcdef-cross-fade
 1
+1
+-
+cross-origin
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-cross-origin
+
 1
 -
 cross-origin accessible window property name
@@ -5245,6 +5418,17 @@ cursor
 -
 crosshair
 value
+css-ui-3
+css-ui
+3
+current
+https://drafts.csswg.org/css-ui-3/#valdef-cursor-crosshair
+1
+1
+cursor
+-
+crosshair
+value
 css-ui-4
 css-ui
 4
@@ -5318,7 +5502,8 @@ snapshot
 https://html.spec.whatwg.org/multipage/media.html#attr-media-crossorigin
 1
 1
-media
+audio
+video
 -
 crossorigin
 element-attr

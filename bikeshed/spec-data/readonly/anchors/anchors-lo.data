@@ -365,6 +365,39 @@ https://xhr.spec.whatwg.org/#event-xhr-load
 1
 XMLHttpRequest
 -
+load event end time
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/dom.html#load-event-end-time
+1
+1
+document load timing info
+-
+load event start time
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/dom.html#load-event-start-time
+1
+1
+document load timing info
+-
+load timing info
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/dom.html#load-timing-info
+1
+1
+Document
+-
 load()
 method
 css-font-loading-3
@@ -806,6 +839,17 @@ css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#valdef-background-attachment-local
+1
+1
+background-attachment
+-
+local
+value
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds-3/#valdef-background-attachment-local
 1
 1
 background-attachment
@@ -1362,6 +1406,39 @@ https://dom.spec.whatwg.org/#dom-element-removeattributens-namespace-localname-l
 1
 Element/removeAttributeNS(namespace, localName)
 -
+localName
+argument
+dom
+dom
+1
+snapshot
+https://dom.spec.whatwg.org/#dom-xsltprocessor-getparameter-namespaceuri-localname-localname
+1
+1
+XSLTProcessor/getParameter(namespaceURI, localName)
+-
+localName
+argument
+dom
+dom
+1
+snapshot
+https://dom.spec.whatwg.org/#dom-xsltprocessor-removeparameter-namespaceuri-localname-localname
+1
+1
+XSLTProcessor/removeParameter(namespaceURI, localName)
+-
+localName
+argument
+dom
+dom
+1
+snapshot
+https://dom.spec.whatwg.org/#dom-xsltprocessor-setparameter-namespaceuri-localname-value-localname
+1
+1
+XSLTProcessor/setParameter(namespaceURI, localName, value)
+-
 localStorage
 attribute
 html
@@ -1835,6 +1912,16 @@ https://www.w3.org/TR/css-writing-modes-3/#logical-height
 -
 logical height
 dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#logical-height
+1
+1
+-
+logical height
+dfn
 css-writing-modes-4
 css-writing-modes
 4
@@ -1880,6 +1967,16 @@ css-writing-modes
 3
 snapshot
 https://www.w3.org/TR/css-writing-modes-3/#logical-width
+1
+1
+-
+logical width
+dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#logical-width
 1
 1
 -
@@ -2018,6 +2115,26 @@ https://html.spec.whatwg.org/multipage/obsolete.html#attr-img-longdesc
 1
 img
 -
+longer
+dfn
+css-color-4
+css-color
+4
+snapshot
+https://www.w3.org/TR/css-color-4/#longer
+1
+1
+-
+longer
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#longer
+1
+1
+-
 longhand
 dfn
 css-cascade-3
@@ -2025,6 +2142,16 @@ css-cascade
 3
 snapshot
 https://www.w3.org/TR/css-cascade-3/#longhand
+1
+1
+-
+longhand
+dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#longhand
 1
 1
 -
@@ -2075,6 +2202,16 @@ css-cascade
 3
 snapshot
 https://www.w3.org/TR/css-cascade-3/#longhand
+1
+1
+-
+longhand property
+dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#longhand
 1
 1
 -
@@ -2203,7 +2340,8 @@ snapshot
 https://html.spec.whatwg.org/multipage/media.html#attr-media-loop
 1
 1
-media
+audio
+video
 -
 loop
 attribute
@@ -2381,6 +2519,17 @@ https://www.w3.org/TR/css-text-3/#valdef-line-break-loose
 1
 line-break
 -
+loose
+value
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#valdef-line-break-loose
+1
+1
+line-break
+-
 loosely sorted by offset
 dfn
 web-animations-1
@@ -2528,6 +2677,29 @@ current
 https://w3c.github.io/sensors/#low-level
 
 1
+-
+lower
+argument
+css-typed-om-1
+css-typed-om
+1
+current
+https://drafts.css-houdini.org/css-typed-om-1/#dom-cssmathclamp-cssmathclamp-lower-value-upper-lower
+1
+1
+CSSMathClamp/CSSMathClamp(lower, value, upper)
+CSSMathClamp/constructor(lower, value, upper)
+-
+lower
+attribute
+css-typed-om-1
+css-typed-om
+1
+current
+https://drafts.css-houdini.org/css-typed-om-1/#dom-cssmathclamp-lower
+1
+1
+CSSMathClamp
 -
 lower
 argument
@@ -2877,6 +3049,17 @@ css-text
 3
 snapshot
 https://www.w3.org/TR/css-text-3/#valdef-text-transform-lowercase
+1
+1
+text-transform
+-
+lowercase
+value
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#valdef-text-transform-lowercase
 1
 1
 text-transform

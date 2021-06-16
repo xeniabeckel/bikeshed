@@ -235,6 +235,16 @@ enum
 web-animations-1
 web-animations
 1
+snapshot
+https://www.w3.org/TR/web-animations-1/#enumdef-timelinephase
+1
+1
+-
+TimelinePhase
+enum
+web-animations-1
+web-animations
+1
 current
 https://drafts.csswg.org/web-animations-1/#enumdef-timelinephase
 1
@@ -875,7 +885,7 @@ web-animations
 1
 snapshot
 https://www.w3.org/TR/web-animations-1/#timeline
-
+1
 1
 -
 timeline
@@ -899,6 +909,17 @@ https://www.w3.org/TR/web-animations-1/#dom-animation-timeline
 1
 1
 Animation
+-
+timeline
+dict-member
+web-animations-1
+web-animations
+1
+snapshot
+https://www.w3.org/TR/web-animations-1/#dom-keyframeanimationoptions-timeline
+1
+1
+KeyframeAnimationOptions
 -
 timeline
 attribute
@@ -970,8 +991,28 @@ dfn
 web-animations-1
 web-animations
 1
+snapshot
+https://www.w3.org/TR/web-animations-1/#timeline-active-phase
+1
+1
+-
+timeline active phase
+dfn
+web-animations-1
+web-animations
+1
 current
 https://drafts.csswg.org/web-animations-1/#timeline-active-phase
+1
+1
+-
+timeline after phase
+dfn
+web-animations-1
+web-animations
+1
+snapshot
+https://www.w3.org/TR/web-animations-1/#timeline-after-phase
 1
 1
 -
@@ -1010,6 +1051,16 @@ dfn
 web-animations-1
 web-animations
 1
+snapshot
+https://www.w3.org/TR/web-animations-1/#timeline-before-phase
+1
+1
+-
+timeline before phase
+dfn
+web-animations-1
+web-animations
+1
 current
 https://drafts.csswg.org/web-animations-1/#timeline-before-phase
 1
@@ -1040,6 +1091,16 @@ dfn
 web-animations-1
 web-animations
 1
+snapshot
+https://www.w3.org/TR/web-animations-1/#timeline-inactive-phase
+1
+1
+-
+timeline inactive phase
+dfn
+web-animations-1
+web-animations
+1
 current
 https://drafts.csswg.org/web-animations-1/#timeline-inactive-phase
 1
@@ -1053,6 +1114,16 @@ html
 snapshot
 https://html.spec.whatwg.org/multipage/media.html#timeline-offset
 
+1
+-
+timeline phase
+dfn
+web-animations-1
+web-animations
+1
+snapshot
+https://www.w3.org/TR/web-animations-1/#timeline-phase
+1
 1
 -
 timeline phase
@@ -1505,6 +1576,37 @@ https://fetch.spec.whatwg.org/#fetch-params-timing-info
 1
 fetch params
 -
+timing info
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/infrastructure.html#concept-response-timing-info
+
+1
+-
+timing info
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-timing-info
+
+1
+PerformanceResourceTiming
+-
+timing-allow-origin
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-timing-allow-origin
+
+1
+-
 title
 attribute
 cssom-1
@@ -1864,4 +1966,25 @@ https://drafts.csswg.org/css-fonts-4/#valdef-font-variant-caps-titling-caps
 1
 1
 font-variant-caps
+-
+titling-caps
+value
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/infrastructure.html#'titling-caps'
+
+1
+-
+titling-caps
+enum-value
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fontvariantcaps-titling-caps
+1
+1
+CanvasFontVariantCaps
 -

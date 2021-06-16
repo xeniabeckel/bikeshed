@@ -1499,16 +1499,6 @@ https://html.spec.whatwg.org/multipage/webappapis.html#fetch-a-single-module-scr
 
 1
 -
-fetch a worklet script
-dfn
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#fetch-a-worklet-script
-
-1
--
 fetch a worklet script graph
 dfn
 html
@@ -1559,16 +1549,6 @@ https://html.spec.whatwg.org/multipage/webappapis.html#fetch-an-inline-module-sc
 
 1
 -
-fetch and invoke a worklet script
-dfn
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#fetch-and-invoke-a-worklet-script
-
-1
--
 fetch and process the linked resource
 dfn
 html
@@ -1598,6 +1578,17 @@ current
 https://w3c.github.io/webappsec-csp/#fetch-directives
 1
 1
+-
+fetch event dispatch time
+dfn
+service-workers
+service-workers
+1
+current
+https://w3c.github.io/ServiceWorker/#service-worker-timing-info-fetch-event-dispatch-time
+1
+1
+service worker timing info
 -
 fetch finale
 dfn
@@ -1774,6 +1765,17 @@ https://www.w3.org/TR/navigation-timing-2/#dom-performancetiming-fetchstart
 1
 1
 PerformanceTiming
+-
+fetchStart
+attribute
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dom-performanceresourcetiming-fetchstart
+1
+1
+PerformanceResourceTiming
 -
 fetching an image resource
 dfn

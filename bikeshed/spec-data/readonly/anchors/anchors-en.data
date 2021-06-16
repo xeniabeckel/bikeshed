@@ -578,6 +578,17 @@ https://fetch.spec.whatwg.org/#fetch-timing-info-encoded-body-size
 1
 fetch timing info
 -
+encodedBodySize
+attribute
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dom-performanceresourcetiming-encodedbodysize
+1
+1
+PerformanceResourceTiming
+-
 encoder
 dfn
 encoding-1
@@ -931,6 +942,17 @@ steps()
 -
 end
 value
+css-exclusions-1
+css-exclusions
+1
+current
+https://drafts.csswg.org/css-exclusions-1/#valdef-wrap-flow-end
+1
+1
+wrap-flow
+-
+end
+value
 css-inline-3
 css-inline
 3
@@ -990,30 +1012,10 @@ css-scroll-snap-1
 css-scroll-snap
 1
 current
-https://drafts.csswg.org/css-scroll-snap-1/Proposal.html#valdef-scroll-snap-align-end
+https://drafts.csswg.org/css-scroll-snap-1/#valdef-scroll-snap-align-end
 1
 1
 scroll-snap-align
--
-end
-value
-css-scroll-snap-1
-css-scroll-snap
-1
-current
-https://drafts.csswg.org/css-scroll-snap-1/diff.html#valdef-scroll-snap-align-end
-1
-1
--
-end
-value
-css-scroll-snap-1
-css-scroll-snap
-1
-current
-https://drafts.csswg.org/css-scroll-snap-1/diff-notes.html#valdef-scroll-snap-align-end
-1
-1
 -
 end
 value
@@ -1022,6 +1024,17 @@ css-text
 3
 snapshot
 https://www.w3.org/TR/css-text-3/#valdef-text-align-end
+1
+1
+text-align
+-
+end
+value
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#valdef-text-align-end
 1
 1
 text-align
@@ -1055,6 +1068,17 @@ css-writing-modes
 3
 snapshot
 https://www.w3.org/TR/css-writing-modes-3/#end
+1
+1
+CSS
+-
+end
+dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#css-end
 1
 1
 CSS
@@ -1167,6 +1191,17 @@ https://immersive-web.github.io/webxr/#eventdef-xrsession-end
 1
 XRSession
 -
+end condition
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/parsing.html#prescan-end-condition
+1
+1
+prescan a byte stream to determine its encoding
+-
 end delay
 dfn
 web-animations-1
@@ -1272,6 +1307,17 @@ transition
 -
 end time
 dfn
+css-transitions-1
+css-transitions
+1
+current
+https://drafts.csswg.org/css-transitions-1/#transition-end-time
+1
+1
+transition
+-
+end time
+dfn
 fetch
 fetch
 1
@@ -1308,6 +1354,17 @@ css-transitions
 1
 snapshot
 https://www.w3.org/TR/css-transitions-1/#transition-end-value
+1
+1
+transition
+-
+end value
+dfn
+css-transitions-1
+css-transitions
+1
+current
+https://drafts.csswg.org/css-transitions-1/#transition-end-value
 1
 1
 transition
@@ -2632,6 +2689,16 @@ https://www.w3.org/TR/css-gcpm-3/#entry-value
 
 1
 -
+entry value
+dfn
+css-gcpm-3
+css-gcpm
+3
+current
+https://drafts.csswg.org/css-gcpm-3/#entry-value
+
+1
+-
 entrytype
 dfn
 navigation-timing-2
@@ -2641,6 +2708,17 @@ snapshot
 https://www.w3.org/TR/navigation-timing-2/#dom-PerformanceNavigationTiming-entryType
 
 1
+-
+entrytype
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-entrytype
+
+1
+PerformanceResourceTiming
 -
 enumerableownpropertynames
 dfn
@@ -2814,6 +2892,16 @@ https://w3c.github.io/FileAPI/#blob-url-entry-environment
 1
 1
 blob URL entry
+-
+environment
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/infrastructure.html#blob-url-entry-environment
+
+1
 -
 environment
 dfn

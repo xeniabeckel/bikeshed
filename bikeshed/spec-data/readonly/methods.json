@@ -299,9 +299,30 @@
     }
   },
   "CSSColor()": {
-    "CSSColor(colorspace, channels, optional alpha)": {
+    "CSSColor(colorSpace, channels)": {
       "args": [
-        "colorspace",
+        "colorSpace",
+        "channels"
+      ],
+      "for": [
+        "CSSColor"
+      ],
+      "shortname": "css-typed-om"
+    },
+    "CSSColor(colorSpace, channels, alpha)": {
+      "args": [
+        "colorSpace",
+        "channels",
+        "alpha"
+      ],
+      "for": [
+        "CSSColor"
+      ],
+      "shortname": "css-typed-om"
+    },
+    "CSSColor(colorSpace, channels, optional alpha)": {
+      "args": [
+        "colorSpace",
         "channels",
         "optional alpha"
       ],
@@ -309,34 +330,44 @@
         "CSSColor"
       ],
       "shortname": "css-typed-om"
-    },
-    "CSSColor(variant)": {
-      "args": [
-        "variant"
-      ],
-      "for": [
-        "CSSColor"
-      ],
-      "shortname": "css-typed-om"
     }
   },
-  "CSSGray()": {
-    "CSSGray(gray)": {
+  "CSSDeviceCMYK()": {
+    "CSSDeviceCMYK(c, m, y, k)": {
       "args": [
-        "gray"
+        "c",
+        "m",
+        "y",
+        "k"
       ],
       "for": [
-        "CSSGray"
+        "CSSDeviceCMYK"
       ],
       "shortname": "css-typed-om"
     },
-    "CSSGray(gray, alpha)": {
+    "CSSDeviceCMYK(c, m, y, k, alpha)": {
       "args": [
-        "gray",
+        "c",
+        "m",
+        "y",
+        "k",
         "alpha"
       ],
       "for": [
-        "CSSGray"
+        "CSSDeviceCMYK"
+      ],
+      "shortname": "css-typed-om"
+    },
+    "CSSDeviceCMYK(c, m, y, k, optional alpha)": {
+      "args": [
+        "c",
+        "m",
+        "y",
+        "k",
+        "optional alpha"
+      ],
+      "for": [
+        "CSSDeviceCMYK"
       ],
       "shortname": "css-typed-om"
     }
@@ -501,11 +532,11 @@
     }
   },
   "CSSMathClamp()": {
-    "CSSMathClamp(min, val, max)": {
+    "CSSMathClamp(lower, value, upper)": {
       "args": [
-        "min",
-        "val",
-        "max"
+        "lower",
+        "value",
+        "upper"
       ],
       "for": [
         "CSSMathClamp"
@@ -766,6 +797,24 @@
         "CSSSkewY"
       ],
       "shortname": "css-typed-om"
+    }
+  },
+  "CSSStyleSheet()": {
+    "CSSStyleSheet()": {
+      "args": [],
+      "for": [
+        "CSSStyleSheet"
+      ],
+      "shortname": "cssom"
+    },
+    "CSSStyleSheet(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "CSSStyleSheet"
+      ],
+      "shortname": "cssom"
     }
   },
   "CSSTransformValue()": {
@@ -1713,6 +1762,27 @@
       "shortname": "webaudio"
     }
   },
+  "Global()": {
+    "Global(descriptor)": {
+      "args": [
+        "descriptor"
+      ],
+      "for": [
+        "Global"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "Global(descriptor, v)": {
+      "args": [
+        "descriptor",
+        "v"
+      ],
+      "for": [
+        "Global"
+      ],
+      "shortname": "wasm-js-api"
+    }
+  },
   "Headers()": {
     "Headers()": {
       "args": [],
@@ -1732,6 +1802,31 @@
     }
   },
   "Highlight()": {
+    "Highlight()": {
+      "args": [],
+      "for": [
+        "Highlight"
+      ],
+      "shortname": "css-highlight-api"
+    },
+    "Highlight(...initialRanges)": {
+      "args": [
+        "...initialRanges"
+      ],
+      "for": [
+        "Highlight"
+      ],
+      "shortname": "css-highlight-api"
+    },
+    "Highlight(AbstractRange... initialRanges)": {
+      "args": [
+        "AbstractRange... initialRanges"
+      ],
+      "for": [
+        "Highlight"
+      ],
+      "shortname": "css-highlight-api"
+    },
     "Highlight(CSSOMString name, AbstractRange... initialRanges)": {
       "args": [
         "CSSOMString name",
@@ -1819,15 +1914,6 @@
       "shortname": "html"
     }
   },
-  "ImageData()": {
-    "ImageData()": {
-      "args": [],
-      "for": [
-        "ImageData"
-      ],
-      "shortname": "html"
-    }
-  },
   "InputEvent()": {
     "InputEvent(type)": {
       "args": [
@@ -1847,6 +1933,27 @@
         "InputEvent"
       ],
       "shortname": "ui-events"
+    }
+  },
+  "Instance()": {
+    "Instance(module)": {
+      "args": [
+        "module"
+      ],
+      "for": [
+        "Instance"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "Instance(module, importObject)": {
+      "args": [
+        "module",
+        "importObject"
+      ],
+      "for": [
+        "Instance"
+      ],
+      "shortname": "wasm-js-api"
     }
   },
   "IntersectionObserver()": {
@@ -2061,6 +2168,28 @@
       "shortname": "webaudio"
     }
   },
+  "Memory()": {
+    "Memory(descriptor)": {
+      "args": [
+        "descriptor"
+      ],
+      "for": [
+        "Memory"
+      ],
+      "shortname": "wasm-js-api"
+    }
+  },
+  "Module()": {
+    "Module(bytes)": {
+      "args": [
+        "bytes"
+      ],
+      "for": [
+        "Module"
+      ],
+      "shortname": "wasm-js-api"
+    }
+  },
   "MouseEvent()": {
     "MouseEvent(type)": {
       "args": [
@@ -2179,6 +2308,18 @@
         "OfflineAudioContext"
       ],
       "shortname": "webaudio"
+    }
+  },
+  "OffscreenCanvas()": {
+    "OffscreenCanvas(width, height)": {
+      "args": [
+        "width",
+        "height"
+      ],
+      "for": [
+        "OffscreenCanvas"
+      ],
+      "shortname": "html"
     }
   },
   "Option()": {
@@ -2662,6 +2803,27 @@
       "shortname": "web-background-sync"
     }
   },
+  "Table()": {
+    "Table(descriptor)": {
+      "args": [
+        "descriptor"
+      ],
+      "for": [
+        "Table"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "Table(descriptor, value)": {
+      "args": [
+        "descriptor",
+        "value"
+      ],
+      "for": [
+        "Table"
+      ],
+      "shortname": "wasm-js-api"
+    }
+  },
   "Text()": {
     "Text()": {
       "args": [],
@@ -2794,6 +2956,15 @@
     }
   },
   "TransitionEvent()": {
+    "TransitionEvent(type)": {
+      "args": [
+        "type"
+      ],
+      "for": [
+        "TransitionEvent"
+      ],
+      "shortname": "css-transitions"
+    },
     "TransitionEvent(type, transitionEventInitDict)": {
       "args": [
         "type",
@@ -3410,6 +3581,15 @@
       "shortname": "webxr"
     }
   },
+  "XSLTProcessor()": {
+    "XSLTProcessor()": {
+      "args": [],
+      "for": [
+        "XSLTProcessor"
+      ],
+      "shortname": "dom"
+    }
+  },
   "[[CollectFromCredentialStore]]()": {
     "[[CollectFromCredentialStore]](origin, options, sameOriginWithAncestors)": {
       "args": [
@@ -3556,7 +3736,6 @@
         "Highlight value"
       ],
       "for": [
-        "HighlightRegistry",
         "HighlightsRegister"
       ],
       "shortname": "css-highlight-api"
@@ -3621,7 +3800,6 @@
         "value"
       ],
       "for": [
-        "HighlightRegistry",
         "HighlightsRegister",
         "IDBObjectStore"
       ],
@@ -3767,16 +3945,6 @@
         "Worklet"
       ],
       "shortname": "html"
-    },
-    "addModule(moduleURL, options)": {
-      "args": [
-        "moduleURL",
-        "options"
-      ],
-      "for": [
-        "Worklet"
-      ],
-      "shortname": "worklets"
     }
   },
   "addPath()": {
@@ -4255,6 +4423,15 @@
     }
   },
   "assign()": {
+    "assign(...nodes)": {
+      "args": [
+        "...nodes"
+      ],
+      "for": [
+        "HTMLSlotElement"
+      ],
+      "shortname": "html"
+    },
     "assign(url)": {
       "args": [
         "url"
@@ -4393,7 +4570,7 @@
     "blur()": {
       "args": [],
       "for": [
-        "HTMLElement",
+        "HTMLOrSVGElement",
         "Window"
       ],
       "shortname": "html"
@@ -4673,6 +4850,15 @@
       "shortname": "html"
     }
   },
+  "clearParameters()": {
+    "clearParameters()": {
+      "args": [],
+      "for": [
+        "XSLTProcessor"
+      ],
+      "shortname": "dom"
+    }
+  },
   "clearRect()": {
     "clearRect(x, y, w, h)": {
       "args": [
@@ -4685,6 +4871,15 @@
         "CanvasRect"
       ],
       "shortname": "html"
+    }
+  },
+  "clearResourceTimings()": {
+    "clearResourceTimings()": {
+      "args": [],
+      "for": [
+        "Performance"
+      ],
+      "shortname": "resource-timing"
     }
   },
   "clearTimeout()": {
@@ -4953,6 +5148,17 @@
       "shortname": "dom"
     }
   },
+  "compile()": {
+    "compile(bytes)": {
+      "args": [
+        "bytes"
+      ],
+      "for": [
+        "WebAssembly"
+      ],
+      "shortname": "wasm-js-api"
+    }
+  },
   "complete()": {
     "complete()": {
       "args": [],
@@ -5107,6 +5313,7 @@
         "CSSMathMin",
         "CSSMathProduct",
         "CSSMathSum",
+        "CSSStyleSheet",
         "Comment",
         "DOMException",
         "DOMMatrix",
@@ -5125,6 +5332,7 @@
         "FormData",
         "FragmentResult",
         "Headers",
+        "Highlight",
         "JsonLdProcessor",
         "MediaStream",
         "MediaStreamTrackEvent",
@@ -5163,9 +5371,10 @@
         "XMLHttpRequest",
         "XPathEvaluator",
         "XRRay",
-        "XRRigidTransform"
+        "XRRigidTransform",
+        "XSLTProcessor"
       ],
-      "shortname": "css-layout-api"
+      "shortname": "css-highlight-api"
     },
     "constructor(...args)": {
       "args": [
@@ -5178,6 +5387,15 @@
         "CSSMathSum"
       ],
       "shortname": "css-typed-om"
+    },
+    "constructor(...initialRanges)": {
+      "args": [
+        "...initialRanges"
+      ],
+      "for": [
+        "Highlight"
+      ],
+      "shortname": "css-highlight-api"
     },
     "constructor(alternate, endpointNumber, direction)": {
       "args": [
@@ -5317,6 +5535,40 @@
       ],
       "shortname": "fetch"
     },
+    "constructor(bytes)": {
+      "args": [
+        "bytes"
+      ],
+      "for": [
+        "Module"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "constructor(c, m, y, k)": {
+      "args": [
+        "c",
+        "m",
+        "y",
+        "k"
+      ],
+      "for": [
+        "CSSDeviceCMYK"
+      ],
+      "shortname": "css-typed-om"
+    },
+    "constructor(c, m, y, k, alpha)": {
+      "args": [
+        "c",
+        "m",
+        "y",
+        "k",
+        "alpha"
+      ],
+      "for": [
+        "CSSDeviceCMYK"
+      ],
+      "shortname": "css-typed-om"
+    },
     "constructor(callback)": {
       "args": [
         "callback"
@@ -5348,6 +5600,27 @@
         "RTCIceCandidate"
       ],
       "shortname": "webrtc"
+    },
+    "constructor(colorSpace, channels)": {
+      "args": [
+        "colorSpace",
+        "channels"
+      ],
+      "for": [
+        "CSSColor"
+      ],
+      "shortname": "css-typed-om"
+    },
+    "constructor(colorSpace, channels, alpha)": {
+      "args": [
+        "colorSpace",
+        "channels",
+        "alpha"
+      ],
+      "for": [
+        "CSSColor"
+      ],
+      "shortname": "css-typed-om"
     },
     "constructor(configuration)": {
       "args": [
@@ -5492,6 +5765,37 @@
       ],
       "shortname": "webrtc"
     },
+    "constructor(descriptor)": {
+      "args": [
+        "descriptor"
+      ],
+      "for": [
+        "Global",
+        "Memory",
+        "Table"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "constructor(descriptor, v)": {
+      "args": [
+        "descriptor",
+        "v"
+      ],
+      "for": [
+        "Global"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "constructor(descriptor, value)": {
+      "args": [
+        "descriptor",
+        "value"
+      ],
+      "for": [
+        "Table"
+      ],
+      "shortname": "wasm-js-api"
+    },
     "constructor(device, configurationValue)": {
       "args": [
         "device",
@@ -5582,25 +5886,6 @@
         "PasswordCredential"
       ],
       "shortname": "credential-management"
-    },
-    "constructor(gray)": {
-      "args": [
-        "gray"
-      ],
-      "for": [
-        "CSSGray"
-      ],
-      "shortname": "css-typed-om"
-    },
-    "constructor(gray, alpha)": {
-      "args": [
-        "gray",
-        "alpha"
-      ],
-      "for": [
-        "CSSGray"
-      ],
-      "shortname": "css-typed-om"
     },
     "constructor(h, s, l)": {
       "args": [
@@ -5787,6 +6072,17 @@
       ],
       "shortname": "css-typed-om"
     },
+    "constructor(lower, value, upper)": {
+      "args": [
+        "lower",
+        "value",
+        "upper"
+      ],
+      "for": [
+        "CSSMathClamp"
+      ],
+      "shortname": "css-typed-om"
+    },
     "constructor(matrix)": {
       "args": [
         "matrix"
@@ -5855,16 +6151,24 @@
       ],
       "shortname": "payment-request"
     },
-    "constructor(min, val, max)": {
+    "constructor(module)": {
       "args": [
-        "min",
-        "val",
-        "max"
+        "module"
       ],
       "for": [
-        "CSSMathClamp"
+        "Instance"
       ],
-      "shortname": "css-typed-om"
+      "shortname": "wasm-js-api"
+    },
+    "constructor(module, importObject)": {
+      "args": [
+        "module",
+        "importObject"
+      ],
+      "for": [
+        "Instance"
+      ],
+      "shortname": "wasm-js-api"
     },
     "constructor(name)": {
       "args": [
@@ -5902,6 +6206,7 @@
       ],
       "for": [
         "AudioBuffer",
+        "CSSStyleSheet",
         "DocumentTimeline",
         "FragmentResult",
         "ScrollTimeline"
@@ -6235,6 +6540,7 @@
         "RTCDTMFToneChangeEvent",
         "RTCPeerConnectionIceEvent",
         "SecurityPolicyViolationEvent",
+        "TransitionEvent",
         "ValueEvent"
       ],
       "shortname": "csp"
@@ -6319,6 +6625,16 @@
         "ValueEvent"
       ],
       "shortname": "web-bluetooth"
+    },
+    "constructor(type, transitionEventInitDict)": {
+      "args": [
+        "type",
+        "transitionEventInitDict"
+      ],
+      "for": [
+        "TransitionEvent"
+      ],
+      "shortname": "css-transitions"
     },
     "constructor(underlyingSink)": {
       "args": [
@@ -6412,15 +6728,6 @@
       ],
       "for": [
         "CSSVariableReferenceValue"
-      ],
-      "shortname": "css-typed-om"
-    },
-    "constructor(variant)": {
-      "args": [
-        "variant"
-      ],
-      "for": [
-        "CSSColor"
       ],
       "shortname": "css-typed-om"
     },
@@ -6965,6 +7272,19 @@
       "shortname": "dom"
     }
   },
+  "createConicGradient()": {
+    "createConicGradient(startAngle, x, y)": {
+      "args": [
+        "startAngle",
+        "x",
+        "y"
+      ],
+      "for": [
+        "CanvasFillStrokeStyles"
+      ],
+      "shortname": "html"
+    }
+  },
   "createConstantSource()": {
     "createConstantSource()": {
       "args": [],
@@ -7373,8 +7693,20 @@
     }
   },
   "createImageData()": {
-    "createImageData()": {
-      "args": [],
+    "createImageData(imagedata)": {
+      "args": [
+        "imagedata"
+      ],
+      "for": [
+        "CanvasImageData"
+      ],
+      "shortname": "html"
+    },
+    "createImageData(sw, sh)": {
+      "args": [
+        "sw",
+        "sh"
+      ],
       "for": [
         "CanvasImageData"
       ],
@@ -7883,6 +8215,18 @@
       "shortname": "webaudio"
     }
   },
+  "customSections()": {
+    "customSections(moduleObject, sectionName)": {
+      "args": [
+        "moduleObject",
+        "sectionName"
+      ],
+      "for": [
+        "Module"
+      ],
+      "shortname": "wasm-js-api"
+    }
+  },
   "databases()": {
     "databases()": {
       "args": [],
@@ -8031,15 +8375,6 @@
         "CacheStorage"
       ],
       "shortname": "service-workers"
-    },
-    "delete(flowName)": {
-      "args": [
-        "flowName"
-      ],
-      "for": [
-        "NamedFlowMap"
-      ],
-      "shortname": "css-regions"
     },
     "delete(font)": {
       "args": [
@@ -8978,6 +9313,17 @@
       "shortname": "webcryptoapi"
     }
   },
+  "exports()": {
+    "exports(moduleObject)": {
+      "args": [
+        "moduleObject"
+      ],
+      "for": [
+        "Module"
+      ],
+      "shortname": "wasm-js-api"
+    }
+  },
   "extractContents()": {
     "extractContents()": {
       "args": [],
@@ -9435,15 +9781,6 @@
       ],
       "shortname": "credential-management"
     },
-    "get(flowName)": {
-      "args": [
-        "flowName"
-      ],
-      "for": [
-        "NamedFlowMap"
-      ],
-      "shortname": "css-regions"
-    },
     "get(id)": {
       "args": [
         "id"
@@ -9452,6 +9789,15 @@
         "Clients"
       ],
       "shortname": "service-workers"
+    },
+    "get(index)": {
+      "args": [
+        "index"
+      ],
+      "for": [
+        "Table"
+      ],
+      "shortname": "wasm-js-api"
     },
     "get(jointName)": {
       "args": [
@@ -9620,7 +9966,6 @@
       "args": [],
       "for": [
         "Animatable",
-        "Document",
         "DocumentOrShadowRoot"
       ],
       "shortname": "web-animations"
@@ -10454,6 +10799,18 @@
       "shortname": "webaudio"
     }
   },
+  "getParameter()": {
+    "getParameter(namespaceURI, localName)": {
+      "args": [
+        "namespaceURI",
+        "localName"
+      ],
+      "for": [
+        "XSLTProcessor"
+      ],
+      "shortname": "dom"
+    }
+  },
   "getParameters()": {
     "getParameters()": {
       "args": [],
@@ -11144,6 +11501,28 @@
       "shortname": "console"
     }
   },
+  "grow()": {
+    "grow(delta)": {
+      "args": [
+        "delta"
+      ],
+      "for": [
+        "Memory",
+        "Table"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "grow(delta, value)": {
+      "args": [
+        "delta",
+        "value"
+      ],
+      "for": [
+        "Table"
+      ],
+      "shortname": "wasm-js-api"
+    }
+  },
   "handleEvent()": {
     "handleEvent(event)": {
       "args": [
@@ -11171,15 +11550,6 @@
         "CacheStorage"
       ],
       "shortname": "service-workers"
-    },
-    "has(flowName)": {
-      "args": [
-        "flowName"
-      ],
-      "for": [
-        "NamedFlowMap"
-      ],
-      "shortname": "css-regions"
     },
     "has(name)": {
       "args": [
@@ -11349,6 +11719,28 @@
         "WorkerGlobalScope"
       ],
       "shortname": "html"
+    }
+  },
+  "importStylesheet()": {
+    "importStylesheet(style)": {
+      "args": [
+        "style"
+      ],
+      "for": [
+        "XSLTProcessor"
+      ],
+      "shortname": "dom"
+    }
+  },
+  "imports()": {
+    "imports(moduleObject)": {
+      "args": [
+        "moduleObject"
+      ],
+      "for": [
+        "Module"
+      ],
+      "shortname": "wasm-js-api"
     }
   },
   "in()": {
@@ -11697,6 +12089,46 @@
         "CSSStyleSheet"
       ],
       "shortname": "css-nesting"
+    }
+  },
+  "instantiate()": {
+    "instantiate(bytes)": {
+      "args": [
+        "bytes"
+      ],
+      "for": [
+        "WebAssembly"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "instantiate(bytes, importObject)": {
+      "args": [
+        "bytes",
+        "importObject"
+      ],
+      "for": [
+        "WebAssembly"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "instantiate(moduleObject)": {
+      "args": [
+        "moduleObject"
+      ],
+      "for": [
+        "WebAssembly"
+      ],
+      "shortname": "wasm-js-api"
+    },
+    "instantiate(moduleObject, importObject)": {
+      "args": [
+        "moduleObject",
+        "importObject"
+      ],
+      "for": [
+        "WebAssembly"
+      ],
+      "shortname": "wasm-js-api"
     }
   },
   "intersectsNode()": {
@@ -12468,6 +12900,31 @@
       "shortname": "service-workers"
     }
   },
+  "new ImageData()": {
+    "new ImageData(data, sw, sh, settings)": {
+      "args": [
+        "data",
+        "sw",
+        "sh",
+        "settings"
+      ],
+      "for": [
+        "ImageData"
+      ],
+      "shortname": "html"
+    },
+    "new ImageData(sw, sh, settings)": {
+      "args": [
+        "sw",
+        "sh",
+        "settings"
+      ],
+      "for": [
+        "ImageData"
+      ],
+      "shortname": "html"
+    }
+  },
   "nextNode()": {
     "nextNode()": {
       "args": [],
@@ -12676,7 +13133,7 @@
         "unused2"
       ],
       "for": [
-        "Window"
+        "Document"
       ],
       "shortname": "html"
     },
@@ -12687,7 +13144,7 @@
         "features"
       ],
       "for": [
-        "Window"
+        "Document"
       ],
       "shortname": "html"
     },
@@ -13479,18 +13936,6 @@
       "shortname": "web-background-sync"
     }
   },
-  "registerAnArbitaryClass()": {
-    "registerAnArbitaryClass(type, classConstructor)": {
-      "args": [
-        "type",
-        "classConstructor"
-      ],
-      "for": [
-        "FakeWorkletGlobalScope"
-      ],
-      "shortname": "worklets"
-    }
-  },
   "registerAnimator()": {
     "registerAnimator(name, animatorCtor)": {
       "args": [
@@ -13825,6 +14270,18 @@
       "shortname": "dom"
     }
   },
+  "removeParameter()": {
+    "removeParameter(namespaceURI, localName)": {
+      "args": [
+        "namespaceURI",
+        "localName"
+      ],
+      "for": [
+        "XSLTProcessor"
+      ],
+      "shortname": "dom"
+    }
+  },
   "removeProperty()": {
     "removeProperty(property)": {
       "args": [
@@ -13892,6 +14349,15 @@
     }
   },
   "replace()": {
+    "replace(text)": {
+      "args": [
+        "text"
+      ],
+      "for": [
+        "CSSStyleSheet"
+      ],
+      "shortname": "cssom"
+    },
     "replace(token, newToken)": {
       "args": [
         "token",
@@ -13974,6 +14440,17 @@
         "History"
       ],
       "shortname": "html"
+    }
+  },
+  "replaceSync()": {
+    "replaceSync(text)": {
+      "args": [
+        "text"
+      ],
+      "for": [
+        "CSSStyleSheet"
+      ],
+      "shortname": "cssom"
     }
   },
   "replaceTrack()": {
@@ -14219,10 +14696,12 @@
     "reset()": {
       "args": [],
       "for": [
+        "CanvasState",
         "HTMLFormElement",
-        "USBDevice"
+        "USBDevice",
+        "XSLTProcessor"
       ],
-      "shortname": "html"
+      "shortname": "dom"
     }
   },
   "resetTransform()": {
@@ -15226,15 +15705,24 @@
       ],
       "shortname": "css-fonts"
     },
-    "set(flowName, flowValue)": {
+    "set(index)": {
       "args": [
-        "flowName",
-        "flowValue"
+        "index"
       ],
       "for": [
-        "NamedFlowMap"
+        "Table"
       ],
-      "shortname": "css-regions"
+      "shortname": "wasm-js-api"
+    },
+    "set(index, value)": {
+      "args": [
+        "index",
+        "value"
+      ],
+      "for": [
+        "Table"
+      ],
+      "shortname": "wasm-js-api"
     },
     "set(name, blobValue)": {
       "args": [
@@ -15502,8 +15990,12 @@
     }
   },
   "setInterval()": {
-    "setInterval()": {
-      "args": [],
+    "setInterval(handler, timeout, ...arguments)": {
+      "args": [
+        "handler",
+        "timeout",
+        "...arguments"
+      ],
       "for": [
         "WindowOrWorkerGlobalScope"
       ],
@@ -15638,6 +16130,19 @@
         "AudioListener"
       ],
       "shortname": "webaudio"
+    }
+  },
+  "setParameter()": {
+    "setParameter(namespaceURI, localName, value)": {
+      "args": [
+        "namespaceURI",
+        "localName",
+        "value"
+      ],
+      "for": [
+        "XSLTProcessor"
+      ],
+      "shortname": "dom"
     }
   },
   "setParameters()": {
@@ -15813,6 +16318,24 @@
       "shortname": "xhr"
     }
   },
+  "setResourceTimingBufferSize()": {
+    "setResourceTimingBufferSize()": {
+      "args": [],
+      "for": [
+        "Performance"
+      ],
+      "shortname": "resource-timing"
+    },
+    "setResourceTimingBufferSize(maxSize)": {
+      "args": [
+        "maxSize"
+      ],
+      "for": [
+        "Performance"
+      ],
+      "shortname": "resource-timing"
+    }
+  },
   "setSelectionRange()": {
     "setSelectionRange(start, end, direction)": {
       "args": [
@@ -15924,8 +16447,12 @@
     }
   },
   "setTimeout()": {
-    "setTimeout()": {
-      "args": [],
+    "setTimeout(handler, timeout, ...arguments)": {
+      "args": [
+        "handler",
+        "timeout",
+        "...arguments"
+      ],
       "for": [
         "WindowOrWorkerGlobalScope"
       ],
@@ -16742,6 +17269,15 @@
     }
   },
   "to()": {
+    "to(colorSpace)": {
+      "args": [
+        "colorSpace"
+      ],
+      "for": [
+        "CSSColorValue"
+      ],
+      "shortname": "css-typed-om"
+    },
     "to(unit)": {
       "args": [
         "unit"
@@ -16771,17 +17307,6 @@
         "HTMLCanvasElement"
       ],
       "shortname": "html"
-    }
-  },
-  "toColor()": {
-    "toColor(colorspace)": {
-      "args": [
-        "colorspace"
-      ],
-      "for": [
-        "CSSColorValue"
-      ],
-      "shortname": "css-typed-om"
     }
   },
   "toDataURL()": {
@@ -16820,33 +17345,6 @@
       "shortname": "geometry"
     }
   },
-  "toGray()": {
-    "toGray()": {
-      "args": [],
-      "for": [
-        "CSSColorValue"
-      ],
-      "shortname": "css-typed-om"
-    }
-  },
-  "toHSL()": {
-    "toHSL()": {
-      "args": [],
-      "for": [
-        "CSSColorValue"
-      ],
-      "shortname": "css-typed-om"
-    }
-  },
-  "toHWB()": {
-    "toHWB()": {
-      "args": [],
-      "for": [
-        "CSSColorValue"
-      ],
-      "shortname": "css-typed-om"
-    }
-  },
   "toJSON()": {
     "toJSON()": {
       "args": [],
@@ -16859,6 +17357,7 @@
         "Performance",
         "PerformanceNavigation",
         "PerformanceNavigationTiming",
+        "PerformanceResourceTiming",
         "PerformanceTiming",
         "RTCIceCandidate",
         "RTCSessionDescription",
@@ -16869,39 +17368,12 @@
       "shortname": "geometry"
     }
   },
-  "toLCH()": {
-    "toLCH()": {
-      "args": [],
-      "for": [
-        "CSSColorValue"
-      ],
-      "shortname": "css-typed-om"
-    }
-  },
-  "toLab()": {
-    "toLab()": {
-      "args": [],
-      "for": [
-        "CSSColorValue"
-      ],
-      "shortname": "css-typed-om"
-    }
-  },
   "toMatrix()": {
     "toMatrix()": {
       "args": [],
       "for": [
         "CSSTransformComponent",
         "CSSTransformValue"
-      ],
-      "shortname": "css-typed-om"
-    }
-  },
-  "toRGB()": {
-    "toRGB()": {
-      "args": [],
-      "for": [
-        "CSSColorValue"
       ],
       "shortname": "css-typed-om"
     }
@@ -17136,6 +17608,15 @@
       "args": [],
       "for": [],
       "shortname": "html"
+    },
+    "transformToDocument(source)": {
+      "args": [
+        "source"
+      ],
+      "for": [
+        "XSLTProcessor"
+      ],
+      "shortname": "dom"
     }
   },
   "transformToFragment()": {
@@ -17143,6 +17624,16 @@
       "args": [],
       "for": [],
       "shortname": "html"
+    },
+    "transformToFragment(source, output)": {
+      "args": [
+        "source",
+        "output"
+      ],
+      "for": [
+        "XSLTProcessor"
+      ],
+      "shortname": "dom"
     }
   },
   "translate()": {
@@ -17441,6 +17932,26 @@
         "IDBKeyRange"
       ],
       "shortname": "indexeddb"
+    }
+  },
+  "validate()": {
+    "validate(bytes)": {
+      "args": [
+        "bytes"
+      ],
+      "for": [
+        "WebAssembly"
+      ],
+      "shortname": "wasm-js-api"
+    }
+  },
+  "valueOf()": {
+    "valueOf()": {
+      "args": [],
+      "for": [
+        "Global"
+      ],
+      "shortname": "wasm-js-api"
     }
   },
   "vb()": {

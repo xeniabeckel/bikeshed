@@ -663,50 +663,6 @@ https://wicg.github.io/webusb/#usb-device
 
 1
 -
-usbProductId
-dict-member
-serial-1
-serial
-1
-current
-https://wicg.github.io/serial/#dom-serialportfilter-usbproductid
-1
-1
-SerialPortFilter
--
-usbProductId
-dict-member
-serial-1
-serial
-1
-current
-https://wicg.github.io/serial/#dom-serialportinfo-usbproductid
-1
-1
-SerialPortInfo
--
-usbVendorId
-dict-member
-serial-1
-serial
-1
-current
-https://wicg.github.io/serial/#dom-serialportfilter-usbvendorid
-1
-1
-SerialPortFilter
--
-usbVendorId
-dict-member
-serial-1
-serial
-1
-current
-https://wicg.github.io/serial/#dom-serialportinfo-usbvendorid
-1
-1
-SerialPortInfo
--
 usbVersionMajor
 attribute
 webusb-1
@@ -841,6 +797,11 @@ snapshot
 https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-crossorigin-use-credentials-keyword
 1
 1
+audio/crossorigin
+video/crossorigin
+img/crossorigin
+link/crossorigin
+script/crossorigin
 -
 use-element shadow tree
 dfn
@@ -968,6 +929,16 @@ https://www.w3.org/TR/css-color-4/#used-color
 1
 1
 -
+used color
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#used-color
+1
+1
+-
 used color scheme
 dfn
 css-color-adjust-1
@@ -975,7 +946,7 @@ css-color-adjust
 1
 snapshot
 https://www.w3.org/TR/css-color-adjust-1/#used-color-scheme
-
+1
 1
 -
 used color scheme
@@ -985,7 +956,7 @@ css-color-adjust
 1
 current
 https://drafts.csswg.org/css-color-adjust-1/#used-color-scheme
-
+1
 1
 -
 used min-width of a table
@@ -1035,6 +1006,16 @@ css-cascade
 3
 snapshot
 https://www.w3.org/TR/css-cascade-3/#used-value
+1
+1
+-
+used value
+dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#used-value
 1
 1
 -
@@ -1147,7 +1128,7 @@ snapshot
 https://html.spec.whatwg.org/multipage/image-maps.html#attr-hyperlink-usemap
 1
 1
-area
+img
 -
 usemap
 element-attr
@@ -1325,6 +1306,16 @@ css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#user-agent
+
+1
+-
+user agent
+dfn
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds-3/#user-agent
 
 1
 -
@@ -1641,6 +1632,16 @@ https://www.w3.org/TR/css-cascade-3/#cascade-origin-user
 -
 user origin
 dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#cascade-origin-user
+1
+1
+-
+user origin
+dfn
 css-cascade-4
 css-cascade
 4
@@ -1726,6 +1727,16 @@ css-cascade
 3
 snapshot
 https://www.w3.org/TR/css-cascade-3/#cascade-origin-user
+1
+1
+-
+user style sheet
+dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#cascade-origin-user
 1
 1
 -
@@ -1882,6 +1893,16 @@ https://www.w3.org/TR/css-cascade-3/#cascade-origin-ua
 -
 user-agent origin
 dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#cascade-origin-ua
+1
+1
+-
+user-agent origin
+dfn
 css-cascade-4
 css-cascade
 4
@@ -1932,6 +1953,16 @@ https://www.w3.org/TR/css-cascade-3/#cascade-origin-ua
 -
 user-agent style sheet
 dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#cascade-origin-ua
+1
+1
+-
+user-agent style sheet
+dfn
 css-cascade-4
 css-cascade
 4
@@ -1977,6 +2008,16 @@ css-cascade
 3
 snapshot
 https://www.w3.org/TR/css-cascade-3/#cascade-origin-user
+1
+1
+-
+user-origin
+dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#cascade-origin-user
 1
 1
 -
@@ -2236,7 +2277,7 @@ https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-username
 HTMLHyperlinkElementUtils
 -
 username
-element-attr
+attr-value
 html
 html
 1
@@ -2244,6 +2285,13 @@ snapshot
 https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete-username
 1
 1
+button/autocomplete
+fieldset/autocomplete
+input/autocomplete
+object/autocomplete
+output/autocomplete
+select/autocomplete
+textarea/autocomplete
 -
 username
 dfn

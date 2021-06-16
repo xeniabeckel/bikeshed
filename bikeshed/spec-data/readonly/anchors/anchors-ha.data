@@ -175,6 +175,26 @@ https://drafts.csswg.org/css-inline-3/#half-leading
 
 1
 -
+half-width
+dfn
+css-text-3
+css-text
+3
+snapshot
+https://www.w3.org/TR/css-text-3/#half-width
+
+1
+-
+half-width
+dfn
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#half-width
+
+1
+-
 hand
 attribute
 webxr-hand-input-1
@@ -346,28 +366,6 @@ current
 https://notifications.spec.whatwg.org/#handle-close-events
 
 1
--
-handle closing the readable stream
-dfn
-serial-1
-serial
-1
-current
-https://wicg.github.io/serial/#dfn-handle-closing-the-readable-stream
-
-1
-SerialPort
--
-handle closing the writable stream
-dfn
-serial-1
-serial
-1
-current
-https://wicg.github.io/serial/#dfn-handle-closing-the-writable-stream
-
-1
-SerialPort
 -
 handle content codings
 dfn
@@ -593,6 +591,16 @@ https://www.w3.org/TR/css-text-3/#hang
 
 1
 -
+hang
+dfn
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#hang
+
+1
+-
 hanging
 value
 css-inline-3
@@ -644,6 +652,17 @@ css-text
 3
 snapshot
 https://www.w3.org/TR/css-text-3/#valdef-text-indent-hanging
+1
+1
+text-indent
+-
+hanging
+value
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#valdef-text-indent-hanging
 1
 1
 text-indent
@@ -710,6 +729,16 @@ https://www.w3.org/TR/css-text-3/#hanging-glyph
 
 1
 -
+hanging glyph
+dfn
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#hanging-glyph
+
+1
+-
 hanging-punctuation
 property
 css-text-3
@@ -717,6 +746,16 @@ css-text
 3
 snapshot
 https://www.w3.org/TR/css-text-3/#propdef-hanging-punctuation
+1
+1
+-
+hanging-punctuation
+property
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#propdef-hanging-punctuation
 1
 1
 -
@@ -732,7 +771,7 @@ https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-hangingbaseli
 TextMetrics
 -
 hard
-element-attr
+attr-value
 html
 html
 1
@@ -740,7 +779,7 @@ snapshot
 https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-wrap-hard
 1
 1
-textarea
+textarea/wrap
 -
 hard
 element-state
@@ -785,17 +824,6 @@ https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-hard-light
 1
 <blend-mode>
 -
-hardware
-enum-value
-serial-1
-serial
-1
-current
-https://wicg.github.io/serial/#dom-flowcontroltype-hardware
-1
-1
-FlowControlType
--
 hardware-encoder-error
 enum-value
 webrtc-1
@@ -817,17 +845,6 @@ https://www.w3.org/TR/webrtc/#dom-rtcerrordetailtype-hardware-encoder-not-availa
 1
 1
 RTCErrorDetailType
--
-has
-method
-css-regions-1
-css-regions
-1
-current
-https://drafts.csswg.org/css-regions-1/#dom-namedflowmap-has
-1
-1
-NamedFlowMap
 -
 has a border
 dfn
@@ -896,6 +913,16 @@ html
 1
 snapshot
 https://html.spec.whatwg.org/multipage/web-messaging.html#has-been-shipped
+
+1
+-
+has cross-origin redirects
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-params-has-cross-origin-redirects
 
 1
 -
@@ -998,7 +1025,7 @@ css-regions-1
 css-regions
 1
 current
-https://drafts.csswg.org/css-regions-1/#dom-namedflowmap-has①
+https://drafts.csswg.org/css-regions-1/#dom-namedflowmap-has
 1
 1
 NamedFlowMap
@@ -1024,17 +1051,6 @@ https://w3c.github.io/ServiceWorker/#dom-cachestorage-has
 1
 1
 CacheStorage
--
-has(flowName)
-method
-css-regions-1
-css-regions
-1
-current
-https://drafts.csswg.org/css-regions-1/#dom-namedflowmap-has
-1
-1
-NamedFlowMap
 -
 has(name)
 method

@@ -274,7 +274,7 @@ https://html.spec.whatwg.org/multipage/input.html#attr-input-type-email-keyword
 1
 -
 email
-element-attr
+attr-value
 html
 html
 1
@@ -282,6 +282,13 @@ snapshot
 https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete-email
 1
 1
+button/autocomplete
+fieldset/autocomplete
+input/autocomplete
+object/autocomplete
+output/autocomplete
+select/autocomplete
+textarea/autocomplete
 -
 email
 dfn
@@ -332,6 +339,17 @@ css-writing-modes
 3
 snapshot
 https://www.w3.org/TR/css-writing-modes-3/#valdef-unicode-bidi-embed
+1
+1
+unicode-bidi
+-
+embed
+value
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#valdef-unicode-bidi-embed
 1
 1
 unicode-bidi
@@ -491,26 +509,6 @@ html
 snapshot
 https://html.spec.whatwg.org/multipage/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes
 1
-1
--
-embedding document
-dfn
-csp3
-csp
-3
-snapshot
-https://www.w3.org/TR/CSP3/#embedding-document
-
-1
--
-embedding document
-dfn
-csp3
-csp
-3
-current
-https://w3c.github.io/webappsec-csp/#embedding-document
-
 1
 -
 embedding document

@@ -123,16 +123,6 @@ https://html.spec.whatwg.org/multipage/worklets.html#worklet
 1
 1
 -
-Worklet
-interface
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#worklet
-1
-1
--
 WorkletAnimation
 interface
 css-animation-worklet-1
@@ -228,16 +218,6 @@ https://html.spec.whatwg.org/multipage/worklets.html#workletglobalscope
 1
 1
 -
-WorkletGlobalScope
-interface
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#workletglobalscope
-1
-1
--
 WorkletGroupEffect
 interface
 css-animation-worklet-1
@@ -268,16 +248,6 @@ https://html.spec.whatwg.org/multipage/worklets.html#workletoptions
 1
 1
 -
-WorkletOptions
-dictionary
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#dictdef-workletoptions
-1
-1
--
 word separator
 dfn
 css-text-3
@@ -285,6 +255,16 @@ css-text
 3
 snapshot
 https://www.w3.org/TR/css-text-3/#word-separator
+
+1
+-
+word separator
+dfn
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#word-separator
 
 1
 -
@@ -318,6 +298,16 @@ https://www.w3.org/TR/css-text-3/#propdef-word-break
 1
 1
 -
+word-break
+property
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#propdef-word-break
+1
+1
+-
 word-separator character
 dfn
 css-text-3
@@ -325,6 +315,16 @@ css-text
 3
 snapshot
 https://www.w3.org/TR/css-text-3/#word-separator
+
+1
+-
+word-separator character
+dfn
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#word-separator
 
 1
 -
@@ -360,6 +360,16 @@ https://www.w3.org/TR/css-text-3/#propdef-word-spacing
 -
 word-spacing
 property
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#propdef-word-spacing
+1
+1
+-
+word-spacing
+property
 css2
 css2
 1
@@ -379,6 +389,16 @@ https://drafts.csswg.org/css2/#propdef-word-spacing
 1
 -
 word-spacing
+value
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/infrastructure.html#'word-spacing'
+
+1
+-
+word-spacing
 property
 svg
 svg
@@ -395,6 +415,16 @@ css-text
 3
 snapshot
 https://www.w3.org/TR/css-text-3/#propdef-word-wrap
+1
+1
+-
+word-wrap
+property
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#propdef-word-wrap
 1
 1
 -
@@ -442,7 +472,7 @@ https://html.spec.whatwg.org/multipage/interaction.html#autocap-hint-words
 1
 -
 work
-element-attr
+attr-value
 html
 html
 1
@@ -450,6 +480,13 @@ snapshot
 https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete-work
 1
 1
+button/autocomplete
+fieldset/autocomplete
+input/autocomplete
+object/autocomplete
+output/autocomplete
+select/autocomplete
+textarea/autocomplete
 -
 work
 dfn
@@ -534,17 +571,6 @@ https://html.spec.whatwg.org/multipage/webappapis.html#worker-event-loop-2
 
 1
 -
-worker set
-dfn
-html
-html
-1
-snapshot
-https://html.spec.whatwg.org/multipage/workers.html#the-worker's-workers
-1
-1
-WorkerGlobalScope
--
 worker type
 dfn
 service-workers
@@ -586,6 +612,17 @@ current
 https://w3c.github.io/webappsec-csp/#worker-src
 1
 1
+-
+workerStart
+attribute
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dom-performanceresourcetiming-workerstart
+1
+1
+PerformanceResourceTiming
 -
 workerglobalscope object
 dfn
@@ -648,16 +685,6 @@ https://html.spec.whatwg.org/multipage/worklets.html#worklet-destination-type
 1
 1
 -
-worklet destination type
-dfn
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#worklet-destination-type
-1
-1
--
 worklet event loop
 dfn
 html
@@ -665,26 +692,6 @@ html
 1
 snapshot
 https://html.spec.whatwg.org/multipage/webappapis.html#worklet-event-loop
-
-1
--
-worklet global scope
-dfn
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#worklet-global-scope
-
-1
--
-worklet global scope execution environment
-dfn
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#worklet-global-scope-execution-environment
 
 1
 -
@@ -698,16 +705,6 @@ https://html.spec.whatwg.org/multipage/worklets.html#worklet-global-scope-type
 1
 1
 -
-worklet global scope type
-dfn
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#worklet-global-scope-type
-1
-1
--
 worklet global scopes
 dfn
 html
@@ -716,16 +713,6 @@ html
 snapshot
 https://html.spec.whatwg.org/multipage/worklets.html#concept-document-worklet-global-scopes
 
-1
--
-worklet's workletglobalscopes
-dfn
-worklets-1
-worklets
-1
-snapshot
-https://www.w3.org/TR/worklets-1/#worklets-workletglobalscopes
-1
 1
 -
 would need a browsing context group switch due to report-only

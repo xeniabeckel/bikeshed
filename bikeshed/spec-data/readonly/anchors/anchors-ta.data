@@ -1,3 +1,25 @@
+"table"
+enum-value
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-importexportkind-table
+1
+1
+ImportExportKind
+-
+"table"
+enum-value
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-importexportkind-table
+1
+1
+ImportExportKind
+-
 'tactile' media group
 dfn
 css2
@@ -128,6 +150,99 @@ https://drafts.csswg.org/css-content-3/#typedef-target
 1
 1
 -
+Table
+interface
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#table
+1
+1
+-
+Table
+interface
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#table
+1
+1
+-
+Table(descriptor)
+constructor
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-table-table
+1
+1
+Table
+-
+Table(descriptor)
+constructor
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-table-table
+1
+1
+Table
+-
+Table(descriptor, value)
+constructor
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-table-table
+1
+1
+Table
+-
+TableDescriptor
+dictionary
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dictdef-tabledescriptor
+1
+1
+-
+TableDescriptor
+dictionary
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dictdef-tabledescriptor
+1
+1
+-
+TableKind
+enum
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#enumdef-tablekind
+1
+1
+-
+TableKind
+enum
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#enumdef-tablekind
+1
+1
+-
 tab
 dfn
 css-template-1
@@ -158,6 +273,16 @@ https://www.w3.org/TR/css-text-3/#tab-size-dfn
 
 1
 -
+tab size
+dfn
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#tab-size-dfn
+
+1
+-
 tab stop
 dfn
 css-text-3
@@ -168,6 +293,16 @@ https://www.w3.org/TR/css-text-3/#tab-stop
 
 1
 -
+tab stop
+dfn
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#tab-stop
+
+1
+-
 tab-size
 property
 css-text-3
@@ -175,6 +310,16 @@ css-text
 3
 snapshot
 https://www.w3.org/TR/css-text-3/#propdef-tab-size
+1
+1
+-
+tab-size
+property
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#propdef-tab-size
 1
 1
 -
@@ -496,6 +641,26 @@ html
 1
 snapshot
 https://html.spec.whatwg.org/multipage/tables.html#table-model-error
+
+1
+-
+table object cache
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#table-object-cache
+
+1
+-
+table object cache
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#table-object-cache
 
 1
 -
@@ -1367,6 +1532,16 @@ https://www.w3.org/TR/css-text-3/#tabs
 
 1
 -
+tabs
+dfn
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#tabs
+
+1
+-
 tabular container
 dfn
 css-tables-3
@@ -1618,6 +1793,16 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#tagged-image
+1
+1
+-
+tagged image
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#tagged-image
 1
 1
 -
@@ -1891,6 +2076,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#valdef-color-tan
+1
+1
+<color>
+-
+tan
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-tan
 1
 1
 <color>
@@ -2545,26 +2741,6 @@ https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-targe
 1
 environment
 -
-target effect
-dfn
-web-animations-1
-web-animations
-1
-snapshot
-https://www.w3.org/TR/web-animations-1/#target-effect
-
-1
--
-target effect end
-dfn
-web-animations-1
-web-animations
-1
-snapshot
-https://www.w3.org/TR/web-animations-1/#target-effect-end
-
-1
--
 target element
 dfn
 html
@@ -2684,6 +2860,16 @@ web-animations
 1
 current
 https://drafts.csswg.org/web-animations-1/#target-property
+
+1
+-
+target pseudo-selector
+dfn
+web-animations-1
+web-animations
+1
+snapshot
+https://www.w3.org/TR/web-animations-1/#target-pseudo-selector
 
 1
 -
@@ -2973,16 +3159,6 @@ https://html.spec.whatwg.org/multipage/webappapis.html#concept-task
 1
 1
 -
-task
-dfn
-page-visibility-2
-page-visibility
-2
-snapshot
-https://www.w3.org/TR/page-visibility-2/#dfn-task
-
-1
--
 task destination
 dfn
 fetch
@@ -3034,16 +3210,6 @@ html
 snapshot
 https://html.spec.whatwg.org/multipage/webappapis.html#task-source
 1
-1
--
-task source
-dfn
-page-visibility-2
-page-visibility
-2
-snapshot
-https://www.w3.org/TR/page-visibility-2/#dfn-task-source
-
 1
 -
 task type

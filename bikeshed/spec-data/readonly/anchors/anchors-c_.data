@@ -3,11 +3,47 @@ value
 css-color-5
 css-color
 5
+snapshot
+https://www.w3.org/TR/css-color-5/#valdef-lch-c
+1
+1
+lch()
+-
+c
+value
+css-color-5
+css-color
+5
 current
 https://drafts.csswg.org/css-color-5/#valdef-lch-c
 1
 1
 lch()
+-
+c
+attribute
+css-typed-om-1
+css-typed-om
+1
+current
+https://drafts.css-houdini.org/css-typed-om-1/#dom-cssdevicecmyk-c
+1
+1
+CSSDeviceCMYK
+-
+c
+argument
+css-typed-om-1
+css-typed-om
+1
+current
+https://drafts.css-houdini.org/css-typed-om-1/#dom-cssdevicecmyk-cssdevicecmyk-c-m-y-k-alpha-c
+1
+1
+CSSDeviceCMYK/CSSDeviceCMYK(c, m, y, k, alpha)
+CSSDeviceCMYK/constructor(c, m, y, k, alpha)
+CSSDeviceCMYK/CSSDeviceCMYK(c, m, y, k)
+CSSDeviceCMYK/constructor(c, m, y, k)
 -
 c
 attribute

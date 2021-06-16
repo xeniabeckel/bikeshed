@@ -49,10 +49,10 @@
                     "version_added": "79"
                 }
             },
-            "title": "firesTouchEvents"
+            "title": "InputDeviceCapabilities.firesTouchEvents"
         }
     ],
-    "dom-uievent-sourcecapabilities": [
+    "dom-inputdevicecapabilities": [
         {
             "engines": [
                 "blink"
@@ -103,7 +103,9 @@
                 }
             },
             "title": "InputDeviceCapabilities"
-        },
+        }
+    ],
+    "dom-uievent-sourcecapabilities": [
         {
             "engines": [
                 "blink"
@@ -153,7 +155,7 @@
                     "version_added": "79"
                 }
             },
-            "title": "sourceCapabilities"
+            "title": "UIEvent.sourceCapabilities"
         }
     ]
 }

@@ -14,6 +14,17 @@ enum-value
 web-animations-1
 web-animations
 1
+snapshot
+https://www.w3.org/TR/web-animations-1/#dom-timelinephase-inactive
+1
+1
+TimelinePhase
+-
+"inactive"
+enum-value
+web-animations-1
+web-animations
+1
 current
 https://drafts.csswg.org/web-animations-1/#dom-timelinephase-inactive
 1
@@ -924,6 +935,59 @@ snapshot
 https://www.w3.org/TR/uievents/#dictdef-inputeventinit
 1
 1
+-
+Instance
+interface
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#instance
+1
+1
+-
+Instance
+interface
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#instance
+1
+1
+-
+Instance(module)
+constructor
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-instance-instance
+1
+1
+Instance
+-
+Instance(module, importObject)
+constructor
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-instance-instance
+1
+1
+Instance
+-
+Instance(module, importObject)
+constructor
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-instance-instance
+1
+1
+Instance
 -
 Int16Array
 interface
@@ -2511,6 +2575,16 @@ https://www.w3.org/TR/css-color-4/#inactiveborder
 
 1
 -
+inactiveborder
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#inactiveborder
+
+1
+-
 inactivecaption
 dfn
 css-color-3
@@ -2541,6 +2615,16 @@ https://www.w3.org/TR/css-color-4/#inactivecaption
 
 1
 -
+inactivecaption
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#inactivecaption
+
+1
+-
 inactivecaptiontext
 dfn
 css-color-3
@@ -2568,6 +2652,16 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#inactivecaptiontext
+
+1
+-
+inactivecaptiontext
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#inactivecaptiontext
 
 1
 -
@@ -2748,6 +2842,16 @@ https://heycam.github.io/webidl/#includes-statement
 
 1
 -
+includes undefined
+dfn
+webidl
+webidl
+1
+current
+https://heycam.github.io/webidl/#dfn-includes-undefined
+1
+1
+-
 includes(key)
 method
 indexeddb-2
@@ -2811,6 +2915,16 @@ https://dom.spec.whatwg.org/#concept-tree-inclusive-descendant
 1
 tree
 -
+inclusive descendants
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/infrastructure.html#inclusive-descendants
+
+1
+-
 inclusive inherited interfaces
 dfn
 webidl
@@ -2851,6 +2965,26 @@ html
 snapshot
 https://html.spec.whatwg.org/multipage/parsing.html#parse-error-incorrectly-opened-comment
 
+1
+-
+increasing
+dfn
+css-color-4
+css-color
+4
+snapshot
+https://www.w3.org/TR/css-color-4/#increasing
+1
+1
+-
+increasing
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#increasing
+1
 1
 -
 increment the marquee current loop index
@@ -2921,7 +3055,7 @@ html
 1
 snapshot
 https://html.spec.whatwg.org/multipage/webappapis.html#incumbent-settings-object
-1
+
 1
 -
 indefinite
@@ -3627,6 +3761,51 @@ https://w3c.github.io/IndexedDB/#index-concept
 1
 -
 index
+argument
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-table-get-index-index
+1
+1
+Table/get(index)
+-
+index
+argument
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-table-set-index-value-index
+1
+1
+Table/set(index, value)
+-
+index
+argument
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-table-get-index-index
+1
+1
+Table/get(index)
+-
+index
+argument
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-table-set-index-value-index
+1
+1
+Table/set(index, value)
+Table/set(index)
+-
+index
 dfn
 webidl
 webidl
@@ -3807,6 +3986,26 @@ json-ld11-api
 1
 snapshot
 https://www.w3.org/TR/json-ld11-api/#dfn-index-mapping
+
+1
+-
+index of the host function
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#index-of-the-host-function
+
+1
+-
+index of the host function
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#index-of-the-host-function
 
 1
 -
@@ -4039,6 +4238,17 @@ https://www.w3.org/TR/css-color-4/#valdef-color-indianred
 1
 <color>
 -
+indianred
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-indianred
+1
+1
+<color>
+-
 indicate
 attribute
 web-bluetooth-1
@@ -4087,6 +4297,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#valdef-color-indigo
+1
+1
+<color>
+-
+indigo
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-indigo
 1
 1
 <color>
@@ -4140,26 +4361,6 @@ html
 1
 snapshot
 https://html.spec.whatwg.org/multipage/interaction.html#inert
-
-1
--
-inertial scroll
-dfn
-css-scroll-snap-1
-css-scroll-snap
-1
-current
-https://drafts.csswg.org/css-scroll-snap-1/Proposal.html#inertial-scroll
-1
-1
--
-inertial scrolling
-dfn
-css-scroll-snap-1
-css-scroll-snap
-1
-current
-https://drafts.csswg.org/css-scroll-snap-1/diff.html#inertial-scroll
 
 1
 -
@@ -4364,6 +4565,16 @@ https://www.w3.org/TR/css-color-4/#infobackground
 
 1
 -
+infobackground
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#infobackground
+
+1
+-
 infotext
 dfn
 css-color-3
@@ -4394,6 +4605,16 @@ https://www.w3.org/TR/css-color-4/#infotext
 
 1
 -
+infotext
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#infotext
+
+1
+-
 inherit
 dfn
 css-cascade-3
@@ -4411,6 +4632,27 @@ css-cascade
 3
 snapshot
 https://www.w3.org/TR/css-cascade-3/#valdef-all-inherit
+1
+1
+all
+-
+inherit
+dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#inheritance
+1
+1
+-
+inherit
+value
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#valdef-all-inherit
 1
 1
 all
@@ -4655,6 +4897,16 @@ https://www.w3.org/TR/css-cascade-3/#inheritance
 -
 inheritance
 dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#inheritance
+1
+1
+-
+inheritance
+dfn
 css-cascade-4
 css-cascade
 4
@@ -4805,6 +5057,16 @@ https://www.w3.org/TR/css-cascade-3/#inherited-property
 -
 inherited property
 dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#inherited-property
+1
+1
+-
+inherited property
+dfn
 css-cascade-4
 css-cascade
 4
@@ -4850,6 +5112,16 @@ css-cascade
 3
 snapshot
 https://www.w3.org/TR/css-cascade-3/#inherited-value
+1
+1
+-
+inherited value
+dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#inherited-value
 1
 1
 -
@@ -5468,6 +5740,17 @@ all
 -
 initial
 value
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#valdef-all-initial
+1
+1
+all
+-
+initial
+value
 css-cascade-4
 css-cascade
 4
@@ -5529,6 +5812,50 @@ current
 https://drafts.csswg.org/css-template-1/#initial
 
 1
+-
+initial
+dict-member
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-memorydescriptor-initial
+1
+1
+MemoryDescriptor
+-
+initial
+dict-member
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-tabledescriptor-initial
+1
+1
+TableDescriptor
+-
+initial
+dict-member
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-memorydescriptor-initial
+1
+1
+MemoryDescriptor
+-
+initial
+dict-member
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-tabledescriptor-initial
+1
+1
+TableDescriptor
 -
 initial containing block
 dfn
@@ -5840,6 +6167,16 @@ https://www.w3.org/TR/css-cascade-3/#initial-value
 -
 initial value
 dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#initial-value
+1
+1
+-
+initial value
+dfn
 css-cascade-4
 css-cascade
 4
@@ -6124,13 +6461,13 @@ css-highlight-api-1
 css-highlight-api
 1
 current
-https://drafts.csswg.org/css-highlight-api-1/#dom-highlight-highlight-name-initialranges-initialranges
+https://drafts.csswg.org/css-highlight-api-1/#dom-highlight-highlight-initialranges-initialranges
 1
 1
-Highlight/Highlight(name, ...initialRanges)
-Highlight/constructor(name, ...initialRanges)
-Highlight/Highlight(name)
-Highlight/constructor(name)
+Highlight/Highlight(...initialRanges)
+Highlight/constructor(...initialRanges)
+Highlight/Highlight()
+Highlight/constructor()
 -
 initialValue
 dict-member
@@ -6250,36 +6587,6 @@ https://immersive-web.github.io/layers/#initialize-a-cylinder-layer
 
 1
 -
-initialize a document's csp list
-dfn
-csp3
-csp
-3
-snapshot
-https://www.w3.org/TR/CSP3/#initialize-document-csp
-1
-1
--
-initialize a document's csp list
-dfn
-csp3
-csp
-3
-current
-https://w3c.github.io/webappsec-csp/#initialize-document-csp
-1
-1
--
-initialize a document's csp list
-dfn
-html
-html
-1
-snapshot
-https://html.spec.whatwg.org/multipage/infrastructure.html#initialize-a-document's-csp-list
-
-1
--
 initialize a equirect layer
 dfn
 webxr-layers-1
@@ -6290,33 +6597,23 @@ https://immersive-web.github.io/layers/#initialize-a-equirect-layer
 
 1
 -
-initialize a global object's csp list
+initialize a global object
 dfn
-csp3
-csp
-3
-snapshot
-https://www.w3.org/TR/CSP3/#initialize-global-object-csp
+wasm-js-api-1
+wasm-js-api
 1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#initialize-a-global-object
+
 1
 -
-initialize a global object's csp list
+initialize a global object
 dfn
-csp3
-csp
-3
+wasm-js-api-1
+wasm-js-api
+1
 current
-https://w3c.github.io/webappsec-csp/#initialize-global-object-csp
-1
-1
--
-initialize a global object's csp list
-dfn
-html
-html
-1
-snapshot
-https://html.spec.whatwg.org/multipage/infrastructure.html#initialize-a-global-object's-csp-list
+https://webassembly.github.io/spec/js-api/#initialize-a-global-object
 
 1
 -
@@ -6328,6 +6625,26 @@ reporting
 current
 https://w3c.github.io/reporting/#initialize-a-globals-endpoint-list
 1
+1
+-
+initialize a memory object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#initialize-a-memory-object
+
+1
+-
+initialize a memory object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#initialize-a-memory-object
+
 1
 -
 initialize a new intersectionobserver
@@ -6378,6 +6695,66 @@ generic-sensor
 current
 https://w3c.github.io/sensors/#initialize-a-sensor-object
 1
+1
+-
+initialize a table object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#initialize-a-table-object
+
+1
+-
+initialize a table object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#initialize-a-table-object
+
+1
+-
+initialize a worker global scope's policy container
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/origin.html#initialize-worker-policy-container
+
+1
+-
+initialize an imagedata object
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/canvas.html#initialize-an-imagedata-object
+
+1
+-
+initialize an instance object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#initialize-an-instance-object
+
+1
+-
+initialize an instance object
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#initialize-an-instance-object
+
 1
 -
 initialize the render state
@@ -6512,6 +6889,28 @@ snapshot
 https://html.spec.whatwg.org/multipage/infrastructure.html#concept-request-initiator
 
 1
+-
+initiator type
+dfn
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dfn-initiator-type
+
+1
+PerformanceResourceTiming
+-
+initiatorType
+attribute
+resource-timing-2
+resource-timing
+2
+snapshot
+https://www.w3.org/TR/resource-timing-2/#dom-performanceresourcetiming-initiatortype
+1
+1
+PerformanceResourceTiming
 -
 initiatortype
 dfn
@@ -6670,6 +7069,17 @@ https://www.w3.org/TR/css-gcpm-3/#footnote-display-inline
 footnote-display
 -
 inline
+value
+css-gcpm-3
+css-gcpm
+3
+current
+https://drafts.csswg.org/css-gcpm-3/#footnote-display-inline
+1
+1
+propdef-footnote-display
+-
+inline
 attribute
 css-layout-api-1
 css-layout-api
@@ -6730,30 +7140,10 @@ css-scroll-snap-1
 css-scroll-snap
 1
 current
-https://drafts.csswg.org/css-scroll-snap-1/Proposal.html#valdef-scroll-snap-type-inline
+https://drafts.csswg.org/css-scroll-snap-1/#valdef-scroll-snap-type-inline
 1
 1
 scroll-snap-type
--
-inline
-value
-css-scroll-snap-1
-css-scroll-snap
-1
-current
-https://drafts.csswg.org/css-scroll-snap-1/diff.html#valdef-scroll-snap-type-inline
-1
-1
--
-inline
-value
-css-scroll-snap-1
-css-scroll-snap
-1
-current
-https://drafts.csswg.org/css-scroll-snap-1/diff-notes.html#valdef-scroll-snap-type-inline
-1
-1
 -
 inline
 value
@@ -6832,6 +7222,16 @@ https://www.w3.org/TR/css-writing-modes-3/#inline-axis
 -
 inline axis
 dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#inline-axis
+1
+1
+-
+inline axis
+dfn
 css-writing-modes-4
 css-writing-modes
 4
@@ -6857,6 +7257,16 @@ css-writing-modes
 3
 snapshot
 https://www.w3.org/TR/css-writing-modes-3/#inline-base-direction
+1
+1
+-
+inline base direction
+dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#inline-base-direction
 1
 1
 -
@@ -7004,6 +7414,16 @@ https://www.w3.org/TR/css-writing-modes-3/#inline-dimension
 -
 inline dimension
 dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#inline-dimension
+1
+1
+-
+inline dimension
+dfn
 css-writing-modes-4
 css-writing-modes
 4
@@ -7039,6 +7459,16 @@ css-writing-modes
 3
 snapshot
 https://www.w3.org/TR/css-writing-modes-3/#inline-end
+1
+1
+-
+inline end
+dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#inline-end
 1
 1
 -
@@ -7234,6 +7664,16 @@ https://www.w3.org/TR/css-writing-modes-3/#inline-size
 -
 inline size
 dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#inline-size
+1
+1
+-
+inline size
+dfn
 css-writing-modes-4
 css-writing-modes
 4
@@ -7269,6 +7709,16 @@ css-writing-modes
 3
 snapshot
 https://www.w3.org/TR/css-writing-modes-3/#inline-start
+1
+1
+-
+inline start
+dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#inline-start
 1
 1
 -
@@ -7319,6 +7769,16 @@ css-writing-modes
 3
 snapshot
 https://www.w3.org/TR/css-writing-modes-3/#inline-axis
+1
+1
+-
+inline-axis
+dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#inline-axis
 1
 1
 -
@@ -7458,6 +7918,16 @@ css-writing-modes
 3
 snapshot
 https://www.w3.org/TR/css-writing-modes-3/#inline-end
+1
+1
+-
+inline-end
+dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#inline-end
 1
 1
 -
@@ -7706,6 +8176,39 @@ https://drafts.csswg.org/css2/#inline-level
 1
 -
 inline-size
+value
+css-contain-3
+css-contain
+3
+current
+https://drafts.csswg.org/css-contain-3/#valdef-contain-inline-size
+1
+1
+contain
+-
+inline-size
+value
+css-contain-3
+css-contain
+3
+current
+https://drafts.csswg.org/css-contain-3/#valdef-container-type-inline-size
+1
+1
+container-type
+-
+inline-size
+descriptor
+css-contain-3
+css-contain
+3
+current
+https://drafts.csswg.org/css-contain-3/#descdef-container-inline-size
+1
+1
+@container
+-
+inline-size
 property
 css-logical-1
 css-logical
@@ -7732,6 +8235,16 @@ css-writing-modes
 3
 snapshot
 https://www.w3.org/TR/css-writing-modes-3/#inline-size
+1
+1
+-
+inline-size
+dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#inline-size
 1
 1
 -
@@ -7782,6 +8295,16 @@ svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#InlineSizeProperty
+1
+1
+-
+inline-size containment
+dfn
+css-contain-3
+css-contain
+3
+current
+https://drafts.csswg.org/css-contain-3/#inline-size-containment
 1
 1
 -
@@ -7856,6 +8379,16 @@ css-writing-modes
 3
 snapshot
 https://www.w3.org/TR/css-writing-modes-3/#inline-start
+1
+1
+-
+inline-start
+dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#inline-start
 1
 1
 -
@@ -8211,6 +8744,16 @@ https://www.w3.org/TR/css-backgrounds-3/#inner-box-shadow
 
 1
 -
+inner box-shadow
+dfn
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds-3/#inner-box-shadow
+
+1
+-
 inner display type
 dfn
 css-display-3
@@ -8359,16 +8902,6 @@ css-sizing
 current
 https://drafts.csswg.org/css-sizing-3/#inner-size
 1
-1
--
-inner text collection steps
-dfn
-html
-html
-1
-snapshot
-https://html.spec.whatwg.org/multipage/dom.html#inner-text-collection-steps
-
 1
 -
 inner type
@@ -8905,6 +9438,16 @@ html
 snapshot
 https://html.spec.whatwg.org/multipage/parsing.html#input-stream
 
+1
+-
+input-security
+property
+css-ui-4
+css-ui
+4
+current
+https://drafts.csswg.org/css-ui-4/#propdef-input-security
+1
 1
 -
 inputBuffer
@@ -9654,6 +10197,34 @@ https://www.w3.org/TR/css-backgrounds-3/#shadow-inset
 box-shadow
 -
 inset
+value
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds-3/#valdef-line-style-inset
+1
+1
+<line-style>
+border-style
+border-top-style
+border-left-style
+border-bottom-style
+border-right-style
+border
+-
+inset
+value
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds-3/#shadow-inset
+1
+1
+box-shadow
+-
+inset
 property
 css-logical-1
 css-logical
@@ -10071,14 +10642,14 @@ https://drafts.csswg.org/css-position-3/#inset-modified-containing-block
 
 
 -
-inset-rectangle
+inside
 dfn
 css-exclusions-1
 css-exclusions
 1
 current
-https://drafts.csswg.org/css-exclusions-1/Exclusions.src.html#inset-rectangle
-
+https://drafts.csswg.org/css-exclusions-1/#inside
+1
 1
 -
 inside
@@ -10185,16 +10756,6 @@ current
 https://w3c.github.io/ServiceWorker/#install
 
 1
--
-installability signal
-dfn
-appmanifest
-appmanifest
-1
-snapshot
-https://www.w3.org/TR/appmanifest/#dfn-installability-signal
-
-
 -
 installation
 dfn
@@ -10310,6 +10871,28 @@ https://w3c.github.io/ServiceWorker/#dfn-installing-worker
 1
 service worker registration
 -
+instance
+dict-member
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-webassemblyinstantiatedsource-instance
+1
+1
+WebAssemblyInstantiatedSource
+-
+instance
+dict-member
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-webassemblyinstantiatedsource-instance
+1
+1
+WebAssemblyInstantiatedSource
+-
 instance root
 dfn
 svg2
@@ -10340,6 +10923,46 @@ https://drafts.csswg.org/cssom-view-1/#concept-instant-scroll
 
 1
 -
+instantiate a promise of a module
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#instantiate-a-promise-of-a-module
+
+1
+-
+instantiate a promise of a module
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#instantiate-a-promise-of-a-module
+
+1
+-
+instantiate a webassembly module
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#instantiate-a-webassembly-module
+
+1
+-
+instantiate a webassembly module
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#instantiate-a-webassembly-module
+
+1
+-
 instantiate counter
 dfn
 css-lists-3
@@ -10359,6 +10982,114 @@ current
 https://drafts.csswg.org/css-lists-3/#instantiate-counter
 
 1
+-
+instantiate the core of a webassembly module
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#instantiate-the-core-of-a-webassembly-module
+
+1
+-
+instantiate the core of a webassembly module
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#instantiate-the-core-of-a-webassembly-module
+
+1
+-
+instantiate(bytes)
+method
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-webassembly-instantiate
+1
+1
+WebAssembly
+-
+instantiate(bytes)
+method
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-webassembly-instantiate
+1
+1
+WebAssembly
+-
+instantiate(bytes, importObject)
+method
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-webassembly-instantiate
+1
+1
+WebAssembly
+-
+instantiate(bytes, importObject)
+method
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-webassembly-instantiate
+1
+1
+WebAssembly
+-
+instantiate(moduleObject)
+method
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-webassembly-instantiate-moduleobject-importobject
+1
+1
+WebAssembly
+-
+instantiate(moduleObject)
+method
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-webassembly-instantiate-moduleobject-importobject
+1
+1
+WebAssembly
+-
+instantiate(moduleObject, importObject)
+method
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-webassembly-instantiate-moduleobject-importobject
+1
+1
+WebAssembly
+-
+instantiate(moduleObject, importObject)
+method
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#dom-webassembly-instantiate-moduleobject-importobject
+1
+1
+WebAssembly
 -
 integer
 dfn
@@ -10567,6 +11298,16 @@ https://www.w3.org/TR/css-scroll-snap-1/#intended-direction
 1
 1
 -
+intended direction
+dfn
+css-scroll-snap-1
+css-scroll-snap
+1
+current
+https://drafts.csswg.org/css-scroll-snap-1/#intended-direction
+1
+1
+-
 intended direction and end position
 dfn
 css-scroll-snap-1
@@ -10577,6 +11318,16 @@ https://www.w3.org/TR/css-scroll-snap-1/#intended-direction-and-end-position
 1
 1
 -
+intended direction and end position
+dfn
+css-scroll-snap-1
+css-scroll-snap
+1
+current
+https://drafts.csswg.org/css-scroll-snap-1/#intended-direction-and-end-position
+1
+1
+-
 intended end position
 dfn
 css-scroll-snap-1
@@ -10584,6 +11335,16 @@ css-scroll-snap
 1
 snapshot
 https://www.w3.org/TR/css-scroll-snap-1/#intended-end-position
+1
+1
+-
+intended end position
+dfn
+css-scroll-snap-1
+css-scroll-snap
+1
+current
+https://drafts.csswg.org/css-scroll-snap-1/#intended-end-position
 1
 1
 -
@@ -10656,6 +11417,17 @@ css-text
 3
 snapshot
 https://www.w3.org/TR/css-text-3/#valdef-text-justify-inter-character
+1
+1
+text-justify
+-
+inter-character
+value
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#valdef-text-justify-inter-character
 1
 1
 text-justify
@@ -10739,6 +11511,17 @@ css-text
 3
 snapshot
 https://www.w3.org/TR/css-text-3/#valdef-text-justify-inter-word
+1
+1
+text-justify
+-
+inter-word
+value
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#valdef-text-justify-inter-word
 1
 1
 text-justify
@@ -12669,6 +13452,16 @@ https://www.w3.org/TR/css-color-4/#invalid-color
 1
 1
 -
+invalid color
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#invalid-color
+1
+1
+-
 invalid container mapping
 enum-value
 json-ld11-api
@@ -13345,6 +14138,17 @@ outline-color
 -
 invert
 value
+css-ui-3
+css-ui
+3
+current
+https://drafts.csswg.org/css-ui-3/#valdef-outline-color-invert
+1
+1
+outline-color
+-
+invert
+value
 css-ui-4
 css-ui
 4
@@ -13596,6 +14400,16 @@ css-paint-api
 current
 https://drafts.css-houdini.org/css-paint-api-1/#invoke-a-paint-callback
 
+1
+-
+invoke a protocol handler
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/system-state.html#protocol-handler-invocation
+1
 1
 -
 invoke an indexed property setter

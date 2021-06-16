@@ -205,6 +205,16 @@ https://www.w3.org/TR/css-backgrounds-3/#typedef-line-style
 1
 1
 -
+<line-style>
+type
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds-3/#typedef-line-style
+1
+1
+-
 <line-width>
 type
 css-backgrounds-3
@@ -212,6 +222,16 @@ css-backgrounds
 3
 snapshot
 https://www.w3.org/TR/css-backgrounds-3/#typedef-line-width
+1
+1
+-
+<line-width>
+type
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds-3/#typedef-line-width
 1
 1
 -
@@ -292,6 +312,26 @@ css-images
 4
 current
 https://drafts.csswg.org/css-images-4/#typedef-linear-color-stop
+1
+1
+-
+LinkError
+interface
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#linkerror
+1
+1
+-
+LinkError
+exception
+wasm-js-api-1
+wasm-js-api
+1
+current
+https://webassembly.github.io/spec/js-api/#exceptiondef-linkerror
 1
 1
 -
@@ -532,6 +572,26 @@ https://drafts.csswg.org/mediaqueries-5/#valdef-media-prefers-color-scheme-light
 1
 @media/prefers-color-scheme
 -
+light color scheme
+dfn
+css-color-adjust-1
+css-color-adjust
+1
+snapshot
+https://www.w3.org/TR/css-color-adjust-1/#light-color-scheme
+1
+1
+-
+light color scheme
+dfn
+css-color-adjust-1
+css-color-adjust
+1
+current
+https://drafts.csswg.org/css-color-adjust-1/#light-color-scheme
+1
+1
+-
 light source
 dfn
 filter-effects-1
@@ -593,6 +653,17 @@ https://www.w3.org/TR/css-color-4/#valdef-color-lightblue
 1
 <color>
 -
+lightblue
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightblue
+1
+1
+<color>
+-
 lightcoral
 dfn
 css-color-3
@@ -624,6 +695,17 @@ https://www.w3.org/TR/css-color-4/#valdef-color-lightcoral
 1
 <color>
 -
+lightcoral
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightcoral
+1
+1
+<color>
+-
 lightcyan
 dfn
 css-color-3
@@ -651,6 +733,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#valdef-color-lightcyan
+1
+1
+<color>
+-
+lightcyan
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightcyan
 1
 1
 <color>
@@ -794,6 +887,17 @@ https://www.w3.org/TR/css-color-4/#valdef-color-lightgoldenrodyellow
 1
 <color>
 -
+lightgoldenrodyellow
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightgoldenrodyellow
+1
+1
+<color>
+-
 lightgray
 dfn
 css-color-3
@@ -821,6 +925,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#valdef-color-lightgray
+1
+1
+<color>
+-
+lightgray
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightgray
 1
 1
 <color>
@@ -856,6 +971,17 @@ https://www.w3.org/TR/css-color-4/#valdef-color-lightgreen
 1
 <color>
 -
+lightgreen
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightgreen
+1
+1
+<color>
+-
 lightgrey
 dfn
 css-color-3
@@ -883,6 +1009,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#valdef-color-lightgrey
+1
+1
+<color>
+-
+lightgrey
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightgrey
 1
 1
 <color>
@@ -948,6 +1085,17 @@ https://www.w3.org/TR/css-color-4/#valdef-color-lightpink
 1
 <color>
 -
+lightpink
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightpink
+1
+1
+<color>
+-
 lightsalmon
 dfn
 css-color-3
@@ -975,6 +1123,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#valdef-color-lightsalmon
+1
+1
+<color>
+-
+lightsalmon
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightsalmon
 1
 1
 <color>
@@ -1010,6 +1169,17 @@ https://www.w3.org/TR/css-color-4/#valdef-color-lightseagreen
 1
 <color>
 -
+lightseagreen
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightseagreen
+1
+1
+<color>
+-
 lightskyblue
 dfn
 css-color-3
@@ -1037,6 +1207,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#valdef-color-lightskyblue
+1
+1
+<color>
+-
+lightskyblue
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightskyblue
 1
 1
 <color>
@@ -1072,6 +1253,17 @@ https://www.w3.org/TR/css-color-4/#valdef-color-lightslategray
 1
 <color>
 -
+lightslategray
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightslategray
+1
+1
+<color>
+-
 lightslategrey
 dfn
 css-color-3
@@ -1099,6 +1291,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#valdef-color-lightslategrey
+1
+1
+<color>
+-
+lightslategrey
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightslategrey
 1
 1
 <color>
@@ -1134,6 +1337,17 @@ https://www.w3.org/TR/css-color-4/#valdef-color-lightsteelblue
 1
 <color>
 -
+lightsteelblue
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightsteelblue
+1
+1
+<color>
+-
 lightyellow
 dfn
 css-color-3
@@ -1161,6 +1375,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#valdef-color-lightyellow
+1
+1
+<color>
+-
+lightyellow
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lightyellow
 1
 1
 <color>
@@ -1218,6 +1443,17 @@ https://www.w3.org/TR/css-color-4/#valdef-color-lime
 -
 lime
 value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-lime
+1
+1
+<color>
+-
+lime
+value
 css2
 css2
 1
@@ -1254,6 +1490,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#valdef-color-limegreen
+1
+1
+<color>
+-
+limegreen
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-color-limegreen
 1
 1
 <color>
@@ -1535,6 +1782,17 @@ https://www.w3.org/TR/css-gcpm-3/#footnote-policy-line
 footnote-policy
 -
 line
+value
+css-gcpm-3
+css-gcpm
+3
+current
+https://drafts.csswg.org/css-gcpm-3/#footnote-policy-line
+1
+1
+footnote-policy
+-
+line
 enum-value
 css-layout-api-1
 css-layout-api
@@ -1688,7 +1946,37 @@ https://www.w3.org/TR/css-text-3/#line-break
 1
 1
 -
+line break
+dfn
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#line-break
+1
+1
+-
 line breaking
+dfn
+css-text-3
+css-text
+3
+snapshot
+https://www.w3.org/TR/css-text-3/#line-breaking-process
+1
+1
+-
+line breaking
+dfn
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#line-breaking-process
+1
+1
+-
+line breaking process
 dfn
 css-text-3
 css-text
@@ -1703,8 +1991,8 @@ dfn
 css-text-3
 css-text
 3
-snapshot
-https://www.w3.org/TR/css-text-3/#line-breaking-process
+current
+https://drafts.csswg.org/css-text-3/#line-breaking-process
 1
 1
 -
@@ -1892,6 +2180,16 @@ https://www.w3.org/TR/css-writing-modes-3/#line-orientation
 -
 line orientation
 dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#line-orientation
+1
+1
+-
+line orientation
+dfn
 css-writing-modes-4
 css-writing-modes
 4
@@ -1927,6 +2225,16 @@ css-text
 3
 snapshot
 https://www.w3.org/TR/css-text-3/#propdef-line-break
+1
+1
+-
+line-break
+property
+css-text-3
+css-text
+3
+current
+https://drafts.csswg.org/css-text-3/#propdef-line-break
 1
 1
 -
@@ -2085,6 +2393,16 @@ https://www.w3.org/TR/css-writing-modes-3/#line-left
 -
 line-left
 dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#line-left
+1
+1
+-
+line-left
+dfn
 css-writing-modes-4
 css-writing-modes
 4
@@ -2120,6 +2438,16 @@ css-writing-modes
 3
 snapshot
 https://www.w3.org/TR/css-writing-modes-3/#line-over
+1
+1
+-
+line-over
+dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#line-over
 1
 1
 -
@@ -2165,6 +2493,16 @@ https://www.w3.org/TR/css-writing-modes-3/#line-relative
 -
 line-relative
 dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#line-relative
+1
+1
+-
+line-relative
+dfn
 css-writing-modes-4
 css-writing-modes
 4
@@ -2190,6 +2528,16 @@ css-writing-modes
 3
 snapshot
 https://www.w3.org/TR/css-writing-modes-3/#line-relative-direction
+1
+1
+-
+line-relative direction
+dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#line-relative-direction
 1
 1
 -
@@ -2240,6 +2588,16 @@ css-writing-modes
 3
 snapshot
 https://www.w3.org/TR/css-writing-modes-3/#line-right
+1
+1
+-
+line-right
+dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#line-right
 1
 1
 -
@@ -2349,6 +2707,16 @@ https://www.w3.org/TR/css-writing-modes-3/#line-under
 -
 line-under
 dfn
+css-writing-modes-3
+css-writing-modes
+3
+current
+https://drafts.csswg.org/css-writing-modes-3/#line-under
+1
+1
+-
+line-under
+dfn
 css-writing-modes-4
 css-writing-modes
 4
@@ -2434,6 +2802,17 @@ https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationevent-linenumber
 SecurityPolicyViolationEvent
 -
 lineNumber
+dict-member
+csp3
+csp
+3
+snapshot
+https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationeventinit-linenumber
+1
+1
+SecurityPolicyViolationEventInit
+-
+lineNumber
 attribute
 csp3
 csp
@@ -2454,6 +2833,17 @@ https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationevent-linenumber
 1
 1
 SecurityPolicyViolationEvent
+-
+lineNumber
+dict-member
+csp3
+csp
+3
+current
+https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationeventinit-linenumber
+1
+1
+SecurityPolicyViolationEventInit
 -
 lineNumber
 attribute
@@ -2686,6 +3076,16 @@ https://www.w3.org/TR/css-color-4/#linear-light-sRGB
 1
 1
 -
+linear-light srgb
+dfn
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#linear-light-sRGB
+1
+1
+-
 linearRampToValueAtTime(value, endTime)
 method
 webaudio
@@ -2792,49 +3192,16 @@ https://www.w3.org/TR/css-color-4/#valdef-color-linen
 1
 <color>
 -
-lineno
-attribute
-csp3
-csp
-3
-snapshot
-https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationevent-lineno
-1
-1
-SecurityPolicyViolationEvent
--
-lineno
-dict-member
-csp3
-csp
-3
-snapshot
-https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationeventinit-lineno
-1
-1
-SecurityPolicyViolationEventInit
--
-lineno
-attribute
-csp3
-csp
-3
+linen
+value
+css-color-4
+css-color
+4
 current
-https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationevent-lineno
+https://drafts.csswg.org/css-color-4/#valdef-color-linen
 1
 1
-SecurityPolicyViolationEvent
--
-lineno
-dict-member
-csp3
-csp
-3
-current
-https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationeventinit-lineno
-1
-1
-SecurityPolicyViolationEventInit
+<color>
 -
 lineno
 attribute
@@ -3026,7 +3393,7 @@ https://html.spec.whatwg.org/multipage/links.html#rel-alternate
 1
 -
 link type "author"
-dfn
+attr-value
 html
 html
 1
@@ -3036,7 +3403,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-author
 1
 -
 link type "bookmark"
-dfn
+attr-value
 html
 html
 1
@@ -3046,7 +3413,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-bookmark
 1
 -
 link type "canonical"
-dfn
+attr-value
 html
 html
 1
@@ -3056,7 +3423,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-canonical
 1
 -
 link type "dns-prefetch"
-dfn
+attr-value
 html
 html
 1
@@ -3066,7 +3433,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-dns-prefetch
 1
 -
 link type "external"
-dfn
+attr-value
 html
 html
 1
@@ -3076,7 +3443,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-external
 1
 -
 link type "help"
-dfn
+attr-value
 html
 html
 1
@@ -3086,7 +3453,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-help
 1
 -
 link type "icon"
-dfn
+attr-value
 html
 html
 1
@@ -3096,7 +3463,7 @@ https://html.spec.whatwg.org/multipage/links.html#rel-icon
 1
 -
 link type "license"
-dfn
+attr-value
 html
 html
 1
@@ -3116,7 +3483,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-manifest
 1
 -
 link type "modulepreload"
-dfn
+attr-value
 html
 html
 1
@@ -3126,7 +3493,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-modulepreload
 1
 -
 link type "next"
-dfn
+attr-value
 html
 html
 1
@@ -3136,7 +3503,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-next
 1
 -
 link type "nofollow"
-dfn
+attr-value
 html
 html
 1
@@ -3146,7 +3513,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-nofollow
 1
 -
 link type "noopener"
-dfn
+attr-value
 html
 html
 1
@@ -3156,7 +3523,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-noopener
 1
 -
 link type "noreferrer"
-dfn
+attr-value
 html
 html
 1
@@ -3166,7 +3533,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-noreferrer
 1
 -
 link type "opener"
-dfn
+attr-value
 html
 html
 1
@@ -3176,7 +3543,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-opener
 1
 -
 link type "pingback"
-dfn
+attr-value
 html
 html
 1
@@ -3186,7 +3553,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-pingback
 1
 -
 link type "preconnect"
-dfn
+attr-value
 html
 html
 1
@@ -3196,7 +3563,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-preconnect
 1
 -
 link type "prefetch"
-dfn
+attr-value
 html
 html
 1
@@ -3216,7 +3583,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-preload
 1
 -
 link type "prerender"
-dfn
+attr-value
 html
 html
 1
@@ -3226,7 +3593,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-prerender
 1
 -
 link type "prev"
-dfn
+attr-value
 html
 html
 1
@@ -3236,7 +3603,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-prev
 1
 -
 link type "search"
-dfn
+attr-value
 html
 html
 1
@@ -3246,7 +3613,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-search
 1
 -
 link type "stylesheet"
-dfn
+attr-value
 html
 html
 1
@@ -3256,7 +3623,7 @@ https://html.spec.whatwg.org/multipage/links.html#link-type-stylesheet
 1
 -
 link type "tag"
-dfn
+attr-value
 html
 html
 1
@@ -3345,6 +3712,17 @@ css-color
 4
 snapshot
 https://www.w3.org/TR/css-color-4/#valdef-system-color-linktext
+1
+1
+<system-color>
+-
+linktext
+value
+css-color-4
+css-color
+4
+current
+https://drafts.csswg.org/css-color-4/#valdef-system-color-linktext
 1
 1
 <system-color>
@@ -3471,6 +3849,16 @@ css-lists
 current
 https://drafts.csswg.org/css-lists-3/#list-item
 1
+1
+-
+list item
+dfn
+html
+html
+1
+snapshot
+https://html.spec.whatwg.org/multipage/infrastructure.html#css-list-item
+
 1
 -
 list object
