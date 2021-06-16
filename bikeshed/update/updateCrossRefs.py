@@ -1,14 +1,14 @@
 import json
 import os
 import re
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 
-import certifi
 import tenacity
-from json_home_client import Client as APIClient
+import requests
 
 from .. import config
 from ..messages import *
+from .updateCrossRefsLegacy import legacyFetchHeadings
 
 
 def progressMessager(index, total):
@@ -16,59 +16,50 @@ def progressMessager(index, total):
 
 
 def update(path, dryRun=False):
-    say("Downloading anchor data...")
-    shepherd = APIClient(
-        "https://api.csswg.org/shepherd/",
-        version="vnd.csswg.shepherd.v1",
-        ca_cert_path=certifi.where(),
-    )
-    rawSpecData = dataFromApi(shepherd, "specifications", draft=True)
-    if not rawSpecData:
+    say("Downloading specifications data...")
+    specs = fetchSpecData()
+    if not specs:
         return
+    routingData = fetchRoutingData()
 
-    specs = dict()
+
     anchors = defaultdict(list)
-    headings = defaultdict(dict)
     lastMsgTime = 0
-    for i, rawSpec in enumerate(rawSpecData.values(), 1):
+
+    for i, spec in enumerate(specs.values(), 1):
         lastMsgTime = config.doEvery(
             s=5,
             lastTime=lastMsgTime,
-            action=progressMessager(i, len(rawSpecData)),
+            action=progressMessager(i, len(specs)),
         )
-        rawSpec = dataFromApi(
-            shepherd, "specifications", draft=True, anchors=True, spec=rawSpec["name"]
-        )
-        spec = genSpec(rawSpec)
         specs[spec["vshortname"]] = spec
-        specHeadings = headings[spec["vshortname"]]
 
-        def setStatus(obj, status):
-            obj["status"] = status
-            return obj
-
-        rawAnchorData = [
-            setStatus(x, "snapshot")
-            for x in linearizeAnchorTree(rawSpec.get("anchors", []))
-        ] + [
-            setStatus(x, "current")
-            for x in linearizeAnchorTree(rawSpec.get("draft_anchors", []))
-        ]
-        for rawAnchor in rawAnchorData:
-            rawAnchor = fixupAnchor(rawAnchor)
-            linkingTexts = rawAnchor["linking_text"]
-            if linkingTexts[0] is None:
-                # Happens if it had no linking text at all originally
+        route = routingData[spec["vshortname"]]
+        if "current_dfns" in route:
+            data = fetchDfns("ed/"+route["current_dfns"])
+            if not data:
                 continue
-            if len(linkingTexts) == 1 and linkingTexts[0].strip() == "":
-                # Happens if it was marked with an empty lt and Shepherd still picked it up
+            addToAnchors(data, anchors, spec=spec, status="current")
+        if "snapshot_dfns" in route:
+            data = fetchDfns("tr/"+route["snapshot_dfns"])
+            if not data:
                 continue
-            if "section" in rawAnchor and rawAnchor["section"] is True:
-                addToHeadings(rawAnchor, specHeadings, spec=spec)
-            if rawAnchor["type"] not in ["heading"]:
-                addToAnchors(rawAnchor, anchors, spec=spec)
+            addToAnchors(data, anchors, spec=spec, status="snapshot")
+        '''
+        # Reffy headings data is currently broken for multipage specs
+        if "current_headings" in route:
+            data = fetchHeadings("ed/"+route["current_headings"])
+            if not data:
+                continue
+            addToHeadings(data, headings, spec=spec, status="current")
+        if "snapshot_headings" in route:
+            data = fetchHeadings("tr/"+route["snapshot_headings"])
+            if not data:
+                continue
+            addToHeadings(data, anchors, spec=spec, status="snapshot")
+        '''
 
-    cleanSpecHeadings(headings)
+    headings = legacyFetchHeadings()
 
     methods = extractMethodData(anchors)
     fors = extractForsData(anchors)
@@ -124,83 +115,133 @@ def update(path, dryRun=False):
     return writtenPaths
 
 
+
+
+
+
 @tenacity.retry(
     reraise=True, stop=tenacity.stop_after_attempt(3), wait=tenacity.wait_random(1, 2)
 )
-def dataFromApi(api, *args, **kwargs):
-    anchorDataContentTypes = [
-        "application/json",
-        "application/vnd.csswg.shepherd.v1+json",
-    ]
-    res = api.get(*args, **kwargs)
-    if not res:
-        raise Exception(
-            "Unknown error fetching anchor data. This might be transient; try again in a few minutes, and if it's still broken, please report it on GitHub."
+def fetchSpecData():
+    try:
+        response = requests.get(
+            "https://raw.githubusercontent.com/w3c/browser-specs/master/index.json"
         )
-    data = res.data
-    if res.status_code == 406:
-        raise Exception(
-            "This version of the anchor-data API is no longer supported. Try updating Bikeshed. If the error persists, please report it on GitHub."
+    except Exception as e:
+        die("Couldn't download the specifications data.\n{0}", e)
+        return
+
+    try:
+        rawSpecData = response.json(encoding="utf-8", object_pairs_hook=OrderedDict)
+    except Exception as e:
+        die(
+            "The specifications data wasn't valid JSON for some reason. Try downloading again?\n{0}",
+            e,
         )
-    if res.content_type not in anchorDataContentTypes:
-        raise Exception(f"Unrecognized anchor-data content-type '{res.contentType}'.")
-    if res.status_code >= 300:
-        raise Exception(
-            f"Unknown error fetching anchor data; got status {res.status_code} and bytes:\n{data.decode('utf-8')}"
-        )
-    if isinstance(data, bytes):
-        raise Exception(f"Didn't get expected JSON data. Got:\n{data.decode('utf-8')}")
-    return data
+        return
 
+    specs = dict()
+    for rawSpec in rawSpecData:
+        spec = specFromRaw(rawSpec)
+        specs[spec["vshortname"]] = spec
+    return specs
 
-def linearizeAnchorTree(multiTree, list=None):
-    if list is None:
-        list = []
-    # Call with multiTree being a list of trees
-    for item in multiTree:
-        if item["type"] in config.dfnTypes.union(["dfn", "heading"]):
-            list.append(item)
-        if item.get("children"):
-            linearizeAnchorTree(item["children"], list)
-            del item["children"]
-    return list
-
-
-def genSpec(rawSpec):
-    spec = {
-        "vshortname": rawSpec["name"],
-        "shortname": rawSpec.get("short_name"),
-        "snapshot_url": rawSpec.get("base_uri"),
-        "current_url": rawSpec.get("draft_uri"),
-        "title": rawSpec.get("title"),
-        "description": rawSpec.get("description"),
-        "work_status": rawSpec.get("work_status"),
-        "working_group": rawSpec.get("working_group"),
-        "domain": rawSpec.get("domain"),
-        "status": rawSpec.get("status"),
-        "abstract": rawSpec.get("abstract"),
-    }
-    if spec["shortname"] is not None and spec["vshortname"].startswith(
-        spec["shortname"]
-    ):
-        # S = "foo", V = "foo-3"
-        # Strip the prefix
-        level = spec["vshortname"][len(spec["shortname"]) :]
-        if level.startswith("-"):
-            level = level[1:]
-        if level.isdigit():
-            spec["level"] = int(level)
-        else:
-            spec["level"] = 1
-    elif spec["shortname"] is None and re.match(r"(.*)-(\d+)", spec["vshortname"]):
-        # S = None, V = "foo-3"
-        match = re.match(r"(.*)-(\d+)", spec["vshortname"])
-        spec["shortname"] = match.group(1)
-        spec["level"] = int(match.group(2))
+def specFromRaw(rawSpec):
+    spec = {}
+    spec["vshortname"] = rawSpec["shortname"]
+    spec["title"] = rawSpec["shortTitle"]
+    spec["description"] = rawSpec["title"]
+    spec["current_url"] = rawSpec["nightly"]["url"]
+    if "release" in rawSpec:
+        spec["snapshot_url"] = rawSpec["release"]["url"]
     else:
-        spec["shortname"] = spec["vshortname"]
-        spec["level"] = 1
+        spec["snapshot_url"] = spec["current_url"]
+    if rawSpec["series"]["shortname"] != spec["vshortname"]:
+        spec["shortname"] = rawSpec["series"]["shortname"]
+    else:
+        spec["shortname"] = None
+    if "seriesVersion" in rawSpec:
+        spec["version"] = rawSpec["seriesVersion"]
+    else:
+        spec["version"] = "1"
+    spec["delta"] = rawSpec["seriesComposition"] == "delta"
+    if "tests" in rawSpec:
+        spec["tests"] = rawSpec["tests"]
+    else:
+        spec["tests"] = {}
+
     return spec
+
+
+
+
+
+@tenacity.retry(
+    reraise=True, stop=tenacity.stop_after_attempt(3), wait=tenacity.wait_random(1, 2)
+)
+def fetchRoutingData():
+    try:
+        edResponse = requests.get(
+            "https://raw.githubusercontent.com/w3c/webref/master/ed/index.json"
+        )
+        trResponse = requests.get(
+            "https://raw.githubusercontent.com/w3c/webref/master/tr/index.json"
+        )
+    except Exception as e:
+        die("Couldn't download the specification routing data.\n{0}", e)
+        return
+
+    try:
+        edRouting = edResponse.json(encoding="utf-8", object_pairs_hook=OrderedDict)
+        trRouting = trResponse.json(encoding="utf-8", object_pairs_hook=OrderedDict)
+    except Exception as e:
+        die(
+            "The specification routing data wasn't valid JSON for some reason. Try downloading again?\n{0}",
+            e,
+        )
+        return
+
+    routes = dict()
+    for raw in edRouting["results"]:
+        shortname = raw["shortname"]
+        data = {}
+        if "dfns" in raw:
+            data["current_dfns"] = raw["dfns"]
+        if "headings" in raw:
+            data["current_headings"] = raw["headings"]
+        routes[shortname] = data
+    for raw in trRouting["results"]:
+        shortname = raw["shortname"]
+        data = {}
+        if "dfns" in raw:
+            data["snapshot_dfns"] = raw["dfns"]
+        if "headings" in raw:
+            data["snapshot_headings"] = raw["headings"]
+        routes[shortname] = data
+
+    return routes
+
+
+
+@tenacity.retry(
+    reraise=True, stop=tenacity.stop_after_attempt(3), wait=tenacity.wait_random(1, 2)
+)
+def fetchDfns(path):
+    try:
+        response = requests.get(
+            "https://raw.githubusercontent.com/w3c/webref/master/" + path
+        )
+    except Exception as e:
+        die(f"Couldn't download the {path} data.\n{e}")
+        return
+
+    try:
+        return response.json(encoding="utf-8", object_pairs_hook=OrderedDict)["dfns"]
+    except Exception as e:
+        die(
+            f"The {path} data wasn't valid JSON for some reason. Try downloading again?\n{e}",
+        )
+        return
 
 
 def fixupAnchor(anchor):
@@ -209,10 +250,6 @@ def fixupAnchor(anchor):
     # This one issue was annoying
     if anchor.get("title", None) == "'@import'":
         anchor["title"] = "@import"
-
-    # css3-tables has this a bunch, for some strange reason
-    if anchor.get("uri", "").startswith("??"):
-        anchor["uri"] = anchor["uri"][2:]
 
     # If any smart quotes crept in, replace them with ASCII.
     linkingTexts = anchor.get("linking_text", [anchor.get("title")])
@@ -239,6 +276,7 @@ def fixupAnchor(anchor):
 
 
 def addToHeadings(rawAnchor, specHeadings, spec):
+    return
     uri = rawAnchor["uri"]
     if uri[0] == "#":
         # Either single-page spec, or link on the top page of a multi-page spec
@@ -302,23 +340,24 @@ def cleanSpecHeadings(headings):
                 del specHeadings[v[0]]
 
 
-def addToAnchors(rawAnchor, anchors, spec):
-    anchor = {
-        "status": rawAnchor["status"],
-        "type": rawAnchor["type"],
-        "spec": spec["vshortname"],
-        "shortname": spec["shortname"],
-        "level": int(spec["level"]),
-        "export": rawAnchor.get("export", False),
-        "normative": rawAnchor.get("normative", False),
-        "url": spec["{}_url".format(rawAnchor["status"])] + rawAnchor["uri"],
-        "for": rawAnchor.get("for", []),
-    }
-    for text in rawAnchor["linking_text"]:
-        if anchor["type"] in config.lowercaseTypes:
-            text = text.lower()
-        text = re.sub(r"\s+", " ", text)
-        anchors[text].append(anchor)
+def addToAnchors(rawAnchors, anchors, spec, status):
+    for rawAnchor in rawAnchors:
+        anchor = {
+            "status": status,
+            "type": rawAnchor["type"],
+            "spec": spec["vshortname"],
+            "shortname": spec["shortname"],
+            "version": spec["version"],
+            "export": rawAnchor["access"] == "public",
+            "normative": not rawAnchor["informative"],
+            "url": rawAnchor["href"],
+            "for": rawAnchor["for"],
+        }
+        for text in rawAnchor["linkingText"]:
+            if anchor["type"] in config.lowercaseTypes:
+                text = text.lower()
+            text = re.sub(r"\s+", " ", text)
+            anchors[text].append(anchor)
 
 
 def extractMethodData(anchors):
@@ -399,7 +438,7 @@ def writeAnchorsFile(anchors, path):
                         "type",
                         "spec",
                         "shortname",
-                        "level",
+                        "version",
                         "status",
                         "url",
                     ]:
