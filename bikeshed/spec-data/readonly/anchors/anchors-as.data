@@ -1,23 +1,62 @@
+'aspect-ratio'
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/infrastructure.html#'aspect-ratio'
+
+1
+-
 AssignedNodesOptions
 dictionary
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/scripting.html#assignednodesoptions
 1
 1
 -
-[[associatedProperty]]
-attribute
-css-typed-om-1
-css-typed-om
+[[AssociatedMediaStreamIds]]
+idl
+webrtc
+webrtc
+1
+current
+https://w3c.github.io/webrtc-pc/#dfn-associatedmediastreamids
+1
+1
+-
+[[AssociatedMediaStreamIds]]
+idl
+webrtc
+webrtc
 1
 snapshot
-https://www.w3.org/TR/css-typed-om-1/#dom-cssstylevalue-associatedproperty-slot
+https://www.w3.org/TR/webrtc/#dfn-associatedmediastreamids
 1
 1
-CSSStyleValue
+-
+[[AssociatedRemoteMediaStreams]]
+idl
+webrtc
+webrtc
+1
+current
+https://w3c.github.io/webrtc-pc/#dfn-associatedremotemediastreams
+1
+1
+-
+[[AssociatedRemoteMediaStreams]]
+idl
+webrtc
+webrtc
+1
+snapshot
+https://www.w3.org/TR/webrtc/#dfn-associatedremotemediastreams
+1
+1
 -
 [[associatedProperty]]
 attribute
@@ -30,33 +69,64 @@ https://drafts.css-houdini.org/css-typed-om-1/#dom-cssstylevalue-associatedprope
 1
 CSSStyleValue
 -
-[[associatedmediastreamids]]
-dfn
-webrtc-1
-webrtc
+[[associatedProperty]]
+attribute
+css-typed-om-1
+css-typed-om
 1
 snapshot
-https://www.w3.org/TR/webrtc/#dfn-associatedmediastreamids
-
+https://www.w3.org/TR/css-typed-om-1/#dom-cssstylevalue-associatedproperty-slot
 1
--
-[[associatedremotemediastreams]]
-dfn
-webrtc-1
-webrtc
 1
-snapshot
-https://www.w3.org/TR/webrtc/#dfn-associatedremotemediastreams
-
-1
+CSSStyleValue
 -
 a serialization of the bitmap as a file
 dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/canvas.html#a-serialisation-of-the-bitmap-as-a-file
+
+1
+-
+a serialization of the bitmap as a file
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-a-serialization-of-the-canvas-element-s-bitmap-as-a-file
+
+1
+-
+a serialization of the bitmap as a file
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-a-serialization-of-the-canvas-element-s-bitmap-as-a-file
+
+1
+-
+a serialization of the canvas element’s bitmap as a file
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-a-serialization-of-the-canvas-element-s-bitmap-as-a-file
+
+1
+-
+a serialization of the canvas element’s bitmap as a file
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-a-serialization-of-the-canvas-element-s-bitmap-as-a-file
 
 1
 -
@@ -65,7 +135,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/media.html#text-track-cue-start-time
 
 1
@@ -75,7 +145,7 @@ element-attr
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/semantics.html#attr-link-as
 1
 1
@@ -86,7 +156,7 @@ attribute
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/semantics.html#dom-link-as
 1
 1
@@ -97,89 +167,48 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/links.html#as-a-download
 
 1
 -
-as conformance class
+as a timestamp
 dfn
-css-fonts-3
-css-fonts
-3
-snapshot
-https://www.w3.org/TR/css-fonts-3/#style-sheet
-
-1
--
-as conformance class
-dfn
-css-fonts-3
-css-fonts
-3
-current
-https://drafts.csswg.org/css-fonts-3/#style-sheet
-
-1
--
-as conformance class
-dfn
-css-speech-1
-css-speech
-1
-snapshot
-https://www.w3.org/TR/css-speech-1/#style-sheet0
-
-1
--
-as conformance class
-dfn
-css-template-1
-css-template
-1
-snapshot
-https://www.w3.org/TR/css3-layout/#style-sheet
-
-1
--
-as conformance class
-dfn
-css-template-1
-css-template
+cookie-store
+cookie-store
 1
 current
-https://drafts.csswg.org/css-template-1/#style-sheet
+https://wicg.github.io/cookie-store/#as-a-timestamp
 
 1
 -
 ascending
 dfn
-indexeddb-2
-indexeddb
-2
+IndexedDB-3
+IndexedDB
+3
 current
 https://w3c.github.io/IndexedDB/#greater-than
 
 1
 -
-ascent
-element-attr
-svg
-svg
-1
+ascending
+dfn
+IndexedDB-3
+IndexedDB
+3
 snapshot
-https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementAscentAttribute
+https://www.w3.org/TR/IndexedDB-3/#greater-than
+
 1
-1
-font-face
 -
 ascent metric
 dfn
-css-inline-3
-css-inline
-3
-snapshot
-https://www.w3.org/TR/css-inline-3/#ascent-metric
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/infrastructure.html#ascent-metric
 
 1
 -
@@ -195,21 +224,21 @@ https://drafts.csswg.org/css-inline-3/#ascent-metric
 -
 ascent metric
 dfn
-html
-html
-1
+css-inline-3
+css-inline
+3
 snapshot
-https://html.spec.whatwg.org/multipage/infrastructure.html#ascent-metric
+https://www.w3.org/TR/css-inline-3/#ascent-metric
 
 1
 -
 ascent-override
 descriptor
-css-fonts-4
+css-fonts-5
 css-fonts
-4
-snapshot
-https://www.w3.org/TR/css-fonts-4/#descdef-font-face-ascent-override
+5
+current
+https://drafts.csswg.org/css-fonts-5/#descdef-font-face-ascent-override
 1
 1
 @font-face
@@ -227,25 +256,14 @@ https://drafts.csswg.org/css-fonts-4/#descdef-font-face-ascent-override
 -
 ascent-override
 descriptor
-css-fonts-5
+css-fonts-4
 css-fonts
-5
-current
-https://drafts.csswg.org/css-fonts-5/#descdef-font-face-ascent-override
+4
+snapshot
+https://www.w3.org/TR/css-fonts-4/#descdef-font-face-ascent-override
 1
 1
 @font-face
--
-ascentOverride
-attribute
-css-font-loading-3
-css-font-loading
-3
-current
-https://drafts.csswg.org/css-font-loading-3/#dom-fontface-ascentoverride
-1
-1
-FontFace
 -
 ascentOverride
 dict-member
@@ -253,17 +271,28 @@ css-font-loading-3
 css-font-loading
 3
 current
-https://drafts.csswg.org/css-font-loading-3/#dom-fontfacedescriptors-ascentoverride
+https://drafts.csswg.org/css-font-loading/#dom-fontfacedescriptors-ascentoverride
 1
 1
 FontFaceDescriptors
+-
+ascentOverride
+attribute
+css-font-loading-3
+css-font-loading
+3
+current
+https://drafts.csswg.org/css-font-loading/#dom-fontface-ascentoverride
+1
+1
+FontFace
 -
 ascii alpha
 dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#ascii-letters
 
 1
@@ -283,7 +312,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#alphanumeric-ascii-characters
 
 1
@@ -313,7 +342,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#ascii-case-insensitive
 
 1
@@ -330,21 +359,31 @@ https://infra.spec.whatwg.org/#ascii-case-insensitive
 -
 ascii case-insensitive
 dfn
-webcryptoapi-1
-webcryptoapi
+DOM-Parsing
+DOM-Parsing
 1
-snapshot
-https://www.w3.org/TR/WebCryptoAPI/#case-insensitive
+current
+https://w3c.github.io/DOM-Parsing/#dfn-ascii-case-insensitive
 
 1
 -
 ascii case-insensitive
 dfn
-webcryptoapi-1
-webcryptoapi
+WebCryptoAPI
+WebCryptoAPI
 1
 current
 https://w3c.github.io/webcrypto/#case-insensitive
+
+1
+-
+ascii case-insensitive
+dfn
+WebCryptoAPI
+WebCryptoAPI
+1
+snapshot
+https://www.w3.org/TR/WebCryptoAPI/#case-insensitive
 
 1
 -
@@ -373,7 +412,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#ascii-digits
 
 1
@@ -403,7 +442,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#ascii-hex-digits
 
 1
@@ -423,7 +462,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#lowercase-ascii-letters
 
 1
@@ -443,7 +482,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#lowercase-ascii-hex-digits
 
 1
@@ -463,7 +502,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#converted-to-ascii-lowercase
 
 1
@@ -478,12 +517,22 @@ https://infra.spec.whatwg.org/#ascii-lowercase
 1
 1
 -
+ascii lowercase
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-lowercase
+
+1
+-
 ascii serialization of an origin
 dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/origin.html#ascii-serialisation-of-an-origin
 1
 1
@@ -523,7 +572,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#uppercase-ascii-letters
 
 1
@@ -543,7 +592,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#uppercase-ascii-hex-digits
 
 1
@@ -563,7 +612,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#converted-to-ascii-uppercase
 
 1
@@ -583,7 +632,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#space-characters
 
 1
@@ -598,23 +647,23 @@ https://infra.spec.whatwg.org/#ascii-whitespace
 1
 1
 -
+ascii-capable
+dfn
+keyboard-map
+keyboard-map
+1
+current
+https://wicg.github.io/keyboard-map/#ascii-capable
+
+1
+-
 aside
 element
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/sections.html#the-aside-element
-1
-1
--
-asin()
-function
-css-values-4
-css-values
-4
-snapshot
-https://www.w3.org/TR/css-values-4/#funcdef-asin
 1
 1
 -
@@ -628,13 +677,13 @@ https://drafts.csswg.org/css-values-4/#funcdef-asin
 1
 1
 -
-ask the user to choose a Credential
-abstract-op
-credential-management-1
-credential-management
-1
+asin()
+function
+css-values-4
+css-values
+4
 snapshot
-https://www.w3.org/TR/credential-management-1/#abstract-opdef-ask-the-user-to-choose-a-credential
+https://www.w3.org/TR/css-values-4/#funcdef-asin
 1
 1
 -
@@ -648,33 +697,108 @@ https://w3c.github.io/webappsec-credential-management/#abstract-opdef-ask-the-us
 1
 1
 -
+ask the user to choose a Credential
+abstract-op
+credential-management-1
+credential-management
+1
+snapshot
+https://www.w3.org/TR/credential-management-1/#abstract-opdef-ask-the-user-to-choose-a-credential
+1
+1
+-
 asks for a reset
 dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#ask-for-a-reset
 
 1
 -
-aspect value
+aspect
 dfn
-css-fonts-3
-css-fonts
-3
-snapshot
-https://www.w3.org/TR/css-fonts-3/#aspect-value
-
+webgpu
+webgpu
 1
+current
+https://gpuweb.github.io/gpuweb/#aspect
+
+
+-
+aspect
+dict-member
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gputextureviewdescriptor-aspect
+1
+1
+GPUTextureViewDescriptor
+-
+aspect
+dict-member
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpuimagecopytexture-aspect
+1
+1
+GPUImageCopyTexture
+-
+aspect
+dfn
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#aspect
+
+
+-
+aspect
+dict-member
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gputextureviewdescriptor-aspect
+1
+1
+GPUTextureViewDescriptor
+-
+aspect
+dict-member
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpuimagecopytexture-aspect
+1
+1
+GPUImageCopyTexture
 -
 aspect value
 dfn
-css-fonts-3
+css-fonts-5
 css-fonts
-3
+5
 current
-https://drafts.csswg.org/css-fonts-3/#aspect-value
+https://drafts.csswg.org/css-fonts-5/#font-size-adjust-aspect-value
+
+1
+font-size-adjust
+-
+aspect value
+dfn
+css-fonts-4
+css-fonts
+4
+current
+https://drafts.csswg.org/css-fonts-4/#aspect-value
 
 1
 -
@@ -688,26 +812,15 @@ https://www.w3.org/TR/css-fonts-4/#aspect-value
 
 1
 -
-aspect value
-dfn
-css-fonts-4
-css-fonts
+aspect-ratio
+property
+css-sizing-4
+css-sizing
 4
 current
-https://drafts.csswg.org/css-fonts-4/#aspect-value
-
-1
--
-aspect-ratio
-descriptor
-css-contain-3
-css-contain
-3
-current
-https://drafts.csswg.org/css-contain-3/#descdef-container-aspect-ratio
+https://drafts.csswg.org/css-sizing-4/#propdef-aspect-ratio
 1
 1
-@container
 -
 aspect-ratio
 property
@@ -720,24 +833,15 @@ https://www.w3.org/TR/css-sizing-4/#propdef-aspect-ratio
 1
 -
 aspect-ratio
-property
-css-sizing-4
-css-sizing
+descriptor
+mediaqueries-4
+mediaqueries
 4
 current
-https://drafts.csswg.org/css-sizing-4/#propdef-aspect-ratio
+https://drafts.csswg.org/mediaqueries-4/#descdef-media-aspect-ratio
 1
 1
--
-aspect-ratio
-value
-html
-html
-1
-snapshot
-https://html.spec.whatwg.org/multipage/infrastructure.html#'aspect-ratio'
-
-1
+@media
 -
 aspect-ratio
 descriptor
@@ -752,11 +856,11 @@ https://www.w3.org/TR/mediaqueries-4/#descdef-media-aspect-ratio
 -
 aspect-ratio
 descriptor
-mediaqueries-4
+mediaqueries-5
 mediaqueries
-4
+5
 current
-https://drafts.csswg.org/mediaqueries-4/#descdef-media-aspect-ratio
+https://drafts.csswg.org/mediaqueries-5/#descdef-media-aspect-ratio
 1
 1
 @media
@@ -772,16 +876,49 @@ https://www.w3.org/TR/mediaqueries-5/#descdef-media-aspect-ratio
 1
 @media
 -
-aspect-ratio
-descriptor
-mediaqueries-5
-mediaqueries
-5
+aspectRatio
+dict-member
+mediacapture-streams
+mediacapture-streams
+1
 current
-https://drafts.csswg.org/mediaqueries-5/#descdef-media-aspect-ratio
+https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-aspectratio
 1
 1
-@media
+MediaTrackSupportedConstraints
+-
+aspectRatio
+dict-member
+mediacapture-streams
+mediacapture-streams
+1
+current
+https://w3c.github.io/mediacapture-main/#dom-mediatrackcapabilities-aspectratio
+1
+1
+MediaTrackCapabilities
+-
+aspectRatio
+dict-member
+mediacapture-streams
+mediacapture-streams
+1
+current
+https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-aspectratio
+1
+1
+MediaTrackConstraintSet
+-
+aspectRatio
+dict-member
+mediacapture-streams
+mediacapture-streams
+1
+current
+https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-aspectratio
+1
+1
+MediaTrackSettings
 -
 aspectRatio
 dict-member
@@ -829,8 +966,8 @@ MediaTrackSettings
 -
 aspectRatio
 attribute
-webxr-layers-1
-webxr-layers
+webxrlayers-1
+webxrlayers
 1
 current
 https://immersive-web.github.io/layers/#dom-xrcylinderlayer-aspectratio
@@ -840,8 +977,8 @@ XRCylinderLayer
 -
 aspectRatio
 dict-member
-webxr-layers-1
-webxr-layers
+webxrlayers-1
+webxrlayers
 1
 current
 https://immersive-web.github.io/layers/#dom-xrcylinderlayerinit-aspectratio
@@ -851,14 +988,57 @@ XRCylinderLayerInit
 -
 aspectRatio
 dict-member
-webxr-layers-1
-webxr-layers
+webxrlayers-1
+webxrlayers
 1
 current
 https://immersive-web.github.io/layers/#dom-xrmediacylinderlayerinit-aspectratio
 1
 1
 XRMediaCylinderLayerInit
+-
+aspectRatio
+attribute
+webxrlayers-1
+webxrlayers
+1
+snapshot
+https://www.w3.org/TR/webxrlayers-1/#dom-xrcylinderlayer-aspectratio
+1
+1
+XRCylinderLayer
+-
+aspectRatio
+dict-member
+webxrlayers-1
+webxrlayers
+1
+snapshot
+https://www.w3.org/TR/webxrlayers-1/#dom-xrcylinderlayerinit-aspectratio
+1
+1
+XRCylinderLayerInit
+-
+aspectRatio
+dict-member
+webxrlayers-1
+webxrlayers
+1
+snapshot
+https://www.w3.org/TR/webxrlayers-1/#dom-xrmediacylinderlayerinit-aspectratio
+1
+1
+XRMediaCylinderLayerInit
+-
+aspectratio
+dfn
+mediacapture-streams
+mediacapture-streams
+1
+current
+https://w3c.github.io/mediacapture-main/#dfn-aspectratio
+
+1
 -
 aspectratio
 dfn
@@ -872,7 +1052,37 @@ https://www.w3.org/TR/mediacapture-streams/#dfn-aspectratio
 -
 aspectratio
 dfn
-webrtc-1
+screen-capture
+screen-capture
+1
+current
+https://w3c.github.io/mediacapture-screen-share/#dfn-aspectratio
+
+1
+-
+aspectratio
+dfn
+screen-capture
+screen-capture
+1
+snapshot
+https://www.w3.org/TR/screen-capture/#dfn-aspectratio
+
+1
+-
+aspectratio
+dfn
+webrtc
+webrtc
+1
+current
+https://w3c.github.io/webrtc-pc/#dfn-aspectratio
+
+1
+-
+aspectratio
+dfn
+webrtc
 webrtc
 1
 snapshot
@@ -882,11 +1092,61 @@ https://www.w3.org/TR/webrtc/#dfn-aspectratio
 -
 aspects
 dfn
-permissions-1
+permissions
 permissions
 1
 current
 https://w3c.github.io/permissions/#aspects
+
+1
+-
+aspects
+dfn
+permissions
+permissions
+1
+snapshot
+https://www.w3.org/TR/permissions/#aspects
+
+1
+-
+assemble primitives
+abstract-op
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#abstract-opdef-assemble-primitives
+1
+1
+-
+assemble primitives
+abstract-op
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#abstract-opdef-assemble-primitives
+1
+1
+-
+assemblyglyphcount
+dfn
+mathml-core
+mathml-core
+1
+current
+https://w3c.github.io/mathml-core/#dfn-assemblyglyphcount
+
+1
+-
+assembysize
+dfn
+mathml-core
+mathml-core
+1
+current
+https://w3c.github.io/mathml-core/#dfn-assembysize
 
 1
 -
@@ -900,9 +1160,19 @@ https://infra.spec.whatwg.org/#assert
 1
 1
 -
+assert
+dfn
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/notational-conventions.html#assert
+
+1
+-
 assert()
 method
-console-1
+console
 console
 1
 current
@@ -913,7 +1183,7 @@ console
 -
 assert(condition)
 method
-console-1
+console
 console
 1
 current
@@ -924,7 +1194,7 @@ console
 -
 assert(condition, ...data)
 method
-console-1
+console
 console
 1
 current
@@ -935,41 +1205,63 @@ console
 -
 assertion
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
-snapshot
-https://www.w3.org/TR/webauthn/#assertion
-
-1
--
-assertion
-dfn
-webauthn-1
-webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#assertion
 
 1
 -
-assertion signature
+assertion
 dfn
-webauthn-1
+webauthn-3
 webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#assertion
+
+1
+-
+assertion
+dfn
+webrtc-identity
+webrtc-identity
+1
+current
+https://w3c.github.io/webrtc-identity/#dom-rtcidentityassertionresult-assertion
+
+1
+rtcidentityassertionresult
+-
+assertion
+dfn
+webrtc-identity
+webrtc-identity
 1
 snapshot
-https://www.w3.org/TR/webauthn/#assertion-signature
+https://www.w3.org/TR/webrtc-identity/#dom-rtcidentityassertionresult-assertion
+
+1
+rtcidentityassertionresult
+-
+assertion signature
+dfn
+webauthn-3
+webauthn
+3
+current
+https://w3c.github.io/webauthn/#assertion-signature
 
 1
 -
 assertion signature
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
-current
-https://w3c.github.io/webauthn/#assertion-signature
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#assertion-signature
 
 1
 -
@@ -978,7 +1270,7 @@ dfn
 dom
 dom
 1
-snapshot
+current
 https://dom.spec.whatwg.org/#assign-a-slot
 
 1
@@ -988,7 +1280,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#assign-a-slot
 
 1
@@ -998,7 +1290,7 @@ dfn
 dom
 dom
 1
-snapshot
+current
 https://dom.spec.whatwg.org/#assign-slotables
 
 1
@@ -1008,7 +1300,7 @@ dfn
 dom
 dom
 1
-snapshot
+current
 https://dom.spec.whatwg.org/#assign-slotables-for-a-tree
 
 1
@@ -1018,7 +1310,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#assign-slottables-for-a-tree
 
 1
@@ -1028,7 +1320,7 @@ method
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/scripting.html#dom-slot-assign
 1
 1
@@ -1039,21 +1331,11 @@ method
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/history.html#dom-location-assign
 1
 1
 Location
--
-assignable table width
-dfn
-css-tables-3
-css-tables
-3
-snapshot
-https://www.w3.org/TR/css-tables-3/#assignable-table-width
-
-1
 -
 assignable table width
 dfn
@@ -1065,12 +1347,22 @@ https://drafts.csswg.org/css-tables-3/#assignable-table-width
 
 1
 -
+assignable table width
+dfn
+css-tables-3
+css-tables
+3
+snapshot
+https://www.w3.org/TR/css-tables-3/#assignable-table-width
+
+1
+-
 assigned
 dfn
 dom
 dom
 1
-snapshot
+current
 https://dom.spec.whatwg.org/#slotable-assigned
 1
 1
@@ -1081,7 +1373,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/interaction.html#assigned-access-key
 
 1
@@ -1091,8 +1383,18 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/media.html#assigned-media-provider-object
+
+1
+-
+assigned media provider object
+dfn
+mediacapture-depth
+mediacapture-depth
+1
+snapshot
+https://www.w3.org/TR/mediacapture-depth/#dfn-assigned-media-provider-object
 
 1
 -
@@ -1101,7 +1403,7 @@ dfn
 dom
 dom
 1
-snapshot
+current
 https://dom.spec.whatwg.org/#slot-assigned-nodes
 1
 1
@@ -1112,7 +1414,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#assigned-nodes
 
 1
@@ -1122,7 +1424,7 @@ dfn
 dom
 dom
 1
-snapshot
+current
 https://dom.spec.whatwg.org/#slotable-assigned-slot
 1
 1
@@ -1133,28 +1435,28 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#assigned-slot
 
 1
 -
-assignedElements()
+assignedElements(options)
 method
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/scripting.html#dom-slot-assignedelements
 1
 1
 HTMLSlotElement
 -
-assignedNodes()
+assignedNodes(options)
 method
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/scripting.html#dom-slot-assignednodes
 1
 1
@@ -1165,19 +1467,329 @@ attribute
 dom
 dom
 1
-snapshot
+current
 https://dom.spec.whatwg.org/#dom-slotable-assignedslot
 1
 1
 Slottable
 -
-associate animator instance of worklet animation
+assignment statement
 dfn
-css-animation-worklet-1
-css-animation-worklet
+WGSL
+WGSL
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#assignment-statement
+
+1
+-
+assignment statement
+dfn
+WGSL
+WGSL
 1
 snapshot
-https://www.w3.org/TR/css-animation-worklet-1/#associate-animator-instance-of-worklet-animation
+https://www.w3.org/TR/WGSL/#assignment-statement
+
+1
+-
+assistive technologies
+dfn
+mathml-aam
+mathml-aam
+1
+current
+https://w3c.github.io/mathml-aam/#dfn-assistive-technology
+
+1
+-
+assistive technologies
+dfn
+accname-1.2
+accname
+1.2
+snapshot
+https://www.w3.org/TR/accname-1.2/#dfn-assistive-technology
+
+1
+-
+assistive technologies
+dfn
+core-aam-1.2
+core-aam
+1.2
+snapshot
+https://www.w3.org/TR/core-aam-1.2/#dfn-assistive-technology
+
+1
+-
+assistive technologies
+dfn
+graphics-aam-1.0
+graphics-aam
+1.0
+current
+https://w3c.github.io/graphics-aam/#dfn-assistive-technology
+
+
+-
+assistive technologies
+dfn
+graphics-aam-1.0
+graphics-aam
+1.0
+snapshot
+https://www.w3.org/TR/graphics-aam-1.0/#dfn-assistive-technology
+
+1
+-
+assistive technologies
+dfn
+graphics-aria-1.0
+graphics-aria
+1.0
+current
+https://w3c.github.io/graphics-aria/#dfn-assistive-technology
+
+
+-
+assistive technologies
+dfn
+graphics-aria-1.0
+graphics-aria
+1.0
+snapshot
+https://www.w3.org/TR/graphics-aria-1.0/#dfn-assistive-technology
+
+
+-
+assistive technologies
+dfn
+html-aam-1.0
+html-aam
+1.0
+snapshot
+https://www.w3.org/TR/html-aam-1.0/#dfn-assistive-technology
+
+1
+-
+assistive technologies
+dfn
+svg-aam-1.0
+svg-aam
+1.0
+current
+https://w3c.github.io/svg-aam/#dfn-assistive-technology
+
+
+-
+assistive technologies
+dfn
+svg-aam-1.0
+svg-aam
+1.0
+snapshot
+https://www.w3.org/TR/svg-aam-1.0/#dfn-assistive-technology
+
+1
+-
+assistive technologies
+dfn
+wai-aria-1.2
+wai-aria
+1.2
+current
+https://w3c.github.io/aria/#dfn-assistive-technology
+1
+
+-
+assistive technologies
+dfn
+wai-aria-1.2
+wai-aria
+1.2
+snapshot
+https://www.w3.org/TR/wai-aria-1.2/#dfn-assistive-technology
+
+
+-
+assistive technology
+dfn
+mathml-aam
+mathml-aam
+1
+current
+https://w3c.github.io/mathml-aam/#dfn-assistive-technology
+
+1
+-
+assistive technology
+dfn
+accname-1.2
+accname
+1.2
+snapshot
+https://www.w3.org/TR/accname-1.2/#dfn-assistive-technology
+
+1
+-
+assistive technology
+dfn
+core-aam-1.2
+core-aam
+1.2
+snapshot
+https://www.w3.org/TR/core-aam-1.2/#dfn-assistive-technology
+
+1
+-
+assistive technology
+dfn
+graphics-aam-1.0
+graphics-aam
+1.0
+current
+https://w3c.github.io/graphics-aam/#dfn-assistive-technology
+
+
+-
+assistive technology
+dfn
+graphics-aam-1.0
+graphics-aam
+1.0
+snapshot
+https://www.w3.org/TR/graphics-aam-1.0/#dfn-assistive-technology
+
+1
+-
+assistive technology
+dfn
+graphics-aria-1.0
+graphics-aria
+1.0
+current
+https://w3c.github.io/graphics-aria/#dfn-assistive-technology
+
+
+-
+assistive technology
+dfn
+graphics-aria-1.0
+graphics-aria
+1.0
+snapshot
+https://www.w3.org/TR/graphics-aria-1.0/#dfn-assistive-technology
+
+
+-
+assistive technology
+dfn
+html-aam-1.0
+html-aam
+1.0
+snapshot
+https://www.w3.org/TR/html-aam-1.0/#dfn-assistive-technology
+
+1
+-
+assistive technology
+dfn
+svg-aam-1.0
+svg-aam
+1.0
+current
+https://w3c.github.io/svg-aam/#dfn-assistive-technology
+
+
+-
+assistive technology
+dfn
+svg-aam-1.0
+svg-aam
+1.0
+snapshot
+https://www.w3.org/TR/svg-aam-1.0/#dfn-assistive-technology
+
+1
+-
+assistive technology
+dfn
+wai-aria-1.2
+wai-aria
+1.2
+current
+https://w3c.github.io/aria/#dfn-assistive-technology
+1
+
+-
+assistive technology
+dfn
+wai-aria-1.2
+wai-aria
+1.2
+snapshot
+https://www.w3.org/TR/wai-aria-1.2/#dfn-assistive-technology
+
+
+-
+associable
+dfn
+encrypted-media
+encrypted-media
+1
+current
+https://w3c.github.io/encrypted-media/#associable
+
+1
+-
+associable
+dfn
+encrypted-media
+encrypted-media
+1
+snapshot
+https://www.w3.org/TR/encrypted-media/#associable
+
+1
+-
+associable by an entity
+dfn
+encrypted-media
+encrypted-media
+1
+current
+https://w3c.github.io/encrypted-media/#associable-by-entity
+
+1
+-
+associable by an entity
+dfn
+encrypted-media
+encrypted-media
+1
+snapshot
+https://www.w3.org/TR/encrypted-media/#associable-by-entity
+
+1
+-
+associable by the application
+dfn
+encrypted-media
+encrypted-media
+1
+current
+https://w3c.github.io/encrypted-media/#associable-by-application
+
+1
+-
+associable by the application
+dfn
+encrypted-media
+encrypted-media
+1
+snapshot
+https://www.w3.org/TR/encrypted-media/#associable-by-application
 
 1
 -
@@ -1191,33 +1803,43 @@ https://drafts.css-houdini.org/css-animationworklet-1/#associate-animator-instan
 
 1
 -
+associate animator instance of worklet animation
+dfn
+css-animation-worklet-1
+css-animation-worklet
+1
+snapshot
+https://www.w3.org/TR/css-animation-worklet-1/#associate-animator-instance-of-worklet-animation
+
+1
+-
 associated
 dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#concept-form-association
 
 1
 -
 associated
 dfn
-webrtc-1
+webrtc
+webrtc
+1
+current
+https://w3c.github.io/webrtc-pc/#dfn-associated
+
+1
+-
+associated
+dfn
+webrtc
 webrtc
 1
 snapshot
 https://www.w3.org/TR/webrtc/#dfn-associated
-
-1
--
-associated animation of an animation effect
-dfn
-web-animations-1
-web-animations
-1
-snapshot
-https://www.w3.org/TR/web-animations-1/#associated-animation-of-an-animation-effect
 
 1
 -
@@ -1231,13 +1853,23 @@ https://drafts.csswg.org/web-animations-1/#associated-animation-of-an-animation-
 
 1
 -
-associated baseaudiocontext
+associated animation of an animation effect
 dfn
-webaudio
-webaudio
+web-animations-1
+web-animations
 1
 snapshot
-https://www.w3.org/TR/webaudio/#associated
+https://www.w3.org/TR/web-animations-1/#associated-animation-of-an-animation-effect
+
+1
+-
+associated background image requests
+dfn
+element-timing
+element-timing
+1
+current
+https://wicg.github.io/element-timing/#associated-background-image-requests
 
 1
 -
@@ -1251,6 +1883,16 @@ https://webaudio.github.io/web-audio-api/#associated
 
 1
 -
+associated baseaudiocontext
+dfn
+webaudio
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio/#associated
+
+1
+-
 associated bone
 dfn
 webxr-hand-input-1
@@ -1259,6 +1901,78 @@ webxr-hand-input
 current
 https://immersive-web.github.io/webxr-hand-input/#associated-bone
 
+1
+-
+associated bone
+dfn
+webxr-hand-input-1
+webxr-hand-input
+1
+snapshot
+https://www.w3.org/TR/webxr-hand-input-1/#associated-bone
+
+1
+-
+associated cookies
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-associated-cookies
+
+1
+-
+associated cookies
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-associated-cookies
+
+1
+-
+associated cookiestore
+dfn
+cookie-store
+cookie-store
+1
+current
+https://wicg.github.io/cookie-store/#window-associated-cookiestore
+
+1
+Window
+-
+associated cookiestore
+dfn
+cookie-store
+cookie-store
+1
+current
+https://wicg.github.io/cookie-store/#serviceworkerglobalscope-associated-cookiestore
+
+1
+ServiceWorkerGlobalScope
+-
+associated css style sheet
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/infrastructure.html#associated-css-style-sheet
+
+1
+-
+associated css style sheet
+dfn
+cssom-1
+cssom
+1
+current
+https://drafts.csswg.org/cssom/#associated-css-style-sheet
+1
 1
 -
 associated css style sheet
@@ -1271,43 +1985,43 @@ https://www.w3.org/TR/cssom-1/#associated-css-style-sheet
 
 1
 -
-associated css style sheet
-dfn
-cssom-1
-cssom
-1
-current
-https://drafts.csswg.org/cssom-1/#associated-css-style-sheet
-1
-1
--
-associated css style sheet
-dfn
-html
-html
-1
-snapshot
-https://html.spec.whatwg.org/multipage/infrastructure.html#associated-css-style-sheet
-
-1
--
 associated document
 dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/window-object.html#concept-document-window
 1
 1
 -
-associated effect
+associated document
 dfn
-web-animations-1
-web-animations
+visual-viewport
+visual-viewport
+1
+current
+https://wicg.github.io/visual-viewport/#dfn-associated-document
+
+1
+-
+associated document
+dfn
+battery-status
+battery-status
+1
+current
+https://w3c.github.io/battery/#dfn-associated-document
+
+1
+-
+associated document
+dfn
+battery-status
+battery-status
 1
 snapshot
-https://www.w3.org/TR/web-animations-1/#associated-effect
+https://www.w3.org/TR/battery-status/#dfn-associated-document
 
 1
 -
@@ -1321,13 +2035,13 @@ https://drafts.csswg.org/web-animations-1/#associated-effect
 
 1
 -
-associated effect end
+associated effect
 dfn
 web-animations-1
 web-animations
 1
 snapshot
-https://www.w3.org/TR/web-animations-1/#associated-effect-end
+https://www.w3.org/TR/web-animations-1/#associated-effect
 
 1
 -
@@ -1341,23 +2055,54 @@ https://drafts.csswg.org/web-animations-1/#associated-effect-end
 
 1
 -
+associated effect end
+dfn
+web-animations-1
+web-animations
+1
+snapshot
+https://www.w3.org/TR/web-animations-1/#associated-effect-end
+
+1
+-
 associated element
 dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/dom.html#concept-domstringmap-element
 
 1
+-
+associated event
+dfn
+event-timing
+event-timing
+1
+current
+https://wicg.github.io/event-timing/#performanceeventtiming-associated-event
+
+
+PerformanceEventTiming
 -
 associated focus navigation owner
 dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/interaction.html#associated-focus-navigation-owner
+
+1
+-
+associated image request
+dfn
+element-timing
+element-timing
+1
+current
+https://wicg.github.io/element-timing/#associated-image-request
 
 1
 -
@@ -1366,18 +2111,8 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/scripting.html#associated-inert-template-document
-
-1
--
-associated interface
-dfn
-webaudio
-webaudio
-1
-snapshot
-https://www.w3.org/TR/webaudio/#associated-interface
 
 1
 -
@@ -1391,23 +2126,53 @@ https://webaudio.github.io/web-audio-api/#associated-interface
 
 1
 -
-associated node
+associated interface
 dfn
-permissions-policy
-permissions-policy
+webaudio
+webaudio
 1
 snapshot
-https://www.w3.org/TR/permissions-policy/#associated-node
+https://www.w3.org/TR/webaudio/#associated-interface
+
+1
+-
+associated navigator
+dfn
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/system-state.html#associated-navigator
 
 1
 -
 associated node
 dfn
-permissions-policy
+layout-instability
+layout-instability
+1
+current
+https://wicg.github.io/layout-instability/#associated-node
+
+1
+-
+associated node
+dfn
+permissions-policy-1
 permissions-policy
 1
 current
 https://w3c.github.io/webappsec-permissions-policy/#associated-node
+
+1
+-
+associated node
+dfn
+permissions-policy-1
+permissions-policy
+1
+snapshot
+https://www.w3.org/TR/permissions-policy-1/#associated-node
 
 1
 -
@@ -1416,18 +2181,8 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/canvas.html#associated-offscreencanvas-object
-
-1
--
-associated option object
-dfn
-webaudio
-webaudio
-1
-snapshot
-https://www.w3.org/TR/webaudio/#associated-option-object
 
 1
 -
@@ -1441,10 +2196,20 @@ https://webaudio.github.io/web-audio-api/#associated-option-object
 
 1
 -
+associated option object
+dfn
+webaudio
+webaudio
+1
+snapshot
+https://www.w3.org/TR/webaudio/#associated-option-object
+
+1
+-
 associated realm
 dfn
-webidl
-webidl
+WebIDL-1
+WebIDL
 1
 current
 https://heycam.github.io/webidl/#dfn-associated-realm
@@ -1453,17 +2218,7 @@ https://heycam.github.io/webidl/#dfn-associated-realm
 -
 associated sensors
 dfn
-generic-sensor-1
 generic-sensor
-1
-snapshot
-https://www.w3.org/TR/generic-sensor/#associated-sensors
-1
-1
--
-associated sensors
-dfn
-generic-sensor-1
 generic-sensor
 1
 current
@@ -1471,13 +2226,33 @@ https://w3c.github.io/sensors/#associated-sensors
 1
 1
 -
-associated store
+associated sensors
 dfn
-wasm-js-api-1
-wasm-js-api
+generic-sensor
+generic-sensor
 1
 snapshot
-https://www.w3.org/TR/wasm-js-api-1/#associated-store
+https://www.w3.org/TR/generic-sensor/#associated-sensors
+1
+1
+-
+associated session
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-associated-session
+
+1
+-
+associated session
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-associated-session
 
 1
 -
@@ -1491,16 +2266,15 @@ https://webassembly.github.io/spec/js-api/#associated-store
 
 1
 -
-associated task queue
+associated store
 dfn
-webaudio
-webaudio
+wasm-js-api-1
+wasm-js-api
 1
 snapshot
-https://www.w3.org/TR/webaudio/#baseaudiocontext-associated-task-queue
+https://www.w3.org/TR/wasm-js-api-1/#associated-store
 
 1
-BaseAudioContext
 -
 associated task queue
 dfn
@@ -1513,13 +2287,44 @@ https://webaudio.github.io/web-audio-api/#baseaudiocontext-associated-task-queue
 1
 BaseAudioContext
 -
-associated with a timeline
+associated task queue
 dfn
-web-animations-1
-web-animations
+webaudio
+webaudio
 1
 snapshot
-https://www.w3.org/TR/web-animations-1/#associated-with-a-timeline
+https://www.w3.org/TR/webaudio/#baseaudiocontext-associated-task-queue
+
+1
+BaseAudioContext
+-
+associated video element
+dfn
+video-rvfc
+video-rvfc
+1
+current
+https://wicg.github.io/video-rvfc/#associated-video-element
+
+1
+-
+associated window
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-associated-window
+
+1
+-
+associated window
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-associated-window
 
 1
 -
@@ -1533,13 +2338,23 @@ https://drafts.csswg.org/web-animations-1/#associated-with-a-timeline
 
 1
 -
-associated with an animation
+associated with a timeline
 dfn
 web-animations-1
 web-animations
 1
 snapshot
-https://www.w3.org/TR/web-animations-1/#associated-with-an-animation
+https://www.w3.org/TR/web-animations-1/#associated-with-a-timeline
+
+1
+-
+associated with an animation
+dfn
+web-animations-2
+web-animations
+2
+current
+https://drafts.csswg.org/web-animations-2/#associated-with-an-animation
 
 1
 -
@@ -1553,25 +2368,35 @@ https://drafts.csswg.org/web-animations-1/#associated-with-an-animation
 
 1
 -
+associated with an animation
+dfn
+web-animations-1
+web-animations
+1
+snapshot
+https://www.w3.org/TR/web-animations-1/#associated-with-an-animation
+
+1
+-
 async
 attr-value
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/images.html#attr-img-decoding-async
 1
 1
 img/decoding
 -
 async
-element-state
+dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/images.html#attr-img-decoding-async-state
-1
+
 1
 -
 async
@@ -1579,7 +2404,7 @@ element-attr
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/scripting.html#attr-script-async
 1
 1
@@ -1590,7 +2415,7 @@ attribute
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/scripting.html#dom-script-async
 1
 1
@@ -1611,8 +2436,8 @@ XMLHttpRequest/open(method, url, async)
 -
 asynchronous iterator initialization steps
 dfn
-webidl
-webidl
+WebIDL-1
+WebIDL
 1
 current
 https://heycam.github.io/webidl/#asynchronous-iterator-initialization-steps
@@ -1621,8 +2446,8 @@ https://heycam.github.io/webidl/#asynchronous-iterator-initialization-steps
 -
 asynchronous iterator prototype object
 dfn
-webidl
-webidl
+WebIDL-1
+WebIDL
 1
 current
 https://heycam.github.io/webidl/#dfn-asynchronous-iterator-prototype-object
@@ -1631,8 +2456,8 @@ https://heycam.github.io/webidl/#dfn-asynchronous-iterator-prototype-object
 -
 asynchronous iterator return
 dfn
-webidl
-webidl
+WebIDL-1
+WebIDL
 1
 current
 https://heycam.github.io/webidl/#asynchronous-iterator-return
@@ -1641,21 +2466,41 @@ https://heycam.github.io/webidl/#asynchronous-iterator-return
 -
 asynchronous read method
 dfn
-fileapi-1
-fileapi
+FileAPI
+FileAPI
 1
 current
 https://w3c.github.io/FileAPI/#asynchronous-read-methods
 
 1
 -
-asynchronously compile a webassembly module
+asynchronous read method
 dfn
-wasm-js-api-1
-wasm-js-api
+FileAPI
+FileAPI
 1
 snapshot
-https://www.w3.org/TR/wasm-js-api-1/#asynchronously-compile-a-webassembly-module
+https://www.w3.org/TR/FileAPI/#asynchronous-read-methods
+
+1
+-
+asynchronous waits
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-asynchronously-wait
+
+1
+-
+asynchronous waits
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-asynchronously-wait
 
 1
 -
@@ -1669,23 +2514,33 @@ https://webassembly.github.io/spec/js-api/#asynchronously-compile-a-webassembly-
 
 1
 -
-asynchronously execute a request
-dfn
-indexeddb-2
-indexeddb
-2
-current
-https://w3c.github.io/IndexedDB/#asynchronously-execute-a-request
-
-1
--
-asynchronously instantiate a webassembly module
+asynchronously compile a webassembly module
 dfn
 wasm-js-api-1
 wasm-js-api
 1
 snapshot
-https://www.w3.org/TR/wasm-js-api-1/#asynchronously-instantiate-a-webassembly-module
+https://www.w3.org/TR/wasm-js-api-1/#asynchronously-compile-a-webassembly-module
+
+1
+-
+asynchronously execute a request
+dfn
+IndexedDB-3
+IndexedDB
+3
+current
+https://w3c.github.io/IndexedDB/#asynchronously-execute-a-request
+
+1
+-
+asynchronously execute a request
+dfn
+IndexedDB-3
+IndexedDB
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#asynchronously-execute-a-request
 
 1
 -
@@ -1699,13 +2554,43 @@ https://webassembly.github.io/spec/js-api/#asynchronously-instantiate-a-webassem
 
 1
 -
+asynchronously instantiate a webassembly module
+dfn
+wasm-js-api-1
+wasm-js-api
+1
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#asynchronously-instantiate-a-webassembly-module
+
+1
+-
 asynchronously iterable declaration
 dfn
-webidl
-webidl
+WebIDL-1
+WebIDL
 1
 current
 https://heycam.github.io/webidl/#dfn-async-iterable-declaration
 1
+1
+-
+asynchronously wait
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-asynchronously-wait
+
+1
+-
+asynchronously wait
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-asynchronously-wait
+
 1
 -

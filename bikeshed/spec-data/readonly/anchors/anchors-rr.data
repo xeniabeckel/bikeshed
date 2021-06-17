@@ -1,6 +1,16 @@
 rr
 dfn
-webrtc-stats-1
+webrtc-stats
+webrtc-stats
+1
+current
+https://w3c.github.io/webrtc-stats/#dfn-receiver-report
+
+1
+-
+rr
+dfn
+webrtc-stats
 webrtc-stats
 1
 snapshot
@@ -13,7 +23,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/microdata.html#md-vevent-rrule
 
 1

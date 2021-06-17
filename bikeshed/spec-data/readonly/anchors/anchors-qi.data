@@ -1,7 +1,7 @@
 qi
 dict-member
-webcryptoapi-1
-webcryptoapi
+WebCryptoAPI
+WebCryptoAPI
 1
 current
 https://w3c.github.io/webcrypto/#dom-jsonwebkey-qi

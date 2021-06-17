@@ -3,7 +3,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#htmlallcollection
 1
 1
@@ -13,7 +13,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/text-level-semantics.html#htmlanchorelement
 1
 1
@@ -23,7 +23,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/image-maps.html#htmlareaelement
 1
 1
@@ -33,7 +33,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/media.html#htmlaudioelement
 1
 1
@@ -43,7 +43,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/text-level-semantics.html#htmlbrelement
 1
 1
@@ -53,7 +53,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/semantics.html#htmlbaseelement
 1
 1
@@ -63,7 +63,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/sections.html#htmlbodyelement
 1
 1
@@ -73,7 +73,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#htmlbuttonelement
 1
 1
@@ -83,7 +83,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/canvas.html#htmlcanvaselement
 1
 1
@@ -93,7 +93,7 @@ interface
 dom
 dom
 1
-snapshot
+current
 https://dom.spec.whatwg.org/#htmlcollection
 1
 1
@@ -103,7 +103,7 @@ extended-attribute
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/dom.html#htmlconstructor
 1
 1
@@ -113,7 +113,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/grouping-content.html#htmldlistelement
 1
 1
@@ -123,7 +123,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/text-level-semantics.html#htmldataelement
 1
 1
@@ -133,7 +133,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#htmldatalistelement
 1
 1
@@ -143,7 +143,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/interactive-elements.html#htmldetailselement
 1
 1
@@ -153,7 +153,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/interactive-elements.html#htmldialogelement
 1
 1
@@ -163,7 +163,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/obsolete.html#htmldirectoryelement
 1
 1
@@ -173,7 +173,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/grouping-content.html#htmldivelement
 1
 1
@@ -183,7 +183,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/dom.html#htmlelement
 1
 1
@@ -193,7 +193,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/iframe-embed-object.html#htmlembedelement
 1
 1
@@ -203,7 +203,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#htmlfieldsetelement
 1
 1
@@ -213,7 +213,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/obsolete.html#htmlfontelement
 1
 1
@@ -223,7 +223,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#htmlformcontrolscollection
 1
 1
@@ -233,7 +233,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/forms.html#htmlformelement
 1
 1
@@ -243,7 +243,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/obsolete.html#htmlframeelement
 1
 1
@@ -253,7 +253,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/obsolete.html#htmlframesetelement
 1
 1
@@ -263,7 +263,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/grouping-content.html#htmlhrelement
 1
 1
@@ -273,7 +273,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/semantics.html#htmlheadelement
 1
 1
@@ -283,7 +283,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/sections.html#htmlheadingelement
 1
 1
@@ -293,7 +293,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/semantics.html#htmlhtmlelement
 1
 1
@@ -303,7 +303,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/links.html#htmlhyperlinkelementutils
 1
 1
@@ -313,7 +313,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/iframe-embed-object.html#htmliframeelement
 1
 1
@@ -323,7 +323,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/embedded-content.html#htmlimageelement
 1
 1
@@ -333,7 +333,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/input.html#htmlinputelement
 1
 1
@@ -343,7 +343,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/grouping-content.html#htmllielement
 1
 1
@@ -353,7 +353,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/forms.html#htmllabelelement
 1
 1
@@ -363,7 +363,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#htmllegendelement
 1
 1
@@ -373,7 +373,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/semantics.html#htmllinkelement
 1
 1
@@ -383,7 +383,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/image-maps.html#htmlmapelement
 1
 1
@@ -393,7 +393,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/obsolete.html#htmlmarqueeelement
 1
 1
@@ -403,7 +403,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/media.html#htmlmediaelement
 1
 1
@@ -413,7 +413,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/grouping-content.html#htmlmenuelement
 1
 1
@@ -423,7 +423,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/semantics.html#htmlmetaelement
 1
 1
@@ -433,7 +433,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#htmlmeterelement
 1
 1
@@ -443,7 +443,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/edits.html#htmlmodelement
 1
 1
@@ -453,7 +453,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/grouping-content.html#htmlolistelement
 1
 1
@@ -463,7 +463,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/iframe-embed-object.html#htmlobjectelement
 1
 1
@@ -473,7 +473,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#htmloptgroupelement
 1
 1
@@ -483,7 +483,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#htmloptionelement
 1
 1
@@ -493,7 +493,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#htmloptionscollection
 1
 1
@@ -503,7 +503,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/dom.html#htmlorsvgelement
 1
 1
@@ -513,7 +513,7 @@ typedef
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/canvas.html#htmlorsvgimageelement
 1
 1
@@ -523,7 +523,7 @@ typedef
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/dom.html#htmlorsvgscriptelement
 1
 1
@@ -533,7 +533,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#htmloutputelement
 1
 1
@@ -543,7 +543,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/grouping-content.html#htmlparagraphelement
 1
 1
@@ -553,7 +553,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/iframe-embed-object.html#htmlparamelement
 1
 1
@@ -563,17 +563,38 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/embedded-content.html#htmlpictureelement
 1
 1
+-
+HTMLPortalElement
+interface
+portals
+portals
+1
+current
+https://wicg.github.io/portals/#htmlportalelement
+1
+1
+-
+HTMLPortalElement()
+constructor
+portals
+portals
+1
+current
+https://wicg.github.io/portals/#dom-htmlportalelement-htmlportalelement
+1
+1
+HTMLPortalElement
 -
 HTMLPreElement
 interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/grouping-content.html#htmlpreelement
 1
 1
@@ -583,7 +604,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#htmlprogresselement
 1
 1
@@ -593,7 +614,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/grouping-content.html#htmlquoteelement
 1
 1
@@ -603,7 +624,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/scripting.html#htmlscriptelement
 1
 1
@@ -613,7 +634,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#htmlselectelement
 1
 1
@@ -623,7 +644,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/scripting.html#htmlslotelement
 1
 1
@@ -633,7 +654,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/embedded-content.html#htmlsourceelement
 1
 1
@@ -643,8 +664,18 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/text-level-semantics.html#htmlspanelement
+1
+1
+-
+HTMLString
+typedef
+trusted-types
+trusted-types
+1
+current
+https://w3c.github.io/webappsec-trusted-types/dist/spec/#typedefdef-htmlstring
 1
 1
 -
@@ -653,7 +684,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/semantics.html#htmlstyleelement
 1
 1
@@ -663,7 +694,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/tables.html#htmltablecaptionelement
 1
 1
@@ -673,7 +704,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/tables.html#htmltablecellelement
 1
 1
@@ -683,7 +714,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/tables.html#htmltablecolelement
 1
 1
@@ -693,7 +724,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/tables.html#htmltableelement
 1
 1
@@ -703,7 +734,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/tables.html#htmltablerowelement
 1
 1
@@ -713,7 +744,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/tables.html#htmltablesectionelement
 1
 1
@@ -723,7 +754,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/scripting.html#htmltemplateelement
 1
 1
@@ -733,7 +764,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#htmltextareaelement
 1
 1
@@ -743,7 +774,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/text-level-semantics.html#htmltimeelement
 1
 1
@@ -753,7 +784,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/semantics.html#htmltitleelement
 1
 1
@@ -763,7 +794,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/media.html#htmltrackelement
 1
 1
@@ -773,7 +804,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/grouping-content.html#htmlulistelement
 1
 1
@@ -783,7 +814,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/dom.html#htmlunknownelement
 1
 1
@@ -793,7 +824,7 @@ interface
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/media.html#htmlvideoelement
 1
 1
@@ -803,9 +834,49 @@ element
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/semantics.html#the-html-element
 1
+1
+-
+html character reference in annotation state
+dfn
+webvtt1
+webvtt
+1
+current
+https://w3c.github.io/webvtt/#html-character-reference-in-annotation-state
+
+1
+-
+html character reference in annotation state
+dfn
+webvtt1
+webvtt
+1
+snapshot
+https://www.w3.org/TR/webvtt1/#html-character-reference-in-annotation-state
+
+1
+-
+html character reference in data state
+dfn
+webvtt1
+webvtt
+1
+current
+https://w3c.github.io/webvtt/#html-character-reference-in-data-state
+
+1
+-
+html character reference in data state
+dfn
+webvtt1
+webvtt
+1
+snapshot
+https://www.w3.org/TR/webvtt1/#html-character-reference-in-data-state
+
 1
 -
 html document
@@ -813,9 +884,19 @@ dfn
 dom
 dom
 1
-snapshot
+current
 https://dom.spec.whatwg.org/#html-document
 1
+1
+-
+html document
+dfn
+DOM-Parsing
+DOM-Parsing
+1
+current
+https://w3c.github.io/DOM-Parsing/#dfn-html-document
+
 1
 -
 html documents
@@ -823,8 +904,28 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#html-documents
+
+1
+-
+html element
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-html-element
+
+1
+-
+html element
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-html-element
 
 1
 -
@@ -833,7 +934,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#html-elements
 1
 1
@@ -843,8 +944,18 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/parsing.html#html-fragment-parsing-algorithm
+
+1
+-
+html fragment parsing algorithm
+dfn
+DOM-Parsing
+DOM-Parsing
+1
+current
+https://w3c.github.io/DOM-Parsing/#dfn-html-fragment-parsing-algorithm
 
 1
 -
@@ -853,9 +964,19 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/parsing.html#html-fragment-serialisation-algorithm
 1
+1
+-
+html fragment serialization algorithm
+dfn
+DOM-Parsing
+DOM-Parsing
+1
+current
+https://w3c.github.io/DOM-Parsing/#dfn-html-fragment-serialization-algorithm
+
 1
 -
 html integration point
@@ -863,7 +984,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/parsing.html#html-integration-point
 
 1
@@ -873,7 +994,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#html-mime-type
 
 1
@@ -893,7 +1014,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#html-namespace-2
 
 1
@@ -908,23 +1029,73 @@ https://infra.spec.whatwg.org/#html-namespace
 1
 1
 -
+html namespace
+dfn
+DOM-Parsing
+DOM-Parsing
+1
+current
+https://w3c.github.io/DOM-Parsing/#dfn-html-namespace
+
+1
+-
 html parser
 dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/parsing.html#html-parser
 1
 1
 -
-html script extraction
+html parser
 dfn
-json-ld11-api
-json-ld11-api
+DOM-Parsing
+DOM-Parsing
+1
+current
+https://w3c.github.io/DOM-Parsing/#dfn-html-parser
+
+1
+-
+html pause
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-unpaused
+
+1
+-
+html pause
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-unpaused
+
+1
+-
+html serialization
+dfn
+DOM-Parsing
+DOM-Parsing
+1
+current
+https://w3c.github.io/DOM-Parsing/#dfn-html-serialization
+
+1
+-
+html-ns
+dfn
+DOM-Parsing
+DOM-Parsing
 1
 snapshot
-https://www.w3.org/TR/json-ld11-api/#dfn-html-script-extraction
+https://www.w3.org/TR/DOM-Parsing/#dfn-html-ns
 
 1
 -
@@ -933,7 +1104,7 @@ dfn
 dom
 dom
 1
-snapshot
+current
 https://dom.spec.whatwg.org/#element-html-uppercased-qualified-name
 
 1
@@ -944,7 +1115,7 @@ attribute
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/forms.html#dom-label-htmlfor
 1
 1
@@ -955,7 +1126,7 @@ attribute
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-elements.html#dom-output-htmlfor
 1
 1
@@ -966,19 +1137,59 @@ attribute
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/obsolete.html#dom-script-htmlfor
 1
 1
 HTMLScriptElement
+-
+htmlallcollection
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-htmlallcollection
+
+1
+-
+htmlallcollection
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-htmlallcollection
+
+1
 -
 htmlcollection
 dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#htmlcollection
+
+1
+-
+htmlcollection
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-htmlcollection
+
+1
+-
+htmlcollection
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-htmlcollection
 
 1
 -
@@ -987,8 +1198,168 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/window-object.html#htmldocument
+
+1
+-
+htmlformcontrolscollection
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-htmlformcontrolscollection
+
+1
+-
+htmlformcontrolscollection
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-htmlformcontrolscollection
+
+1
+-
+htmlinputelement
+dfn
+html-media-capture
+html-media-capture
+1
+current
+https://w3c.github.io/html-media-capture/#dom-htmlinputelement
+
+1
+-
+htmlinputelement
+dfn
+html-media-capture
+html-media-capture
+1
+snapshot
+https://www.w3.org/TR/html-media-capture/#dom-htmlinputelement
+
+1
+-
+htmlmediaelement
+dfn
+encrypted-media
+encrypted-media
+1
+current
+https://w3c.github.io/encrypted-media/#dom-htmlmediaelement
+
+1
+-
+htmlmediaelement
+dfn
+encrypted-media
+encrypted-media
+1
+snapshot
+https://www.w3.org/TR/encrypted-media/#dom-htmlmediaelement
+
+1
+-
+htmlmediaelement
+dfn
+mediacapture-depth
+mediacapture-depth
+1
+snapshot
+https://www.w3.org/TR/mediacapture-depth/#dfn-htmlmediaelement
+
+1
+-
+htmlmediaelement
+dfn
+remote-playback
+remote-playback
+1
+snapshot
+https://www.w3.org/TR/remote-playback/#dom-htmlmediaelement
+
+1
+-
+htmloptionscollection
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-htmloptionscollection
+
+1
+-
+htmloptionscollection
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-htmloptionscollection
+
+1
+-
+htmlorforeignelement
+dfn
+mathml-core
+mathml-core
+1
+current
+https://w3c.github.io/mathml-core/#dfn-htmlorforeignelement
+
+1
+-
+htmlvideoelement
+dfn
+mediacapture-depth
+mediacapture-depth
+1
+snapshot
+https://www.w3.org/TR/mediacapture-depth/#dfn-htmlvideoelement
+
+1
+-
+http authentication
+dfn
+presentation-api
+presentation-api
+1
+current
+https://w3c.github.io/presentation-api/#dfn-http-authentication
+
+1
+-
+http authentication
+dfn
+presentation-api
+presentation-api
+1
+snapshot
+https://www.w3.org/TR/presentation-api/#dfn-http-authentication
+
+1
+-
+http compliant
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-http-compliant
+
+1
+-
+http compliant
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-http-compliant
 
 1
 -
@@ -1009,7 +1380,7 @@ fetch
 1
 current
 https://fetch.spec.whatwg.org/#http-header-layer-division
-1
+
 1
 -
 http newline byte
@@ -1029,6 +1400,66 @@ mimesniff
 1
 current
 https://mimesniff.spec.whatwg.org/#http-quoted-string-token-code-point
+
+1
+-
+http request
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-http-request
+
+1
+-
+http request
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-http-request
+
+1
+-
+http response
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-http-response
+
+1
+-
+http response
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-http-response
+
+1
+-
+http status
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-http-status
+
+1
+-
+http status
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-http-status
 
 1
 -
@@ -1097,8 +1528,18 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#http(s)-scheme
+
+1
+-
+http-default-style
+dfn
+cssom-1
+cssom
+1
+current
+https://drafts.csswg.org/cssom/#http-default-style
 
 1
 -
@@ -1112,22 +1553,12 @@ https://www.w3.org/TR/cssom-1/#http-default-style
 
 1
 -
-http-default-style
-dfn
-cssom-1
-cssom
-1
-current
-https://drafts.csswg.org/cssom-1/#http-default-style
-
-1
--
 http-equiv
 element-attr
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/semantics.html#attr-meta-http-equiv
 1
 1
@@ -1148,8 +1579,18 @@ dfn
 network-error-logging-1
 network-error-logging
 1
+current
+https://w3c.github.io/network-error-logging/#dfn-http-network-fetch
+
+1
+-
+http-network fetch
+dfn
+network-error-logging-1
+network-error-logging
+1
 snapshot
-https://www.w3.org/TR/network-error-logging/#dfn-http-network-fetch
+https://www.w3.org/TR/network-error-logging-1/#dfn-http-network-fetch
 
 1
 -
@@ -1168,10 +1609,51 @@ dfn
 network-error-logging-1
 network-error-logging
 1
-snapshot
-https://www.w3.org/TR/network-error-logging/#dfn-http-network-or-cache-fetch
+current
+https://w3c.github.io/network-error-logging/#dfn-http-network-or-cache-fetch
 
 1
+-
+http-network-or-cache fetch
+dfn
+network-error-logging-1
+network-error-logging
+1
+snapshot
+https://www.w3.org/TR/network-error-logging-1/#dfn-http-network-or-cache-fetch
+
+1
+-
+http-network-or-cache-fetch
+dfn
+beacon
+beacon
+1
+current
+https://w3c.github.io/beacon/#dfn-http-network-or-cache-fetch
+
+1
+-
+http-no-service-worker fetch
+dfn
+private-network-access
+private-network-access
+1
+current
+https://wicg.github.io/private-network-access/#http-no-service-worker-fetch
+
+1
+-
+http-only-flag
+dfn
+cookie-store
+cookie-store
+1
+current
+https://wicg.github.io/cookie-store/#cookie-http-only-flag
+
+1
+cookie
 -
 http-redirect fetch
 dfn
@@ -1188,7 +1670,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#http-redirect-fetch
 
 1
@@ -1209,7 +1691,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#http-protocol
 
 1
@@ -1219,7 +1701,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/microdata.html#md-vevent
 
 1
@@ -1229,7 +1711,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/microdata.html#md-vcard
 
 1
@@ -1239,7 +1721,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/microdata.html#md-work
 
 1
@@ -1249,15 +1731,57 @@ attribute
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/semantics.html#dom-meta-httpequiv
 1
 1
 HTMLMetaElement
 -
+httpproxy
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-httpproxy
+
+1
+-
+httpproxy
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-httpproxy
+
+1
+-
+httprequeststatuscode
+dfn
+webrtc-identity
+webrtc-identity
+1
+current
+https://w3c.github.io/webrtc-identity/#dfn-httprequeststatuscode
+
+1
+rtcerror
+-
+httprequeststatuscode
+dfn
+webrtc-identity
+webrtc-identity
+1
+current
+https://w3c.github.io/webrtc-identity/#dfn-httprequeststatuscode-0
+
+1
+rtcerrorinit
+-
 https state
 dfn
-service-workers
+service-workers-1
 service-workers
 1
 snapshot
@@ -1271,7 +1795,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#https-protocol
 
 1

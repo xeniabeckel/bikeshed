@@ -3,8 +3,28 @@ dfn
 network-error-logging-1
 network-error-logging
 1
+current
+https://w3c.github.io/network-error-logging/#dfn-200-response
+
+1
+-
+200 response
+dfn
+network-error-logging-1
+network-error-logging
+1
 snapshot
-https://www.w3.org/TR/network-error-logging/#dfn-x200-response
+https://www.w3.org/TR/network-error-logging-1/#dfn-x200-response
+
+1
+-
+200 status code
+dfn
+network-error-logging-1
+network-error-logging
+1
+current
+https://w3c.github.io/network-error-logging/#dfn-200-response
 
 1
 -
@@ -14,7 +34,7 @@ network-error-logging-1
 network-error-logging
 1
 snapshot
-https://www.w3.org/TR/network-error-logging/#dfn-x200-response
+https://www.w3.org/TR/network-error-logging-1/#dfn-x200-response
 
 1
 -

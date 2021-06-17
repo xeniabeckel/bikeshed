@@ -1,7 +1,7 @@
 pkcs8
 enum-value
-webcryptoapi-1
-webcryptoapi
+WebCryptoAPI
+WebCryptoAPI
 1
 current
 https://w3c.github.io/webcrypto/#dom-keyformat-pkcs8

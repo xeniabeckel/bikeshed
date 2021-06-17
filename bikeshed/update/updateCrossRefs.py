@@ -40,7 +40,7 @@ def update(path, dryRun=False):
             if not data:
                 continue
             addToAnchors(data, anchors, spec=spec, status="current")
-        if "snapshot_dfns" in route:
+        if "snapshot_dfns" in route and spec["snapshot_url"] is not None:
             data = fetchDfns("tr/"+route["snapshot_dfns"])
             if not data:
                 continue
@@ -155,11 +155,11 @@ def specFromRaw(rawSpec):
     if "release" in rawSpec:
         spec["snapshot_url"] = rawSpec["release"]["url"]
     else:
-        spec["snapshot_url"] = spec["current_url"]
+        spec["snapshot_url"] = None
     if rawSpec["series"]["shortname"] != spec["vshortname"]:
         spec["shortname"] = rawSpec["series"]["shortname"]
     else:
-        spec["shortname"] = None
+        spec["shortname"] = rawSpec["shortname"]
     if "seriesVersion" in rawSpec:
         spec["version"] = rawSpec["seriesVersion"]
     else:
@@ -204,20 +204,18 @@ def fetchRoutingData():
     routes = dict()
     for raw in edRouting["results"]:
         shortname = raw["shortname"]
-        data = {}
+        data = routes.setdefault(shortname, {})
         if "dfns" in raw:
             data["current_dfns"] = raw["dfns"]
         if "headings" in raw:
             data["current_headings"] = raw["headings"]
-        routes[shortname] = data
     for raw in trRouting["results"]:
         shortname = raw["shortname"]
-        data = {}
+        data = routes.setdefault(shortname, {})
         if "dfns" in raw:
             data["snapshot_dfns"] = raw["dfns"]
         if "headings" in raw:
             data["snapshot_headings"] = raw["headings"]
-        routes[shortname] = data
 
     return routes
 

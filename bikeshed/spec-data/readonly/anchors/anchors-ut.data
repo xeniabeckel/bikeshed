@@ -1,6 +1,6 @@
 utf-16 lead byte
 dfn
-encoding-1
+encoding
 encoding
 1
 current
@@ -8,9 +8,19 @@ https://encoding.spec.whatwg.org/#utf-16-lead-byte
 
 1
 -
+utf-16 lead byte
+dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-16-lead-byte
+
+1
+-
 utf-16 lead surrogate
 dfn
-encoding-1
+encoding
 encoding
 1
 current
@@ -18,9 +28,29 @@ https://encoding.spec.whatwg.org/#utf-16-lead-surrogate
 
 1
 -
+utf-16 lead surrogate
+dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-16-lead-surrogate
+
+1
+-
 utf-16be
 dfn
-encoding-1
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/parsing.html#utf-16be
+
+1
+-
+utf-16be
+dfn
+encoding
 encoding
 1
 current
@@ -30,17 +60,17 @@ https://encoding.spec.whatwg.org/#utf-16be
 -
 utf-16be
 dfn
-html
-html
+encoding
+encoding
 1
 snapshot
-https://html.spec.whatwg.org/multipage/parsing.html#utf-16be
-
+https://www.w3.org/TR/encoding/#utf-16be
+1
 1
 -
 utf-16be decoder
 dfn
-encoding-1
+encoding
 encoding
 1
 current
@@ -48,9 +78,29 @@ https://encoding.spec.whatwg.org/#utf-16be-decoder
 1
 1
 -
+utf-16be decoder
+dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-16be-decoder
+1
+1
+-
 utf-16be/le
 dfn
-encoding-1
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/parsing.html#utf-16-encoding
+
+1
+-
+utf-16be/le
+dfn
+encoding
 encoding
 1
 current
@@ -60,17 +110,27 @@ https://encoding.spec.whatwg.org/#utf-16be-le
 -
 utf-16be/le
 dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-16be-le
+1
+1
+-
+utf-16le
+dfn
 html
 html
 1
-snapshot
-https://html.spec.whatwg.org/multipage/parsing.html#utf-16-encoding
+current
+https://html.spec.whatwg.org/multipage/parsing.html#utf-16le
 
 1
 -
 utf-16le
 dfn
-encoding-1
+encoding
 encoding
 1
 current
@@ -80,17 +140,17 @@ https://encoding.spec.whatwg.org/#utf-16le
 -
 utf-16le
 dfn
-html
-html
+encoding
+encoding
 1
 snapshot
-https://html.spec.whatwg.org/multipage/parsing.html#utf-16le
-
+https://www.w3.org/TR/encoding/#utf-16le
+1
 1
 -
 utf-16le decoder
 dfn
-encoding-1
+encoding
 encoding
 1
 current
@@ -98,9 +158,29 @@ https://encoding.spec.whatwg.org/#utf-16le-decoder
 1
 1
 -
+utf-16le decoder
+dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-16le-decoder
+1
+1
+-
 utf-8
 dfn
-encoding-1
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/parsing.html#utf-8
+
+1
+-
+utf-8
+dfn
+encoding
 encoding
 1
 current
@@ -110,17 +190,17 @@ https://encoding.spec.whatwg.org/#utf-8
 -
 utf-8
 dfn
-html
-html
+encoding
+encoding
 1
 snapshot
-https://html.spec.whatwg.org/multipage/parsing.html#utf-8
-
+https://www.w3.org/TR/encoding/#utf-8
+1
 1
 -
 utf-8 bytes needed
 dfn
-encoding-1
+encoding
 encoding
 1
 current
@@ -128,9 +208,19 @@ https://encoding.spec.whatwg.org/#utf-8-bytes-needed
 
 1
 -
+utf-8 bytes needed
+dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-8-bytes-needed
+
+1
+-
 utf-8 bytes seen
 dfn
-encoding-1
+encoding
 encoding
 1
 current
@@ -138,9 +228,19 @@ https://encoding.spec.whatwg.org/#utf-8-bytes-seen
 
 1
 -
+utf-8 bytes seen
+dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-8-bytes-seen
+
+1
+-
 utf-8 code point
 dfn
-encoding-1
+encoding
 encoding
 1
 current
@@ -148,9 +248,29 @@ https://encoding.spec.whatwg.org/#utf-8-code-point
 
 1
 -
+utf-8 code point
+dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-8-code-point
+
+1
+-
 utf-8 decode
 dfn
-encoding-1
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/infrastructure.html#utf-8-decode
+
+1
+-
+utf-8 decode
+dfn
+encoding
 encoding
 1
 current
@@ -160,17 +280,27 @@ https://encoding.spec.whatwg.org/#utf-8-decode
 -
 utf-8 decode
 dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-8-decode
+1
+1
+-
+utf-8 decode without bom
+dfn
 html
 html
 1
-snapshot
-https://html.spec.whatwg.org/multipage/infrastructure.html#utf-8-decode
+current
+https://html.spec.whatwg.org/multipage/infrastructure.html#utf-8-decode-without-bom
 
 1
 -
 utf-8 decode without bom
 dfn
-encoding-1
+encoding
 encoding
 1
 current
@@ -180,17 +310,17 @@ https://encoding.spec.whatwg.org/#utf-8-decode-without-bom
 -
 utf-8 decode without bom
 dfn
-html
-html
+encoding
+encoding
 1
 snapshot
-https://html.spec.whatwg.org/multipage/infrastructure.html#utf-8-decode-without-bom
-
+https://www.w3.org/TR/encoding/#utf-8-decode-without-bom
+1
 1
 -
 utf-8 decode without bom or fail
 dfn
-encoding-1
+encoding
 encoding
 1
 current
@@ -198,9 +328,19 @@ https://encoding.spec.whatwg.org/#utf-8-decode-without-bom-or-fail
 1
 1
 -
+utf-8 decode without bom or fail
+dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-8-decode-without-bom-or-fail
+1
+1
+-
 utf-8 decoder
 dfn
-encoding-1
+encoding
 encoding
 1
 current
@@ -208,9 +348,29 @@ https://encoding.spec.whatwg.org/#utf-8-decoder
 1
 1
 -
+utf-8 decoder
+dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-8-decoder
+1
+1
+-
 utf-8 encode
 dfn
-encoding-1
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/infrastructure.html#utf-8-encode
+
+1
+-
+utf-8 encode
+dfn
+encoding
 encoding
 1
 current
@@ -220,17 +380,37 @@ https://encoding.spec.whatwg.org/#utf-8-encode
 -
 utf-8 encode
 dfn
-html
-html
+encoding
+encoding
 1
 snapshot
-https://html.spec.whatwg.org/multipage/infrastructure.html#utf-8-encode
+https://www.w3.org/TR/encoding/#utf-8-encode
+1
+1
+-
+utf-8 encode
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-utf-8-encode
+
+1
+-
+utf-8 encode
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-utf-8-encode
 
 1
 -
 utf-8 encoder
 dfn
-encoding-1
+encoding
 encoding
 1
 current
@@ -238,13 +418,33 @@ https://encoding.spec.whatwg.org/#utf-8-encoder
 1
 1
 -
+utf-8 encoder
+dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-8-encoder
+1
+1
+-
 utf-8 lower boundary
 dfn
-encoding-1
+encoding
 encoding
 1
 current
 https://encoding.spec.whatwg.org/#utf-8-lower-boundary
+
+1
+-
+utf-8 lower boundary
+dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-8-lower-boundary
 
 1
 -
@@ -253,7 +453,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#utf-8-percent-encode
 
 1
@@ -263,30 +463,73 @@ dfn
 url
 url
 1
-snapshot
-https://url.spec.whatwg.org/#string-utf-8-percent-encode
+current
+https://url.spec.whatwg.org/#utf-8-percent-encode
+
 1
-1
-string
+code point
 -
 utf-8 percent-encode
 dfn
 url
 url
 1
-snapshot
-https://url.spec.whatwg.org/#utf-8-percent-encode
-
+current
+https://url.spec.whatwg.org/#string-utf-8-percent-encode
 1
-code point
+1
+string
 -
 utf-8 upper boundary
 dfn
-encoding-1
+encoding
 encoding
 1
 current
 https://encoding.spec.whatwg.org/#utf-8-upper-boundary
 
 1
+-
+utf-8 upper boundary
+dfn
+encoding
+encoding
+1
+snapshot
+https://www.w3.org/TR/encoding/#utf-8-upper-boundary
+
+1
+-
+utterance
+argument
+speech-api
+speech-api
+1
+current
+https://wicg.github.io/speech-api/#dom-speechsynthesis-speak-utterance-utterance
+1
+1
+SpeechSynthesis/speak(utterance)
+-
+utterance
+dict-member
+speech-api
+speech-api
+1
+current
+https://wicg.github.io/speech-api/#dom-speechsynthesiseventinit-utterance
+1
+1
+SpeechSynthesisEventInit
+-
+utterance
+attribute
+speech-api
+speech-api
+1
+current
+https://wicg.github.io/speech-api/#dom-speechsynthesisevent-utterance
+1
+1
+SpeechSynthesisEvent
 -

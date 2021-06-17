@@ -3,7 +3,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/links.html#hyperlink
 1
 1
@@ -13,7 +13,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/links.html#hyperlink-annotation
 
 1
@@ -23,16 +23,26 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/links.html#hyperlink-auditing
-1
+
 1
 -
 hyphen-separated matching
 dfn
-css2
-css2
+CSS21
+CSS
+2.1
+current
+https://drafts.csswg.org/css2/#hyphen-separated-matching
+
 1
+-
+hyphen-separated matching
+dfn
+CSS22
+CSS
+2.2
 current
 https://drafts.csswg.org/css2/#hyphen-separated-matching
 
@@ -43,8 +53,8 @@ dfn
 css-text-3
 css-text
 3
-snapshot
-https://www.w3.org/TR/css-text-3/#hyphenate
+current
+https://drafts.csswg.org/css-text-3/#hyphenate
 
 1
 -
@@ -53,8 +63,8 @@ dfn
 css-text-3
 css-text
 3
-current
-https://drafts.csswg.org/css-text-3/#hyphenate
+snapshot
+https://www.w3.org/TR/css-text-3/#hyphenate
 
 1
 -
@@ -68,6 +78,16 @@ https://drafts.csswg.org/css-text-4/#propdef-hyphenate-character
 1
 1
 -
+hyphenate-character
+property
+css-text-4
+css-text
+4
+snapshot
+https://www.w3.org/TR/css-text-4/#propdef-hyphenate-character
+1
+1
+-
 hyphenate-limit-chars
 property
 css-text-4
@@ -75,6 +95,16 @@ css-text
 4
 current
 https://drafts.csswg.org/css-text-4/#propdef-hyphenate-limit-chars
+1
+1
+-
+hyphenate-limit-chars
+property
+css-text-4
+css-text
+4
+snapshot
+https://www.w3.org/TR/css-text-4/#propdef-hyphenate-limit-chars
 1
 1
 -
@@ -88,6 +118,16 @@ https://drafts.csswg.org/css-text-4/#propdef-hyphenate-limit-last
 1
 1
 -
+hyphenate-limit-last
+property
+css-text-4
+css-text
+4
+snapshot
+https://www.w3.org/TR/css-text-4/#propdef-hyphenate-limit-last
+1
+1
+-
 hyphenate-limit-lines
 property
 css-text-4
@@ -95,6 +135,16 @@ css-text
 4
 current
 https://drafts.csswg.org/css-text-4/#propdef-hyphenate-limit-lines
+1
+1
+-
+hyphenate-limit-lines
+property
+css-text-4
+css-text
+4
+snapshot
+https://www.w3.org/TR/css-text-4/#propdef-hyphenate-limit-lines
 1
 1
 -
@@ -108,14 +158,14 @@ https://drafts.csswg.org/css-text-4/#propdef-hyphenate-limit-zone
 1
 1
 -
-hyphenation
-dfn
-css-text-3
+hyphenate-limit-zone
+property
+css-text-4
 css-text
-3
+4
 snapshot
-https://www.w3.org/TR/css-text-3/#hyphenate
-
+https://www.w3.org/TR/css-text-4/#propdef-hyphenate-limit-zone
+1
 1
 -
 hyphenation
@@ -128,13 +178,13 @@ https://drafts.csswg.org/css-text-3/#hyphenate
 
 1
 -
-hyphenation opportunity
+hyphenation
 dfn
 css-text-3
 css-text
 3
 snapshot
-https://www.w3.org/TR/css-text-3/#hyphenation-opportunity
+https://www.w3.org/TR/css-text-3/#hyphenate
 
 1
 -
@@ -148,14 +198,14 @@ https://drafts.csswg.org/css-text-3/#hyphenation-opportunity
 
 1
 -
-hyphens
-property
+hyphenation opportunity
+dfn
 css-text-3
 css-text
 3
 snapshot
-https://www.w3.org/TR/css-text-3/#propdef-hyphens
-1
+https://www.w3.org/TR/css-text-3/#hyphenation-opportunity
+
 1
 -
 hyphens
@@ -168,13 +218,13 @@ https://drafts.csswg.org/css-text-3/#propdef-hyphens
 1
 1
 -
-hypot()
-function
-css-values-4
-css-values
-4
+hyphens
+property
+css-text-3
+css-text
+3
 snapshot
-https://www.w3.org/TR/css-values-4/#funcdef-hypot
+https://www.w3.org/TR/css-text-3/#propdef-hyphens
 1
 1
 -
@@ -188,14 +238,14 @@ https://drafts.csswg.org/css-values-4/#funcdef-hypot
 1
 1
 -
-hypothetical cross size
-dfn
-css-flexbox-1
-css-flexbox
-1
+hypot()
+function
+css-values-4
+css-values
+4
 snapshot
-https://www.w3.org/TR/css-flexbox-1/#hypothetical-cross-size
-
+https://www.w3.org/TR/css-values-4/#funcdef-hypot
+1
 1
 -
 hypothetical cross size
@@ -208,33 +258,13 @@ https://drafts.csswg.org/css-flexbox-1/#hypothetical-cross-size
 
 1
 -
-hypothetical fr size
+hypothetical cross size
 dfn
-css-grid-1
-css-grid
+css-flexbox-1
+css-flexbox
 1
 snapshot
-https://www.w3.org/TR/css-grid-1/#hypothetical-fr-size
-
-1
--
-hypothetical fr size
-dfn
-css-grid-1
-css-grid
-1
-current
-https://drafts.csswg.org/css-grid-1/#hypothetical-fr-size
-
-1
--
-hypothetical fr size
-dfn
-css-grid-2
-css-grid
-2
-snapshot
-https://www.w3.org/TR/css-grid-2/#hypothetical-fr-size
+https://www.w3.org/TR/css-flexbox-1/#hypothetical-cross-size
 
 1
 -
@@ -248,13 +278,13 @@ https://drafts.csswg.org/css-grid-2/#hypothetical-fr-size
 
 1
 -
-hypothetical main size
+hypothetical fr size
 dfn
-css-flexbox-1
-css-flexbox
-1
+css-grid-2
+css-grid
+2
 snapshot
-https://www.w3.org/TR/css-flexbox-1/#hypothetical-main-size
+https://www.w3.org/TR/css-grid-2/#hypothetical-fr-size
 
 1
 -
@@ -268,10 +298,30 @@ https://drafts.csswg.org/css-flexbox-1/#hypothetical-main-size
 
 1
 -
+hypothetical main size
+dfn
+css-flexbox-1
+css-flexbox
+1
+snapshot
+https://www.w3.org/TR/css-flexbox-1/#hypothetical-main-size
+
+1
+-
 hysteresis
 dfn
-ui-events-1
-ui-events
+uievents
+uievents
+1
+current
+https://w3c.github.io/uievents/#hysteresis
+
+1
+-
+hysteresis
+dfn
+uievents
+uievents
 1
 snapshot
 https://www.w3.org/TR/uievents/#hysteresis
