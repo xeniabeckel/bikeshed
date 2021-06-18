@@ -2341,18 +2341,18 @@ directive-value   = "" / sandbox-token *( 1*WSP <a data-link-type="dfn" href="#s
       with fewer restrictions by adding <code>allow-*</code> flags to the
       directive’s value. For example, you can allow a page that you trust
       to run script, while ensuring that it isn’t treated as same-origin
-      with the rest of your site. This can be accomplished by sending the <code>sandbox</code> directive with the <code><a data-link-type="element-attr">allow-scripts</a></code> flag:</p>
-<pre>Content-Security-Policy: <a data-link-type="dfn" href="#sandbox" id="ref-for-sandbox⑤">sandbox</a> <a data-link-type="element-attr">allow-scripts</a></pre>
+      with the rest of your site. This can be accomplished by sending the <code>sandbox</code> directive with the <code><a data-link-type="element-attr" href="http://www.w3.org/TR/html5/browsers.html#attr-iframe-sandbox-allow-scripts" id="ref-for-attr-iframe-sandbox-allow-scripts②">allow-scripts</a></code> flag:</p>
+<pre>Content-Security-Policy: <a data-link-type="dfn" href="#sandbox" id="ref-for-sandbox⑤">sandbox</a> <a data-link-type="element-attr" href="http://www.w3.org/TR/html5/browsers.html#attr-iframe-sandbox-allow-scripts" id="ref-for-attr-iframe-sandbox-allow-scripts③">allow-scripts</a></pre>
       <p>The set of flags available to the CSP directive should match those
       available to the <code><a data-link-type="element" href="http://www.w3.org/TR/html5/embedded-content-0.html#the-iframe-element" id="ref-for-the-iframe-element⑦">iframe</a></code> attribute.
       Currently, those include:</p>
       <ul>
-       <li><code><a data-link-type="element-attr">allow-forms</a></code>
-       <li><code><a data-link-type="element-attr">allow-pointer-lock</a></code>
-       <li><code><a data-link-type="element-attr">allow-popups</a></code>
-       <li><code><a data-link-type="element-attr">allow-same-origin</a></code>
-       <li><code><a data-link-type="element-attr">allow-scripts</a></code>
-       <li><code><a data-link-type="element-attr">allow-top-navigation</a></code>
+       <li><code><a data-link-type="element-attr" href="http://www.w3.org/TR/html5/browsers.html#attr-iframe-sandbox-allow-forms" id="ref-for-attr-iframe-sandbox-allow-forms">allow-forms</a></code>
+       <li><code><a data-link-type="element-attr" href="http://www.w3.org/TR/html5/browsers.html#attr-iframe-sandbox-allow-pointer-lock" id="ref-for-attr-iframe-sandbox-allow-pointer-lock">allow-pointer-lock</a></code>
+       <li><code><a data-link-type="element-attr" href="http://www.w3.org/TR/html5/browsers.html#attr-iframe-sandbox-allow-popups" id="ref-for-attr-iframe-sandbox-allow-popups">allow-popups</a></code>
+       <li><code><a data-link-type="element-attr" href="http://www.w3.org/TR/html5/browsers.html#attr-iframe-sandbox-allow-same-origin" id="ref-for-attr-iframe-sandbox-allow-same-origin②">allow-same-origin</a></code>
+       <li><code><a data-link-type="element-attr" href="http://www.w3.org/TR/html5/browsers.html#attr-iframe-sandbox-allow-scripts" id="ref-for-attr-iframe-sandbox-allow-scripts④">allow-scripts</a></code>
+       <li><code><a data-link-type="element-attr" href="http://www.w3.org/TR/html5/browsers.html#attr-iframe-sandbox-allow-top-navigation" id="ref-for-attr-iframe-sandbox-allow-top-navigation">allow-top-navigation</a></code>
       </ul>
       <p class="note" role="note"><span>Note:</span> Like the rest of Content Security Policy, the <code>sandbox</code> directive is meant as a defense-in-depth. Web authors would be well-served
       to use it <em>in addition to</em> standard sniffing-mitigation and
@@ -3095,7 +3095,7 @@ Content-Security-Policy: style-src 'none'
    <dt id="biblio-cssom">[CSSOM]
    <dd>Simon Pieters; Glenn Adams. <a href="https://www.w3.org/TR/cssom-1/">CSS Object Model (CSSOM)</a>. 17 March 2016. WD. URL: <a href="https://www.w3.org/TR/cssom-1/">https://www.w3.org/TR/cssom-1/</a>
    <dt id="biblio-ecma-262">[ECMA-262]
-   <dd><a href="https://tc39.es/ecma262/">ECMAScript Language Specification</a>. URL: <a href="https://tc39.es/ecma262/">https://tc39.es/ecma262/</a>
+   <dd><a href="https://tc39.es/ecma262/multipage/">ECMAScript Language Specification</a>. URL: <a href="https://tc39.es/ecma262/multipage/">https://tc39.es/ecma262/multipage/</a>
    <dt id="biblio-eventsource">[EVENTSOURCE]
    <dd>Ian Hickson. <a href="https://www.w3.org/TR/eventsource/">Server-Sent Events</a>. 28 January 2021. REC. URL: <a href="https://www.w3.org/TR/eventsource/">https://www.w3.org/TR/eventsource/</a>
    <dt id="biblio-fips180">[FIPS180]

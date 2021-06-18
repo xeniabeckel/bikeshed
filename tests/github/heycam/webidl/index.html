@@ -3808,7 +3808,7 @@ perhaps as</p>
 lengths, <a data-link-type="dfn" href="#dfn-overloaded" id="ref-for-dfn-overloaded⑥">overloading</a> is preferred. Again, in such scenarios, it is usually better
 to create separate operations with distinct names, but legacy APIs sometimes follow this
 pattern.</p>
-      <p>As an example, the <code class="idl"><a data-link-type="idl" href="https://www.w3.org/TR/css3-conditional/#dom-css-supports" id="ref-for-dom-css-supports">supports(property, value)</a></code> and <code class="idl"><a data-link-type="idl" href="https://www.w3.org/TR/css3-conditional/#dom-css-supports-conditiontext" id="ref-for-dom-css-supports-conditiontext">supports(conditionText)</a></code> operations of the <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom-1/#namespacedef-css" id="ref-for-namespacedef-css">CSS</a></code> interface are defined as the
+      <p>As an example, the <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-conditional-3/#dom-css-supports" id="ref-for-dom-css-supports">supports(property, value)</a></code> and <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-conditional-3/#dom-css-supports-conditiontext" id="ref-for-dom-css-supports-conditiontext">supports(conditionText)</a></code> operations of the <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom-1/#namespacedef-css" id="ref-for-namespacedef-css">CSS</a></code> interface are defined as the
 following IDL fragment <a data-link-type="biblio" href="#biblio-css3-conditional">[CSS3-CONDITIONAL]</a> <a data-link-type="biblio" href="#biblio-cssom">[CSSOM]</a>.</p>
 <pre class="highlight"><c- b>partial</c-> <c- b>interface</c-> <c- g>CSS</c-> {
   <c- b>static</c-> <c- b>boolean</c-> <c- g>supports</c->(<c- n>CSSOMString</c-> <c- g>property</c->, <c- n>CSSOMString</c-> <c- g>value</c->);
@@ -5282,7 +5282,7 @@ corresponds to the set of all possible non-null references to objects.</p>
 The <a data-link-type="dfn" href="#dfn-callback-context" id="ref-for-dfn-callback-context">callback context</a> is a language binding specific value, and is used to store information
 about the execution context at the time the language binding specific object reference is
 converted to an IDL value.</p>
-   <p class="note" role="note"><span>Note:</span> For ECMAScript objects, the <a data-link-type="dfn" href="#dfn-callback-context" id="ref-for-dfn-callback-context①">callback context</a> is used to hold a reference to the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#incumbent-settings-object" id="ref-for-incumbent-settings-object">incumbent settings object</a> at the time the Object value is converted to an IDL callback
+   <p class="note" role="note"><span>Note:</span> For ECMAScript objects, the <a data-link-type="dfn" href="#dfn-callback-context" id="ref-for-dfn-callback-context①">callback context</a> is used to hold a reference to the <a data-link-type="dfn">incumbent settings object</a> at the time the Object value is converted to an IDL callback
 interface type value. See <a href="#es-callback-interface">§ 3.2.16 Callback interface types</a>.</p>
    <p>There is no way to represent a constant object reference value for a particular <a data-link-type="dfn" href="#idl-callback-interface" id="ref-for-idl-callback-interface②">callback interface type</a> in IDL.</p>
    <p>To denote a type that includes all possible references to objects plus the <emu-val>null</emu-val> value, use a <a data-link-type="dfn" href="#dfn-nullable-type" id="ref-for-dfn-nullable-type①④">nullable type</a>.</p>
@@ -5314,7 +5314,7 @@ the <a data-link-type="dfn" href="#dfn-callback-function" id="ref-for-dfn-callba
    <p>An IDL value of the callback function type is represented by a tuple of an object
 reference and a <a data-link-type="dfn" href="#dfn-callback-context" id="ref-for-dfn-callback-context②">callback context</a>.</p>
    <p class="note" role="note"><span>Note:</span> As with <a data-link-type="dfn" href="#idl-callback-interface" id="ref-for-idl-callback-interface④">callback interface types</a>, the <a data-link-type="dfn" href="#dfn-callback-context" id="ref-for-dfn-callback-context③">callback context</a> is used to hold a
-reference to the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#incumbent-settings-object" id="ref-for-incumbent-settings-object①">incumbent settings object</a> at
+reference to the <a data-link-type="dfn">incumbent settings object</a> at
 the time an ECMAScript Object value is converted to an IDL
 callback function type value.  See <a href="#es-callback-function">§ 3.2.19 Callback function types</a>.</p>
    <p>There is no way to represent a constant <a data-link-type="dfn" href="#dfn-callback-function" id="ref-for-dfn-callback-function①⑨">callback function</a> value in IDL.</p>
@@ -6590,7 +6590,7 @@ the value of the corresponding element of <var>x</var>.</p>
       <p>If <a data-link-type="abstract-op" href="https://tc39.github.io/ecma262/#sec-ecmascript-data-types-and-values" id="ref-for-sec-ecmascript-data-types-and-values①⓪">Type</a>(<var>V</var>) is not Object, then <a data-link-type="dfn" href="#ecmascript-throw" id="ref-for-ecmascript-throw⑨">throw</a> a <code class="idl"><a data-link-type="idl" href="https://tc39.github.io/ecma262/#sec-native-error-types-used-in-this-standard-typeerror" id="ref-for-sec-native-error-types-used-in-this-standard-typeerror⑨">TypeError</a></code>.</p>
      <li data-md>
       <p>Return the IDL <a data-link-type="dfn" href="#idl-callback-interface" id="ref-for-idl-callback-interface⑦">callback interface type</a> value that represents a reference to <var>V</var>, with
-the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#incumbent-settings-object" id="ref-for-incumbent-settings-object②">incumbent settings object</a> as the <a data-link-type="dfn" href="#dfn-callback-context" id="ref-for-dfn-callback-context④">callback context</a>.</p>
+the <a data-link-type="dfn">incumbent settings object</a> as the <a data-link-type="dfn" href="#dfn-callback-context" id="ref-for-dfn-callback-context④">callback context</a>.</p>
     </ol>
    </div>
    <p id="callback-interface-to-es"> The result of <a data-link-type="dfn" href="#dfn-convert-idl-to-ecmascript-value" id="ref-for-dfn-convert-idl-to-ecmascript-value②③">converting</a> an IDL <a data-link-type="dfn" href="#idl-callback-interface" id="ref-for-idl-callback-interface⑧">callback interface type</a> value to an ECMAScript value is the Object
@@ -6723,7 +6723,7 @@ to <var>V</var> being assigned to an <a data-link-type="dfn" href="#dfn-attribut
 then <a data-link-type="dfn" href="#ecmascript-throw" id="ref-for-ecmascript-throw①②">throw</a> a <code class="idl"><a data-link-type="idl" href="https://tc39.github.io/ecma262/#sec-native-error-types-used-in-this-standard-typeerror" id="ref-for-sec-native-error-types-used-in-this-standard-typeerror①③">TypeError</a></code>.</p>
      <li data-md>
       <p>Return the IDL <a data-link-type="dfn" href="#idl-callback-function" id="ref-for-idl-callback-function②">callback function type</a> value
-that represents a reference to the same object that <var>V</var> represents, with the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#incumbent-settings-object" id="ref-for-incumbent-settings-object③">incumbent settings object</a> as the <a data-link-type="dfn" href="#dfn-callback-context" id="ref-for-dfn-callback-context⑤">callback context</a>.</p>
+that represents a reference to the same object that <var>V</var> represents, with the <a data-link-type="dfn">incumbent settings object</a> as the <a data-link-type="dfn" href="#dfn-callback-context" id="ref-for-dfn-callback-context⑤">callback context</a>.</p>
     </ol>
    </div>
    <p id="callback-function-to-es"> The result of <a data-link-type="dfn" href="#dfn-convert-idl-to-ecmascript-value" id="ref-for-dfn-convert-idl-to-ecmascript-value②⑦">converting</a> an IDL <a data-link-type="dfn" href="#idl-callback-function" id="ref-for-idl-callback-function③">callback function type</a> value to an ECMAScript value is a reference to the same object
@@ -14365,13 +14365,13 @@ language binding.</p>
    <li><a href="#wrongdocumenterror">WrongDocumentError</a><span>, in §2.8.1</span>
   </ul>
   <aside class="dfn-panel" data-for="term-for-dom-css-supports-conditiontext">
-   <a href="https://www.w3.org/TR/css3-conditional/#dom-css-supports-conditiontext">https://www.w3.org/TR/css3-conditional/#dom-css-supports-conditiontext</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-conditional-3/#dom-css-supports-conditiontext">https://drafts.csswg.org/css-conditional-3/#dom-css-supports-conditiontext</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dom-css-supports-conditiontext">2.5.7.1. Overloading vs. union types</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-dom-css-supports">
-   <a href="https://www.w3.org/TR/css3-conditional/#dom-css-supports">https://www.w3.org/TR/css3-conditional/#dom-css-supports</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-conditional-3/#dom-css-supports">https://drafts.csswg.org/css-conditional-3/#dom-css-supports</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dom-css-supports">2.5.7.1. Overloading vs. union types</a>
    </ul>
@@ -15770,15 +15770,6 @@ language binding.</p>
     <li><a href="#ref-for-in-parallel">3.2.23.2. Examples</a> <a href="#ref-for-in-parallel①">(2)</a> <a href="#ref-for-in-parallel②">(3)</a> <a href="#ref-for-in-parallel③">(4)</a> <a href="#ref-for-in-parallel④">(5)</a> <a href="#ref-for-in-parallel⑤">(6)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-incumbent-settings-object">
-   <a href="https://html.spec.whatwg.org/multipage/webappapis.html#incumbent-settings-object">https://html.spec.whatwg.org/multipage/webappapis.html#incumbent-settings-object</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-incumbent-settings-object">2.13.23. Callback interface types</a>
-    <li><a href="#ref-for-incumbent-settings-object①">2.13.26. Callback function types</a>
-    <li><a href="#ref-for-incumbent-settings-object②">3.2.16. Callback interface types</a>
-    <li><a href="#ref-for-incumbent-settings-object③">3.2.19. Callback function types</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-prepare-to-run-a-callback">
    <a href="https://html.spec.whatwg.org/multipage/webappapis.html#prepare-to-run-a-callback">https://html.spec.whatwg.org/multipage/webappapis.html#prepare-to-run-a-callback</a><b>Referenced in:</b>
    <ul>
@@ -16312,7 +16303,6 @@ language binding.</p>
      <li><span class="dfn-paneled" id="term-for-deserialization-steps">deserialization steps</span>
      <li><span class="dfn-paneled" id="term-for-concept-realm-global">global object</span>
      <li><span class="dfn-paneled" id="term-for-in-parallel">in parallel</span>
-     <li><span class="dfn-paneled" id="term-for-incumbent-settings-object">incumbent settings object</span>
      <li><span class="dfn-paneled" id="term-for-prepare-to-run-a-callback">prepare to run a callback</span>
      <li><span class="dfn-paneled" id="term-for-prepare-to-run-script">prepare to run script</span>
      <li><span class="dfn-paneled" id="term-for-queue-a-microtask">queue a microtask</span>
@@ -16381,7 +16371,7 @@ language binding.</p>
    <dt id="biblio-dom">[DOM]
    <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/">DOM Standard</a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    <dt id="biblio-ecma-262">[ECMA-262]
-   <dd><a href="https://tc39.es/ecma262/">ECMAScript Language Specification</a>. URL: <a href="https://tc39.es/ecma262/">https://tc39.es/ecma262/</a>
+   <dd><a href="https://tc39.es/ecma262/multipage/">ECMAScript Language Specification</a>. URL: <a href="https://tc39.es/ecma262/multipage/">https://tc39.es/ecma262/multipage/</a>
    <dt id="biblio-html">[HTML]
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/">HTML Standard</a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-ieee-754">[IEEE-754]

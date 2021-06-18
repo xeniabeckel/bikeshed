@@ -884,7 +884,7 @@ table.colortable th <c- p>{</c->
 </pre>
     <p>the <a class="css" data-link-type="maybe" href="#selectordef-" id="ref-for-selectordef-①">&amp;</a> selector has specificity [1,0,0]
 		because it matches due to the <span class="css">#a</span> selector,
-		giving the entire <a class="css" data-link-type="propdesc" href="https://www.w3.org/TR/css-color-4/#propdef-color" id="ref-for-propdef-color">color: blue</a> rule a specificity of [1,0,1].</p>
+		giving the entire <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color">color: blue</a> rule a specificity of [1,0,1].</p>
    </div>
    <p class="note" role="note"><span>Note:</span> This specificity is intentionally equivalent to that of the desugaring described above.</p>
    <p>The <a data-link-type="dfn" href="#nesting-selector" id="ref-for-nesting-selector③">nesting selector</a> is allowed anywhere in a <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#compound" id="ref-for-compound">compound selector</a>,
@@ -1263,7 +1263,7 @@ main <c- p>{</c->
   color: red<c- p>;</c->
 <c- p>}</c->
 </pre>
-    <p>The <a class="css" data-link-type="propdesc" href="https://www.w3.org/TR/css-color-4/#propdef-color" id="ref-for-propdef-color①">color: red</a> declaration is invalid and ignored,
+    <p>The <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color①">color: red</a> declaration is invalid and ignored,
 		since it occurs after the <a data-link-type="dfn" href="#nested-style-rule" id="ref-for-nested-style-rule②">nested style rule</a>.</p>
     <p>However, further nested rules are still valid,
 		as in this example:</p>
@@ -1310,7 +1310,7 @@ main <c- p>{</c->
 </pre>
     <p>Both declarations have the same specificity (0,0,1),
 		but the nested rule is considered to come <em>after</em> its parent rule,
-		so the <a class="css" data-link-type="propdesc" href="https://www.w3.org/TR/css-color-4/#propdef-color" id="ref-for-propdef-color②">color: red</a> declarations wins.</p>
+		so the <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color②">color: red</a> declarations wins.</p>
     <p>On the other hand, in this example:</p>
 <pre class="highlight">article <c- p>{</c->
   <c- k>color</c-><c- p>:</c-> blue<c- p>;</c->
@@ -1318,7 +1318,7 @@ main <c- p>{</c->
 <c- p>}</c->
 </pre>
     <p>The <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/selectors-4/#where-pseudo" id="ref-for-where-pseudo">:where()</a> pseudoclass reduces the specificity of the <a data-link-type="dfn" href="#nesting-selector" id="ref-for-nesting-selector⑦">nesting selector</a> to 0,
-		so the <a class="css" data-link-type="propdesc" href="https://www.w3.org/TR/css-color-4/#propdef-color" id="ref-for-propdef-color③">color: red</a> declaration now has a specificity of (0,0,0),
+		so the <a class="css" data-link-type="propdesc" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color③">color: red</a> declaration now has a specificity of (0,0,0),
 		and loses to the <span class="css" id="ref-for-propdef-color④">color: blue</span> declaration.</p>
    </div>
    <h2 class="heading settled" data-level="4" id="cssom"><span class="secno">4. </span><span class="content">CSSOM</span><a class="self-link" href="#cssom"></a></h2>
@@ -1372,7 +1372,7 @@ with the following properties:</p>
      <p>The declared declarations in the rule, in <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#concept-declarations-specified-order" id="ref-for-concept-declarations-specified-order">specified order</a>.</p>
     <dt data-md><a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-parent-css-rule" id="ref-for-cssstyledeclaration-parent-css-rule">parent CSS rule</a>
     <dd data-md>
-     <p>The <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object">context object</a>.</p>
+     <p>The <a data-link-type="dfn">context object</a>.</p>
     <dt data-md><a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-owner-node" id="ref-for-cssstyledeclaration-owner-node">owner node</a>
     <dd data-md>
      <p>Null.</p>
@@ -1556,7 +1556,7 @@ return the result of the following steps:</p>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-color">
-   <a href="https://www.w3.org/TR/css-color-4/#propdef-color">https://www.w3.org/TR/css-color-4/#propdef-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-color-4/#propdef-color">https://drafts.csswg.org/css-color-4/#propdef-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-color">2. Nesting Selector: the &amp; selector</a>
     <li><a href="#ref-for-propdef-color①">3.4. Mixing Nesting Rules and Declarations</a> <a href="#ref-for-propdef-color②">(2)</a> <a href="#ref-for-propdef-color③">(3)</a> <a href="#ref-for-propdef-color④">(4)</a>
@@ -1687,12 +1687,6 @@ return the result of the following steps:</p>
     <li><a href="#ref-for-concept-declarations-specified-order">4.2. The CSSNestingRule Interface</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-context-object">
-   <a href="https://dom.spec.whatwg.org/#context-object">https://dom.spec.whatwg.org/#context-object</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-context-object">4.2. The CSSNestingRule Interface</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-matches-pseudo">
    <a href="https://drafts.csswg.org/selectors-4/#matches-pseudo">https://drafts.csswg.org/selectors-4/#matches-pseudo</a><b>Referenced in:</b>
    <ul>
@@ -1817,11 +1811,6 @@ return the result of the following steps:</p>
      <li><span class="dfn-paneled" id="term-for-concept-declarations-specified-order">specified order</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[DOM]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="term-for-context-object">context object</span>
-    </ul>
-   <li>
     <a data-link-type="biblio">[SELECTORS4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-matches-pseudo">:is()</span>
@@ -1847,17 +1836,15 @@ return the result of the following steps:</p>
   <h3 class="no-num no-ref heading settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
    <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
-   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-5/">CSS Cascading and Inheritance Level 5</a>. 19 March 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-5/">https://www.w3.org/TR/css-cascade-5/</a>
+   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-5/">CSS Cascading and Inheritance Level 5</a>. 8 June 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-5/">https://www.w3.org/TR/css-cascade-5/</a>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
-   <dd>Tab Atkins Jr.; Chris Lilley. <a href="https://www.w3.org/TR/css-color-4/">CSS Color Module Level 4</a>. 12 November 2020. WD. URL: <a href="https://www.w3.org/TR/css-color-4/">https://www.w3.org/TR/css-color-4/</a>
+   <dd>Tab Atkins Jr.; Chris Lilley. <a href="https://www.w3.org/TR/css-color-4/">CSS Color Module Level 4</a>. 1 June 2021. WD. URL: <a href="https://www.w3.org/TR/css-color-4/">https://www.w3.org/TR/css-color-4/</a>
    <dt id="biblio-css-syntax-3">[CSS-SYNTAX-3]
    <dd>Tab Atkins Jr.; Simon Sapin. <a href="https://www.w3.org/TR/css-syntax-3/">CSS Syntax Module Level 3</a>. 16 July 2019. CR. URL: <a href="https://www.w3.org/TR/css-syntax-3/">https://www.w3.org/TR/css-syntax-3/</a>
    <dt id="biblio-css21">[CSS21]
    <dd>Bert Bos; et al. <a href="https://www.w3.org/TR/CSS21/">Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</a>. 7 June 2011. REC. URL: <a href="https://www.w3.org/TR/CSS21/">https://www.w3.org/TR/CSS21/</a>
    <dt id="biblio-cssom-1">[CSSOM-1]
    <dd>Simon Pieters; Glenn Adams. <a href="https://www.w3.org/TR/cssom-1/">CSS Object Model (CSSOM)</a>. 17 March 2016. WD. URL: <a href="https://www.w3.org/TR/cssom-1/">https://www.w3.org/TR/cssom-1/</a>
-   <dt id="biblio-dom">[DOM]
-   <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/">DOM Standard</a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://tools.ietf.org/html/rfc2119">Key words for use in RFCs to Indicate Requirement Levels</a>. March 1997. Best Current Practice. URL: <a href="https://tools.ietf.org/html/rfc2119">https://tools.ietf.org/html/rfc2119</a>
    <dt id="biblio-selectors4">[SELECTORS4]

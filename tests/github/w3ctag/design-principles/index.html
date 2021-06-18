@@ -2420,7 +2420,7 @@ for example by suggesting the user connect or enable the device. </p>
    <p>Authors should always be able to detect a feature from JavaScript,
 and in some cases the feature should also be detectable
 in the language where it’s used
-(such as <a class="css" data-link-type="maybe" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-supports" id="ref-for-at-ruledef-supports">@supports</a> in CSS).</p>
+(such as <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-supports" id="ref-for-at-ruledef-supports">@supports</a> in CSS).</p>
    <p>In some cases, it may <strong>not</strong> be appropriate to allow feature detection.
 Whether the feature should be detectable or not
 should be based on the <a href="#priority-of-constituencies">user need</a> for the feature:
@@ -2637,8 +2637,8 @@ This is also needed to maintain the design principle that
 inserting an unstyled inline element around a piece of text
 doesn’t change the appearance of that text. </div>
    <div class="example" id="example-58897411">
-    <a class="self-link" href="#example-58897411"></a> For example, the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-background-image" id="ref-for-propdef-background-image">background-image</a> property is <strong>not</strong> inherited. 
-    <p>If the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-background-image" id="ref-for-propdef-background-image①">background-image</a> property had been inherited,
+    <a class="self-link" href="#example-58897411"></a> For example, the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image" id="ref-for-propdef-background-image">background-image</a> property is <strong>not</strong> inherited.
+    <p>If the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image" id="ref-for-propdef-background-image①">background-image</a> property had been inherited,
 then the specification would have had to create a good bit of complexity
 to avoid a partially-transparent image
 being visibly repeated for each descendant element.
@@ -3560,7 +3560,7 @@ are interoperable with one another.
 This means that authors don’t need to convert values used in one API
 to be used in another API,
 or keep track of which time unit is needed where.</p>
-   <p>This convention began with <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#dom-settimeout" id="ref-for-dom-settimeout">setTimeout</a></code> and the <code class="idl"><a data-link-type="idl" href="https://tc39.github.io/ecma262/#sec-date-objects" id="ref-for-sec-date-objects">Date</a></code> API,
+   <p>This convention began with <code class="idl"><a data-link-type="idl">setTimeout</a></code> and the <code class="idl"><a data-link-type="idl" href="https://tc39.github.io/ecma262/#sec-date-objects" id="ref-for-sec-date-objects">Date</a></code> API,
 and has been used since then.</p>
    <p class="note" role="note"><span>Note:</span> high-resolution time is usually represented as fractional milliseconds
 using a floating point value,
@@ -4333,6 +4333,12 @@ so they can correct this omission.</p>
     <li><a href="#ref-for-dom-credential-id">Use casing rules consistent with existing APIs</a>
    </ul>
   </aside>
+  <aside class="dfn-panel" data-for="term-for-propdef-background-image">
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image">https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-propdef-background-image">3.2. Make appropriate choices for whether CSS properties are inherited</a> <a href="#ref-for-propdef-background-image①">(2)</a>
+   </ul>
+  </aside>
   <aside class="dfn-panel" data-for="term-for-actual-value">
    <a href="https://drafts.csswg.org/css-cascade-5/#actual-value">https://drafts.csswg.org/css-cascade-5/#actual-value</a><b>Referenced in:</b>
    <ul>
@@ -4358,7 +4364,7 @@ so they can correct this omission.</p>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-at-ruledef-supports">
-   <a href="https://www.w3.org/TR/css3-conditional/#at-ruledef-supports">https://www.w3.org/TR/css3-conditional/#at-ruledef-supports</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-supports">https://drafts.csswg.org/css-conditional-3/#at-ruledef-supports</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-at-ruledef-supports">2.3. New features should be detectable</a>
    </ul>
@@ -4392,12 +4398,6 @@ so they can correct this omission.</p>
    <a href="https://drafts.csswg.org/css-values-3/#number-value">https://drafts.csswg.org/css-values-3/#number-value</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-number-value">3.3. Choose the computed value type based on how the property should inherit</a> <a href="#ref-for-number-value①">(2)</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-propdef-background-image">
-   <a href="https://drafts.csswg.org/css2/#propdef-background-image">https://drafts.csswg.org/css2/#propdef-background-image</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-propdef-background-image">3.2. Make appropriate choices for whether CSS properties are inherited</a> <a href="#ref-for-propdef-background-image①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-line-height">
@@ -4812,12 +4812,6 @@ so they can correct this omission.</p>
     <li><a href="#ref-for-event-media-resize">6.5. Events are for notification</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-dom-settimeout">
-   <a href="https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#dom-settimeout">https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#dom-settimeout</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-dom-settimeout">7.3. Use milliseconds for time measurement</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-dom-dialog-showmodal">
    <a href="https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-showmodal">https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-showmodal</a><b>Referenced in:</b>
    <ul>
@@ -5175,6 +5169,11 @@ so they can correct this omission.</p>
      <li><span class="dfn-paneled" id="term-for-dom-credential-id">id</span>
     </ul>
    <li>
+    <a data-link-type="biblio">[css-backgrounds-3]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="term-for-propdef-background-image">background-image</span>
+    </ul>
+   <li>
     <a data-link-type="biblio">[css-cascade-5]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-actual-value">actual value</span>
@@ -5207,7 +5206,6 @@ so they can correct this omission.</p>
    <li>
     <a data-link-type="biblio">[CSS21]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="term-for-propdef-background-image">background-image</span>
      <li><span class="dfn-paneled" id="term-for-propdef-line-height">line-height</span>
     </ul>
    <li>
@@ -5272,7 +5270,7 @@ so they can correct this omission.</p>
      <li><span class="dfn-paneled" id="term-for-dom-body-json">json()</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[HIGHRES-TIME]</a> defines the following terms:
+    <a data-link-type="biblio">[hr-time-2]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-dom-domhighrestimestamp">DOMHighResTimeStamp</span>
     </ul>
@@ -5306,7 +5304,6 @@ so they can correct this omission.</p>
      <li><span class="dfn-paneled" id="term-for-queue-a-task">queue a task</span>
      <li><span class="dfn-paneled" id="term-for-reflect">reflect</span>
      <li><span class="dfn-paneled" id="term-for-event-media-resize">resize</span>
-     <li><span class="dfn-paneled" id="term-for-dom-settimeout">setTimeout()</span>
      <li><span class="dfn-paneled" id="term-for-dom-dialog-showmodal">showModal()</span>
      <li><span class="dfn-paneled" id="term-for-task-queue">task queues</span>
     </ul>
@@ -5432,8 +5429,10 @@ so they can correct this omission.</p>
    <dt id="biblio-dom">[DOM]
    <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/">DOM Standard</a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    <dt id="biblio-ecmascript">[ECMASCRIPT]
-   <dd><a href="https://tc39.es/ecma262/">ECMAScript Language Specification</a>. URL: <a href="https://tc39.es/ecma262/">https://tc39.es/ecma262/</a>
+   <dd><a href="https://tc39.es/ecma262/multipage/">ECMAScript Language Specification</a>. URL: <a href="https://tc39.es/ecma262/multipage/">https://tc39.es/ecma262/multipage/</a>
    <dt id="biblio-highres-time">[HIGHRES-TIME]
+   <dd>Yoav Weiss; et al. <a href="https://w3c.github.io/hr-time/">High Resolution Time</a>. URL: <a href="https://w3c.github.io/hr-time/">https://w3c.github.io/hr-time/</a>
+   <dt id="biblio-hr-time-2">[HR-TIME-2]
    <dd>Ilya Grigorik. <a href="https://w3c.github.io/hr-time/">High Resolution Time Level 2</a>. URL: <a href="https://w3c.github.io/hr-time/">https://w3c.github.io/hr-time/</a>
    <dt id="biblio-html">[HTML]
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/">HTML Standard</a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
@@ -5460,6 +5459,8 @@ so they can correct this omission.</p>
    <dd>Marcos Caceres; et al. <a href="https://w3c.github.io/manifest/">Web Application Manifest</a>. URL: <a href="https://w3c.github.io/manifest/">https://w3c.github.io/manifest/</a>
    <dt id="biblio-credential-management-1">[CREDENTIAL-MANAGEMENT-1]
    <dd>Mike West. <a href="https://w3c.github.io/webappsec-credential-management/">Credential Management Level 1</a>. URL: <a href="https://w3c.github.io/webappsec-credential-management/">https://w3c.github.io/webappsec-credential-management/</a>
+   <dt id="biblio-css-backgrounds-3">[CSS-BACKGROUNDS-3]
+   <dd>Bert Bos; Elika Etemad; Brad Kemper. <a href="https://drafts.csswg.org/css-backgrounds/">CSS Backgrounds and Borders Module Level 3</a>. URL: <a href="https://drafts.csswg.org/css-backgrounds/">https://drafts.csswg.org/css-backgrounds/</a>
    <dt id="biblio-css-fonts-3">[CSS-FONTS-3]
    <dd>John Daggett; Myles Maxfield; Chris Lilley. <a href="https://drafts.csswg.org/css-fonts-3/">CSS Fonts Module Level 3</a>. URL: <a href="https://drafts.csswg.org/css-fonts-3/">https://drafts.csswg.org/css-fonts-3/</a>
    <dt id="biblio-css-inline-3">[CSS-INLINE-3]
@@ -5475,7 +5476,7 @@ so they can correct this omission.</p>
    <dt id="biblio-dom-parsing">[DOM-Parsing]
    <dd>Travis Leithead. <a href="https://w3c.github.io/DOM-Parsing/">DOM Parsing and Serialization</a>. URL: <a href="https://w3c.github.io/DOM-Parsing/">https://w3c.github.io/DOM-Parsing/</a>
    <dt id="biblio-ethical-web">[ETHICAL-WEB]
-   <dd>Daniel Appelquist; Hadley Beeman. <a href="https://www.w3.org/2001/tag/doc/ethical-web-principles/">W3C TAG Ethical Web Principles</a>. 4 December 2019. TAG Finding. URL: <a href="https://www.w3.org/2001/tag/doc/ethical-web-principles/">https://www.w3.org/2001/tag/doc/ethical-web-principles/</a>
+   <dd>Daniel Appelquist; Hadley Beeman. <a href="https://www.w3.org/2001/tag/doc/ethical-web-principles/">W3C TAG Ethical Web Principles</a>. 27 October 2020. TAG Finding. URL: <a href="https://www.w3.org/2001/tag/doc/ethical-web-principles/">https://www.w3.org/2001/tag/doc/ethical-web-principles/</a>
    <dt id="biblio-fetch">[FETCH]
    <dd>Anne van Kesteren. <a href="https://fetch.spec.whatwg.org/">Fetch Standard</a>. Living Standard. URL: <a href="https://fetch.spec.whatwg.org/">https://fetch.spec.whatwg.org/</a>
    <dt id="biblio-fingerprinting-guidance">[FINGERPRINTING-GUIDANCE]

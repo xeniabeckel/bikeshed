@@ -848,7 +848,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
     </ol>
    </div>
    <p>When <dfn class="dfn-paneled idl-code" data-dfn-for="XRTest" data-dfn-type="method" data-export id="dom-xrtest-simulateuseractivation"><code>simulateUserActivation(f)</code></dfn> is called, invoke <code>f</code> as if it had <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/interaction.html#transient-activation" id="ref-for-transient-activation">transient activation</a>.</p>
-   <p>When <dfn class="dfn-paneled idl-code" data-dfn-for="XRTest" data-dfn-type="method" data-export id="dom-xrtest-disconnectalldevices"><code>disconnectAllDevices()</code></dfn> is called, remove all <a data-link-type="dfn" href="#simulated-xr-device" id="ref-for-simulated-xr-device①①">simulated XR devices</a> from the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object">context object</a>'s <code class="idl"><a data-link-type="idl">XR</a></code> object’s <a data-link-type="dfn" href="https://immersive-web.github.io/webxr/#list-of-immersive-xr-devices" id="ref-for-list-of-immersive-xr-devices①">list of immersive XR devices</a> as if they were disconnected. If the <a data-link-type="dfn" href="https://immersive-web.github.io/webxr/#inline-xr-device" id="ref-for-inline-xr-device①">inline XR device</a> is a <a data-link-type="dfn" href="#simulated-xr-device" id="ref-for-simulated-xr-device①②">simulated XR device</a>, reset it to the default <a data-link-type="dfn" href="https://immersive-web.github.io/webxr/#inline-xr-device" id="ref-for-inline-xr-device②">inline XR device</a>.</p>
+   <p>When <dfn class="dfn-paneled idl-code" data-dfn-for="XRTest" data-dfn-type="method" data-export id="dom-xrtest-disconnectalldevices"><code>disconnectAllDevices()</code></dfn> is called, remove all <a data-link-type="dfn" href="#simulated-xr-device" id="ref-for-simulated-xr-device①①">simulated XR devices</a> from the <a data-link-type="dfn">context object</a>'s <code class="idl"><a data-link-type="idl">XR</a></code> object’s <a data-link-type="dfn" href="https://immersive-web.github.io/webxr/#list-of-immersive-xr-devices" id="ref-for-list-of-immersive-xr-devices①">list of immersive XR devices</a> as if they were disconnected. If the <a data-link-type="dfn" href="https://immersive-web.github.io/webxr/#inline-xr-device" id="ref-for-inline-xr-device①">inline XR device</a> is a <a data-link-type="dfn" href="#simulated-xr-device" id="ref-for-simulated-xr-device①②">simulated XR device</a>, reset it to the default <a data-link-type="dfn" href="https://immersive-web.github.io/webxr/#inline-xr-device" id="ref-for-inline-xr-device②">inline XR device</a>.</p>
    <h3 class="heading settled" data-level="4.3" id="fakexrdeviceinit-dict"><span class="secno">4.3. </span><span class="content">FakeXRDeviceInit</span><a class="self-link" href="#fakexrdeviceinit-dict"></a></h3>
 <pre class="idl highlight def"><c- b>dictionary</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-fakexrdeviceinit"><code><c- g>FakeXRDeviceInit</c-></code></dfn> {
     <c- b>required</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-boolean" id="ref-for-idl-boolean"><c- b>boolean</c-></a> <dfn class="dfn-paneled idl-code" data-dfn-for="FakeXRDeviceInit" data-dfn-type="dict-member" data-export data-type="boolean " id="dom-fakexrdeviceinit-supportsimmersive"><code><c- g>supportsImmersive</c-></code></dfn>;
@@ -1013,7 +1013,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
     <p>When <dfn class="dfn-paneled idl-code" data-dfn-for="FakeXRDevice" data-dfn-type="method" data-export id="dom-fakexrdevice-disconnect"><code>disconnect()</code></dfn> method is called, perform the following steps:</p>
     <ol>
      <li data-md>
-      <p>Remove <a data-link-type="dfn" href="#fakexrdevice-device" id="ref-for-fakexrdevice-device③">device</a> from the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object①">context object</a>'s <code class="idl"><a data-link-type="idl">XR</a></code> object’s <a data-link-type="dfn" href="https://immersive-web.github.io/webxr/#list-of-immersive-xr-devices" id="ref-for-list-of-immersive-xr-devices②">list of immersive XR devices</a> as if it were disconnected.</p>
+      <p>Remove <a data-link-type="dfn" href="#fakexrdevice-device" id="ref-for-fakexrdevice-device③">device</a> from the <a data-link-type="dfn">context object</a>'s <code class="idl"><a data-link-type="idl">XR</a></code> object’s <a data-link-type="dfn" href="https://immersive-web.github.io/webxr/#list-of-immersive-xr-devices" id="ref-for-list-of-immersive-xr-devices②">list of immersive XR devices</a> as if it were disconnected.</p>
      <li data-md>
       <p>If the <a data-link-type="dfn" href="https://immersive-web.github.io/webxr/#inline-xr-device" id="ref-for-inline-xr-device③">inline XR device</a> is equal to the <code class="idl"><a data-link-type="idl" href="#fakexrdevice" id="ref-for-fakexrdevice⑤">FakeXRDevice</a></code>, reset it to the default <a data-link-type="dfn" href="https://immersive-web.github.io/webxr/#inline-xr-device" id="ref-for-inline-xr-device④">inline XR device</a>.</p>
     </ol>
@@ -1633,13 +1633,6 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
     <li><a href="#ref-for-eventtarget">5.1. FakeXRDevice</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-context-object">
-   <a href="https://dom.spec.whatwg.org/#context-object">https://dom.spec.whatwg.org/#context-object</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-context-object">4.2. XRTest</a>
-    <li><a href="#ref-for-context-object①">5.1. FakeXRDevice</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-dictdef-dompointinit">
    <a href="https://drafts.fxtf.org/geometry-1/#dictdef-dompointinit">https://drafts.fxtf.org/geometry-1/#dictdef-dompointinit</a><b>Referenced in:</b>
    <ul>
@@ -2214,7 +2207,6 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
     <a data-link-type="biblio">[DOM]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-eventtarget">EventTarget</span>
-     <li><span class="dfn-paneled" id="term-for-context-object">context object</span>
     </ul>
    <li>
     <a data-link-type="biblio">[geometry-1]</a> defines the following terms:

@@ -335,62 +335,6 @@ figcaption:not(.no-marker)::before {
 [data-md] > :last-child {
     margin-bottom: 0;
 }</style>
-<style>/* style-mdn-anno */
-
-            @media (max-width: 767px) { .mdn-anno { opacity: .1 } }
-            .mdn-anno { font: 1em sans-serif; padding: 0.3em; position: absolute; z-index: 8; right: 0.3em; background: #EEE; color: black; box-shadow: 0 0 3px #999; overflow: hidden; border-collapse: initial; border-spacing: initial; min-width: 9em; max-width: min-content; white-space: nowrap; word-wrap: normal; hyphens: none}
-            .mdn-anno:not(.wrapped) { opacity: 1}
-            .mdn-anno:hover { z-index: 9 }
-            .mdn-anno.wrapped { min-width: 0 }
-            .mdn-anno.wrapped > :not(button) { display: none; }
-            .mdn-anno > .mdn-anno-btn { cursor: pointer; border: none; color: #000; background: transparent; margin: -8px; float: right; padding: 10px 8px 8px 8px; outline: none; }
-            .mdn-anno > .mdn-anno-btn > .less-than-two-engines-flag { color: red; padding-right: 2px; }
-            .mdn-anno > .mdn-anno-btn > .all-engines-flag { color: green; padding-right: 2px; }
-            .mdn-anno > .mdn-anno-btn > span { color: #fff; background-color: #000; font-weight: normal; font-family: zillaslab, Palatino, "Palatino Linotype", serif; padding: 2px 3px 0px 3px; line-height: 1.3em; vertical-align: top; }
-            .mdn-anno > .feature { margin-top: 20px; }
-            .mdn-anno > .feature:not(:first-of-type) { border-top: 1px solid #999; margin-top: 6px; padding-top: 2px; }
-            .mdn-anno > .feature > .less-than-two-engines-text { color: red }
-            .mdn-anno > .feature > .all-engines-text { color: green }
-            .mdn-anno > .feature > p { font-size: .75em; margin-top: 6px; margin-bottom: 0; }
-            .mdn-anno > .feature > p + p { margin-top: 3px; }
-            .mdn-anno > .feature > .support { display: block; font-size: 0.6em; margin: 0; padding: 0; margin-top: 2px }
-            .mdn-anno > .feature > .support + div { padding-top: 0.5em; }
-            .mdn-anno > .feature > .support > hr { display: block; border: none; border-top: 1px dotted #999; padding: 3px 0px 0px 0px; margin: 2px 3px 0px 3px; }
-            .mdn-anno > .feature > .support > hr::before { content: ""; }
-            .mdn-anno > .feature > .support > span { padding: 0.2em 0; display: block; display: table; }
-            .mdn-anno > .feature > .support > span.no { color: #CCCCCC; filter: grayscale(100%); }
-            .mdn-anno > .feature > .support > span.no::before { opacity: 0.5; }
-            .mdn-anno > .feature > .support > span:first-of-type { padding-top: 0.5em; }
-            .mdn-anno > .feature > .support > span > span { padding: 0 0.5em; display: table-cell; }
-            .mdn-anno > .feature > .support > span > span:first-child { width: 100%; }
-            .mdn-anno > .feature > .support > span > span:last-child { width: 100%; white-space: pre; padding: 0; }
-            .mdn-anno > .feature > .support > span::before { content: ' '; display: table-cell; min-width: 1.5em; height: 1.5em; background: no-repeat center center; background-size: contain; text-align: right; font-size: 0.75em; font-weight: bold; }
-            .mdn-anno > .feature > .support > .chrome_android::before { background-image: url(https://resources.whatwg.org/browser-logos/chrome.svg); }
-            .mdn-anno > .feature > .support > .firefox_android::before { background-image: url(https://resources.whatwg.org/browser-logos/firefox.png); }
-            .mdn-anno > .feature > .support > .chrome::before { background-image: url(https://resources.whatwg.org/browser-logos/chrome.svg); }
-            .mdn-anno > .feature > .support > .edge_blink::before { background-image: url(https://resources.whatwg.org/browser-logos/edge.svg); }
-            .mdn-anno > .feature > .support > .edge::before { background-image: url(https://resources.whatwg.org/browser-logos/edge_legacy.svg); }
-            .mdn-anno > .feature > .support > .firefox::before { background-image: url(https://resources.whatwg.org/browser-logos/firefox.png); }
-            .mdn-anno > .feature > .support > .ie::before { background-image: url(https://resources.whatwg.org/browser-logos/ie.png); }
-            .mdn-anno > .feature > .support > .safari_ios::before { background-image: url(https://resources.whatwg.org/browser-logos/safari-ios.svg); }
-            .mdn-anno > .feature > .support > .nodejs::before { background-image: url(https://nodejs.org/static/images/favicons/favicon.ico); }
-            .mdn-anno > .feature > .support > .opera_android::before { background-image: url(https://resources.whatwg.org/browser-logos/opera.svg); }
-            .mdn-anno > .feature > .support > .opera::before { background-image: url(https://resources.whatwg.org/browser-logos/opera.svg); }
-            .mdn-anno > .feature > .support > .safari::before { background-image: url(https://resources.whatwg.org/browser-logos/safari.png); }
-            .mdn-anno > .feature > .support > .samsunginternet_android::before { background-image: url(https://resources.whatwg.org/browser-logos/samsung.svg); }
-            .mdn-anno > .feature > .support > .webview_android::before { background-image: url(https://resources.whatwg.org/browser-logos/android-webview.png); }
-            .name-slug-mismatch { color: red }
-            .caniuse-status:hover { z-index: 9; }
-
-            /* dt, li, .issue, .note, and .example are "position: relative", so to put annotation at right margin, must move to right of containing block */
-            .h-entry:not(.status-LS) dt > .mdn-anno, .h-entry:not(.status-LS) li > .mdn-anno, .h-entry:not(.status-LS) .issue > .mdn-anno, .h-entry:not(.status-LS) .note > .mdn-anno, .h-entry:not(.status-LS) .example > .mdn-anno { right: -6.7em; }
-            .h-entry p + .mdn-anno { margin-top: 0; }
-            h2 + .mdn-anno.after { margin: -48px 0 0 0; }
-            h3 + .mdn-anno.after { margin: -46px 0 0 0; }
-            h4 + .mdn-anno.after { margin: -42px 0 0 0; }
-            h5 + .mdn-anno.after { margin: -40px 0 0 0; }
-            h6 + .mdn-anno.after { margin: -40px 0 0 0; }
-            </style>
 <style>/* style-selflinks */
 
 :root {
@@ -2588,22 +2532,6 @@ its <a data-link-type="dfn" href="#effective-playback-rate" id="ref-for-effectiv
      <p>If the steps to <a data-link-type="dfn" href="#play-an-animation" id="ref-for-play-an-animation③">play an animation</a> throw an exception, set <var>animation</var>’s <a data-link-type="dfn" href="#pending-playback-rate" id="ref-for-pending-playback-rate①⑥">pending playback rate</a> to <var>original pending playback rate</var> and propagate the exception.</p>
    </ol>
    <h4 class="heading settled" data-level="4.4.17" id="play-states"><span class="secno">4.4.17. </span><span class="content">Play states</span><a class="self-link" href="#play-states"></a></h4>
-   <div class="mdn-anno wrapped">
-    <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/playState" title="The Animation.playState property of the Web Animations API returns and sets an enumerated value describing the playback state of an animation.">Animation/playState</a></p>
-     <p class="all-engines-text">In all current engines.</p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>39+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>26+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>39+</span></span><span class="webview_android yes"><span>Android WebView</span><span>39+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>4.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>26+</span></span>
-     </div>
-    </div>
-   </div>
    <p>An <a data-link-type="dfn" href="#concept-animation" id="ref-for-concept-animation②⑦">animation</a> may be described as being in one of the following <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="play state" data-noexport id="play-state">play states</dfn> for each of which, a
 non-normative description is also provided:</p>
    <div class="informative-bg">
@@ -2809,21 +2737,6 @@ effect with the exception of <a data-link-type="dfn" href="#fill-mode" id="ref-f
 from the <a data-link-type="dfn" href="#start-time" id="ref-for-start-time④⑥">start time</a> of the <a data-link-type="dfn" href="#concept-animation" id="ref-for-concept-animation③⑦">animation</a> with which the animation effect is associated.</p>
    <p>The length of the <a data-link-type="dfn" href="#active-interval" id="ref-for-active-interval⑧">active interval</a> is called the <a data-link-type="dfn" href="#active-duration" id="ref-for-active-duration②">active
 duration</a>, the calculation of which is defined in <a href="#calculating-the-active-duration">§ 4.8.2 Calculating the active duration</a>.</p>
-   <div class="mdn-anno wrapped">
-    <button class="mdn-anno-btn"><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/EffectTiming/endDelay" title="The endDelay property of the EffectTiming dictionary (part of the Web Animations API) indicates the number of milliseconds to delay after the active period of an animation sequence. The animation&apos;s end time—the time at which an iteration is considered to have finished—is the time at which the animation finishes an iteration (its initial delay, AnimationEffectTimingReadOnly.delay, plus its duration,duration, plus its end delay.">EffectTiming/endDelay</a></p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>52+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>Yes</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>52+</span></span><span class="webview_android yes"><span>Android WebView</span><span>52+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>6.0+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-     </div>
-    </div>
-   </div>
    <p>Similar to the <a data-link-type="dfn" href="#start-delay" id="ref-for-start-delay④">start delay</a>, an <a data-link-type="dfn" href="#animation-effect" id="ref-for-animation-effect①⑧">animation effect</a> also has
 an <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="end-delay">end delay</dfn> which is primarily of use when sequencing animations
 based on the <a data-link-type="dfn" href="#end-time" id="ref-for-end-time③">end time</a> of another <span id="ref-for-animation-effect①⑨">animation effect</span>.
@@ -3086,21 +2999,6 @@ The span of time during which a single repetition takes place is
 called an <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="iteration-interval">iteration interval</dfn>.</p>
    <p>Unlike the <a data-link-type="dfn" href="#active-interval" id="ref-for-active-interval①④">active interval</a>, an animation effect can have multiple <a data-link-type="dfn" href="#iteration-interval" id="ref-for-iteration-interval">iteration intervals</a> although typically only the interval
 corresponding to the <a data-link-type="dfn" href="#current-iteration" id="ref-for-current-iteration">current iteration</a> is of interest.</p>
-   <div class="mdn-anno wrapped">
-    <button class="mdn-anno-btn"><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/EffectTiming/duration" title="The duration property of the dictionary EffectTiming in the Web Animations API specifies the duration in milliseconds that a single iteration (from beginning to end) the animation should take to complete.">EffectTiming/duration</a></p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>52+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>Yes</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>52+</span></span><span class="webview_android yes"><span>Android WebView</span><span>52+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>6.0+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-     </div>
-    </div>
-   </div>
    <p>The length of a single iteration is called the <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="iteration duration" data-noexport id="iteration-duration">iteration
 duration</dfn>.
 The initial <a data-link-type="dfn" href="#iteration-duration" id="ref-for-iteration-duration①">iteration duration</a> of an animation effect is zero.</p>
@@ -3131,41 +3029,11 @@ duration</a> is illustrated below.</p>
     </figure>
    </div>
    <h4 class="heading settled" data-level="4.7.2" id="controlling-iteration"><span class="secno">4.7.2. </span><span class="content">Controlling iteration</span><a class="self-link" href="#controlling-iteration"></a></h4>
-   <div class="mdn-anno wrapped">
-    <button class="mdn-anno-btn"><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/EffectTiming/iterations" title="The Web Animations API dictionary EffectTiming&apos;s iterations property specifies the number of times the animation should repeat. The default value is 1, indicating that it should only play once, but you can set it to any floating-point value (including positive Infinity defaults to 1, and can also take a value of Infinity to make it loop infinitely.">EffectTiming/iterations</a></p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>52+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>Yes</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>52+</span></span><span class="webview_android yes"><span>Android WebView</span><span>52+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>6.0+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-     </div>
-    </div>
-   </div>
    <p>The number of times an <a data-link-type="dfn" href="#animation-effect" id="ref-for-animation-effect④⑨">animation effect</a> repeats is called its <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="iteration-count">iteration count</dfn>.
 The <a data-link-type="dfn" href="#iteration-count" id="ref-for-iteration-count①">iteration count</a> is a real number greater than or equal to
 zero.
 The <span id="ref-for-iteration-count②">iteration count</span> may also be positive infinity to represent
 that the <span id="ref-for-animation-effect⑤⓪">animation effect</span> repeats indefinitely.</p>
-   <div class="mdn-anno wrapped">
-    <button class="mdn-anno-btn"><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/EffectTiming/iterationStart" title="Web Animations API&apos;s EffectTiming dictionary&apos;s iterationStart property specifies the repetition number which repetition the animation begins at and its progress through it.">EffectTiming/iterationStart</a></p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>52+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>Yes</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>52+</span></span><span class="webview_android yes"><span>Android WebView</span><span>52+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>6.0+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-     </div>
-    </div>
-   </div>
    <p>In addition to the <a data-link-type="dfn" href="#iteration-count" id="ref-for-iteration-count③">iteration count</a>, <a data-link-type="dfn" href="#animation-effect" id="ref-for-animation-effect⑤①">animation effects</a> also
 have an <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="iteration-start">iteration start</dfn> property which specifies an offset
 into the series of iterations at which the <span id="ref-for-animation-effect⑤②">animation effect</span> should begin.
@@ -3489,21 +3357,6 @@ the <a data-link-type="dfn" href="#simple-iteration-progress" id="ref-for-simple
      <p>Otherwise, return <code>1.0 - <a data-link-type="dfn" href="#simple-iteration-progress" id="ref-for-simple-iteration-progress⑥">simple iteration progress</a></code>.</p>
    </ol>
    <h3 class="heading settled" data-level="4.10" id="time-transformations"><span class="secno">4.10. </span><span class="content">Time transformations</span><a class="self-link" href="#time-transformations"></a></h3>
-   <div class="mdn-anno wrapped after">
-    <button class="mdn-anno-btn"><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/EffectTiming/easing" title="The EffectTiming dictionary&apos;s easing property in the Web Animations API specifies the timing function used to scale the time to produce easing effects, where easing is the rate of the animation&apos;s change over time.">EffectTiming/easing</a></p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>52+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>Yes</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>52+</span></span><span class="webview_android yes"><span>Android WebView</span><span>52+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>6.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>Yes</span></span>
-     </div>
-    </div>
-   </div>
    <p>It is often desirable to control the rate at which an <a data-link-type="dfn" href="#animation-effect" id="ref-for-animation-effect⑤⑨">animation
 effect</a> progresses.
 For example, easing the rate of animation can create a sense of
@@ -3646,8 +3499,8 @@ in each property’s property definition table:</p>
     then the property values combine as <span id="ref-for-discrete③">discrete</span>. 
      <p class="note" role="note"><span>Note:</span> The repeatable list concept ensures that
     a list that is conceptually repeated to a certain length
-    (as <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-backgrounds-3/#propdef-background-origin" id="ref-for-propdef-background-origin">background-origin</a> is repeated to the length of
-    the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-background-image" id="ref-for-propdef-background-image">background-image</a> list)
+    (as <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-origin" id="ref-for-propdef-background-origin">background-origin</a> is repeated to the length of
+    the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image" id="ref-for-propdef-background-image">background-image</a> list)
     or repeated infinitely
     will smoothly transition between any values,
     and so that the computed value
@@ -3806,10 +3659,10 @@ the element; then add the property and resulting value to <var>computed keyframe
          <p>For shorthand properties, add the equivalent longhand properties.</p>
         <li data-md>
          <p>For logical properties <a data-link-type="biblio" href="#biblio-css-logical-1">[CSS-LOGICAL-1]</a>, add the <a data-link-type="dfn" href="https://drafts.csswg.org/css-writing-modes-4/#logical-to-physical" id="ref-for-logical-to-physical">equivalent physical
-properties</a> <a data-link-type="biblio" href="#biblio-css-writing-modes-4">[CSS-WRITING-MODES-4]</a> based on the computed value of <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-writing-modes-4/#propdef-writing-mode" id="ref-for-propdef-writing-mode">writing-mode</a> and/or <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-writing-modes-3/#propdef-direction" id="ref-for-propdef-direction">direction</a> for the <a data-link-type="dfn" href="#effect-target" id="ref-for-effect-target⑤">effect target</a>.</p>
+properties</a> <a data-link-type="biblio" href="#biblio-css-writing-modes-4">[CSS-WRITING-MODES-4]</a> based on the computed value of <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-writing-modes-4/#propdef-writing-mode" id="ref-for-propdef-writing-mode">writing-mode</a> and/or <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-writing-modes-3/#propdef-direction" id="ref-for-propdef-direction">direction</a> for the <a data-link-type="dfn" href="#effect-target" id="ref-for-effect-target⑤">effect target</a>.</p>
        </ul>
        <p>For example, if <var>keyframe</var> has a value of ‘12pt’
-for the <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-width" id="ref-for-propdef-border-width">border-width</a> property, the user agent may <a data-link-type="dfn" href="#compute-a-property-value" id="ref-for-compute-a-property-value③">compute a property value</a> of ‘16px’ for each of the longhand properties: <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-bottom-width" id="ref-for-propdef-border-bottom-width">border-bottom-width</a>, <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-left-width" id="ref-for-propdef-border-left-width">border-left-width</a>, <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-right-width" id="ref-for-propdef-border-right-width">border-right-width</a>, and <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-top-width" id="ref-for-propdef-border-top-width">border-top-width</a>.
+for the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-width" id="ref-for-propdef-border-width">border-width</a> property, the user agent may <a data-link-type="dfn" href="#compute-a-property-value" id="ref-for-compute-a-property-value③">compute a property value</a> of ‘16px’ for each of the longhand properties: <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-bottom-width" id="ref-for-propdef-border-bottom-width">border-bottom-width</a>, <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-left-width" id="ref-for-propdef-border-left-width">border-left-width</a>, <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-right-width" id="ref-for-propdef-border-right-width">border-right-width</a>, and <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top-width" id="ref-for-propdef-border-top-width">border-top-width</a>.
 As a result, <var>computed keyframe</var> would <em>not</em> have a
 value for the <span class="property" id="ref-for-propdef-border-width①">border-width</span> property, but would instead include
 each of the longhand properties, and each with the value
@@ -3819,10 +3672,10 @@ logical properties with physical properties, apply the following rules
 in order until the conflict is resolved:</p>
        <ol>
         <li data-md>
-         <p>Longhand properties override shorthand properties (e.g. <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-top-color" id="ref-for-propdef-border-top-color">border-top-color</a> overrides <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-top" id="ref-for-propdef-border-top">border-top</a>).</p>
+         <p>Longhand properties override shorthand properties (e.g. <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top-color" id="ref-for-propdef-border-top-color">border-top-color</a> overrides <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top" id="ref-for-propdef-border-top">border-top</a>).</p>
         <li data-md>
          <p>Shorthand properties with fewer longhand components override those
-with more longhand components (e.g. <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-top" id="ref-for-propdef-border-top①">border-top</a> overrides <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-color" id="ref-for-propdef-border-color">border-color</a>).</p>
+with more longhand components (e.g. <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top" id="ref-for-propdef-border-top①">border-top</a> overrides <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-color" id="ref-for-propdef-border-color">border-color</a>).</p>
         <li data-md>
          <p>Physical properties override logical properties.</p>
         <li data-md>
@@ -4282,22 +4135,6 @@ a procedural approach is more suitable.</p>
 the type <code>double</code>. <a data-link-type="dfn" href="#unresolved" id="ref-for-unresolved①⓪⑦">Unresolved</a> time values are
 represented by the value <code>null</code>.</p>
    <h3 class="heading settled" data-level="6.2" id="the-animationtimeline-interface"><span class="secno">6.2. </span><span class="content">The <code>AnimationTimeline</code> interface</span><a class="self-link" href="#the-animationtimeline-interface"></a></h3>
-   <div class="mdn-anno wrapped after">
-    <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/AnimationTimeline" title="The AnimationTimeline interface of the Web Animations API represents the timeline of an animation. This interface exists to define timeline features (inherited by DocumentTimeline and future timeline types) and is not itself directly used by developers. Anywhere you see AnimationTimeline, you should use DocumentTimeline or any other timeline type instead.">AnimationTimeline</a></p>
-     <p class="all-engines-text">In all current engines.</p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>75+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>79+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-     </div>
-    </div>
-   </div>
    <p><a data-link-type="dfn" href="#timeline" id="ref-for-timeline⑤②">Timelines</a> are represented in the Web Animations API by the <code class="idl"><a data-link-type="idl" href="#animationtimeline" id="ref-for-animationtimeline">AnimationTimeline</a></code> interface.</p>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed" id="ref-for-Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
 <c- b>interface</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="animationtimeline"><code><c- g>AnimationTimeline</c-></code></dfn> {
@@ -4307,24 +4144,7 @@ represented by the value <code>null</code>.</p>
 </pre>
    <div class="attributes">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/AnimationTimeline/currentTime" title="The currentTime read-only property of the Web Animations API&apos;s AnimationTimeline interface returns the timeline&apos;s current time in milliseconds, or null if the timeline is inactive.">AnimationTimeline/currentTime</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>75+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>79+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationTimeline" data-dfn-type="attribute" data-export id="dom-animationtimeline-currenttime"><code>currentTime</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double①">double</a>, readonly, nullable</span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationTimeline" data-dfn-type="attribute" data-export id="dom-animationtimeline-currenttime"><code>currentTime</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double①">double</a>, readonly, nullable</span>
      <dd data-md>
       <p>Returns the <a data-link-type="dfn" href="#timeline-current-time" id="ref-for-timeline-current-time①⓪">current time</a> for this timeline
 or <code>null</code> if this timeline is <a data-link-type="dfn" href="#inactive-timeline" id="ref-for-inactive-timeline①⑦">inactive</a>.</p>
@@ -4334,22 +4154,6 @@ or <code>null</code> if this timeline is <a data-link-type="dfn" href="#inactive
     </dl>
    </div>
    <h3 class="heading settled" data-level="6.3" id="the-documenttimeline-interface"><span class="secno">6.3. </span><span class="content">The <code>DocumentTimeline</code> interface</span><a class="self-link" href="#the-documenttimeline-interface"></a></h3>
-   <div class="mdn-anno wrapped after">
-    <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/DocumentTimeline" title="The DocumentTimeline interface of the Web Animations API represents animation timelines, including the default document timeline (accessed via Document.timeline).">DocumentTimeline</a></p>
-     <p class="all-engines-text">In all current engines.</p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>75+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>54+</span></span>
-      <hr>
-      <span class="opera no"><span>Opera</span><span>None</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>79+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>54+</span></span><span class="webview_android yes"><span>Android WebView</span><span>54+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>6.0+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-     </div>
-    </div>
-   </div>
    <p><a data-link-type="dfn" href="#document-timeline" id="ref-for-document-timeline④">Document timelines</a>, including the <a data-link-type="dfn" href="#default-document-timeline" id="ref-for-default-document-timeline④">default document
 timeline</a>, are represented in the Web Animations API by the <code class="idl"><a data-link-type="idl" href="#documenttimeline" id="ref-for-documenttimeline">DocumentTimeline</a></code> interface.</p>
 <pre class="idl highlight def"><c- b>dictionary</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-documenttimelineoptions"><code><c- g>DocumentTimelineOptions</c-></code></dfn> {
@@ -4371,24 +4175,7 @@ milliseconds relative to the <a data-link-type="dfn" href="https://w3c.github.io
    </div>
    <div class="constructors">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/DocumentTimeline/DocumentTimeline" title="The DocumentTimeline() constructor of the Web Animations API creates a new instance of the DocumentTimeline object associated with the active document of the current browsing context.">DocumentTimeline/DocumentTimeline</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>75+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>61+</span></span>
-         <hr>
-         <span class="opera no"><span>Opera</span><span>None</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>79+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>61+</span></span><span class="webview_android yes"><span>Android WebView</span><span>61+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>8.0+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="DocumentTimeline" data-dfn-type="constructor" data-export data-lt="DocumentTimeline(options)|constructor(options)|DocumentTimeline()|constructor()" id="dom-documenttimeline-documenttimeline"><code>DocumentTimeline (options)</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="DocumentTimeline" data-dfn-type="constructor" data-export data-lt="DocumentTimeline(options)|constructor(options)|DocumentTimeline()|constructor()" id="dom-documenttimeline-documenttimeline"><code>DocumentTimeline (options)</code></dfn>
      <dd data-md>
       <p>Creates a new <code class="idl"><a data-link-type="idl" href="#documenttimeline" id="ref-for-documenttimeline①">DocumentTimeline</a></code>.
 The <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/#document" id="ref-for-document⑥">Document</a></code> with which the timeline is associated is the <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/#document" id="ref-for-document⑦">Document</a></code> <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#concept-document-window" id="ref-for-concept-document-window">associated</a> with the <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/window-object.html#window" id="ref-for-window">Window</a></code> that is the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#current-global-object" id="ref-for-current-global-object②">current global object</a>.</p>
@@ -4404,22 +4191,6 @@ may extend this set.</p>
     </dl>
    </div>
    <h3 class="heading settled" data-level="6.4" id="the-animation-interface"><span class="secno">6.4. </span><span class="content">The <code>Animation</code> interface</span><a class="self-link" href="#the-animation-interface"></a></h3>
-   <div class="mdn-anno wrapped after">
-    <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation" title="The Animation interface of the Web Animations API represents a single animation player and provides playback controls and a timeline for an animation node or source.">Animation</a></p>
-     <p class="all-engines-text">In all current engines.</p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>44+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>26+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>44+</span></span><span class="webview_android yes"><span>Android WebView</span><span>44+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>4.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>26+</span></span>
-     </div>
-    </div>
-   </div>
    <p><a data-link-type="dfn" href="#concept-animation" id="ref-for-concept-animation⑥②">Animations</a> are represented in the Web Animations
 API by the <code class="idl"><a data-link-type="idl" href="#animation" id="ref-for-animation">Animation</a></code> interface.</p>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed" id="ref-for-Exposed②"><c- g>Exposed</c-></a>=<c- n>Window</c->]
@@ -4452,24 +4223,7 @@ API by the <code class="idl"><a data-link-type="idl" href="#animation" id="ref-f
 </pre>
    <div class="constructors">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/Animation" title="The Animation() constructor of the Web Animations API returns a new Animation object instance.">Animation/Animation</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>61+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>48+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>61+</span></span><span class="webview_android yes"><span>Android WebView</span><span>61+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>8.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>45+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="constructor" data-export data-lt="Animation(effect, timeline)|constructor(effect, timeline)|Animation(effect)|constructor(effect)|Animation()|constructor()" id="dom-animation-animation"><code>Animation (effect, timeline)</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="constructor" data-export data-lt="Animation(effect, timeline)|constructor(effect, timeline)|Animation(effect)|constructor(effect)|Animation()|constructor()" id="dom-animation-animation"><code>Animation (effect, timeline)</code></dfn>
      <dd data-md>
       <p>Creates a new <code class="idl"><a data-link-type="idl" href="#animation" id="ref-for-animation③">Animation</a></code> object using the following procedure.</p>
       <ol>
@@ -4499,144 +4253,30 @@ If missing, the <a data-link-type="dfn" href="#default-document-timeline" id="re
    </div>
    <div class="attributes">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/id" title="The Animation.id property of the Web Animations API returns or sets a string used to identify the animation.">Animation/id</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>50+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>37+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>50+</span></span><span class="webview_android yes"><span>Android WebView</span><span>50+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>5.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>37+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-id"><code>id</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-DOMString" id="ref-for-idl-DOMString①">DOMString</a></span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-id"><code>id</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-DOMString" id="ref-for-idl-DOMString①">DOMString</a></span>
      <dd data-md>
       <p>A string used to identify the animation.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/effect" title="The Animation.effect property of the Web Animations API gets and sets the target effect of an animation. The target effect may be either an effect object of a type based on AnimationEffect, such as KeyframeEffect, or null.">Animation/effect</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>75+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>62+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>75+</span></span><span class="webview_android yes"><span>Android WebView</span><span>75+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>54+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-effect"><code>effect</code></dfn>, <span> of type <a data-link-type="idl-name" href="#animationeffect" id="ref-for-animationeffect②">AnimationEffect</a>, nullable</span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-effect"><code>effect</code></dfn>, <span> of type <a data-link-type="idl-name" href="#animationeffect" id="ref-for-animationeffect②">AnimationEffect</a>, nullable</span>
      <dd data-md>
       <p>The <a data-link-type="dfn" href="#associated-effect" id="ref-for-associated-effect②⑧">associated effect</a> of this animation.
 Setting this attribute updates the object’s <span id="ref-for-associated-effect②⑨">associated effect</span> using
 the procedure to <a data-link-type="dfn" href="#set-the-associated-effect-of-an-animation" id="ref-for-set-the-associated-effect-of-an-animation②">set the associated effect of an animation</a>.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/timeline" title="The Animation.timeline property of the Animation interface returns or sets the timeline associated with this animation. A timeline is a source of time values for synchronization purposes, and is an AnimationTimeline-based object. By default, the animation&apos;s timeline and the Document&apos;s timeline are the same.">Animation/timeline</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>75+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>79+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-timeline"><code>timeline</code></dfn>, <span> of type <a data-link-type="idl-name" href="#animationtimeline" id="ref-for-animationtimeline④">AnimationTimeline</a>, nullable</span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-timeline"><code>timeline</code></dfn>, <span> of type <a data-link-type="idl-name" href="#animationtimeline" id="ref-for-animationtimeline④">AnimationTimeline</a>, nullable</span>
      <dd data-md>
       <p>The <a data-link-type="dfn" href="#timeline" id="ref-for-timeline⑤④">timeline</a> associated with this animation.
 Setting this attribute updates the object’s <span id="ref-for-timeline⑤⑤">timeline</span> using
 the procedure to <a data-link-type="dfn" href="#set-the-timeline-of-an-animation" id="ref-for-set-the-timeline-of-an-animation①">set the timeline of an animation</a>.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/startTime" title="The Animation.startTime property of the Animation interface is a double-precision floating-point value which indicates the scheduled time when an animation&apos;s playback should begin.">Animation/startTime</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>39+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>26+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>39+</span></span><span class="webview_android yes"><span>Android WebView</span><span>39+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>4.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>26+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-starttime"><code>startTime</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double⑥">double</a>, nullable</span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-starttime"><code>startTime</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double⑥">double</a>, nullable</span>
      <dd data-md>
       <p>Returns the <a data-link-type="dfn" href="#start-time" id="ref-for-start-time④⑦">start time</a> of this animation.
 Setting this attribute updates the <span id="ref-for-start-time④⑧">start time</span> using
 the procedure to <a data-link-type="dfn" href="#set-the-start-time" id="ref-for-set-the-start-time①">set the start time</a> of this object
 to the new value.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/currentTime" title="The Animation.currentTime property of the Web Animations API returns and sets the current time value of the animation in milliseconds, whether running or paused.">Animation/currentTime</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>39+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>26+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>39+</span></span><span class="webview_android yes"><span>Android WebView</span><span>39+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>4.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>26+</span></span>
-        </div>
-       </div>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/pending" title="The read-only Animation.pending property of the Web Animations API indicates whether the animation is currently waiting for an asynchronous operation such as initiating playback or pausing a running animation.">Animation/pending</a></p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>59+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome no"><span>Chrome</span><span>None</span></span>
-         <hr>
-         <span class="opera no"><span>Opera</span><span>None</span></span><span class="edge_blink no"><span>Edge</span><span>None</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>59+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android no"><span>Chrome for Android</span><span>None</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-currenttime"><code>currentTime</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double⑦">double</a>, nullable</span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-currenttime"><code>currentTime</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double⑦">double</a>, nullable</span>
      <dd data-md>
       <p>The <a data-link-type="dfn" href="#current-time" id="ref-for-current-time⑤⑦">current time</a> of this animation.
 Setting this attribute follows the procedure to <a data-link-type="dfn" href="#set-the-current-time" id="ref-for-set-the-current-time③">set the current time</a> of this object to the new value.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/playbackRate" title="The Animation.playbackRate property of the Web Animations API returns or sets the playback rate of the animation.">Animation/playbackRate</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>39+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>26+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>39+</span></span><span class="webview_android yes"><span>Android WebView</span><span>39+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>4.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>26+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-playbackrate"><code>playbackRate</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double⑧">double</a></span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-playbackrate"><code>playbackRate</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double⑧">double</a></span>
      <dd data-md>
       <p>The <a data-link-type="dfn" href="#playback-rate" id="ref-for-playback-rate③⑨">playback rate</a> of this animation.
 Setting this attribute follows the procedure to <a data-link-type="dfn" href="#set-the-playback-rate" id="ref-for-set-the-playback-rate②">set the playback rate</a> of this object to the new value.</p>
@@ -4652,173 +4292,37 @@ smoothly updates, use the asynchronous <code class="idl"><a data-link-type="idl"
      <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-playstate"><code>playState</code></dfn>, <span> of type <a data-link-type="idl-name" href="#enumdef-animationplaystate" id="ref-for-enumdef-animationplaystate①">AnimationPlayState</a>, readonly</span>
      <dd data-md>
       <p>The <a data-link-type="dfn" href="#play-state" id="ref-for-play-state⑧">play state</a> of this animation.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/replaceState" title="The read-only Animation.replaceState property of the Web Animations API returns the replace state of the animation. This will be active if the animation has been removed, or persisted if Animation.persist() has been invoked on it.">Animation/replaceState</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>75+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>79+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-replacestate"><code>replaceState</code></dfn>, <span> of type <a data-link-type="idl-name" href="#enumdef-animationreplacestate" id="ref-for-enumdef-animationreplacestate①">AnimationReplaceState</a>, readonly</span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-replacestate"><code>replaceState</code></dfn>, <span> of type <a data-link-type="idl-name" href="#enumdef-animationreplacestate" id="ref-for-enumdef-animationreplacestate①">AnimationReplaceState</a>, readonly</span>
      <dd data-md>
       <p>The <a data-link-type="dfn" href="#replace-state" id="ref-for-replace-state⑥">replace state</a> of this animation.</p>
      <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-pending"><code>pending</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-boolean" id="ref-for-idl-boolean①">boolean</a>, readonly</span>
      <dd data-md>
       <p>Returns true if this animation has a <a data-link-type="dfn" href="#pending-play-task" id="ref-for-pending-play-task①⑧">pending play task</a> or
 a <a data-link-type="dfn" href="#pending-pause-task" id="ref-for-pending-pause-task①⑧">pending pause task</a>.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/ready" title="The read-only Animation.ready property of the Web Animations API returns a Promise which resolves when the animation is ready to play. A new promise is created every time the animation enters the &quot;pending&quot; play state as well as when the animation is canceled, since in both of those scenarios, the animation is ready to be started again.">Animation/ready</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-ready"><code>ready</code></dfn>, <span> of type Promise&lt;<a data-link-type="idl-name" href="#animation" id="ref-for-animation⑤">Animation</a>>, readonly</span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-ready"><code>ready</code></dfn>, <span> of type Promise&lt;<a data-link-type="idl-name" href="#animation" id="ref-for-animation⑤">Animation</a>>, readonly</span>
      <dd data-md>
       <p>Returns the <a data-link-type="dfn" href="#current-ready-promise" id="ref-for-current-ready-promise①⑦">current ready promise</a> for this object.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/finished" title="The Animation.finished read-only property of the Web Animations API returns a Promise which resolves once the animation has finished playing.">Animation/finished</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-finished"><code>finished</code></dfn>, <span> of type Promise&lt;<a data-link-type="idl-name" href="#animation" id="ref-for-animation⑥">Animation</a>>, readonly</span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-finished"><code>finished</code></dfn>, <span> of type Promise&lt;<a data-link-type="idl-name" href="#animation" id="ref-for-animation⑥">Animation</a>>, readonly</span>
      <dd data-md>
       <p>Returns the <a data-link-type="dfn" href="#current-finished-promise" id="ref-for-current-finished-promise①②">current finished promise</a> for this object.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/onfinish" title="The Animation interface&apos;s onfinish property (from the Web Animations API) is the event handler for the finish event. This event is sent when the animation finishes playing.">Animation/onfinish</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>39+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>26+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>39+</span></span><span class="webview_android yes"><span>Android WebView</span><span>39+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>4.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>26+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-onfinish"><code>onfinish</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler③">EventHandler</a></span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-onfinish"><code>onfinish</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler③">EventHandler</a></span>
      <dd data-md>
       <p>The event handler for the <a data-link-type="dfn" href="#finish-event" id="ref-for-finish-event②">finish event</a>.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/oncancel" title="The oncancel property of the Web Animations API&apos;s Animation interface is the event handler for the cancel event.">Animation/oncancel</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>50+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>37+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>50+</span></span><span class="webview_android yes"><span>Android WebView</span><span>50+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>5.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>37+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-oncancel"><code>oncancel</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler④">EventHandler</a></span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-oncancel"><code>oncancel</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler④">EventHandler</a></span>
      <dd data-md>
       <p>The event handler for the <a data-link-type="dfn" href="#cancel-event" id="ref-for-cancel-event③">cancel event</a>.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/onremove" title="The Animation interface&apos;s onremove property (from the Web Animations API) is the event handler for the remove event. This event is sent when the animation is removed (i.e., put into an active replace state).">Animation/onremove</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>75+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>79+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-onremove"><code>onremove</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler⑤">EventHandler</a></span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="attribute" data-export id="dom-animation-onremove"><code>onremove</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://html.spec.whatwg.org/multipage/webappapis.html#eventhandler" id="ref-for-eventhandler⑤">EventHandler</a></span>
      <dd data-md>
       <p>The event handler for the <a data-link-type="dfn" href="#remove-event" id="ref-for-remove-event①">remove event</a>.</p>
     </dl>
    </div>
    <div class="methods">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/cancel" title="The Web Animations API&apos;s cancel() method of the Animation interface clears all KeyframeEffects caused by this animation and aborts its playback.">Animation/cancel</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>39+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>26+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>39+</span></span><span class="webview_android yes"><span>Android WebView</span><span>39+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>4.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>26+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="cancel()" id="dom-animation-cancel"><code>void cancel()</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="cancel()" id="dom-animation-cancel"><code>void cancel()</code></dfn>
      <dd data-md>
       <p>Clears all effects caused by this animation and aborts its playback
 by running the <a data-link-type="dfn" href="#cancel-an-animation" id="ref-for-cancel-an-animation①">cancel an animation</a> procedure for this object.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/finish" title="The finish() method of the Web Animations API&apos;s Animation Interface sets the current playback time to the end of the animation corresponding to the current playback direction.">Animation/finish</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>39+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>26+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>39+</span></span><span class="webview_android yes"><span>Android WebView</span><span>39+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>4.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>26+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="finish()" id="dom-animation-finish"><code>void finish()</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="finish()" id="dom-animation-finish"><code>void finish()</code></dfn>
      <dd data-md>
       <p>Seeks the animation to the <a data-link-type="dfn" href="#associated-effect-end" id="ref-for-associated-effect-end①⑤">associated effect end</a> in the
 current direction by running the <a data-link-type="dfn" href="#finish-an-animation" id="ref-for-finish-an-animation②">finish an animation</a> procedure
@@ -4831,63 +4335,13 @@ for this object.</p>
 animation’s <span id="ref-for-playback-rate④③">playback rate</span> is > zero and the <a data-link-type="dfn" href="#associated-effect-end" id="ref-for-associated-effect-end①⑥">associated effect end</a> is infinity.</p>
        </dl>
       </div>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/play" title="The play() method of the Web Animations API&apos;s Animation Interface starts or resumes playing of an animation. If the animation is finished, calling play() restarts the animation, playing it from the beginning.">Animation/play</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>39+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>26+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>39+</span></span><span class="webview_android yes"><span>Android WebView</span><span>39+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>4.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>26+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="play()" id="dom-animation-play"><code>void play()</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="play()" id="dom-animation-play"><code>void play()</code></dfn>
      <dd data-md>
       <p>Begins or resumes playback of the animation by running the procedure to <a data-link-type="dfn" href="#play-an-animation" id="ref-for-play-an-animation④">play an animation</a> passing true as the value of the <var>auto-rewind</var> flag.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/pause" title="The pause() method of the Web Animations API&apos;s Animation interface suspends playback of the animation.">Animation/pause</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>39+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>26+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>39+</span></span><span class="webview_android yes"><span>Android WebView</span><span>39+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>4.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>26+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="pause()" id="dom-animation-pause"><code>void pause()</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="pause()" id="dom-animation-pause"><code>void pause()</code></dfn>
      <dd data-md>
       <p>Suspends the playback of this animation by running the procedure to <a data-link-type="dfn" href="#pause-an-animation" id="ref-for-pause-an-animation">pause an animation</a> for this object.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/updatePlaybackRate" title="The updatePlaybackRate() method of the Web Animations API&apos;s Animation Interface sets the speed of an animation after first synchronizing its playback position.">Animation/updatePlaybackRate</a></p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>60+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome no"><span>Chrome</span><span>None</span></span>
-         <hr>
-         <span class="opera no"><span>Opera</span><span>None</span></span><span class="edge_blink no"><span>Edge</span><span>None</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>60+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android no"><span>Chrome for Android</span><span>None</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="updatePlaybackRate(playbackRate)" id="dom-animation-updateplaybackrate"><code>void updatePlaybackRate(playbackRate)</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="updatePlaybackRate(playbackRate)" id="dom-animation-updateplaybackrate"><code>void updatePlaybackRate(playbackRate)</code></dfn>
      <dd data-md>
       <p>Performs an asynchronous update of the <a data-link-type="dfn" href="#playback-rate" id="ref-for-playback-rate④④">playback rate</a> of this
 animation by performing the <a data-link-type="dfn" href="#seamlessly-update-the-playback-rate" id="ref-for-seamlessly-update-the-playback-rate">seamlessly update the playback rate</a> procedure, passing <code class="idl"><a data-link-type="idl" href="#dom-animation-updateplaybackrate-playbackrate-playbackrate" id="ref-for-dom-animation-updateplaybackrate-playbackrate-playbackrate①">playbackRate</a></code> as the <var>new
@@ -4899,72 +4353,21 @@ playback rate</var>.</p>
          <p>A finite real number specifying the updated playback rate to use.</p>
        </dl>
       </div>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/reverse" title="The Animation.reverse() method of the Animation Interface reverses the playback direction, meaning the animation ends at its beginning. If called on an unplayed animation, the whole animation is played backwards. If called on a paused animation, the animation will continue in reverse.">Animation/reverse</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>39+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>26+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>39+</span></span><span class="webview_android yes"><span>Android WebView</span><span>39+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>4.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>26+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="reverse()" id="dom-animation-reverse"><code>void reverse()</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="reverse()" id="dom-animation-reverse"><code>void reverse()</code></dfn>
      <dd data-md>
       <p>Inverts the <a data-link-type="dfn" href="#playback-rate" id="ref-for-playback-rate④⑤">playback rate</a> of this animation and plays it using the <a data-link-type="dfn" href="#reverse-an-animation" id="ref-for-reverse-an-animation">reverse an animation</a> procedure for this object.
 As with <a class="idl-code" data-link-type="method" href="#dom-animation-play" id="ref-for-dom-animation-play①">play()</a>, this
 method unpauses the animation and, if the animation has already finished
 playing in the reversed direction, seeks to the start of the <a data-link-type="dfn" href="#associated-effect" id="ref-for-associated-effect③⓪">associated
 effect</a>.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/persist" title="The persist() method of the Web Animations API&apos;s Animation interface explicitly persists an animation, when it would otherwise be removed due to the browser&apos;s Automatically removing filling animations behavior.">Animation/persist</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>75+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>79+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="persist()" id="dom-animation-persist"><code>void persist()</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="persist()" id="dom-animation-persist"><code>void persist()</code></dfn>
      <dd data-md>
       <p>Sets this animation’s <a data-link-type="dfn" href="#replace-state" id="ref-for-replace-state⑦">replace state</a> to <a data-link-type="dfn" href="#persisted-replace-state" id="ref-for-persisted-replace-state">persisted</a>.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Animation/commitStyles" title="The commitStyles() method of the Web Animations API&apos;s Animation interface commits the end styling state of an animation to the element being animated, even after that animation has been removed. It will cause the end styling state to be written to the element being animated, in the form of properties inside a style attribute.">Animation/commitStyles</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>75+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>79+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="commitStyles()" id="dom-animation-commitstyles"><code>void commitStyles()</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animation" data-dfn-type="method" data-export data-lt="commitStyles()" id="dom-animation-commitstyles"><code>void commitStyles()</code></dfn>
      <dd data-md>
       <p>Writes the current <a data-link-type="dfn" href="#effect-value" id="ref-for-effect-value②②">effect values</a> produced by this animation’s <a data-link-type="dfn" href="#animation-effect" id="ref-for-animation-effect⑦⑧">animation effects</a> to their corresponding <a data-link-type="dfn" href="#effect-target" id="ref-for-effect-target①②">effect targets</a>' inline style
 using the <a data-link-type="dfn" href="#commit-computed-styles" id="ref-for-commit-computed-styles">commit computed styles</a> procedure.</p>
-      <p>Unlike most other methods defined on this interface, calling this method <em>does</em> trigger a <a data-link-type="dfn" href="https://www.w3.org/TR/css-transitions-1/#style-change-event" id="ref-for-style-change-event">style change event</a> (see <a href="#model-liveness">§ 6.13 Model liveness</a>).</p>
+      <p>Unlike most other methods defined on this interface, calling this method <em>does</em> trigger a <a data-link-type="dfn" href="https://drafts.csswg.org/css-transitions-1/#style-change-event" id="ref-for-style-change-event">style change event</a> (see <a href="#model-liveness">§ 6.13 Model liveness</a>).</p>
       <div class="note" role="note">
        <p>Since the procedure to <a data-link-type="dfn" href="#commit-computed-styles" id="ref-for-commit-computed-styles①">commit computed styles</a> includes the <a data-link-type="dfn" href="#effect-value" id="ref-for-effect-value②③">effect values</a> for the animation even if it is <a data-link-type="dfn" href="#removed-replace-state" id="ref-for-removed-replace-state④">removed</a>,
   this method is useful for retaining the effect of an animation
@@ -5082,22 +4485,6 @@ using the <a data-link-type="dfn" href="#commit-computed-styles" id="ref-for-com
      <p>Corresponds to the <a data-link-type="dfn" href="#timeline-after-phase" id="ref-for-timeline-after-phase">timeline after phase</a>.</p>
    </dl>
    <h3 class="heading settled" data-level="6.5" id="the-animationeffect-interface"><span class="secno">6.5. </span><span class="content">The <code>AnimationEffect</code> interface</span><a class="self-link" href="#the-animationeffect-interface"></a></h3>
-   <div class="mdn-anno wrapped after">
-    <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/AnimationEffect" title="The AnimationEffect interface of the Web Animations API defines current and future animation effects like KeyframeEffect, which can be passed to Animation objects for playing, and KeyframeEffect (which is used by CSS Animations and Transitions).">AnimationEffect</a></p>
-     <p class="all-engines-text">In all current engines.</p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>75+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>62+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>75+</span></span><span class="webview_android yes"><span>Android WebView</span><span>75+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>54+</span></span>
-     </div>
-    </div>
-   </div>
    <p><a data-link-type="dfn" href="#animation-effect" id="ref-for-animation-effect⑧④">Animation effects</a> are represented in the Web Animations API by the
 abstract <code class="idl"><a data-link-type="idl" href="#animationeffect" id="ref-for-animationeffect③">AnimationEffect</a></code> interface.</p>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed" id="ref-for-Exposed③"><c- g>Exposed</c-></a>=<c- n>Window</c->]
@@ -5113,46 +4500,12 @@ underlyingValue)</code> so that the animation effects can be driven
 apart from the timing model. </div>
    <div class="methods">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/AnimationEffect/getTiming" title="The AnimationEffect.getTiming() method of the AnimationEffect interface returns an EffectTiming object containing the timing properties for the Animation Effect.">AnimationEffect/getTiming</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>75+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>62+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>75+</span></span><span class="webview_android yes"><span>Android WebView</span><span>75+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>54+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationEffect" data-dfn-type="method" data-export id="dom-animationeffect-gettiming"><code>getTiming()</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationEffect" data-dfn-type="method" data-export id="dom-animationeffect-gettiming"><code>getTiming()</code></dfn>
      <dd data-md>
       <p>Returns the specified timing properties for this <a data-link-type="dfn" href="#animation-effect" id="ref-for-animation-effect⑧⑤">animation effect</a>.</p>
       <p>For the correspondence between the members of the returned <code class="idl"><a data-link-type="idl" href="#dictdef-effecttiming" id="ref-for-dictdef-effecttiming①">EffectTiming</a></code> object and properties of the <a href="#timing-model">timing model</a>, see the
 the <code class="idl"><a data-link-type="idl" href="#dictdef-effecttiming" id="ref-for-dictdef-effecttiming②">EffectTiming</a></code> interface.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/AnimationEffect/getComputedTiming" title="The getComputedTiming() method of the AnimationEffect interface returns the calculated timing properties for this animation effect.">AnimationEffect/getComputedTiming</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>75+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>62+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>75+</span></span><span class="webview_android yes"><span>Android WebView</span><span>75+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>54+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationEffect" data-dfn-type="method" data-export id="dom-animationeffect-getcomputedtiming"><code>getComputedTiming()</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationEffect" data-dfn-type="method" data-export id="dom-animationeffect-getcomputedtiming"><code>getComputedTiming()</code></dfn>
      <dd data-md>
       <p>Returns the calculated timing properties for this <a data-link-type="dfn" href="#animation-effect" id="ref-for-animation-effect⑧⑥">animation
 effect</a>.</p>
@@ -5176,24 +4529,7 @@ specified values be changed.</p>
       <p>In addition to possible differences in the values returned,
 compared to <code class="idl"><a data-link-type="idl" href="#dom-animationeffect-gettiming" id="ref-for-dom-animationeffect-gettiming④">getTiming()</a></code>, <code class="idl"><a data-link-type="idl" href="#dom-animationeffect-getcomputedtiming" id="ref-for-dom-animationeffect-getcomputedtiming⑤">getComputedTiming()</a></code> returns additional timing
 information as defined by the <code class="idl"><a data-link-type="idl" href="#dictdef-computedeffecttiming" id="ref-for-dictdef-computedeffecttiming①">ComputedEffectTiming</a></code> dictionary.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/AnimationEffect/updateTiming" title="The updateTiming() method of the AnimationEffect interface updates the specified timing properties for an animation effect.">AnimationEffect/updateTiming</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>75+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>62+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>75+</span></span><span class="webview_android yes"><span>Android WebView</span><span>75+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>54+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationEffect" data-dfn-type="method" data-export data-lt="updateTiming(timing)|updateTiming()" id="dom-animationeffect-updatetiming"><code>updateTiming(timing)</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationEffect" data-dfn-type="method" data-export data-lt="updateTiming(timing)|updateTiming()" id="dom-animationeffect-updatetiming"><code>updateTiming(timing)</code></dfn>
      <dd data-md>
       <p>Updates the specified timing properties of this <a data-link-type="dfn" href="#animation-effect" id="ref-for-animation-effect⑧⑦">animation effect</a> by
 performing the procedure to <a data-link-type="dfn" href="#update-the-timing-properties-of-an-animation-effect" id="ref-for-update-the-timing-properties-of-an-animation-effect">update the timing properties of an animation
@@ -5212,21 +4548,6 @@ The timing properties corresponding to any members not <a data-link-type="dfn" h
 from either its parent group or animation. Should we keep it in level 1 and
 define it simply as removing the animation effect from its animation? <a href="https://github.com/w3c/csswg-drafts/issues/2082">&lt;https://github.com/w3c/csswg-drafts/issues/2082></a></p>
    <h4 class="heading settled" data-level="6.5.1" id="the-effecttiming-dictionaries"><span class="secno">6.5.1. </span><span class="content">The <code>EffectTiming</code> and <code>OptionalEffectTiming</code> dictionaries</span><a class="self-link" href="#the-effecttiming-dictionaries"></a></h4>
-   <div class="mdn-anno wrapped after">
-    <button class="mdn-anno-btn"><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/EffectTiming" title="The EffectTiming dictionary, part of the Web Animations API, is used by Element.animate(), KeyframeEffectReadOnly(), and KeyframeEffect() to describe timing properties for animation effects. These properties are all optional, although without setting a duration the animation will not play.">EffectTiming</a></p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>?</span></span><span class="chrome yes"><span>Chrome</span><span>67+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>Yes</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>?</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>67+</span></span><span class="webview_android yes"><span>Android WebView</span><span>67+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>9.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>Yes</span></span>
-     </div>
-    </div>
-   </div>
    <p>The <code class="idl"><a data-link-type="idl" href="#dictdef-effecttiming" id="ref-for-dictdef-effecttiming⑤">EffectTiming</a></code> dictionary represents the timing properties of an <code class="idl"><a data-link-type="idl" href="#animationeffect" id="ref-for-animationeffect④">AnimationEffect</a></code>.</p>
    <p>The <code class="idl"><a data-link-type="idl" href="#dictdef-optionaleffecttiming" id="ref-for-dictdef-optionaleffecttiming②">OptionalEffectTiming</a></code> dictionary is a variant of the <code class="idl"><a data-link-type="idl" href="#dictdef-effecttiming" id="ref-for-dictdef-effecttiming⑥">EffectTiming</a></code> dictionary that allows some members to be not <a data-link-type="dfn" href="https://heycam.github.io/webidl/#dfn-present" id="ref-for-dfn-present①">present</a>.
 This is used by the <code class="idl"><a data-link-type="idl" href="#dom-animationeffect-updatetiming" id="ref-for-dom-animationeffect-updatetiming①">updateTiming()</a></code> method of the <code class="idl"><a data-link-type="idl" href="#animationeffect" id="ref-for-animationeffect⑤">AnimationEffect</a></code> interface to perform a delta update to the timing properties
@@ -5255,23 +4576,7 @@ of an <a data-link-type="dfn" href="#animation-effect" id="ref-for-animation-eff
 </pre>
    <div class="members">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/EffectTiming/delay" title="The EffectTiming dictionary&apos;s delay property in the Web Animations API represents the number of milliseconds to delay the start of the animation.">EffectTiming/delay</a></p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>52+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>Yes</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>52+</span></span><span class="webview_android yes"><span>Android WebView</span><span>52+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>6.0+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="EffectTiming" data-dfn-type="dict-member" data-export id="dom-effecttiming-delay"><code>delay</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double①⑤">double</a>, defaulting to <code>0</code></span><dfn class="dfn-paneled idl-code" data-dfn-for="OptionalEffectTiming" data-dfn-type="dict-member" data-export data-lt="delay" id="dom-optionaleffecttiming-delay"><code></code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="EffectTiming" data-dfn-type="dict-member" data-export id="dom-effecttiming-delay"><code>delay</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double①⑤">double</a>, defaulting to <code>0</code></span><dfn class="dfn-paneled idl-code" data-dfn-for="OptionalEffectTiming" data-dfn-type="dict-member" data-export data-lt="delay" id="dom-optionaleffecttiming-delay"><code></code></dfn>
      <dd data-md>
       <p>The <a data-link-type="dfn" href="#start-delay" id="ref-for-start-delay①⑥">start delay</a> which represents
 the number of milliseconds from the <a data-link-type="dfn" href="#start-time" id="ref-for-start-time④⑨">start time</a> of the associated <a data-link-type="dfn" href="#concept-animation" id="ref-for-concept-animation⑥⑦">animation</a> to the start of the <a data-link-type="dfn" href="#active-interval" id="ref-for-active-interval①⑥">active interval</a>.</p>
@@ -5356,21 +4661,6 @@ produce easing effects.</p>
     </dl>
    </div>
    <h4 class="heading settled" data-level="6.5.2" id="the-fillmode-enumeration"><span class="secno">6.5.2. </span><span class="content">The <code>FillMode</code> enumeration</span><a class="self-link" href="#the-fillmode-enumeration"></a></h4>
-   <div class="mdn-anno wrapped">
-    <button class="mdn-anno-btn"><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/EffectTiming/fill" title="The Web Animations API&apos;s EffectTiming dictionary&apos;s fill property specifies a fill mode, which defines how the element to which the animation is applied should look when the animation sequence is not actively running, such as before the time specified by iterationStart or after animation&apos;s end time.">EffectTiming/fill</a></p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>52+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>Yes</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>52+</span></span><span class="webview_android yes"><span>Android WebView</span><span>52+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>6.0+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-     </div>
-    </div>
-   </div>
 <pre class="idl highlight def"><c- b>enum</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="enum" data-export id="enumdef-fillmode"><code><c- g>FillMode</c-></code></dfn> { <dfn class="idl-code" data-dfn-for="FillMode" data-dfn-type="enum-value" data-export id="dom-fillmode-none"><code><c- s>"none"</c-></code><a class="self-link" href="#dom-fillmode-none"></a></dfn>, <dfn class="idl-code" data-dfn-for="FillMode" data-dfn-type="enum-value" data-export id="dom-fillmode-forwards"><code><c- s>"forwards"</c-></code><a class="self-link" href="#dom-fillmode-forwards"></a></dfn>, <dfn class="idl-code" data-dfn-for="FillMode" data-dfn-type="enum-value" data-export id="dom-fillmode-backwards"><code><c- s>"backwards"</c-></code><a class="self-link" href="#dom-fillmode-backwards"></a></dfn>, <dfn class="idl-code" data-dfn-for="FillMode" data-dfn-type="enum-value" data-export id="dom-fillmode-both"><code><c- s>"both"</c-></code><a class="self-link" href="#dom-fillmode-both"></a></dfn>, <dfn class="idl-code" data-dfn-for="FillMode" data-dfn-type="enum-value" data-export id="dom-fillmode-auto"><code><c- s>"auto"</c-></code><a class="self-link" href="#dom-fillmode-auto"></a></dfn> };
 </pre>
    <dl>
@@ -5393,21 +4683,6 @@ In a subsequent level of this specification, this may produce different
 behavior for other types of <a data-link-type="dfn" href="#animation-effect" id="ref-for-animation-effect⑨⑦">animation effects</a>.</p>
    </dl>
    <h4 class="heading settled" data-level="6.5.3" id="the-playbackdirection-enumeration"><span class="secno">6.5.3. </span><span class="content">The <code>PlaybackDirection</code> enumeration</span><a class="self-link" href="#the-playbackdirection-enumeration"></a></h4>
-   <div class="mdn-anno wrapped">
-    <button class="mdn-anno-btn"><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/EffectTiming/direction" title="The direction property of the Web Animations API dictionary EffectTiming indicates an animation&apos;s playback direction along its timeline, as well as its behavior when it reaches the end of an iteration">EffectTiming/direction</a></p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>52+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>Yes</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>52+</span></span><span class="webview_android yes"><span>Android WebView</span><span>52+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>6.0+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-     </div>
-    </div>
-   </div>
 <pre class="idl highlight def"><c- b>enum</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="enum" data-export id="enumdef-playbackdirection"><code><c- g>PlaybackDirection</c-></code></dfn> { <dfn class="idl-code" data-dfn-for="PlaybackDirection" data-dfn-type="enum-value" data-export id="dom-playbackdirection-normal"><code><c- s>"normal"</c-></code><a class="self-link" href="#dom-playbackdirection-normal"></a></dfn>, <dfn class="idl-code" data-dfn-for="PlaybackDirection" data-dfn-type="enum-value" data-export id="dom-playbackdirection-reverse"><code><c- s>"reverse"</c-></code><a class="self-link" href="#dom-playbackdirection-reverse"></a></dfn>, <dfn class="idl-code" data-dfn-for="PlaybackDirection" data-dfn-type="enum-value" data-export id="dom-playbackdirection-alternate"><code><c- s>"alternate"</c-></code><a class="self-link" href="#dom-playbackdirection-alternate"></a></dfn>, <dfn class="idl-code" data-dfn-for="PlaybackDirection" data-dfn-type="enum-value" data-export id="dom-playbackdirection-alternate-reverse"><code><c- s>"alternate-reverse"</c-></code><a class="self-link" href="#dom-playbackdirection-alternate-reverse"></a></dfn> };
 </pre>
    <dl>
@@ -5509,21 +4784,6 @@ represented by a <span class="esvalue">null</span> value.</p>
     </dl>
    </div>
    <h3 class="heading settled" data-level="6.6" id="the-keyframeeffect-interface"><span class="secno">6.6. </span><span class="content">The <code>KeyframeEffect</code> interface</span><a class="self-link" href="#the-keyframeeffect-interface"></a></h3>
-   <div class="mdn-anno wrapped after">
-    <button class="mdn-anno-btn"><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect" title="The KeyframeEffect interface of the Web Animations API lets us create sets of animatable properties and values, called keyframes. These can then be played using the Animation() constructor.">KeyframeEffect</a></p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>75+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>62+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>75+</span></span><span class="webview_android yes"><span>Android WebView</span><span>75+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>54+</span></span>
-     </div>
-    </div>
-   </div>
    <p><a data-link-type="dfn" href="#keyframe-effect" id="ref-for-keyframe-effect③①">Keyframe effects</a> are represented by the <code class="idl"><a data-link-type="idl" href="#keyframeeffect" id="ref-for-keyframeeffect">KeyframeEffect</a></code> interface.</p>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed" id="ref-for-Exposed④"><c- g>Exposed</c-></a>=<c- n>Window</c->]
 <c- b>interface</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="keyframeeffect"><code><c- g>KeyframeEffect</c-></code></dfn> : <a data-link-type="idl-name" href="#animationeffect" id="ref-for-animationeffect⑥"><c- n>AnimationEffect</c-></a> {
@@ -5540,23 +4800,7 @@ represented by a <span class="esvalue">null</span> value.</p>
 </pre>
    <div class="constructors">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect" title="The KeyframeEffect() constructor of the Web Animations API returns a new KeyframeEffect object instance, and also allows you to clone an existing keyframe effect object instance.">KeyframeEffect/KeyframeEffect</a></p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>75+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>62+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>75+</span></span><span class="webview_android yes"><span>Android WebView</span><span>75+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>54+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="KeyframeEffect" data-dfn-type="constructor" data-export data-lt="KeyframeEffect(target, keyframes, options)|constructor(target, keyframes, options)|KeyframeEffect(target, keyframes)|constructor(target, keyframes)" id="dom-keyframeeffect-keyframeeffect"><code> KeyframeEffect (target, keyframes, options)</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="KeyframeEffect" data-dfn-type="constructor" data-export data-lt="KeyframeEffect(target, keyframes, options)|constructor(target, keyframes, options)|KeyframeEffect(target, keyframes)|constructor(target, keyframes)" id="dom-keyframeeffect-keyframeeffect"><code> KeyframeEffect (target, keyframes, options)</code></dfn>
      <dd data-md>
       <p>Creates a new <code class="idl"><a data-link-type="idl" href="#keyframeeffect" id="ref-for-keyframeeffect②">KeyframeEffect</a></code> object using the following procedure:</p>
       <ol>
@@ -5682,23 +4926,7 @@ that define the new <span id="ref-for-keyframe-effect③③">keyframe effect</sp
    </div>
    <div class="attributes">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/target" title="The target property of a KeyframeEffect interface represents the element or pseudo-element being animated. It may be null for animations that do not target a specific element. It performs as both a getter and a setter, except with animations and transitions generated by CSS.">KeyframeEffect/target</a></p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>75+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>62+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>75+</span></span><span class="webview_android yes"><span>Android WebView</span><span>75+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>54+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="KeyframeEffect" data-dfn-type="attribute" data-export id="dom-keyframeeffect-target"><code>target</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#element" id="ref-for-element⑥">Element</a>, nullable</span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="KeyframeEffect" data-dfn-type="attribute" data-export id="dom-keyframeeffect-target"><code>target</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#element" id="ref-for-element⑥">Element</a>, nullable</span>
      <dd data-md>
       <p>The <a data-link-type="dfn" href="#target-element" id="ref-for-target-element⑥">target element</a> being animated by this object
 (either the <a data-link-type="dfn" href="#effect-target" id="ref-for-effect-target①⑦">effect target</a> if it is an <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#element" id="ref-for-element⑦">Element</a></code> or its <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#originating-element" id="ref-for-originating-element①">originating element</a> if it is a pseudo-element).
@@ -5728,23 +4956,7 @@ both deemed invalid.</p>
 specified, the <a data-link-type="dfn" href="#target-pseudo-selector" id="ref-for-target-pseudo-selector⑧">target pseudo-selector</a> must be set to the
 equivalent two-colon selector (e.g. '::before').</p>
       </ul>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/composite" title="The composite property of a KeyframeEffect resolves how an element&apos;s animation impacts its underlying property values.">KeyframeEffect/composite</a></p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>80+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>71+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>?</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>80+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="KeyframeEffect" data-dfn-type="attribute" data-export id="dom-keyframeeffect-composite"><code>composite</code></dfn>, <span> of type <a data-link-type="idl-name" href="#enumdef-compositeoperation" id="ref-for-enumdef-compositeoperation①">CompositeOperation</a></span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="KeyframeEffect" data-dfn-type="attribute" data-export id="dom-keyframeeffect-composite"><code>composite</code></dfn>, <span> of type <a data-link-type="idl-name" href="#enumdef-compositeoperation" id="ref-for-enumdef-compositeoperation①">CompositeOperation</a></span>
      <dd data-md>
       <p>The <a data-link-type="dfn" href="#composite-operation" id="ref-for-composite-operation①③">composite operation</a> used to composite this <a data-link-type="dfn" href="#keyframe-effect" id="ref-for-keyframe-effect③④">keyframe effect</a> with the <a data-link-type="dfn" href="#effect-stack" id="ref-for-effect-stack①⑤">effect stack</a>, as
 specified by one of the <a data-link-type="dfn" href="#compositeoperation" id="ref-for-compositeoperation">CompositeOperation</a> enumeration
@@ -5754,23 +4966,7 @@ values.</p>
    </div>
    <div class="methods">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/getKeyframes" title="The getKeyframes() method of a KeyframeEffect returns an Array of the computed keyframes that make up this animation along with their computed offsets.">KeyframeEffect/getKeyframes</a></p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>71+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>?</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="KeyframeEffect" data-dfn-type="method" data-export data-lt="getKeyframes()" id="dom-keyframeeffect-getkeyframes"><code> sequence&lt;object> getKeyframes()</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="KeyframeEffect" data-dfn-type="method" data-export data-lt="getKeyframes()" id="dom-keyframeeffect-getkeyframes"><code> sequence&lt;object> getKeyframes()</code></dfn>
      <dd data-md>
       <p>Returns the keyframes that make up this effect along with their <a data-link-type="dfn" href="#computed-keyframe-offset" id="ref-for-computed-keyframe-offset②③">computed keyframe offsets</a>.</p>
       <div class="informative-bg">
@@ -5875,23 +5071,7 @@ and Boolean flag <span class="esvalue">false.</span></p>
        <li data-md>
         <p>Return <var>result</var>.</p>
       </ol>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/setKeyframes" title="The setKeyframes() method of the KeyframeEffect interface replaces the keyframes that make up the affected KeyframeEffect with a new set of keyframes.">KeyframeEffect/setKeyframes</a></p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>63+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>71+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>63+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="KeyframeEffect" data-dfn-type="method" data-export data-lt="setKeyframes(keyframes)" id="dom-keyframeeffect-setkeyframes"><code> void setKeyframes(object? keyframes)</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="KeyframeEffect" data-dfn-type="method" data-export data-lt="setKeyframes(keyframes)" id="dom-keyframeeffect-setkeyframes"><code> void setKeyframes(object? keyframes)</code></dfn>
      <dd data-md>
       <p>Replaces the set of <a data-link-type="dfn" href="#keyframe" id="ref-for-keyframe⑤③">keyframes</a> that make up this effect.</p>
       <div class="parameters">
@@ -6519,22 +5699,6 @@ effect</a> should be used.</p>
    <h3 class="heading settled" data-level="6.8" id="the-animatable-interface-mixin"><span class="secno">6.8. </span><span class="content">The <code>Animatable</code> interface mixin</span><a class="self-link" href="#the-animatable-interface-mixin"></a></h3>
    <p>Objects that may be the target of an <code class="idl"><a data-link-type="idl" href="#keyframeeffect" id="ref-for-keyframeeffect①②">KeyframeEffect</a></code> object implement
 the <code class="idl"><a data-link-type="idl" href="#animatable" id="ref-for-animatable②">Animatable</a></code> interface mixin.</p>
-   <div class="mdn-anno wrapped">
-    <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/animate" title="The Element interface&apos;s animate() method is a shortcut method which creates a new Animation, applies it to the element, then plays the animation. It returns the created Animation object instance.">Element/animate</a></p>
-     <p class="all-engines-text">In all current engines.</p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>48+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>36+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>23+</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>48+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>36+</span></span><span class="webview_android yes"><span>Android WebView</span><span>37+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>3.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>24+</span></span>
-     </div>
-    </div>
-   </div>
 <pre class="idl highlight def"><c- b>interface</c-> <c- b>mixin</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="animatable"><code><c- g>Animatable</c-></code></dfn> {
     <a data-link-type="idl-name" href="#animation" id="ref-for-animation⑧"><c- n>Animation</c-></a>           <a class="idl-code" data-link-type="method" href="#dom-animatable-animate" id="ref-for-dom-animatable-animate②"><c- g>animate</c-></a>(<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-object" id="ref-for-idl-object③"><c- b>object</c-></a>? <a class="idl-code" data-link-type="argument" href="#dom-animatable-animate-keyframes-options-keyframes" id="ref-for-dom-animatable-animate-keyframes-options-keyframes"><c- g>keyframes</c-></a>,
                                 <c- b>optional</c-> (<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unrestricted-double" id="ref-for-idl-unrestricted-double①②"><c- b>unrestricted</c-> <c- b>double</c-></a> <c- b>or</c-> <a data-link-type="idl-name" href="#dictdef-keyframeanimationoptions" id="ref-for-dictdef-keyframeanimationoptions①"><c- n>KeyframeAnimationOptions</c-></a>) <a class="idl-code" data-link-type="argument" href="#dom-animatable-animate-keyframes-options-options" id="ref-for-dom-animatable-animate-keyframes-options-options"><c- g>options</c-></a> = {});
@@ -6602,23 +5766,7 @@ same interpretation as defined for that constructor.</p>
          <p>The timing and animation options for the created <code class="idl"><a data-link-type="idl" href="#keyframeeffect" id="ref-for-keyframeeffect①④">KeyframeEffect</a></code> and <code class="idl"><a data-link-type="idl" href="#animation" id="ref-for-animation①①">Animation</a></code>.</p>
        </dl>
       </div>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/getAnimations" title="The getAnimations() method of the Element interface (specified on the Animatable mixin) returns an array of all Animation objects affecting this element or which are scheduled to do so in future. It can optionally return Animation objects for descendant elements too.">Element/getAnimations</a></p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>75+</span></span><span class="safari no"><span>Safari</span><span title="Requires setting a user preference or runtime flag.">🔰 None</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>79+</span></span><span class="safari_ios no"><span>iOS Safari</span><span title="Requires setting a user preference or runtime flag.">🔰 None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Animatable" data-dfn-type="method" data-export data-lt="getAnimations(options)|getAnimations()" id="dom-animatable-getanimations"><code> sequence&lt;Animation> getAnimations(options)</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Animatable" data-dfn-type="method" data-export data-lt="getAnimations(options)|getAnimations()" id="dom-animatable-getanimations"><code> sequence&lt;Animation> getAnimations(options)</code></dfn>
      <dd data-md>
       <p>Returns the set of <a data-link-type="dfn" href="#relevant-animation" id="ref-for-relevant-animation">relevant</a> <code class="idl"><a data-link-type="idl" href="#animation" id="ref-for-animation①②">Animation</a></code> objects
 that contain at least one <a data-link-type="dfn" href="#animation-effect" id="ref-for-animation-effect①①①">animation effect</a> whose <a data-link-type="dfn" href="#effect-target" id="ref-for-effect-target②②">effect target</a> is this object, or,
@@ -6637,7 +5785,7 @@ a <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#pseudo-ele
 a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-tree-child" id="ref-for-concept-tree-child">child</a> of its <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#originating-element" id="ref-for-originating-element②">originating element</a>.</p>
       <p>The returned list is sorted using the composite order described
 for the associated <a data-link-type="dfn" href="#concept-animation" id="ref-for-concept-animation⑦⓪">animations</a> of effects in <a href="#the-effect-stack">§ 5.4.2 The effect stack</a>.</p>
-      <p>Calling this method triggers a <a data-link-type="dfn" href="https://www.w3.org/TR/css-transitions-1/#style-change-event" id="ref-for-style-change-event①">style change event</a> for the <a data-link-type="dfn" href="#target-element" id="ref-for-target-element⑧">target
+      <p>Calling this method triggers a <a data-link-type="dfn" href="https://drafts.csswg.org/css-transitions-1/#style-change-event" id="ref-for-style-change-event①">style change event</a> for the <a data-link-type="dfn" href="#target-element" id="ref-for-target-element⑧">target
 element</a>.
 As a result, the returned list reflects the state <em>after</em> applying
 any pending style changes to animation such as changes to animation-related
@@ -6673,24 +5821,7 @@ be included in the result.</p>
 </pre>
    <div class="attributes">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/timeline" title="The timeline readonly property of the Document interface represents the default timeline of the current document. This timeline is a special instance of DocumentTimeline that is automatically created on page load.">Document/timeline</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>75+</span></span><span class="safari yes"><span>Safari</span><span>13.1+</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>79+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>13.4+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="Document" data-dfn-type="attribute" data-export id="dom-document-timeline"><code>timeline</code></dfn>, <span> of type <a data-link-type="idl-name" href="#documenttimeline" id="ref-for-documenttimeline③">DocumentTimeline</a>, readonly</span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="Document" data-dfn-type="attribute" data-export id="dom-document-timeline"><code>timeline</code></dfn>, <span> of type <a data-link-type="idl-name" href="#documenttimeline" id="ref-for-documenttimeline③">DocumentTimeline</a>, readonly</span>
      <dd data-md>
       <p>The <code class="idl"><a data-link-type="idl" href="#documenttimeline" id="ref-for-documenttimeline④">DocumentTimeline</a></code> object representing
 the <a data-link-type="dfn" href="#default-document-timeline" id="ref-for-default-document-timeline⑧">default document timeline</a>.</p>
@@ -6705,44 +5836,14 @@ mixin defined in <a data-link-type="biblio" href="#biblio-dom">[DOM]</a>.</p>
 </pre>
    <div class="methods">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getAnimations" title="The getAnimations() method of the Document interface returns an array of all Animation objects currently in effect whose target elements are descendants of the document. This array includes CSS Animations, CSS Transitions, and Web Animations.">Document/getAnimations</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>75+</span></span><span class="safari yes"><span>Safari</span><span>14+</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>79+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>14+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ShadowRoot/getAnimations" title="The getAnimations() method of the ShadowRoot interface returns an array of all Animation objects currently in effect whose target elements are descendants of the shadow tree. This array includes CSS Animations, CSS Transitions, and Web Animations.">ShadowRoot/getAnimations</a></p>
-        <p class="all-engines-text">In all current engines.</p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>75+</span></span><span class="safari yes"><span>Safari</span><span>14+</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>79+</span></span><span class="safari_ios yes"><span>iOS Safari</span><span>14+</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="DocumentOrShadowRoot" data-dfn-type="method" data-export data-lt="getAnimations()" id="dom-documentorshadowroot-getanimations"><code> sequence&lt;Animation> getAnimations()</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="DocumentOrShadowRoot" data-dfn-type="method" data-export data-lt="getAnimations()" id="dom-documentorshadowroot-getanimations"><code> sequence&lt;Animation> getAnimations()</code></dfn>
      <dd data-md>
       <p>Returns the set of <a data-link-type="dfn" href="#relevant-animation" id="ref-for-relevant-animation①">relevant</a> <code class="idl"><a data-link-type="idl" href="#animation" id="ref-for-animation①⑤">Animation</a></code> objects
 that have an associated <a data-link-type="dfn" href="#associated-effect" id="ref-for-associated-effect③②">associated effect</a> whose <a data-link-type="dfn" href="#target-element" id="ref-for-target-element①⓪">target element</a> is a <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-tree-descendant" id="ref-for-concept-tree-descendant②">descendant</a> of
 the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document" id="ref-for-concept-document">document</a> or <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-shadow-root" id="ref-for-concept-shadow-root">shadow root</a> on which this method is called.</p>
       <p>The returned list is sorted using the composite order described
 for the associated <a data-link-type="dfn" href="#concept-animation" id="ref-for-concept-animation⑦③">animations</a> of effects in <a href="#the-effect-stack">§ 5.4.2 The effect stack</a>.</p>
-      <p>Calling this method triggers a <a data-link-type="dfn" href="https://www.w3.org/TR/css-transitions-1/#style-change-event" id="ref-for-style-change-event②">style change event</a> for the document.
+      <p>Calling this method triggers a <a data-link-type="dfn" href="https://drafts.csswg.org/css-transitions-1/#style-change-event" id="ref-for-style-change-event②">style change event</a> for the document.
 As a result, the returned list reflects the state <em>after</em> applying
 any pending style changes to animation such as changes to animation-related
 style properties that have yet to be processed.</p>
@@ -6759,21 +5860,6 @@ the <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/
 <pre class="lang-javascript highlight">elem<c- p>.</c->animate<c- p>({</c-> color<c- o>:</c-> <c- t>'red'</c-> <c- p>},</c-> <c- mf>2000</c-><c- p>);</c-></pre>
    </div>
    <h3 class="heading settled" data-level="6.12" id="the-animationplaybackevent-interface"><span class="secno">6.12. </span><span class="content">The <code>AnimationPlaybackEvent</code> interface</span><a class="self-link" href="#the-animationplaybackevent-interface"></a></h3>
-   <div class="mdn-anno wrapped after">
-    <button class="mdn-anno-btn"><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/AnimationPlaybackEvent" title="The AnimationPlaybackEvent interface of the Web Animations API represents animation events.">AnimationPlaybackEvent</a></p>
-     <div class="support">
-      <span class="firefox yes"><span>Firefox</span><span>42+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-      <hr>
-      <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android yes"><span>Firefox for Android</span><span>42+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-     </div>
-    </div>
-   </div>
    <p><a data-link-type="dfn" href="#animation-playback-events" id="ref-for-animation-playback-events②">Animation playback events</a> are represented using the <code class="idl"><a data-link-type="idl" href="#animationplaybackevent" id="ref-for-animationplaybackevent③">AnimationPlaybackEvent</a></code> interface.</p>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed" id="ref-for-Exposed⑤"><c- g>Exposed</c-></a>=<c- n>Window</c->]
 <c- b>interface</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="animationplaybackevent"><code><c- g>AnimationPlaybackEvent</c-></code></dfn> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#event" id="ref-for-event"><c- n>Event</c-></a> {
@@ -6788,23 +5874,7 @@ the <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/
 </pre>
    <div class="constructors">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/AnimationPlaybackEvent/AnimationPlaybackEvent" title="The AnimationPlaybackEvent() constructor of the Web Animations API returns a new AnimationPlaybackEvent object instance.">AnimationPlaybackEvent/AnimationPlaybackEvent</a></p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>42+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>42+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationPlaybackEvent" data-dfn-type="constructor" data-export data-lt="AnimationPlaybackEvent(type, eventInitDict)|constructor(type, eventInitDict)|AnimationPlaybackEvent(type)|constructor(type)" id="dom-animationplaybackevent-animationplaybackevent"><code> AnimationPlaybackEvent(type, eventInitDict)</code></dfn></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationPlaybackEvent" data-dfn-type="constructor" data-export data-lt="AnimationPlaybackEvent(type, eventInitDict)|constructor(type, eventInitDict)|AnimationPlaybackEvent(type)|constructor(type)" id="dom-animationplaybackevent-animationplaybackevent"><code> AnimationPlaybackEvent(type, eventInitDict)</code></dfn>
      <dd data-md>
       <p>Constructs a new <code class="idl"><a data-link-type="idl" href="#animationplaybackevent" id="ref-for-animationplaybackevent④">AnimationPlaybackEvent</a></code> object using the procedure
 defined for <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#constructing-events" id="ref-for-constructing-events">constructing events</a> <a data-link-type="biblio" href="#biblio-dom">[DOM]</a>.</p>
@@ -6812,44 +5882,12 @@ defined for <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#construct
    </div>
    <div class="attributes">
     <dl>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/AnimationPlaybackEvent/currentTime" title="The currentTime read-only property of the AnimationPlaybackEvent interface represents the current time of the animation that generated the event at the moment the event is queued. This will be unresolved if the animation was idle at the time the event was generated.">AnimationPlaybackEvent/currentTime</a></p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>42+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>42+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationPlaybackEvent" data-dfn-type="attribute" data-export id="dom-animationplaybackevent-currenttime"><code>currentTime</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double③①">double</a>, readonly, nullable</span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationPlaybackEvent" data-dfn-type="attribute" data-export id="dom-animationplaybackevent-currenttime"><code>currentTime</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double③①">double</a>, readonly, nullable</span>
      <dd data-md>
       <p>The <a data-link-type="dfn" href="#current-time" id="ref-for-current-time⑤⑧">current time</a> of the <a data-link-type="dfn" href="#concept-animation" id="ref-for-concept-animation⑦④">animation</a> that generated the event at the
 moment the event as queued.
 This will be <code class="esvalue">null</code> if the <span id="ref-for-concept-animation⑦⑤">animation</span> was <a data-link-type="dfn" href="#idle-play-state" id="ref-for-idle-play-state⑥">idle</a> at the time the event was generated.</p>
-     <dt data-md>
-      <div class="mdn-anno wrapped">
-       <button class="mdn-anno-btn"><span>MDN</span></button>
-       <div class="feature">
-        <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/AnimationPlaybackEvent/timelineTime" title="The timelineTime read-only property of the AnimationPlaybackEvent interface represents the time value of the animation&apos;s timeline at the moment the event is queued. This will be unresolved if the animation was not associated with a timeline at the time the event was generated or if the associated timeline was inactive.">AnimationPlaybackEvent/timelineTime</a></p>
-        <div class="support">
-         <span class="firefox yes"><span>Firefox</span><span>42+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>84+</span></span>
-         <hr>
-         <span class="opera yes"><span>Opera</span><span>70+</span></span><span class="edge_blink yes"><span>Edge</span><span>84+</span></span>
-         <hr>
-         <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-         <hr>
-         <span class="firefox_android yes"><span>Firefox for Android</span><span>42+</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-        </div>
-       </div>
-      </div>
-      <p><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationPlaybackEvent" data-dfn-type="attribute" data-export id="dom-animationplaybackevent-timelinetime"><code>timelineTime</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double③②">double</a>, readonly, nullable</span></p>
+     <dt data-md><dfn class="dfn-paneled idl-code" data-dfn-for="AnimationPlaybackEvent" data-dfn-type="attribute" data-export id="dom-animationplaybackevent-timelinetime"><code>timelineTime</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double③②">double</a>, readonly, nullable</span>
      <dd data-md>
       <p>The <a data-link-type="dfn" href="#time-value" id="ref-for-time-value④③">time value</a> of the <a data-link-type="dfn" href="#timeline" id="ref-for-timeline⑤⑦">timeline</a> with which the <a data-link-type="dfn" href="#concept-animation" id="ref-for-concept-animation⑦⑥">animation</a> that
 generated the event is associated at the moment the event was queued.
@@ -6875,9 +5913,9 @@ updated and any dependent style.</p>
 invoking the methods or constructors,
 or getting or setting the members
 of interfaces defined in the programming interface section of this specification
-does <em>not</em> produce a <a data-link-type="dfn" href="https://www.w3.org/TR/css-transitions-1/#style-change-event" id="ref-for-style-change-event③">style change event</a>.</p>
+does <em>not</em> produce a <a data-link-type="dfn" href="https://drafts.csswg.org/css-transitions-1/#style-change-event" id="ref-for-style-change-event③">style change event</a>.</p>
    <p class="note" role="note"><span>Note:</span> Other specifications that extend this specification are expected to refine
-the requirements on <a data-link-type="dfn" href="https://www.w3.org/TR/css-transitions-1/#style-change-event" id="ref-for-style-change-event④">style change events</a> by introducing circumstances where
+the requirements on <a data-link-type="dfn" href="https://drafts.csswg.org/css-transitions-1/#style-change-event" id="ref-for-style-change-event④">style change events</a> by introducing circumstances where
 such events <em>are</em> triggered.
 For example,
 when the interfaces in this specification represent
@@ -6982,11 +6020,11 @@ div<c- p>.</c->addEventListener<c- p>(</c-><c- t>'transitionend'</c-><c- p>,</c-
   console<c- p>.</c->log<c- p>(</c-><c- t>'transitionend'</c-><c- p>);</c->
 <c- p>});</c-></pre>
       </div>
-      <p>In this case, calling <code class="idl"><a data-link-type="idl" href="#dom-animatable-animate" id="ref-for-dom-animatable-animate③">animate()</a></code> will <em>not</em> trigger a <a data-link-type="dfn" href="https://www.w3.org/TR/css-transitions-1/#style-change-event" id="ref-for-style-change-event⑥">style change event</a>.
+      <p>In this case, calling <code class="idl"><a data-link-type="idl" href="#dom-animatable-animate" id="ref-for-dom-animatable-animate③">animate()</a></code> will <em>not</em> trigger a <a data-link-type="dfn" href="https://drafts.csswg.org/css-transitions-1/#style-change-event" id="ref-for-style-change-event⑥">style change event</a>.
 As a result, the pending style change will be processed at the same time
 as the style change resulting from the new animation.
 Since the animation style will override
-the <a data-link-type="dfn" href="https://www.w3.org/TR/css-transitions-1/#before-change-style" id="ref-for-before-change-style">before-change style</a> and the <a data-link-type="dfn" href="https://www.w3.org/TR/css-transitions-1/#after-change-style" id="ref-for-after-change-style">after-change style</a>,
+the <a data-link-type="dfn" href="https://drafts.csswg.org/css-transitions-1/#before-change-style" id="ref-for-before-change-style">before-change style</a> and the <a data-link-type="dfn" href="https://drafts.csswg.org/css-transitions-1/#after-change-style" id="ref-for-after-change-style">after-change style</a>,
 no transition will be generated and
 the event handler for the <a data-link-type="dfn" href="https://drafts.csswg.org/css-transitions/#transitionend" id="ref-for-transitionend">transitionend</a> event will never be called.</p>
     </dl>
@@ -7092,8 +6130,8 @@ At that point the <a data-link-type="dfn" href="#animation-type" id="ref-for-ani
 where values of <var>p</var> between 0 and 1
 map to <span class="css" id="ref-for-valdef-visibility-visible①">visible</span> and other values of <var>p</var> map to the closer endpoint;
 if neither value is <span class="css" id="ref-for-valdef-visibility-visible②">visible</span> then <a data-link-type="dfn" href="#discrete" id="ref-for-discrete⑤">discrete</a> animation is used.</p>
-   <h3 class="heading settled" id="animating-shadow-lists"><span class="content">Animation of <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-backgrounds-3/#propdef-box-shadow" id="ref-for-propdef-box-shadow">box-shadow</a></span><a class="self-link" href="#animating-shadow-lists"></a></h3>
-   <p>Animation the <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-backgrounds-3/#propdef-box-shadow" id="ref-for-propdef-box-shadow①">box-shadow</a> property follows the procedures for <a href="https://www.w3.org/TR/css-values-4/#combining-values">combining</a> <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-local-lt="shadow lists" data-lt="combining shadow lists" id="combining-shadow-lists">shadow lists</dfn> as follows:</p>
+   <h3 class="heading settled" id="animating-shadow-lists"><span class="content">Animation of <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow" id="ref-for-propdef-box-shadow">box-shadow</a></span><a class="self-link" href="#animating-shadow-lists"></a></h3>
+   <p>Animation the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow" id="ref-for-propdef-box-shadow①">box-shadow</a> property follows the procedures for <a href="https://www.w3.org/TR/css-values-4/#combining-values">combining</a> <dfn class="dfn-paneled" data-dfn-type="dfn" data-export data-local-lt="shadow lists" data-lt="combining shadow lists" id="combining-shadow-lists">shadow lists</dfn> as follows:</p>
    <p>Each shadow in the list
 (treating <span class="css">none</span> as a 0-length list)
 is interpolated component-wise as with <a data-link-type="dfn" href="#by-computed-value" id="ref-for-by-computed-value⑤">by computed value</a> behavior.
@@ -7103,7 +6141,7 @@ If any pair of input shadows has one <span class="css">inset</span> and the othe
 the entire shadow-list uses <a data-link-type="dfn" href="#discrete" id="ref-for-discrete⑥">discrete</a> animation.
 If the lists of shadows have different lengths,
 then the shorter list is padded at the end
-with shadows whose color is <a class="css" data-link-type="maybe" href="https://www.w3.org/TR/css-color-4/#valdef-color-transparent" id="ref-for-valdef-color-transparent">transparent</a>,
+with shadows whose color is <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-color-4/#valdef-color-transparent" id="ref-for-valdef-color-transparent">transparent</a>,
 all lengths are <span class="css">0</span>,
 and whose <span class="css">inset</span> (or not) matches the longer list.</p>
    <p><a data-link-type="dfn" href="https://drafts.csswg.org/css-values-4/#addition" id="ref-for-addition④">Addition</a> of two <a data-link-type="dfn" href="#combining-shadow-lists" id="ref-for-combining-shadow-lists">shadow lists</a> <var>V<sub>a</sub></var> and <var>V<sub>b</sub></var> is defined as <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list" id="ref-for-list">list</a> concatenation such that <var>V<sub>result</sub></var> is equal to <var>V<sub>a</sub></var> <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list-extend" id="ref-for-list-extend">extended</a> with <var>V<sub>b</sub></var>.</p>
@@ -7628,62 +6666,68 @@ according to its type, or falling back to <a data-link-type="dfn" href="#discret
     <li><a href="#ref-for-owning-element">5.5.2. Removing replaced animations</a>
    </ul>
   </aside>
+  <aside class="dfn-panel" data-for="term-for-propdef-background-image">
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image">https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-propdef-background-image">5.2. Animating properties</a>
+   </ul>
+  </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-background-origin">
-   <a href="https://www.w3.org/TR/css-backgrounds-3/#propdef-background-origin">https://www.w3.org/TR/css-backgrounds-3/#propdef-background-origin</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-origin">https://drafts.csswg.org/css-backgrounds-3/#propdef-background-origin</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-background-origin">5.2. Animating properties</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-bottom-width">
-   <a href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-bottom-width">https://www.w3.org/TR/css-backgrounds-3/#propdef-border-bottom-width</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-bottom-width">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-bottom-width</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-bottom-width">5.3.3. Calculating computed keyframes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-color">
-   <a href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-color">https://www.w3.org/TR/css-backgrounds-3/#propdef-border-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-color">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-color">5.3.3. Calculating computed keyframes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-left-width">
-   <a href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-left-width">https://www.w3.org/TR/css-backgrounds-3/#propdef-border-left-width</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-left-width">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-left-width</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-left-width">5.3.3. Calculating computed keyframes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-right-width">
-   <a href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-right-width">https://www.w3.org/TR/css-backgrounds-3/#propdef-border-right-width</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-right-width">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-right-width</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-right-width">5.3.3. Calculating computed keyframes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-top">
-   <a href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-top">https://www.w3.org/TR/css-backgrounds-3/#propdef-border-top</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-top">5.3.3. Calculating computed keyframes</a> <a href="#ref-for-propdef-border-top①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-top-color">
-   <a href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-top-color">https://www.w3.org/TR/css-backgrounds-3/#propdef-border-top-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top-color">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-top-color">5.3.3. Calculating computed keyframes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-top-width">
-   <a href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-top-width">https://www.w3.org/TR/css-backgrounds-3/#propdef-border-top-width</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top-width">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top-width</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-top-width">5.3.3. Calculating computed keyframes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-width">
-   <a href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-width">https://www.w3.org/TR/css-backgrounds-3/#propdef-border-width</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-width">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-width</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-width">5.3.3. Calculating computed keyframes</a> <a href="#ref-for-propdef-border-width①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-box-shadow">
-   <a href="https://www.w3.org/TR/css-backgrounds-3/#propdef-box-shadow">https://www.w3.org/TR/css-backgrounds-3/#propdef-box-shadow</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow">https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-box-shadow">Animation of box-shadow</a> <a href="#ref-for-propdef-box-shadow①">(2)</a>
    </ul>
@@ -7698,7 +6742,7 @@ according to its type, or falling back to <a data-link-type="dfn" href="#discret
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-color-transparent">
-   <a href="https://www.w3.org/TR/css-color-4/#valdef-color-transparent">https://www.w3.org/TR/css-color-4/#valdef-color-transparent</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-color-4/#valdef-color-transparent">https://drafts.csswg.org/css-color-4/#valdef-color-transparent</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-color-transparent">Animation of box-shadow</a>
    </ul>
@@ -7799,13 +6843,13 @@ argument</a> <a href="#ref-for-easing-function①④">(2)</a> <a href="#ref-for-
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-after-change-style">
-   <a href="https://www.w3.org/TR/css-transitions-1/#after-change-style">https://www.w3.org/TR/css-transitions-1/#after-change-style</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-transitions-1/#after-change-style">https://drafts.csswg.org/css-transitions-1/#after-change-style</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-after-change-style">6.13. Model liveness</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-before-change-style">
-   <a href="https://www.w3.org/TR/css-transitions-1/#before-change-style">https://www.w3.org/TR/css-transitions-1/#before-change-style</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-transitions-1/#before-change-style">https://drafts.csswg.org/css-transitions-1/#before-change-style</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-before-change-style">6.13. Model liveness</a>
    </ul>
@@ -7817,7 +6861,7 @@ argument</a> <a href="#ref-for-easing-function①④">(2)</a> <a href="#ref-for-
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-style-change-event">
-   <a href="https://www.w3.org/TR/css-transitions-1/#style-change-event">https://www.w3.org/TR/css-transitions-1/#style-change-event</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-transitions-1/#style-change-event">https://drafts.csswg.org/css-transitions-1/#style-change-event</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-style-change-event">6.4. The Animation interface</a>
     <li><a href="#ref-for-style-change-event①">6.8. The Animatable interface mixin</a>
@@ -7905,7 +6949,7 @@ argument</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-direction">
-   <a href="https://www.w3.org/TR/css-writing-modes-3/#propdef-direction">https://www.w3.org/TR/css-writing-modes-3/#propdef-direction</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-writing-modes-3/#propdef-direction">https://drafts.csswg.org/css-writing-modes-3/#propdef-direction</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-direction">5.3.3. Calculating computed keyframes</a>
    </ul>
@@ -7920,12 +6964,6 @@ argument</a>
    <a href="https://drafts.csswg.org/css-writing-modes-4/#propdef-writing-mode">https://drafts.csswg.org/css-writing-modes-4/#propdef-writing-mode</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-writing-mode">5.3.3. Calculating computed keyframes</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-propdef-background-image">
-   <a href="https://drafts.csswg.org/css2/#propdef-background-image">https://drafts.csswg.org/css2/#propdef-background-image</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-propdef-background-image">5.2. Animating properties</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-float">
@@ -8670,6 +7708,7 @@ argument</a> <a href="#ref-for-dfn-throw①④">(2)</a> <a href="#ref-for-dfn-th
    <li>
     <a data-link-type="biblio">[css-backgrounds-3]</a> defines the following terms:
     <ul>
+     <li><span class="dfn-paneled" id="term-for-propdef-background-image">background-image</span>
      <li><span class="dfn-paneled" id="term-for-propdef-background-origin">background-origin</span>
      <li><span class="dfn-paneled" id="term-for-propdef-border-bottom-width">border-bottom-width</span>
      <li><span class="dfn-paneled" id="term-for-propdef-border-color">border-color</span>
@@ -8786,7 +7825,6 @@ argument</a> <a href="#ref-for-dfn-throw①④">(2)</a> <a href="#ref-for-dfn-th
    <li>
     <a data-link-type="biblio">[CSS21]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="term-for-propdef-background-image">background-image</span>
      <li><span class="dfn-paneled" id="term-for-propdef-float">float</span>
      <li><span class="dfn-paneled" id="term-for-propdef-visibility">visibility</span>
      <li><span class="dfn-paneled" id="term-for-valdef-visibility-visible">visible</span>
@@ -8945,9 +7983,9 @@ argument</a> <a href="#ref-for-dfn-throw①④">(2)</a> <a href="#ref-for-dfn-th
    <dt id="biblio-css-cascade-3">[CSS-CASCADE-3]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-3/">CSS Cascading and Inheritance Level 3</a>. 11 February 2021. REC. URL: <a href="https://www.w3.org/TR/css-cascade-3/">https://www.w3.org/TR/css-cascade-3/</a>
    <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
-   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-5/">CSS Cascading and Inheritance Level 5</a>. 19 March 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-5/">https://www.w3.org/TR/css-cascade-5/</a>
+   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-5/">CSS Cascading and Inheritance Level 5</a>. 8 June 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-5/">https://www.w3.org/TR/css-cascade-5/</a>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
-   <dd>Tab Atkins Jr.; Chris Lilley. <a href="https://www.w3.org/TR/css-color-4/">CSS Color Module Level 4</a>. 12 November 2020. WD. URL: <a href="https://www.w3.org/TR/css-color-4/">https://www.w3.org/TR/css-color-4/</a>
+   <dd>Tab Atkins Jr.; Chris Lilley. <a href="https://www.w3.org/TR/css-color-4/">CSS Color Module Level 4</a>. 1 June 2021. WD. URL: <a href="https://www.w3.org/TR/css-color-4/">https://www.w3.org/TR/css-color-4/</a>
    <dt id="biblio-css-display-3">[CSS-DISPLAY-3]
    <dd>Tab Atkins Jr.; Elika Etemad. <a href="https://www.w3.org/TR/css-display-3/">CSS Display Module Level 3</a>. 18 December 2020. CR. URL: <a href="https://www.w3.org/TR/css-display-3/">https://www.w3.org/TR/css-display-3/</a>
    <dt id="biblio-css-easing-1">[CSS-EASING-1]
@@ -8987,9 +8025,9 @@ argument</a> <a href="#ref-for-dfn-throw①④">(2)</a> <a href="#ref-for-dfn-th
    <dt id="biblio-dom">[DOM]
    <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/">DOM Standard</a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    <dt id="biblio-ecmascript">[ECMASCRIPT]
-   <dd><a href="https://tc39.es/ecma262/">ECMAScript Language Specification</a>. URL: <a href="https://tc39.es/ecma262/">https://tc39.es/ecma262/</a>
+   <dd><a href="https://tc39.es/ecma262/multipage/">ECMAScript Language Specification</a>. URL: <a href="https://tc39.es/ecma262/multipage/">https://tc39.es/ecma262/multipage/</a>
    <dt id="biblio-hr-time">[HR-TIME]
-   <dd>Ilya Grigorik. <a href="https://www.w3.org/TR/hr-time-2/">High Resolution Time Level 2</a>. 21 November 2019. REC. URL: <a href="https://www.w3.org/TR/hr-time-2/">https://www.w3.org/TR/hr-time-2/</a>
+   <dd>Yoav Weiss; et al. <a href="https://www.w3.org/TR/hr-time-3/">High Resolution Time</a>. 7 June 2021. WD. URL: <a href="https://www.w3.org/TR/hr-time-3/">https://www.w3.org/TR/hr-time-3/</a>
    <dt id="biblio-html">[HTML]
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/">HTML Standard</a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-infra">[INFRA]
@@ -11628,14 +10666,6 @@ document.body.addEventListener("click", function(e) {
 
 });
 </script>
-<script>/* script-mdn-anno */
-
-            document.body.addEventListener("click", (e) => {
-                if(e.target.closest(".mdn-anno-btn")) {
-                    e.target.closest(".mdn-anno").classList.toggle("wrapped");
-                }
-            });
-            </script>
 <script>/* script-var-click-highlighting */
 
     document.addEventListener("click", e=>{

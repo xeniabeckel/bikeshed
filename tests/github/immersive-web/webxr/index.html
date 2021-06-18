@@ -1022,7 +1022,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
      <li data-md>
       <p><a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task" id="ref-for-queue-a-task">Queue a task</a> to set the <a data-link-type="dfn" href="#xr-compatible" id="ref-for-xr-compatible">XR compatible</a> boolean of all <code class="idl"><a data-link-type="idl" href="https://www.khronos.org/registry/webgl/specs/latest/1.0/#WebGLRenderingContextBase" id="ref-for-WebGLRenderingContextBase">WebGLRenderingContextBase</a></code> instances to <code>false</code>.</p>
      <li data-md>
-      <p><a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task" id="ref-for-queue-a-task①">Queue a task</a> to <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-event-fire" id="ref-for-concept-event-fire">fire an event</a> named <a class="idl-code" data-link-type="event" href="#eventdef-xrsystem-devicechange" id="ref-for-eventdef-xrsystem-devicechange">devicechange</a> on the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object">context object</a>'s <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/system-state.html#dom-navigator" id="ref-for-dom-navigator">navigator</a></code>'s <code class="idl"><a data-link-type="idl" href="#dom-navigator-xr" id="ref-for-dom-navigator-xr①">xr</a></code>.</p>
+      <p><a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task" id="ref-for-queue-a-task①">Queue a task</a> to <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-event-fire" id="ref-for-concept-event-fire">fire an event</a> named <a class="idl-code" data-link-type="event" href="#eventdef-xrsystem-devicechange" id="ref-for-eventdef-xrsystem-devicechange">devicechange</a> on the <a data-link-type="dfn">context object</a>'s <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/system-state.html#dom-navigator" id="ref-for-dom-navigator">navigator</a></code>'s <code class="idl"><a data-link-type="idl" href="#dom-navigator-xr" id="ref-for-dom-navigator-xr①">xr</a></code>.</p>
      <li data-md>
       <p><a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task" id="ref-for-queue-a-task②">Queue a task</a> to fire appropriate <code>change</code> events on any <code class="idl"><a data-link-type="idl" href="#xrpermissionstatus" id="ref-for-xrpermissionstatus">XRPermissionStatus</a></code> objects who are affected by the change in the <a data-link-type="dfn" href="#immersive-xr-device" id="ref-for-immersive-xr-device①⓪">immersive XR device</a> or <a data-link-type="dfn" href="#inline-xr-device" id="ref-for-inline-xr-device⑥">inline XR device</a>.</p>
     </ol>
@@ -1303,8 +1303,40 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
 </pre>
    <ul>
     <li data-md>
+     <div class="mdn-anno wrapped">
+      <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
+      <div class="feature">
+       <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRSessionMode#inline" title="The WebXR Device API&apos;s XRSessionMode enumerated type defines the string values used to identify the possible kinds of session mode that can be used.">XRSessionMode#inline</a></p>
+       <p class="less-than-two-engines-text">In only one current engine.</p>
+       <div class="support">
+        <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
+        <hr>
+        <span class="opera no"><span>Opera</span><span>None</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
+        <hr>
+        <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
+        <hr>
+        <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>79+</span></span><span class="webview_android yes"><span>Android WebView</span><span>79+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.2+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
+       </div>
+      </div>
+     </div>
      <p>A session mode of <dfn class="dfn-paneled idl-code" data-dfn-for="XRSessionMode" data-dfn-type="enum-value" data-export data-lt="&quot;inline&quot;|inline" id="dom-xrsessionmode-inline"><code>inline</code></dfn> indicates that the session’s output will be shown as an element in the HTML document. <code class="idl"><a data-link-type="idl" href="#dom-xrsessionmode-inline" id="ref-for-dom-xrsessionmode-inline④">inline</a></code> session content MUST be displayed in mono (i.e., with a single <a data-link-type="dfn" href="#view" id="ref-for-view①">view</a>). It MAY allow for <a data-link-type="dfn" href="#viewer" id="ref-for-viewer">viewer</a> tracking. User agents MUST allow <code class="idl"><a data-link-type="idl" href="#dom-xrsessionmode-inline" id="ref-for-dom-xrsessionmode-inline⑤">inline</a></code> sessions to be created.</p>
     <li data-md>
+     <div class="mdn-anno wrapped">
+      <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
+      <div class="feature">
+       <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRSessionMode#immersive-vr" title="The WebXR Device API&apos;s XRSessionMode enumerated type defines the string values used to identify the possible kinds of session mode that can be used.">XRSessionMode#immersive-vr</a></p>
+       <p class="less-than-two-engines-text">In only one current engine.</p>
+       <div class="support">
+        <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
+        <hr>
+        <span class="opera no"><span>Opera</span><span>None</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
+        <hr>
+        <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
+        <hr>
+        <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>79+</span></span><span class="webview_android yes"><span>Android WebView</span><span>79+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.2+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
+       </div>
+      </div>
+     </div>
      <p>A session mode of <dfn class="dfn-paneled idl-code" data-dfn-for="XRSessionMode" data-dfn-type="enum-value" data-export data-lt="&quot;immersive-vr&quot;|immersive-vr" id="dom-xrsessionmode-immersive-vr"><code>immersive-vr</code></dfn> indicates that the session’s output will be given <a data-link-type="dfn" href="#exclusive-access" id="ref-for-exclusive-access">exclusive access</a> to the <a data-link-type="dfn" href="#immersive-xr-device" id="ref-for-immersive-xr-device①④">immersive XR device</a> display and that content <b>is not</b> intended to be integrated with the user’s environment.</p>
     <li data-md>
      <p>The behavior of the <dfn class="dfn-paneled idl-code" data-dfn-for="XRSessionMode" data-dfn-type="enum-value" data-export data-lt="&quot;immersive-ar&quot;|immersive-ar" id="dom-xrsessionmode-immersive-ar"><code>immersive-ar</code></dfn> session mode is defined in the <a href="https://immersive-web.github.io/webxr-ar-module/">WebXR AR Module</a> and MUST NOT be added to the <a data-link-type="dfn" href="#immersive-xr-device" id="ref-for-immersive-xr-device①⑤">immersive XR device</a>'s <a data-link-type="dfn" href="#list-of-supported-modes" id="ref-for-list-of-supported-modes⑤">list of supported modes</a> unless the UA implements that module.</p>
@@ -1964,8 +1996,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="XRRenderState" data-dfn-type="attribute" data-export id="dom-xrrenderstate-inlineverticalfieldofview"><code>inlineVerticalFieldOfView</code></dfn> attribute defines the default vertical field of view in radians used when computing projection matrices for <code class="idl"><a data-link-type="idl" href="#dom-xrsessionmode-inline" id="ref-for-dom-xrsessionmode-inline①⓪">"inline"</a></code> <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession⑥③">XRSession</a></code>s. The projection matrix calculation also takes into account the aspect ratio of the <a data-link-type="dfn" href="#xrrenderstate-output-canvas" id="ref-for-xrrenderstate-output-canvas⑦">output canvas</a>. This value MUST be <code>null</code> for <a data-link-type="dfn" href="#immersive-session" id="ref-for-immersive-session②⓪">immersive sessions</a>.</p>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="XRRenderState" data-dfn-type="attribute" data-export id="dom-xrrenderstate-baselayer"><code>baseLayer</code></dfn> attribute defines an <code class="idl"><a data-link-type="idl" href="#xrwebgllayer" id="ref-for-xrwebgllayer④">XRWebGLLayer</a></code> which the <a data-link-type="dfn" href="#xr-compositor" id="ref-for-xr-compositor①">XR compositor</a> will obtain images from.</p>
    <h3 class="heading settled" data-level="4.3" id="animation-frames"><span class="secno">4.3. </span><span class="content">Animation Frames</span><a class="self-link" href="#animation-frames"></a></h3>
-   <p>The primary way an <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession⑥④">XRSession</a></code> provides information about the tracking state of the <a data-link-type="dfn" href="#xrsession-xr-device" id="ref-for-xrsession-xr-device①④">XR device</a> is via callbacks scheduled by calling <code class="idl"><a data-link-type="idl" href="#dom-xrsession-requestanimationframe" id="ref-for-dom-xrsession-requestanimationframe④">requestAnimationFrame()</a></code> on the <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession⑥⑤">XRSession</a></code> instance.</p>
-   <div class="mdn-anno wrapped">
+   <div class="mdn-anno wrapped after">
     <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
     <div class="feature">
      <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRFrameRequestCallback" title="The XRFrameRequestCallback is a callback function passed into XRSession.requestAnimationFrame (part of WebXR API) to obtain the current time and the current XRFrame.">XRFrameRequestCallback</a></p>
@@ -1981,6 +2012,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
      </div>
     </div>
    </div>
+   <p>The primary way an <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession⑥④">XRSession</a></code> provides information about the tracking state of the <a data-link-type="dfn" href="#xrsession-xr-device" id="ref-for-xrsession-xr-device①④">XR device</a> is via callbacks scheduled by calling <code class="idl"><a data-link-type="idl" href="#dom-xrsession-requestanimationframe" id="ref-for-dom-xrsession-requestanimationframe④">requestAnimationFrame()</a></code> on the <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession⑥⑤">XRSession</a></code> instance.</p>
 <pre class="idl highlight def"><c- b>callback</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="callback" data-export id="callbackdef-xrframerequestcallback"><code><c- g>XRFrameRequestCallback</c-></code></dfn> = <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined" id="ref-for-idl-undefined③"><c- b>undefined</c-></a> (<a data-link-type="idl-name" href="https://www.w3.org/TR/hr-time/#dom-domhighrestimestamp" id="ref-for-dom-domhighrestimestamp"><c- n>DOMHighResTimeStamp</c-></a> <dfn class="idl-code" data-dfn-for="XRFrameRequestCallback" data-dfn-type="argument" data-export id="dom-xrframerequestcallback-time"><code><c- g>time</c-></code><a class="self-link" href="#dom-xrframerequestcallback-time"></a></dfn>, <a data-link-type="idl-name" href="#xrframe" id="ref-for-xrframe①"><c- n>XRFrame</c-></a> <dfn class="idl-code" data-dfn-for="XRFrameRequestCallback" data-dfn-type="argument" data-export id="dom-xrframerequestcallback-frame"><code><c- g>frame</c-></code><a class="self-link" href="#dom-xrframerequestcallback-frame"></a></dfn>);
 </pre>
    <p>Each <code class="idl"><a data-link-type="idl" href="#callbackdef-xrframerequestcallback" id="ref-for-callbackdef-xrframerequestcallback①">XRFrameRequestCallback</a></code> object has a <dfn class="dfn-paneled" data-dfn-for="XRFrameRequestCallback" data-dfn-type="dfn" data-noexport id="xrframerequestcallback-cancelled">cancelled</dfn> boolean initially set to <code>false</code>.</p>
@@ -2629,13 +2661,6 @@ window<c- p>.</c->requestAnimationFrame<c- p>(</c->onWindowAnimationFrame<c- p>)
    <p>A <a data-link-type="dfn" href="#view" id="ref-for-view①②">view</a> has an associated internal <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="view-offset">view offset</dfn>, which is an <code class="idl"><a data-link-type="idl" href="#xrrigidtransform" id="ref-for-xrrigidtransform③">XRRigidTransform</a></code> describing the position and orientation of the <a data-link-type="dfn" href="#view" id="ref-for-view①③">view</a> in the <a data-link-type="dfn" href="#xrsession-viewer-reference-space" id="ref-for-xrsession-viewer-reference-space①">viewer reference space</a>'s <a data-link-type="dfn" href="#xrspace-coordinate-system" id="ref-for-xrspace-coordinate-system⑧">coordinate system</a>.</p>
    <p class="note" role="note"><span>NOTE:</span> There are no constraints on what the view offset might be, and views are allowed to have differing orientations. This can crop up in head-mounted devices with eye displays centered at an angle, and it can also surface itself in more extreme cases like CAVE rendering. Techniques like z-sorting and culling may need to be done per-eye because of this.</p>
    <p>A <a data-link-type="dfn" href="#view" id="ref-for-view①④">view</a> has an associated <dfn class="dfn-paneled" data-dfn-for="view" data-dfn-type="dfn" data-noexport id="view-projection-matrix">projection matrix</dfn> which is a <a data-link-type="dfn" href="#matrix" id="ref-for-matrix">matrix</a> describing the projection to be used when rendering the <a data-link-type="dfn" href="#view" id="ref-for-view①⑤">view</a>, provided by the underlying XR device. The <a data-link-type="dfn" href="#view-projection-matrix" id="ref-for-view-projection-matrix">projection matrix</a> MAY include transformations such as shearing that prevent the projection from being accurately described by a simple frustum.</p>
-   <p>A <a data-link-type="dfn" href="#view" id="ref-for-view①⑥">view</a> has an associated <dfn class="dfn-paneled" data-dfn-for="view" data-dfn-type="dfn" data-noexport id="view-eye">eye</dfn> which is an <code class="idl"><a data-link-type="idl" href="#enumdef-xreye" id="ref-for-enumdef-xreye">XREye</a></code> describing which eye this view is expected to be shown to. If the view does not have an intrinsically associated eye (the display is monoscopic, for example) this value MUST be set to <code class="idl"><a data-link-type="idl" href="#dom-xreye-none" id="ref-for-dom-xreye-none">"none"</a></code>.</p>
-   <p>A <a data-link-type="dfn" href="#view" id="ref-for-view①⑦">view</a> has an <dfn class="dfn-paneled" data-dfn-for="view" data-dfn-type="dfn" data-noexport id="view-active">active</dfn> flag that may change through the lifecycle of an <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession⑧⑤">XRSession</a></code>. <a data-link-type="dfn" href="#primary-view" id="ref-for-primary-view">Primary views</a> MUST always have the <a data-link-type="dfn" href="#view-active" id="ref-for-view-active③">active</a> flag set to <code>true</code>.</p>
-   <p class="note" role="note"><span>Note:</span> Many HMDs will request that content render two <a data-link-type="dfn" href="#view" id="ref-for-view①⑧">views</a>, one for the left eye and one for the right, while most magic window devices will only request one <a data-link-type="dfn" href="#view" id="ref-for-view①⑨">view</a>, but applications should never assume a specific view configuration. For example: A magic window device may request two views if it is capable of stereo output, but may revert to requesting a single view for performance reasons if the stereo output mode is turned off. Similarly, HMDs may request more than two views to facilitate a wide field of view or displays of different pixel density.</p>
-   <p>A <a data-link-type="dfn" href="#view" id="ref-for-view②⓪">view</a> has an internal <dfn class="dfn-paneled" data-dfn-for="view" data-dfn-type="dfn" data-noexport id="view-viewport-modifiable">viewport modifiable</dfn> flag that indicates if the viewport scale can be changed by a <code class="idl"><a data-link-type="idl" href="#dom-xrview-requestviewportscale" id="ref-for-dom-xrview-requestviewportscale">requestViewportScale()</a></code> call at this point in the session. It is set to <code>true</code> at the start of an animation frame, and set to <code>false</code> when <code class="idl"><a data-link-type="idl" href="#dom-xrwebgllayer-getviewport" id="ref-for-dom-xrwebgllayer-getviewport">getViewport()</a></code> is called.</p>
-   <p>A <a data-link-type="dfn" href="#view" id="ref-for-view②①">view</a> has an internal <dfn class="dfn-paneled" data-dfn-for="view" data-dfn-type="dfn" data-noexport id="view-requested-viewport-scale">requested viewport scale</dfn> value that represents the requested viewport scale for this view. It is initially set to 1.0, and can be modified by the <code class="idl"><a data-link-type="idl" href="#dom-xrview-requestviewportscale" id="ref-for-dom-xrview-requestviewportscale①">requestViewportScale()</a></code> method if the system supports dynamic viewport scaling.</p>
-   <p>A <a data-link-type="dfn" href="#view" id="ref-for-view②②">view</a> has an internal <dfn class="dfn-paneled" data-dfn-for="view" data-dfn-type="dfn" data-noexport id="view-current-viewport-scale">current viewport scale</dfn> value that represents the current viewport scale for this view as used internally by the system. It is initially set to 1.0. It is updated to match the <a data-link-type="dfn" href="#view-requested-viewport-scale" id="ref-for-view-requested-viewport-scale">requested viewport scale</a> when the viewport change is successfully applied by a <code class="idl"><a data-link-type="idl" href="#dom-xrwebgllayer-getviewport" id="ref-for-dom-xrwebgllayer-getviewport①">getViewport()</a></code> call.</p>
-   <p class="note" role="note"><span>Note:</span> Dynamic viewport scaling allows applications to render to a subset of the full-sized viewport using a scale factor that can be changed every animation frame. This is intended to be efficiently modifiable on a per-frame basis without reallocation. For correct rendering, it’s essential that the XR system and application agree on the active viewport. An application can call <code class="idl"><a data-link-type="idl" href="#dom-xrview-requestviewportscale" id="ref-for-dom-xrview-requestviewportscale②">requestViewportScale()</a></code> for an <code class="idl"><a data-link-type="idl" href="#xrview" id="ref-for-xrview③">XRView</a></code> multiple times within a single animation frame, but the requested scale does not take effect until the application calls <code class="idl"><a data-link-type="idl" href="#dom-xrwebgllayer-getviewport" id="ref-for-dom-xrwebgllayer-getviewport②">getViewport()</a></code> for that view. The first <code>getViewport</code> call in an animation frame applies the change (taking effect immediately for the current animation frame), locks in the view’s current scaled viewport for the remainder of this animation frame, and sets the scale as the new default for future animation frames. Optionally, the system can provide a suggested value through the <code class="idl"><a data-link-type="idl" href="#dom-xrview-recommendedviewportscale" id="ref-for-dom-xrview-recommendedviewportscale">recommendedViewportScale</a></code> attribute based on internal performance heuristics and target framerates.</p>
    <div class="mdn-anno wrapped">
     <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
     <div class="feature">
@@ -2652,6 +2677,13 @@ window<c- p>.</c->requestAnimationFrame<c- p>(</c->onWindowAnimationFrame<c- p>)
      </div>
     </div>
    </div>
+   <p>A <a data-link-type="dfn" href="#view" id="ref-for-view①⑥">view</a> has an associated <dfn class="dfn-paneled" data-dfn-for="view" data-dfn-type="dfn" data-noexport id="view-eye">eye</dfn> which is an <code class="idl"><a data-link-type="idl" href="#enumdef-xreye" id="ref-for-enumdef-xreye">XREye</a></code> describing which eye this view is expected to be shown to. If the view does not have an intrinsically associated eye (the display is monoscopic, for example) this value MUST be set to <code class="idl"><a data-link-type="idl" href="#dom-xreye-none" id="ref-for-dom-xreye-none">"none"</a></code>.</p>
+   <p>A <a data-link-type="dfn" href="#view" id="ref-for-view①⑦">view</a> has an <dfn class="dfn-paneled" data-dfn-for="view" data-dfn-type="dfn" data-noexport id="view-active">active</dfn> flag that may change through the lifecycle of an <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession⑧⑤">XRSession</a></code>. <a data-link-type="dfn" href="#primary-view" id="ref-for-primary-view">Primary views</a> MUST always have the <a data-link-type="dfn" href="#view-active" id="ref-for-view-active③">active</a> flag set to <code>true</code>.</p>
+   <p class="note" role="note"><span>Note:</span> Many HMDs will request that content render two <a data-link-type="dfn" href="#view" id="ref-for-view①⑧">views</a>, one for the left eye and one for the right, while most magic window devices will only request one <a data-link-type="dfn" href="#view" id="ref-for-view①⑨">view</a>, but applications should never assume a specific view configuration. For example: A magic window device may request two views if it is capable of stereo output, but may revert to requesting a single view for performance reasons if the stereo output mode is turned off. Similarly, HMDs may request more than two views to facilitate a wide field of view or displays of different pixel density.</p>
+   <p>A <a data-link-type="dfn" href="#view" id="ref-for-view②⓪">view</a> has an internal <dfn class="dfn-paneled" data-dfn-for="view" data-dfn-type="dfn" data-noexport id="view-viewport-modifiable">viewport modifiable</dfn> flag that indicates if the viewport scale can be changed by a <code class="idl"><a data-link-type="idl" href="#dom-xrview-requestviewportscale" id="ref-for-dom-xrview-requestviewportscale">requestViewportScale()</a></code> call at this point in the session. It is set to <code>true</code> at the start of an animation frame, and set to <code>false</code> when <code class="idl"><a data-link-type="idl" href="#dom-xrwebgllayer-getviewport" id="ref-for-dom-xrwebgllayer-getviewport">getViewport()</a></code> is called.</p>
+   <p>A <a data-link-type="dfn" href="#view" id="ref-for-view②①">view</a> has an internal <dfn class="dfn-paneled" data-dfn-for="view" data-dfn-type="dfn" data-noexport id="view-requested-viewport-scale">requested viewport scale</dfn> value that represents the requested viewport scale for this view. It is initially set to 1.0, and can be modified by the <code class="idl"><a data-link-type="idl" href="#dom-xrview-requestviewportscale" id="ref-for-dom-xrview-requestviewportscale①">requestViewportScale()</a></code> method if the system supports dynamic viewport scaling.</p>
+   <p>A <a data-link-type="dfn" href="#view" id="ref-for-view②②">view</a> has an internal <dfn class="dfn-paneled" data-dfn-for="view" data-dfn-type="dfn" data-noexport id="view-current-viewport-scale">current viewport scale</dfn> value that represents the current viewport scale for this view as used internally by the system. It is initially set to 1.0. It is updated to match the <a data-link-type="dfn" href="#view-requested-viewport-scale" id="ref-for-view-requested-viewport-scale">requested viewport scale</a> when the viewport change is successfully applied by a <code class="idl"><a data-link-type="idl" href="#dom-xrwebgllayer-getviewport" id="ref-for-dom-xrwebgllayer-getviewport①">getViewport()</a></code> call.</p>
+   <p class="note" role="note"><span>Note:</span> Dynamic viewport scaling allows applications to render to a subset of the full-sized viewport using a scale factor that can be changed every animation frame. This is intended to be efficiently modifiable on a per-frame basis without reallocation. For correct rendering, it’s essential that the XR system and application agree on the active viewport. An application can call <code class="idl"><a data-link-type="idl" href="#dom-xrview-requestviewportscale" id="ref-for-dom-xrview-requestviewportscale②">requestViewportScale()</a></code> for an <code class="idl"><a data-link-type="idl" href="#xrview" id="ref-for-xrview③">XRView</a></code> multiple times within a single animation frame, but the requested scale does not take effect until the application calls <code class="idl"><a data-link-type="idl" href="#dom-xrwebgllayer-getviewport" id="ref-for-dom-xrwebgllayer-getviewport②">getViewport()</a></code> for that view. The first <code>getViewport</code> call in an animation frame applies the change (taking effect immediately for the current animation frame), locks in the view’s current scaled viewport for the remainder of this animation frame, and sets the scale as the new default for future animation frames. Optionally, the system can provide a suggested value through the <code class="idl"><a data-link-type="idl" href="#dom-xrview-recommendedviewportscale" id="ref-for-dom-xrview-recommendedviewportscale">recommendedViewportScale</a></code> attribute based on internal performance heuristics and target framerates.</p>
 <pre class="idl highlight def"><c- b>enum</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="enum" data-export id="enumdef-xreye"><code><c- g>XREye</c-></code></dfn> {
   <dfn class="dfn-paneled idl-code" data-dfn-for="XREye" data-dfn-type="enum-value" data-export id="dom-xreye-none"><code><c- s>"none"</c-></code></dfn>,
   <dfn class="idl-code" data-dfn-for="XREye" data-dfn-type="enum-value" data-export id="dom-xreye-left"><code><c- s>"left"</c-></code><a class="self-link" href="#dom-xreye-left"></a></dfn>,
@@ -3543,61 +3575,6 @@ a3 a7 a11 a15     1     a3 * X + a7 * Y + a11 * Z + a15
     </div>
    </div>
    <p>An <code class="idl"><a data-link-type="idl" href="#xrinputsourcearray" id="ref-for-xrinputsourcearray①">XRInputSourceArray</a></code> represents a <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list" id="ref-for-list①⑦">list</a> of <code class="idl"><a data-link-type="idl" href="#xrinputsource" id="ref-for-xrinputsource①③">XRInputSource</a></code>s. It is used in favor of a <a data-link-type="dfn" href="https://heycam.github.io/webidl/#dfn-frozen-array-type" id="ref-for-dfn-frozen-array-type">frozen array type</a> when the contents of the <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list" id="ref-for-list①⑧">list</a> are expected to change over time, such as with the <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession①⓪④">XRSession</a></code> <code class="idl"><a data-link-type="idl" href="#dom-xrsession-inputsources" id="ref-for-dom-xrsession-inputsources②">inputSources</a></code> attribute.</p>
-   <div class="mdn-anno wrapped">
-    <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRInputSourceArray/entries" title="The XRInputSourceArray interface&apos;s entries() method returns a JavaScript iterator which can then be used to iterate over the key/value pairs in the input source array.">XRInputSourceArray/entries</a></p>
-     <p class="less-than-two-engines-text">In only one current engine.</p>
-     <div class="support">
-      <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
-      <hr>
-      <span class="opera no"><span>Opera</span><span>None</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>79+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.2+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-     </div>
-    </div>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRInputSourceArray/forEach" title="The XRInputSourceArray method forEach() executes the specified callback once for each input source in the array, starting at index 0 and progressing until the end of the list.">XRInputSourceArray/forEach</a></p>
-     <p class="less-than-two-engines-text">In only one current engine.</p>
-     <div class="support">
-      <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
-      <hr>
-      <span class="opera no"><span>Opera</span><span>None</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>79+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.2+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-     </div>
-    </div>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRInputSourceArray/keys" title="The keys() method in the XRInputSourceArray interface returns a JavaScript iterator which can then be used to iterate over the keys used to reference each item in the array of input sources.">XRInputSourceArray/keys</a></p>
-     <p class="less-than-two-engines-text">In only one current engine.</p>
-     <div class="support">
-      <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
-      <hr>
-      <span class="opera no"><span>Opera</span><span>None</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>79+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.2+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-     </div>
-    </div>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRInputSourceArray/values" title="The XRInputSourceArray method values() returns a JavaScript iterator that can walk over the list of XRInputSource objects contained in the array, from first to last.">XRInputSourceArray/values</a></p>
-     <p class="less-than-two-engines-text">In only one current engine.</p>
-     <div class="support">
-      <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
-      <hr>
-      <span class="opera no"><span>Opera</span><span>None</span></span><span class="edge_blink yes"><span>Edge</span><span>79+</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>79+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.2+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
-     </div>
-    </div>
-   </div>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#SecureContext" id="ref-for-SecureContext①④"><c- g>SecureContext</c-></a>, <a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed" id="ref-for-Exposed①③"><c- g>Exposed</c-></a>=<c- n>Window</c->]
 <c- b>interface</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="xrinputsourcearray"><code><c- g>XRInputSourceArray</c-></code></dfn> {
   <c- b>iterable</c->&lt;<a data-link-type="idl-name" href="#xrinputsource" id="ref-for-xrinputsource①④"><c- n>XRInputSource</c-></a>>;
@@ -4245,11 +4222,10 @@ glCanvas<c- p>.</c->addEventListener<c- p>(</c-><c- u>"webglcontextrestored"</c-
    <h2 class="heading settled" data-level="12" id="events"><span class="secno">12. </span><span class="content">Events</span><a class="self-link" href="#events"></a></h2>
    <p>The <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#task-source" id="ref-for-task-source">task source</a> for all <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#queue-a-task" id="ref-for-queue-a-task③③">tasks queued</a> in this specification is the <dfn data-dfn-type="dfn" data-export id="xr-task-source">XR task source<a class="self-link" href="#xr-task-source"></a></dfn>, unless otherwise specified.</p>
    <h3 class="heading settled" data-level="12.1" id="xrsessionevent-interface"><span class="secno">12.1. </span><span class="content">XRSessionEvent</span><a class="self-link" href="#xrsessionevent-interface"></a></h3>
-   <p><code class="idl"><a data-link-type="idl" href="#xrsessionevent" id="ref-for-xrsessionevent①">XRSessionEvent</a></code>s are fired to indicate changes to the state of an <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession①①⑤">XRSession</a></code>.</p>
-   <div class="mdn-anno wrapped">
+   <div class="mdn-anno wrapped after">
     <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
     <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRSessionEvent/XRSessionEvent" title="The WebXR Device API&apos;s XRSessionEvent() constructor creates and returns a new XRSessionEvent object.">XRSessionEvent/XRSessionEvent</a></p>
+     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRSessionEvent" title="The WebXR Device API&apos;s XRSessionEvent interface describes an event which indicates the change of the state of an XRSession.">XRSessionEvent</a></p>
      <p class="less-than-two-engines-text">In only one current engine.</p>
      <div class="support">
       <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
@@ -4261,8 +4237,12 @@ glCanvas<c- p>.</c->addEventListener<c- p>(</c-><c- u>"webglcontextrestored"</c-
       <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>79+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.2+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
      </div>
     </div>
+   </div>
+   <p><code class="idl"><a data-link-type="idl" href="#xrsessionevent" id="ref-for-xrsessionevent①">XRSessionEvent</a></code>s are fired to indicate changes to the state of an <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession①①⑤">XRSession</a></code>.</p>
+   <div class="mdn-anno wrapped">
+    <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
     <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRSessionEvent" title="The WebXR Device API&apos;s XRSessionEvent interface describes an event which indicates the change of the state of an XRSession.">XRSessionEvent</a></p>
+     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRSessionEvent/XRSessionEvent" title="The WebXR Device API&apos;s XRSessionEvent() constructor creates and returns a new XRSessionEvent object.">XRSessionEvent/XRSessionEvent</a></p>
      <p class="less-than-two-engines-text">In only one current engine.</p>
      <div class="support">
       <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
@@ -4303,11 +4283,10 @@ glCanvas<c- p>.</c->addEventListener<c- p>(</c-><c- u>"webglcontextrestored"</c-
    </div>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="XRSessionEvent" data-dfn-type="attribute" data-export id="dom-xrsessionevent-session"><code>session</code></dfn> attribute indicates the <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession①①⑧">XRSession</a></code> that generated the event.</p>
    <h3 class="heading settled" data-level="12.2" id="xrinputsourceevent-interface"><span class="secno">12.2. </span><span class="content">XRInputSourceEvent</span><a class="self-link" href="#xrinputsourceevent-interface"></a></h3>
-   <p><code class="idl"><a data-link-type="idl" href="#xrinputsourceevent" id="ref-for-xrinputsourceevent②">XRInputSourceEvent</a></code>s are fired to indicate changes to the state of an <code class="idl"><a data-link-type="idl" href="#xrinputsource" id="ref-for-xrinputsource①⑧">XRInputSource</a></code>.</p>
-   <div class="mdn-anno wrapped">
+   <div class="mdn-anno wrapped after">
     <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
     <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRInputSourceEvent/XRInputSourceEvent" title="The XRInputSourceEvent() constructor creates and returns a new XRInputSourceEvent object describing an event (state change) which has occurred on a WebXR user input device represented by an XRInputSource.">XRInputSourceEvent/XRInputSourceEvent</a></p>
+     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRInputSourceEvent" title="The WebXR Device API&apos;s XRInputSourceEvent interface describes an event which has occurred on a WebXR user input device such as a hand controller, gaze tracking system, or motion tracking system.">XRInputSourceEvent</a></p>
      <p class="less-than-two-engines-text">In only one current engine.</p>
      <div class="support">
       <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
@@ -4319,8 +4298,12 @@ glCanvas<c- p>.</c->addEventListener<c- p>(</c-><c- u>"webglcontextrestored"</c-
       <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>79+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.2+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
      </div>
     </div>
+   </div>
+   <p><code class="idl"><a data-link-type="idl" href="#xrinputsourceevent" id="ref-for-xrinputsourceevent②">XRInputSourceEvent</a></code>s are fired to indicate changes to the state of an <code class="idl"><a data-link-type="idl" href="#xrinputsource" id="ref-for-xrinputsource①⑧">XRInputSource</a></code>.</p>
+   <div class="mdn-anno wrapped">
+    <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
     <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRInputSourceEvent" title="The WebXR Device API&apos;s XRInputSourceEvent interface describes an event which has occurred on a WebXR user input device such as a hand controller, gaze tracking system, or motion tracking system.">XRInputSourceEvent</a></p>
+     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRInputSourceEvent/XRInputSourceEvent" title="The XRInputSourceEvent() constructor creates and returns a new XRInputSourceEvent object describing an event (state change) which has occurred on a WebXR user input device represented by an XRInputSource.">XRInputSourceEvent/XRInputSourceEvent</a></p>
      <p class="less-than-two-engines-text">In only one current engine.</p>
      <div class="support">
       <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
@@ -4395,11 +4378,10 @@ glCanvas<c- p>.</c->addEventListener<c- p>(</c-><c- u>"webglcontextrestored"</c-
     </ol>
    </div>
    <h3 class="heading settled" data-level="12.3" id="xrinputsourceschangeevent-interface"><span class="secno">12.3. </span><span class="content">XRInputSourcesChangeEvent</span><a class="self-link" href="#xrinputsourceschangeevent-interface"></a></h3>
-   <p><code class="idl"><a data-link-type="idl" href="#xrinputsourceschangeevent" id="ref-for-xrinputsourceschangeevent④">XRInputSourcesChangeEvent</a></code>s are fired to indicate changes to the <code class="idl"><a data-link-type="idl" href="#xrinputsource" id="ref-for-xrinputsource②③">XRInputSource</a></code>s that are available to an <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession①①⑨">XRSession</a></code>.</p>
-   <div class="mdn-anno wrapped">
+   <div class="mdn-anno wrapped after">
     <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
     <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRInputSourcesChangeEvent/XRInputSourcesChangeEvent" title="The XRInputSourcesChangeEvent() constructor creates and returns a new XRInputSourcesChangeEvent object, representing an update to the list of available WebXR input devices.">XRInputSourcesChangeEvent/XRInputSourcesChangeEvent</a></p>
+     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRInputSourcesChangeEvent" title="The WebXR Device API interface XRInputSourcesChangeEvent is used to represent the inputsourceschange event sent to an XRSession when the set of available WebXR input controllers changes.">XRInputSourcesChangeEvent</a></p>
      <p class="less-than-two-engines-text">In only one current engine.</p>
      <div class="support">
       <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
@@ -4411,8 +4393,12 @@ glCanvas<c- p>.</c->addEventListener<c- p>(</c-><c- u>"webglcontextrestored"</c-
       <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>79+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.2+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
      </div>
     </div>
+   </div>
+   <p><code class="idl"><a data-link-type="idl" href="#xrinputsourceschangeevent" id="ref-for-xrinputsourceschangeevent④">XRInputSourcesChangeEvent</a></code>s are fired to indicate changes to the <code class="idl"><a data-link-type="idl" href="#xrinputsource" id="ref-for-xrinputsource②③">XRInputSource</a></code>s that are available to an <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession①①⑨">XRSession</a></code>.</p>
+   <div class="mdn-anno wrapped">
+    <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
     <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRInputSourcesChangeEvent" title="The WebXR Device API interface XRInputSourcesChangeEvent is used to represent the inputsourceschange event sent to an XRSession when the set of available WebXR input controllers changes.">XRInputSourcesChangeEvent</a></p>
+     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRInputSourcesChangeEvent/XRInputSourcesChangeEvent" title="The XRInputSourcesChangeEvent() constructor creates and returns a new XRInputSourcesChangeEvent object, representing an update to the list of available WebXR input devices.">XRInputSourcesChangeEvent/XRInputSourcesChangeEvent</a></p>
      <p class="less-than-two-engines-text">In only one current engine.</p>
      <div class="support">
       <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
@@ -4492,11 +4478,10 @@ glCanvas<c- p>.</c->addEventListener<c- p>(</c-><c- u>"webglcontextrestored"</c-
    </div>
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="XRInputSourcesChangeEvent" data-dfn-type="attribute" data-export id="dom-xrinputsourceschangeevent-removed"><code>removed</code></dfn> attribute is a <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list" id="ref-for-list②②">list</a> of <code class="idl"><a data-link-type="idl" href="#xrinputsource" id="ref-for-xrinputsource②⑨">XRInputSource</a></code>s that were removed from the <code class="idl"><a data-link-type="idl" href="#xrsession" id="ref-for-xrsession①②④">XRSession</a></code> at the time of the event.</p>
    <h3 class="heading settled" data-level="12.4" id="xrreferencespaceevent-interface"><span class="secno">12.4. </span><span class="content">XRReferenceSpaceEvent</span><a class="self-link" href="#xrreferencespaceevent-interface"></a></h3>
-   <p><code class="idl"><a data-link-type="idl" href="#xrreferencespaceevent" id="ref-for-xrreferencespaceevent">XRReferenceSpaceEvent</a></code>s are fired to indicate changes to the state of an <code class="idl"><a data-link-type="idl" href="#xrreferencespace" id="ref-for-xrreferencespace②⑨">XRReferenceSpace</a></code>.</p>
-   <div class="mdn-anno wrapped">
+   <div class="mdn-anno wrapped after">
     <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
     <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRReferenceSpaceEvent/XRReferenceSpaceEvent" title="The XRReferenceSpaceEvent() constructor is used to create a new XRReferenceSpaceEvent object, which represents an event regarding the state of a WebXR reference space object, XRReferenceSpace.">XRReferenceSpaceEvent/XRReferenceSpaceEvent</a></p>
+     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRReferenceSpaceEvent" title="The WebXR Device API interface XRReferenceSpaceEvent represents an event sent to an XRReferenceSpace. Currently, the only event that uses this type is the reset event.">XRReferenceSpaceEvent</a></p>
      <p class="less-than-two-engines-text">In only one current engine.</p>
      <div class="support">
       <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
@@ -4508,8 +4493,12 @@ glCanvas<c- p>.</c->addEventListener<c- p>(</c-><c- u>"webglcontextrestored"</c-
       <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>79+</span></span><span class="webview_android no"><span>Android WebView</span><span>None</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>11.2+</span></span><span class="opera_android no"><span>Opera Mobile</span><span>None</span></span>
      </div>
     </div>
+   </div>
+   <p><code class="idl"><a data-link-type="idl" href="#xrreferencespaceevent" id="ref-for-xrreferencespaceevent">XRReferenceSpaceEvent</a></code>s are fired to indicate changes to the state of an <code class="idl"><a data-link-type="idl" href="#xrreferencespace" id="ref-for-xrreferencespace②⑨">XRReferenceSpace</a></code>.</p>
+   <div class="mdn-anno wrapped">
+    <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
     <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRReferenceSpaceEvent" title="The WebXR Device API interface XRReferenceSpaceEvent represents an event sent to an XRReferenceSpace. Currently, the only event that uses this type is the reset event.">XRReferenceSpaceEvent</a></p>
+     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRReferenceSpaceEvent/XRReferenceSpaceEvent" title="The XRReferenceSpaceEvent() constructor is used to create a new XRReferenceSpaceEvent object, which represents an event regarding the state of a WebXR reference space object, XRReferenceSpace.">XRReferenceSpaceEvent/XRReferenceSpaceEvent</a></p>
      <p class="less-than-two-engines-text">In only one current engine.</p>
      <div class="support">
       <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>79+</span></span>
@@ -5772,12 +5761,6 @@ have been the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipa
     <li><a href="#ref-for-canceled-flag">11.3. WebGL Context Compatibility</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-context-object">
-   <a href="https://dom.spec.whatwg.org/#context-object">https://dom.spec.whatwg.org/#context-object</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-context-object">3.2. XRSystem</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-concept-tree-descendant">
    <a href="https://dom.spec.whatwg.org/#concept-tree-descendant">https://dom.spec.whatwg.org/#concept-tree-descendant</a><b>Referenced in:</b>
    <ul>
@@ -6813,7 +6796,6 @@ have been the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipa
      <li><span class="dfn-paneled" id="term-for-eventtarget">EventTarget</span>
      <li><span class="dfn-paneled" id="term-for-concept-tree-ancestor">ancestor</span>
      <li><span class="dfn-paneled" id="term-for-canceled-flag">canceled flag</span>
-     <li><span class="dfn-paneled" id="term-for-context-object">context object</span>
      <li><span class="dfn-paneled" id="term-for-concept-tree-descendant">descendant</span>
      <li><span class="dfn-paneled" id="term-for-concept-event-dispatch">dispatch</span>
      <li><span class="dfn-paneled" id="term-for-concept-event-fire">fire an event</span>
@@ -7033,7 +7015,7 @@ have been the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipa
    <dt id="biblio-dom">[DOM]
    <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/">DOM Standard</a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    <dt id="biblio-ecmascript">[ECMASCRIPT]
-   <dd><a href="https://tc39.es/ecma262/">ECMAScript Language Specification</a>. URL: <a href="https://tc39.es/ecma262/">https://tc39.es/ecma262/</a>
+   <dd><a href="https://tc39.es/ecma262/multipage/">ECMAScript Language Specification</a>. URL: <a href="https://tc39.es/ecma262/multipage/">https://tc39.es/ecma262/multipage/</a>
    <dt id="biblio-geometry-1">[GEOMETRY-1]
    <dd>Simon Pieters; Chris Harrelson. <a href="https://www.w3.org/TR/geometry-1/">Geometry Interfaces Module Level 1</a>. 4 December 2018. CR. URL: <a href="https://www.w3.org/TR/geometry-1/">https://www.w3.org/TR/geometry-1/</a>
    <dt id="biblio-hr-time-2">[HR-TIME-2]
@@ -7043,7 +7025,7 @@ have been the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipa
    <dt id="biblio-infra">[INFRA]
    <dd>Anne van Kesteren; Domenic Denicola. <a href="https://infra.spec.whatwg.org/">Infra Standard</a>. Living Standard. URL: <a href="https://infra.spec.whatwg.org/">https://infra.spec.whatwg.org/</a>
    <dt id="biblio-permissions">[PERMISSIONS]
-   <dd>Mounir Lamouri; Marcos Caceres; Jeffrey Yasskin. <a href="https://www.w3.org/TR/permissions/">Permissions</a>. 20 July 2020. WD. URL: <a href="https://www.w3.org/TR/permissions/">https://www.w3.org/TR/permissions/</a>
+   <dd>Mounir Lamouri; Marcos Caceres; Jeffrey Yasskin. <a href="https://www.w3.org/TR/permissions/">Permissions</a>. 15 June 2021. WD. URL: <a href="https://www.w3.org/TR/permissions/">https://www.w3.org/TR/permissions/</a>
    <dt id="biblio-permissions-policy-1">[PERMISSIONS-POLICY-1]
    <dd>Ian Clelland. <a href="https://www.w3.org/TR/permissions-policy-1/">Permissions Policy</a>. 16 July 2020. WD. URL: <a href="https://www.w3.org/TR/permissions-policy-1/">https://www.w3.org/TR/permissions-policy-1/</a>
    <dt id="biblio-permissions-request">[PERMISSIONS-REQUEST]

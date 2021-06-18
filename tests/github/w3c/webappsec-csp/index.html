@@ -1237,13 +1237,13 @@ ISSUE: Bikeshed <code>unsafe-allow-redirects</code>.
   delivered via an HTTP response header field before any <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#global-object" id="ref-for-global-object⑤">global object</a> is created in order to handle directives that require knowledge of a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response⑥">response</a>’s details. To that end:</p>
     <ol>
      <li data-md>
-      <p>A <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response⑦">response</a> has an associated <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-csp-list" id="ref-for-concept-response-csp-list">CSP list</a> which
+      <p>A <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response⑦">response</a> has an associated <a data-link-type="dfn">CSP list</a> which
   contains any policy objects delivered in the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response⑧">response</a>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-header-list" id="ref-for-concept-response-header-list">header list</a>.</p>
      <li data-md>
       <p><a href="#set-response-csp-list" id="ref-for-set-response-csp-list">§ 4.1.1 Set response’s CSP list</a> is called in the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-http-fetch" id="ref-for-concept-http-fetch">HTTP fetch</a> and <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-http-network-fetch" id="ref-for-concept-http-network-fetch">HTTP-network fetch</a> algorithms.</p>
-      <p class="note" role="note"><span>Note:</span> These two calls should ensure that a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response⑨">response</a>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-csp-list" id="ref-for-concept-response-csp-list①">CSP list</a> is set, regardless of how the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response①⓪">response</a> is created. If we hit the network (via <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-http-network-fetch" id="ref-for-concept-http-network-fetch①">HTTP-network
+      <p class="note" role="note"><span>Note:</span> These two calls should ensure that a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response⑨">response</a>’s <a data-link-type="dfn">CSP list</a> is set, regardless of how the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response①⓪">response</a> is created. If we hit the network (via <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-http-network-fetch" id="ref-for-concept-http-network-fetch①">HTTP-network
   fetch</a>, then we parse the policy before we handle the <code>Set-Cookie</code> header. If we get a response from a Service Worker (via <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-http-fetch" id="ref-for-concept-http-fetch①">HTTP fetch</a>,
-  we’ll process its <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-csp-list" id="ref-for-concept-response-csp-list②">CSP list</a> before handing the
+  we’ll process its <a data-link-type="dfn">CSP list</a> before handing the
   response back to our caller.</p>
       <p class="note" role="note"><span>Note:</span> A fetch request abides by the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#global-object" id="ref-for-global-object⑥">global object</a>’s <a data-link-type="dfn" href="#global-object-csp-list" id="ref-for-global-object-csp-list">CSP list</a> including any redirects it might follow.
   Any <a data-link-type="http-header" href="#header-content-security-policy" id="ref-for-header-content-security-policy②">Content-Security-Policy</a> headers found in a redirect
@@ -1251,10 +1251,10 @@ ISSUE: Bikeshed <code>unsafe-allow-redirects</code>.
     </ol>
     <h4 class="heading settled dfn-paneled algorithm" data-algorithm="Set response’s CSP list" data-dfn-type="dfn" data-export data-level="4.1.1" data-lt="Set response’s CSP list" id="set-response-csp-list"><span class="secno">4.1.1. </span><span class="content"> Set <var>response</var>’s CSP list </span><a class="self-link" href="#set-response-csp-list" id="ref-for-set-response-csp-list①"></a></h4>
     <p>Given a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response①①">response</a> (<var>response</var>), this algorithm evaluates its <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-header-list" id="ref-for-concept-response-header-list①">header list</a> for <a data-link-type="dfn" href="#serialized-csp" id="ref-for-serialized-csp⑤">serialized CSP</a> values, and
-  populates its <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-csp-list" id="ref-for-concept-response-csp-list③">CSP list</a> accordingly:</p>
+  populates its <a data-link-type="dfn">CSP list</a> accordingly:</p>
     <ol class="algorithm">
      <li data-md>
-      <p>Set <var>response</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-csp-list" id="ref-for-concept-response-csp-list④">CSP list</a> to the empty list.</p>
+      <p>Set <var>response</var>’s <a data-link-type="dfn">CSP list</a> to the empty list.</p>
      <li data-md>
       <p>Let <var>policies</var> be the result of <a data-link-type="abstract-op" href="#abstract-opdef-parse-a-serialized-csp-list" id="ref-for-abstract-opdef-parse-a-serialized-csp-list">parsing</a> the result of <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#extract-header-list-values" id="ref-for-extract-header-list-values">extracting header list values</a> given <code>Content-Security-Policy</code> and <var>response</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-header-list" id="ref-for-concept-response-header-list②">header list</a>, with a <a data-link-type="dfn" href="#policy-source" id="ref-for-policy-source⑤">source</a> of "<code>header</code>", and a <a data-link-type="dfn" href="#policy-disposition" id="ref-for-policy-disposition⑤">disposition</a> of "<code>enforce</code>".</p>
      <li data-md>
@@ -1265,7 +1265,7 @@ ISSUE: Bikeshed <code>unsafe-allow-redirects</code>.
        <li data-md>
         <p>Set <var>policy</var>’s <a data-link-type="dfn" href="#policy-self-origin" id="ref-for-policy-self-origin">self-origin</a> to <var>response</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-url" id="ref-for-concept-response-url">url</a>'s <a data-link-type="dfn" href="https://url.spec.whatwg.org/#concept-url-origin" id="ref-for-concept-url-origin">origin</a>.</p>
        <li data-md>
-        <p>Insert <var>policy</var> into <var>response</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-csp-list" id="ref-for-concept-response-csp-list⑤">CSP list</a>.</p>
+        <p>Insert <var>policy</var> into <var>response</var>’s <a data-link-type="dfn">CSP list</a>.</p>
       </ol>
     </ol>
     <h4 class="heading settled dfn-paneled algorithm" data-algorithm="Report Content Security Policy violations for request" data-dfn-type="dfn" data-export data-level="4.1.2" data-lt="Report Content Security Policy violations for request" id="report-for-request"><span class="secno">4.1.2. </span><span class="content"> Report Content Security Policy violations for <var>request</var> </span><a class="self-link" href="#report-for-request" id="ref-for-report-for-request"></a></h4>
@@ -1341,7 +1341,7 @@ ISSUE: Bikeshed <code>unsafe-allow-redirects</code>.
   response. That is, that a Service Worker hasn’t substituted a file which
   would violate the page’s CSP.</p>
      <li data-md>
-      <p>For each <var>policy</var> in <var>response</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-csp-list" id="ref-for-concept-response-csp-list⑥">CSP list</a>:</p>
+      <p>For each <var>policy</var> in <var>response</var>’s <a data-link-type="dfn">CSP list</a>:</p>
       <ol>
        <li data-md>
         <p>For each <var>directive</var> in <var>policy</var>:</p>
@@ -1389,7 +1389,7 @@ ISSUE: Bikeshed <code>unsafe-allow-redirects</code>.
      <li data-md>
       <p><a data-link-type="dfn" href="#content-security-policy-object" id="ref-for-content-security-policy-object②⑦">policy</a> is <a data-link-type="dfn" href="#enforced" id="ref-for-enforced①">enforced</a> during processing of the <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/semantics.html#meta" id="ref-for-meta⑨">meta</a></code> element’s <code><a data-link-type="element-sub" href="https://html.spec.whatwg.org/multipage/semantics.html#attr-meta-http-equiv" id="ref-for-attr-meta-http-equiv②">http-equiv</a></code>.</p>
      <li data-md>
-      <p>A <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document⑥">Document</a></code>'s <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="embedding-document">embedding document</dfn> is the <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document⑦">Document</a></code>'s <a data-link-type="dfn" href="https://html.spec.whatwg.org/#browsing-context" id="ref-for-browsing-context①">browsing context</a>’s <a data-link-type="dfn">container document</a>.</p>
+      <p>A <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document⑥">Document</a></code>'s <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="embedding-document">embedding document</dfn> is the <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document⑦">Document</a></code>'s <a data-link-type="dfn" href="https://html.spec.whatwg.org/#browsing-context" id="ref-for-browsing-context①">browsing context</a>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#bc-container-document" id="ref-for-bc-container-document">container document</a>.</p>
      <li data-md>
       <p>HTML populates each <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request" id="ref-for-concept-request①②">request</a>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-nonce-metadata" id="ref-for-concept-request-nonce-metadata">cryptographic nonce
   metadata</a> and <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-parser-metadata" id="ref-for-concept-request-parser-metadata">parser metadata</a> with relevant data from the
@@ -1410,7 +1410,7 @@ ISSUE: Bikeshed <code>unsafe-allow-redirects</code>.
     </ol>
     <h4 class="heading settled dfn-paneled algorithm" data-algorithm="Initialize a Document&apos;s CSP list" data-dfn-type="dfn" data-export data-level="4.2.1" data-lt="Initialize a Document&apos;s CSP list" id="initialize-document-csp"><span class="secno">4.2.1. </span><span class="content"> Initialize a <code>Document</code>'s <code>CSP list</code> </span><a class="self-link" href="#initialize-document-csp" id="ref-for-initialize-document-csp⑤"></a></h4>
     <p>Given a <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document⑧">Document</a></code> (<var>document</var>), a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response①⑤">response</a> (<var>response</var>), and a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request" id="ref-for-concept-request①③">request</a> or <code>null</code> (<var>request</var>) the user agent performs the following
-  steps in order to initialize <var>document</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-csp-list" id="ref-for-concept-document-csp-list">CSP list</a>:</p>
+  steps in order to initialize <var>document</var>’s <a data-link-type="dfn">CSP list</a>:</p>
     <ol>
      <li data-md>
       <p>If <var>request</var> is not <code>null</code> and <var>response</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-url" id="ref-for-concept-response-url①">url</a>’s <a data-link-type="dfn" href="https://url.spec.whatwg.org/#concept-url-scheme" id="ref-for-concept-url-scheme">scheme</a> is either a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#local-scheme" id="ref-for-local-scheme②">local scheme</a> or <code>javascript</code>:</p>
@@ -1419,11 +1419,11 @@ ISSUE: Bikeshed <code>unsafe-allow-redirects</code>.
         <p>For each <var>policy</var> in <var>request</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-client" id="ref-for-concept-request-client⑦">client</a>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-global" id="ref-for-concept-settings-object-global④">global object</a>’s <a data-link-type="dfn" href="#global-object-csp-list" id="ref-for-global-object-csp-list⑤">CSP list</a>:</p>
         <ol>
          <li data-md>
-          <p>Insert a copy of <var>policy</var> into <var>document</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-csp-list" id="ref-for-concept-document-csp-list①">CSP list</a>.</p>
+          <p>Insert a copy of <var>policy</var> into <var>document</var>’s <a data-link-type="dfn">CSP list</a>.</p>
         </ol>
       </ol>
-      <p class="note" role="note"><span>Note:</span> For <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#an-iframe-srcdoc-document" id="ref-for-an-iframe-srcdoc-document">iframe srcdoc Documents</a>, <var>request</var> will be <code>null</code>, but <var>response</var> will contain a copy of the <a data-link-type="dfn" href="#embedding-document" id="ref-for-embedding-document">embedding document</a>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-csp-list" id="ref-for-concept-document-csp-list②">CSP list</a> in its <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-csp-list" id="ref-for-concept-response-csp-list⑦">CSP list</a>, as specified in <a data-link-type="dfn" href="https://html.spec.whatwg.org/#process-the-iframe-attributes" id="ref-for-process-the-iframe-attributes">process the iframe attributes</a>.
-  As such <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#an-iframe-srcdoc-document" id="ref-for-an-iframe-srcdoc-document①">iframe srcdoc Documents</a> inherit their <a data-link-type="dfn" href="#embedding-document" id="ref-for-embedding-document①">embedding document</a>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-csp-list" id="ref-for-concept-document-csp-list③">CSP list</a>.</p>
+      <p class="note" role="note"><span>Note:</span> For <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#an-iframe-srcdoc-document" id="ref-for-an-iframe-srcdoc-document">iframe srcdoc Documents</a>, <var>request</var> will be <code>null</code>, but <var>response</var> will contain a copy of the <a data-link-type="dfn" href="#embedding-document" id="ref-for-embedding-document">embedding document</a>’s <a data-link-type="dfn">CSP list</a> in its <a data-link-type="dfn">CSP list</a>, as specified in <a data-link-type="dfn" href="https://html.spec.whatwg.org/#process-the-iframe-attributes" id="ref-for-process-the-iframe-attributes">process the iframe attributes</a>.
+  As such <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#an-iframe-srcdoc-document" id="ref-for-an-iframe-srcdoc-document①">iframe srcdoc Documents</a> inherit their <a data-link-type="dfn" href="#embedding-document" id="ref-for-embedding-document①">embedding document</a>’s <a data-link-type="dfn">CSP list</a>.</p>
       <p class="note" role="note"><span>Note:</span> Since <a data-link-type="dfn" href="#policy-self-origin" id="ref-for-policy-self-origin①">self-origin</a> is also copied, any <a data-link-type="grammar" href="#grammardef-self" id="ref-for-grammardef-self③"><code>'self'</code></a> checks will be using the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsing-the-web.html#source-browsing-context" id="ref-for-source-browsing-context">source browsing context</a>’s origin. This is
   done for the purpose of making <a data-link-type="grammar" href="#grammardef-self" id="ref-for-grammardef-self④"><code>'self'</code></a> make sense in documents
   with <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/origin.html#concept-origin-opaque" id="ref-for-concept-origin-opaque①">opaque origins</a>. The <a data-link-type="grammar" href="#grammardef-self" id="ref-for-grammardef-self⑤"><code>'self'</code></a> keyword is used
@@ -1431,9 +1431,9 @@ ISSUE: Bikeshed <code>unsafe-allow-redirects</code>.
       <p class="note" role="note"><span>Note:</span> We do all this to ensure that a page cannot bypass its <a data-link-type="dfn" href="#content-security-policy-object" id="ref-for-content-security-policy-object②⑧">policy</a> by embedding a frame or popping up a new window containing content it
   controls (<code>blob:</code> resources, or <code>document.write()</code>).</p>
      <li data-md>
-      <p>For each <var>policy</var> in <var>response</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-csp-list" id="ref-for-concept-response-csp-list⑧">CSP list</a>, insert <var>policy</var> into <var>document</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-csp-list" id="ref-for-concept-document-csp-list④">CSP list</a>.</p>
+      <p>For each <var>policy</var> in <var>response</var>’s <a data-link-type="dfn">CSP list</a>, insert <var>policy</var> into <var>document</var>’s <a data-link-type="dfn">CSP list</a>.</p>
      <li data-md>
-      <p>For each <var>policy</var> in <var>document</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-csp-list" id="ref-for-concept-document-csp-list⑤">CSP list</a>:</p>
+      <p>For each <var>policy</var> in <var>document</var>’s <a data-link-type="dfn">CSP list</a>:</p>
       <ol>
        <li data-md>
         <p>For each <var>directive</var> in <var>policy</var>:</p>
@@ -1471,13 +1471,13 @@ ISSUE: Bikeshed <code>unsafe-allow-redirects</code>.
       <p>If <var>global</var> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/workers.html#sharedworkerglobalscope" id="ref-for-sharedworkerglobalscope">SharedWorkerGlobalScope</a></code> or <code class="idl"><a data-link-type="idl" href="https://www.w3.org/TR/service-workers-1/#serviceworkerglobalscope" id="ref-for-serviceworkerglobalscope">ServiceWorkerGlobalScope</a></code>:</p>
       <ol>
        <li data-md>
-        <p>For each <var>policy</var> in <var>response</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-csp-list" id="ref-for-concept-response-csp-list⑨">CSP list</a>, insert <var>policy</var> into <var>global</var>’s <a data-link-type="dfn" href="#global-object-csp-list" id="ref-for-global-object-csp-list⑨">CSP list</a>.</p>
+        <p>For each <var>policy</var> in <var>response</var>’s <a data-link-type="dfn">CSP list</a>, insert <var>policy</var> into <var>global</var>’s <a data-link-type="dfn" href="#global-object-csp-list" id="ref-for-global-object-csp-list⑨">CSP list</a>.</p>
       </ol>
      <li data-md>
       <p>If <var>global</var> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/worklets.html#workletglobalscope" id="ref-for-workletglobalscope③">WorkletGlobalScope</a></code>:</p>
       <ol>
        <li data-md>
-        <p>Let <var>owner</var> be <var>global</var>’s <a data-link-type="dfn" href="https://www.w3.org/TR/worklets-1/#workletglobalscope-owner-document" id="ref-for-workletglobalscope-owner-document">owner document</a>.</p>
+        <p>Let <var>owner</var> be <var>global</var>’s <a data-link-type="dfn">owner document</a>.</p>
        <li data-md>
         <p>For each <var>policy</var> in <var>owner</var>’s <a data-link-type="dfn" href="#global-object-csp-list" id="ref-for-global-object-csp-list①⓪">CSP list</a>:</p>
         <ol>
@@ -1490,9 +1490,9 @@ ISSUE: Bikeshed <code>unsafe-allow-redirects</code>.
     <p>To obtain <var>object</var>’s <a data-link-type="dfn" href="#global-object-csp-list" id="ref-for-global-object-csp-list①③">CSP list</a>:</p>
     <ol>
      <li data-md>
-      <p>If <var>object</var> is a <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document⑨">Document</a></code> return <var>object</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-csp-list" id="ref-for-concept-document-csp-list⑥">CSP list</a>.</p>
+      <p>If <var>object</var> is a <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document⑨">Document</a></code> return <var>object</var>’s <a data-link-type="dfn">CSP list</a>.</p>
      <li data-md>
-      <p>If <var>object</var> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/window-object.html#window" id="ref-for-window①">Window</a></code> return <var>object</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/window-object.html#concept-document-window" id="ref-for-concept-document-window">associated <code>Document</code></a>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-csp-list" id="ref-for-concept-document-csp-list⑦">CSP list</a>.</p>
+      <p>If <var>object</var> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/window-object.html#window" id="ref-for-window①">Window</a></code> return <var>object</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/window-object.html#concept-document-window" id="ref-for-concept-document-window">associated <code>Document</code></a>’s <a data-link-type="dfn">CSP list</a>.</p>
      <li data-md>
       <p>If <var>object</var> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/workers.html#workerglobalscope" id="ref-for-workerglobalscope③">WorkerGlobalScope</a></code>, return <var>object</var>’s <a data-link-type="dfn" href="#global-object-csp-list" id="ref-for-global-object-csp-list①④">CSP list</a>.</p>
      <li data-md>
@@ -1617,7 +1617,7 @@ ISSUE: Bikeshed <code>unsafe-allow-redirects</code>.
      <li data-md>
       <p>Let <var>result</var> be "<code>Allowed</code>".</p>
      <li data-md>
-      <p>For each <var>policy</var> in <var>navigation response</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-csp-list" id="ref-for-concept-response-csp-list①⓪">CSP list</a>:</p>
+      <p>For each <var>policy</var> in <var>navigation response</var>’s <a data-link-type="dfn">CSP list</a>:</p>
       <p class="note" role="note"><span>Note:</span> Some directives (like <a data-link-type="dfn" href="#frame-ancestors" id="ref-for-frame-ancestors">frame-ancestors</a>) allow a <var>response</var>’s <a data-link-type="dfn" href="#content-security-policy" id="ref-for-content-security-policy">Content Security Policy</a> to act on the navigation.</p>
       <ol>
        <li data-md>
@@ -3209,7 +3209,7 @@ directive-value = <a data-link-type="grammar" href="#grammardef-ancestor-source-
       <p>While <var>current</var> is a <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#nested-browsing-context" id="ref-for-nested-browsing-context⑥">nested browsing context</a>:</p>
       <ol>
        <li data-md>
-        <p>Let <var>document</var> be <var>current</var>’s <a data-link-type="dfn">container document</a>.</p>
+        <p>Let <var>document</var> be <var>current</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#bc-container-document" id="ref-for-bc-container-document①">container document</a>.</p>
        <li data-md>
         <p>Let <var>origin</var> be the result of executing the <a data-link-type="dfn" href="https://url.spec.whatwg.org/#concept-url-parser" id="ref-for-concept-url-parser①">URL parser</a> on the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/origin.html#ascii-serialisation-of-an-origin" id="ref-for-ascii-serialisation-of-an-origin">ASCII serialization</a> of <var>document</var>’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document-origin" id="ref-for-concept-document-origin">origin</a>.</p>
        <li data-md>
@@ -5047,24 +5047,6 @@ rest of Google’s CSP Cabal.</p>
     Does nonce match source list? </a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-concept-response-csp-list">
-   <a href="https://fetch.spec.whatwg.org/#concept-response-csp-list">https://fetch.spec.whatwg.org/#concept-response-csp-list</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-concept-response-csp-list">4.1. 
-    Integration with Fetch </a> <a href="#ref-for-concept-response-csp-list①">(2)</a> <a href="#ref-for-concept-response-csp-list②">(3)</a>
-    <li><a href="#ref-for-concept-response-csp-list③">4.1.1. 
-    Set response’s CSP list </a> <a href="#ref-for-concept-response-csp-list④">(2)</a> <a href="#ref-for-concept-response-csp-list⑤">(3)</a>
-    <li><a href="#ref-for-concept-response-csp-list⑥">4.1.4. 
-    Should response to request be blocked by Content Security Policy? </a>
-    <li><a href="#ref-for-concept-response-csp-list⑦">4.2.1. 
-    Initialize a Document's CSP list </a> <a href="#ref-for-concept-response-csp-list⑧">(2)</a>
-    <li><a href="#ref-for-concept-response-csp-list⑨">4.2.2. 
-    Initialize a global object’s CSP list </a>
-    <li><a href="#ref-for-concept-response-csp-list①⓪">4.2.6. 
-    Should navigation response to navigation request of type
-    in target be blocked by Content Security Policy? </a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-concept-request-current-url">
    <a href="https://fetch.spec.whatwg.org/#concept-request-current-url">https://fetch.spec.whatwg.org/#concept-request-current-url</a><b>Referenced in:</b>
    <ul>
@@ -5614,6 +5596,15 @@ rest of Google’s CSP Cabal.</p>
     navigate-to Navigation Response Check </a> <a href="#ref-for-browsing-context⑦">(2)</a>
    </ul>
   </aside>
+  <aside class="dfn-panel" data-for="term-for-bc-container-document">
+   <a href="https://html.spec.whatwg.org/multipage/browsers.html#bc-container-document">https://html.spec.whatwg.org/multipage/browsers.html#bc-container-document</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-bc-container-document">4.2.
+    Integration with HTML </a>
+    <li><a href="#ref-for-bc-container-document①">6.3.2.1.
+    frame-ancestors Navigation Response Check </a>
+   </ul>
+  </aside>
   <aside class="dfn-panel" data-for="term-for-attr-meta-content">
    <a href="https://html.spec.whatwg.org/multipage/semantics.html#attr-meta-content">https://html.spec.whatwg.org/multipage/semantics.html#attr-meta-content</a><b>Referenced in:</b>
    <ul>
@@ -5633,15 +5624,6 @@ rest of Google’s CSP Cabal.</p>
    <ul>
     <li><a href="#ref-for-initialise-the-document-object">4.2. 
     Integration with HTML </a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-concept-document-csp-list">
-   <a href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-csp-list">https://html.spec.whatwg.org/multipage/dom.html#concept-document-csp-list</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-concept-document-csp-list">4.2.1. 
-    Initialize a Document's CSP list </a> <a href="#ref-for-concept-document-csp-list①">(2)</a> <a href="#ref-for-concept-document-csp-list②">(3)</a> <a href="#ref-for-concept-document-csp-list③">(4)</a> <a href="#ref-for-concept-document-csp-list④">(5)</a> <a href="#ref-for-concept-document-csp-list⑤">(6)</a>
-    <li><a href="#ref-for-concept-document-csp-list⑥">4.2.3. 
-    Retrieve the CSP list of an object </a> <a href="#ref-for-concept-document-csp-list⑦">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-current-settings-object">
@@ -6575,13 +6557,6 @@ rest of Google’s CSP Cabal.</p>
     Violation DOM Events </a> <a href="#ref-for-idl-unsigned-short②">(2)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-workletglobalscope-owner-document">
-   <a href="https://www.w3.org/TR/worklets-1/#workletglobalscope-owner-document">https://www.w3.org/TR/worklets-1/#workletglobalscope-owner-document</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-workletglobalscope-owner-document">4.2.2. 
-    Initialize a global object’s CSP list </a>
-   </ul>
-  </aside>
   <h3 class="no-num no-ref heading settled" id="index-defined-elsewhere"><span class="content">Terms defined by reference</span><a class="self-link" href="#index-defined-elsewhere"></a></h3>
   <ul class="index">
    <li>
@@ -6633,7 +6608,6 @@ rest of Google’s CSP Cabal.</p>
      <li><span class="dfn-paneled" id="term-for-concept-request-client">client</span>
      <li><span class="dfn-paneled" id="term-for-concept-request-credentials-mode">credentials mode</span>
      <li><span class="dfn-paneled" id="term-for-concept-request-nonce-metadata">cryptographic nonce metadata</span>
-     <li><span class="dfn-paneled" id="term-for-concept-response-csp-list">csp list</span>
      <li><span class="dfn-paneled" id="term-for-concept-request-current-url">current url</span>
      <li><span class="dfn-paneled" id="term-for-concept-request-destination">destination</span>
      <li><span class="dfn-paneled" id="term-for-extract-header-list-values">extracting header list values</span>
@@ -6680,10 +6654,10 @@ rest of Google’s CSP Cabal.</p>
      <li><span class="dfn-paneled" id="term-for-concept-document-window">associated document</span>
      <li><span class="dfn-paneled" id="term-for-the-base-element">base</span>
      <li><span class="dfn-paneled" id="term-for-browsing-context">browsing context</span>
+     <li><span class="dfn-paneled" id="term-for-bc-container-document">container document</span>
      <li><span class="dfn-paneled" id="term-for-attr-meta-content">content</span>
      <li><span class="dfn-paneled" id="term-for-attr-meta-http-equiv-content-security-policy">content security policy state</span>
      <li><span class="dfn-paneled" id="term-for-initialise-the-document-object">create and initialize a new document object</span>
-     <li><span class="dfn-paneled" id="term-for-concept-document-csp-list">csp list</span>
      <li><span class="dfn-paneled" id="term-for-current-settings-object">current settings object</span>
      <li><span class="dfn-paneled" id="term-for-attr-object-data">data</span>
      <li><span class="dfn-paneled" id="term-for-dom-document-2">document</span>
@@ -6723,8 +6697,8 @@ rest of Google’s CSP Cabal.</p>
      <li><span class="dfn-paneled" id="term-for-concept-origin-scheme">scheme</span>
      <li><span class="dfn-paneled" id="term-for-script">script</span>
      <li><span class="dfn-paneled" id="term-for-set-the-frozen-base-url">set the frozen base url</span>
-     <li><span class="dfn-paneled" id="term-for-dom-setinterval">setInterval()</span>
-     <li><span class="dfn-paneled" id="term-for-dom-settimeout">setTimeout()</span>
+     <li><span class="dfn-paneled" id="term-for-dom-setinterval">setInterval(handler, timeout, ...arguments)</span>
+     <li><span class="dfn-paneled" id="term-for-dom-settimeout">setTimeout(handler, timeout, ...arguments)</span>
      <li><span class="dfn-paneled" id="term-for-source-browsing-context">source browsing context</span>
      <li><span class="dfn-paneled" id="term-for-the-style-element">style</span>
      <li><span class="dfn-paneled" id="term-for-top-level-browsing-context">top-level browsing context</span>
@@ -6843,17 +6817,12 @@ rest of Google’s CSP Cabal.</p>
      <li><span class="dfn-paneled" id="term-for-idl-unsigned-long">unsigned long</span>
      <li><span class="dfn-paneled" id="term-for-idl-unsigned-short">unsigned short</span>
     </ul>
-   <li>
-    <a data-link-type="biblio">[worklets-1]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="term-for-workletglobalscope-owner-document">owner document</span>
-    </ul>
   </ul>
   <h2 class="no-num no-ref heading settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
   <h3 class="no-num no-ref heading settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
    <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
-   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-5/">CSS Cascading and Inheritance Level 5</a>. 19 March 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-5/">https://www.w3.org/TR/css-cascade-5/</a>
+   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-5/">CSS Cascading and Inheritance Level 5</a>. 8 June 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-5/">https://www.w3.org/TR/css-cascade-5/</a>
    <dt id="biblio-cssom">[CSSOM]
    <dd>Simon Pieters; Glenn Adams. <a href="https://www.w3.org/TR/cssom-1/">CSS Object Model (CSSOM)</a>. 17 March 2016. WD. URL: <a href="https://www.w3.org/TR/cssom-1/">https://www.w3.org/TR/cssom-1/</a>
    <dt id="biblio-dom">[DOM]
@@ -6902,13 +6871,11 @@ rest of Google’s CSP Cabal.</p>
    <dd>Anne van Kesteren. <a href="https://url.spec.whatwg.org/">URL Standard</a>. Living Standard. URL: <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
    <dt id="biblio-webidl">[WebIDL]
    <dd>Boris Zbarsky. <a href="https://heycam.github.io/webidl/">Web IDL</a>. 15 December 2016. ED. URL: <a href="https://heycam.github.io/webidl/">https://heycam.github.io/webidl/</a>
-   <dt id="biblio-worklets-1">[WORKLETS-1]
-   <dd>Ian Kilpatrick. <a href="https://www.w3.org/TR/worklets-1/">Worklets Level 1</a>. 8 September 2020. WD. URL: <a href="https://www.w3.org/TR/worklets-1/">https://www.w3.org/TR/worklets-1/</a>
   </dl>
   <h3 class="no-num no-ref heading settled" id="informative"><span class="content">Informative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-appmanifest">[APPMANIFEST]
-   <dd>Marcos Caceres; et al. <a href="https://www.w3.org/TR/appmanifest/">Web Application Manifest</a>. 9 March 2021. WD. URL: <a href="https://www.w3.org/TR/appmanifest/">https://www.w3.org/TR/appmanifest/</a>
+   <dd>Marcos Caceres; et al. <a href="https://www.w3.org/TR/appmanifest/">Web Application Manifest</a>. 9 June 2021. WD. URL: <a href="https://www.w3.org/TR/appmanifest/">https://www.w3.org/TR/appmanifest/</a>
    <dt id="biblio-beacon">[BEACON]
    <dd>Ilya Grigorik; et al. <a href="https://www.w3.org/TR/beacon/">Beacon</a>. 13 April 2017. CR. URL: <a href="https://www.w3.org/TR/beacon/">https://www.w3.org/TR/beacon/</a>
    <dt id="biblio-csp2">[CSP2]

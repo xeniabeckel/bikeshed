@@ -994,7 +994,7 @@ on screen, on paper, etc.
 &lt;link rel="stylesheet" type="text/css" media="print" href="print.css">
 </pre>
    </div>
-   <p>CSS adapted and extended this functionality with its <a class="css" data-link-type="maybe" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media">@media</a> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-cascade-5/#at-ruledef-import" id="ref-for-at-ruledef-import">@import</a> rules,
+   <p>CSS adapted and extended this functionality with its <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media">@media</a> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-cascade-5/#at-ruledef-import" id="ref-for-at-ruledef-import">@import</a> rules,
 	adding the ability to query the value of individual features:</p>
    <div class="example" id="example-23ee34e2">
     <a class="self-link" href="#example-23ee34e2"></a> Inside a CSS style sheet,
@@ -1922,7 +1922,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
 	“unknown” must be converted to “false”.</p>
    <p class="note" role="note"><span>Note:</span> This means that,
 	for example,
-	when a <a data-link-type="dfn" href="#media-query" id="ref-for-media-query②⑤">media query</a> is used in a <a class="css" data-link-type="maybe" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media①">@media</a> rule,
+	when a <a data-link-type="dfn" href="#media-query" id="ref-for-media-query②⑤">media query</a> is used in a <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media①">@media</a> rule,
 	if it resolves to “unknown” it’s treated as “false”
 	and fails to match.</p>
    <div class="note" role="note">
@@ -2000,7 +2000,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
 <pre>@media test;,all { body { background:lime } }</pre>
     <p>The media query <span class="css">test;,all</span> is, parsed by itself,
 		equivalent to <span class="css">not all, all</span>, which is always true.
-		However, CSS’s parsing rules cause the <a class="css" data-link-type="maybe" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media②">@media</a> rule,
+		However, CSS’s parsing rules cause the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media②">@media</a> rule,
 		and thus the <a data-link-type="dfn" href="#media-query" id="ref-for-media-query③①">media query</a>,
 		to end at the semicolon.
 		The remainder of the text is treated as a style rule
@@ -2015,7 +2015,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-width">width</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media③">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media③">@media</a>
      <tr>
       <th>Value:
       <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#length-value" id="ref-for-length-value" title="Expands to: advance measure | cap | ch | cm | em | ex | ic | in | lh | mm | pc | pt | px | q | rem | rlh | vb | vh | vi | vmax | vmin | vw">&lt;length></a> 
@@ -2054,7 +2054,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-height">height</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media④">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media④">@media</a>
      <tr>
       <th>Value:
       <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#length-value" id="ref-for-length-value②" title="Expands to: advance measure | cap | ch | cm | em | ex | ic | in | lh | mm | pc | pt | px | q | rem | rlh | vb | vh | vi | vmax | vmin | vw">&lt;length></a> 
@@ -2075,7 +2075,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-aspect-ratio">aspect-ratio</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media⑤">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media⑤">@media</a>
      <tr>
       <th>Value:
       <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#ratio-value" id="ref-for-ratio-value①">&lt;ratio></a> 
@@ -2093,7 +2093,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-orientation">orientation</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media⑥">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media⑥">@media</a>
      <tr>
       <th>Value:
       <td class="prod">portrait <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-3/#comb-one" id="ref-for-comb-one">|</a> landscape 
@@ -2122,7 +2122,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-resolution">resolution</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media⑦">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media⑦">@media</a>
      <tr>
       <th>Value:
       <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#resolution-value" id="ref-for-resolution-value①" title="Expands to: dpcm | dpi | dppx | x">&lt;resolution></a> <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-3/#comb-one" id="ref-for-comb-one①">|</a> infinite 
@@ -2176,7 +2176,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-scan">scan</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media⑧">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media⑧">@media</a>
      <tr>
       <th>Value:
       <td class="prod">interlace <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-3/#comb-one" id="ref-for-comb-one②">|</a> progressive 
@@ -2217,7 +2217,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-grid">grid</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media⑨">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media⑨">@media</a>
      <tr>
       <th>Value:
       <td class="prod"><a class="production css" data-link-type="type" href="#typedef-mq-boolean" id="ref-for-typedef-mq-boolean">&lt;mq-boolean></a> 
@@ -2250,7 +2250,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-update">update</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media①⓪">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media①⓪">@media</a>
      <tr>
       <th>Value:
       <td class="prod">none <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-3/#comb-one" id="ref-for-comb-one③">|</a> slow <span id="ref-for-comb-one④">|</span> fast 
@@ -2294,7 +2294,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-overflow-block">overflow-block</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media①①">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media①①">@media</a>
      <tr>
       <th>Value:
       <td class="prod">none <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-3/#comb-one" id="ref-for-comb-one⑤">|</a> scroll <span id="ref-for-comb-one⑥">|</span> paged 
@@ -2339,7 +2339,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-overflow-inline">overflow-inline</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media①②">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media①②">@media</a>
      <tr>
       <th>Value:
       <td class="prod">none <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-3/#comb-one" id="ref-for-comb-one⑦">|</a> scroll 
@@ -2368,7 +2368,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-color">color</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media①③">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media①③">@media</a>
      <tr>
       <th>Value:
       <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#integer-value" id="ref-for-integer-value②">&lt;integer></a> 
@@ -2408,7 +2408,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-color-index">color-index</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media①④">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media①④">@media</a>
      <tr>
       <th>Value:
       <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#integer-value" id="ref-for-integer-value③">&lt;integer></a> 
@@ -2439,7 +2439,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-monochrome">monochrome</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media①⑤">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media①⑤">@media</a>
      <tr>
       <th>Value:
       <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#integer-value" id="ref-for-integer-value④">&lt;integer></a> 
@@ -2473,7 +2473,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-color-gamut">color-gamut</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media①⑥">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media①⑥">@media</a>
      <tr>
       <th>Value:
       <td class="prod">srgb <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-3/#comb-one" id="ref-for-comb-one⑧">|</a> p3 <span id="ref-for-comb-one⑨">|</span> rec2020 
@@ -2647,7 +2647,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-pointer">pointer</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media①⑦">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media①⑦">@media</a>
      <tr>
       <th>Value:
       <td class="prod">none <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-3/#comb-one" id="ref-for-comb-one①⓪">|</a> coarse <span id="ref-for-comb-one①①">|</span> fine 
@@ -2711,7 +2711,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-hover">hover</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media①⑧">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media①⑧">@media</a>
      <tr>
       <th>Value:
       <td class="prod">none <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-3/#comb-one" id="ref-for-comb-one①②">|</a> hover 
@@ -2774,7 +2774,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-any-pointer">any-pointer</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media①⑨">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media①⑨">@media</a>
      <tr>
       <th>Value:
       <td class="prod">none <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-3/#comb-one" id="ref-for-comb-one①③">|</a> coarse <span id="ref-for-comb-one①④">|</span> fine 
@@ -2789,7 +2789,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-any-hover">any-hover</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media②⓪">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media②⓪">@media</a>
      <tr>
       <th>Value:
       <td class="prod">none <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-3/#comb-one" id="ref-for-comb-one①⑤">|</a> hover 
@@ -2871,7 +2871,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-device-width">device-width</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media②①">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media②①">@media</a>
      <tr>
       <th>Value:
       <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#length-value" id="ref-for-length-value④" title="Expands to: advance measure | cap | ch | cm | em | ex | ic | in | lh | mm | pc | pt | px | q | rem | rlh | vb | vh | vi | vmax | vmin | vw">&lt;length></a> 
@@ -2902,7 +2902,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-device-height">device-height</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media②②">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media②②">@media</a>
      <tr>
       <th>Value:
       <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#length-value" id="ref-for-length-value⑤" title="Expands to: advance measure | cap | ch | cm | em | ex | ic | in | lh | mm | pc | pt | px | q | rem | rlh | vb | vh | vi | vmax | vmin | vw">&lt;length></a> 
@@ -2929,7 +2929,7 @@ it must instead be written as <span class="css">not ((color) or (hover))</span> 
       <td><dfn class="dfn-paneled css" data-dfn-for="@media" data-dfn-type="descriptor" data-export id="descdef-media-device-aspect-ratio">device-aspect-ratio</dfn>
      <tr>
       <th>For:
-      <td><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media②③">@media</a> 
+      <td><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media②③">@media</a>
      <tr>
       <th>Value:
       <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#ratio-value" id="ref-for-ratio-value②">&lt;ratio></a> 
@@ -3195,13 +3195,13 @@ Answers are provided below.</p>
 <script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script>
   <aside class="caniuse-status" data-deco data-dfn-id="resolution">
    <input class="caniuse-panel-btn" type="button" value="⋰">
-   <p class="support"><b>Support:</b><span class="android yes"><span>Android Browser</span><span>4.4+</span></span><span class="baidu yes"><span>Baidu Browser</span><span>7.12+</span></span><span class="bb no"><span>Blackberry Browser</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>29+</span></span><span class="and_chr yes"><span>Chrome for Android</span><span>89+</span></span><span class="edge yes"><span>Edge</span><span>12+</span></span><span class="firefox yes"><span>Firefox</span><span>16+</span></span><span class="and_ff yes"><span>Firefox for Android</span><span>86+</span></span><span class="ie partial"><span><span>IE (limited)</span></span><span>9+</span></span><span class="ie_mob partial"><span><span>IE Mobile (limited)</span></span><span>10+</span></span><span class="kaios yes"><span>KaiOS Browser</span><span>2.5+</span></span><span class="opera yes"><span>Opera</span><span>12.1+</span></span><span class="op_mini partial"><span><span>Opera Mini (limited)</span></span><span>All</span></span><span class="op_mob yes"><span>Opera Mobile</span><span>12.1+</span></span><span class="and_qq yes"><span>QQ Browser</span><span>10.4+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="ios_saf no"><span>Safari on iOS</span><span>None</span></span><span class="samsung yes"><span>Samsung Internet</span><span>4+</span></span><span class="and_uc yes"><span>UC Browser for Android</span><span>12.12+</span></span></p>
-   <p class="caniuse">Source: <a href="https://caniuse.com/#feat=css-media-resolution">caniuse.com</a> as of 2021-04-04</p>
+   <p class="support"><b>Support:</b><span class="android yes"><span>Android Browser</span><span>4.4+</span></span><span class="baidu yes"><span>Baidu Browser</span><span>7.12+</span></span><span class="bb no"><span>Blackberry Browser</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>29+</span></span><span class="and_chr yes"><span>Chrome for Android</span><span>91+</span></span><span class="edge yes"><span>Edge</span><span>12+</span></span><span class="firefox yes"><span>Firefox</span><span>16+</span></span><span class="and_ff yes"><span>Firefox for Android</span><span>89+</span></span><span class="ie partial"><span><span>IE (limited)</span></span><span>9+</span></span><span class="ie_mob partial"><span><span>IE Mobile (limited)</span></span><span>10+</span></span><span class="kaios yes"><span>KaiOS Browser</span><span>2.5+</span></span><span class="opera yes"><span>Opera</span><span>12.1+</span></span><span class="op_mini partial"><span><span>Opera Mini (limited)</span></span><span>All</span></span><span class="op_mob yes"><span>Opera Mobile</span><span>12.1+</span></span><span class="and_qq yes"><span>QQ Browser</span><span>10.4+</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="ios_saf no"><span>Safari on iOS</span><span>None</span></span><span class="samsung yes"><span>Samsung Internet</span><span>4+</span></span><span class="and_uc yes"><span>UC Browser for Android</span><span>12.12+</span></span></p>
+   <p class="caniuse">Source: <a href="https://caniuse.com/#feat=css-media-resolution">caniuse.com</a> as of 2021-06-12</p>
   </aside>
   <aside class="caniuse-status" data-deco data-dfn-id="mf-interaction">
    <input class="caniuse-panel-btn" type="button" value="⋰">
-   <p class="support"><b>Support:</b><span class="android yes"><span>Android Browser</span><span>89+</span></span><span class="baidu yes"><span>Baidu Browser</span><span>7.12+</span></span><span class="bb no"><span>Blackberry Browser</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>41+</span></span><span class="and_chr yes"><span>Chrome for Android</span><span>89+</span></span><span class="edge yes"><span>Edge</span><span>12+</span></span><span class="firefox yes"><span>Firefox</span><span>64+</span></span><span class="and_ff yes"><span>Firefox for Android</span><span>86+</span></span><span class="ie no"><span>IE</span><span>None</span></span><span class="ie_mob no"><span>IE Mobile</span><span>None</span></span><span class="kaios no"><span>KaiOS Browser</span><span>None</span></span><span class="opera yes"><span>Opera</span><span>28+</span></span><span class="op_mini no"><span>Opera Mini</span><span>None</span></span><span class="op_mob yes"><span>Opera Mobile</span><span>62+</span></span><span class="and_qq yes"><span>QQ Browser</span><span>10.4+</span></span><span class="safari yes"><span>Safari</span><span>9+</span></span><span class="ios_saf yes"><span>Safari on iOS</span><span>9.0+</span></span><span class="samsung yes"><span>Samsung Internet</span><span>5.0+</span></span><span class="and_uc yes"><span>UC Browser for Android</span><span>12.12+</span></span></p>
-   <p class="caniuse">Source: <a href="https://caniuse.com/#feat=css-media-interaction">caniuse.com</a> as of 2021-04-04</p>
+   <p class="support"><b>Support:</b><span class="android yes"><span>Android Browser</span><span>91+</span></span><span class="baidu yes"><span>Baidu Browser</span><span>7.12+</span></span><span class="bb no"><span>Blackberry Browser</span><span>None</span></span><span class="chrome yes"><span>Chrome</span><span>41+</span></span><span class="and_chr yes"><span>Chrome for Android</span><span>91+</span></span><span class="edge yes"><span>Edge</span><span>12+</span></span><span class="firefox yes"><span>Firefox</span><span>64+</span></span><span class="and_ff yes"><span>Firefox for Android</span><span>89+</span></span><span class="ie no"><span>IE</span><span>None</span></span><span class="ie_mob no"><span>IE Mobile</span><span>None</span></span><span class="kaios no"><span>KaiOS Browser</span><span>None</span></span><span class="opera yes"><span>Opera</span><span>28+</span></span><span class="op_mini no"><span>Opera Mini</span><span>None</span></span><span class="op_mob yes"><span>Opera Mobile</span><span>62+</span></span><span class="and_qq yes"><span>QQ Browser</span><span>10.4+</span></span><span class="safari yes"><span>Safari</span><span>9+</span></span><span class="ios_saf yes"><span>Safari on iOS</span><span>9.0+</span></span><span class="samsung yes"><span>Samsung Internet</span><span>5.0+</span></span><span class="and_uc yes"><span>UC Browser for Android</span><span>12.12+</span></span></p>
+   <p class="caniuse">Source: <a href="https://caniuse.com/#feat=css-media-interaction">caniuse.com</a> as of 2021-06-12</p>
   </aside>
   <h2 class="no-num no-ref heading settled" id="index"><span class="content">Index</span><a class="self-link" href="#index"></a></h2>
   <h3 class="no-num no-ref heading settled" id="index-defined-here"><span class="content">Terms defined by this specification</span><a class="self-link" href="#index-defined-here"></a></h3>
@@ -3323,7 +3323,7 @@ Width: the width feature</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-at-ruledef-media">
-   <a href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media">https://www.w3.org/TR/css3-conditional/#at-ruledef-media</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media">https://drafts.csswg.org/css-conditional-3/#at-ruledef-media</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-at-ruledef-media">1. 
 Introduction</a>
@@ -3665,7 +3665,7 @@ Syntax</a>
    <dt id="biblio-colorimetry">[COLORIMETRY]
    <dd><a href="http://www.cie.co.at/publications/colorimetry-4th-edition">Colorimetry, Fourth Edition. CIE 015:2018</a>. 2018. URL: <a href="http://www.cie.co.at/publications/colorimetry-4th-edition">http://www.cie.co.at/publications/colorimetry-4th-edition</a>
    <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
-   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-5/">CSS Cascading and Inheritance Level 5</a>. 19 March 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-5/">https://www.w3.org/TR/css-cascade-5/</a>
+   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-5/">CSS Cascading and Inheritance Level 5</a>. 8 June 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-5/">https://www.w3.org/TR/css-cascade-5/</a>
    <dt id="biblio-css-conditional-3">[CSS-CONDITIONAL-3]
    <dd>David Baron; Elika Etemad; Chris Lilley. <a href="https://www.w3.org/TR/css-conditional-3/">CSS Conditional Rules Module Level 3</a>. 8 December 2020. CR. URL: <a href="https://www.w3.org/TR/css-conditional-3/">https://www.w3.org/TR/css-conditional-3/</a>
    <dt id="biblio-css-syntax-3">[CSS-SYNTAX-3]
@@ -3708,7 +3708,7 @@ Syntax</a>
   </dl>
   <h2 class="no-num no-ref heading settled" id="property-index"><span class="content">Property Index</span><a class="self-link" href="#property-index"></a></h2>
   <p>No properties defined.</p>
-  <h3 class="no-num no-ref heading settled" id="media-descriptor-table"><span class="content"><a class="css" data-link-type="at-rule" href="https://www.w3.org/TR/css3-conditional/#at-ruledef-media" id="ref-for-at-ruledef-media②④">@media</a> Descriptors</span><a class="self-link" href="#media-descriptor-table"></a></h3>
+  <h3 class="no-num no-ref heading settled" id="media-descriptor-table"><span class="content"><a class="css" data-link-type="at-rule" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media②④">@media</a> Descriptors</span><a class="self-link" href="#media-descriptor-table"></a></h3>
   <div class="big-element-wrapper">
    <table class="index">
     <thead>

@@ -632,7 +632,7 @@ dfn > a.self-link::before      { content: "#"; }
      <dd> We know <i lang="la">a posteriori</i> that a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response①">response</a> (<var>response</var>) is unauthenticated if <var>response</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response-url" id="ref-for-concept-response-url">URL</a> is not a <a data-link-type="dfn" href="https://w3c.github.io/webappsec-secure-contexts/#potentially-trustworthy-url" id="ref-for-potentially-trustworthy-url①">potentially trustworthy URL</a>. 
      <dt><dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="embedding-document">embedding document</dfn>
      <dd> Given a <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document">Document</a></code> <var>A</var>, the <strong>embedding
-      document</strong> of <var>A</var> is <var>A</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#concept-document-bc" id="ref-for-concept-document-bc">browsing context</a>'s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#bc-container-document" id="ref-for-bc-container-document">container document</a> <a data-link-type="biblio" href="#biblio-html">[HTML]</a>. 
+      document</strong> of <var>A</var> is <var>A</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#concept-document-bc" id="ref-for-concept-document-bc">browsing context</a>'s <a data-link-type="dfn">container document</a> <a data-link-type="biblio" href="#biblio-html">[HTML]</a>.
      <dt><dfn data-dfn-type="dfn" data-export id="mixed-download">mixed download<a class="self-link" href="#mixed-download"></a></dfn>
      <dd> A mixed download is a resource that a user agent handles as a download,
       which was initiated by a secure context but is downloaded over an
@@ -663,7 +663,7 @@ dfn > a.self-link::before      { content: "#"; }
        <p>Requests whose <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-initiator" id="ref-for-concept-request-initiator">initiator</a> is the empty string, and whose <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-destination" id="ref-for-concept-request-destination">destination</a> is "<code>image</code>".</p>
        <p class="note" role="note"><span>Note:</span> This corresponds to most images loaded via <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element" id="ref-for-the-img-element">img</a></code> (including SVG documents loaded as
   images, as those are blocked from executing script or fetching subresources) and CSS
-  (<a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-background-image" id="ref-for-propdef-background-image">background-image</a>, <a class="property" data-link-type="propdesc" href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-image" id="ref-for-propdef-border-image">border-image</a>, etc). It does not include <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element" id="ref-for-the-img-element①">img</a></code> elements that <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/images.html#use-srcset-or-picture" id="ref-for-use-srcset-or-picture">use
+  (<a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image" id="ref-for-propdef-background-image">background-image</a>, <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-image" id="ref-for-propdef-border-image">border-image</a>, etc). It does not include <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element" id="ref-for-the-img-element①">img</a></code> elements that <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/images.html#use-srcset-or-picture" id="ref-for-use-srcset-or-picture">use
   srcset or picture</a>.</p>
       <li data-md>
        <p>Requests whose <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-destination" id="ref-for-concept-request-destination①">destination</a> is "<code>video</code>".</p>
@@ -975,16 +975,16 @@ dfn > a.self-link::before      { content: "#"; }
    <li><a href="#upgradeable-mixed-content">upgradeable mixed content</a><span>, in §3.1</span>
    <li><a href="#upgrade-algorithm">Upgrade a mixed content request to a potentially trustworthy URL, if appropriate</a><span>, in §4</span>
   </ul>
-  <aside class="dfn-panel" data-for="term-for-propdef-border-image">
-   <a href="https://www.w3.org/TR/css-backgrounds-3/#propdef-border-image">https://www.w3.org/TR/css-backgrounds-3/#propdef-border-image</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-propdef-border-image">3.1. Upgradeable Content</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-background-image">
-   <a href="https://drafts.csswg.org/css2/#propdef-background-image">https://drafts.csswg.org/css2/#propdef-background-image</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image">https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-background-image">3.1. Upgradeable Content</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-propdef-border-image">
+   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-image">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-image</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-propdef-border-image">3.1. Upgradeable Content</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-document">
@@ -1106,12 +1106,6 @@ dfn > a.self-link::before      { content: "#"; }
    <a href="https://html.spec.whatwg.org/multipage/browsers.html#concept-document-bc">https://html.spec.whatwg.org/multipage/browsers.html#concept-document-bc</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-concept-document-bc">2. Key Concepts and Terminology</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-bc-container-document">
-   <a href="https://html.spec.whatwg.org/multipage/browsers.html#bc-container-document">https://html.spec.whatwg.org/multipage/browsers.html#bc-container-document</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-bc-container-document">2. Key Concepts and Terminology</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-downloading-hyperlinks">
@@ -1258,12 +1252,8 @@ dfn > a.self-link::before      { content: "#"; }
    <li>
     <a data-link-type="biblio">[css-backgrounds-3]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="term-for-propdef-border-image">border-image</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[CSS21]</a> defines the following terms:
-    <ul>
      <li><span class="dfn-paneled" id="term-for-propdef-background-image">background-image</span>
+     <li><span class="dfn-paneled" id="term-for-propdef-border-image">border-image</span>
     </ul>
    <li>
     <a data-link-type="biblio">[DOM]</a> defines the following terms:
@@ -1292,7 +1282,6 @@ dfn > a.self-link::before      { content: "#"; }
      <li><span class="dfn-paneled" id="term-for-active-document">active document</span>
      <li><span class="dfn-paneled" id="term-for-audio">audio</span>
      <li><span class="dfn-paneled" id="term-for-concept-document-bc">browsing context</span>
-     <li><span class="dfn-paneled" id="term-for-bc-container-document">container document</span>
      <li><span class="dfn-paneled" id="term-for-downloading-hyperlinks">download the hyperlink</span>
      <li><span class="dfn-paneled" id="term-for-environment-settings-object">environment settings object</span>
      <li><span class="dfn-paneled" id="term-for-the-form-element">form</span>
@@ -1350,8 +1339,6 @@ dfn > a.self-link::before      { content: "#"; }
   <dl>
    <dt id="biblio-css-backgrounds-3">[CSS-BACKGROUNDS-3]
    <dd>Bert Bos; Elika Etemad; Brad Kemper. <a href="https://www.w3.org/TR/css-backgrounds-3/">CSS Backgrounds and Borders Module Level 3</a>. 22 December 2020. CR. URL: <a href="https://www.w3.org/TR/css-backgrounds-3/">https://www.w3.org/TR/css-backgrounds-3/</a>
-   <dt id="biblio-css21">[CSS21]
-   <dd>Bert Bos; et al. <a href="https://www.w3.org/TR/CSS21/">Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</a>. 7 June 2011. REC. URL: <a href="https://www.w3.org/TR/CSS21/">https://www.w3.org/TR/CSS21/</a>
    <dt id="biblio-rfc6919">[RFC6919]
    <dd>R. Barnes; S. Kent; E. Rescorla. <a href="https://datatracker.ietf.org/doc/html/rfc6919">Further Key Words for Use in RFCs to Indicate Requirement Levels</a>. 1 April 2013. Experimental. URL: <a href="https://datatracker.ietf.org/doc/html/rfc6919">https://datatracker.ietf.org/doc/html/rfc6919</a>
    <dt id="biblio-upgrade-insecure-requests">[UPGRADE-INSECURE-REQUESTS]

@@ -762,7 +762,7 @@ A human-readable <a href="http://www.w3.org/community/about/agreements/cla-deed/
       The <dfn class="dfn-paneled idl-code" data-dfn-for="Navigator" data-dfn-type="method" data-export id="dom-navigator-getinstalledrelatedapps"><code>getInstalledRelatedApps()</code></dfn> method, when invoked, runs these steps: 
      <ol>
       <li data-md>
-       <p>Let <var>relevantBrowsingContext</var> be the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object">context object</a>'s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object" id="ref-for-relevant-settings-object">relevant settings object</a>'s <a data-link-type="dfn">responsible browsing context</a>.</p>
+       <p>Let <var>relevantBrowsingContext</var> be the <a data-link-type="dfn">context object</a>'s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object" id="ref-for-relevant-settings-object">relevant settings object</a>'s <a data-link-type="dfn">responsible browsing context</a>.</p>
       <li data-md>
        <p>If <var>relevantBrowsingContext</var> is not a <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#top-level-browsing-context" id="ref-for-top-level-browsing-context">top-level browsing context</a>, then return <a data-link-type="dfn" href="https://heycam.github.io/webidl/#a-promise-rejected-with" id="ref-for-a-promise-rejected-with">a promise rejected with</a> an <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#invalidstateerror" id="ref-for-invalidstateerror">InvalidStateError</a></code> <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#idl-DOMException" id="ref-for-idl-DOMException">DOMException</a></code>.</p>
        <p class="issue" id="issue-311e9dcb"><a class="self-link" href="#issue-311e9dcb"></a> Should this restriction be removed? (<a href="https://github.com/WICG/get-installed-related-apps/issues/11">#11</a>)</p>
@@ -953,12 +953,6 @@ A human-readable <a href="http://www.w3.org/community/about/agreements/cla-deed/
     <li><a href="#ref-for-dom-externalapplicationresource-url①">5.2.1. getInstalledRelatedApps()</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-context-object">
-   <a href="https://dom.spec.whatwg.org/#context-object">https://dom.spec.whatwg.org/#context-object</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-context-object">5.2.1. getInstalledRelatedApps()</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-navigator">
    <a href="https://html.spec.whatwg.org/multipage/system-state.html#navigator">https://html.spec.whatwg.org/multipage/system-state.html#navigator</a><b>Referenced in:</b>
    <ul>
@@ -1135,11 +1129,6 @@ A human-readable <a href="http://www.w3.org/community/about/agreements/cla-deed/
      <li><span class="dfn-paneled" id="term-for-dom-externalapplicationresource-url">url</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[DOM]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="term-for-context-object">context object</span>
-    </ul>
-   <li>
     <a data-link-type="biblio">[HTML]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-navigator">Navigator</span>
@@ -1185,9 +1174,7 @@ A human-readable <a href="http://www.w3.org/community/about/agreements/cla-deed/
   <h3 class="no-num no-ref heading settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
    <dt id="biblio-appmanifest">[APPMANIFEST]
-   <dd>Marcos Caceres; et al. <a href="https://www.w3.org/TR/appmanifest/">Web Application Manifest</a>. 9 March 2021. WD. URL: <a href="https://www.w3.org/TR/appmanifest/">https://www.w3.org/TR/appmanifest/</a>
-   <dt id="biblio-dom">[DOM]
-   <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/">DOM Standard</a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
+   <dd>Marcos Caceres; et al. <a href="https://www.w3.org/TR/appmanifest/">Web Application Manifest</a>. 9 June 2021. WD. URL: <a href="https://www.w3.org/TR/appmanifest/">https://www.w3.org/TR/appmanifest/</a>
    <dt id="biblio-html">[HTML]
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/">HTML Standard</a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-infra">[INFRA]

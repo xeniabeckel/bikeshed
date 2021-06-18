@@ -980,9 +980,9 @@ supported, as <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipa
 </pre>
    <div>
     <p>A <code class="idl"><a data-link-type="idl" href="https://w3c.github.io/ServiceWorker/#serviceworkerregistration" id="ref-for-serviceworkerregistration②">ServiceWorkerRegistration</a></code> has a <dfn class="dfn-paneled" data-dfn-for="ServiceWorkerRegistration" data-dfn-type="dfn" data-noexport id="serviceworkerregistration-content-index">content index</dfn> (a <code class="idl"><a data-link-type="idl" href="#contentindex" id="ref-for-contentindex①">ContentIndex</a></code>), initially a
-  new <code class="idl"><a data-link-type="idl" href="#contentindex" id="ref-for-contentindex②">ContentIndex</a></code> whose <a data-link-type="dfn" href="#contentindex-service-worker-registration" id="ref-for-contentindex-service-worker-registration">service worker registration</a> is the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object">context
+  new <code class="idl"><a data-link-type="idl" href="#contentindex" id="ref-for-contentindex②">ContentIndex</a></code> whose <a data-link-type="dfn" href="#contentindex-service-worker-registration" id="ref-for-contentindex-service-worker-registration">service worker registration</a> is the <a data-link-type="dfn">context
   object</a>'s <a data-link-type="dfn" href="https://w3c.github.io/ServiceWorker/#dfn-service-worker-registration" id="ref-for-dfn-service-worker-registration③">service worker registration</a>.</p>
-    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="ServiceWorkerRegistration" data-dfn-type="attribute" data-export id="dom-serviceworkerregistration-index"><code>index</code></dfn> attribute’s getter must return the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object①">context object</a>'s <a data-link-type="dfn" href="#serviceworkerregistration-content-index" id="ref-for-serviceworkerregistration-content-index">content index</a>.</p>
+    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="ServiceWorkerRegistration" data-dfn-type="attribute" data-export id="dom-serviceworkerregistration-index"><code>index</code></dfn> attribute’s getter must return the <a data-link-type="dfn">context object</a>'s <a data-link-type="dfn" href="#serviceworkerregistration-content-index" id="ref-for-serviceworkerregistration-content-index">content index</a>.</p>
    </div>
    <h3 class="heading settled" data-level="5.3" id="content-index"><span class="secno">5.3. </span><span class="content"><code class="idl"><a data-link-type="idl" href="#contentindex" id="ref-for-contentindex③">ContentIndex</a></code></span><a class="self-link" href="#content-index"></a></h3>
    <div class="mdn-anno wrapped after">
@@ -997,7 +997,7 @@ supported, as <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipa
       <hr>
       <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
       <hr>
-      <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
+      <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>14.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
      </div>
     </div>
    </div>
@@ -1025,22 +1025,6 @@ supported, as <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipa
   <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-promise" id="ref-for-idl-promise②"><c- b>Promise</c-></a>&lt;<a data-link-type="dfn" href="https://heycam.github.io/webidl/#idl-sequence" id="ref-for-idl-sequence①"><c- b>sequence</c-></a>&lt;<a data-link-type="idl-name" href="#dictdef-contentdescription" id="ref-for-dictdef-contentdescription②"><c- n>ContentDescription</c-></a>>> <a class="idl-code" data-link-type="method" href="#dom-contentindex-getall" id="ref-for-dom-contentindex-getall"><c- g>getAll</c-></a>();
 };
 </pre>
-   <div class="mdn-anno wrapped">
-    <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
-    <div class="feature">
-     <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ContentIndex/getAll" title="The getAll() method of the ContentIndex interface returns a Promise that resolves with an iterable list of content index entries.">ContentIndex/getAll</a></p>
-     <p class="less-than-two-engines-text">In only one current engine.</p>
-     <div class="support">
-      <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome no"><span>Chrome</span><span>None</span></span>
-      <hr>
-      <span class="opera no"><span>Opera</span><span>None</span></span><span class="edge_blink no"><span>Edge</span><span>None</span></span>
-      <hr>
-      <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
-      <hr>
-      <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
-     </div>
-    </div>
-   </div>
    <div>
     <p>A <code class="idl"><a data-link-type="idl" href="#contentindex" id="ref-for-contentindex④">ContentIndex</a></code> has a <dfn class="dfn-paneled" data-dfn-for="ContentIndex" data-dfn-type="dfn" data-noexport id="contentindex-service-worker-registration">service worker registration</dfn> (a <a data-link-type="dfn" href="https://w3c.github.io/ServiceWorker/#dfn-service-worker-registration" id="ref-for-dfn-service-worker-registration④">service worker registration</a>).</p>
     <h4 class="heading settled" data-level="5.3.1" id="content-index-add"><span class="secno">5.3.1. </span><span class="content"><code class="idl"><a data-link-type="idl" href="#dom-contentindex-add" id="ref-for-dom-contentindex-add①">add()</a></code></span><a class="self-link" href="#content-index-add"></a></h4>
@@ -1056,7 +1040,7 @@ supported, as <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipa
        <hr>
        <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
        <hr>
-       <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
+       <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>14.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
       </div>
      </div>
     </div>
@@ -1065,13 +1049,13 @@ supported, as <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipa
     these steps <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel" id="ref-for-in-parallel">in parallel</a>: 
      <ol>
       <li data-md>
-       <p>Let <var>registration</var> be the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object②">context object</a>'s <a data-link-type="dfn" href="#contentindex-service-worker-registration" id="ref-for-contentindex-service-worker-registration①">service worker registration</a>.</p>
+       <p>Let <var>registration</var> be the <a data-link-type="dfn">context object</a>'s <a data-link-type="dfn" href="#contentindex-service-worker-registration" id="ref-for-contentindex-service-worker-registration①">service worker registration</a>.</p>
       <li data-md>
        <p>If <var>registration</var>’s <a data-link-type="dfn" href="https://w3c.github.io/ServiceWorker/#dfn-active-worker" id="ref-for-dfn-active-worker①">active worker</a> is null, <a data-link-type="dfn" href="https://heycam.github.io/webidl/#reject" id="ref-for-reject">reject</a> <var>promise</var> with a <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#exceptiondef-typeerror" id="ref-for-exceptiondef-typeerror">TypeError</a></code> and abort these steps.</p>
       <li data-md>
        <p>If any of <var>description</var>’s <code class="idl"><a data-link-type="idl" href="#dom-contentdescription-id" id="ref-for-dom-contentdescription-id②">id</a></code>, <code class="idl"><a data-link-type="idl" href="#dom-contentdescription-title" id="ref-for-dom-contentdescription-title①">title</a></code>, <code class="idl"><a data-link-type="idl" href="#dom-contentdescription-description" id="ref-for-dom-contentdescription-description①">description</a></code>, or <code class="idl"><a data-link-type="idl" href="#dom-contentdescription-url" id="ref-for-dom-contentdescription-url">url</a></code> is the empty <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#string" id="ref-for-string">string</a>, <a data-link-type="dfn" href="https://heycam.github.io/webidl/#reject" id="ref-for-reject①">reject</a> <var>promise</var> with a <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#exceptiondef-typeerror" id="ref-for-exceptiondef-typeerror①">TypeError</a></code> and abort these steps.</p>
       <li data-md>
-       <p>Let <var>launchURL</var> be the result of <a data-link-type="dfn" href="https://url.spec.whatwg.org/#concept-url-parser" id="ref-for-concept-url-parser">parsing</a> <var>description</var>’s <code class="idl"><a data-link-type="idl" href="#dom-contentdescription-url" id="ref-for-dom-contentdescription-url①">url</a></code> with <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object③">context object</a>'s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object" id="ref-for-relevant-settings-object">relevant settings object</a>'s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#api-base-url" id="ref-for-api-base-url">API base URL</a>.</p>
+       <p>Let <var>launchURL</var> be the result of <a data-link-type="dfn" href="https://url.spec.whatwg.org/#concept-url-parser" id="ref-for-concept-url-parser">parsing</a> <var>description</var>’s <code class="idl"><a data-link-type="idl" href="#dom-contentdescription-url" id="ref-for-dom-contentdescription-url①">url</a></code> with <a data-link-type="dfn">context object</a>'s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object" id="ref-for-relevant-settings-object">relevant settings object</a>'s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#api-base-url" id="ref-for-api-base-url">API base URL</a>.</p>
        <p class="note" role="note"><span>Note:</span> A new <a data-link-type="dfn" href="https://w3c.github.io/ServiceWorker/#dfn-service-worker-registration" id="ref-for-dfn-service-worker-registration⑤">service worker registration</a> might be introduced later with a narrower scope.</p>
       <li data-md>
        <p>Let <var>matchedRegistration</var> be the result of running <a data-link-type="dfn" href="https://w3c.github.io/ServiceWorker/#match-service-worker-registration" id="ref-for-match-service-worker-registration">Match Service Worker Registration</a> algorithm with <var>launchURL</var> as its argument.</p>
@@ -1096,7 +1080,7 @@ properties:</p>
            <p><var>resource</var>’s <a data-link-type="dfn" href="https://w3c.github.io/image-resource/#dfn-src" id="ref-for-dfn-src">src</a>.</p>
           <dt data-md><a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-client" id="ref-for-concept-request-client">Client</a>
           <dd data-md>
-           <p><a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object④">context object</a>'s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object" id="ref-for-relevant-settings-object①">relevant settings object</a>.</p>
+           <p><a data-link-type="dfn">context object</a>'s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#relevant-settings-object" id="ref-for-relevant-settings-object①">relevant settings object</a>.</p>
           <dt data-md><a data-link-type="dfn">Keepalive flag</a>
           <dd data-md>
            <p>Set.</p>
@@ -1164,7 +1148,7 @@ steps.</p>
        <hr>
        <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
        <hr>
-       <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
+       <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>14.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
       </div>
      </div>
     </div>
@@ -1173,7 +1157,7 @@ steps.</p>
     steps <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel" id="ref-for-in-parallel①">in parallel</a>: 
      <ol>
       <li data-md>
-       <p>Let <var>registration</var> be the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object⑤">context object</a>'s <a data-link-type="dfn" href="#contentindex-service-worker-registration" id="ref-for-contentindex-service-worker-registration②">service worker registration</a>.</p>
+       <p>Let <var>registration</var> be the <a data-link-type="dfn">context object</a>'s <a data-link-type="dfn" href="#contentindex-service-worker-registration" id="ref-for-contentindex-service-worker-registration②">service worker registration</a>.</p>
       <li data-md>
        <p>Let <var>contentIndexEntries</var> be <var>registration</var>’s <a data-link-type="dfn" href="#service-worker-registration-content-index-entries" id="ref-for-service-worker-registration-content-index-entries③">content index entries</a>.</p>
       <li data-md>
@@ -1189,12 +1173,28 @@ steps.</p>
      </ol>
     </div>
     <h4 class="heading settled" data-level="5.3.3" id="content-index-getall"><span class="secno">5.3.3. </span><span class="content"><code class="idl"><a data-link-type="idl" href="#dom-contentindex-getall" id="ref-for-dom-contentindex-getall①">getAll()</a></code></span><a class="self-link" href="#content-index-getall"></a></h4>
+    <div class="mdn-anno wrapped after">
+     <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
+     <div class="feature">
+      <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ContentIndex/getAll" title="The getAll() method of the ContentIndex interface returns a Promise that resolves with an iterable list of content index entries.">ContentIndex/getAll</a></p>
+      <p class="less-than-two-engines-text">In only one current engine.</p>
+      <div class="support">
+       <span class="firefox no"><span>Firefox</span><span>None</span></span><span class="safari no"><span>Safari</span><span>None</span></span><span class="chrome no"><span>Chrome</span><span>None</span></span>
+       <hr>
+       <span class="opera no"><span>Opera</span><span>None</span></span><span class="edge_blink no"><span>Edge</span><span>None</span></span>
+       <hr>
+       <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
+       <hr>
+       <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>14.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
+      </div>
+     </div>
+    </div>
     <div class="algorithm" data-algorithm="getAll()">
       The <dfn class="dfn-paneled idl-code" data-dfn-for="ContentIndex" data-dfn-type="method" data-export id="dom-contentindex-getall"><code>getAll()</code></dfn> method, when invoked, must return <a data-link-type="dfn" href="https://heycam.github.io/webidl/#a-new-promise" id="ref-for-a-new-promise②">a new promise</a> <var>promise</var> and run these
     steps <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/infrastructure.html#in-parallel" id="ref-for-in-parallel②">in parallel</a>: 
      <ol>
       <li data-md>
-       <p>Let <var>registration</var> be the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object⑥">context object</a>'s <a data-link-type="dfn" href="#contentindex-service-worker-registration" id="ref-for-contentindex-service-worker-registration③">service worker registration</a>.</p>
+       <p>Let <var>registration</var> be the <a data-link-type="dfn">context object</a>'s <a data-link-type="dfn" href="#contentindex-service-worker-registration" id="ref-for-contentindex-service-worker-registration③">service worker registration</a>.</p>
       <li data-md>
        <p>Let <var>contentIndexEntries</var> be <var>registration</var>’s <a data-link-type="dfn" href="#service-worker-registration-content-index-entries" id="ref-for-service-worker-registration-content-index-entries④">content index entries</a>.</p>
       <li data-md>
@@ -1227,7 +1227,7 @@ steps.</p>
       <hr>
       <span class="edge no"><span>Edge (Legacy)</span><span>None</span></span><span class="ie no"><span>IE</span><span>None</span></span>
       <hr>
-      <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android no"><span>Samsung Internet</span><span>None</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
+      <span class="firefox_android no"><span>Firefox for Android</span><span>None</span></span><span class="safari_ios no"><span>iOS Safari</span><span>None</span></span><span class="chrome_android yes"><span>Chrome for Android</span><span>84+</span></span><span class="webview_android yes"><span>Android WebView</span><span>84+</span></span><span class="samsunginternet_android yes"><span>Samsung Internet</span><span>14.0+</span></span><span class="opera_android yes"><span>Opera Mobile</span><span>60+</span></span>
      </div>
     </div>
    </div>
@@ -1344,15 +1344,6 @@ steps.</p>
    <li><a href="#dom-contentdescription-url">url</a><span>, in §5.3</span>
    <li><a href="#dom-contentcategory-video">"video"</a><span>, in §5.3</span>
   </ul>
-  <aside class="dfn-panel" data-for="term-for-context-object">
-   <a href="https://dom.spec.whatwg.org/#context-object">https://dom.spec.whatwg.org/#context-object</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-context-object">5.2. Extensions to ServiceWorkerRegistration</a> <a href="#ref-for-context-object①">(2)</a>
-    <li><a href="#ref-for-context-object②">5.3.1. add()</a> <a href="#ref-for-context-object③">(2)</a> <a href="#ref-for-context-object④">(3)</a>
-    <li><a href="#ref-for-context-object⑤">5.3.2. delete()</a>
-    <li><a href="#ref-for-context-object⑥">5.3.3. getAll()</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-concept-request-client">
    <a href="https://fetch.spec.whatwg.org/#concept-request-client">https://fetch.spec.whatwg.org/#concept-request-client</a><b>Referenced in:</b>
    <ul>
@@ -1843,11 +1834,6 @@ steps.</p>
   <h3 class="no-num no-ref heading settled" id="index-defined-elsewhere"><span class="content">Terms defined by reference</span><a class="self-link" href="#index-defined-elsewhere"></a></h3>
   <ul class="index">
    <li>
-    <a data-link-type="biblio">[DOM]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="term-for-context-object">context object</span>
-    </ul>
-   <li>
     <a data-link-type="biblio">[FETCH]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-concept-request-client">client</span>
@@ -1961,14 +1947,12 @@ steps.</p>
   <h2 class="no-num no-ref heading settled" id="references"><span class="content">References</span><a class="self-link" href="#references"></a></h2>
   <h3 class="no-num no-ref heading settled" id="normative"><span class="content">Normative References</span><a class="self-link" href="#normative"></a></h3>
   <dl>
-   <dt id="biblio-dom">[DOM]
-   <dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/">DOM Standard</a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    <dt id="biblio-fetch">[FETCH]
    <dd>Anne van Kesteren. <a href="https://fetch.spec.whatwg.org/">Fetch Standard</a>. Living Standard. URL: <a href="https://fetch.spec.whatwg.org/">https://fetch.spec.whatwg.org/</a>
    <dt id="biblio-html">[HTML]
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/">HTML Standard</a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-image-resource">[IMAGE-RESOURCE]
-   <dd>Aaron Gustafson; Rayan Kanso; Marcos Caceres. <a href="https://www.w3.org/TR/image-resource/">Image Resource</a>. 29 March 2021. WD. URL: <a href="https://www.w3.org/TR/image-resource/">https://www.w3.org/TR/image-resource/</a>
+   <dd>Aaron Gustafson; Rayan Kanso; Marcos Caceres. <a href="https://www.w3.org/TR/image-resource/">Image Resource</a>. 4 June 2021. WD. URL: <a href="https://www.w3.org/TR/image-resource/">https://www.w3.org/TR/image-resource/</a>
    <dt id="biblio-infra">[INFRA]
    <dd>Anne van Kesteren; Domenic Denicola. <a href="https://infra.spec.whatwg.org/">Infra Standard</a>. Living Standard. URL: <a href="https://infra.spec.whatwg.org/">https://infra.spec.whatwg.org/</a>
    <dt id="biblio-page-visibility">[PAGE-VISIBILITY]

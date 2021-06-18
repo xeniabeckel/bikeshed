@@ -574,7 +574,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
      <dt>Latest published version:
      <dd><a href="https://www.w3.org/TR/picture-in-picture/">https://www.w3.org/TR/picture-in-picture/</a>
      <dt>Previous Versions:
-     <dd><a href="https://www.w3.org/TR/2021/WD-picture-in-picture-20210315/" rel="prev">https://www.w3.org/TR/2021/WD-picture-in-picture-20210315/</a>
+     <dd><a href="https://www.w3.org/TR/2021/WD-picture-in-picture-20210604/" rel="prev">https://www.w3.org/TR/2021/WD-picture-in-picture-20210604/</a>
      <dt class="editor">Editors:
      <dd class="editor p-author h-card vcard" data-editor-id="81174"><a class="p-name fn u-email email" href="mailto:fbeaufort@google.com">François Beaufort</a> (<a class="p-org org" href="https://www.google.com">Google LLC</a>)
      <dd class="editor p-author h-card vcard" data-editor-id="45389"><a class="p-name fn u-email email" href="mailto:mlamouri@google.com">Mounir Lamouri</a> (<a class="p-org org" href="https://www.google.com">Google LLC</a>)
@@ -978,7 +978,7 @@ exception and abort these steps.</p>
   [<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#NewObject" id="ref-for-NewObject①"><c- g>NewObject</c-></a>] <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-promise" id="ref-for-idl-promise①"><c- b>Promise</c-></a>&lt;<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined" id="ref-for-idl-undefined"><c- b>undefined</c-></a>> <dfn class="dfn-paneled idl-code" data-dfn-for="Document" data-dfn-type="method" data-export data-lt="exitPictureInPicture()" id="dom-document-exitpictureinpicture"><code><c- g>exitPictureInPicture</c-></code></dfn>();
 };
 </pre>
-   <p>The <code class="idl"><a data-link-type="idl" href="#dom-document-pictureinpictureenabled" id="ref-for-dom-document-pictureinpictureenabled">pictureInPictureEnabled</a></code> attribute’s getter must return <code>true</code> if <a data-link-type="dfn" href="#picture-in-picture-support" id="ref-for-picture-in-picture-support①">Picture-in-Picture support</a> is <code>true</code> and the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object">context object</a> is <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#allowed-to-use" id="ref-for-allowed-to-use①">allowed to use</a> the feature indicated by attribute name <code>picture-in-picture</code>, and <code>false</code> otherwise.</p>
+   <p>The <code class="idl"><a data-link-type="idl" href="#dom-document-pictureinpictureenabled" id="ref-for-dom-document-pictureinpictureenabled">pictureInPictureEnabled</a></code> attribute’s getter must return <code>true</code> if <a data-link-type="dfn" href="#picture-in-picture-support" id="ref-for-picture-in-picture-support①">Picture-in-Picture support</a> is <code>true</code> and the <a data-link-type="dfn">context object</a> is <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#allowed-to-use" id="ref-for-allowed-to-use①">allowed to use</a> the feature indicated by attribute name <code>picture-in-picture</code>, and <code>false</code> otherwise.</p>
    <p><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="picture-in-picture-support">Picture-in-Picture support</dfn> is <code>false</code> if there’s a user preference
 that disables it or a platform limitation. It is <code>true</code> otherwise.</p>
    <p>The <code class="idl"><a data-link-type="idl" href="#dom-document-exitpictureinpicture" id="ref-for-dom-document-exitpictureinpicture">exitPictureInPicture()</a></code> method, when invoked, MUST
@@ -1001,13 +1001,13 @@ exception and abort these steps.</p>
    <p>The <code class="idl"><a data-link-type="idl" href="#dom-documentorshadowroot-pictureinpictureelement" id="ref-for-dom-documentorshadowroot-pictureinpictureelement①⑤">pictureInPictureElement</a></code> attribute’s getter must run these steps:</p>
    <ol>
     <li data-md>
-     <p>If the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object①">context object</a> is not <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#connected" id="ref-for-connected">connected</a>, return <code>null</code> and abort
+     <p>If the <a data-link-type="dfn">context object</a> is not <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#connected" id="ref-for-connected">connected</a>, return <code>null</code> and abort
 these steps.</p>
     <li data-md>
      <p>Let <var>candidate</var> be the result of <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#retarget" id="ref-for-retarget">retargeting</a> Picture-in-Picture
-element against the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object②">context object</a>.</p>
+element against the <a data-link-type="dfn">context object</a>.</p>
     <li data-md>
-     <p>If <var>candidate</var> and the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#context-object" id="ref-for-context-object③">context object</a> are in the same <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-tree" id="ref-for-concept-tree">tree</a>,
+     <p>If <var>candidate</var> and the <a data-link-type="dfn">context object</a> are in the same <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-tree" id="ref-for-concept-tree">tree</a>,
 return <var>candidate</var> and abort these steps.</p>
     <li data-md>
      <p>Return <code>null</code>.</p>
@@ -1167,13 +1167,6 @@ Wörner for their contributions to this document.</p>
    <a href="https://dom.spec.whatwg.org/#connected">https://dom.spec.whatwg.org/#connected</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-connected">4.3. Extension to DocumentOrShadowRoot</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-context-object">
-   <a href="https://dom.spec.whatwg.org/#context-object">https://dom.spec.whatwg.org/#context-object</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-context-object">4.2. Extensions to Document</a>
-    <li><a href="#ref-for-context-object①">4.3. Extension to DocumentOrShadowRoot</a> <a href="#ref-for-context-object②">(2)</a> <a href="#ref-for-context-object③">(3)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-concept-document">
@@ -1480,7 +1473,6 @@ Wörner for their contributions to this document.</p>
      <li><span class="dfn-paneled" id="term-for-eventtarget">EventTarget</span>
      <li><span class="dfn-paneled" id="term-for-dom-event-bubbles">bubbles</span>
      <li><span class="dfn-paneled" id="term-for-connected">connected</span>
-     <li><span class="dfn-paneled" id="term-for-context-object">context object</span>
      <li><span class="dfn-paneled" id="term-for-concept-document">document</span>
      <li><span class="dfn-paneled" id="term-for-concept-event-fire">fire an event</span>
      <li><span class="dfn-paneled" id="term-for-concept-reflect">reflect</span>
@@ -1580,7 +1572,7 @@ Wörner for their contributions to this document.</p>
   <h3 class="no-num no-ref heading settled" id="informative"><span class="content">Informative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
    <dt id="biblio-mediasession">[MediaSession]
-   <dd>Mounir Lamouri; Becca Hughes. <a href="https://www.w3.org/TR/mediasession/">Media Session Standard</a>. 30 January 2020. WD. URL: <a href="https://www.w3.org/TR/mediasession/">https://www.w3.org/TR/mediasession/</a>
+   <dd>Mounir Lamouri; Becca Hughes. <a href="https://www.w3.org/TR/mediasession/">Media Session Standard</a>. 4 June 2021. WD. URL: <a href="https://www.w3.org/TR/mediasession/">https://www.w3.org/TR/mediasession/</a>
    <dt id="biblio-secure-contexts">[SECURE-CONTEXTS]
    <dd>Mike West. <a href="https://www.w3.org/TR/secure-contexts/">Secure Contexts</a>. 15 September 2016. CR. URL: <a href="https://www.w3.org/TR/secure-contexts/">https://www.w3.org/TR/secure-contexts/</a>
   </dl>
