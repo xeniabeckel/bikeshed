@@ -514,7 +514,10 @@ def fixInterDocumentReferences(doc):
 
 def fillInterDocumentReferenceFromShepherd(doc, el, spec, section):
     specData = doc.refs.fetchHeadings(spec)
-    if section in specData:
+    if specData is None:
+        die("Don't have heading data for spec '{0}':\n{1}", spec, outerHTML(el), el=el)
+        return
+    elif section in specData:
         heading = specData[section]
     else:
         die(

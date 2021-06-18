@@ -559,9 +559,7 @@ class ReferenceManager:
                 if len(possibleMethods) > 1:
                     # Too many to disambiguate.
                     linkerror(
-                        "The argument autolink '{0}' for '{1}' has too many possible overloads to disambiguate. Please specify the full method signature this argument is for.",
-                        text,
-                        linkFor,
+                        f"The argument autolink '{text}' for '{linkFor}' has too many possible overloads to disambiguate. Please specify the full method signature this argument is for.",
                         el=el,
                     )
                 # Try out all the combinations of interface/status/signature
@@ -626,9 +624,7 @@ class ReferenceManager:
             if zeroRefsError and len(methodRefs) > 1:
                 # More than one possible foo() overload, can't tell which to link to
                 linkerror(
-                    "Too many possible method targets to disambiguate '{0}/{1}'. Please specify the names of the required args, like 'foo(bar, baz)', in the 'for' attribute.",
-                    linkFor,
-                    text,
+                    f"Too many possible method targets to disambiguate '{linkFor}/{text}'. Please specify the names of the required args, like 'foo(bar, baz)', in the 'for' attribute.",
                     el=el,
                 )
                 return
@@ -641,24 +637,19 @@ class ReferenceManager:
                 # Custom properties/descriptors aren't ever defined anywhere
                 return None
             if zeroRefsError:
-                linkerror("No '{0}' refs found for '{1}'.", linkType, text, el=el)
+                linkerror(f"No '{linkType}' refs found for '{type}'.", el=el)
             return None
         elif failure == "export":
             if zeroRefsError:
                 linkerror(
-                    "No '{0}' refs found for '{1}' that are marked for export.",
-                    linkType,
-                    text,
+                    f"No '{linkType}' refs found for '{text}' that are marked for export.",
                     el=el,
                 )
             return None
         elif failure == "spec":
             if zeroRefsError:
                 linkerror(
-                    "No '{0}' refs found for '{1}' with spec '{2}'.",
-                    linkType,
-                    text,
-                    spec,
+                    f"No '{linkType}' refs found for '{text}' with spec '{spec}'.",
                     el=el,
                 )
             return None
@@ -666,19 +657,12 @@ class ReferenceManager:
             if zeroRefsError:
                 if spec is None:
                     linkerror(
-                        "No '{0}' refs found for '{1}' with for='{2}'.",
-                        linkType,
-                        text,
-                        linkFor,
+                        f"No '{linkType}' refs found for '{text}' with for='{linkFor}'.",
                         el=el,
                     )
                 else:
                     linkerror(
-                        "No '{0}' refs found for '{1}' with for='{2}' in spec '{3}'.",
-                        linkType,
-                        text,
-                        linkFor,
-                        spec,
+                        f"No '{linkType}' refs found for '{text}' with for='{linkFor}' in spec '{spec}'.",
                         el=el,
                     )
             return None
@@ -686,36 +670,25 @@ class ReferenceManager:
             if zeroRefsError:
                 if spec is None:
                     linkerror(
-                        "No '{0}' refs found for '{1}' compatible with status '{2}'.",
-                        linkType,
-                        text,
-                        status,
+                        f"No '{linkType}' refs found for '{text}' compatible with status '{status}'.",
                         el=el,
                     )
                 else:
                     linkerror(
-                        "No '{0}' refs found for '{1}' compatible with status '{2}' in spec '{3}'.",
-                        linkType,
-                        text,
-                        status,
-                        spec,
+                        f"No '{linkType}' refs found for '{text}' compatible with status '{status}' in spec '{spec}'.",
                         el=el,
                     )
             return None
         elif failure == "ignored-specs":
             if zeroRefsError:
                 linkerror(
-                    "The only '{0}' refs for '{1}' were in ignored specs:\n{2}",
-                    linkType,
-                    text,
-                    outerHTML(el),
+                    f"The only '{linkType}' refs for '{text}' were in ignored specs:\n{outerHTML(el)}",
                     el=el,
                 )
             return None
         elif failure:
             die(
-                "Programming error - I'm not catching '{0}'-type link failures. Please report!",
-                failure,
+                f"Programming error - I'm not catching '{failure}'-type link failures. Please report!",
                 el=el,
             )
             return None
@@ -979,20 +952,16 @@ def reportMultiplePossibleRefs(
 
 
 def reportAmbiguousForlessLink(el, text, forlessRefs, localRefs):
+    localRefsStr = "\n".join(
+        [refToText(ref) for ref in simplifyPossibleRefs(localRefs, alwaysShowFor=True)]
+    )
+    forlessRefsStr = "\n".join(
+        [
+            refToText(ref)
+            for ref in simplifyPossibleRefs(forlessRefs, alwaysShowFor=True)
+        ]
+    )
     linkerror(
-        "Ambiguous for-less link for '{0}', please see <https://tabatkins.github.io/bikeshed/#ambi-for> for instructions:\nLocal references:\n{1}\nfor-less references:\n{2}",
-        text,
-        "\n".join(
-            [
-                refToText(ref)
-                for ref in simplifyPossibleRefs(localRefs, alwaysShowFor=True)
-            ]
-        ),
-        "\n".join(
-            [
-                refToText(ref)
-                for ref in simplifyPossibleRefs(forlessRefs, alwaysShowFor=True)
-            ]
-        ),
+        f"Ambiguous for-less link for '{text}', please see <https://tabatkins.github.io/bikeshed/#ambi-for> for instructions:\nLocal references:\n{localRefsStr}\nfor-less references:\n{forlessRefsStr}",
         el=el,
     )

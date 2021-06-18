@@ -50,11 +50,10 @@ def die(msg, *formatArgs, **namedArgs):
         errorAndExit()
 
 
-def linkerror(msg, *formatArgs, **namedArgs):
+def linkerror(msg, el=None, lineNum=None):
     lineNum = None
     suffix = ""
-    if "el" in namedArgs:
-        el = namedArgs["el"]
+    if el is not None:
         if el.get("line-number"):
             lineNum = el.get("line-number")
         else:
@@ -62,15 +61,11 @@ def linkerror(msg, *formatArgs, **namedArgs):
                 suffix = "\n{}".format(el.get("bs-autolink-syntax"))
             else:
                 suffix = "\n{}".format(
-                    lxml.html.tostring(
-                        namedArgs["el"], with_tail=False, encoding="unicode"
-                    )
+                    lxml.html.tostring(el, with_tail=False, encoding="unicode")
                 )
-    elif namedArgs.get("lineNum", None):
+    elif lineNum is not None:
         lineNum = namedArgs["lineNum"]
-    msg = formatMessage(
-        "link", msg.format(*formatArgs, **namedArgs) + suffix, lineNum=lineNum
-    )
+    msg = formatMessage("link", msg + suffix, lineNum=lineNum)
     if msg not in messages:
         messageCounts["linkerror"] += 1
         messages.add(msg)
