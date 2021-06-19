@@ -33,8 +33,8 @@ XRTargetRayMode
 -
 "transparent"
 enum-value
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dom-endingtype-transparent
@@ -44,8 +44,8 @@ EndingType
 -
 "transparent"
 enum-value
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dom-endingtype-transparent
@@ -336,8 +336,8 @@ https://w3c.github.io/dnt/drafts/tracking-dnt.html#dom-trackingexresult
 -
 TransactionInactiveError
 exception
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#transactioninactiveerror
@@ -825,6 +825,17 @@ https://streams.spec.whatwg.org/#transformstreamdefaultcontroller-transformalgor
 
 1
 TransformStreamDefaultController
+-
+[[transport]]
+dfn
+webtransport
+webtransport
+1
+current
+https://w3c.github.io/webtransport/#sendstream-transport
+
+1
+SendStream
 -
 [[transport]]
 dfn
@@ -1884,8 +1895,8 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#trailing
 -
 transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#object-store-handle-transaction
@@ -1895,8 +1906,8 @@ object-store-handle
 -
 transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#index-handle-transaction
@@ -1906,8 +1917,8 @@ index-handle
 -
 transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#transaction-concept
@@ -1916,8 +1927,8 @@ https://w3c.github.io/IndexedDB/#transaction-concept
 -
 transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#request-transaction
@@ -1927,8 +1938,8 @@ request
 -
 transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#cursor-transaction
@@ -1938,8 +1949,8 @@ cursor
 -
 transaction
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbrequest-transaction
@@ -1949,8 +1960,8 @@ IDBRequest
 -
 transaction
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-transaction
@@ -1960,8 +1971,8 @@ IDBObjectStore
 -
 transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#object-store-handle-transaction
@@ -1971,8 +1982,8 @@ object-store-handle
 -
 transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#index-handle-transaction
@@ -1982,8 +1993,8 @@ index-handle
 -
 transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#transaction-concept
@@ -1992,8 +2003,8 @@ https://www.w3.org/TR/IndexedDB-3/#transaction-concept
 -
 transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#request-transaction
@@ -2003,8 +2014,8 @@ request
 -
 transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#cursor-transaction
@@ -2014,8 +2025,8 @@ cursor
 -
 transaction
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbrequest-transaction
@@ -2025,8 +2036,8 @@ IDBRequest
 -
 transaction
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-transaction
@@ -2036,8 +2047,8 @@ IDBObjectStore
 -
 transaction(storeNames)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbdatabase-transaction
@@ -2047,8 +2058,8 @@ IDBDatabase
 -
 transaction(storeNames)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbdatabase-transaction
@@ -2058,8 +2069,8 @@ IDBDatabase
 -
 transaction(storeNames, mode)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbdatabase-transaction
@@ -2069,8 +2080,8 @@ IDBDatabase
 -
 transaction(storeNames, mode)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbdatabase-transaction
@@ -2080,8 +2091,8 @@ IDBDatabase
 -
 transaction(storeNames, mode, options)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbdatabase-transaction
@@ -2091,8 +2102,8 @@ IDBDatabase
 -
 transaction(storeNames, mode, options)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbdatabase-transaction
@@ -2155,16 +2166,6 @@ https://www.w3.org/TR/webrtc/#dom-rtcrtpsendparameters-transactionid
 1
 1
 RTCRtpSendParameters
--
-transactioninactiveerror
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#transactioninactiveerror
-
-1
 -
 transceiver
 enum-value
@@ -2336,6 +2337,17 @@ https://www.w3.org/TR/service-workers-1/#dom-client-postmessage-message-transfer
 Client/postMessage(message, transfer)
 Client/postMessage(message)
 -
+transfer
+dfn
+webidl-1
+webidl
+1
+current
+https://heycam.github.io/webidl/#arraybuffer-transfer
+1
+1
+ArrayBuffer
+-
 transfer function element
 dfn
 filter-effects-1
@@ -2407,7 +2419,7 @@ https://html.spec.whatwg.org/multipage/canvas.html#dom-canvas-transfercontroltoo
 1
 HTMLCanvasElement
 -
-transferFromImageBitmap(imageBitmap)
+transferFromImageBitmap(bitmap)
 method
 html
 html
@@ -2668,8 +2680,8 @@ https://www.w3.org/TR/mediacapture-depth/#dfn-transform
 -
 transform
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__transform
@@ -2679,8 +2691,8 @@ SVGGraphicsElement
 -
 transform
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGGraphicsElement__transform
@@ -4333,8 +4345,8 @@ https://www.w3.org/TR/css-color-4/#valdef-color-transparent
 -
 transparent
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-border-color-transparent
@@ -4348,8 +4360,8 @@ border-left-color
 -
 transparent
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-border-color-transparent
@@ -4653,9 +4665,31 @@ https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialdescriptor-transports
 PublicKeyCredentialDescriptor
 -
 transpose
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlconv2doptions-transpose
+1
+1
+MLConv2dOptions
+-
+transpose
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlconv2doptions-transpose
+1
+1
+MLConv2dOptions
+-
+transpose
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#transpose
@@ -4664,13 +4698,57 @@ https://gpuweb.github.io/gpuweb/wgsl/#transpose
 -
 transpose
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#transpose
 
 1
+-
+transpose(input)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-transpose
+1
+1
+MLGraphBuilder
+-
+transpose(input)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-transpose
+1
+1
+MLGraphBuilder
+-
+transpose(input, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-transpose
+1
+1
+MLGraphBuilder
+-
+transpose(input, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-transpose
+1
+1
+MLGraphBuilder
 -
 trash token
 dfn
@@ -4908,8 +4986,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#tree-order
 -
 tree order
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-tree-order

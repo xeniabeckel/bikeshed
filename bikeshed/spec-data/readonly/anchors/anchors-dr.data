@@ -238,8 +238,8 @@ https://www.w3.org/TR/css-paint-api-1/#draw-a-paint-image
 -
 draw command
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#draw-command
@@ -248,8 +248,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#draw-command
 -
 draw command
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#draw-command
@@ -649,6 +649,16 @@ https://w3c.github.io/performance-timeline/#dfn-dropped-entries-count
 
 1
 -
+dropped entries count
+dfn
+performance-timeline-2
+performance-timeline
+2
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dfn-dropped-entries-count
+
+1
+-
 dropped initial
 dfn
 css-inline-3
@@ -686,6 +696,17 @@ performance-timeline
 2
 current
 https://w3c.github.io/performance-timeline/#dom-performanceobservercallbackoptions-droppedentriescount
+1
+1
+PerformanceObserverCallbackOptions
+-
+droppedEntriesCount
+dict-member
+performance-timeline-2
+performance-timeline
+2
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dom-performanceobservercallbackoptions-droppedentriescount
 1
 1
 PerformanceObserverCallbackOptions

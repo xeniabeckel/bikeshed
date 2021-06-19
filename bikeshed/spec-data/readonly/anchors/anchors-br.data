@@ -101,8 +101,8 @@ https://webbluetoothcg.github.io/web-bluetooth/#br-edr-bonding-procedure
 -
 braille
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-media-braille
@@ -112,8 +112,8 @@ https://drafts.csswg.org/css2/#valdef-media-braille
 -
 braille
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-media-braille
@@ -1015,6 +1015,16 @@ snapshot
 https://www.w3.org/TR/webdriver2/#dfn-browser-chrome-element
 
 1
+-
+browser fingerprinting
+dfn
+fingerprinting-guidance
+fingerprinting-guidance
+1
+current
+https://w3c.github.io/fingerprinting-guidance/#dfn-browser-fingerprinting
+1
+
 -
 browser initiated remote playback
 dfn

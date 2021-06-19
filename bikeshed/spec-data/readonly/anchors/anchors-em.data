@@ -73,8 +73,8 @@ https://www.w3.org/TR/selectors-4/#empty-pseudo
 -
 EMPTY
 const
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dom-filereader-empty
@@ -84,8 +84,8 @@ FileReader
 -
 EMPTY
 const
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dom-filereader-empty
@@ -149,8 +149,8 @@ https://www.w3.org/TR/css-values-4/#em
 -
 em
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#em-width
@@ -160,8 +160,8 @@ https://drafts.csswg.org/css2/#em-width
 -
 em
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#em-width
@@ -276,24 +276,26 @@ https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-emheightdesce
 TextMetrics
 -
 email
-dfn
+attr-value
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#attr-input-type-email-keyword
-
 1
+1
+input/type
 -
 email
-dfn
+element-state
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#email-state-(type=email)
-
 1
+1
+input
 -
 email
 attr-value
@@ -343,17 +345,6 @@ https://wicg.github.io/contact-api/spec/#dom-contactinfo-email
 1
 1
 ContactInfo
--
-email
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-payererrors-email
-1
-1
-PayerErrors
 -
 email state
 dfn
@@ -420,8 +411,8 @@ unicode-bidi
 -
 embed
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-unicode-bidi-embed
@@ -431,8 +422,8 @@ unicode-bidi
 -
 embed
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-unicode-bidi-embed
@@ -538,16 +529,6 @@ html
 html
 1
 current
-https://html.spec.whatwg.org/multipage/dom.html#concept-document-embedder-policy
-
-1
--
-embedder policy
-dfn
-html
-html
-1
-current
 https://html.spec.whatwg.org/multipage/origin.html#embedder-policy
 1
 1
@@ -558,10 +539,10 @@ html
 html
 1
 current
-https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-embedder-policy
+https://html.spec.whatwg.org/multipage/origin.html#policy-container-embedder-policy
 1
 1
-environment settings object
+policy container
 -
 embedder policy
 dfn
@@ -573,17 +554,6 @@ https://html.spec.whatwg.org/multipage/workers.html#concept-workerglobalscope-em
 1
 1
 WorkerGlobalScope
--
-embedder policy
-dfn
-service-workers-1
-service-workers
-1
-current
-https://w3c.github.io/ServiceWorker/#service-worker-embedder-policy
-
-1
-service worker
 -
 embedder policy value
 dfn
@@ -658,8 +628,8 @@ https://w3c.github.io/mathml-core/#dfn-embellished-operator
 -
 embossed
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-media-embossed
@@ -669,8 +639,8 @@ https://drafts.csswg.org/css2/#valdef-media-embossed
 -
 embossed
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-media-embossed
@@ -876,8 +846,8 @@ https://w3c.github.io/web-nfc/#dfn-empty
 -
 empty
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#empty
@@ -886,8 +856,8 @@ https://drafts.csswg.org/css2/#empty
 -
 empty
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#empty
@@ -1108,8 +1078,8 @@ https://www.w3.org/TR/css-tables-3/#propdef-empty-cells
 -
 empty-cells
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-empty-cells
@@ -1118,8 +1088,8 @@ https://drafts.csswg.org/css2/#propdef-empty-cells
 -
 empty-cells
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-empty-cells
@@ -1128,8 +1098,8 @@ https://drafts.csswg.org/css2/#propdef-empty-cells
 -
 empty-cells
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/tables.html#propdef-empty-cells
@@ -1138,8 +1108,8 @@ https://www.w3.org/TR/CSS22/tables.html#propdef-empty-cells
 -
 empty-element tag
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-empty-element-tag
@@ -1170,8 +1140,8 @@ TrustedTypePolicyFactory
 -
 emptyelemtag
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-emptyelemtag

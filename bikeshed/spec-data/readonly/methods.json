@@ -359,7 +359,7 @@
       "for": [
         "Blob"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     },
     "Blob(blobParts)": {
       "args": [
@@ -368,7 +368,7 @@
       "for": [
         "Blob"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     },
     "Blob(blobParts, options)": {
       "args": [
@@ -378,7 +378,7 @@
       "for": [
         "Blob"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     }
   },
   "BlobEvent()": {
@@ -1353,7 +1353,7 @@
       "for": [
         "DOMException"
       ],
-      "shortname": "WebIDL"
+      "shortname": "webidl"
     },
     "DOMException(message)": {
       "args": [
@@ -1362,7 +1362,7 @@
       "for": [
         "DOMException"
       ],
-      "shortname": "WebIDL"
+      "shortname": "webidl"
     },
     "DOMException(message, name)": {
       "args": [
@@ -1372,7 +1372,7 @@
       "for": [
         "DOMException"
       ],
-      "shortname": "WebIDL"
+      "shortname": "webidl"
     }
   },
   "DOMMatrix()": {
@@ -2019,7 +2019,7 @@
       "for": [
         "File"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     },
     "File(fileBits, fileName, options)": {
       "args": [
@@ -2030,7 +2030,7 @@
       "for": [
         "File"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     }
   },
   "FileReader()": {
@@ -2039,7 +2039,7 @@
       "for": [
         "FileReader"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     }
   },
   "FileReaderSync()": {
@@ -2048,7 +2048,7 @@
       "for": [
         "FileReaderSync"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     }
   },
   "FocusEvent()": {
@@ -2396,7 +2396,7 @@
       "for": [
         "IDBVersionChangeEvent"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "IDBVersionChangeEvent(type, eventInitDict)": {
       "args": [
@@ -2406,7 +2406,7 @@
       "for": [
         "IDBVersionChangeEvent"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "IIRFilterNode()": {
@@ -2623,6 +2623,17 @@
         "LinearAccelerationSensor"
       ],
       "shortname": "accelerometer"
+    }
+  },
+  "MLGraphBuilder()": {
+    "MLGraphBuilder(context)": {
+      "args": [
+        "context"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "Magnetometer()": {
@@ -3022,105 +3033,6 @@
       "shortname": "payment-request"
     }
   },
-  "Performance.getEntries()": {
-    "Performance.getEntries()": {
-      "args": [],
-      "for": [
-        "Performance"
-      ],
-      "shortname": "performance-timeline"
-    }
-  },
-  "Performance.getEntriesByName()": {
-    "Performance.getEntriesByName()": {
-      "args": [],
-      "for": [
-        "Performance"
-      ],
-      "shortname": "performance-timeline"
-    }
-  },
-  "Performance.getEntriesByType()": {
-    "Performance.getEntriesByType()": {
-      "args": [],
-      "for": [
-        "Performance"
-      ],
-      "shortname": "performance-timeline"
-    }
-  },
-  "PerformanceEntry.toJSON()": {
-    "PerformanceEntry.toJSON()": {
-      "args": [],
-      "for": [
-        "PerformanceEntry"
-      ],
-      "shortname": "performance-timeline"
-    }
-  },
-  "PerformanceObserver.constructor()": {
-    "PerformanceObserver.constructor()": {
-      "args": [],
-      "for": [
-        "PerformanceObserver"
-      ],
-      "shortname": "performance-timeline"
-    }
-  },
-  "PerformanceObserver.disconnect()": {
-    "PerformanceObserver.disconnect()": {
-      "args": [],
-      "for": [
-        "PerformanceObserver"
-      ],
-      "shortname": "performance-timeline"
-    }
-  },
-  "PerformanceObserver.observe()": {
-    "PerformanceObserver.observe()": {
-      "args": [],
-      "for": [
-        "PerformanceObserver"
-      ],
-      "shortname": "performance-timeline"
-    }
-  },
-  "PerformanceObserver.takeRecords()": {
-    "PerformanceObserver.takeRecords()": {
-      "args": [],
-      "for": [
-        "PerformanceObserver"
-      ],
-      "shortname": "performance-timeline"
-    }
-  },
-  "PerformanceObserverEntryList.getEntries()": {
-    "PerformanceObserverEntryList.getEntries()": {
-      "args": [],
-      "for": [
-        "PerformanceObserverEntryList"
-      ],
-      "shortname": "performance-timeline"
-    }
-  },
-  "PerformanceObserverEntryList.getEntriesByName()": {
-    "PerformanceObserverEntryList.getEntriesByName()": {
-      "args": [],
-      "for": [
-        "PerformanceObserverEntryList"
-      ],
-      "shortname": "performance-timeline"
-    }
-  },
-  "PerformanceObserverEntryList.getEntriesByType()": {
-    "PerformanceObserverEntryList.getEntriesByType()": {
-      "args": [],
-      "for": [
-        "PerformanceObserverEntryList"
-      ],
-      "shortname": "performance-timeline"
-    }
-  },
   "PeriodicSyncEvent()": {
     "PeriodicSyncEvent(type, init)": {
       "args": [
@@ -3466,6 +3378,18 @@
       "shortname": "webrtc-encoded-transform"
     }
   },
+  "SFrameTransformErrorEvent()": {
+    "SFrameTransformErrorEvent(type, eventInitDict)": {
+      "args": [
+        "type",
+        "eventInitDict"
+      ],
+      "for": [
+        "SFrameTransformErrorEvent"
+      ],
+      "shortname": "webrtc-encoded-transform"
+    }
+  },
   "Sanitizer()": {
     "Sanitizer()": {
       "args": [],
@@ -3474,9 +3398,9 @@
       ],
       "shortname": "sanitizer-api"
     },
-    "Sanitizer(config)": {
+    "Sanitizer(aConfig)": {
       "args": [
-        "config"
+        "aConfig"
       ],
       "for": [
         "Sanitizer"
@@ -3510,7 +3434,7 @@
       "for": [
         "SecurityPolicyViolationEvent"
       ],
-      "shortname": "CSP"
+      "shortname": "csp"
     },
     "SecurityPolicyViolationEvent(type, eventInitDict)": {
       "args": [
@@ -3520,7 +3444,7 @@
       "for": [
         "SecurityPolicyViolationEvent"
       ],
-      "shortname": "CSP"
+      "shortname": "csp"
     }
   },
   "SensorErrorEvent()": {
@@ -4837,6 +4761,17 @@
       "shortname": "webtransport"
     }
   },
+  "abs()": {
+    "abs(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "acceptNode()": {
     "acceptNode(node)": {
       "args": [
@@ -4872,8 +4807,7 @@
       "for": [
         "CSSNumericValue",
         "DOMTokenList",
-        "DataTransferItemList",
-        "HTMLSelectElement"
+        "DataTransferItemList"
       ],
       "shortname": "dom"
     },
@@ -4895,6 +4829,16 @@
       ],
       "shortname": "css-typed-om"
     },
+    "add(a, b)": {
+      "args": [
+        "a",
+        "b"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
     "add(description)": {
       "args": [
         "description"
@@ -4910,7 +4854,8 @@
         "before"
       ],
       "for": [
-        "HTMLOptionsCollection"
+        "HTMLOptionsCollection",
+        "HTMLSelectElement"
       ],
       "shortname": "html"
     },
@@ -4960,7 +4905,7 @@
       "for": [
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "addAll()": {
@@ -5133,9 +5078,9 @@
     }
   },
   "addPath()": {
-    "addPath(b, transform)": {
+    "addPath(path, transform)": {
       "args": [
-        "b",
+        "path",
         "transform"
       ],
       "for": [
@@ -5347,7 +5292,7 @@
       "for": [
         "IDBCursor"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "after()": {
@@ -5771,6 +5716,27 @@
       "shortname": "dom"
     }
   },
+  "averagePool2d()": {
+    "averagePool2d(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "averagePool2d(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "back()": {
     "back()": {
       "args": [],
@@ -5778,6 +5744,31 @@
         "History"
       ],
       "shortname": "html"
+    }
+  },
+  "batchNormalization()": {
+    "batchNormalization(input, mean, variance)": {
+      "args": [
+        "input",
+        "mean",
+        "variance"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "batchNormalization(input, mean, variance, options)": {
+      "args": [
+        "input",
+        "mean",
+        "variance",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "before()": {
@@ -5916,7 +5907,7 @@
       "for": [
         "IDBKeyRange"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "bound(lower, upper, lowerOpen)": {
       "args": [
@@ -5927,7 +5918,7 @@
       "for": [
         "IDBKeyRange"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "bound(lower, upper, lowerOpen, upperOpen)": {
       "args": [
@@ -5939,7 +5930,7 @@
       "for": [
         "IDBKeyRange"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "btoa()": {
@@ -5951,6 +5942,17 @@
         "WindowOrWorkerGlobalScope"
       ],
       "shortname": "html"
+    }
+  },
+  "build()": {
+    "build(outputs)": {
+      "args": [
+        "outputs"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "canMakePayment()": {
@@ -6014,9 +6016,10 @@
         "handle"
       ],
       "for": [
+        "AnimationFrameProvider",
         "XRSession"
       ],
-      "shortname": "webxr"
+      "shortname": "html"
     }
   },
   "cancelIdleCallback()": {
@@ -6129,6 +6132,17 @@
       "shortname": "cssom-view"
     }
   },
+  "ceil()": {
+    "ceil(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "ch()": {
     "ch(value)": {
       "args": [
@@ -6213,9 +6227,11 @@
       "for": [
         "ElementInternals",
         "HTMLButtonElement",
+        "HTMLFieldSetElement",
         "HTMLFormElement",
         "HTMLInputElement",
         "HTMLObjectElement",
+        "HTMLOutputElement",
         "HTMLSelectElement",
         "HTMLTextAreaElement"
       ],
@@ -6240,6 +6256,27 @@
         "USBDevice"
       ],
       "shortname": "webusb"
+    }
+  },
+  "clamp()": {
+    "clamp(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "clamp(x, options)": {
+      "args": [
+        "x",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "clear()": {
@@ -6278,8 +6315,10 @@
     }
   },
   "clearData()": {
-    "clearData()": {
-      "args": [],
+    "clearData(format)": {
+      "args": [
+        "format"
+      ],
       "for": [
         "DataTransfer"
       ],
@@ -6403,7 +6442,7 @@
       "for": [
         "Geolocation"
       ],
-      "shortname": "geolocation-API"
+      "shortname": "geolocation-api"
     },
     "clearWatch(watchId)": {
       "args": [
@@ -6412,7 +6451,7 @@
       "for": [
         "Geolocation"
       ],
-      "shortname": "geolocation-API"
+      "shortname": "geolocation-api"
     }
   },
   "click()": {
@@ -6498,7 +6537,6 @@
         "Document",
         "EventSource",
         "HIDDevice",
-        "HTMLDialogElement",
         "IDBDatabase",
         "ImageBitmap",
         "ImageDecoder",
@@ -6540,6 +6578,15 @@
       ],
       "for": [
         "WebSocket"
+      ],
+      "shortname": "html"
+    },
+    "close(returnValue)": {
+      "args": [
+        "returnValue"
+      ],
+      "for": [
+        "HTMLDialogElement"
       ],
       "shortname": "html"
     }
@@ -6584,7 +6631,7 @@
       "for": [
         "IDBFactory"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "collapse()": {
@@ -6649,7 +6696,7 @@
       "for": [
         "IDBTransaction"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "commitStyles()": {
@@ -6754,6 +6801,18 @@
       "shortname": "dom"
     }
   },
+  "compute()": {
+    "compute(inputs, outputs)": {
+      "args": [
+        "inputs",
+        "outputs"
+      ],
+      "for": [
+        "MLGraph"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "computedStyleMap()": {
     "computedStyleMap()": {
       "args": [],
@@ -6763,13 +6822,16 @@
       "shortname": "css-typed-om"
     }
   },
-  "config()": {
-    "config()": {
-      "args": [],
-      "for": [
-        "Sanitizer"
+  "concat()": {
+    "concat(inputs, axis)": {
+      "args": [
+        "inputs",
+        "axis"
       ],
-      "shortname": "sanitizer-api"
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "configure()": {
@@ -6862,6 +6924,37 @@
         "AudioNode"
       ],
       "shortname": "webaudio"
+    }
+  },
+  "constant()": {
+    "constant(desc, bufferView)": {
+      "args": [
+        "desc",
+        "bufferView"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "constant(value)": {
+      "args": [
+        "value"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "constant(value, type)": {
+      "args": [
+        "value",
+        "type"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "constructor!overload-1()": {
@@ -6985,6 +7078,7 @@
         "PresentationConnectionAvailableEvent",
         "PresentationConnectionCloseEvent",
         "PresentationRequest",
+        "Profiler",
         "ProximitySensor",
         "PushEvent",
         "PushSubscriptionChangeEvent",
@@ -7052,6 +7146,15 @@
         "Highlight"
       ],
       "shortname": "css-highlight-api"
+    },
+    "constructor(aConfig)": {
+      "args": [
+        "aConfig"
+      ],
+      "for": [
+        "Sanitizer"
+      ],
+      "shortname": "sanitizer-api"
     },
     "constructor(alternate, endpointNumber, direction)": {
       "args": [
@@ -7169,7 +7272,7 @@
       "for": [
         "Blob"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     },
     "constructor(blobParts, options)": {
       "args": [
@@ -7179,7 +7282,7 @@
       "for": [
         "Blob"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     },
     "constructor(body)": {
       "args": [
@@ -7309,15 +7412,6 @@
       ],
       "shortname": "css-typed-om"
     },
-    "constructor(config)": {
-      "args": [
-        "config"
-      ],
-      "for": [
-        "Sanitizer"
-      ],
-      "shortname": "sanitizer-api"
-    },
     "constructor(configuration)": {
       "args": [
         "configuration"
@@ -7371,6 +7465,7 @@
         "DelayNode",
         "DynamicsCompressorNode",
         "GainNode",
+        "MLGraphBuilder",
         "MediaStreamAudioDestinationNode",
         "OscillatorNode",
         "PannerNode",
@@ -7578,7 +7673,7 @@
       "for": [
         "File"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     },
     "constructor(fileBits, fileName, options)": {
       "args": [
@@ -7589,7 +7684,7 @@
       "for": [
         "File"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     },
     "constructor(form)": {
       "args": [
@@ -7919,7 +8014,7 @@
       "for": [
         "DOMException"
       ],
-      "shortname": "WebIDL"
+      "shortname": "webidl"
     },
     "constructor(messageInit)": {
       "args": [
@@ -7934,17 +8029,6 @@
       "args": [
         "methodData",
         "details"
-      ],
-      "for": [
-        "PaymentRequest"
-      ],
-      "shortname": "payment-request"
-    },
-    "constructor(methodData, details, options)": {
-      "args": [
-        "methodData",
-        "details",
-        "options"
       ],
       "for": [
         "PaymentRequest"
@@ -8056,6 +8140,7 @@
         "GeolocationSensor",
         "GravitySensor",
         "LinearAccelerationSensor",
+        "Profiler",
         "SFrameTransform",
         "ScrollTimeline"
       ],
@@ -8637,6 +8722,7 @@
         "RTCPeerConnectionIceErrorEvent",
         "RTCPeerConnectionIceEvent",
         "RTCTrackEvent",
+        "SFrameTransformErrorEvent",
         "SecurityPolicyViolationEvent",
         "SpeechRecognitionErrorEvent",
         "SpeechRecognitionEvent",
@@ -9020,7 +9106,7 @@
       "for": [
         "IDBCursor"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "continue(key)": {
       "args": [
@@ -9029,7 +9115,7 @@
       "for": [
         "IDBCursor"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "continuePrimaryKey()": {
@@ -9041,7 +9127,7 @@
       "for": [
         "IDBCursor"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "controlTransferIn()": {
@@ -9075,6 +9161,29 @@
         "USBDevice"
       ],
       "shortname": "webusb"
+    }
+  },
+  "conv2d()": {
+    "conv2d(input, filter)": {
+      "args": [
+        "input",
+        "filter"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "conv2d(input, filter, options)": {
+      "args": [
+        "input",
+        "filter",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "convertPointFromNode()": {
@@ -9294,6 +9403,17 @@
       "shortname": "webaudio"
     }
   },
+  "cos()": {
+    "cos(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "count()": {
     "count()": {
       "args": [],
@@ -9321,7 +9441,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "countReset()": {
@@ -9649,13 +9769,49 @@
       "shortname": "webaudio"
     }
   },
+  "createContext()": {
+    "createContext()": {
+      "args": [],
+      "for": [
+        "ML"
+      ],
+      "shortname": "webnn"
+    },
+    "createContext(glContext)": {
+      "args": [
+        "glContext"
+      ],
+      "for": [
+        "ML"
+      ],
+      "shortname": "webnn"
+    },
+    "createContext(gpuDevice)": {
+      "args": [
+        "gpuDevice"
+      ],
+      "for": [
+        "ML"
+      ],
+      "shortname": "webnn"
+    },
+    "createContext(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "ML"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "createContextualFragment()": {
     "createContextualFragment()": {
       "args": [],
       "for": [
         "Range"
       ],
-      "shortname": "DOM-Parsing"
+      "shortname": "dom-parsing"
     },
     "createContextualFragment(fragment)": {
       "args": [
@@ -10077,7 +10233,7 @@
       "for": [
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "createIndex(name, keyPath, options)": {
       "args": [
@@ -10088,7 +10244,7 @@
       "for": [
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "createLinearGradient()": {
@@ -10207,7 +10363,7 @@
       "for": [
         "IDBDatabase"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "createObjectStore(name, options)": {
       "args": [
@@ -10217,7 +10373,7 @@
       "for": [
         "IDBDatabase"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "createObjectURL()": {
@@ -10228,7 +10384,7 @@
       "for": [
         "URL"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     }
   },
   "createOffer!overload-1()": {
@@ -10742,8 +10898,7 @@
         "parameters"
       ],
       "for": [
-        "UnidirectionalStreamsTransport",
-        "WebTransport"
+        "UnidirectionalStreamsTransport"
       ],
       "shortname": "webtransport"
     }
@@ -10811,7 +10966,7 @@
       "for": [
         "IDBFactory"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "debug()": {
@@ -10930,7 +11085,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     },
     "decrypt(algorithm, key, data)": {
       "args": [
@@ -10941,16 +11096,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
-    }
-  },
-  "defaultConfig()": {
-    "defaultConfig()": {
-      "args": [],
-      "for": [
-        "Sanitizer"
-      ],
-      "shortname": "sanitizer-api"
+      "shortname": "webcryptoapi"
     }
   },
   "define()": {
@@ -11061,7 +11207,7 @@
       "for": [
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "delete(request)": {
       "args": [
@@ -11132,7 +11278,7 @@
       "for": [
         "IDBFactory"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "deleteFromDocument()": {
@@ -11152,7 +11298,7 @@
       "for": [
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "deleteMedium()": {
@@ -11174,7 +11320,7 @@
       "for": [
         "IDBDatabase"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "deleteRow()": {
@@ -11236,7 +11382,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     },
     "deriveBits(algorithm, baseKey, length)": {
       "args": [
@@ -11247,7 +11393,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     }
   },
   "deriveKey()": {
@@ -11256,7 +11402,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     },
     "deriveKey(algorithm, baseKey, derivedKeyType, extractable, keyUsages)": {
       "args": [
@@ -11269,7 +11415,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     }
   },
   "destroy()": {
@@ -11314,7 +11460,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     },
     "digest(algorithm, data)": {
       "args": [
@@ -11324,7 +11470,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     }
   },
   "dir()": {
@@ -11526,6 +11672,16 @@
         "CSSNumericValue"
       ],
       "shortname": "css-typed-om"
+    },
+    "div(a, b)": {
+      "args": [
+        "a",
+        "b"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "document.exitpointerlock()": {
@@ -11883,7 +12039,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     },
     "encrypt(algorithm, key, data)": {
       "args": [
@@ -11894,7 +12050,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     }
   },
   "end()": {
@@ -12219,6 +12375,17 @@
       "shortname": "pointerlock"
     }
   },
+  "exp()": {
+    "exp(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "exponentialRampToValueAtTime()": {
     "exponentialRampToValueAtTime(value, endTime)": {
       "args": [
@@ -12237,7 +12404,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     },
     "exportKey(format, key)": {
       "args": [
@@ -12247,7 +12414,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     }
   },
   "exports()": {
@@ -12299,8 +12466,10 @@
     }
   },
   "fastSeek()": {
-    "fastSeek()": {
-      "args": [],
+    "fastSeek(time)": {
+      "args": [
+        "time"
+      ],
       "for": [
         "HTMLMediaElement"
       ],
@@ -12428,8 +12597,13 @@
     }
   },
   "fillText()": {
-    "fillText()": {
-      "args": [],
+    "fillText(text, x, y, maxWidth)": {
+      "args": [
+        "text",
+        "x",
+        "y",
+        "maxWidth"
+      ],
       "for": [
         "CanvasText"
       ],
@@ -12495,6 +12669,17 @@
       "shortname": "geometry"
     }
   },
+  "floor()": {
+    "floor(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "flush()": {
     "flush()": {
       "args": [],
@@ -12521,7 +12706,7 @@
         "options"
       ],
       "for": [
-        "Window"
+        "HTMLOrSVGElement"
       ],
       "shortname": "html"
     }
@@ -12695,6 +12880,29 @@
       "shortname": "webrtc-ice"
     }
   },
+  "gemm()": {
+    "gemm(a, b)": {
+      "args": [
+        "a",
+        "b"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "gemm(a, b, options)": {
+      "args": [
+        "a",
+        "b",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "generateCertificate()": {
     "generateCertificate()": {
       "args": [],
@@ -12719,7 +12927,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     },
     "generateKey(algorithm, extractable, keyUsages)": {
       "args": [
@@ -12730,7 +12938,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     }
   },
   "generateRequest()": {
@@ -12860,7 +13068,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "getAll()": {
@@ -12912,7 +13120,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "getAll(query, count)": {
       "args": [
@@ -12923,7 +13131,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "getAllKeys()": {
@@ -12933,7 +13141,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "getAllKeys(query)": {
       "args": [
@@ -12943,7 +13151,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "getAllKeys(query, count)": {
       "args": [
@@ -12954,7 +13162,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "getAllResponseHeaders()": {
@@ -13457,7 +13665,7 @@
       "for": [
         "Geolocation"
       ],
-      "shortname": "geolocation-API"
+      "shortname": "geolocation-api"
     },
     "getCurrentPosition(successCallback)": {
       "args": [
@@ -13466,7 +13674,7 @@
       "for": [
         "Geolocation"
       ],
-      "shortname": "geolocation-API"
+      "shortname": "geolocation-api"
     },
     "getCurrentPosition(successCallback, errorCallback)": {
       "args": [
@@ -13476,7 +13684,7 @@
       "for": [
         "Geolocation"
       ],
-      "shortname": "geolocation-API"
+      "shortname": "geolocation-api"
     },
     "getCurrentPosition(successCallback, errorCallback, options)": {
       "args": [
@@ -13487,7 +13695,7 @@
       "for": [
         "Geolocation"
       ],
-      "shortname": "geolocation-API"
+      "shortname": "geolocation-api"
     }
   },
   "getCurrentTexture()": {
@@ -13699,9 +13907,9 @@
     }
   },
   "getElementsByName()": {
-    "getElementsByName(name)": {
+    "getElementsByName(elementName)": {
       "args": [
-        "name"
+        "elementName"
       ],
       "for": [
         "Document"
@@ -14085,7 +14293,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "getKeyframes()": {
@@ -14491,7 +14699,7 @@
       "for": [
         "Crypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     },
     "getRandomValues(array)": {
       "args": [
@@ -14500,7 +14708,7 @@
       "for": [
         "Crypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     }
   },
   "getRangeAt()": {
@@ -15193,6 +15401,64 @@
       "shortname": "wasm-js-api"
     }
   },
+  "gru()": {
+    "gru(input, weight, recurrentWeight, steps, hiddenSize)": {
+      "args": [
+        "input",
+        "weight",
+        "recurrentWeight",
+        "steps",
+        "hiddenSize"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "gru(input, weight, recurrentWeight, steps, hiddenSize, options)": {
+      "args": [
+        "input",
+        "weight",
+        "recurrentWeight",
+        "steps",
+        "hiddenSize",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "gruCell()": {
+    "gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize)": {
+      "args": [
+        "input",
+        "weight",
+        "recurrentWeight",
+        "hiddenState",
+        "hiddenSize"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize, options)": {
+      "args": [
+        "input",
+        "weight",
+        "recurrentWeight",
+        "hiddenState",
+        "hiddenSize",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "handleEvent()": {
     "handleEvent(event)": {
       "args": [
@@ -15377,7 +15643,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     },
     "importKey(format, keyData, algorithm, extractable, keyUsages)": {
       "args": [
@@ -15390,7 +15656,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     }
   },
   "importNode()": {
@@ -15429,17 +15695,16 @@
       "for": [
         "WorkerGlobalScope"
       ],
-      "shortname": "trusted-types"
+      "shortname": "html"
     },
     "importScripts(urls)": {
       "args": [
         "urls"
       ],
       "for": [
-        "ServiceWorkerGlobalScope",
-        "WorkerGlobalScope"
+        "ServiceWorkerGlobalScope"
       ],
-      "shortname": "html"
+      "shortname": "service-workers"
     }
   },
   "importStylesheet()": {
@@ -15483,7 +15748,7 @@
       "for": [
         "IDBKeyRange"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "index()": {
@@ -15494,7 +15759,7 @@
       "for": [
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "info()": {
@@ -15800,8 +16065,17 @@
     }
   },
   "initMessageEvent()": {
-    "initMessageEvent()": {
-      "args": [],
+    "initMessageEvent(type, bubbles, cancelable, data, origin, lastEventId, source, ports)": {
+      "args": [
+        "type",
+        "bubbles",
+        "cancelable",
+        "data",
+        "origin",
+        "lastEventId",
+        "source",
+        "ports"
+      ],
       "for": [
         "MessageEvent"
       ],
@@ -16167,8 +16441,17 @@
     }
   },
   "initStorageEvent()": {
-    "initStorageEvent()": {
-      "args": [],
+    "initStorageEvent(type, bubbles, cancelable, key, oldValue, newValue, url, storageArea)": {
+      "args": [
+        "type",
+        "bubbles",
+        "cancelable",
+        "key",
+        "oldValue",
+        "newValue",
+        "url",
+        "storageArea"
+      ],
       "for": [
         "StorageEvent"
       ],
@@ -16248,6 +16531,18 @@
       "shortname": "uievents"
     }
   },
+  "input()": {
+    "input(name, desc)": {
+      "args": [
+        "name",
+        "desc"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "insertAdjacentElement()": {
     "insertAdjacentElement(where, element)": {
       "args": [
@@ -16266,7 +16561,7 @@
       "for": [
         "Element"
       ],
-      "shortname": "DOM-Parsing"
+      "shortname": "dom-parsing"
     },
     "insertAdjacentHTML(position, text)": {
       "args": [
@@ -16425,6 +16720,27 @@
         "CSSStyleSheet"
       ],
       "shortname": "css-nesting"
+    }
+  },
+  "instanceNormalization()": {
+    "instanceNormalization(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "instanceNormalization(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "instantiate()": {
@@ -16752,9 +17068,7 @@
     "item()": {
       "args": [],
       "for": [
-        "MimeTypeArray",
         "Plugin",
-        "PluginArray",
         "TouchList"
       ],
       "shortname": "html"
@@ -16774,8 +17088,10 @@
         "HTMLCollection",
         "HTMLSelectElement",
         "MediaList",
+        "MimeTypeArray",
         "NamedNodeMap",
         "NodeList",
+        "PluginArray",
         "SpeechGrammarList",
         "SpeechRecognitionResult",
         "SpeechRecognitionResultList",
@@ -16846,9 +17162,9 @@
     }
   },
   "key()": {
-    "key(n)": {
+    "key(index)": {
       "args": [
-        "n"
+        "index"
       ],
       "for": [
         "Storage"
@@ -16886,6 +17202,27 @@
       "shortname": "service-workers"
     }
   },
+  "l2Pool2d()": {
+    "l2Pool2d(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "l2Pool2d(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "lastChild()": {
     "lastChild()": {
       "args": [],
@@ -16905,6 +17242,27 @@
         "LayoutChild"
       ],
       "shortname": "css-layout-api"
+    }
+  },
+  "leakyRelu()": {
+    "leakyRelu(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "leakyRelu(x, options)": {
+      "args": [
+        "x",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "lh()": {
@@ -17025,6 +17383,15 @@
         "console"
       ],
       "shortname": "console"
+    },
+    "log(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "lookupNamespaceURI()": {
@@ -17058,7 +17425,7 @@
       "for": [
         "IDBKeyRange"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "lowerBound(lower, open)": {
       "args": [
@@ -17068,7 +17435,7 @@
       "for": [
         "IDBKeyRange"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "makeXRCompatible()": {
@@ -17228,6 +17595,18 @@
       "shortname": "dom"
     }
   },
+  "matmul()": {
+    "matmul(a, b)": {
+      "args": [
+        "a",
+        "b"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "matrixTransform()": {
     "matrixTransform()": {
       "args": [],
@@ -17262,6 +17641,37 @@
         "CSSNumericValue"
       ],
       "shortname": "css-typed-om"
+    },
+    "max(a, b)": {
+      "args": [
+        "a",
+        "b"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "maxPool2d()": {
+    "maxPool2d(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "maxPool2d(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "measure()": {
@@ -17315,8 +17725,10 @@
     }
   },
   "measureText()": {
-    "measureText()": {
-      "args": [],
+    "measureText(text)": {
+      "args": [
+        "text"
+      ],
       "for": [
         "CanvasText"
       ],
@@ -17358,6 +17770,16 @@
         "CSSNumericValue"
       ],
       "shortname": "css-typed-om"
+    },
+    "min(a, b)": {
+      "args": [
+        "a",
+        "b"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "mm()": {
@@ -17423,6 +17845,16 @@
         "CSSNumericValue"
       ],
       "shortname": "css-typed-om"
+    },
+    "mul(a, b)": {
+      "args": [
+        "a",
+        "b"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "multiply()": {
@@ -17465,9 +17897,7 @@
     "namedItem()": {
       "args": [],
       "for": [
-        "MimeTypeArray",
-        "Plugin",
-        "PluginArray"
+        "Plugin"
       ],
       "shortname": "html"
     },
@@ -17488,7 +17918,9 @@
         "HTMLAllCollection",
         "HTMLCollection",
         "HTMLFormControlsCollection",
-        "HTMLSelectElement"
+        "HTMLSelectElement",
+        "MimeTypeArray",
+        "PluginArray"
       ],
       "shortname": "dom"
     }
@@ -17511,6 +17943,17 @@
         "WindowClient"
       ],
       "shortname": "service-workers"
+    }
+  },
+  "neg()": {
+    "neg(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "new ImageData()": {
@@ -17536,6 +17979,17 @@
         "ImageData"
       ],
       "shortname": "html"
+    }
+  },
+  "new Profiler()": {
+    "new Profiler(options)": {
+      "args": [
+        "options"
+      ],
+      "for": [
+        "Profiler"
+      ],
+      "shortname": "js-self-profiling"
     }
   },
   "nextNode()": {
@@ -17603,7 +18057,7 @@
       "for": [
         "IDBTransaction"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "observe()": {
@@ -17664,7 +18118,7 @@
       "for": [
         "IDBKeyRange"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "open()": {
@@ -17740,7 +18194,7 @@
       "for": [
         "IDBFactory"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "open(name, version)": {
       "args": [
@@ -17750,7 +18204,7 @@
       "for": [
         "IDBFactory"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "open(options)": {
       "args": [
@@ -17801,7 +18255,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "openCursor(query)": {
       "args": [
@@ -17811,7 +18265,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "openCursor(query, direction)": {
       "args": [
@@ -17822,7 +18276,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "openKeyCursor()": {
@@ -17832,7 +18286,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "openKeyCursor(query)": {
       "args": [
@@ -17842,7 +18296,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "openKeyCursor(query, direction)": {
       "args": [
@@ -17853,7 +18307,7 @@
         "IDBIndex",
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "openWindow()": {
@@ -17884,6 +18338,29 @@
         "XMLHttpRequest"
       ],
       "shortname": "xhr"
+    }
+  },
+  "pad()": {
+    "pad(input, padding)": {
+      "args": [
+        "input",
+        "padding"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "pad(input, padding, options)": {
+      "args": [
+        "input",
+        "padding",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "parentNode()": {
@@ -18131,16 +18608,6 @@
       ],
       "shortname": "push-api"
     },
-    "permissionState(, options)": {
-      "args": [
-        "",
-        "options"
-      ],
-      "for": [
-        "PushManager"
-      ],
-      "shortname": "push-api"
-    },
     "permissionState(options)": {
       "args": [
         "options"
@@ -18340,6 +18807,18 @@
       "shortname": "scheduling-apis"
     }
   },
+  "pow()": {
+    "pow(a, b)": {
+      "args": [
+        "a",
+        "b"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "preMultiplySelf()": {
     "preMultiplySelf()": {
       "args": [],
@@ -18430,24 +18909,6 @@
         "Window"
       ],
       "shortname": "html"
-    }
-  },
-  "profile()": {
-    "profile()": {
-      "args": [],
-      "for": [
-        "Performance"
-      ],
-      "shortname": "js-self-profiling"
-    },
-    "profile(options)": {
-      "args": [
-        "options"
-      ],
-      "for": [
-        "Performance"
-      ],
-      "shortname": "js-self-profiling"
     }
   },
   "prompt()": {
@@ -18564,7 +19025,7 @@
       "for": [
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "put(value, key)": {
       "args": [
@@ -18574,7 +19035,7 @@
       "for": [
         "IDBObjectStore"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "putImageData()": {
@@ -18701,6 +19162,15 @@
       "shortname": "css-typed-om"
     }
   },
+  "randomUUID()": {
+    "randomUUID()": {
+      "args": [],
+      "for": [
+        "Crypto"
+      ],
+      "shortname": "uuid"
+    }
+  },
   "read()": {
     "read()": {
       "args": [],
@@ -18739,7 +19209,7 @@
         "FileReader",
         "FileReaderSync"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     }
   },
   "readAsBinaryString()": {
@@ -18751,7 +19221,7 @@
         "FileReader",
         "FileReaderSync"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     }
   },
   "readAsDataURL()": {
@@ -18763,7 +19233,7 @@
         "FileReader",
         "FileReaderSync"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     }
   },
   "readAsText()": {
@@ -18775,7 +19245,7 @@
         "FileReader",
         "FileReaderSync"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     },
     "readAsText(blob, encoding)": {
       "args": [
@@ -18786,7 +19256,7 @@
         "FileReader",
         "FileReaderSync"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     }
   },
   "readEntries()": {
@@ -18908,6 +19378,216 @@
         "Response"
       ],
       "shortname": "fetch"
+    }
+  },
+  "reduceL1()": {
+    "reduceL1(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "reduceL1(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "reduceL2()": {
+    "reduceL2(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "reduceL2(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "reduceLogSum()": {
+    "reduceLogSum(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "reduceLogSum(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "reduceLogSumExp()": {
+    "reduceLogSumExp(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "reduceLogSumExp(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "reduceMax()": {
+    "reduceMax(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "reduceMax(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "reduceMean()": {
+    "reduceMean(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "reduceMean(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "reduceMin()": {
+    "reduceMin(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "reduceMin(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "reduceProduct()": {
+    "reduceProduct(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "reduceProduct(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "reduceSum()": {
+    "reduceSum(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "reduceSum(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "reduceSumSquare()": {
+    "reduceSumSquare(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "reduceSumSquare(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "refresh()": {
@@ -19099,6 +19779,17 @@
       "shortname": "html"
     }
   },
+  "relu()": {
+    "relu(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "rem()": {
     "rem(value)": {
       "args": [
@@ -19117,7 +19808,6 @@
         "AnimationEffect",
         "ChildNode",
         "DOMTokenList",
-        "DataTransferItemList",
         "HTMLSelectElement",
         "MediaKeySession",
         "SourceBuffer"
@@ -19138,6 +19828,7 @@
         "index"
       ],
       "for": [
+        "DataTransferItemList",
         "HTMLOptionsCollection"
       ],
       "shortname": "html"
@@ -19621,9 +20312,11 @@
       "for": [
         "ElementInternals",
         "HTMLButtonElement",
+        "HTMLFieldSetElement",
         "HTMLFormElement",
         "HTMLInputElement",
         "HTMLObjectElement",
+        "HTMLOutputElement",
         "HTMLSelectElement",
         "HTMLTextAreaElement"
       ],
@@ -20030,6 +20723,27 @@
       "shortname": "pointerlock"
     }
   },
+  "resample()": {
+    "resample(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "resample(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "reset()": {
     "reset()": {
       "args": [],
@@ -20039,22 +20753,12 @@
         "CanvasState",
         "HTMLFormElement",
         "ImageDecoder",
-        "SendStream",
         "USBDevice",
         "VideoDecoder",
         "VideoEncoder",
         "XSLTProcessor"
       ],
       "shortname": "dom"
-    },
-    "reset(abortInfo)": {
-      "args": [
-        "abortInfo"
-      ],
-      "for": [
-        "SendStream"
-      ],
-      "shortname": "webtransport"
     }
   },
   "resetTransform()": {
@@ -20064,6 +20768,18 @@
         "CanvasTransform"
       ],
       "shortname": "html"
+    }
+  },
+  "reshape()": {
+    "reshape(input, newShape)": {
+      "args": [
+        "input",
+        "newShape"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "resizeBy()": {
@@ -20261,7 +20977,7 @@
       "for": [
         "URL"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     }
   },
   "rlh()": {
@@ -21300,7 +22016,7 @@
       "for": [
         "XMLSerializer"
       ],
-      "shortname": "DOM-Parsing"
+      "shortname": "dom-parsing"
     },
     "serializeToString(root)": {
       "args": [
@@ -21309,7 +22025,7 @@
       "for": [
         "XMLSerializer"
       ],
-      "shortname": "DOM-Parsing"
+      "shortname": "dom-parsing"
     }
   },
   "set()": {
@@ -21634,14 +22350,16 @@
     }
   },
   "setCustomValidity()": {
-    "setCustomValidity(message)": {
+    "setCustomValidity(error)": {
       "args": [
-        "message"
+        "error"
       ],
       "for": [
         "HTMLButtonElement",
+        "HTMLFieldSetElement",
         "HTMLInputElement",
         "HTMLObjectElement",
+        "HTMLOutputElement",
         "HTMLSelectElement",
         "HTMLTextAreaElement"
       ],
@@ -21661,9 +22379,9 @@
     }
   },
   "setDragImage()": {
-    "setDragImage(element, x, y)": {
+    "setDragImage(image, x, y)": {
       "args": [
-        "element",
+        "image",
         "x",
         "y"
       ],
@@ -21869,8 +22587,10 @@
     }
   },
   "setLineDash()": {
-    "setLineDash()": {
-      "args": [],
+    "setLineDash(segments)": {
+      "args": [
+        "segments"
+      ],
       "for": [
         "CanvasPathDrawingStyles"
       ],
@@ -22742,13 +23462,24 @@
       "shortname": "file-system-access"
     }
   },
+  "sigmoid()": {
+    "sigmoid(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "sign()": {
     "sign()": {
       "args": [],
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     },
     "sign(algorithm, key, data)": {
       "args": [
@@ -22759,7 +23490,18 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
+    }
+  },
+  "sin()": {
+    "sin(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "skewX()": {
@@ -22849,7 +23591,30 @@
       "for": [
         "Blob"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
+    },
+    "slice(input, starts, sizes)": {
+      "args": [
+        "input",
+        "starts",
+        "sizes"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "slice(input, starts, sizes, options)": {
+      "args": [
+        "input",
+        "starts",
+        "sizes",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     },
     "slice(start)": {
       "args": [
@@ -22858,7 +23623,7 @@
       "for": [
         "Blob"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     },
     "slice(start, end)": {
       "args": [
@@ -22868,7 +23633,7 @@
       "for": [
         "Blob"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     },
     "slice(start, end, contentType)": {
       "args": [
@@ -22879,7 +23644,7 @@
       "for": [
         "Blob"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     },
     "slice(start, end, contentType), slice(start, end), slice(start), slice()": {
       "args": [
@@ -22894,7 +23659,7 @@
       "for": [
         "Blob"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     }
   },
   "snapshotItem()": {
@@ -22906,6 +23671,17 @@
         "XPathResult"
       ],
       "shortname": "dom"
+    }
+  },
+  "softmax()": {
+    "softmax(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "sort()": {
@@ -22958,6 +23734,29 @@
       "shortname": "speech-api"
     }
   },
+  "split()": {
+    "split(input, splits)": {
+      "args": [
+        "input",
+        "splits"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "split(input, splits, options)": {
+      "args": [
+        "input",
+        "splits",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "splitText()": {
     "splitText(offset)": {
       "args": [
@@ -22967,6 +23766,27 @@
         "Text"
       ],
       "shortname": "dom"
+    }
+  },
+  "squeeze()": {
+    "squeeze(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "squeeze(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "start()": {
@@ -23218,7 +24038,7 @@
       "for": [
         "Blob"
       ],
-      "shortname": "FileAPI"
+      "shortname": "fileapi"
     }
   },
   "stringifier()": {
@@ -23254,8 +24074,13 @@
     }
   },
   "strokeText()": {
-    "strokeText()": {
-      "args": [],
+    "strokeText(text, x, y, maxWidth)": {
+      "args": [
+        "text",
+        "x",
+        "y",
+        "maxWidth"
+      ],
       "for": [
         "CanvasText"
       ],
@@ -23278,6 +24103,16 @@
         "CSSNumericValue"
       ],
       "shortname": "css-typed-om"
+    },
+    "sub(a, b)": {
+      "args": [
+        "a",
+        "b"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "submit()": {
@@ -23301,16 +24136,6 @@
   "subscribe()": {
     "subscribe()": {
       "args": [],
-      "for": [
-        "PushManager"
-      ],
-      "shortname": "push-api"
-    },
-    "subscribe(, options)": {
-      "args": [
-        "",
-        "options"
-      ],
       "for": [
         "PushManager"
       ],
@@ -23471,6 +24296,28 @@
         "ReportingObserver"
       ],
       "shortname": "dom"
+    }
+  },
+  "tan()": {
+    "tan(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
+  "tanh()": {
+    "tanh(x)": {
+      "args": [
+        "x"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
     }
   },
   "tee()": {
@@ -23803,7 +24650,7 @@
       "for": [
         "IDBDatabase"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "transaction(storeNames, mode)": {
       "args": [
@@ -23813,7 +24660,7 @@
       "for": [
         "IDBDatabase"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "transaction(storeNames, mode, options)": {
       "args": [
@@ -23824,7 +24671,7 @@
       "for": [
         "IDBDatabase"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "transferControlToOffscreen()": {
@@ -23837,9 +24684,9 @@
     }
   },
   "transferFromImageBitmap()": {
-    "transferFromImageBitmap(imageBitmap)": {
+    "transferFromImageBitmap(bitmap)": {
       "args": [
-        "imageBitmap"
+        "bitmap"
       ],
       "for": [
         "ImageBitmapRenderingContext"
@@ -24025,6 +24872,27 @@
       "shortname": "geometry"
     }
   },
+  "transpose()": {
+    "transpose(input)": {
+      "args": [
+        "input"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    },
+    "transpose(input, options)": {
+      "args": [
+        "input",
+        "options"
+      ],
+      "for": [
+        "MLGraphBuilder"
+      ],
+      "shortname": "webnn"
+    }
+  },
   "truncate()": {
     "truncate(size)": {
       "args": [
@@ -24150,7 +25018,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     },
     "unwrapKey(format, wrappedKey, unwrappingKey, unwrapAlgorithm, unwrappedKeyAlgorithm, extractable, keyUsages)": {
       "args": [
@@ -24165,7 +25033,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     }
   },
   "update()": {
@@ -24193,7 +25061,7 @@
       "for": [
         "IDBCursor"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "updatePlaybackRate()": {
@@ -24307,7 +25175,7 @@
       "for": [
         "IDBKeyRange"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     },
     "upperBound(upper, open)": {
       "args": [
@@ -24317,7 +25185,7 @@
       "for": [
         "IDBKeyRange"
       ],
-      "shortname": "IndexedDB"
+      "shortname": "indexeddb"
     }
   },
   "validate()": {
@@ -24357,7 +25225,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     },
     "verify(algorithm, key, signature, data)": {
       "args": [
@@ -24369,7 +25237,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     }
   },
   "vh()": {
@@ -24516,7 +25384,7 @@
       "for": [
         "Geolocation"
       ],
-      "shortname": "geolocation-API"
+      "shortname": "geolocation-api"
     },
     "watchPosition(successCallback)": {
       "args": [
@@ -24525,7 +25393,7 @@
       "for": [
         "Geolocation"
       ],
-      "shortname": "geolocation-API"
+      "shortname": "geolocation-api"
     },
     "watchPosition(successCallback, errorCallback)": {
       "args": [
@@ -24535,7 +25403,7 @@
       "for": [
         "Geolocation"
       ],
-      "shortname": "geolocation-API"
+      "shortname": "geolocation-api"
     },
     "watchPosition(successCallback, errorCallback, options)": {
       "args": [
@@ -24546,7 +25414,7 @@
       "for": [
         "Geolocation"
       ],
-      "shortname": "geolocation-API"
+      "shortname": "geolocation-api"
     }
   },
   "webkitGetAsEntry()": {
@@ -24586,7 +25454,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     },
     "wrapKey(format, key, wrappingKey, wrapAlgorithm)": {
       "args": [
@@ -24598,7 +25466,7 @@
       "for": [
         "SubtleCrypto"
       ],
-      "shortname": "WebCryptoAPI"
+      "shortname": "webcryptoapi"
     }
   },
   "write()": {

@@ -120,26 +120,6 @@ https://html.spec.whatwg.org/multipage/obsolete.html#dom-external-addsearchprovi
 1
 External
 -
-AddressErrors
-dictionary
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addresserrors
-1
-1
--
-AddressInit
-dictionary
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addressinit
-1
-1
--
 [[adapter]]
 attribute
 webgpu
@@ -183,16 +163,6 @@ https://www.w3.org/TR/webgpu/#dom-gpuadapter-adapter-slot
 1
 1
 GPUAdapter
--
-[[addressLine]]
-idl
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-addressline
-1
-1
 -
 ad structure
 dfn
@@ -313,8 +283,8 @@ mask-composite
 -
 add
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-add
@@ -469,8 +439,8 @@ https://html.spec.whatwg.org/multipage/microdata.html#add-a-vcard-line
 -
 add an entry
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#add-an-entry
@@ -480,8 +450,8 @@ blob url store
 -
 add an entry
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#add-an-entry
@@ -491,8 +461,8 @@ blob url store
 -
 add an entry to the blob url store
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#add-an-entry
@@ -502,8 +472,8 @@ blob url store
 -
 add an entry to the blob url store
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#add-an-entry
@@ -645,16 +615,6 @@ https://www.w3.org/TR/service-workers-1/#extendableevent-add-lifetime-promise
 1
 ExtendableEvent
 -
-add map elements from an iterable
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#add-map-elements-from-iterable
-
-1
--
 add mock camera
 dfn
 mediacapture-automation
@@ -677,8 +637,8 @@ https://w3c.github.io/mediacapture-automation/#add-mock-microphone
 -
 add or put
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#add-or-put
@@ -687,8 +647,8 @@ https://w3c.github.io/IndexedDB/#add-or-put
 -
 add or put
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#add-or-put
@@ -697,8 +657,8 @@ https://www.w3.org/TR/IndexedDB-3/#add-or-put
 -
 add the entry
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#add-an-entry
@@ -708,8 +668,8 @@ blob url store
 -
 add the entry
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#add-an-entry
@@ -719,8 +679,8 @@ blob url store
 -
 add the entry to the blob url store
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#add-an-entry
@@ -730,8 +690,8 @@ blob url store
 -
 add the entry to the blob url store
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#add-an-entry
@@ -817,17 +777,6 @@ html
 html
 1
 current
-https://html.spec.whatwg.org/multipage/form-elements.html#dom-select-add
-1
-1
-HTMLSelectElement
--
-add()
-method
-html
-html
-1
-current
 https://html.spec.whatwg.org/multipage/dnd.html#dom-datatransferitemlist-add
 1
 1
@@ -877,6 +826,28 @@ https://www.w3.org/TR/css-typed-om-1/#dom-cssnumericvalue-add
 1
 CSSNumericValue
 -
+add(a, b)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-add
+1
+1
+MLGraphBuilder
+-
+add(a, b)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-add
+1
+1
+MLGraphBuilder
+-
 add(description)
 method
 content-index
@@ -898,6 +869,17 @@ https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#dom-htmloption
 1
 1
 HTMLOptionsCollection
+-
+add(element, before)
+method
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/form-elements.html#dom-select-add
+1
+1
+HTMLSelectElement
 -
 add(font)
 method
@@ -967,8 +949,8 @@ HighlightsRegister
 -
 add(value)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-add
@@ -978,8 +960,8 @@ IDBObjectStore
 -
 add(value)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-add
@@ -989,8 +971,8 @@ IDBObjectStore
 -
 add(value, key)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-add
@@ -1000,8 +982,8 @@ IDBObjectStore
 -
 add(value, key)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-add
@@ -1260,7 +1242,7 @@ https://html.spec.whatwg.org/multipage/worklets.html#dom-worklet-addmodule
 1
 Worklet
 -
-addPath(b, transform)
+addPath(path, transform)
 method
 html
 html
@@ -1698,8 +1680,8 @@ https://www.w3.org/TR/webdriver2/#dfn-adding-a-cookie
 -
 adding an entry to the blob url store
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#add-an-entry
@@ -1709,8 +1691,8 @@ blob url store
 -
 adding an entry to the blob url store
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#add-an-entry
@@ -1827,8 +1809,8 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vcard-n-additional-name
 -
 additionalData
 dict-member
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-AesGcmParams-additionalData
@@ -1860,8 +1842,8 @@ PaymentDetailsModifier
 -
 additionaldata
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-AesGcmParams-additionalData
@@ -2198,16 +2180,6 @@ https://www.w3.org/TR/webrtc/#dom-rtcpeerconnectioniceerroreventinit-address
 1
 RTCPeerConnectionIceErrorEventInit
 -
-address line
-dfn
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-address-line
-
-1
--
 address type strings
 dfn
 html
@@ -2339,8 +2311,8 @@ textarea/autocomplete
 -
 address-of
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#address-of
@@ -2349,46 +2321,13 @@ https://gpuweb.github.io/gpuweb/wgsl/#address-of
 -
 address-of
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#address-of
 
 1
--
-addressLine
-attribute
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentaddress-addressline
-1
-1
-PaymentAddress
--
-addressLine
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addressinit-addressline
-1
-1
-AddressInit
--
-addressLine
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addresserrors-addressline
-1
-1
-AddressErrors
 -
 addressModeU
 dict-member
@@ -2458,8 +2397,8 @@ GPUSamplerDescriptor
 -
 addressable character
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#TermAddressableCharacter
@@ -2468,8 +2407,8 @@ https://svgwg.org/svg2-draft/text.html#TermAddressableCharacter
 -
 addressable character
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#TermAddressableCharacter
@@ -2573,8 +2512,8 @@ https://www.w3.org/TR/webrtc-identity/#dfn-addtrack
 -
 adjoining
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#adjoining-margins
@@ -2583,8 +2522,8 @@ https://drafts.csswg.org/css2/#adjoining-margins
 -
 adjoining
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#adjoining-margins
@@ -2593,8 +2532,8 @@ https://drafts.csswg.org/css2/#adjoining-margins
 -
 adjoining margins
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#adjoining-margins
@@ -2603,8 +2542,8 @@ https://drafts.csswg.org/css2/#adjoining-margins
 -
 adjoining margins
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#adjoining-margins
@@ -2861,8 +2800,8 @@ https://www.w3.org/TR/css-values-4/#length-advance-measure
 -
 advance(count)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbcursor-advance
@@ -2872,8 +2811,8 @@ IDBCursor
 -
 advance(count)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-advance

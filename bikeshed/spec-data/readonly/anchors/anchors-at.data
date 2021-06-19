@@ -315,10 +315,32 @@ https://html.spec.whatwg.org/multipage/media.html#a-type-that-the-user-agent-kno
 
 1
 -
+aTranspose
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgemmoptions-atranspose
+1
+1
+MLGemmOptions
+-
+aTranspose
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgemmoptions-atranspose
+1
+1
+MLGemmOptions
+-
 at-keyword
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#at-keyword
@@ -327,8 +349,8 @@ https://drafts.csswg.org/css2/#at-keyword
 -
 at-keyword
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#at-keyword
@@ -378,8 +400,8 @@ CSS
 -
 at-rules
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#at-rules-dfn
@@ -388,8 +410,8 @@ https://drafts.csswg.org/css2/#at-rules-dfn
 -
 at-rules
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#at-rules-dfn
@@ -550,8 +572,8 @@ https://www.w3.org/TR/css-display-3/#atomic-inline
 -
 atomic inline-level boxes
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#atomic-inline-level-boxes
@@ -560,8 +582,8 @@ https://drafts.csswg.org/css2/#atomic-inline-level-boxes
 -
 atomic inline-level boxes
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#atomic-inline-level-boxes
@@ -570,8 +592,8 @@ https://drafts.csswg.org/css2/#atomic-inline-level-boxes
 -
 atomic modification
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#atomic-modification
@@ -580,8 +602,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#atomic-modification
 -
 atomic modification
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#atomic-modification
@@ -590,8 +612,8 @@ https://www.w3.org/TR/WGSL/#atomic-modification
 -
 atomic type
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#atomic-type
@@ -600,31 +622,11 @@ https://gpuweb.github.io/gpuweb/wgsl/#atomic-type
 -
 atomic type
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#atomic-type
-
-1
--
-atomic-free
-dfn
-WGSL
-WGSL
-1
-current
-https://gpuweb.github.io/gpuweb/wgsl/#atomic-free
-
-1
--
-atomic-free
-dfn
-WGSL
-WGSL
-1
-snapshot
-https://www.w3.org/TR/WGSL/#atomic-free
 
 1
 -
@@ -754,8 +756,8 @@ https://immersive-web.github.io/anchors/#attached
 -
 attached
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#TermAttach
@@ -764,8 +766,8 @@ https://svgwg.org/svg2-draft/types.html#TermAttach
 -
 attached
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#TermAttach
@@ -1417,8 +1419,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#attr
 -
 attr
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-attribute
@@ -1427,8 +1429,8 @@ https://w3c.github.io/DOM-Parsing/#dfn-attribute
 -
 attr localname
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-attr-localname
@@ -1477,8 +1479,8 @@ https://www.w3.org/TR/css-values-4/#funcdef-attr
 -
 attr(x)
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-content-attr-x
@@ -1488,8 +1490,8 @@ content
 -
 attr(x)
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-content-attr-x
@@ -1499,8 +1501,8 @@ content
 -
 attr.localname
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-attr-localname
@@ -1509,8 +1511,8 @@ https://w3c.github.io/DOM-Parsing/#dfn-attr-localname
 -
 attr.namespaceuri
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-namespaceuri
@@ -1519,8 +1521,8 @@ https://w3c.github.io/DOM-Parsing/#dfn-namespaceuri
 -
 attr.prefix
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-prefix
@@ -1529,8 +1531,8 @@ https://w3c.github.io/DOM-Parsing/#dfn-prefix
 -
 attr.value
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-value
@@ -1704,8 +1706,8 @@ https://www.w3.org/TR/core-aam-1.2/#dfn-attribute
 -
 attribute
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#attribute
@@ -1714,8 +1716,8 @@ https://drafts.csswg.org/css2/#attribute
 -
 attribute
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#attribute
@@ -1724,8 +1726,8 @@ https://drafts.csswg.org/css2/#attribute
 -
 attribute
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-attribute
@@ -1904,8 +1906,8 @@ https://www.w3.org/TR/webdriver2/#dfn-attribute
 -
 attribute
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-attribute
@@ -1914,18 +1916,8 @@ https://heycam.github.io/webidl/#dfn-attribute
 -
 attribute
 dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-attribute
-
-1
--
-attribute
-dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#attribute
@@ -1934,8 +1926,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#attribute
 -
 attribute
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#attribute
@@ -1994,22 +1986,12 @@ https://wicg.github.io/sanitizer-api/#attribute-drop-list
 -
 attribute getter
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-attribute-getter
 1
-1
--
-attribute getter
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-attribute-getter
-
 1
 -
 attribute handle
@@ -2066,8 +2048,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#attribute-list
 -
 attribute list
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-attributes
@@ -2156,22 +2138,12 @@ https://www.w3.org/TR/selectors-4/#attribute-selector
 -
 attribute setter
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-attribute-setter
 1
-1
--
-attribute setter
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-attribute-setter
-
 1
 -
 attribute type
@@ -2385,8 +2357,8 @@ https://www.w3.org/TR/core-aam-1.2/#dfn-attribute
 -
 attributes
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-attributes
@@ -2654,8 +2626,8 @@ MutationEvent
 -
 attvalue
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-attvalue

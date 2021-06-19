@@ -98,8 +98,8 @@ SpeechRecognitionErrorCode
 -
 'self'
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-self
@@ -108,8 +108,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-self
 -
 'self'
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-self
@@ -271,8 +271,8 @@ voice-range
 -
 SECURITY_ERR
 const
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dom-domexception-security_err
@@ -282,8 +282,8 @@ DOMException
 -
 SecureContext
 extended-attribute
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#SecureContext
@@ -292,8 +292,8 @@ https://heycam.github.io/webidl/#SecureContext
 -
 SecurityError
 exception
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#securityerror
@@ -302,8 +302,8 @@ https://heycam.github.io/webidl/#securityerror
 -
 SecurityPolicyViolationEvent
 interface
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#securitypolicyviolationevent
@@ -312,8 +312,8 @@ https://w3c.github.io/webappsec-csp/#securitypolicyviolationevent
 -
 SecurityPolicyViolationEvent
 interface
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#securitypolicyviolationevent
@@ -322,8 +322,8 @@ https://www.w3.org/TR/CSP3/#securitypolicyviolationevent
 -
 SecurityPolicyViolationEvent(type)
 constructor
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationevent-securitypolicyviolationevent
@@ -333,8 +333,8 @@ SecurityPolicyViolationEvent
 -
 SecurityPolicyViolationEvent(type)
 constructor
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationevent-securitypolicyviolationevent
@@ -344,8 +344,8 @@ SecurityPolicyViolationEvent
 -
 SecurityPolicyViolationEvent(type, eventInitDict)
 constructor
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationevent-securitypolicyviolationevent
@@ -355,8 +355,8 @@ SecurityPolicyViolationEvent
 -
 SecurityPolicyViolationEvent(type, eventInitDict)
 constructor
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationevent-securitypolicyviolationevent
@@ -366,8 +366,8 @@ SecurityPolicyViolationEvent
 -
 SecurityPolicyViolationEventDisposition
 enum
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#enumdef-securitypolicyviolationeventdisposition
@@ -376,8 +376,8 @@ https://w3c.github.io/webappsec-csp/#enumdef-securitypolicyviolationeventdisposi
 -
 SecurityPolicyViolationEventDisposition
 enum
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#enumdef-securitypolicyviolationeventdisposition
@@ -386,8 +386,8 @@ https://www.w3.org/TR/CSP3/#enumdef-securitypolicyviolationeventdisposition
 -
 SecurityPolicyViolationEventInit
 dictionary
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dictdef-securitypolicyviolationeventinit
@@ -396,8 +396,8 @@ https://w3c.github.io/webappsec-csp/#dictdef-securitypolicyviolationeventinit
 -
 SecurityPolicyViolationEventInit
 dictionary
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dictdef-securitypolicyviolationeventinit
@@ -453,16 +453,6 @@ webtransport
 1
 snapshot
 https://www.w3.org/TR/webtransport/#sendstream
-1
-1
--
-SendStreamParameters
-dictionary
-webtransport
-webtransport
-1
-current
-https://w3c.github.io/webtransport/#dictdef-sendstreamparameters
 1
 1
 -
@@ -993,17 +983,17 @@ https://www.w3.org/TR/mediacapture-streams/#dom-settings
 1
 -
 [[SelectedCandidatePair]]
-idl
+attribute
 webrtc-ice
 webrtc-ice
 1
 current
-https://w3c.github.io/webrtc-ice/#dfn-selectedcandidatepair
-1
+https://w3c.github.io/webrtc-ice/#respec-offender-internal-slot-selectedcandidatepair-must-be-associated-with-a-webidl-interface
+
 1
 -
 [[SelectedCandidatePair]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -1013,7 +1003,7 @@ https://w3c.github.io/webrtc-pc/#dfn-selectedcandidatepair
 1
 -
 [[SelectedCandidatePair]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -1023,7 +1013,7 @@ https://www.w3.org/TR/webrtc/#dfn-selectedcandidatepair
 1
 -
 [[SendCodecs]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -1033,7 +1023,7 @@ https://w3c.github.io/webrtc-pc/#dfn-sendcodecs
 1
 -
 [[SendCodecs]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -1043,7 +1033,7 @@ https://www.w3.org/TR/webrtc/#dfn-sendcodecs
 1
 -
 [[SendEncodings]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -1053,7 +1043,7 @@ https://w3c.github.io/webrtc-pc/#dfn-sendencodings
 1
 -
 [[SendEncodings]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -1063,7 +1053,7 @@ https://www.w3.org/TR/webrtc/#dfn-sendencodings
 1
 -
 [[SenderTrack]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -1073,7 +1063,7 @@ https://w3c.github.io/webrtc-pc/#dfn-sendertrack
 1
 -
 [[SenderTrack]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -1083,7 +1073,7 @@ https://www.w3.org/TR/webrtc/#dfn-sendertrack
 1
 -
 [[SenderTransport]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -1093,7 +1083,7 @@ https://w3c.github.io/webrtc-pc/#dfn-sendertransport
 1
 -
 [[SenderTransport]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -1103,7 +1093,7 @@ https://www.w3.org/TR/webrtc/#dfn-sendertransport
 1
 -
 [[Sender]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -1113,7 +1103,7 @@ https://w3c.github.io/webrtc-pc/#dfn-sender
 1
 -
 [[Sender]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -1123,7 +1113,7 @@ https://www.w3.org/TR/webrtc/#dfn-sender
 1
 -
 [[Settings]]
-idl
+attribute
 mediacapture-streams
 mediacapture-streams
 1
@@ -1133,7 +1123,7 @@ https://w3c.github.io/mediacapture-main/#dfn-settings-0
 1
 -
 [[Settings]]
-idl
+attribute
 mediacapture-streams
 mediacapture-streams
 1
@@ -1209,7 +1199,7 @@ https://w3c.github.io/webtransport/#webtransport-sendstreams
 WebTransport
 -
 [[serializedMethodData]]
-idl
+attribute
 payment-request
 payment-request
 1
@@ -1220,7 +1210,7 @@ https://w3c.github.io/payment-request/#dfn-serializedmethoddata
 PaymentRequest
 -
 [[serializedMethodData]]
-idl
+attribute
 payment-request
 payment-request
 1
@@ -1231,7 +1221,7 @@ https://www.w3.org/TR/payment-request/#dfn-serializedmethoddata
 PaymentRequest
 -
 [[serializedModifierData]]
-idl
+attribute
 payment-request
 payment-request
 1
@@ -1242,7 +1232,7 @@ https://w3c.github.io/payment-request/#dfn-serializedmodifierdata
 PaymentRequest
 -
 [[serializedModifierData]]
-idl
+attribute
 payment-request
 payment-request
 1
@@ -1287,8 +1277,8 @@ cursor
 -
 se-resize
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-cursor-se-resize
@@ -1298,8 +1288,8 @@ cursor
 -
 se-resize
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-cursor-se-resize
@@ -1375,24 +1365,26 @@ area/rel
 form/rel
 -
 search
-dfn
+attr-value
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#attr-input-type-search-keyword
-
 1
+1
+input/type
 -
 search
-dfn
+element-state
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#text-(type=text)-state-and-search-state-(type=search)
-
 1
+1
+input
 -
 search
 attr-value
@@ -1544,6 +1536,16 @@ https://www.w3.org/TR/css-color-4/#valdef-color-seashell
 1
 <color>
 -
+sec-ch-dpr
+http-header
+responsive-image-client-hints
+responsive-image-client-hints
+1
+current
+https://wicg.github.io/responsive-image-client-hints/#http-headerdef-sec-ch-dpr
+1
+1
+-
 sec-ch-ua
 http-header
 ua-client-hints
@@ -1621,6 +1623,36 @@ ua-client-hints
 1
 current
 https://wicg.github.io/ua-client-hints/#http-headerdef-sec-ch-ua-platform-version
+1
+1
+-
+sec-ch-viewport-height
+http-header
+responsive-image-client-hints
+responsive-image-client-hints
+1
+current
+https://wicg.github.io/responsive-image-client-hints/#http-headerdef-sec-ch-viewport-height
+1
+1
+-
+sec-ch-viewport-width
+http-header
+responsive-image-client-hints
+responsive-image-client-hints
+1
+current
+https://wicg.github.io/responsive-image-client-hints/#http-headerdef-sec-ch-viewport-width
+1
+1
+-
+sec-ch-width
+http-header
+responsive-image-client-hints
+responsive-image-client-hints
+1
+current
+https://wicg.github.io/responsive-image-client-hints/#http-headerdef-sec-ch-width
 1
 1
 -
@@ -1736,8 +1768,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#http-sec-websocket-pr
 -
 second
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbfactory-cmp-first-second-second
@@ -1747,8 +1779,8 @@ IDBFactory/cmp(first, second)
 -
 second
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbfactory-cmp-first-second-second
@@ -1840,8 +1872,8 @@ secondary view
 -
 secret
 enum-value
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dom-keytype-secret
@@ -2157,16 +2189,6 @@ https://www.w3.org/TR/payment-method-basic-card/#dfn-security-code
 
 1
 -
-security_err
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dom-domexception-security_err
-
-1
--
 securityerror
 dfn
 battery-status
@@ -2184,16 +2206,6 @@ battery-status
 1
 snapshot
 https://www.w3.org/TR/battery-status/#dfn-securityerror
-
-1
--
-securityerror
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#securityerror
 
 1
 -
@@ -2479,8 +2491,8 @@ https://w3c.github.io/media-source/#dfn-segment-parser-loop
 -
 segment-completing close path
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/paths.html#TermSegment-CompletingClosePath
@@ -2489,8 +2501,8 @@ https://svgwg.org/svg2-draft/paths.html#TermSegment-CompletingClosePath
 -
 segment-completing close path
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/paths.html#TermSegment-CompletingClosePath
@@ -2690,6 +2702,16 @@ https://www.w3.org/TR/cssom-1/#select-a-css-style-sheet-set
 
 1
 -
+select a mapping
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-selecting-a-mapping
+
+1
+-
 select a presentation display
 dfn
 presentation-api
@@ -2757,6 +2779,16 @@ webxr
 1
 snapshot
 https://www.w3.org/TR/webxr/#select-an-immersive-xr-device
+
+1
+-
+select an unused gamepad index
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-selecting-an-unused-gamepad-index
 
 1
 -
@@ -2978,8 +3010,8 @@ Range
 -
 selectSubString
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__selectSubString
@@ -2989,8 +3021,8 @@ SVGTextContentElement
 -
 selectSubString
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#__svg__SVGTextContentElement__selectSubString
@@ -3030,17 +3062,6 @@ https://html.spec.whatwg.org/multipage/form-elements.html#dom-option-selected
 1
 1
 HTMLOptionElement
--
-selected
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentshippingoption-selected
-1
-1
-PaymentShippingOption
 -
 selected
 attribute
@@ -3331,6 +3352,26 @@ https://www.w3.org/TR/webxr/#eventdef-xrsession-selectend
 1
 XRSession
 -
+selecting a mapping
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-selecting-a-mapping
+
+1
+-
+selecting an unused gamepad index
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-selecting-an-unused-gamepad-index
+
+1
+-
 selecting media resource
 dfn
 remote-playback
@@ -3509,8 +3550,8 @@ https://www.w3.org/TR/selection-api/#dfn-selectionchange
 -
 selector
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#selector%E2%91%A0
@@ -3519,8 +3560,8 @@ https://drafts.csswg.org/css2/#selector%E2%91%A0
 -
 selector
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#selector%E2%91%A0
@@ -3603,8 +3644,8 @@ https://www.w3.org/TR/selectors-4/#selector-list
 -
 selector matches
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#selector-matches
@@ -3613,8 +3654,8 @@ https://drafts.csswg.org/css2/#selector-matches
 -
 selector matches
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#selector-matches
@@ -3973,8 +4014,8 @@ https://www.w3.org/TR/css-align-3/#valdef-self-position-self-end
 -
 self-origin
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#policy-self-origin
@@ -3984,8 +4025,8 @@ policy
 -
 self-origin
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#policy-self-origin
@@ -4459,8 +4500,8 @@ https://www.w3.org/TR/wai-aria-1.2/#dfn-semantics
 -
 semantics of an expression
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#semantics-of-an-expression
@@ -4469,8 +4510,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#semantics-of-an-expression
 -
 semantics of an expression
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#semantics-of-an-expression
@@ -5974,8 +6015,8 @@ ruby-merge
 -
 separate
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-border-collapse-separate
@@ -5985,8 +6026,8 @@ border-collapse
 -
 separate
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-border-collapse-separate
@@ -5996,8 +6037,8 @@ border-collapse
 -
 separated borders model
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#separated-borders-model
@@ -6006,8 +6047,8 @@ https://drafts.csswg.org/css2/#separated-borders-model
 -
 separated borders model
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#separated-borders-model
@@ -6120,8 +6161,8 @@ https://www.w3.org/TR/webdriver2/#dfn-sequence
 -
 sequence
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#idl-sequence
@@ -6140,8 +6181,8 @@ https://drafts.csswg.org/web-animations-2/#sequence-effect
 -
 sequence type
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#sequence-type
@@ -6325,26 +6366,6 @@ https://www.w3.org/TR/webrtc/#dfn-serializable-objects
 
 1
 -
-serializable types
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-serializable-type
-
-1
--
-serialization behavior
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-serialization-behavior
-
-1
--
 serialization of a color
 dfn
 html
@@ -6363,16 +6384,6 @@ html
 current
 https://html.spec.whatwg.org/multipage/origin.html#ascii-serialisation-of-an-origin
 1
-1
--
-serialization pattern
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-serialization-pattern
-
 1
 -
 serialization steps
@@ -7348,8 +7359,8 @@ https://www.w3.org/TR/css-values-4/#serialize-a-calculation-tree
 -
 serialize-attributes-loop
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-serialize-attributes-loop
@@ -7358,8 +7369,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-serialize-attributes-loop
 -
 serializeToString()
 method
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dom-xmlserializer-serializetostring
@@ -7369,8 +7380,8 @@ XMLSerializer
 -
 serializeToString(root)
 method
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dom-xmlserializer-serializetostring
@@ -7400,8 +7411,8 @@ https://www.w3.org/TR/webdriver2/#dfn-serialized-cookie
 -
 serialized csp
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#serialized-csp
@@ -7410,8 +7421,8 @@ https://w3c.github.io/webappsec-csp/#serialized-csp
 -
 serialized csp
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#serialized-csp
@@ -7420,8 +7431,8 @@ https://www.w3.org/TR/CSP3/#serialized-csp
 -
 serialized csp list
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#serialized-csp-list
@@ -7430,8 +7441,8 @@ https://w3c.github.io/webappsec-csp/#serialized-csp-list
 -
 serialized csp list
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#serialized-csp-list
@@ -7440,8 +7451,8 @@ https://www.w3.org/TR/CSP3/#serialized-csp-list
 -
 serialized directive
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#serialized-directive
@@ -7450,8 +7461,8 @@ https://w3c.github.io/webappsec-csp/#serialized-directive
 -
 serialized directive
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#serialized-directive
@@ -7520,8 +7531,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#concept-serialized-pe
 -
 serialized source list
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#serialized-source-list
@@ -7530,8 +7541,8 @@ https://w3c.github.io/webappsec-csp/#serialized-source-list
 -
 serialized source list
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#serialized-source-list
@@ -7558,20 +7569,10 @@ https://html.spec.whatwg.org/multipage/history.html#serialized-state
 
 1
 -
-serialized value
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-serialized-value
-
-1
--
 serialized-directive
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-serialized-directive
@@ -7580,8 +7581,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-serialized-directive
 -
 serialized-directive
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-serialized-directive
@@ -7630,8 +7631,8 @@ https://www.w3.org/TR/permissions-policy-1/#serialized-permissions-policy
 -
 serialized-policy
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-serialized-policy
@@ -7640,8 +7641,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-serialized-policy
 -
 serialized-policy
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-serialized-policy
@@ -7670,8 +7671,8 @@ https://www.w3.org/TR/permissions-policy-1/#serialized-policy-directive
 -
 serialized-policy-list
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-serialized-policy-list
@@ -7680,8 +7681,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-serialized-policy-list
 -
 serialized-policy-list
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-serialized-policy-list
@@ -7690,8 +7691,8 @@ https://www.w3.org/TR/CSP3/#grammardef-serialized-policy-list
 -
 serialized-source-list
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-serialized-source-list
@@ -7700,8 +7701,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-serialized-source-list
 -
 serialized-source-list
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-serialized-source-list
@@ -7725,16 +7726,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/history.html#uhus-serializeddata
-
-1
--
-serializers
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-serializer
 
 1
 -
@@ -7770,8 +7761,8 @@ https://www.w3.org/TR/webdriver2/#dfn-serializing-to-string
 -
 serializing
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-serializing
@@ -7840,8 +7831,8 @@ https://fetch.spec.whatwg.org/#serializing-a-request-origin
 -
 serializing an attribute value
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-serializing-an-attribute-value
@@ -7934,8 +7925,8 @@ font-family
 -
 serif
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-generic-family-serif
@@ -7945,8 +7936,8 @@ https://drafts.csswg.org/css2/#valdef-generic-family-serif
 -
 serif
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#serif-def
@@ -7955,8 +7946,8 @@ https://drafts.csswg.org/css2/#serif-def
 -
 serif
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-generic-family-serif
@@ -7966,8 +7957,8 @@ https://drafts.csswg.org/css2/#valdef-generic-family-serif
 -
 serif
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#serif-def
@@ -10299,8 +10290,8 @@ https://html.spec.whatwg.org/multipage/canvas.html#set-an-imagebitmaprenderingco
 -
 set an indexed value
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#observable-array-attribute-set-an-indexed-value
@@ -10361,8 +10352,8 @@ FontFaceSet
 -
 set entries
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-set-entries
@@ -10862,8 +10853,8 @@ https://www.w3.org/TR/generic-sensor/#set-sensor-settings
 -
 set size getter
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-set-size-getter
@@ -11073,8 +11064,8 @@ https://html.spec.whatwg.org/multipage/semantics.html#set-the-frozen-base-url
 -
 set the indexed value
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#observable-array-exotic-object-set-the-indexed-value
@@ -11084,8 +11075,8 @@ observable array exotic object
 -
 set the length
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#observable-array-exotic-object-set-the-length
@@ -11369,22 +11360,12 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#set-the-value-of-a-ne
 -
 set the value of a new indexed property
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-set-the-value-of-a-new-indexed-property
 1
-1
--
-set the value of a new indexed property
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-set-the-value-of-a-new-indexed-property
-
 1
 -
 set the value of a new named property
@@ -11399,22 +11380,12 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#set-the-value-of-a-ne
 -
 set the value of a new named property
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-set-the-value-of-a-new-named-property
 1
-1
--
-set the value of a new named property
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-set-the-value-of-a-new-named-property
-
 1
 -
 set the value of an existing indexed property
@@ -11429,22 +11400,12 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#set-the-value-of-an-e
 -
 set the value of an existing indexed property
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-set-the-value-of-an-existing-indexed-property
 1
-1
--
-set the value of an existing indexed property
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-set-the-value-of-an-existing-indexed-property
-
 1
 -
 set the value of an existing named property
@@ -11459,22 +11420,12 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#set-the-value-of-an-e
 -
 set the value of an existing named property
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-set-the-value-of-an-existing-named-property
 1
-1
--
-set the value of an existing named property
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-set-the-value-of-an-existing-named-property
-
 1
 -
 set timeouts
@@ -12354,7 +12305,7 @@ https://www.w3.org/TR/webrtc/#dom-rtcpeerconnection-setconfiguration
 1
 RTCPeerConnection
 -
-setCustomValidity(message)
+setCustomValidity(error)
 method
 html
 html
@@ -12368,6 +12319,8 @@ HTMLInputElement
 HTMLButtonElement
 HTMLSelectElement
 HTMLTextAreaElement
+HTMLOutputElement
+HTMLFieldSetElement
 -
 setData(format, data)
 method
@@ -12380,7 +12333,7 @@ https://html.spec.whatwg.org/multipage/dnd.html#dom-datatransfer-setdata
 1
 DataTransfer
 -
-setDragImage(element, x, y)
+setDragImage(image, x, y)
 method
 html
 html
@@ -12644,7 +12597,7 @@ https://www.w3.org/TR/web-animations-1/#dom-keyframeeffect-setkeyframes
 1
 KeyframeEffect
 -
-setLineDash()
+setLineDash(segments)
 method
 html
 html
@@ -12767,8 +12720,8 @@ RTCPeerConnection
 -
 setMatrix
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setMatrix
@@ -12778,8 +12731,8 @@ SVGTransform
 -
 setMatrix
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#__svg__SVGTransform__setMatrix
@@ -12877,8 +12830,8 @@ NamedNodeMap
 -
 setOrientToAngle
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__setOrientToAngle
@@ -12888,8 +12841,8 @@ SVGMarkerElement
 -
 setOrientToAngle
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/painting.html#__svg__SVGMarkerElement__setOrientToAngle
@@ -12899,8 +12852,8 @@ SVGMarkerElement
 -
 setOrientToAuto
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__setOrientToAuto
@@ -12910,8 +12863,8 @@ SVGMarkerElement
 -
 setOrientToAuto
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/painting.html#__svg__SVGMarkerElement__setOrientToAuto
@@ -13505,8 +13458,8 @@ Performance
 -
 setRotate
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setRotate
@@ -13516,8 +13469,8 @@ SVGTransform
 -
 setRotate
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#__svg__SVGTransform__setRotate
@@ -13527,8 +13480,8 @@ SVGTransform
 -
 setScale
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setScale
@@ -13538,8 +13491,8 @@ SVGTransform
 -
 setScale
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#__svg__SVGTransform__setScale
@@ -13671,8 +13624,8 @@ HTMLMediaElement
 -
 setSkewX
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setSkewX
@@ -13682,8 +13635,8 @@ SVGTransform
 -
 setSkewX
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#__svg__SVGTransform__setSkewX
@@ -13693,8 +13646,8 @@ SVGTransform
 -
 setSkewY
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setSkewY
@@ -13704,8 +13657,8 @@ SVGTransform
 -
 setSkewY
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#__svg__SVGTransform__setSkewY
@@ -13957,8 +13910,8 @@ CanvasPattern
 -
 setTranslate
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setTranslate
@@ -13968,8 +13921,8 @@ SVGTransform
 -
 setTranslate
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#__svg__SVGTransform__setTranslate
@@ -14133,8 +14086,8 @@ GPURenderPassEncoder
 -
 setattribute
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-setattribute
@@ -14206,8 +14159,8 @@ https://www.w3.org/TR/requestidlecallback/#dfn-setinterval
 -
 setlike
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-setlike
@@ -14216,8 +14169,8 @@ https://heycam.github.io/webidl/#dfn-setlike
 -
 setlike declaration
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-setlike-declaration
@@ -14321,8 +14274,8 @@ mediakeys
 -
 setter
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-setter
@@ -14331,21 +14284,11 @@ https://heycam.github.io/webidl/#dfn-setter
 -
 setter steps
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#setter-steps
-
-1
--
-setters
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-setter
 
 1
 -
@@ -14441,8 +14384,8 @@ https://www.w3.org/TR/webrtc/#set-description
 -
 setting the indexed value
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#observable-array-exotic-object-set-the-indexed-value
@@ -14452,8 +14395,8 @@ observable array exotic object
 -
 setting the length
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#observable-array-exotic-object-set-the-length

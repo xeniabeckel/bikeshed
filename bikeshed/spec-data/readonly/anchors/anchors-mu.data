@@ -193,6 +193,28 @@ https://www.w3.org/TR/css-typed-om-1/#dom-cssnumericvalue-mul
 1
 CSSNumericValue
 -
+mul(a, b)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-mul
+1
+1
+MLGraphBuilder
+-
+mul(a, b)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-mul
+1
+1
+MLGraphBuilder
+-
 multi-col line
 dfn
 css-multicol-1
@@ -335,8 +357,8 @@ https://www.w3.org/TR/css-flexbox-1/#multi-line-flex-container
 -
 multiEntry
 dict-member
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindexparameters-multientry
@@ -346,8 +368,8 @@ IDBIndexParameters
 -
 multiEntry
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-multientry
@@ -357,8 +379,8 @@ IDBIndex
 -
 multiEntry
 dict-member
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindexparameters-multientry
@@ -368,8 +390,8 @@ IDBIndexParameters
 -
 multiEntry
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-multientry
@@ -429,8 +451,8 @@ https://www.w3.org/TR/css-multicol-1/#multi-column-line
 -
 multientry flag
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#index-multientry-flag
@@ -440,8 +462,8 @@ index
 -
 multientry flag
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#index-multientry-flag
@@ -649,8 +671,8 @@ https://www.w3.org/TR/webdriver2/#dfn-multiple-attribute
 -
 multiple declarations
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#multiple-declarations
@@ -659,8 +681,8 @@ https://drafts.csswg.org/css2/#multiple-declarations
 -
 multiple declarations
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#multiple-declarations
@@ -1016,8 +1038,8 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vcard-rel-muse
 -
 must
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#must
@@ -1026,8 +1048,8 @@ https://drafts.csswg.org/css2/#must
 -
 must
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#must
@@ -1036,8 +1058,8 @@ https://drafts.csswg.org/css2/#must
 -
 must not
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#must-not
@@ -1046,8 +1068,8 @@ https://drafts.csswg.org/css2/#must-not
 -
 must not
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#must-not
@@ -1441,6 +1463,16 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/webappapis.html#muted-errors
+
+1
+-
+muted errors
+dfn
+js-self-profiling
+js-self-profiling
+1
+current
+https://wicg.github.io/js-self-profiling/#dfn-muted-errors
 
 1
 -

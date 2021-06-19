@@ -64,17 +64,6 @@ https://wicg.github.io/webusb/#dom-usbrequesttype-class
 1
 USBRequestType
 -
-"clipboard-read"
-enum-value
-permissions
-permissions
-1
-snapshot
-https://www.w3.org/TR/permissions/#dom-permissionname-clipboard-read
-1
-1
-PermissionName
--
 "clipboard-write"
 enum-value
 clipboard-apis
@@ -93,17 +82,6 @@ clipboard-apis
 1
 snapshot
 https://www.w3.org/TR/clipboard-apis/#dom-permissionname-clipboard-write
-1
-1
-PermissionName
--
-"clipboard-write"
-enum-value
-permissions
-permissions
-1
-current
-https://w3c.github.io/permissions/#dom-permissionname-clipboard-write
 1
 1
 PermissionName
@@ -223,17 +201,6 @@ enum-value
 webtransport
 webtransport
 1
-current
-https://w3c.github.io/webtransport/#dom-webtransportstate-closed
-1
-1
-WebTransportState
--
-"closed"
-enum-value
-webtransport
-webtransport
-1
 snapshot
 https://www.w3.org/TR/webtransport/#dom-webtransportstate-closed
 1
@@ -325,8 +292,8 @@ WebSocket
 -
 Clamp
 extended-attribute
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#Clamp
@@ -711,6 +678,16 @@ https://www.w3.org/TR/clipboard-apis/#dictdef-clipboardpermissiondescriptor
 1
 1
 -
+CloneAsUint8Array
+abstract-op
+streams
+streams
+1
+current
+https://streams.spec.whatwg.org/#abstract-opdef-cloneasuint8array
+1
+1
+-
 CloseEvent
 interface
 html
@@ -732,7 +709,7 @@ https://html.spec.whatwg.org/multipage/web-sockets.html#closeeventinit
 1
 -
 [[Class]]
-idl
+attribute
 webdriver2
 webdriver
 2
@@ -976,6 +953,50 @@ snapshot
 https://www.w3.org/TR/css-values-4/#funcdef-clamp
 1
 1
+-
+clamp(x)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-clamp
+1
+1
+MLGraphBuilder
+-
+clamp(x)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-clamp
+1
+1
+MLGraphBuilder
+-
+clamp(x, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-clamp
+1
+1
+MLGraphBuilder
+-
+clamp(x, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-clamp
+1
+1
+MLGraphBuilder
 -
 clampDepth
 dict-member
@@ -1235,8 +1256,8 @@ https://w3c.github.io/svg-aam/#dfn-class
 -
 class
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/styling.html#ClassAttribute
@@ -1246,8 +1267,8 @@ core-attributes
 -
 class
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/styling.html#ClassAttribute
@@ -1381,22 +1402,12 @@ https://www.w3.org/TR/selectors-4/#class-selector
 -
 class string
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-class-string
 1
-1
--
-class string
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-class-string
-
 1
 -
 classCode
@@ -1434,8 +1445,8 @@ Element
 -
 className
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGElement__className
@@ -1445,8 +1456,8 @@ SVGElement
 -
 className
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGElement__className
@@ -1606,6 +1617,16 @@ https://html.spec.whatwg.org/multipage/webappapis.html#classic-script
 1
 1
 -
+classic script
+dfn
+js-self-profiling
+js-self-profiling
+1
+current
+https://wicg.github.io/js-self-profiling/#dfn-classic-script
+
+1
+-
 classic scripts imported flag
 dfn
 service-workers-1
@@ -1762,8 +1783,8 @@ WebTransport
 -
 cleanup event loop
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#transaction-cleanup-event-loop
@@ -1773,8 +1794,8 @@ transaction
 -
 cleanup event loop
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#transaction-cleanup-event-loop
@@ -1794,8 +1815,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#cleanup-indexed-datab
 -
 cleanup indexed database transactions
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#cleanup-indexed-database-transactions
@@ -1805,8 +1826,8 @@ transaction
 -
 cleanup indexed database transactions
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#cleanup-indexed-database-transactions
@@ -1889,8 +1910,8 @@ https://www.w3.org/TR/css-page-floats-3/#propdef-clear
 -
 clear
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-clear
@@ -1899,8 +1920,8 @@ https://drafts.csswg.org/css2/#propdef-clear
 -
 clear
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-clear
@@ -1909,8 +1930,8 @@ https://drafts.csswg.org/css2/#propdef-clear
 -
 clear
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/visuren.html#propdef-clear
@@ -2021,8 +2042,8 @@ https://www.w3.org/TR/webdriver2/#dfn-clear-algorithm
 -
 clear an object store
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#clear-an-object-store
@@ -2031,8 +2052,8 @@ https://w3c.github.io/IndexedDB/#clear-an-object-store
 -
 clear an object store
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#clear-an-object-store
@@ -2288,8 +2309,8 @@ StylePropertyMap
 -
 clear()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-clear
@@ -2299,8 +2320,8 @@ IDBObjectStore
 -
 clear()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-clear
@@ -2383,7 +2404,7 @@ https://w3c.github.io/badging/#dom-navigator-clearclientbadge
 1
 Navigator
 -
-clearData()
+clearData(format)
 method
 html
 html
@@ -2627,8 +2648,8 @@ SerialInputSignals
 -
 clearWatch()
 method
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dom-geolocation-clearwatch
@@ -2638,8 +2659,8 @@ Geolocation
 -
 clearWatch()
 method
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dom-geolocation-clearwatch
@@ -2649,8 +2670,8 @@ Geolocation
 -
 clearWatch(watchId)
 method
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dom-geolocation-clearwatch
@@ -2660,8 +2681,8 @@ Geolocation
 -
 clearWatch(watchId)
 method
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dom-geolocation-clearwatch
@@ -2671,8 +2692,8 @@ Geolocation
 -
 clearance
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#clearance
@@ -2681,8 +2702,8 @@ https://drafts.csswg.org/css2/#clearance
 -
 clearance
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#clearance
@@ -4027,8 +4048,8 @@ text-overflow
 -
 clip
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-clip
@@ -4037,8 +4058,8 @@ https://drafts.csswg.org/css2/#propdef-clip
 -
 clip
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-clip
@@ -4047,8 +4068,8 @@ https://drafts.csswg.org/css2/#propdef-clip
 -
 clip
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/visufx.html#propdef-clip
@@ -4402,8 +4423,8 @@ https://www.w3.org/TR/css-masking-1/#clipping-region
 -
 clipping region
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#clipping-region
@@ -4412,8 +4433,8 @@ https://drafts.csswg.org/css2/#clipping-region
 -
 clipping region
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#clipping-region
@@ -4610,8 +4631,8 @@ box-decoration-break
 -
 clone
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#clone
@@ -4620,8 +4641,8 @@ https://w3c.github.io/IndexedDB/#clone
 -
 clone
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#clone
@@ -5084,6 +5105,17 @@ https://www.w3.org/TR/webrtc/#dfn-close
 
 
 -
+close
+dfn
+webtransport
+webtransport
+1
+current
+https://w3c.github.io/webtransport/#sendstream-close
+
+1
+SendStream
+-
 close a browsing context
 dfn
 html
@@ -5116,8 +5148,8 @@ https://www.w3.org/TR/webdriver2/#dfn-close
 -
 close a database connection
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#close-a-database-connection
@@ -5126,8 +5158,8 @@ https://w3c.github.io/IndexedDB/#close-a-database-connection
 -
 close a database connection
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#close-a-database-connection
@@ -5248,8 +5280,8 @@ ImageDecoder
 -
 close pending flag
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#connection-close-pending-flag
@@ -5259,8 +5291,8 @@ connection
 -
 close pending flag
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#connection-close-pending-flag
@@ -5476,17 +5508,6 @@ html
 html
 1
 current
-https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-close
-1
-1
-HTMLDialogElement
--
-close()
-method
-html
-html
-1
-current
 https://html.spec.whatwg.org/multipage/window-object.html#dom-window-close
 1
 1
@@ -5681,8 +5702,8 @@ mediakeysession
 -
 close()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbdatabase-close
@@ -5692,8 +5713,8 @@ IDBDatabase
 -
 close()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbdatabase-close
@@ -6009,6 +6030,17 @@ https://html.spec.whatwg.org/multipage/web-sockets.html#dom-websocket-close
 1
 WebSocket
 -
+close(returnValue)
+method
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-close
+1
+1
+HTMLDialogElement
+-
 close-quote
 value
 css-content-3
@@ -6037,8 +6069,8 @@ content
 -
 close-quote
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-close-quote
@@ -6048,8 +6080,8 @@ content
 -
 close-quote
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-close-quote
@@ -6223,8 +6255,8 @@ mediakeysession
 -
 closed
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#connection-closed
@@ -6234,8 +6266,8 @@ connection
 -
 closed
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#connection-closed
@@ -6616,8 +6648,8 @@ https://html.spec.whatwg.org/multipage/web-messaging.html#concept-broadcastchann
 -
 closed subpath
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/paths.html#TermClosedSubpath
@@ -6626,13 +6658,24 @@ https://svgwg.org/svg2-draft/paths.html#TermClosedSubpath
 -
 closed subpath
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/paths.html#TermClosedSubpath
 
 1
+-
+closed-by-application
+enum-value
+encrypted-media
+encrypted-media
+1
+current
+https://w3c.github.io/encrypted-media/#dom-mediakeysessionclosedreason-closed-by-application
+1
+1
+MediaKeySessionClosedReason
 -
 closed-shadow-hidden
 dfn

@@ -41,8 +41,8 @@ https://www.w3.org/TR/svg-strokes/#DataTypeDasharray
 -
 <dasharray>
 type
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/painting.html#DataTypeDasharray
@@ -51,8 +51,8 @@ https://svgwg.org/svg2-draft/painting.html#DataTypeDasharray
 -
 <dasharray>
 type
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/painting.html#DataTypeDasharray
@@ -101,8 +101,8 @@ https://www.w3.org/TR/css-syntax-3/#typedef-dashndashdigit-ident
 -
 DATA_CLONE_ERR
 const
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dom-domexception-data_clone_err
@@ -112,8 +112,8 @@ DOMException
 -
 DataCloneError
 exception
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#datacloneerror
@@ -154,8 +154,8 @@ DataCue
 -
 DataError
 exception
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dataerror
@@ -205,8 +205,8 @@ https://html.spec.whatwg.org/multipage/dnd.html#datatransferitemlist
 -
 DataView
 interface
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#idl-DataView
@@ -244,7 +244,7 @@ https://www.w3.org/TR/webtransport/#datagramtransport
 1
 -
 [[DataChannelId]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -254,7 +254,7 @@ https://w3c.github.io/webrtc-pc/#dfn-datachannelid
 1
 -
 [[DataChannelId]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -264,7 +264,7 @@ https://www.w3.org/TR/webrtc/#dfn-datachannelid
 1
 -
 [[DataChannelLabel]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -274,7 +274,7 @@ https://w3c.github.io/webrtc-pc/#dfn-datachannellabel
 1
 -
 [[DataChannelLabel]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -284,7 +284,7 @@ https://www.w3.org/TR/webrtc/#dfn-datachannellabel
 1
 -
 [[DataChannelProtocol]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -294,7 +294,7 @@ https://w3c.github.io/webrtc-pc/#dfn-datachannelprotocol
 1
 -
 [[DataChannelProtocol]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -1000,8 +1000,8 @@ https://www.w3.org/TR/svg-strokes/#TermDashPositions
 -
 dash positions
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/painting.html#TermDashPositions
@@ -1010,8 +1010,8 @@ https://svgwg.org/svg2-draft/painting.html#TermDashPositions
 -
 dash positions
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/painting.html#TermDashPositions
@@ -1054,8 +1054,8 @@ border
 -
 dashed
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-dashed
@@ -1070,8 +1070,8 @@ border-style
 -
 dashed
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-dashed
@@ -1641,17 +1641,6 @@ https://wicg.github.io/portals/#dom-portalactivateeventinit-data
 PortalActivateEventInit
 -
 data
-dict-member
-webhid
-webhid
-1
-current
-https://wicg.github.io/webhid/#dom-hidinputreporteventinit-data
-1
-1
-HIDInputReportEventInit
--
-data
 attribute
 webhid
 webhid
@@ -1661,6 +1650,17 @@ https://wicg.github.io/webhid/#dom-hidinputreportevent-data
 1
 1
 HIDInputReportEvent
+-
+data
+dict-member
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dom-hidinputreporteventinit-data
+1
+1
+HIDInputReportEventInit
 -
 data
 argument
@@ -2005,8 +2005,8 @@ FragmentResultOptions
 -
 data
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-data
@@ -2608,8 +2608,8 @@ https://www.w3.org/TR/css-properties-values-api-1/#data-type-name
 -
 data url
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/linking.html#TermDataURL
@@ -2618,8 +2618,8 @@ https://svgwg.org/svg2-draft/linking.html#TermDataURL
 -
 data url
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/linking.html#TermDataURL
@@ -3048,16 +3048,6 @@ https://w3c.github.io/input-events/#dom-inputevent-datatransfer
 1
 InputEvent
 -
-data_clone_err
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dom-domexception-data_clone_err
-
-1
--
 data_matrix
 enum-value
 shape-detection-api
@@ -3093,8 +3083,8 @@ MediaRecorder
 -
 database
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#database
@@ -3103,8 +3093,8 @@ https://w3c.github.io/IndexedDB/#database
 -
 database
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#database
@@ -3133,8 +3123,8 @@ https://www.w3.org/TR/presentation-api/#dfn-database
 -
 database access task source
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#database-access-task-source
@@ -3143,8 +3133,8 @@ https://w3c.github.io/IndexedDB/#database-access-task-source
 -
 database access task source
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#database-access-task-source
@@ -3153,8 +3143,8 @@ https://www.w3.org/TR/IndexedDB-3/#database-access-task-source
 -
 databases()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbfactory-databases
@@ -3164,8 +3154,8 @@ IDBFactory
 -
 databases()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbfactory-databases
@@ -3194,33 +3184,13 @@ https://www.w3.org/TR/webrtc/#event-datachannel
 
 
 -
-datacloneerror
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#datacloneerror
-
-1
--
 dataerror
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-DataError
-
-1
--
-dataerror
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dataerror
 
 1
 -
@@ -3411,24 +3381,26 @@ https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#concept-date
 1
 -
 date
-dfn
+attr-value
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#attr-input-type-date-keyword
-
 1
+1
+input/type
 -
 date
-dfn
+element-state
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#date-state-(type=date)
-
 1
+1
+input
 -
 date
 dfn
@@ -3598,12 +3570,13 @@ https://html.spec.whatwg.org/multipage/text-level-semantics.html#datetime-value
 1
 -
 datetime-local
-dfn
+attr-value
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#attr-input-type-datetime-local-keyword
-
 1
+1
+input/type
 -

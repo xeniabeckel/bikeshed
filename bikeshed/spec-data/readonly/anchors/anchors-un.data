@@ -325,8 +325,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#'unicode-bidi'
 -
 'unsafe-allow-redirects'
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-unsafe-allow-redirects
@@ -335,8 +335,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-unsafe-allow-redirects
 -
 'unsafe-allow-redirects'
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-unsafe-allow-redirects
@@ -345,8 +345,8 @@ https://www.w3.org/TR/CSP3/#grammardef-unsafe-allow-redirects
 -
 'unsafe-eval'
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-unsafe-eval
@@ -355,8 +355,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-unsafe-eval
 -
 'unsafe-eval'
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-unsafe-eval
@@ -365,8 +365,8 @@ https://www.w3.org/TR/CSP3/#grammardef-unsafe-eval
 -
 'unsafe-hashes'
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-unsafe-hashes
@@ -375,8 +375,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-unsafe-hashes
 -
 'unsafe-hashes'
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-unsafe-hashes
@@ -385,8 +385,8 @@ https://www.w3.org/TR/CSP3/#grammardef-unsafe-hashes
 -
 'unsafe-inline'
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-unsafe-inline
@@ -395,8 +395,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-unsafe-inline
 -
 'unsafe-inline'
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-unsafe-inline
@@ -644,8 +644,8 @@ https://www.w3.org/TR/webtransport/#unidirectionalstreamstransport
 -
 UnknownError
 exception
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#unknownerror
@@ -654,8 +654,8 @@ https://heycam.github.io/webidl/#unknownerror
 -
 Unscopable
 extended-attribute
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#Unscopable
@@ -932,8 +932,8 @@ XRReferenceSpaceType
 -
 unbounded key range
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#unbounded-key-range
@@ -942,8 +942,8 @@ https://w3c.github.io/IndexedDB/#unbounded-key-range
 -
 unbounded key range
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#unbounded-key-range
@@ -1001,6 +1001,17 @@ https://gpuweb.github.io/gpuweb/#dom-gpupresentationcontext-unconfigure
 1
 GPUPresentationContext
 -
+unconfigure()
+method
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpupresentationcontext-unconfigure
+1
+1
+GPUPresentationContext
+-
 unconfigured
 enum-value
 webcodecs
@@ -1045,8 +1056,8 @@ https://www.w3.org/TR/webdriver2/#dfn-undefined
 -
 undefined
 interface
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#idl-undefined
@@ -1259,8 +1270,8 @@ text-decoration-line
 -
 underline
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-text-decoration-underline
@@ -1270,8 +1281,8 @@ text-decoration
 -
 underline
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-text-decoration-underline
@@ -1298,6 +1309,17 @@ snapshot
 https://www.w3.org/TR/css-text-decor-4/#underline-zero-position
 
 1
+-
+underlying buffer
+dfn
+webidl-1
+webidl
+1
+current
+https://heycam.github.io/webidl/#buffersource-underlying-buffer
+1
+1
+BufferSource
 -
 underlying byte source
 dfn
@@ -1555,16 +1577,6 @@ https://www.w3.org/TR/css-tables-3/#undistributable-space
 
 1
 -
-unenumerable
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-unenumerable
-
-1
--
 unexpected alert open
 dfn
 webdriver2
@@ -1727,42 +1739,22 @@ https://www.w3.org/TR/css-break-4/#unforced-break
 -
 unforgeable
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-unforgeable-on-an-interface
 1
 1
 -
-unforgeable
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-unforgeable-on-an-interface
-
-1
--
 unforgeable property name
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-unforgeable-property-name
 1
-1
--
-unforgeable property name
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-unforgeable-property-name
-
 1
 -
 unfrozen
@@ -2204,8 +2196,8 @@ https://www.w3.org/TR/css-writing-modes-4/#propdef-unicode-bidi
 -
 unicode-bidi
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-unicode-bidi
@@ -2214,8 +2206,8 @@ https://drafts.csswg.org/css2/#propdef-unicode-bidi
 -
 unicode-bidi
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-unicode-bidi
@@ -2224,8 +2216,8 @@ https://drafts.csswg.org/css2/#propdef-unicode-bidi
 -
 unicode-bidi
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/visuren.html#propdef-unicode-bidi
@@ -2300,8 +2292,8 @@ FontFace
 -
 uniform
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#storage-classes-uniform
@@ -2311,8 +2303,8 @@ storage classes
 -
 uniform
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#storage-classes-uniform
@@ -2322,8 +2314,8 @@ storage classes
 -
 uniform buffer
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#uniform-buffer
@@ -2332,8 +2324,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#uniform-buffer
 -
 uniform buffer
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#uniform-buffer
@@ -2393,28 +2385,18 @@ set
 -
 union type
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-union-type
 1
 1
 -
-union type
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-union-type
-
-1
--
 unique
 dict-member
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindexparameters-unique
@@ -2424,8 +2406,8 @@ IDBIndexParameters
 -
 unique
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-unique
@@ -2435,8 +2417,8 @@ IDBIndex
 -
 unique
 dict-member
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindexparameters-unique
@@ -2446,8 +2428,8 @@ IDBIndexParameters
 -
 unique
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-unique
@@ -2457,8 +2439,8 @@ IDBIndex
 -
 unique flag
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#index-unique-flag
@@ -2468,8 +2450,8 @@ index
 -
 unique flag
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#index-unique-flag
@@ -2565,6 +2547,16 @@ https://www.w3.org/TR/css-typed-om-1/#dom-cssunitvalue-unit
 1
 CSSUnitValue
 -
+unit exponent tag
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-unit-exponent-tag
+
+
+-
 unit map
 dfn
 css-typed-om-1
@@ -2586,6 +2578,16 @@ https://www.w3.org/TR/css-typed-om-1/#sum-value-unit-map
 
 1
 sum value
+-
+unit tag
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-unit-tag
+
+
 -
 unitExponent
 dict-member
@@ -2677,8 +2679,8 @@ HIDReportItem
 -
 unitType
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__unitType
@@ -2688,8 +2690,8 @@ SVGLength
 -
 unitType
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__unitType
@@ -2699,8 +2701,8 @@ SVGAngle
 -
 unitType
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGLength__unitType
@@ -2710,8 +2712,8 @@ SVGLength
 -
 unitType
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAngle__unitType
@@ -2744,8 +2746,8 @@ CSSNumericValue/toSum(...units)
 -
 universal selector
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#universal-selector%E2%91%A0
@@ -2754,8 +2756,8 @@ https://drafts.csswg.org/css2/#universal-selector%E2%91%A0
 -
 universal selector
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#universal-selector%E2%91%A0
@@ -2824,8 +2826,8 @@ https://www.w3.org/TR/webdriver2/#dfn-uuid
 -
 unix epoch
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#UnixEpoch
@@ -2834,8 +2836,8 @@ https://w3c.github.io/FileAPI/#UnixEpoch
 -
 unix epoch
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#UnixEpoch
@@ -2970,8 +2972,8 @@ PaymentComplete
 -
 unknown
 element
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#elementdef-unknown
@@ -3107,16 +3109,6 @@ scroll-to-text-fragment
 1
 current
 https://wicg.github.io/scroll-to-text-fragment/#unknowndirective
-
-1
--
-unknownerror
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#unknownerror
 
 1
 -
@@ -3721,8 +3713,8 @@ https://www.w3.org/TR/web-animations-1/#unresolved
 -
 unresolved reference
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/linking.html#TermUnresolvedReference
@@ -3731,8 +3723,8 @@ https://svgwg.org/svg2-draft/linking.html#TermUnresolvedReference
 -
 unresolved reference
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/linking.html#TermUnresolvedReference
@@ -3751,8 +3743,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#idl-unrestricted-doub
 -
 unrestricted double
 interface
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#idl-unrestricted-double
@@ -3761,8 +3753,8 @@ https://heycam.github.io/webidl/#idl-unrestricted-double
 -
 unrestricted float
 interface
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#idl-unrestricted-float
@@ -3886,8 +3878,8 @@ ReferrerPolicy
 -
 unsafefile
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#UnsafeFileFR
@@ -3896,8 +3888,8 @@ https://w3c.github.io/FileAPI/#UnsafeFileFR
 -
 unsafefile
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#UnsafeFileFR
@@ -4052,8 +4044,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#idl-unsigned-long
 -
 unsigned long
 interface
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#idl-unsigned-long
@@ -4062,8 +4054,8 @@ https://heycam.github.io/webidl/#idl-unsigned-long
 -
 unsigned long long
 interface
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#idl-unsigned-long-long
@@ -4072,8 +4064,8 @@ https://heycam.github.io/webidl/#idl-unsigned-long-long
 -
 unsigned short
 interface
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#idl-unsigned-short
@@ -4227,8 +4219,8 @@ https://www.w3.org/TR/webdriver2/#dfn-unsupported-operation
 -
 unsuspendRedraw
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__unsuspendRedraw
@@ -4238,8 +4230,8 @@ SVGSVGElement
 -
 unsuspendRedraw
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__unsuspendRedraw
@@ -4249,8 +4241,8 @@ SVGSVGElement
 -
 unsuspendRedrawAll
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__unsuspendRedrawAll
@@ -4260,8 +4252,8 @@ SVGSVGElement
 -
 unsuspendRedrawAll
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__unsuspendRedrawAll
@@ -4322,8 +4314,8 @@ Body
 -
 unwrapKey
 enum-value
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dom-keyusage-unwrapkey
@@ -4333,8 +4325,8 @@ KeyUsage
 -
 unwrapKey()
 method
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-unwrapKey
@@ -4344,8 +4336,8 @@ SubtleCrypto
 -
 unwrapKey(format, wrappedKey, unwrappingKey, unwrapAlgorithm, unwrappedKeyAlgorithm, extractable, keyUsages)
 method
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-unwrapKey
@@ -4355,8 +4347,8 @@ SubtleCrypto
 -
 unwrapkey
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-SubtleCrypto-method-unwrapKey

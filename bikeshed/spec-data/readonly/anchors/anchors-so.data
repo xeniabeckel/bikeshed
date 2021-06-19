@@ -70,16 +70,6 @@ https://www.w3.org/TR/webgpu/#dom-adapter-software-slot
 1
 adapter
 -
-[[sortingCode]]
-idl
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-sortingcode
-1
-1
--
 [[source started]]
 attribute
 webaudio
@@ -349,6 +339,28 @@ https://www.w3.org/TR/compositing-1/#valdef-blend-mode-soft-light
 1
 <blend-mode>
 -
+softmax(x)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-softmax
+1
+1
+MLGraphBuilder
+-
+softmax(x)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-softmax
+1
+1
+MLGraphBuilder
+-
 software
 dict-member
 webmidi
@@ -418,8 +430,8 @@ leader()
 -
 solid
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-solid
@@ -434,8 +446,8 @@ border-style
 -
 solid
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-solid
@@ -605,16 +617,6 @@ https://url.spec.whatwg.org/#dom-urlsearchparams-sort
 1
 URLSearchParams
 -
-sorted name list
-dfn
-IndexedDB-3
-IndexedDB
-3
-snapshot
-https://www.w3.org/TR/IndexedDB-3/#sorted-name-list
-
-1
--
 sorting
 dfn
 infra
@@ -657,16 +659,6 @@ import-maps
 1
 current
 https://wicg.github.io/import-maps/#sort-and-normalize-scopes
-
-1
--
-sorting code
-dfn
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-sorting-code
 
 1
 -
@@ -719,39 +711,6 @@ https://infra.spec.whatwg.org/#map-sort-in-descending-order
 1
 1
 map
--
-sortingCode
-attribute
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentaddress-sortingcode
-1
-1
-PaymentAddress
--
-sortingCode
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addressinit-sortingcode
-1
-1
-AddressInit
--
-sortingCode
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addresserrors-sortingcode
-1
-1
-AddressErrors
 -
 sound
 dfn
@@ -927,8 +886,8 @@ MessageEvent
 -
 source
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#policy-source
@@ -938,8 +897,8 @@ policy
 -
 source
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#policy-source
@@ -1016,8 +975,8 @@ TextEncoder/encodeInto(source, destination)
 -
 source
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#request-source
@@ -1027,8 +986,8 @@ request
 -
 source
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#cursor-source
@@ -1038,8 +997,8 @@ cursor
 -
 source
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbrequest-source
@@ -1049,8 +1008,8 @@ IDBRequest
 -
 source
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbcursor-source
@@ -1060,8 +1019,8 @@ IDBCursor
 -
 source
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#request-source
@@ -1071,8 +1030,8 @@ request
 -
 source
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#cursor-source
@@ -1082,8 +1041,8 @@ cursor
 -
 source
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbrequest-source
@@ -1093,8 +1052,8 @@ IDBRequest
 -
 source
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-source
@@ -1510,8 +1469,8 @@ https://html.spec.whatwg.org/multipage/browsing-the-web.html#source-browsing-con
 -
 source document
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#source-document
@@ -1520,8 +1479,8 @@ https://drafts.csswg.org/css2/#source-document
 -
 source document
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#source-document
@@ -1530,8 +1489,8 @@ https://drafts.csswg.org/css2/#source-document
 -
 source expression
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#source-expression
@@ -1540,8 +1499,8 @@ https://w3c.github.io/webappsec-csp/#source-expression
 -
 source expression
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#source-expression
@@ -1550,8 +1509,8 @@ https://www.w3.org/TR/CSP3/#source-expression
 -
 source file
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#violation-source-file
@@ -1561,8 +1520,8 @@ violation
 -
 source file
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#violation-source-file
@@ -1572,8 +1531,8 @@ violation
 -
 source lists
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#source-lists
@@ -1582,8 +1541,8 @@ https://w3c.github.io/webappsec-csp/#source-lists
 -
 source lists
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#source-lists
@@ -1722,16 +1681,6 @@ https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#s
 
 1
 -
-source text module record
-dfn
-js-self-profiling
-js-self-profiling
-1
-current
-https://wicg.github.io/js-self-profiling/#dfn-source-text-module-record
-
-1
--
 source type
 dfn
 webdriver2
@@ -1754,8 +1703,8 @@ https://www.w3.org/TR/webdriver2/#dfn-source-type
 -
 source-expression
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-source-expression
@@ -1764,8 +1713,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-source-expression
 -
 source-expression
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-source-expression
@@ -1794,8 +1743,8 @@ https://html.spec.whatwg.org/multipage/canvas.html#gcop-source-over
 -
 sourceAnimation
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__ShadowAnimation__sourceAnimation
@@ -1805,8 +1754,8 @@ ShadowAnimation
 -
 sourceAnimation
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__ShadowAnimation__sourceAnimation
@@ -1904,8 +1853,8 @@ InterventionReportBody
 -
 sourceFile
 attribute
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-sourcefile
@@ -1915,8 +1864,8 @@ CSPViolationReportBody
 -
 sourceFile
 attribute
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationevent-sourcefile
@@ -1926,8 +1875,8 @@ SecurityPolicyViolationEvent
 -
 sourceFile
 dict-member
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationeventinit-sourcefile
@@ -1937,8 +1886,8 @@ SecurityPolicyViolationEventInit
 -
 sourceFile
 attribute
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dom-cspviolationreportbody-sourcefile
@@ -1948,8 +1897,8 @@ CSPViolationReportBody
 -
 sourceFile
 attribute
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationevent-sourcefile
@@ -1959,8 +1908,8 @@ SecurityPolicyViolationEvent
 -
 sourceFile
 dict-member
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationeventinit-sourcefile

@@ -21,6 +21,8 @@
     "\"display-capture\"",
     "\"empty\"",
     "\"encodingerror\"",
+    "\"english-linear\"",
+    "\"english-rotation\"",
     "\"hierarchyrequesterror\"",
     "\"indexsizeerror\"",
     "\"invalidaccesserror\"",
@@ -36,6 +38,7 @@
     "\"no-referrer-when-downgrade\"",
     "\"nomodificationallowederror\"",
     "\"non-blocking\"",
+    "\"none\"",
     "\"notallowederror\"",
     "\"notfounderror\"",
     "\"notsupportederror\"",
@@ -43,12 +46,16 @@
     "\"origin-when-cross-origin\"",
     "\"quotaexceedederror\"",
     "\"ready to be parser-executed\"",
+    "\"reserved\"",
     "\"same-origin\"",
     "\"securityerror\"",
+    "\"si-linear\"",
+    "\"si-rotation\"",
     "\"smart-poster\"",
     "\"speaker-selection\"",
     "\"speech\"",
     "\"speech-recognition\"",
+    "\"standard\"",
     "\"strict-origin\"",
     "\"strict-origin-when-cross-origin\"",
     "\"syntaxerror\"",
@@ -56,7 +63,9 @@
     "\"unknown\"",
     "\"unsafe-url\"",
     "\"url\"",
+    "\"vendor-defined\"",
     "\"video\"",
+    "\"xr-standard\"",
     "\"xr-standard\" gamepad mapping",
     "#",
     "%array.prototype%",
@@ -189,6 +198,7 @@
     "'paged' media group",
     "'petite-caps'",
     "'position'",
+    "'pt'",
     "'px'",
     "'relative-colorimetric'",
     "'report-sample'",
@@ -850,8 +860,6 @@
     "AcquireReadableStreamDefaultReader",
     "AcquireWritableStreamDefaultWriter",
     "AddEventListenerOptions",
-    "AddressErrors",
-    "AddressInit",
     "AesCbcParams",
     "AesCtrParams",
     "AesDerivedKeyParams",
@@ -972,7 +980,9 @@
     "BeforeUnloadEvent",
     "BidirectionalStream",
     "BidirectionalStreamsTransport",
+    "BigInt64Array",
     "BigInteger",
+    "BigUint64Array",
     "BinaryData",
     "BinaryType",
     "BiquadFilterNode",
@@ -1177,6 +1187,7 @@
     "ClipboardItemOptions",
     "ClipboardItems",
     "ClipboardPermissionDescriptor",
+    "CloneAsUint8Array",
     "CloseEvent",
     "CloseEventInit",
     "CodecState",
@@ -1242,6 +1253,7 @@
     "Create a Trusted Type",
     "Create a Trusted Type Policy",
     "CreateHTMLCallback",
+    "CreateReadableByteStream",
     "CreateReadableStream",
     "CreateScriptCallback",
     "CreateScriptURLCallback",
@@ -1665,6 +1677,9 @@
     "GyroscopeLocalCoordinateSystem",
     "GyroscopeReadingValues",
     "GyroscopeSensorOptions",
+    "HIDDeviceFilter",
+    "HIDDeviceRequestOptions",
+    "HIDUnitSystem",
     "HTMLAllCollection",
     "HTMLAnchorElement",
     "HTMLAreaElement",
@@ -1919,6 +1934,47 @@
     "MIDIPortConnectionState",
     "MIDIPortDeviceState",
     "MIDIPortType",
+    "ML",
+    "MLAutoPad",
+    "MLBatchNormalizationOptions",
+    "MLBufferResourceView",
+    "MLBufferView",
+    "MLClampOptions",
+    "MLContext",
+    "MLContextOptions",
+    "MLConv2dOptions",
+    "MLDevicePreference",
+    "MLFilterOperandLayout",
+    "MLGemmOptions",
+    "MLGraph",
+    "MLGraphBuilder",
+    "MLGruCellOptions",
+    "MLGruOptions",
+    "MLInput",
+    "MLInputOperandLayout",
+    "MLInstanceNormalizationOptions",
+    "MLInterpolationMode",
+    "MLLeakyReluOptions",
+    "MLNamedInputs",
+    "MLNamedOperands",
+    "MLNamedOutputs",
+    "MLOperand",
+    "MLOperandDescriptor",
+    "MLOperandType",
+    "MLPadOptions",
+    "MLPaddingMode",
+    "MLPool2dOptions",
+    "MLPowerPreference",
+    "MLRecurrentNetworkActivation",
+    "MLRecurrentNetworkDirection",
+    "MLRecurrentNetworkWeightLayout",
+    "MLReduceOptions",
+    "MLResampleOptions",
+    "MLResource",
+    "MLSliceOptions",
+    "MLSplitOptions",
+    "MLSqueezeOptions",
+    "MLTransposeOptions",
     "Magnetometer",
     "MagnetometerLocalCoordinateSystem",
     "MagnetometerReadingValues",
@@ -1947,6 +2003,7 @@
     "MediaKeyMessageEventInit",
     "MediaKeyMessageType",
     "MediaKeySession",
+    "MediaKeySessionClosedReason",
     "MediaKeySessionType",
     "MediaKeyStatus",
     "MediaKeyStatusMap",
@@ -2056,6 +2113,7 @@
     "NavigatorID",
     "NavigatorLanguage",
     "NavigatorLocks",
+    "NavigatorML",
     "NavigatorNetworkInformation",
     "NavigatorOnLine",
     "NavigatorPlugins",
@@ -2135,8 +2193,6 @@
     "PasswordCredentialData",
     "PasswordCredentialInit",
     "Path2D",
-    "PayerErrors",
-    "PaymentAddress",
     "PaymentComplete",
     "PaymentCurrencyAmount",
     "PaymentDetailsBase",
@@ -2151,7 +2207,6 @@
     "PaymentMethodChangeEvent",
     "PaymentMethodChangeEventInit",
     "PaymentMethodData",
-    "PaymentOptions",
     "PaymentRequest",
     "PaymentRequestDetailsUpdate",
     "PaymentRequestEvent",
@@ -2159,8 +2214,6 @@
     "PaymentRequestUpdateEvent",
     "PaymentRequestUpdateEventInit",
     "PaymentResponse",
-    "PaymentShippingOption",
-    "PaymentShippingType",
     "PaymentValidationErrors",
     "Pbkdf2Params",
     "PeekQueueValue",
@@ -2434,6 +2487,7 @@
     "ReadableByteStreamControllerError",
     "ReadableByteStreamControllerFillHeadPullIntoDescriptor",
     "ReadableByteStreamControllerFillPullIntoDescriptorFromQueue",
+    "ReadableByteStreamControllerGetBYOBRequest",
     "ReadableByteStreamControllerGetDesiredSize",
     "ReadableByteStreamControllerHandleQueueDrain",
     "ReadableByteStreamControllerInvalidateBYOBRequest",
@@ -2446,6 +2500,7 @@
     "ReadableByteStreamControllerRespondWithNewView",
     "ReadableByteStreamControllerShiftPendingPullInto",
     "ReadableByteStreamControllerShouldCallPull",
+    "ReadableByteStreamTee",
     "ReadableStream",
     "ReadableStreamAddReadIntoRequest",
     "ReadableStreamAddReadRequest",
@@ -2469,6 +2524,7 @@
     "ReadableStreamDefaultReadResult",
     "ReadableStreamDefaultReader",
     "ReadableStreamDefaultReaderRead",
+    "ReadableStreamDefaultTee",
     "ReadableStreamError",
     "ReadableStreamFulfillReadIntoRequest",
     "ReadableStreamFulfillReadRequest",
@@ -2543,6 +2599,9 @@
     "RsaPssParams",
     "RuntimeError",
     "SFrameTransform",
+    "SFrameTransformErrorEvent",
+    "SFrameTransformErrorEventInit",
+    "SFrameTransformErrorEventType",
     "SFrameTransformOptions",
     "SFrameTransformRole",
     "SVGAElement",
@@ -2768,6 +2827,7 @@
     "StreamAbortInfo",
     "StreamPipeOptions",
     "StringContext",
+    "StructuredClone",
     "StructuredDeserialize",
     "StructuredDeserializeWithTransfer",
     "StructuredSerialize",
@@ -3147,7 +3207,6 @@
     "XRWebGLSubImage",
     "XSLTProcessor",
     "[[ActivatedReaderList]]",
-    "[[ActiveLocks]]",
     "[[AssociatedMediaStreamIds]]",
     "[[AssociatedRemoteMediaStreams]]",
     "[[BufferedAmount]]",
@@ -3209,7 +3268,6 @@
     "[[ReceiverTransport]]",
     "[[Receiver]]",
     "[[Receptive]]",
-    "[[Released]]",
     "[[RemoteCertificates]]",
     "[[SctpTransportState]]",
     "[[SctpTransport]]",
@@ -3229,23 +3287,17 @@
     "[[UpdateNegotiationNeededFlagOnEmptyChain]]",
     "[[WriteMessage]]",
     "[[WriteOptions]]",
-    "[[acceptPromise]]",
-    "[[addressLine]]",
     "[[algorithm]]",
     "[[bufferSize]]",
     "[[canExposeCameraInfo]]",
     "[[canExposeMicrophoneInfo]]",
-    "[[city]]",
     "[[class]]",
-    "[[complete]]",
     "[[constrainedbitspersecond]]",
     "[[constrainedmimetype]]",
-    "[[country]]",
     "[[crossoriginpropertydescriptormap]]",
     "[[datachannelpriority]]",
     "[[defaultOrientation]]",
     "[[defaultproperties]]",
-    "[[dependentLocality]]",
     "[[devicesAccessibleMap]]",
     "[[devicesLiveMap]]",
     "[[explicitelyGrantedAudioOutputDevices]]",
@@ -3258,31 +3310,21 @@
     "[[handle]]",
     "[[ishtmldda]]",
     "[[kindsAccessibleMap]]",
-    "[[organization]]",
     "[[orientationLock]]",
     "[[orientationPendingPromise]]",
     "[[parse]]",
     "[[pendingClosePromise]]",
-    "[[phone]]",
-    "[[postalCode]]",
     "[[put]]",
     "[[readFatal]]",
     "[[readable]]",
     "[[realm]] field of a platform object",
-    "[[recipient]]",
-    "[[region]]",
-    "[[request]]",
     "[[respondWithCalled]]",
-    "[[response]]",
-    "[[retryPromise]]",
     "[[sharePromise]]",
-    "[[sortingCode]]",
     "[[state]]",
     "[[storedDeviceList]]",
     "[[stringify]]",
     "[[supportedalgorithms]]",
     "[[type]]",
-    "[[updating]]",
     "[[usages]]",
     "[[windowClient]]",
     "[[window]]",
@@ -3310,6 +3352,7 @@
     "a mode",
     "a new device",
     "a new exported function",
+    "a new gamepad",
     "a new geolocationposition",
     "a new promise",
     "a new shadow root reference",
@@ -3342,10 +3385,7 @@
     "abort the update",
     "abort watchadvertisements",
     "abort when",
-    "abort_err",
-    "abortalgorithm",
     "aborted network error",
-    "aborterror",
     "about-to-be-notified rejected promises list",
     "about:",
     "about:blank",
@@ -3464,6 +3504,7 @@
     "active document",
     "active duration",
     "active element",
+    "active fingerprinting",
     "active flag",
     "active flag was set when the script started",
     "active frame element",
@@ -3521,7 +3562,6 @@
     "add cookie",
     "add credential",
     "add device to storage",
-    "add map elements from an iterable",
     "add mock camera",
     "add mock microphone",
     "add or put",
@@ -3543,7 +3583,6 @@
     "additive light",
     "additive tuple",
     "address",
-    "address line",
     "address type strings",
     "address-of",
     "addressable character",
@@ -3812,7 +3851,7 @@
     "application",
     "application context",
     "application manifest",
-    "application manifest mime type",
+    "application manifest media type",
     "application server",
     "application's name",
     "application-set content hint",
@@ -3992,7 +4031,6 @@
     "atomic inline-level boxes",
     "atomic modification",
     "atomic type",
-    "atomic-free",
     "atomically",
     "atomics",
     "att bearer",
@@ -4407,9 +4445,11 @@
     "block-step-size",
     "blockable",
     "blockable mixed content",
+    "blocked by a blocklist rule",
     "blocked by a modal dialog",
     "blocked by content security policy",
     "blocked media element",
+    "blocked report",
     "blocked-on-parser",
     "blockification",
     "blockify",
@@ -4559,6 +4599,7 @@
     "browser chrome",
     "browser chrome element",
     "browser chrome elements",
+    "browser fingerprinting",
     "browser initiated remote playback",
     "browser name",
     "browser version",
@@ -4574,6 +4615,7 @@
     "browsing contexts",
     "browsing session",
     "browsing-context connected",
+    "bsize field",
     "bubble phase",
     "bubbles",
     "bubbling phase",
@@ -4595,6 +4637,7 @@
     "bundle-policy",
     "button",
     "button layout",
+    "button press threshold",
     "buttonhighlight",
     "buttons",
     "buttonshadow",
@@ -4624,6 +4667,7 @@
     "cache entry match",
     "cache mode",
     "cache-control",
+    "cacheable",
     "cached ecmascript object",
     "calc()",
     "calcmode",
@@ -4670,7 +4714,6 @@
     "cancel event",
     "cancelable",
     "cancelalgorithm",
-    "cancelanimationframe(handle)",
     "canceled",
     "canceled event",
     "canceled flag",
@@ -4689,6 +4732,7 @@
     "cannot show simple dialogs",
     "cannot-be-a-base-url",
     "cannot-be-a-base-url path state",
+    "canonical index",
     "canonical keyword",
     "canonical unit",
     "canvas",
@@ -4892,7 +4936,6 @@
     "circled-lower-latin",
     "circular reference",
     "cite",
-    "city",
     "clamp a grid area",
     "clamp and coarsen connection timing info",
     "clamp()",
@@ -5009,6 +5052,7 @@
     "coalesced and predicted events",
     "coalesced event list",
     "coalesced events",
+    "coalesced events list",
     "coalesced events targets dirty",
     "coarsen time",
     "coarsened shared current time",
@@ -5062,6 +5106,8 @@
     "collecting the first vcard subproperty",
     "collecting vcard subproperties",
     "collection",
+    "collection tag",
+    "collection type",
     "collects",
     "collectsenders",
     "collecttransceivers",
@@ -5207,8 +5253,10 @@
     "computed keyframes",
     "computed mime type",
     "computed plane layout",
+    "computed repeat notation",
     "computed stylepropertymap",
     "computed track list",
+    "computed track size",
     "computed value",
     "computed values",
     "computedfrequency",
@@ -5282,7 +5330,6 @@
     "connectionavailable",
     "connectionstatechange",
     "consecutive",
-    "consequential interfaces",
     "considered for event timing",
     "considered text",
     "console",
@@ -5298,7 +5345,6 @@
     "constraint",
     "constraint rectangle",
     "constraint validation api",
-    "constrainterror",
     "constraints",
     "constraints and constraintset",
     "constraintset",
@@ -5315,6 +5361,7 @@
     "construct an ambient light sensor object",
     "construct an orientation sensor object",
     "construct policy from dictionary and origin",
+    "constructible",
     "constructing",
     "constructing a websocket resource name",
     "constructing a websocket url",
@@ -5376,6 +5423,7 @@
     "containing service worker registration",
     "containment",
     "contains",
+    "contains a gamepad user gesture",
     "contains a header-delivered content security policy",
     "contains background fetch",
     "content",
@@ -5429,6 +5477,7 @@
     "context mode",
     "context namespace",
     "context object",
+    "context type",
     "context-specific sniffing algorithm",
     "contextmenu",
     "contexts in which this element can be used",
@@ -5463,14 +5512,12 @@
     "conversion to db",
     "convert",
     "convert a cssunitvalue",
-    "convert a domstring to a sequence of unicode scalar values",
     "convert a json-derived javascript value to an infra value",
     "convert a key to a value",
     "convert a list of dimensions to a list of pixel values",
     "convert a mark to a timestamp",
     "convert a name to a timestamp",
     "convert a non-negative integer i to an octet string of length n",
-    "convert a serialized value to an ecmascript value",
     "convert a string to a number",
     "convert a value to a key",
     "convert a value to a key range",
@@ -5492,7 +5539,6 @@
     "converted to an idl value",
     "converted to ecmascript values",
     "converted to idl values",
-    "converted to serialized values",
     "converting",
     "converting a character width to pixels",
     "converting a color value from a non-premultiplied representation to a premultiplied one",
@@ -5519,6 +5565,7 @@
     "cookie store",
     "cookie value",
     "cookie-averse document object",
+    "cookie-like fingerprinting",
     "cookie-string",
     "cookies",
     "coop enforcement result",
@@ -5576,7 +5623,6 @@
     "counter-set",
     "counters",
     "counters()",
-    "country",
     "country subdivision code element",
     "country subdivision name",
     "country subdivision names",
@@ -5592,6 +5638,7 @@
     "create a bluetoothremotegattservice representing",
     "create a classic script",
     "create a connection",
+    "create a constructed cssstylesheet",
     "create a cookie",
     "create a cookielistitem",
     "create a cpu depth information instance",
@@ -5614,6 +5661,7 @@
     "create a domrectreadonly from the dictionary",
     "create a frozen array",
     "create a global object",
+    "create a hid report item",
     "create a hit test result",
     "create a hit test result for transient input",
     "create a hit test source",
@@ -5653,7 +5701,6 @@
     "create a new top-level browsing context",
     "create a notification",
     "create a paintrenderingcontext2d object",
-    "create a paymentaddress from user-provided input",
     "create a permissions policy for a browsing context",
     "create a permissions policy for a browsing context from response",
     "create a permissionstatus",
@@ -5732,6 +5779,7 @@
     "creating a frozen array",
     "creating a frozen array from an iterable",
     "creating a header list from the cbor map",
+    "creating a hid report item",
     "creating a new batterymanager object",
     "creating a new browsing context",
     "creating a new memory attribution",
@@ -5791,7 +5839,6 @@
     "cross-origin",
     "cross-origin accessible window property name",
     "cross-origin credentials",
-    "cross-origin isolated",
     "cross-origin isolation mode",
     "cross-origin opener policy",
     "cross-origin opener policy enforcement result",
@@ -5883,7 +5930,6 @@
     "current finished promise",
     "current focus chain of a top-level browsing context",
     "current frequency data",
-    "current global environment",
     "current global object",
     "current high resolution time",
     "current input character",
@@ -5983,11 +6029,9 @@
     "data: url",
     "data: url processor",
     "data: url struct",
-    "data_clone_err",
     "database",
     "database access task source",
     "datachannel",
-    "datacloneerror",
     "dataerror",
     "datafld",
     "dataformatas",
@@ -6001,7 +6045,6 @@
     "date state",
     "date.now()",
     "datetime value",
-    "datetime-local",
     "dblclick",
     "dd",
     "deactivate",
@@ -6087,11 +6130,11 @@
     "default style state",
     "default theme color",
     "default tojson steps",
-    "default unforgeable valueof function",
     "default unlock gesture",
     "default value",
     "default value override",
     "default values",
+    "default-context",
     "default-src",
     "default/on",
     "defaultcolorspace",
@@ -6158,7 +6201,6 @@
     "delete the selection",
     "deleted",
     "deleter",
-    "deleters",
     "deliver resize loop error notification",
     "delta",
     "denies the wake lock",
@@ -6166,7 +6208,6 @@
     "density-corrected intrinsic width and height",
     "deny a wake lock",
     "deny wake lock",
-    "dependent locality",
     "deprecate",
     "deprecated",
     "deprecates",
@@ -6211,7 +6252,6 @@
     "deserialize as an unhandled prompt behavior",
     "design mode enabled",
     "designated resource",
-    "designmode",
     "desired size to fill a stream’s internal queue",
     "desktop focus",
     "desktop focus event",
@@ -6220,7 +6260,6 @@
     "destination browsing context",
     "destination node",
     "desynchronized",
-    "detach",
     "detacharraybuffer",
     "detached",
     "detached shadow root",
@@ -6288,7 +6327,6 @@
     "dialog focusing steps",
     "dice",
     "dictionary",
-    "dictionary constructor",
     "dictionary members",
     "dictionary types",
     "did-perform-automatic-track-selection",
@@ -6411,8 +6449,6 @@
     "distortioncoefficients",
     "distribute extra space",
     "distributed alignment",
-    "distributed trace",
-    "distributed traces",
     "distributed width",
     "distributing excess width to columns",
     "distribution list",
@@ -6511,8 +6547,6 @@
     "domcontentloaded",
     "domerror",
     "domexception",
-    "domexception constructor object",
-    "domexception prototype object",
     "domfocusin",
     "domfocusout",
     "domhighrestimestamp",
@@ -6624,7 +6658,6 @@
     "effective domain",
     "effective element configuration",
     "effective end offset",
-    "effective media volume",
     "effective minimum sync interval for origin",
     "effective overload set",
     "effective playback rate",
@@ -6635,7 +6668,6 @@
     "effective scroll offsets",
     "effective source list",
     "effective start offset",
-    "effective time range",
     "effective user verification requirement for assertion",
     "effective user verification requirement for credential creation",
     "eight-bit decimal value",
@@ -6740,12 +6772,12 @@
     "encoding labels",
     "encoding name",
     "encoding sniffing algorithm",
-    "encodingerror",
     "encrypt",
     "encrypted",
     "encrypted-media",
     "enctype",
     "end",
+    "end collection tag",
     "end delay",
     "end of iteration",
     "end of stream",
@@ -6810,7 +6842,6 @@
     "enumeration",
     "enumeration types",
     "enumeration value",
-    "enumeration values",
     "env()",
     "envelopefollower",
     "environment",
@@ -6838,7 +6869,6 @@
     "error code",
     "error data",
     "error mode",
-    "error name",
     "error names table",
     "error reporting steps",
     "error response",
@@ -6914,7 +6944,6 @@
     "exceeds the binding slot limits",
     "exception",
     "exception objects",
-    "exception types",
     "exceptions",
     "exceptionsenabled",
     "excess width",
@@ -6975,7 +7004,6 @@
     "expose",
     "expose a user interface to the user",
     "exposed",
-    "exposes",
     "exposing a user interface to the user",
     "exposure",
     "exposure compensation",
@@ -7089,6 +7117,7 @@
     "feature descriptor",
     "feature requirements",
     "feature separator",
+    "feature tag",
     "feature-identifier",
     "featureless",
     "feblend",
@@ -7238,6 +7267,7 @@
     "finding slottables",
     "finding the shortest distance",
     "fingerprint",
+    "fingerprinting surface",
     "fingerprints",
     "finish an animation",
     "finish event",
@@ -7257,9 +7287,9 @@
     "fire a focus event",
     "fire a font load event",
     "fire a functional event",
+    "fire a page transition event",
     "fire a periodicsync event",
     "fire a pointer event",
-    "fire a pointer event named e",
     "fire a progress event",
     "fire a service worker notification event",
     "fire a simple event",
@@ -7270,7 +7300,6 @@
     "fire an advertisementreceived event",
     "fire an error event",
     "fire an event",
-    "fire an event named e",
     "fire an input source event",
     "fire functional event",
     "fire the \"pushsubscriptionchange\" event",
@@ -7320,7 +7349,6 @@
     "flags data type",
     "flat tree",
     "flattened element tree",
-    "flattened member types",
     "flattened tabindex-ordered focus navigation scope",
     "flex",
     "flex base size",
@@ -7444,6 +7472,7 @@
     "forbidden host code point",
     "forbidden method",
     "forbidden response-header name",
+    "force sample",
     "force-quirks flag",
     "forced break",
     "forced break values",
@@ -7593,6 +7622,8 @@
     "gainnode",
     "gainoptions",
     "gamepad",
+    "gamepad task source",
+    "gamepad user gesture",
     "gamepadconnected",
     "gamepaddisconnected",
     "gamut",
@@ -7629,6 +7660,7 @@
     "generate a new blob url",
     "generate a partitioned storage key",
     "generate a prefix",
+    "generate a random uuid",
     "generate a report",
     "generate a tiggering event url",
     "generate all implied end tags thoroughly",
@@ -7656,6 +7688,7 @@
     "geo",
     "geolocation",
     "geolocation sensor",
+    "geolocation task source",
     "geometry properties",
     "get",
     "get a backgroundfetchregistration instance",
@@ -7675,8 +7708,6 @@
     "get a layout class instance",
     "get a layout definition",
     "get a promise to wait for all",
-    "get a reference to the buffer source",
-    "get a reference to the bytes held by the buffer source",
     "get a response mime type",
     "get a session id for a websocket resource",
     "get a stack id",
@@ -7767,7 +7798,6 @@
     "getsettings()",
     "getter",
     "getter steps",
-    "getters",
     "getting",
     "getting a backgroundfetchregistration instance",
     "getting a promise to wait for all",
@@ -7804,6 +7834,7 @@
     "global environment",
     "global identifier",
     "global invocation id",
+    "global items",
     "global names",
     "global object",
     "global object cache",
@@ -7994,15 +8025,18 @@
     "hex digit",
     "hexadecimal character reference start state",
     "hexadecimal character reference state",
+    "hexadecimal representation",
     "hgroup",
+    "hid blocklist",
+    "hid device task source",
+    "hid interface",
+    "hid usages",
     "hidden",
     "hidden annotation",
     "hidden ruby annotation",
     "hidden state",
     "hide",
     "hierarchically correct main element",
-    "hierarchy_request_err",
-    "hierarchyrequesterror",
     "high boundary",
     "high water mark",
     "high-level",
@@ -8175,6 +8209,7 @@
     "id field",
     "id length field",
     "id selector",
+    "idempotent",
     "ident",
     "identical to",
     "identified with",
@@ -8195,7 +8230,6 @@
     "idl attribute name to animation property name",
     "idl attribute to css property",
     "idl fragment",
-    "idl fragments",
     "idl-exposed autofill value",
     "idle callback identifier",
     "idle detection task source",
@@ -8276,7 +8310,6 @@
     "implementation-defined",
     "implementation-defined memory measurement",
     "implements",
-    "implements statement",
     "implicit aria semantics",
     "implicit consent",
     "implicit grid",
@@ -8397,13 +8430,9 @@
     "index pointer",
     "index shift_jis pointer",
     "index single-byte",
-    "index_size_err",
     "indexed properties",
     "indexed property getter",
-    "indexed property getters",
     "indexed property setter",
-    "indexed property setters",
-    "indexsizeerror",
     "indicate focus",
     "indicates",
     "indirect dispatch parameters",
@@ -8471,6 +8500,8 @@
     "initialize a worker global scope's policy container",
     "initialize an imagedata object",
     "initialize an instance object",
+    "initialize axes",
+    "initialize buttons",
     "initialize event timing",
     "initialize the Client Hints set",
     "initialize the render state",
@@ -8479,6 +8510,8 @@
     "initialize webtransport over http",
     "initializehostdefinedrealm",
     "initializing",
+    "initializing axes",
+    "initializing buttons",
     "initiate a preconnect",
     "initiate remote playback",
     "initiate the drag-and-drop operation",
@@ -8540,7 +8573,6 @@
     "inner inline size",
     "inner invoke",
     "inner size",
-    "inner type",
     "inner width",
     "innerheight",
     "innerhtml",
@@ -8564,9 +8596,11 @@
     "input sources",
     "input state table",
     "input stream",
+    "input tag",
     "input-security",
     "inputevent",
     "inputeventinit",
+    "inputreport",
     "inputs",
     "inputtype",
     "inputtype values",
@@ -8640,7 +8674,6 @@
     "interface",
     "interface descriptor",
     "interface member",
-    "interface members",
     "interface mixin",
     "interface mixin member",
     "interface object",
@@ -8676,7 +8709,6 @@
     "internal table box",
     "internal table element",
     "internal usage",
-    "internally construct a paymentaddress",
     "internally create a new object implementing the interface",
     "interpolate",
     "interpolation",
@@ -8712,8 +8744,6 @@
     "intrinsic width",
     "intrinsic-sizes-invalid",
     "intrinsic-sizes-valid",
-    "inuse_attribute_err",
-    "inuseattributeerror",
     "invalid",
     "invalid argument",
     "invalid at computed-value time",
@@ -8730,16 +8760,8 @@
     "invalid value default",
     "invalid-character-sequence-after-doctype-name",
     "invalid-first-character-of-tag-name",
-    "invalid_access_err",
-    "invalid_character_err",
-    "invalid_modification_err",
-    "invalid_node_type_err",
-    "invalid_state_err",
     "invalidaccesserror",
     "invalidate layout functions",
-    "invalidcharactererror",
-    "invalidmodificationerror",
-    "invalidnodetypeerror",
     "invalidstateerror",
     "invariants of the essential internal methods",
     "invocation",
@@ -8747,10 +8769,8 @@
     "invoke",
     "invoke a intrinsic sizes callback",
     "invoke a layout callback",
-    "invoke a named property setter",
     "invoke a paint callback",
     "invoke a protocol handler",
-    "invoke an indexed property setter",
     "invoke an intrinsic sizes callback",
     "invoke custom element reactions",
     "invoke idle callback timeout algorithm",
@@ -8779,6 +8799,7 @@
     "is allowed to show a file picker",
     "is an array index",
     "is an environment settings object contextually secure?",
+    "is async module",
     "is at a word boundary",
     "is base allowed for document?",
     "is closing",
@@ -8805,7 +8826,6 @@
     "is type supported",
     "is url potentially trustworthy?",
     "is utf-16be decoder",
-    "is valid",
     "is value",
     "is-value-compatible",
     "is-value-compatible-or-report",
@@ -8862,6 +8882,7 @@
     "it is appropriate to resolve percentage heights on direct children of a table-cell",
     "italic correction",
     "item",
+    "item data field",
     "item types",
     "item()",
     "iterable",
@@ -8912,7 +8933,6 @@
     "json-serialize",
     "json-serialized",
     "json-serializing",
-    "json.parse",
     "json.parse()",
     "json.stringify",
     "json.stringify()",
@@ -9070,7 +9090,6 @@
     "left-hand side",
     "leftover space",
     "legacy callback interface object",
-    "legacy callers",
     "legacy factory function",
     "legacy name alias",
     "legacy platform object",
@@ -9254,6 +9273,7 @@
     "local file system handle factories",
     "local invocation id",
     "local invocation index",
+    "local items",
     "local name",
     "local name data type",
     "local playback device",
@@ -9280,7 +9300,6 @@
     "location",
     "location url",
     "location-object navigate",
-    "location-object-setter navigate",
     "lock",
     "lock manager",
     "lock request",
@@ -9297,6 +9316,8 @@
     "logical display surface",
     "logical display surfaces",
     "logical height",
+    "logical maximum tag",
+    "logical minimum tag",
     "logical property group",
     "logical scroll position \"block\"",
     "logical scroll position \"inline\"",
@@ -9346,6 +9367,7 @@
     "main axis",
     "main dimension",
     "main fetch",
+    "main items",
     "main size",
     "main size property",
     "main tv episode",
@@ -9371,6 +9393,8 @@
     "map",
     "map a url to ndef",
     "map absolute-url to ndef",
+    "map and normalize axes",
+    "map and normalize buttons",
     "map binary data to ndef",
     "map depth and color",
     "map document language elements to table elements",
@@ -9479,7 +9503,10 @@
     "matched capability serialization algorithm",
     "matches",
     "matches a filter",
+    "matches any collection",
     "matches any filter",
+    "matches the collection",
+    "matches the device ids",
     "matches the environment",
     "matches the filter",
     "matches the interface filter",
@@ -9489,8 +9516,6 @@
     "matches the stored exchange",
     "matching a padded sequence",
     "matching capabilities",
-    "matching collection",
-    "matching device",
     "matching transition delay",
     "matching transition duration",
     "matching transition timing function",
@@ -9567,7 +9592,6 @@
     "maximum active sessions",
     "maximum allowed code point",
     "maximum allowed value length",
-    "maximum color attachments",
     "maximum far clip plane",
     "maximum height",
     "maximum inline field of view",
@@ -9586,6 +9610,7 @@
     "mbit/s",
     "me",
     "me field",
+    "measurable properties",
     "media",
     "media capture mechanism",
     "media condition",
@@ -9597,6 +9622,7 @@
     "media element attributes",
     "media element event task source",
     "media element load algorithm",
+    "media element stall timeout",
     "media element state",
     "media elements",
     "media feature",
@@ -9684,7 +9710,6 @@
     "megabit",
     "megabits per second",
     "member",
-    "member types",
     "members",
     "memory access",
     "memory attribution token",
@@ -9951,7 +9976,6 @@
     "named color",
     "named constructor",
     "named definition",
-    "named definitions",
     "named elements",
     "named flow",
     "named grid area",
@@ -9961,11 +9985,8 @@
     "named properties",
     "named properties object",
     "named property deleter",
-    "named property deleters",
     "named property getter",
-    "named property getters",
     "named property setter",
-    "named property setters",
     "named property visibility algorithm",
     "named string",
     "named strings",
@@ -9980,8 +10001,6 @@
     "namespace prefix lists",
     "namespace prefix map",
     "namespace uris",
-    "namespace_err",
-    "namespaceerror",
     "namespaceuri",
     "nan-safe maximum",
     "nan-safe minimum",
@@ -10069,8 +10088,6 @@
     "network protocol",
     "network request",
     "network requests",
-    "network_err",
-    "networkerror",
     "networkinformation",
     "networking task source",
     "neutral value for composition",
@@ -10139,7 +10156,6 @@
     "no-sniff flag",
     "no-translate",
     "no-validate state",
-    "no_modification_allowed_err",
     "nobr",
     "node",
     "node a is inserted",
@@ -10211,6 +10227,7 @@
     "normalize newlines",
     "normalize non-finite values",
     "normalize protocol handler parameters",
+    "normalize specified timing",
     "normalize the source densities",
     "normalized",
     "normalized timeranges object",
@@ -10231,8 +10248,6 @@
     "not origin-clean",
     "not overlapping",
     "not present",
-    "not_found_err",
-    "not_supported_err",
     "notallowederror",
     "note",
     "notfound",
@@ -10247,7 +10262,6 @@
     "notify intersection observers",
     "notify mutation observers",
     "notify new reading",
-    "notreadableerror",
     "notsupportederror",
     "now hidden algorithm",
     "now visible algorithm",
@@ -10395,7 +10409,6 @@
     "opaque host",
     "opaque origin",
     "opaque texture",
-    "opaque value",
     "opaque-host parser",
     "opaque-host-and-port string",
     "opaque-redirect filtered response",
@@ -10456,7 +10469,6 @@
     "ordinaryset",
     "ordinarysetprototypeof",
     "org",
-    "organization",
     "organization-name",
     "organization-unit",
     "orientation lock",
@@ -10533,6 +10545,7 @@
     "output encodedvideochunks",
     "output of the cascade",
     "output progress value",
+    "output tag",
     "output videoframes",
     "outputs",
     "outside",
@@ -10720,6 +10733,7 @@
     "parse a month string",
     "parse a page range",
     "parse a percentage string",
+    "parse a platform-returned version string",
     "parse a privatekeyinfo",
     "parse a referrer policy from a `referrer-policy` header",
     "parse a relative selector",
@@ -10778,6 +10792,7 @@
     "parse records from bytes",
     "parse response’s Clear-Site-Data header",
     "parse response’s content security policies",
+    "parse the report descriptor",
     "parse the webvtt cue settings",
     "parsed",
     "parsed according to a particular css grammar",
@@ -10788,6 +10803,7 @@
     "parsefloat",
     "parseint",
     "parsemodule",
+    "parser cannot change the mode flag",
     "parser document",
     "parser inserted flag",
     "parser metadata",
@@ -10810,6 +10826,7 @@
     "parsing json bytes to an infra value",
     "parsing the blocklist",
     "parsing the invariant prefix",
+    "parsing the report descriptor",
     "parsing the signature header field",
     "parsing xhtml documents",
     "parsing_init_segment",
@@ -10827,6 +10844,7 @@
     "party",
     "pass through filter",
     "pass-through",
+    "passive fingerprinting",
     "passive scanning",
     "passthrough request",
     "password",
@@ -10861,9 +10879,6 @@
     "paused play state",
     "payee",
     "payer",
-    "payer detail changed algorithm",
-    "payer details",
-    "payerdetailchange",
     "payload field",
     "payload length field",
     "payment",
@@ -10881,8 +10896,6 @@
     "payment request is showing",
     "payment-permission",
     "payment-relevant browsing context",
-    "paymentaddress slots",
-    "paymentaddress.paymentaddress()",
     "paymentcurrencyamount",
     "paymentdetailsbase",
     "paymentdetailsinit",
@@ -10893,7 +10906,6 @@
     "paymentrequest",
     "paymentrequest updated algorithm",
     "paymentrequest(methoddata, details)",
-    "paymentrequest(methoddata, details, options)",
     "paymentrequest.paymentrequest()",
     "paymentrequestupdateevent",
     "paymentresponse",
@@ -10939,7 +10951,6 @@
     "perform actions",
     "perform automatic text track selection",
     "perform implementation-specific action dispatch steps",
-    "perform some steps once a promise is settled",
     "perform vibration",
     "performance",
     "performance entry buffer",
@@ -10992,16 +11003,16 @@
     "perspective-origin",
     "phase",
     "phases",
-    "phone number",
     "photo",
     "phrasing content",
     "physical",
-    "physical address",
     "physical bottom",
     "physical dimensions",
     "physical direction",
     "physical hand input source",
     "physical left",
+    "physical maximum tag",
+    "physical minimum tag",
     "physical resources",
     "physical right",
     "physical size",
@@ -11126,11 +11137,13 @@
     "polyline",
     "pop",
     "pop a ruby level",
+    "pop tag",
     "populate rotation matrix",
     "populate the bluetooth cache",
     "populate the list of pending text tracks",
     "populate the pose",
     "populating and maintaining the coalesced and predicted event lists",
+    "populating and maintaining the coalesced and predicted events lists",
     "popup sandboxing flag set",
     "port",
     "port 1",
@@ -11172,7 +11185,6 @@
     "post-navigation checks",
     "post-office-box",
     "post-processing the share_target member",
-    "postal code",
     "postal-code",
     "posted message task source",
     "poster frame",
@@ -11206,12 +11218,14 @@
     "predefined-rgb-params",
     "predicted event list",
     "predicted events",
+    "predicted events list",
     "predicted events targets dirty",
     "predominant figure position",
     "preferred artwork image",
     "preferred aspect ratio",
     "preferred color scheme",
     "preferred css style sheet set name",
+    "preferred density-corrected dimensions",
     "preferred facing mode",
     "preferred height",
     "preferred inline size of a glyph stretched along the block axis",
@@ -11235,6 +11249,7 @@
     "preparation-time document",
     "prepare a script",
     "prepare an event",
+    "prepare an image for presentation",
     "prepare append",
     "prepare lists",
     "prepare to clear origin’s data",
@@ -11301,7 +11316,6 @@
     "primary action",
     "primary content element",
     "primary filter primitive tree",
-    "primary global interface",
     "primary image track",
     "primary input source",
     "primary interface",
@@ -11408,11 +11422,13 @@
     "producer",
     "producing an xml serialization of a dom node",
     "product id",
+    "product name",
     "product of two unit maps",
     "profile fundamentals",
     "profiling session",
     "program error",
     "progress",
+    "progress-based timeline",
     "progressevent",
     "progressive image",
     "progressive image frame generation",
@@ -11479,6 +11495,7 @@
     "pull-into descriptor",
     "pullbidirectionalstream",
     "pulldatagrams",
+    "pullunidirectionalstream",
     "push",
     "push a ruby annotation",
     "push a ruby level",
@@ -11488,6 +11505,7 @@
     "push service",
     "push source",
     "push subscription",
+    "push tag",
     "pushsubscriptionchange",
     "q",
     "quadrilateral",
@@ -11554,7 +11572,6 @@
     "quirks mode",
     "quirky color",
     "quirky length",
-    "quota_exceeded_err",
     "quotaexceedederror",
     "quotes",
     "qwerty",
@@ -11572,7 +11589,6 @@
     "radicalkernbeforedegree",
     "radicalrulethickness",
     "radicalverticalgap",
-    "radio",
     "radio button",
     "radio button group",
     "raised initial",
@@ -11639,7 +11655,6 @@
     "reading timestamp",
     "reading value",
     "readonly attribute",
-    "readonlyerror",
     "readpixels from float",
     "ready",
     "ready for post-load tasks",
@@ -11661,6 +11676,7 @@
     "receiver report",
     "receives a cookie",
     "receives a set-cookie-string",
+    "receives new button or axis input values",
     "receiving a cookie",
     "receiving browsing context",
     "receiving browsing contexts",
@@ -11823,7 +11839,6 @@
     "relevant mutations",
     "relevant name to cache map",
     "relevant owner to add",
-    "relevant performance entry buffer",
     "relevant performance entry tuple",
     "relevant realm",
     "relevant request response list",
@@ -11939,10 +11954,14 @@
     "report body",
     "report buffer",
     "report content security policy violations for request",
+    "report count tag",
+    "report descriptor",
+    "report id tag",
     "report image element timing",
     "report latest reading updated",
     "report long tasks",
     "report paint timing",
+    "report size tag",
     "report text element timing",
     "report the error",
     "report the exception",
@@ -11970,6 +11989,8 @@
     "represented",
     "represented by the collection",
     "represents a shadow root",
+    "represents a standard gamepad axis",
+    "represents a standard gamepad button",
     "represents a web element",
     "request",
     "request a lock",
@@ -12014,7 +12035,6 @@
     "required",
     "required constraints",
     "required csp",
-    "required dictionary member",
     "required document policy",
     "required features",
     "required-ascii-whitespace",
@@ -12577,10 +12597,10 @@
     "scrolly",
     "sctp transport is connected",
     "seamlessly update the playback rate",
-    "search",
     "search invisible",
     "search origin",
     "searching for services",
+    "sec-ch-dpr",
     "sec-ch-ua",
     "sec-ch-ua-arch",
     "sec-ch-ua-bitness",
@@ -12589,6 +12609,9 @@
     "sec-ch-ua-model",
     "sec-ch-ua-platform",
     "sec-ch-ua-platform-version",
+    "sec-ch-viewport-height",
+    "sec-ch-viewport-width",
+    "sec-ch-width",
     "sec-fetch-dest",
     "sec-fetch-mode",
     "sec-fetch-site",
@@ -12609,7 +12632,6 @@
     "secure tls",
     "secured",
     "security code",
-    "security_err",
     "securityerror",
     "seek",
     "seeking",
@@ -12618,10 +12640,12 @@
     "segment-completing close path",
     "select",
     "select a css style sheet set",
+    "select a mapping",
     "select a presentation display",
     "select an appropriate key attribute value",
     "select an image source",
     "select an immersive xr device",
+    "select an unused gamepad index",
     "select element",
     "select the best candidate",
     "select the scheduler task queue",
@@ -12629,6 +12653,8 @@
     "selected files",
     "selectedcandidatepairchange",
     "selectedness",
+    "selecting a mapping",
+    "selecting an unused gamepad index",
     "selecting media resource",
     "selecting the best candidate",
     "selecting the scheduler task queue",
@@ -12690,11 +12716,8 @@
     "serial number",
     "serial port task source",
     "serializable objects",
-    "serializable types",
-    "serialization behavior",
     "serialization of a color",
     "serialization of an origin",
-    "serialization pattern",
     "serialization steps",
     "serialize a calculation tree",
     "serialize a comma-separated list",
@@ -12762,7 +12785,6 @@
     "serialized permissions policy",
     "serialized source list",
     "serialized state",
-    "serialized value",
     "serialized-directive",
     "serialized-origin",
     "serialized-permissions-policy",
@@ -12772,7 +12794,6 @@
     "serialized-source-list",
     "serialized-tt-configuration",
     "serializeddata",
-    "serializers",
     "serializes as void",
     "serializetostring method",
     "serializing",
@@ -12931,7 +12952,6 @@
     "setselectionrange",
     "setter",
     "setter steps",
-    "setters",
     "settimeout",
     "setting",
     "setting a property",
@@ -13013,10 +13033,6 @@
     "shift_jis lead",
     "shifted character",
     "shifted state",
-    "shipping address changed algorithm",
-    "shipping option changed algorithm",
-    "shippingaddresschange",
-    "shippingoptionchange",
     "short",
     "shortcut item",
     "shortcut item's",
@@ -13085,7 +13101,6 @@
     "simulcast envelope",
     "sin()",
     "single byte content-range",
-    "single operation callback interface",
     "single-byte decoder",
     "single-byte encoder",
     "single-byte encoding",
@@ -13102,6 +13117,7 @@
     "size containment",
     "size containment box",
     "size record",
+    "sized array",
     "sizeof",
     "sizes attribute",
     "sizing as if empty",
@@ -13155,10 +13171,8 @@
     "sort a calculation’s children",
     "sort and normalize a specifier map",
     "sort and normalize scopes",
-    "sorted name list",
     "sorting and normalizing a specifier map",
     "sorting and normalizing scopes",
-    "sorting code",
     "sound",
     "source",
     "source browsing context",
@@ -13213,7 +13227,6 @@
     "special authority ignore slashes state",
     "special authority slashes state",
     "special keyword",
-    "special keywords",
     "special operation",
     "special relative or authority state",
     "special scheme",
@@ -13223,10 +13236,13 @@
     "specifications whose evaluations are both affected by the same changes to the user environment, and so always must be evaluated together in order to ensure proper rendering.",
     "specificity",
     "specified",
+    "specified end delay",
     "specified flow",
+    "specified iteration duration",
     "specified order",
     "specified size",
     "specified size suggestion",
+    "specified start delay",
     "specified value",
     "specified values",
     "specifier map",
@@ -13269,10 +13285,10 @@
     "stale element reference",
     "stale response",
     "stale-while-revalidate response",
-    "stall timeout",
     "standalone",
     "standalone axis",
     "standalone grid",
+    "standard gamepad",
     "standard gamepad layout",
     "standardized payment method",
     "standardized payment method identifier",
@@ -13447,7 +13463,10 @@
     "string",
     "string descriptor",
     "string exotic object",
+    "string index tag",
     "string length",
+    "string maximum tag",
+    "string minimum tag",
     "string replace all",
     "string representation of the interest cohort id",
     "string representation of the interest cohort version",
@@ -13458,7 +13477,6 @@
     "string-set",
     "stringification behavior",
     "stringifier",
-    "stringifiers",
     "strings",
     "strip and collapse ascii whitespace",
     "strip leading and trailing ascii whitespace",
@@ -13526,7 +13544,6 @@
     "subjects",
     "subkeys",
     "submission value",
-    "submit",
     "submit as entity body",
     "submit button",
     "submit buttons",
@@ -13584,7 +13601,6 @@
     "superscriptbottommin",
     "superscriptshiftup",
     "superscriptshiftupcramped",
-    "supplemental interfaces",
     "supplied mime type",
     "supplied mime type detection algorithm",
     "support",
@@ -13683,12 +13699,12 @@
     "synchronous flag",
     "synchronous read method",
     "synchronous section",
+    "synchronously replace the rules of a cssstylesheet",
     "syntax component",
     "syntax component name",
     "syntax definition",
     "syntax of a standardized payment method identifier",
     "syntax string",
-    "syntax_err",
     "syntaxerror",
     "synthesize baseline",
     "synthesized baseline",
@@ -13762,11 +13778,6 @@
     "take element screenshot",
     "take pending play promises",
     "take screenshot",
-    "takes a named argument list",
-    "takes an argument list",
-    "takes an identifier",
-    "takes an identifier list",
-    "takes no arguments",
     "tan()",
     "tangential distortion coefficients",
     "tao check",
@@ -13795,7 +13806,6 @@
     "td",
     "tee a readable stream",
     "tel",
-    "telephone",
     "telephone state",
     "telephone type strings",
     "template",
@@ -14002,7 +14012,6 @@
     "throw a name exception",
     "throw an exception",
     "throw-on-dynamic-markup-insertion counter",
-    "thrown",
     "tick",
     "ticks",
     "tilt",
@@ -14012,6 +14021,7 @@
     "time origin",
     "time state",
     "time value",
+    "time-based animation to a proportional animation",
     "time-zone offset",
     "timed out flag",
     "timeline",
@@ -14020,14 +14030,13 @@
     "timeline associated with a document",
     "timeline before phase",
     "timeline current time",
+    "timeline duration",
     "timeline inactive phase",
     "timeline offset",
     "timeline phase",
     "timeline time to origin-relative time",
     "timelinebegin",
     "timeout",
-    "timeout_err",
-    "timeouterror",
     "timeouts configuration",
     "timer initialization steps",
     "timer nesting level",
@@ -14059,6 +14068,7 @@
     "top-level browsing context",
     "top-level browsing contexts",
     "top-level calculation",
+    "top-level collections",
     "top-level document",
     "top-level element",
     "top-level microdata item",
@@ -14108,7 +14118,6 @@
     "trackingexresult",
     "trailing surrogate",
     "transaction",
-    "transactioninactiveerror",
     "transceiver kind",
     "transfer function element",
     "transfer function element attributes",
@@ -14299,7 +14308,6 @@
     "understandable",
     "undisplay",
     "undistributable space",
-    "unenumerable",
     "unexpected alert open",
     "unexpected-character-after-doctype-system-identifier",
     "unexpected-character-in-attribute-name",
@@ -14334,6 +14342,8 @@
     "union",
     "union type",
     "unique identifier (id)",
+    "unit exponent tag",
+    "unit tag",
     "universal selector",
     "universal syntax definition",
     "universally unique identifier (uuid)",
@@ -14348,7 +14358,6 @@
     "unknown record",
     "unknown-named-character-reference",
     "unknowndirective",
-    "unknownerror",
     "unload",
     "unload a document",
     "unload counter",
@@ -14404,6 +14413,7 @@
     "update animations and send events",
     "update background fetch instances",
     "update document frozenness steps",
+    "update gamepad state",
     "update href",
     "update latest reading",
     "update metadata algorithm",
@@ -14491,21 +14501,26 @@
     "url-port string",
     "url-query string",
     "url-scheme string",
-    "url_mismatch_err",
     "urlencoded parser",
     "urlencoded serializer",
     "urlencoded string parser",
-    "urlmismatcherror",
     "urn:",
+    "usage id",
     "usage intersection",
+    "usage maximum tag",
+    "usage minimum tag",
+    "usage page",
+    "usage page tag",
     "usage scope validation",
     "usage scopes",
+    "usage tag",
     "usages",
     "usages_cached",
     "usb device",
     "use",
     "use a negative sign",
     "use credentials",
+    "use report ids",
     "use srcset or picture",
     "use strict directive",
     "use-element shadow tree",
@@ -14542,7 +14557,6 @@
     "user interaction task source",
     "user mediated",
     "user mediation",
-    "user object",
     "user origin",
     "user present",
     "user prompt",
@@ -14571,6 +14585,7 @@
     "uses distinctive identifier(s)",
     "uses distinctive identifier(s) or distinctive permanent identifier(s)",
     "uses distinctive permanent identifier(s)",
+    "uses report ids",
     "using",
     "using the a element to define a command",
     "using the accesskey attribute on a legend element to define a command",
@@ -14746,9 +14761,9 @@
     "verified display name",
     "verify",
     "verify a certificate fingerprint",
-    "versionerror",
     "vertex",
     "vertex buffer",
+    "vertex data type",
     "vertex markers",
     "vertex shader stage",
     "vertical axis",
@@ -14876,11 +14891,14 @@
     "webauthn relying party",
     "webauthn signature",
     "webauthn/fido2 protocol",
+    "webcrypto privacy considerations",
+    "webcrypto security considerations",
     "webdriver",
     "webdriver new session algorithm",
     "webdriver new session algorithms",
     "webdriver-active flag",
     "webgl",
+    "webgl-context",
     "webgl2",
     "webgl2renderingcontext",
     "webgl2renderingcontextbase",
@@ -14907,7 +14925,9 @@
     "webglvertexarrayobject",
     "webgpu interface",
     "webgpu platform",
+    "webgpu-context",
     "webkitURL",
+    "webnn-feature",
     "websocket connection",
     "websocket listener",
     "websocket task source",
@@ -15064,6 +15084,7 @@
     "width dimension",
     "width of the select's labels",
     "will lazy load element steps",
+    "will read frequently",
     "will retry",
     "will-change",
     "willful violation",
@@ -15159,8 +15180,6 @@
     "writing mode",
     "writing system keys",
     "writing-mode",
-    "wrong_document_err",
-    "wrongdocumenterror",
     "wsp",
     "x",
     "x coordinate",
@@ -15218,6 +15237,7 @@
     "yank",
     "yearless date",
     "z-index",
+    "zero value",
     "zhuyin fuhao",
     "zip-based mime type",
     "zoom",
@@ -16066,8 +16086,7 @@
   "@scroll-timeline": [
     "orientation",
     "scroll-offsets",
-    "source",
-    "time-range"
+    "source"
   ],
   "@viewport": [
     "height",
@@ -16216,30 +16235,6 @@
     "once",
     "passive",
     "signal"
-  ],
-  "AddressErrors": [
-    "addressLine",
-    "city",
-    "country",
-    "dependentLocality",
-    "organization",
-    "phone",
-    "postalCode",
-    "recipient",
-    "region",
-    "sortingCode"
-  ],
-  "AddressInit": [
-    "addressLine",
-    "city",
-    "country",
-    "dependentLocality",
-    "organization",
-    "phone",
-    "postalCode",
-    "recipient",
-    "region",
-    "sortingCode"
   ],
   "AesCbcParams": [
     "iv"
@@ -16499,6 +16494,7 @@
     "pseudoElement"
   ],
   "AnimationFrameProvider": [
+    "cancelAnimationFrame(handle)",
     "requestAnimationFrame(callback)"
   ],
   "AnimationNodeList": [
@@ -16549,6 +16545,7 @@
   ],
   "AnimationTimeline": [
     "currentTime",
+    "duration",
     "phase",
     "play()",
     "play(effect)"
@@ -16613,7 +16610,20 @@
     "ariaValueText"
   ],
   "ArrayBuffer": [
-    "detach"
+    "create",
+    "detach",
+    "transfer",
+    "write"
+  ],
+  "ArrayBuffer/write": [
+    "startingoffset"
+  ],
+  "ArrayBufferView": [
+    "create",
+    "write"
+  ],
+  "ArrayBufferView/write": [
+    "startingoffset"
   ],
   "AssignedNodeOptions": [
     "flatten"
@@ -18203,6 +18213,11 @@
     "onmessageerror",
     "postMessage(message)"
   ],
+  "BufferSource": [
+    "byte length",
+    "detached",
+    "underlying buffer"
+  ],
   "ByteLengthQueuingStrategy": [
     "ByteLengthQueuingStrategy(init)",
     "[[highwatermark]]",
@@ -19462,8 +19477,7 @@
     "name",
     "orientation",
     "scrollOffsets",
-    "source",
-    "timeRange"
+    "source"
   ],
   "CSSSkew": [
     "CSSSkew(ax, ay)",
@@ -20029,7 +20043,7 @@
     "lineJoin",
     "lineWidth",
     "miterLimit",
-    "setLineDash()"
+    "setLineDash(segments)"
   ],
   "CanvasPattern": [
     "setTransform(transform)"
@@ -20046,7 +20060,8 @@
   "CanvasRenderingContext2DSettings": [
     "alpha",
     "colorSpace",
-    "desynchronized"
+    "desynchronized",
+    "willReadFrequently"
   ],
   "CanvasShadowStyles": [
     "shadowBlur",
@@ -20060,9 +20075,9 @@
     "save()"
   ],
   "CanvasText": [
-    "fillText()",
-    "measureText()",
-    "strokeText()"
+    "fillText(text, x, y, maxWidth)",
+    "measureText(text)",
+    "strokeText(text, x, y, maxWidth)"
   ],
   "CanvasTextAlign": [
     "center",
@@ -20973,6 +20988,7 @@
   "Crypto": [
     "getRandomValues()",
     "getRandomValues(array)",
+    "randomUUID()",
     "subtle"
   ],
   "CryptoKey": [
@@ -22357,14 +22373,14 @@
   ],
   "DataTransfer": [
     "DataTransfer()",
-    "clearData()",
+    "clearData(format)",
     "dropEffect",
     "effectAllowed",
     "files",
     "getData(format)",
     "items",
     "setData(format, data)",
-    "setDragImage(element, x, y)",
+    "setDragImage(image, x, y)",
     "types"
   ],
   "DataTransferItem": [
@@ -22379,7 +22395,7 @@
     "add()",
     "clear()",
     "length",
-    "remove()"
+    "remove(index)"
   ],
   "DatagramDuplexStream": [
     "[[incomingdatagramsexpirationduration]]",
@@ -22594,7 +22610,10 @@
   "DevicePostureType": [
     "DevicePostureType",
     "book",
+    "continuous",
     "flat",
+    "folded",
+    "folded-over",
     "laptop",
     "no-fold",
     "tablet",
@@ -22634,6 +22653,8 @@
     "DOMContentLoaded",
     "Document()",
     "URL",
+    "[[ActiveLocks]]",
+    "[[CurrentPosture]]",
     "[[resizeObservers]]",
     "acquiring import maps",
     "active sandboxing flag set",
@@ -22678,6 +22699,7 @@
     "createTreeWalker(root, whatToShow, filter)",
     "currentScript",
     "defaultView",
+    "designMode",
     "dir",
     "discarded",
     "doctype",
@@ -22702,7 +22724,7 @@
     "fullscreenEnabled",
     "fully active",
     "getElementsByClassName(classNames)",
-    "getElementsByName(name)",
+    "getElementsByName(elementName)",
     "getElementsByTagName(qualifiedName)",
     "getElementsByTagNameNS(namespace, localName)",
     "getSelection()",
@@ -23455,8 +23477,7 @@
   ],
   "EncodedVideoChunkMetadata": [
     "decoderConfig",
-    "svc",
-    "temporalLayerId"
+    "svc"
   ],
   "EncodedVideoChunkOutputCallback": [
     "chunk",
@@ -25000,8 +25021,6 @@
     "filter"
   ],
   "GPUDeviceDescriptor": [
-    "nonGuaranteedFeatures",
-    "nonGuaranteedLimits",
     "requiredFeatures",
     "requiredLimits"
   ],
@@ -25146,6 +25165,7 @@
     "\"srgb\""
   ],
   "GPUPresentationConfiguration": [
+    "colorSpace",
     "compositingAlphaMode",
     "device",
     "format",
@@ -25279,8 +25299,10 @@
   ],
   "GPURenderEncoderBase": [
     "[[index_buffer]]",
+    "[[index_buffer_size]]",
     "[[index_format]]",
     "[[pipeline]]",
+    "[[vertex_buffer_sizes]]",
     "[[vertex_buffers]]",
     "draw(vertexCount)",
     "draw(vertexCount, instanceCount)",
@@ -25494,8 +25516,12 @@
   ],
   "GPUSupportedLimits": [
     "maxBindGroups",
+    "maxComputePerDimensionDispatchSize",
+    "maxComputeWorkgroupInvocations",
+    "maxComputeWorkgroupStorageSize",
     "maxDynamicStorageBuffersPerPipelineLayout",
     "maxDynamicUniformBuffersPerPipelineLayout",
+    "maxInterStageShaderComponents",
     "maxSampledTexturesPerShaderStage",
     "maxSamplersPerShaderStage",
     "maxStorageBufferBindingSize",
@@ -25509,7 +25535,9 @@
     "maxUniformBuffersPerShaderStage",
     "maxVertexAttributes",
     "maxVertexBufferArrayStride",
-    "maxVertexBuffers"
+    "maxVertexBuffers",
+    "minStorageBufferOffsetAlignment",
+    "minUniformBufferOffsetAlignment"
   ],
   "GPUTexture": [
     "[[descriptor]]",
@@ -25743,6 +25771,17 @@
     "gain"
   ],
   "Gamepad": [
+    "[[axes]]",
+    "[[axisMapping]]",
+    "[[axisMaximums]]",
+    "[[axisMinimums]]",
+    "[[buttonMapping]]",
+    "[[buttonMaximums]]",
+    "[[buttonMinimums]]",
+    "[[buttons]]",
+    "[[connected]]",
+    "[[exposed]]",
+    "[[timestamp]]",
     "axes",
     "buttons",
     "connected",
@@ -25756,6 +25795,9 @@
     "touchEvents"
   ],
   "GamepadButton": [
+    "[[pressed]]",
+    "[[touched]]",
+    "[[value]]",
     "pressed",
     "touched",
     "value"
@@ -26176,6 +26218,7 @@
   ],
   "HID": [
     "HID",
+    "[[devices]]",
     "getDevices()",
     "onconnect",
     "ondisconnect",
@@ -26204,6 +26247,14 @@
   ],
   "HIDDevice": [
     "HIDDevice",
+    "[[collections]]",
+    "[[pendingReceiveFeatureReportPromises]]",
+    "[[pendingSendFeatureReportPromises]]",
+    "[[pendingSendReportPromises]]",
+    "[[productId]]",
+    "[[productName]]",
+    "[[state]]",
+    "[[vendorId]]",
     "close()",
     "collections",
     "oninputreport",
@@ -26220,14 +26271,12 @@
     "vendorId"
   ],
   "HIDDeviceFilter": [
-    "HIDDeviceFilter",
     "productId",
     "usage",
     "usagePage",
     "vendorId"
   ],
   "HIDDeviceRequestOptions": [
-    "HIDDeviceRequestOptions",
     "filters"
   ],
   "HIDInputReportEvent": [
@@ -26281,7 +26330,6 @@
     "wrap"
   ],
   "HIDUnitSystem": [
-    "HIDUnitSystem",
     "english-linear",
     "english-rotation",
     "none",
@@ -26303,6 +26351,7 @@
     "download",
     "hreflang",
     "name",
+    "ping",
     "referrerPolicy",
     "rel",
     "relList",
@@ -26352,7 +26401,7 @@
     "labels",
     "name",
     "reportValidity()",
-    "setCustomValidity(message)",
+    "setCustomValidity(error)",
     "type",
     "validationMessage",
     "validity",
@@ -26394,7 +26443,7 @@
     "open"
   ],
   "HTMLDialogElement": [
-    "close()",
+    "close(returnValue)",
     "open",
     "returnValue",
     "show()",
@@ -26517,9 +26566,17 @@
     "width"
   ],
   "HTMLFieldSetElement": [
+    "checkValidity()",
     "disabled",
     "elements",
-    "type"
+    "form",
+    "name",
+    "reportValidity()",
+    "setCustomValidity(error)",
+    "type",
+    "validationMessage",
+    "validity",
+    "willValidate"
   ],
   "HTMLFontElement": [
     "color",
@@ -26659,6 +26716,11 @@
     "disabled",
     "files",
     "form",
+    "formAction",
+    "formEnctype",
+    "formMethod",
+    "formNoValidate",
+    "formTarget",
     "height",
     "indeterminate",
     "labels",
@@ -26678,7 +26740,7 @@
     "selectionDirection",
     "selectionEnd",
     "selectionStart",
-    "setCustomValidity(message)",
+    "setCustomValidity(error)",
     "setRangeText(replacement, start, end, selectMode)",
     "setSelectionRange(start, end, direction)",
     "size",
@@ -26759,6 +26821,7 @@
     "NETWORK_IDLE",
     "NETWORK_LOADING",
     "NETWORK_NO_SOURCE",
+    "[[SinkId]]",
     "abort",
     "addTextTrack(kind, label, language)",
     "audioTracks",
@@ -26778,18 +26841,20 @@
     "disableRemotePlayback",
     "duration",
     "durationchange",
+    "effective media volume",
     "emptied",
     "ended",
     "enter",
     "error",
     "exit",
-    "fastSeek()",
+    "fastSeek(time)",
     "getStartDate()",
     "load()",
     "loadeddata",
     "loadedmetadata",
     "loadstart",
     "loop",
+    "media data",
     "mediaKeys",
     "muted",
     "networkState",
@@ -26836,6 +26901,7 @@
   "HTMLMetaElement": [
     "content",
     "httpEquiv",
+    "media",
     "name",
     "scheme"
   ],
@@ -26876,7 +26942,7 @@
     "hspace",
     "name",
     "reportValidity()",
-    "setCustomValidity(message)",
+    "setCustomValidity(error)",
     "standby",
     "type",
     "useMap",
@@ -26912,16 +26978,24 @@
     "autofocus",
     "blur()",
     "dataset",
+    "focus(options)",
     "nonce",
     "tabIndex"
   ],
   "HTMLOutputElement": [
+    "checkValidity()",
     "defaultValue",
     "form",
     "htmlFor",
     "labels",
+    "name",
+    "reportValidity()",
+    "setCustomValidity(error)",
     "type",
-    "value"
+    "validationMessage",
+    "validity",
+    "value",
+    "willValidate"
   ],
   "HTMLParagraphElement": [
     "align"
@@ -26993,7 +27067,7 @@
     "type"
   ],
   "HTMLSelectElement": [
-    "add()",
+    "add(element, before)",
     "autocomplete",
     "checkValidity()",
     "disabled",
@@ -27010,7 +27084,7 @@
     "required",
     "selectedIndex",
     "selectedOptions",
-    "setCustomValidity(message)",
+    "setCustomValidity(error)",
     "size",
     "type",
     "validationMessage",
@@ -27138,7 +27212,7 @@
     "selectionDirection",
     "selectionEnd",
     "selectionStart",
-    "setCustomValidity(message)",
+    "setCustomValidity(error)",
     "setRangeText(replacement, start, end, selectMode)",
     "setSelectionRange(start, end, direction)",
     "textLength",
@@ -27887,7 +27961,7 @@
   ],
   "ImageBitmapRenderingContext": [
     "canvas",
-    "transferFromImageBitmap(imageBitmap)"
+    "transferFromImageBitmap(bitmap)"
   ],
   "ImageBitmapRenderingContextSettings": [
     "alpha"
@@ -28811,6 +28885,635 @@
     "subtype",
     "type"
   ],
+  "ML": [
+    "createContext()",
+    "createContext(glContext)",
+    "createContext(gpuDevice)",
+    "createContext(options)"
+  ],
+  "ML/createContext()": [
+    "options"
+  ],
+  "ML/createContext(glContext)": [
+    "glContext"
+  ],
+  "ML/createContext(gpuDevice)": [
+    "gpuDevice"
+  ],
+  "ML/createContext(options)": [
+    "options"
+  ],
+  "MLAutoPad": [
+    "\"explicit\"",
+    "\"same-lower\"",
+    "\"same-upper\""
+  ],
+  "MLBatchNormalizationOptions": [
+    "axis",
+    "bias",
+    "epsilon",
+    "scale"
+  ],
+  "MLBufferResourceView": [
+    "offset",
+    "resource",
+    "size"
+  ],
+  "MLClampOptions": [
+    "maxValue",
+    "minValue"
+  ],
+  "MLContextOptions": [
+    "devicePreference",
+    "powerPreference"
+  ],
+  "MLConv2dOptions": [
+    "autoPad",
+    "dilations",
+    "filterLayout",
+    "groups",
+    "inputLayout",
+    "outputPadding",
+    "outputSizes",
+    "padding",
+    "strides",
+    "transpose"
+  ],
+  "MLDevicePreference": [
+    "\"cpu\"",
+    "\"default\"",
+    "\"gpu\""
+  ],
+  "MLFilterOperandLayout": [
+    "\"hwio\"",
+    "\"ihwo\"",
+    "\"ohwi\"",
+    "\"oihw\""
+  ],
+  "MLGemmOptions": [
+    "aTranspose",
+    "alpha",
+    "bTranspose",
+    "beta",
+    "c"
+  ],
+  "MLGraph": [
+    "[[context]]",
+    "[[implementation]]",
+    "[[inputDescriptors]]",
+    "[[outputNames]]",
+    "compute(inputs, outputs)"
+  ],
+  "MLGraph/compute(inputs, outputs)": [
+    "inputs",
+    "outputs"
+  ],
+  "MLGraphBuilder": [
+    "MLGraphBuilder(context)",
+    "abs(x)",
+    "add(a, b)",
+    "averagePool2d(input)",
+    "averagePool2d(input, options)",
+    "batchNormalization(input, mean, variance)",
+    "batchNormalization(input, mean, variance, options)",
+    "build(outputs)",
+    "ceil(x)",
+    "clamp(x)",
+    "clamp(x, options)",
+    "concat(inputs, axis)",
+    "constant(desc, bufferView)",
+    "constant(value)",
+    "constant(value, type)",
+    "constructor(context)",
+    "conv2d(input, filter)",
+    "conv2d(input, filter, options)",
+    "cos(x)",
+    "div(a, b)",
+    "exp(x)",
+    "floor(x)",
+    "gemm(a, b)",
+    "gemm(a, b, options)",
+    "gru(input, weight, recurrentWeight, steps, hiddenSize)",
+    "gru(input, weight, recurrentWeight, steps, hiddenSize, options)",
+    "gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize)",
+    "gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize, options)",
+    "input(name, desc)",
+    "instanceNormalization(input)",
+    "instanceNormalization(input, options)",
+    "l2Pool2d(input)",
+    "l2Pool2d(input, options)",
+    "leakyRelu(x)",
+    "leakyRelu(x, options)",
+    "log(x)",
+    "matmul(a, b)",
+    "max(a, b)",
+    "maxPool2d(input)",
+    "maxPool2d(input, options)",
+    "min(a, b)",
+    "mul(a, b)",
+    "neg(x)",
+    "pad(input, padding)",
+    "pad(input, padding, options)",
+    "pow(a, b)",
+    "reduceL1(input)",
+    "reduceL1(input, options)",
+    "reduceL2(input)",
+    "reduceL2(input, options)",
+    "reduceLogSum(input)",
+    "reduceLogSum(input, options)",
+    "reduceLogSumExp(input)",
+    "reduceLogSumExp(input, options)",
+    "reduceMax(input)",
+    "reduceMax(input, options)",
+    "reduceMean(input)",
+    "reduceMean(input, options)",
+    "reduceMin(input)",
+    "reduceMin(input, options)",
+    "reduceProduct(input)",
+    "reduceProduct(input, options)",
+    "reduceSum(input)",
+    "reduceSum(input, options)",
+    "reduceSumSquare(input)",
+    "reduceSumSquare(input, options)",
+    "relu(x)",
+    "resample(input)",
+    "resample(input, options)",
+    "reshape(input, newShape)",
+    "sigmoid(x)",
+    "sin(x)",
+    "slice(input, starts, sizes)",
+    "slice(input, starts, sizes, options)",
+    "softmax(x)",
+    "split(input, splits)",
+    "split(input, splits, options)",
+    "squeeze(input)",
+    "squeeze(input, options)",
+    "sub(a, b)",
+    "tan(x)",
+    "tanh(x)",
+    "transpose(input)",
+    "transpose(input, options)"
+  ],
+  "MLGraphBuilder/MLGraphBuilder(context)": [
+    "context"
+  ],
+  "MLGraphBuilder/abs(x)": [
+    "x"
+  ],
+  "MLGraphBuilder/add(a, b)": [
+    "a",
+    "b"
+  ],
+  "MLGraphBuilder/averagePool2d(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/averagePool2d(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/batchNormalization(input, mean, variance)": [
+    "input",
+    "mean",
+    "options",
+    "variance"
+  ],
+  "MLGraphBuilder/batchNormalization(input, mean, variance, options)": [
+    "input",
+    "mean",
+    "options",
+    "variance"
+  ],
+  "MLGraphBuilder/build(outputs)": [
+    "outputs"
+  ],
+  "MLGraphBuilder/ceil(x)": [
+    "x"
+  ],
+  "MLGraphBuilder/clamp(x)": [
+    "options",
+    "x"
+  ],
+  "MLGraphBuilder/clamp(x, options)": [
+    "options",
+    "x"
+  ],
+  "MLGraphBuilder/concat(inputs, axis)": [
+    "axis",
+    "inputs"
+  ],
+  "MLGraphBuilder/constant(desc, bufferView)": [
+    "bufferView",
+    "desc"
+  ],
+  "MLGraphBuilder/constant(value)": [
+    "type",
+    "value"
+  ],
+  "MLGraphBuilder/constant(value, type)": [
+    "type",
+    "value"
+  ],
+  "MLGraphBuilder/constructor(context)": [
+    "context"
+  ],
+  "MLGraphBuilder/conv2d(input, filter)": [
+    "filter",
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/conv2d(input, filter, options)": [
+    "filter",
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/cos(x)": [
+    "x"
+  ],
+  "MLGraphBuilder/div(a, b)": [
+    "a",
+    "b"
+  ],
+  "MLGraphBuilder/exp(x)": [
+    "x"
+  ],
+  "MLGraphBuilder/floor(x)": [
+    "x"
+  ],
+  "MLGraphBuilder/gemm(a, b)": [
+    "a",
+    "b",
+    "options"
+  ],
+  "MLGraphBuilder/gemm(a, b, options)": [
+    "a",
+    "b",
+    "options"
+  ],
+  "MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize)": [
+    "hiddenSize",
+    "input",
+    "options",
+    "recurrentWeight",
+    "steps",
+    "weight"
+  ],
+  "MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize, options)": [
+    "hiddenSize",
+    "input",
+    "options",
+    "recurrentWeight",
+    "steps",
+    "weight"
+  ],
+  "MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize)": [
+    "hiddenSize",
+    "hiddenState",
+    "input",
+    "options",
+    "recurrentWeight",
+    "weight"
+  ],
+  "MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize, options)": [
+    "hiddenSize",
+    "hiddenState",
+    "input",
+    "options",
+    "recurrentWeight",
+    "weight"
+  ],
+  "MLGraphBuilder/input(name, desc)": [
+    "desc",
+    "name"
+  ],
+  "MLGraphBuilder/instanceNormalization(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/instanceNormalization(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/l2Pool2d(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/l2Pool2d(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/leakyRelu(x)": [
+    "options",
+    "x"
+  ],
+  "MLGraphBuilder/leakyRelu(x, options)": [
+    "options",
+    "x"
+  ],
+  "MLGraphBuilder/log(x)": [
+    "x"
+  ],
+  "MLGraphBuilder/matmul(a, b)": [
+    "a",
+    "b"
+  ],
+  "MLGraphBuilder/max(a, b)": [
+    "a",
+    "b"
+  ],
+  "MLGraphBuilder/maxPool2d(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/maxPool2d(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/min(a, b)": [
+    "a",
+    "b"
+  ],
+  "MLGraphBuilder/mul(a, b)": [
+    "a",
+    "b"
+  ],
+  "MLGraphBuilder/neg(x)": [
+    "x"
+  ],
+  "MLGraphBuilder/pad(input, padding)": [
+    "input",
+    "options",
+    "padding"
+  ],
+  "MLGraphBuilder/pad(input, padding, options)": [
+    "input",
+    "options",
+    "padding"
+  ],
+  "MLGraphBuilder/pow(a, b)": [
+    "a",
+    "b"
+  ],
+  "MLGraphBuilder/reduceL1(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceL1(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceL2(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceL2(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceLogSum(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceLogSum(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceLogSumExp(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceLogSumExp(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceMax(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceMax(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceMean(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceMean(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceMin(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceMin(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceProduct(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceProduct(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceSum(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceSum(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceSumSquare(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reduceSumSquare(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/relu(x)": [
+    "x"
+  ],
+  "MLGraphBuilder/resample(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/resample(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/reshape(input, newShape)": [
+    "input",
+    "newShape"
+  ],
+  "MLGraphBuilder/sigmoid(x)": [
+    "x"
+  ],
+  "MLGraphBuilder/sin(x)": [
+    "x"
+  ],
+  "MLGraphBuilder/slice(input, starts, sizes)": [
+    "input",
+    "options",
+    "sizes",
+    "starts"
+  ],
+  "MLGraphBuilder/slice(input, starts, sizes, options)": [
+    "input",
+    "options",
+    "sizes",
+    "starts"
+  ],
+  "MLGraphBuilder/softmax(x)": [
+    "x"
+  ],
+  "MLGraphBuilder/split(input, splits)": [
+    "input",
+    "options",
+    "splits"
+  ],
+  "MLGraphBuilder/split(input, splits, options)": [
+    "input",
+    "options",
+    "splits"
+  ],
+  "MLGraphBuilder/squeeze(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/squeeze(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/sub(a, b)": [
+    "a",
+    "b"
+  ],
+  "MLGraphBuilder/tan(x)": [
+    "x"
+  ],
+  "MLGraphBuilder/tanh(x)": [
+    "x"
+  ],
+  "MLGraphBuilder/transpose(input)": [
+    "input",
+    "options"
+  ],
+  "MLGraphBuilder/transpose(input, options)": [
+    "input",
+    "options"
+  ],
+  "MLGruCellOptions": [
+    "activations",
+    "bias",
+    "layout",
+    "recurrentBias",
+    "resetAfter"
+  ],
+  "MLGruOptions": [
+    "activations",
+    "bias",
+    "direction",
+    "initialHiddenState",
+    "layout",
+    "recurrentBias",
+    "resetAfter",
+    "returnSequence"
+  ],
+  "MLInput": [
+    "dimensions",
+    "resource"
+  ],
+  "MLInputOperandLayout": [
+    "\"nchw\"",
+    "\"nhwc\""
+  ],
+  "MLInstanceNormalizationOptions": [
+    "bias",
+    "epsilon",
+    "layout",
+    "scale"
+  ],
+  "MLInterpolationMode": [
+    "\"linear\"",
+    "\"nearest-neighbor\""
+  ],
+  "MLLeakyReluOptions": [
+    "alpha"
+  ],
+  "MLOperandDescriptor": [
+    "dimensions",
+    "type"
+  ],
+  "MLOperandType": [
+    "\"float16\"",
+    "\"float32\"",
+    "\"int32\"",
+    "\"int8\"",
+    "\"uint32\"",
+    "\"uint8\""
+  ],
+  "MLPadOptions": [
+    "mode",
+    "value"
+  ],
+  "MLPaddingMode": [
+    "\"constant\"",
+    "\"edge\"",
+    "\"reflection\"",
+    "\"symmetric\""
+  ],
+  "MLPool2dOptions": [
+    "autoPad",
+    "dilations",
+    "layout",
+    "padding",
+    "strides",
+    "windowDimensions"
+  ],
+  "MLPowerPreference": [
+    "\"default\"",
+    "\"high-performance\"",
+    "\"low-power\""
+  ],
+  "MLRecurrentNetworkActivation": [
+    "\"relu\"",
+    "\"sigmoid\"",
+    "\"tanh\""
+  ],
+  "MLRecurrentNetworkDirection": [
+    "\"backward\"",
+    "\"both\"",
+    "\"forward\""
+  ],
+  "MLRecurrentNetworkWeightLayout": [
+    "\"rzn\"",
+    "\"zrn\""
+  ],
+  "MLReduceOptions": [
+    "axes",
+    "keepDimensions"
+  ],
+  "MLResampleOptions": [
+    "mode",
+    "scales",
+    "sizes"
+  ],
+  "MLSliceOptions": [
+    "axes"
+  ],
+  "MLSplitOptions": [
+    "axis"
+  ],
+  "MLSqueezeOptions": [
+    "axes"
+  ],
+  "MLTransposeOptions": [
+    "permutation"
+  ],
   "Magnetometer": [
     "Magnetometer()",
     "Magnetometer(sensorOptions)",
@@ -28999,6 +29702,13 @@
     "sessionId",
     "update()",
     "update(response)"
+  ],
+  "MediaKeySessionClosedReason": [
+    "closed-by-application",
+    "hardware-context-reset",
+    "internal-error",
+    "release-acknowledged",
+    "resource-evicted"
   ],
   "MediaKeySessionType": [
     "persistent-license",
@@ -29659,7 +30369,7 @@
   ],
   "MessageEvent": [
     "data",
-    "initMessageEvent()",
+    "initMessageEvent(type, bubbles, cancelable, data, origin, lastEventId, source, ports)",
     "lastEventId",
     "origin",
     "ports",
@@ -29705,9 +30415,9 @@
     "type"
   ],
   "MimeTypeArray": [
-    "item()",
+    "item(index)",
     "length",
-    "namedItem()"
+    "namedItem(name)"
   ],
   "MockCameraConfiguration": [
     "defaultFrameRate",
@@ -30445,6 +31155,9 @@
     "reload"
   ],
   "Navigator": [
+    "[[gamepads]]",
+    "[[hasGamepadGesture]]",
+    "[[sharePromise]]",
     "bluetooth",
     "clearClientBadge()",
     "clipboard",
@@ -30544,6 +31257,9 @@
   ],
   "NavigatorLocks": [
     "locks"
+  ],
+  "NavigatorML": [
+    "ml"
   ],
   "NavigatorNetworkInformation": [
     "connection"
@@ -30920,6 +31636,7 @@
   ],
   "OffscreenCanvas": [
     "OffscreenCanvas(width, height)",
+    "canvas",
     "convertToBlob(options)",
     "getContext(contextId, options)",
     "height",
@@ -31246,24 +31963,7 @@
   ],
   "Path2D": [
     "Path2D(path)",
-    "addPath(b, transform)"
-  ],
-  "PayerErrors": [
-    "email",
-    "name",
-    "phone"
-  ],
-  "PaymentAddress": [
-    "addressLine",
-    "city",
-    "country",
-    "dependentLocality",
-    "organization",
-    "phone",
-    "postalCode",
-    "recipient",
-    "region",
-    "sortingCode"
+    "addPath(path, transform)"
   ],
   "PaymentComplete": [
     "fail",
@@ -31276,8 +31976,7 @@
   ],
   "PaymentDetailsBase": [
     "displayItems",
-    "modifiers",
-    "shippingOptions"
+    "modifiers"
   ],
   "PaymentDetailsInit": [
     "id",
@@ -31290,10 +31989,7 @@
     "total"
   ],
   "PaymentDetailsUpdate": [
-    "error",
-    "payerErrors",
     "paymentMethodErrors",
-    "shippingAddressErrors",
     "total"
   ],
   "PaymentHandlerResponse": [
@@ -31342,35 +32038,24 @@
     "data",
     "supportedMethods"
   ],
-  "PaymentOptions": [
-    "requestBillingAddress",
-    "requestPayerEmail",
-    "requestPayerName",
-    "requestPayerPhone",
-    "requestShipping",
-    "shippingType"
-  ],
   "PaymentRequest": [
+    "[[acceptPromise]]",
     "[[details]]",
     "[[handler]]",
-    "[[options]]",
+    "[[response]]",
     "[[serializedMethodData]]",
     "[[serializedModifierData]]",
+    "[[state]]",
+    "[[updating]]",
     "abort()",
     "canMakePayment()",
     "closed",
     "constructor()",
     "constructor(methodData, details)",
-    "constructor(methodData, details, options)",
     "created",
     "id",
     "interactive",
     "onpaymentmethodchange",
-    "onshippingaddresschange",
-    "onshippingoptionchange",
-    "shippingAddress",
-    "shippingOption",
-    "shippingType",
     "show()",
     "show(detailsPromise)",
     "state"
@@ -31420,36 +32105,20 @@
     "updateWith(detailsPromise)"
   ],
   "PaymentResponse": [
+    "[[complete]]",
+    "[[request]]",
+    "[[retryPromise]]",
     "complete()",
     "complete(result)",
     "details",
     "methodName",
-    "onpayerdetailchange",
-    "payerEmail",
-    "payerName",
-    "payerPhone",
     "requestId",
     "retry()",
-    "retry(errorFields)",
-    "shippingAddress",
-    "shippingOption"
-  ],
-  "PaymentShippingOption": [
-    "amount",
-    "id",
-    "label",
-    "selected"
-  ],
-  "PaymentShippingType": [
-    "delivery",
-    "pickup",
-    "shipping"
+    "retry(errorFields)"
   ],
   "PaymentValidationErrors": [
     "error",
-    "payer",
-    "paymentMethod",
-    "shippingAddress"
+    "paymentMethod"
   ],
   "Pbkdf2Params": [
     "hash",
@@ -31457,25 +32126,16 @@
     "salt"
   ],
   "Performance": [
-    "Performance.getEntries",
-    "Performance.getEntries()",
-    "Performance.getEntriesByName",
-    "Performance.getEntriesByName()",
-    "Performance.getEntriesByType",
-    "Performance.getEntriesByType()",
     "clearMarks()",
     "clearMarks(markName)",
     "clearMeasures()",
     "clearMeasures(measureName)",
     "clearResourceTimings()",
     "eventCounts",
-    "getEntries",
     "getEntries()",
-    "getEntriesByName",
     "getEntriesByName()",
     "getEntriesByName(name)",
     "getEntriesByName(name, type)",
-    "getEntriesByType",
     "getEntriesByType()",
     "getEntriesByType(type)",
     "mark()",
@@ -31489,8 +32149,6 @@
     "navigation",
     "now()",
     "onresourcetimingbufferfull",
-    "profile()",
-    "profile(options)",
     "setResourceTimingBufferSize()",
     "setResourceTimingBufferSize(maxSize)",
     "timeOrigin",
@@ -31510,18 +32168,11 @@
     "url"
   ],
   "PerformanceEntry": [
-    "PerformanceEntry.duration",
-    "PerformanceEntry.entryType",
-    "PerformanceEntry.name",
-    "PerformanceEntry.startTime",
-    "PerformanceEntry.toJSON",
-    "PerformanceEntry.toJSON()",
     "attribution",
     "duration",
     "entryType",
     "name",
     "startTime",
-    "toJSON",
     "toJSON()"
   ],
   "PerformanceEventTiming": [
@@ -31580,44 +32231,22 @@
     "unloadEventStart"
   ],
   "PerformanceObserver": [
-    "PerformanceObserver.constructor",
-    "PerformanceObserver.constructor()",
-    "PerformanceObserver.disconnect",
-    "PerformanceObserver.disconnect()",
-    "PerformanceObserver.observe",
-    "PerformanceObserver.observe()",
-    "PerformanceObserver.supportedEntryTypes",
-    "PerformanceObserver.takeRecords",
-    "PerformanceObserver.takeRecords()",
-    "constructor",
     "constructor()",
     "constructor(callback)",
-    "disconnect",
     "disconnect()",
-    "observe",
     "observe()",
     "observe(options)",
     "supportedEntryTypes",
-    "takeRecords",
     "takeRecords()"
   ],
   "PerformanceObserverCallbackOptions": [
     "droppedEntriesCount"
   ],
   "PerformanceObserverEntryList": [
-    "PerformanceObserverEntryList.getEntries",
-    "PerformanceObserverEntryList.getEntries()",
-    "PerformanceObserverEntryList.getEntriesByName",
-    "PerformanceObserverEntryList.getEntriesByName()",
-    "PerformanceObserverEntryList.getEntriesByType",
-    "PerformanceObserverEntryList.getEntriesByType()",
-    "getEntries",
     "getEntries()",
-    "getEntriesByName",
     "getEntriesByName()",
     "getEntriesByName(name)",
     "getEntriesByName(name, type)",
-    "getEntriesByType",
     "getEntriesByType()",
     "getEntriesByType(type)"
   ],
@@ -31759,7 +32388,6 @@
     "\"background-sync\"",
     "\"bluetooth\"",
     "\"camera\"",
-    "\"clipboard-read\"",
     "\"clipboard-write\"",
     "\"device-info\"",
     "\"display-capture\"",
@@ -31776,11 +32404,15 @@
     "\"notifications\"",
     "\"persistent-storage\"",
     "\"push\"",
-    "\"speaker\"",
+    "\"screen-wake-lock\"",
     "\"speaker-selection\"",
     "\"usb\"",
     "\"xr\"",
-    "\"xr-session-supported\""
+    "\"xr-session-supported\"",
+    "ambient-light-sensor",
+    "camera",
+    "microphone",
+    "speaker-selection"
   ],
   "PermissionSetParameters": [
     "descriptor",
@@ -31902,9 +32534,9 @@
     "namedItem()"
   ],
   "PluginArray": [
-    "item()",
+    "item(index)",
     "length",
-    "namedItem()",
+    "namedItem(name)",
     "refresh()"
   ],
   "Point2D": [
@@ -32117,6 +32749,9 @@
     "target"
   ],
   "Profiler": [
+    "constructor()",
+    "constructor(options)",
+    "new Profiler(options)",
     "sampleInterval",
     "stop()",
     "stopped"
@@ -32298,10 +32933,8 @@
   "PushManager": [
     "getSubscription()",
     "permissionState()",
-    "permissionState(, options)",
     "permissionState(options)",
     "subscribe()",
-    "subscribe(, options)",
     "subscribe(options)",
     "supportedContentEncodings"
   ],
@@ -33826,8 +34459,7 @@
     "abortReading(abortInfo)",
     "create",
     "creating",
-    "readingAborted",
-    "remoteReset"
+    "readingAborted"
   ],
   "ReceiveStream/abortReading()": [
     "abortInfo"
@@ -34275,6 +34907,7 @@
     "SFrameTransform(options)",
     "constructor()",
     "constructor(options)",
+    "onerror",
     "setEncryptionKey(key)",
     "setEncryptionKey(key, keyID)"
   ],
@@ -34297,6 +34930,31 @@
   "SFrameTransform/setEncryptionKey(key, keyID)": [
     "key",
     "keyID"
+  ],
+  "SFrameTransformErrorEvent": [
+    "SFrameTransformErrorEvent(type, eventInitDict)",
+    "constructor(type, eventInitDict)",
+    "frame",
+    "keyID",
+    "type"
+  ],
+  "SFrameTransformErrorEvent/SFrameTransformErrorEvent(type, eventInitDict)": [
+    "eventInitDict",
+    "type"
+  ],
+  "SFrameTransformErrorEvent/constructor(type, eventInitDict)": [
+    "eventInitDict",
+    "type"
+  ],
+  "SFrameTransformErrorEventInit": [
+    "frame",
+    "keyID",
+    "type"
+  ],
+  "SFrameTransformErrorEventType": [
+    "\"authentication\"",
+    "\"keyID\"",
+    "\"syntax\""
   ],
   "SFrameTransformOptions": [
     "role"
@@ -34880,25 +35538,25 @@
   ],
   "Sanitizer": [
     "Sanitizer()",
-    "Sanitizer(config)",
-    "config()",
+    "Sanitizer(aConfig)",
+    "config",
     "constructor()",
-    "constructor(config)",
-    "defaultConfig()",
+    "constructor(aConfig)",
+    "defaultConfig",
     "sanitize(input)",
     "sanitizeToString(input)"
   ],
   "Sanitizer/Sanitizer()": [
-    "config"
+    "aConfig"
   ],
-  "Sanitizer/Sanitizer(config)": [
-    "config"
+  "Sanitizer/Sanitizer(aConfig)": [
+    "aConfig"
   ],
   "Sanitizer/constructor()": [
-    "config"
+    "aConfig"
   ],
-  "Sanitizer/constructor(config)": [
-    "config"
+  "Sanitizer/constructor(aConfig)": [
+    "aConfig"
   ],
   "Sanitizer/sanitize(input)": [
     "input"
@@ -35007,8 +35665,7 @@
     "constructor(options)",
     "orientation",
     "scrollOffsets",
-    "source",
-    "timeRange"
+    "source"
   ],
   "ScrollTimeline/ScrollTimeline()": [
     "options"
@@ -35028,8 +35685,7 @@
   "ScrollTimelineOptions": [
     "orientation",
     "scrollOffsets",
-    "source",
-    "timeRange"
+    "source"
   ],
   "ScrollToOptions": [
     "left",
@@ -35039,17 +35695,13 @@
     "SecurityPolicyViolationEvent(type)",
     "SecurityPolicyViolationEvent(type, eventInitDict)",
     "blockedURI",
-    "blockedURL",
-    "colno",
     "columnNumber",
     "constructor(type)",
     "constructor(type, eventInitDict)",
     "disposition",
     "documentURI",
-    "documentURL",
     "effectiveDirective",
     "lineNumber",
-    "lineno",
     "originalPolicy",
     "referrer",
     "sample",
@@ -35079,15 +35731,11 @@
   ],
   "SecurityPolicyViolationEventInit": [
     "blockedURI",
-    "blockedURL",
-    "colno",
     "columnNumber",
     "disposition",
     "documentURI",
-    "documentURL",
     "effectiveDirective",
     "lineNumber",
-    "lineno",
     "originalPolicy",
     "referrer",
     "sample",
@@ -35141,25 +35789,21 @@
   ],
   "SendStream": [
     "[[internalstream]]",
+    "[[pendingoperation]]",
+    "[[transport]]",
+    "abort",
     "abortWriting()",
     "abortWriting(abortInfo)",
+    "close",
     "create",
     "creating",
-    "remoteCanceled",
-    "reset()",
-    "reset(abortInfo)",
+    "write",
     "writingAborted"
   ],
   "SendStream/abortWriting()": [
     "abortInfo"
   ],
   "SendStream/abortWriting(abortInfo)": [
-    "abortInfo"
-  ],
-  "SendStream/reset()": [
-    "abortInfo"
-  ],
-  "SendStream/reset(abortInfo)": [
     "abortInfo"
   ],
   "Sensor": [
@@ -35861,7 +36505,7 @@
   "Storage": [
     "clear()",
     "getItem(key)",
-    "key(n)",
+    "key(index)",
     "length",
     "removeItem(key)",
     "setItem(key, value)"
@@ -35871,7 +36515,7 @@
     "usage"
   ],
   "StorageEvent": [
-    "initStorageEvent()",
+    "initStorageEvent(type, bubbles, cancelable, key, oldValue, newValue, url, storageArea)",
     "key",
     "newValue",
     "oldValue",
@@ -37749,6 +38393,7 @@
     "request(type)"
   ],
   "WakeLockSentinel": [
+    "[[Released]]",
     "onrelease",
     "release()",
     "released",
@@ -37886,6 +38531,7 @@
     "[[connection]]",
     "[[datagrams]]",
     "[[incomingbidirectionalstreams]]",
+    "[[incomingunidirectionalstreams]]",
     "[[outgoingdatagramsexpirationduration]]",
     "[[outgoingdatagramshighwatermark]]",
     "[[outgoingdatagramsqueue]]",
@@ -37905,7 +38551,6 @@
     "constructor(url, options)",
     "createBidirectionalStream()",
     "createUnidirectionalStream()",
-    "createUnidirectionalStream(parameters)",
     "datagrams",
     "getStats()",
     "incomingBidirectionalStreams",
@@ -37937,12 +38582,6 @@
   "WebTransport/constructor(url, options)": [
     "options",
     "url"
-  ],
-  "WebTransport/createUnidirectionalStream()": [
-    "parameters"
-  ],
-  "WebTransport/createUnidirectionalStream(parameters)": [
-    "parameters"
   ],
   "WebTransportCloseInfo": [
     "errorCode",
@@ -38047,7 +38686,6 @@
     "external",
     "focus",
     "focus()",
-    "focus(options)",
     "frameElement",
     "frames",
     "getComputedStyle(elt)",
@@ -38073,14 +38711,11 @@
     "navigator",
     "offline",
     "onabort",
-    "onafterprint",
     "onanimationcancel",
     "onanimationend",
     "onanimationiteration",
     "onanimationstart",
     "onauxclick",
-    "onbeforeprint",
-    "onbeforeunload",
     "oncancel",
     "oncanplay",
     "oncanplaythrough",
@@ -38105,19 +38740,15 @@
     "onemptied",
     "onended",
     "onformdata",
-    "onhashchange",
     "oninput",
     "oninvalid",
     "onkeydown",
     "onkeypress",
     "onkeyup",
-    "onlanguagechange",
     "online",
     "onloadeddata",
     "onloadedmetadata",
     "onloadstart",
-    "onmessage",
-    "onmessageerror",
     "onmousedown",
     "onmouseenter",
     "onmouseleave",
@@ -38125,19 +38756,13 @@
     "onmouseout",
     "onmouseover",
     "onmouseup",
-    "onoffline",
-    "ononline",
     "onorientationchange",
-    "onpagehide",
-    "onpageshow",
     "onpause",
     "onplay",
     "onplaying",
-    "onpopstate",
     "onportalactivate",
     "onprogress",
     "onratechange",
-    "onrejectionhandled",
     "onreset",
     "onsecuritypolicyviolation",
     "onseeked",
@@ -38145,13 +38770,10 @@
     "onselect",
     "onslotchange",
     "onstalled",
-    "onstorage",
     "onsubmit",
     "onsuspend",
     "ontimeupdate",
     "ontoggle",
-    "onunhandledrejection",
-    "onunload",
     "onvolumechange",
     "onwaiting",
     "onwebkitanimationend",
@@ -38319,9 +38941,25 @@
     "url"
   ],
   "WindowEventHandlers": [
+    "onafterprint",
+    "onbeforeprint",
+    "onbeforeunload",
     "ongamepadconnected",
     "ongamepaddisconnected",
-    "onportalactivate"
+    "onhashchange",
+    "onlanguagechange",
+    "onmessage",
+    "onmessageerror",
+    "onoffline",
+    "ononline",
+    "onpagehide",
+    "onpageshow",
+    "onpopstate",
+    "onportalactivate",
+    "onrejectionhandled",
+    "onstorage",
+    "onunhandledrejection",
+    "onunload"
   ],
   "WindowLocalStorage": [
     "localStorage"
@@ -38441,7 +39079,6 @@
     "import map",
     "importScripts()",
     "importScripts(...urls)",
-    "importScripts(urls)",
     "languagechange",
     "location",
     "module map",
@@ -38639,16 +39276,20 @@
     "[[AbortSteps]]",
     "[[ErrorSteps]]",
     "[[abortalgorithm]]",
+    "[[abortreason]]",
     "[[closealgorithm]]",
     "[[queue]]",
     "[[queuetotalsize]]",
+    "[[signal]]",
     "[[started]]",
     "[[strategyhwm]]",
     "[[strategysizealgorithm]]",
     "[[stream]]",
     "[[writealgorithm]]",
+    "abortReason",
     "error()",
-    "error(e)"
+    "error(e)",
+    "signal"
   ],
   "WritableStreamDefaultController/error()": [
     "e"
@@ -41322,26 +41963,31 @@
   "contain-intrinsic-block-size": [
     "<length>",
     "auto && <length>",
+    "auto <length>",
     "none"
   ],
   "contain-intrinsic-height": [
     "<length>",
     "auto && <length>",
+    "auto <length>",
     "none"
   ],
   "contain-intrinsic-inline-size": [
     "<length>",
     "auto && <length>",
+    "auto <length>",
     "none"
   ],
   "contain-intrinsic-size": [
     "<length>",
     "auto && <length>",
+    "auto <length>",
     "none"
   ],
   "contain-intrinsic-width": [
     "<length>",
     "auto && <length>",
+    "auto <length>",
     "none"
   ],
   "content": [
@@ -41832,7 +42478,6 @@
     "browsing session",
     "client hints set",
     "cross-origin isolated capability",
-    "embedder policy",
     "global object",
     "import map",
     "module map",
@@ -42333,12 +42978,13 @@
   "font-size-adjust": [
     "<number>",
     "aspect value",
-    "cap",
-    "ch",
-    "ex",
-    "ex | cap | ch | ic",
+    "cap-height",
+    "ch-width",
+    "ex-height",
+    "ex-height | cap-height | ch-width | ic-width | ic-height",
     "from-font",
-    "ic",
+    "ic-height",
+    "ic-width",
     "none"
   ],
   "font-stretch": [
@@ -42980,31 +43626,53 @@
     "alt",
     "autocomplete",
     "border",
+    "button",
+    "checkbox",
     "checked",
+    "color",
+    "date",
     "dirname",
     "disabled",
+    "email",
+    "file upload",
     "form",
+    "hidden",
     "hspace",
+    "image button",
     "ismap",
     "list",
+    "local date and time",
     "max",
     "maxlength",
     "min",
     "minlength",
+    "month",
     "multiple",
     "name",
+    "number",
+    "password",
     "pattern",
     "placeholder",
+    "radio button",
+    "range",
     "readonly",
     "required",
+    "reset button",
+    "search",
     "size",
     "src",
     "step",
+    "submit button",
+    "telephone",
+    "text",
+    "time",
     "title",
     "type",
+    "url",
     "usemap",
     "value",
-    "vspace"
+    "vspace",
+    "week"
   ],
   "input-security": [
     "auto",
@@ -43075,6 +43743,30 @@
     "url",
     "username",
     "work"
+  ],
+  "input/type": [
+    "button",
+    "checkbox",
+    "color",
+    "date",
+    "datetime-local",
+    "email",
+    "file",
+    "hidden",
+    "image",
+    "month",
+    "number",
+    "password",
+    "radio",
+    "range",
+    "reset",
+    "search",
+    "submit",
+    "tel",
+    "text",
+    "time",
+    "url",
+    "week"
   ],
   "inputevent": [
     "datatransfer",
@@ -43880,6 +44572,7 @@
     "charset",
     "content",
     "http-equiv",
+    "media",
     "name",
     "scheme"
   ],
@@ -44567,6 +45260,7 @@
   ],
   "policy container": [
     "csp list",
+    "embedder policy",
     "ip address space",
     "referrer policy"
   ],
@@ -44771,6 +45465,9 @@
   "registered observer": [
     "observer",
     "options"
+  ],
+  "relevant global object": [
+    "[[explicitlyGrantedAudioOutputDevices]]"
   ],
   "remoteplayback": [
     "cancelwatchavailability",
@@ -45245,7 +45942,6 @@
   "service worker": [
     "classic scripts imported flag",
     "containing service worker registration",
-    "embedder policy",
     "functional events",
     "global object",
     "lifecycle events",
@@ -45296,13 +45992,14 @@
   ],
   "session": [
     "create a bidirectional stream",
-    "create an outgoing stream",
+    "create an outgoing unidirectional stream",
     "establish",
     "receive a bidirectional stream",
     "receive a datagram",
-    "receive an incoming stream",
+    "receive an incoming unidirectional stream",
     "send a datagram",
-    "terminate"
+    "terminate",
+    "terminated"
   ],
   "set": [
     "append",
@@ -45567,12 +46264,16 @@
     "bidirectional",
     "inactive",
     "inaudible",
-    "incoming",
-    "outgoing",
+    "incoming unidirectional",
+    "outgoing unidirectional",
     "receive",
     "reset",
     "send",
     "send stop_sending"
+  ],
+  "stream-event": [
+    "reset",
+    "stop_sending"
   ],
   "string": [
     "code point length",
@@ -45675,8 +46376,12 @@
   ],
   "supported limits": [
     "maxBindGroups",
+    "maxComputePerDimensionDispatchSize",
+    "maxComputeWorkgroupInvocations",
+    "maxComputeWorkgroupStorageSize",
     "maxDynamicStorageBuffersPerPipelineLayout",
     "maxDynamicUniformBuffersPerPipelineLayout",
+    "maxInterStageShaderComponents",
     "maxSampledTexturesPerShaderStage",
     "maxSamplersPerShaderStage",
     "maxStorageBufferBindingSize",
@@ -45690,7 +46395,9 @@
     "maxUniformBuffersPerShaderStage",
     "maxVertexAttributes",
     "maxVertexBufferArrayStride",
-    "maxVertexBuffers"
+    "maxVertexBuffers",
+    "minStorageBufferOffsetAlignment",
+    "minUniformBufferOffsetAlignment"
   ],
   "supported open() feature name": [
     "height",
@@ -46139,6 +46846,7 @@
     "valign"
   ],
   "track": [
+    "[[frameCaptureRequested]]",
     "default",
     "ended",
     "kind",

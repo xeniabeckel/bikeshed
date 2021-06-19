@@ -115,8 +115,8 @@ https://www.w3.org/TR/css-fonts-4/#generic-family-value
 -
 <generic-family>
 type
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-generic-family
@@ -125,8 +125,8 @@ https://drafts.csswg.org/css2/#value-def-generic-family
 -
 <generic-family>
 type
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-generic-family
@@ -195,8 +195,8 @@ https://streams.spec.whatwg.org/#generictransformstream
 -
 Geolocation
 interface
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dom-geolocation
@@ -206,8 +206,8 @@ Geolocation
 -
 Geolocation
 interface
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dom-geolocation
@@ -217,8 +217,8 @@ Geolocation
 -
 GeolocationCoordinates
 interface
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dom-geolocationcoordinates
@@ -227,8 +227,8 @@ https://w3c.github.io/geolocation-api/#dom-geolocationcoordinates
 -
 GeolocationCoordinates
 interface
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dom-geolocationcoordinates
@@ -237,8 +237,8 @@ https://www.w3.org/TR/geolocation-API/#dom-geolocationcoordinates
 -
 GeolocationPosition
 interface
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dom-geolocationposition
@@ -248,8 +248,8 @@ GeolocationPosition
 -
 GeolocationPosition
 interface
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dom-geolocationposition
@@ -259,8 +259,8 @@ GeolocationPosition
 -
 GeolocationPositionError
 interface
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dom-geolocationpositionerror
@@ -269,8 +269,8 @@ https://w3c.github.io/geolocation-api/#dom-geolocationpositionerror
 -
 GeolocationPositionError
 interface
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dom-geolocationpositionerror
@@ -493,8 +493,8 @@ https://dom.spec.whatwg.org/#dictdef-getrootnodeoptions
 -
 GetSVGDocument
 interface
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#InterfaceGetSVGDocument
@@ -503,8 +503,8 @@ https://svgwg.org/svg2-draft/struct.html#InterfaceGetSVGDocument
 -
 GetSVGDocument
 interface
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#InterfaceGetSVGDocument
@@ -512,7 +512,7 @@ https://www.w3.org/TR/SVG2/struct.html#InterfaceGetSVGDocument
 1
 -
 [[GetOwnProperty]]
-idl
+attribute
 webdriver2
 webdriver
 2
@@ -522,7 +522,7 @@ https://w3c.github.io/webdriver/#dfn-getownproperty
 1
 -
 [[GetProperty]]
-idl
+attribute
 webdriver2
 webdriver
 2
@@ -581,6 +581,50 @@ snapshot
 https://www.w3.org/TR/webdriver2/#dfn-getproperty
 
 1
+-
+gemm(a, b)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-gemm
+1
+1
+MLGraphBuilder
+-
+gemm(a, b)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-gemm
+1
+1
+MLGraphBuilder
+-
+gemm(a, b, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-gemm
+1
+1
+MLGraphBuilder
+-
+gemm(a, b, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-gemm
+1
+1
+MLGraphBuilder
 -
 gender-identity
 dfn
@@ -694,8 +738,8 @@ https://www.w3.org/TR/css-layout-api-1/#generate-a-fragment
 -
 generate a key
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#generate-a-key
@@ -704,8 +748,8 @@ https://w3c.github.io/IndexedDB/#generate-a-key
 -
 generate a key
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#generate-a-key
@@ -714,8 +758,8 @@ https://www.w3.org/TR/IndexedDB-3/#generate-a-key
 -
 generate a new blob url
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#unicodeBlobURL
@@ -724,8 +768,8 @@ https://w3c.github.io/FileAPI/#unicodeBlobURL
 -
 generate a new blob url
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#unicodeBlobURL
@@ -744,12 +788,22 @@ https://privacycg.github.io/storage-access/#generate-a-partitioned-storage-key
 -
 generate a prefix
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-generating-a-prefix
 
+1
+-
+generate a random uuid
+dfn
+uuid
+uuid
+1
+current
+https://wicg.github.io/uuid/#dfn-generate-a-random-uuid
+1
 1
 -
 generate a report
@@ -928,8 +982,8 @@ RTCPeerConnection
 -
 generateKey()
 method
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-generateKey
@@ -939,8 +993,8 @@ SubtleCrypto
 -
 generateKey(algorithm, extractable, keyUsages)
 method
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-generateKey
@@ -1034,8 +1088,8 @@ https://www.w3.org/TR/css-page-3/#generated
 -
 generated content
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#generated-content
@@ -1044,8 +1098,8 @@ https://drafts.csswg.org/css2/#generated-content
 -
 generated content
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#generated-content
@@ -1054,8 +1108,8 @@ https://drafts.csswg.org/css2/#generated-content
 -
 generated namespace prefix index
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-generated-namespace-prefix-index
@@ -1064,8 +1118,8 @@ https://w3c.github.io/DOM-Parsing/#dfn-generated-namespace-prefix-index
 -
 generatekey
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-SubtleCrypto-method-generateKey
@@ -1096,8 +1150,8 @@ mediakeysession
 -
 generating a new blob url
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#unicodeBlobURL
@@ -1106,8 +1160,8 @@ https://w3c.github.io/FileAPI/#unicodeBlobURL
 -
 generating a new blob url
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#unicodeBlobURL
@@ -1116,8 +1170,8 @@ https://www.w3.org/TR/FileAPI/#unicodeBlobURL
 -
 generating a prefix
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-generating-a-prefix
@@ -1287,8 +1341,8 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vevent-geo
 -
 geolocation
 attribute
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dom-navigator-geolocation
@@ -1298,8 +1352,8 @@ Navigator
 -
 geolocation
 attribute
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dom-navigator-geolocation
@@ -1347,6 +1401,16 @@ https://www.w3.org/TR/geolocation-sensor/#geolocation-sensor
 
 1
 -
+geolocation task source
+dfn
+geolocation-api
+geolocation-api
+1
+current
+https://w3c.github.io/geolocation-api/#dfn-geolocation-task-source
+
+1
+-
 geometricPrecision
 enum-value
 html
@@ -1360,8 +1424,8 @@ CanvasTextRendering
 -
 geometry properties
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/geometry.html#geometry-properties
@@ -1370,8 +1434,8 @@ https://svgwg.org/svg2-draft/geometry.html#geometry-properties
 -
 geometry properties
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/geometry.html#geometry-properties
@@ -1402,8 +1466,8 @@ https://www.w3.org/TR/css-counter-styles-3/#georgian
 -
 georgian
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-georgian
@@ -1413,8 +1477,8 @@ list-style-type
 -
 georgian
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-georgian
@@ -1529,8 +1593,8 @@ https://w3c.github.io/webdriver-bidi/#get-a-browsing-context
 -
 get a copy of the buffer source
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-get-buffer-source-copy
@@ -1539,12 +1603,12 @@ https://heycam.github.io/webidl/#dfn-get-buffer-source-copy
 -
 get a copy of the bytes held by the buffer source
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-get-buffer-source-copy
-
+current
+https://heycam.github.io/webidl/#dfn-get-buffer-source-copy
+1
 1
 -
 get a copy of the image contents of a presentation context
@@ -1554,6 +1618,16 @@ webgpu
 1
 current
 https://gpuweb.github.io/gpuweb/#abstract-opdef-get-a-copy-of-the-image-contents-of-a-presentation-context
+1
+1
+-
+get a copy of the image contents of a presentation context
+abstract-op
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#abstract-opdef-get-a-copy-of-the-image-contents-of-a-presentation-context
 1
 1
 -
@@ -1729,8 +1803,8 @@ https://www.w3.org/TR/css-layout-api-1/#get-a-layout-definition
 -
 get a promise to wait for all
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#waiting-for-all-promise
@@ -1747,26 +1821,6 @@ https://streams.spec.whatwg.org/#readablestream-get-a-reader
 1
 1
 ReadableStream
--
-get a reference to the buffer source
-dfn
-WebIDL-1
-WebIDL
-1
-current
-https://heycam.github.io/webidl/#dfn-get-buffer-source-reference
-1
-1
--
-get a reference to the bytes held by the buffer source
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-get-buffer-source-reference
-
-1
 -
 get a response mime type
 dfn
@@ -2524,8 +2578,8 @@ https://w3c.github.io/webdriver-bidi/#get-related-browsing-contexts
 -
 get stream
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#blob-get-stream
@@ -2535,8 +2589,8 @@ Blob
 -
 get stream
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#blob-get-stream
@@ -2637,8 +2691,8 @@ map
 -
 get the next iteration result
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-get-the-next-iteration-result
@@ -3240,8 +3294,8 @@ StylePropertyMap
 -
 get(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-get
@@ -3251,8 +3305,8 @@ IDBObjectStore
 -
 get(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-get
@@ -3262,8 +3316,8 @@ IDBIndex
 -
 get(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-get
@@ -3273,8 +3327,8 @@ IDBObjectStore
 -
 get(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-get
@@ -3337,8 +3391,8 @@ CookieStore
 -
 getAll()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getall
@@ -3348,8 +3402,8 @@ IDBObjectStore
 -
 getAll()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-getall
@@ -3359,8 +3413,8 @@ IDBIndex
 -
 getAll()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getall
@@ -3370,8 +3424,8 @@ IDBObjectStore
 -
 getAll()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getall
@@ -3449,8 +3503,8 @@ StylePropertyMap
 -
 getAll(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getall
@@ -3460,8 +3514,8 @@ IDBObjectStore
 -
 getAll(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-getall
@@ -3471,8 +3525,8 @@ IDBIndex
 -
 getAll(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getall
@@ -3482,8 +3536,8 @@ IDBObjectStore
 -
 getAll(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getall
@@ -3493,8 +3547,8 @@ IDBIndex
 -
 getAll(query, count)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getall
@@ -3504,8 +3558,8 @@ IDBObjectStore
 -
 getAll(query, count)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-getall
@@ -3515,8 +3569,8 @@ IDBIndex
 -
 getAll(query, count)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getall
@@ -3526,8 +3580,8 @@ IDBObjectStore
 -
 getAll(query, count)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getall
@@ -3537,8 +3591,8 @@ IDBIndex
 -
 getAllKeys()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getallkeys
@@ -3548,8 +3602,8 @@ IDBObjectStore
 -
 getAllKeys()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-getallkeys
@@ -3559,8 +3613,8 @@ IDBIndex
 -
 getAllKeys()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getallkeys
@@ -3570,8 +3624,8 @@ IDBObjectStore
 -
 getAllKeys()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getallkeys
@@ -3581,8 +3635,8 @@ IDBIndex
 -
 getAllKeys(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getallkeys
@@ -3592,8 +3646,8 @@ IDBObjectStore
 -
 getAllKeys(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-getallkeys
@@ -3603,8 +3657,8 @@ IDBIndex
 -
 getAllKeys(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getallkeys
@@ -3614,8 +3668,8 @@ IDBObjectStore
 -
 getAllKeys(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getallkeys
@@ -3625,8 +3679,8 @@ IDBIndex
 -
 getAllKeys(query, count)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getallkeys
@@ -3636,8 +3690,8 @@ IDBObjectStore
 -
 getAllKeys(query, count)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-getallkeys
@@ -3647,8 +3701,8 @@ IDBIndex
 -
 getAllKeys(query, count)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getallkeys
@@ -3658,8 +3712,8 @@ IDBObjectStore
 -
 getAllKeys(query, count)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getallkeys
@@ -3977,8 +4031,8 @@ PresentationRequest
 -
 getBBox
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__getBBox
@@ -3988,8 +4042,8 @@ SVGGraphicsElement
 -
 getBBox
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGGraphicsElement__getBBox
@@ -4197,8 +4251,8 @@ AnalyserNode
 -
 getCTM
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__getCTM
@@ -4208,8 +4262,8 @@ SVGGraphicsElement
 -
 getCTM
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGGraphicsElement__getCTM
@@ -4395,8 +4449,8 @@ AudioBuffer
 -
 getCharNumAtPosition
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getCharNumAtPosition
@@ -4406,8 +4460,8 @@ SVGTextContentElement
 -
 getCharNumAtPosition
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#__svg__SVGTextContentElement__getCharNumAtPosition
@@ -4637,8 +4691,8 @@ Window
 -
 getComputedTextLength
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getComputedTextLength
@@ -4648,8 +4702,8 @@ SVGTextContentElement
 -
 getComputedTextLength
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#__svg__SVGTextContentElement__getComputedTextLength
@@ -4890,8 +4944,8 @@ TextTrackCueList
 -
 getCurrentPosition()
 method
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dom-geolocation-getcurrentposition
@@ -4901,8 +4955,8 @@ Geolocation
 -
 getCurrentPosition()
 method
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dom-geolocation-getcurrentposition
@@ -4912,8 +4966,8 @@ Geolocation
 -
 getCurrentPosition(successCallback)
 method
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dom-geolocation-getcurrentposition
@@ -4923,8 +4977,8 @@ Geolocation
 -
 getCurrentPosition(successCallback)
 method
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dom-geolocation-getcurrentposition
@@ -4934,8 +4988,8 @@ Geolocation
 -
 getCurrentPosition(successCallback, errorCallback)
 method
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dom-geolocation-getcurrentposition
@@ -4945,8 +4999,8 @@ Geolocation
 -
 getCurrentPosition(successCallback, errorCallback)
 method
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dom-geolocation-getcurrentposition
@@ -4956,8 +5010,8 @@ Geolocation
 -
 getCurrentPosition(successCallback, errorCallback, options)
 method
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dom-geolocation-getcurrentposition
@@ -4967,8 +5021,8 @@ Geolocation
 -
 getCurrentPosition(successCallback, errorCallback, options)
 method
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dom-geolocation-getcurrentposition
@@ -5275,8 +5329,8 @@ MediaDevices
 -
 getElementById
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__getElementById
@@ -5286,8 +5340,8 @@ SVGSVGElement
 -
 getElementById
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__getElementById
@@ -5328,7 +5382,7 @@ https://dom.spec.whatwg.org/#dom-element-getelementsbyclassname
 1
 Element
 -
-getElementsByName(name)
+getElementsByName(elementName)
 method
 html
 html
@@ -5385,8 +5439,8 @@ Element
 -
 getEnclosureList
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__getEnclosureList
@@ -5396,8 +5450,8 @@ SVGSVGElement
 -
 getEnclosureList
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__getEnclosureList
@@ -5407,8 +5461,8 @@ SVGSVGElement
 -
 getEndPositionOfChar
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getEndPositionOfChar
@@ -5418,36 +5472,14 @@ SVGTextContentElement
 -
 getEndPositionOfChar
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#__svg__SVGTextContentElement__getEndPositionOfChar
 1
 1
 SVGTextContentElement
--
-getEntries
-method
-performance-timeline-2
-performance-timeline
-2
-snapshot
-https://www.w3.org/TR/performance-timeline-2/#dom-performance-getentries
-1
-1
-Performance
--
-getEntries
-method
-performance-timeline-2
-performance-timeline
-2
-snapshot
-https://www.w3.org/TR/performance-timeline-2/#dom-performanceobserverentrylist-getentries
-1
-1
-PerformanceObserverEntryList
 -
 getEntries()
 method
@@ -5493,28 +5525,6 @@ https://www.w3.org/TR/performance-timeline-2/#dom-performanceobserverentrylist-g
 1
 PerformanceObserverEntryList
 -
-getEntriesByName
-method
-performance-timeline-2
-performance-timeline
-2
-snapshot
-https://www.w3.org/TR/performance-timeline-2/#dom-performance-getentriesbyname
-1
-1
-Performance
--
-getEntriesByName
-method
-performance-timeline-2
-performance-timeline
-2
-snapshot
-https://www.w3.org/TR/performance-timeline-2/#dom-performanceobserverentrylist-getentriesbyname
-1
-1
-PerformanceObserverEntryList
--
 getEntriesByName()
 method
 performance-timeline-2
@@ -5581,6 +5591,28 @@ https://w3c.github.io/performance-timeline/#dom-performanceobserverentrylist-get
 1
 PerformanceObserverEntryList
 -
+getEntriesByName(name)
+method
+performance-timeline-2
+performance-timeline
+2
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dom-performance-getentriesbyname
+1
+1
+Performance
+-
+getEntriesByName(name)
+method
+performance-timeline-2
+performance-timeline
+2
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dom-performanceobserverentrylist-getentriesbyname
+1
+1
+PerformanceObserverEntryList
+-
 getEntriesByName(name, type)
 method
 performance-timeline-2
@@ -5603,24 +5635,24 @@ https://w3c.github.io/performance-timeline/#dom-performanceobserverentrylist-get
 1
 PerformanceObserverEntryList
 -
-getEntriesByType
+getEntriesByName(name, type)
 method
 performance-timeline-2
 performance-timeline
 2
 snapshot
-https://www.w3.org/TR/performance-timeline-2/#dom-performance-getentriesbytype
+https://www.w3.org/TR/performance-timeline-2/#dom-performance-getentriesbyname
 1
 1
 Performance
 -
-getEntriesByType
+getEntriesByName(name, type)
 method
 performance-timeline-2
 performance-timeline
 2
 snapshot
-https://www.w3.org/TR/performance-timeline-2/#dom-performanceobserverentrylist-getentriesbytype
+https://www.w3.org/TR/performance-timeline-2/#dom-performanceobserverentrylist-getentriesbyname
 1
 1
 PerformanceObserverEntryList
@@ -5687,14 +5719,36 @@ performance-timeline
 2
 current
 https://w3c.github.io/performance-timeline/#dom-performanceobserverentrylist-getentriesbytype
+1
+1
+PerformanceObserverEntryList
+-
+getEntriesByType(type)
+method
+performance-timeline-2
+performance-timeline
+2
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dom-performance-getentriesbytype
+1
+1
+Performance
+-
+getEntriesByType(type)
+method
+performance-timeline-2
+performance-timeline
+2
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dom-performanceobserverentrylist-getentriesbytype
 1
 1
 PerformanceObserverEntryList
 -
 getExtentOfChar
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getExtentOfChar
@@ -5704,8 +5758,8 @@ SVGTextContentElement
 -
 getExtentOfChar
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#__svg__SVGTextContentElement__getExtentOfChar
@@ -6078,8 +6132,8 @@ Navigator
 -
 getIntersectionList
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__getIntersectionList
@@ -6089,8 +6143,8 @@ SVGSVGElement
 -
 getIntersectionList
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__getIntersectionList
@@ -6177,8 +6231,8 @@ PushSubscription
 -
 getKey(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getkey
@@ -6188,8 +6242,8 @@ IDBObjectStore
 -
 getKey(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-getkey
@@ -6199,8 +6253,8 @@ IDBIndex
 -
 getKey(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getkey
@@ -6210,8 +6264,8 @@ IDBObjectStore
 -
 getKey(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getkey
@@ -6518,8 +6572,8 @@ ServiceWorkerRegistration
 -
 getNumberOfChars
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getNumberOfChars
@@ -6529,8 +6583,8 @@ SVGTextContentElement
 -
 getNumberOfChars
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#__svg__SVGTextContentElement__getNumberOfChars
@@ -6716,8 +6770,8 @@ ImageCapture
 -
 getPointAtLength
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__getPointAtLength
@@ -6727,8 +6781,8 @@ SVGGeometryElement
 -
 getPointAtLength
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGGeometryElement__getPointAtLength
@@ -6980,8 +7034,8 @@ AuthenticatorAttestationResponse
 -
 getRandomValues()
 method
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-Crypto-method-getRandomValues
@@ -6991,8 +7045,8 @@ Crypto
 -
 getRandomValues(array)
 method
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-Crypto-method-getRandomValues
@@ -7343,8 +7397,8 @@ Node
 -
 getRotationOfChar
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getRotationOfChar
@@ -7354,8 +7408,8 @@ SVGTextContentElement
 -
 getRotationOfChar
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#__svg__SVGTextContentElement__getRotationOfChar
@@ -7365,8 +7419,8 @@ SVGTextContentElement
 -
 getSVGDocument
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__GetSVGDocument__getSVGDocument
@@ -7376,8 +7430,8 @@ GetSVGDocument
 -
 getSVGDocument
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__GetSVGDocument__getSVGDocument
@@ -7400,8 +7454,8 @@ HTMLObjectElement
 -
 getScreenCTM
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__getScreenCTM
@@ -7411,8 +7465,8 @@ SVGGraphicsElement
 -
 getScreenCTM
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGGraphicsElement__getScreenCTM
@@ -7609,8 +7663,8 @@ HTMLMediaElement
 -
 getStartPositionOfChar
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getStartPositionOfChar
@@ -7620,8 +7674,8 @@ SVGTextContentElement
 -
 getStartPositionOfChar
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#__svg__SVGTextContentElement__getStartPositionOfChar
@@ -7796,8 +7850,8 @@ XRWebGLBinding
 -
 getSubStringLength
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getSubStringLength
@@ -7807,8 +7861,8 @@ SVGTextContentElement
 -
 getSubStringLength
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#__svg__SVGTextContentElement__getSubStringLength
@@ -7972,8 +8026,8 @@ AnimationEffect
 -
 getTotalLength
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__getTotalLength
@@ -7983,8 +8037,8 @@ SVGGeometryElement
 -
 getTotalLength
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGGeometryElement__getTotalLength
@@ -8617,8 +8671,8 @@ Keyboard
 -
 getownproperty
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#legacy-platform-object-getownproperty
@@ -8628,8 +8682,8 @@ legacy platform object
 -
 getprioritizedhashfunction
 dfn
-SRI
-SRI
+sri
+sri
 1
 current
 https://w3c.github.io/webappsec-subresource-integrity/#getprioritizedhashfunction
@@ -8638,8 +8692,8 @@ https://w3c.github.io/webappsec-subresource-integrity/#getprioritizedhashfunctio
 -
 getprioritizedhashfunction
 dfn
-SRI
-SRI
+sri
+sri
 1
 snapshot
 https://www.w3.org/TR/SRI/#dfn-getprioritizedhashfunction
@@ -8648,8 +8702,8 @@ https://www.w3.org/TR/SRI/#dfn-getprioritizedhashfunction
 -
 getprioritizedhashfunction(a, b)
 dfn
-SRI
-SRI
+sri
+sri
 1
 snapshot
 https://www.w3.org/TR/SRI/#dfn-getprioritizedhashfunction-a-b
@@ -8658,8 +8712,8 @@ https://www.w3.org/TR/SRI/#dfn-getprioritizedhashfunction-a-b
 -
 getrandomvalues
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-Crypto-method-getRandomValues
@@ -8710,8 +8764,8 @@ https://www.w3.org/TR/media-source/#dfn-sourcebufferlist-getter
 -
 getter
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-getter
@@ -8720,8 +8774,8 @@ https://heycam.github.io/webidl/#dfn-getter
 -
 getter steps
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#getter-steps
@@ -8749,16 +8803,6 @@ https://w3c.github.io/media-source/#dom-sourcebufferlist-getter
 1
 1
 SourceBufferList
--
-getters
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-getter
-
-1
 -
 getting
 dfn
@@ -8792,8 +8836,8 @@ https://wicg.github.io/background-fetch/#get-a-backgroundfetchregistration-insta
 -
 getting a promise to wait for all
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#waiting-for-all-promise
@@ -9022,6 +9066,16 @@ https://w3c.github.io/push-api/#dfn-getting-the-endpoint-attribute
 
 1
 -
+getting the endpoint attribute
+dfn
+push-api
+push-api
+1
+snapshot
+https://www.w3.org/TR/push-api/#dfn-getting-the-endpoint-attribute
+
+1
+-
 getting the expirationtime attribute
 dfn
 push-api
@@ -9029,6 +9083,16 @@ push-api
 1
 current
 https://w3c.github.io/push-api/#dfn-getting-the-expirationtime-attribute
+
+1
+-
+getting the expirationtime attribute
+dfn
+push-api
+push-api
+1
+snapshot
+https://www.w3.org/TR/push-api/#dfn-getting-the-expirationtime-attribute
 
 1
 -
@@ -9183,6 +9247,16 @@ https://w3c.github.io/performance-timeline/#dfn-getting-the-value-of-entry
 
 1
 -
+getting the value of an entry
+dfn
+performance-timeline-2
+performance-timeline
+2
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dfn-getting-the-value-of-entry
+
+1
+-
 getting the value of entry
 dfn
 performance-timeline-2
@@ -9190,6 +9264,16 @@ performance-timeline
 2
 current
 https://w3c.github.io/performance-timeline/#dfn-getting-the-value-of-entry
+
+1
+-
+getting the value of entry
+dfn
+performance-timeline-2
+performance-timeline
+2
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dfn-getting-the-value-of-entry
 
 1
 -

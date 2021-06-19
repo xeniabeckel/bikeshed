@@ -32,8 +32,8 @@ Event
 -
 BufferSource
 typedef
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#BufferSource
@@ -41,7 +41,7 @@ https://heycam.github.io/webidl/#BufferSource
 1
 -
 [[BufferedAmount]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -51,7 +51,7 @@ https://w3c.github.io/webrtc-pc/#dfn-bufferedamount
 1
 -
 [[BufferedAmount]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -83,7 +83,7 @@ https://www.w3.org/TR/webaudio/#dom-audiobuffersourcenode-buffer-set-slot
 AudioBufferSourceNode
 -
 [[bufferSize]]
-idl
+attribute
 serial
 serial
 1
@@ -102,6 +102,50 @@ https://wicg.github.io/file-system-access/#filesystemwritablefilestream-buffer
 
 1
 FileSystemWritableFileStream
+-
+[[buttonMapping]]
+attribute
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-buttonmapping
+
+1
+Gamepad
+-
+[[buttonMaximums]]
+attribute
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-buttonmaximums
+
+1
+Gamepad
+-
+[[buttonMinimums]]
+attribute
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-buttonminimums
+
+1
+Gamepad
+-
+[[buttons]]
+attribute
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-buttons
+
+1
+Gamepad
 -
 bubble phase
 dfn
@@ -664,22 +708,12 @@ https://www.w3.org/TR/media-source/#sourcebuffer-buffer-full-flag
 -
 buffer source types
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-buffer-source-type
 1
-1
--
-buffer source types
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-buffer-source-type
-
 1
 -
 buffer state
@@ -871,6 +905,28 @@ https://www.w3.org/TR/webaudio/#dom-scriptprocessornode-buffersize
 1
 ScriptProcessorNode
 -
+bufferView
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-constant-desc-bufferview-bufferview
+1
+1
+MLGraphBuilder/constant(desc, bufferView)
+-
+bufferView
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-constant-desc-bufferview-bufferview
+1
+1
+MLGraphBuilder/constant(desc, bufferView)
+-
 buffered
 attribute
 html
@@ -911,6 +967,17 @@ performance-timeline
 2
 current
 https://w3c.github.io/performance-timeline/#dom-performanceobserverinit-buffered
+1
+1
+PerformanceObserverInit
+-
+buffered
+dict-member
+performance-timeline-2
+performance-timeline
+2
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dom-performanceobserverinit-buffered
 1
 1
 PerformanceObserverInit
@@ -1037,18 +1104,40 @@ GPUVertexState
 -
 buffersource
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#BufferSource
 
 1
 -
+build(outputs)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-build
+1
+1
+MLGraphBuilder
+-
+build(outputs)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-build
+1
+1
+MLGraphBuilder
+-
 built-in functions
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#built-in-functions
@@ -1057,8 +1146,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#built-in-functions
 -
 built-in functions
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#built-in-functions
@@ -1067,8 +1156,8 @@ https://www.w3.org/TR/WGSL/#built-in-functions
 -
 built-in input variable
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#built-in-input-variable
@@ -1077,8 +1166,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#built-in-input-variable
 -
 built-in input variable
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#built-in-input-variable
@@ -1087,8 +1176,8 @@ https://www.w3.org/TR/WGSL/#built-in-input-variable
 -
 built-in output variable
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#built-in-output-variable
@@ -1097,8 +1186,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#built-in-output-variable
 -
 built-in output variable
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#built-in-output-variable
@@ -1107,8 +1196,8 @@ https://www.w3.org/TR/WGSL/#built-in-output-variable
 -
 builtin
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#attribute-builtin
@@ -1118,8 +1207,8 @@ attribute
 -
 builtin
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#attribute-builtin
@@ -1510,24 +1599,26 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#attr-aria-role-button
 1
 -
 button
-dfn
+attr-value
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#attr-input-type-button-keyword
-
 1
+1
+input/type
 -
 button
-dfn
+element-state
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#button-state-(type=button)
-
 1
+1
+input
 -
 button
 element
@@ -1653,6 +1744,16 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/rendering.html#button-layout-2
+
+1
+-
+button press threshold
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-button-press-threshold
 
 1
 -

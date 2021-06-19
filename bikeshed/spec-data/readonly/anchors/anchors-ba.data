@@ -86,6 +86,28 @@ https://www.w3.org/TR/permissions/#dom-permissionname-background-sync
 1
 PermissionName
 -
+"backward"
+enum-value
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlrecurrentnetworkdirection-backward
+1
+1
+MLRecurrentNetworkDirection
+-
+"backward"
+enum-value
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlrecurrentnetworkdirection-backward
+1
+1
+MLRecurrentNetworkDirection
+-
 "backwards"
 enum-value
 web-animations-2
@@ -1015,8 +1037,8 @@ https://www.w3.org/TR/css-color-4/#background
 -
 background
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-background
@@ -1025,8 +1047,8 @@ https://drafts.csswg.org/css2/#propdef-background
 -
 background
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-background
@@ -1035,8 +1057,8 @@ https://drafts.csswg.org/css2/#propdef-background
 -
 background
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/colors.html#propdef-background
@@ -1208,8 +1230,8 @@ https://www.w3.org/TR/css-backgrounds-3/#propdef-background-attachment
 -
 background-attachment
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-background-attachment
@@ -1218,8 +1240,8 @@ https://drafts.csswg.org/css2/#propdef-background-attachment
 -
 background-attachment
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-background-attachment
@@ -1228,8 +1250,8 @@ https://drafts.csswg.org/css2/#propdef-background-attachment
 -
 background-attachment
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/colors.html#propdef-background-attachment
@@ -1318,8 +1340,8 @@ https://www.w3.org/TR/css-backgrounds-3/#propdef-background-color
 -
 background-color
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-background-color
@@ -1328,8 +1350,8 @@ https://drafts.csswg.org/css2/#propdef-background-color
 -
 background-color
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-background-color
@@ -1338,8 +1360,8 @@ https://drafts.csswg.org/css2/#propdef-background-color
 -
 background-color
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/colors.html#propdef-background-color
@@ -1368,8 +1390,8 @@ https://www.w3.org/TR/css-backgrounds-3/#propdef-background-image
 -
 background-image
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-background-image
@@ -1378,8 +1400,8 @@ https://drafts.csswg.org/css2/#propdef-background-image
 -
 background-image
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-background-image
@@ -1388,8 +1410,8 @@ https://drafts.csswg.org/css2/#propdef-background-image
 -
 background-image
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/colors.html#propdef-background-image
@@ -1448,8 +1470,8 @@ https://www.w3.org/TR/css-backgrounds-3/#propdef-background-position
 -
 background-position
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-background-position
@@ -1458,8 +1480,8 @@ https://drafts.csswg.org/css2/#propdef-background-position
 -
 background-position
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-background-position
@@ -1468,8 +1490,8 @@ https://drafts.csswg.org/css2/#propdef-background-position
 -
 background-position
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/colors.html#propdef-background-position
@@ -1538,8 +1560,8 @@ https://www.w3.org/TR/css-backgrounds-3/#propdef-background-repeat
 -
 background-repeat
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-background-repeat
@@ -1548,8 +1570,8 @@ https://drafts.csswg.org/css2/#propdef-background-repeat
 -
 background-repeat
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-background-repeat
@@ -1558,8 +1580,8 @@ https://drafts.csswg.org/css2/#propdef-background-repeat
 -
 background-repeat
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/colors.html#propdef-background-repeat
@@ -1720,8 +1742,8 @@ in
 -
 backing list
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#observable-array-attribute-backing-list
@@ -1742,8 +1764,8 @@ storage proxy map
 -
 backing observable array exotic object
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#backing-observable-array-exotic-object
@@ -1762,8 +1784,8 @@ https://streams.spec.whatwg.org/#backpressure
 -
 backslash escapes
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#escaped-characters
@@ -1772,8 +1794,8 @@ https://drafts.csswg.org/css2/#escaped-characters
 -
 backslash escapes
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#escaped-characters
@@ -2336,6 +2358,16 @@ https://url.spec.whatwg.org/#concept-base-url
 
 1
 -
+base url
+dfn
+js-self-profiling
+js-self-profiling
+1
+current
+https://wicg.github.io/js-self-profiling/#dfn-base-url
+
+1
+-
 base url change steps
 dfn
 html
@@ -2370,8 +2402,8 @@ https://www.w3.org/TR/css-fonts-4/#descdef-font-palette-values-base-palette
 -
 base-uri
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#base-uri
@@ -2380,8 +2412,8 @@ https://w3c.github.io/webappsec-csp/#base-uri
 -
 base-uri
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#base-uri
@@ -2410,8 +2442,8 @@ https://www.w3.org/TR/webdriver2/#dfn-base64-encode
 -
 base64 encoding
 dfn
-SRI
-SRI
+sri
+sri
 1
 current
 https://w3c.github.io/webappsec-subresource-integrity/#base64-encoding
@@ -2420,8 +2452,8 @@ https://w3c.github.io/webappsec-subresource-integrity/#base64-encoding
 -
 base64 encoding
 dfn
-SRI
-SRI
+sri
+sri
 1
 snapshot
 https://www.w3.org/TR/SRI/#dfn-base64-encoding
@@ -2430,8 +2462,8 @@ https://www.w3.org/TR/SRI/#dfn-base64-encoding
 -
 base64-value
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-base64-value
@@ -2440,8 +2472,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-base64-value
 -
 base64-value
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-base64-value
@@ -2450,8 +2482,8 @@ https://www.w3.org/TR/CSP3/#grammardef-base64-value
 -
 base64-value
 grammar
-SRI
-SRI
+sri
+sri
 1
 current
 https://w3c.github.io/webappsec-subresource-integrity/#grammardef-base64-value
@@ -2788,8 +2820,8 @@ SVGAnimatedString
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedBoolean__baseVal
@@ -2799,8 +2831,8 @@ SVGAnimatedBoolean
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedEnumeration__baseVal
@@ -2810,8 +2842,8 @@ SVGAnimatedEnumeration
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedInteger__baseVal
@@ -2821,8 +2853,8 @@ SVGAnimatedInteger
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumber__baseVal
@@ -2832,8 +2864,8 @@ SVGAnimatedNumber
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLength__baseVal
@@ -2843,8 +2875,8 @@ SVGAnimatedLength
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedAngle__baseVal
@@ -2854,8 +2886,8 @@ SVGAnimatedAngle
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedString__baseVal
@@ -2865,8 +2897,8 @@ SVGAnimatedString
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedRect__baseVal
@@ -2876,8 +2908,8 @@ SVGAnimatedRect
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumberList__baseVal
@@ -2887,8 +2919,8 @@ SVGAnimatedNumberList
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLengthList__baseVal
@@ -2898,8 +2930,8 @@ SVGAnimatedLengthList
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedTransformList__baseVal
@@ -2909,8 +2941,8 @@ SVGAnimatedTransformList
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedPreserveAspectRatio__baseVal
@@ -2920,8 +2952,8 @@ SVGAnimatedPreserveAspectRatio
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedBoolean__baseVal
@@ -2931,8 +2963,8 @@ SVGAnimatedBoolean
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedEnumeration__baseVal
@@ -2942,8 +2974,8 @@ SVGAnimatedEnumeration
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedInteger__baseVal
@@ -2953,8 +2985,8 @@ SVGAnimatedInteger
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedNumber__baseVal
@@ -2964,8 +2996,8 @@ SVGAnimatedNumber
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedLength__baseVal
@@ -2975,8 +3007,8 @@ SVGAnimatedLength
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedAngle__baseVal
@@ -2986,8 +3018,8 @@ SVGAnimatedAngle
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedString__baseVal
@@ -2997,8 +3029,8 @@ SVGAnimatedString
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedRect__baseVal
@@ -3008,8 +3040,8 @@ SVGAnimatedRect
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedNumberList__baseVal
@@ -3019,8 +3051,8 @@ SVGAnimatedNumberList
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedLengthList__baseVal
@@ -3030,8 +3062,8 @@ SVGAnimatedLengthList
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#__svg__SVGAnimatedTransformList__baseVal
@@ -3041,8 +3073,8 @@ SVGAnimatedTransformList
 -
 baseVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#__svg__SVGAnimatedPreserveAspectRatio__baseVal
@@ -3301,8 +3333,8 @@ https://www.w3.org/TR/css-writing-modes-4/#baseline
 -
 baseline
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-vertical-align-baseline
@@ -3312,8 +3344,8 @@ vertical-align
 -
 baseline
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-vertical-align-baseline
@@ -3323,8 +3355,8 @@ vertical-align
 -
 baseline
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#TermBaseline
@@ -3333,8 +3365,8 @@ https://svgwg.org/svg2-draft/text.html#TermBaseline
 -
 baseline
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#TermBaseline
@@ -3683,8 +3715,8 @@ https://www.w3.org/TR/css-inline-3/#propdef-baseline-source
 -
 baseline-table
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#TermBaselineTable
@@ -3693,8 +3725,8 @@ https://svgwg.org/svg2-draft/text.html#TermBaselineTable
 -
 baseline-table
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#TermBaselineTable
@@ -3774,8 +3806,8 @@ https://fetch.spec.whatwg.org/#concept-filtered-response-basic
 -
 basic shape
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/shapes.html#basic-shape
@@ -3784,8 +3816,8 @@ https://svgwg.org/svg2-draft/shapes.html#basic-shape
 -
 basic shape
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/shapes.html#basic-shape
@@ -3891,6 +3923,50 @@ snapshot
 https://www.w3.org/TR/service-workers-1/#batch-cache-operations
 
 1
+-
+batchNormalization(input, mean, variance)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-batchnormalization
+1
+1
+MLGraphBuilder
+-
+batchNormalization(input, mean, variance)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-batchnormalization
+1
+1
+MLGraphBuilder
+-
+batchNormalization(input, mean, variance, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-batchnormalization
+1
+1
+MLGraphBuilder
+-
+batchNormalization(input, mean, variance, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-batchnormalization
+1
+1
+MLGraphBuilder
 -
 battery manager
 dfn

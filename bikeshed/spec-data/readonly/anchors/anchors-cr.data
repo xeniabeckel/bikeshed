@@ -150,6 +150,16 @@ https://w3c.github.io/webappsec-trusted-types/dist/spec/#callbackdef-createhtmlc
 1
 1
 -
+CreateReadableByteStream
+abstract-op
+streams
+streams
+1
+current
+https://streams.spec.whatwg.org/#abstract-opdef-createreadablebytestream
+1
+1
+-
 CreateReadableStream
 abstract-op
 streams
@@ -352,8 +362,8 @@ https://www.w3.org/TR/credential-management-1/#credentialscontainer
 -
 CrossOriginIsolated
 extended-attribute
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#CrossOriginIsolated
@@ -372,8 +382,8 @@ https://streams.spec.whatwg.org/#abstract-opdef-crossrealmtransformsenderror
 -
 Crypto
 interface
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-Crypto
@@ -382,8 +392,8 @@ https://w3c.github.io/webcrypto/#dfn-Crypto
 -
 CryptoKey
 interface
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-CryptoKey
@@ -402,8 +412,8 @@ https://w3c.github.io/webrtc-encoded-transform/#typedefdef-cryptokeyid
 -
 CryptoKeyPair
 dictionary
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-CryptoKeyPair
@@ -640,6 +650,28 @@ line-grid
 -
 create
 dfn
+webidl-1
+webidl
+1
+current
+https://heycam.github.io/webidl/#arraybuffer-create
+1
+1
+ArrayBuffer
+-
+create
+dfn
+webidl-1
+webidl
+1
+current
+https://heycam.github.io/webidl/#arraybufferview-create
+1
+1
+ArrayBufferView
+-
+create
+dfn
 webrtc-identity
 webrtc-identity
 1
@@ -844,6 +876,16 @@ fetch
 current
 https://fetch.spec.whatwg.org/#create-a-connection
 
+1
+-
+create a constructed cssstylesheet
+dfn
+cssom-1
+cssom
+1
+current
+https://drafts.csswg.org/cssom/#create-a-constructed-cssstylesheet
+1
 1
 -
 create a cookie
@@ -1198,8 +1240,8 @@ https://www.w3.org/TR/geometry-1/#create-a-domrectreadonly-from-the-dictionary
 -
 create a frozen array
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-create-frozen-array
@@ -1223,6 +1265,16 @@ wasm-js-api
 1
 snapshot
 https://www.w3.org/TR/wasm-js-api-1/#create-a-global-object
+
+1
+-
+create a hid report item
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-creating-a-hid-report-item
 
 1
 -
@@ -1338,8 +1390,8 @@ https://www.w3.org/TR/css-layout-api-1/#create-a-layout-fragment
 -
 create a legacy callback interface object
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#create-a-legacy-callback-interface-object
@@ -1348,8 +1400,8 @@ https://heycam.github.io/webidl/#create-a-legacy-callback-interface-object
 -
 create a legacy factory function
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#create-a-legacy-factory-function
@@ -1478,8 +1530,8 @@ https://html.spec.whatwg.org/multipage/webappapis.html#creating-a-module-script
 -
 create a named properties object
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#create-a-named-properties-object
@@ -1488,8 +1540,8 @@ https://heycam.github.io/webidl/#create-a-named-properties-object
 -
 create a namespace object
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#create-a-namespace-object
@@ -1736,16 +1788,6 @@ https://www.w3.org/TR/css-paint-api-1/#create-a-paintrenderingcontext2d-object
 
 1
 -
-create a paymentaddress from user-provided input
-dfn
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-create-a-paymentaddress-from-user-provided-input
-1
-1
--
 create a permissions policy for a browsing context
 dfn
 permissions-policy-1
@@ -1919,11 +1961,21 @@ https://w3c.github.io/webdriver/#dfn-create-a-shadow-root
 -
 create a sorted name list
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#create-a-sorted-name-list
+
+1
+-
+create a sorted name list
+dfn
+indexeddb-3
+indexeddb
+3
+snapshot
+https://www.w3.org/TR/IndexedDB-3/#create-a-sorted-name-list
 
 1
 -
@@ -2290,8 +2342,8 @@ https://wicg.github.io/import-maps/#create-an-import-map-parse-result
 -
 create an inheritance stack
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#create-an-inheritance-stack
@@ -2300,8 +2352,8 @@ https://heycam.github.io/webidl/#create-an-inheritance-stack
 -
 create an interface object
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#create-an-interface-object
@@ -2310,8 +2362,8 @@ https://heycam.github.io/webidl/#create-an-interface-object
 -
 create an interface prototype object
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#create-an-interface-prototype-object
@@ -2358,13 +2410,13 @@ https://www.w3.org/TR/webrtc/#dfn-creating-an-offer
 
 1
 -
-create an outgoing stream
+create an outgoing unidirectional stream
 dfn
 webtransport
 webtransport
 1
 current
-https://w3c.github.io/webtransport/#session-create-an-outgoing-stream
+https://w3c.github.io/webtransport/#session-create-an-outgoing-unidirectional-stream
 
 1
 session
@@ -3323,10 +3375,98 @@ https://www.w3.org/TR/webaudio/#dom-baseaudiocontext-createconstantsource
 1
 BaseAudioContext
 -
+createContext()
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-ml-createcontext
+1
+1
+ML
+-
+createContext()
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-ml-createcontext
+1
+1
+ML
+-
+createContext(glContext)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-ml-createcontext-glcontext
+1
+1
+ML
+-
+createContext(glContext)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-ml-createcontext-glcontext
+1
+1
+ML
+-
+createContext(gpuDevice)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-ml-createcontext-gpudevice
+1
+1
+ML
+-
+createContext(gpuDevice)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-ml-createcontext-gpudevice
+1
+1
+ML
+-
+createContext(options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-ml-createcontext
+1
+1
+ML
+-
+createContext(options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-ml-createcontext
+1
+1
+ML
+-
 createContextualFragment()
 method
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dom-range-createcontextualfragment
@@ -3347,8 +3487,8 @@ Range
 -
 createContextualFragment(fragment)
 method
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dom-range-createcontextualfragment
@@ -4040,8 +4180,8 @@ CanvasImageData
 -
 createIndex(name, keyPath)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-createindex
@@ -4051,8 +4191,8 @@ IDBObjectStore
 -
 createIndex(name, keyPath)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-createindex
@@ -4062,8 +4202,8 @@ IDBObjectStore
 -
 createIndex(name, keyPath, options)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-createindex
@@ -4073,8 +4213,8 @@ IDBObjectStore
 -
 createIndex(name, keyPath, options)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-createindex
@@ -4238,8 +4378,8 @@ Document
 -
 createObjectStore(name)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbdatabase-createobjectstore
@@ -4249,8 +4389,8 @@ IDBDatabase
 -
 createObjectStore(name)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbdatabase-createobjectstore
@@ -4260,8 +4400,8 @@ IDBDatabase
 -
 createObjectStore(name, options)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbdatabase-createobjectstore
@@ -4271,8 +4411,8 @@ IDBDatabase
 -
 createObjectStore(name, options)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbdatabase-createobjectstore
@@ -4282,8 +4422,8 @@ IDBDatabase
 -
 createObjectURL(obj)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-createObjectURL
@@ -4293,8 +4433,8 @@ URL
 -
 createObjectURL(obj)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-createObjectURL
@@ -4821,8 +4961,8 @@ GPUDevice
 -
 createSVGAngle
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGAngle
@@ -4832,8 +4972,8 @@ SVGSVGElement
 -
 createSVGAngle
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__createSVGAngle
@@ -4843,8 +4983,8 @@ SVGSVGElement
 -
 createSVGLength
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGLength
@@ -4854,8 +4994,8 @@ SVGSVGElement
 -
 createSVGLength
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__createSVGLength
@@ -4865,8 +5005,8 @@ SVGSVGElement
 -
 createSVGMatrix
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGMatrix
@@ -4876,8 +5016,8 @@ SVGSVGElement
 -
 createSVGMatrix
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__createSVGMatrix
@@ -4887,8 +5027,8 @@ SVGSVGElement
 -
 createSVGNumber
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGNumber
@@ -4898,8 +5038,8 @@ SVGSVGElement
 -
 createSVGNumber
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__createSVGNumber
@@ -4909,8 +5049,8 @@ SVGSVGElement
 -
 createSVGPoint
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGPoint
@@ -4920,8 +5060,8 @@ SVGSVGElement
 -
 createSVGPoint
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__createSVGPoint
@@ -4931,8 +5071,8 @@ SVGSVGElement
 -
 createSVGRect
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGRect
@@ -4942,8 +5082,8 @@ SVGSVGElement
 -
 createSVGRect
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__createSVGRect
@@ -4953,8 +5093,8 @@ SVGSVGElement
 -
 createSVGTransform
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGTransform
@@ -4964,8 +5104,8 @@ SVGSVGElement
 -
 createSVGTransform
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__createSVGTransform
@@ -4975,8 +5115,8 @@ SVGSVGElement
 -
 createSVGTransformFromMatrix
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGTransformFromMatrix
@@ -4986,8 +5126,8 @@ SVGSVGElement
 -
 createSVGTransformFromMatrix
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransformList__createSVGTransformFromMatrix
@@ -4997,8 +5137,8 @@ SVGTransformList
 -
 createSVGTransformFromMatrix
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__createSVGTransformFromMatrix
@@ -5008,8 +5148,8 @@ SVGSVGElement
 -
 createSVGTransformFromMatrix
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#__svg__SVGTransformList__createSVGTransformFromMatrix
@@ -5407,17 +5547,6 @@ method
 webtransport
 webtransport
 1
-current
-https://w3c.github.io/webtransport/#dom-webtransport-createunidirectionalstream
-1
-1
-WebTransport
--
-createUnidirectionalStream(parameters)
-method
-webtransport
-webtransport
-1
 snapshot
 https://www.w3.org/TR/webtransport/#dom-unidirectionalstreamstransport-createunidirectionalstream
 1
@@ -5564,8 +5693,8 @@ https://html.spec.whatwg.org/multipage/dnd.html#create-a-drag-data-store
 -
 created
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#transaction-created
@@ -5575,8 +5704,8 @@ transaction
 -
 created
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#transaction-created
@@ -5608,24 +5737,14 @@ PaymentRequest
 -
 created
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-create-exception
 1
 1
 exception
--
-created
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-create-exception
-
-1
 -
 createdataproperty
 dfn
@@ -5912,8 +6031,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#creating-a-frozen-arr
 -
 creating a frozen array
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-create-frozen-array
@@ -5922,8 +6041,8 @@ https://heycam.github.io/webidl/#dfn-create-frozen-array
 -
 creating a frozen array from an iterable
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#create-frozen-array-from-iterable
@@ -5937,6 +6056,16 @@ webpackage
 1
 current
 https://wicg.github.io/webpackage/loading.html#creating-a-header-list-from-the-cbor-map
+
+1
+-
+creating a hid report item
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-creating-a-hid-report-item
 
 1
 -
@@ -6093,8 +6222,8 @@ https://wicg.github.io/scheduling-apis/#create-a-scheduler-task-queue
 -
 creating a sequence from an iterable
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#create-sequence-from-iterable
@@ -6194,8 +6323,8 @@ https://streams.spec.whatwg.org/#create-an-identity-transformstream
 -
 creating an observable array exotic object
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#creating-an-observable-array-exotic-object
@@ -6224,8 +6353,8 @@ https://www.w3.org/TR/webrtc/#dfn-creating-an-offer
 -
 creating an operation function
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-create-operation-function
@@ -7430,16 +7559,6 @@ https://xhr.spec.whatwg.org/#cross-origin-credentials
 
 1
 -
-cross-origin isolated
-dfn
-js-self-profiling
-js-self-profiling
-1
-current
-https://wicg.github.io/js-self-profiling/#dfn-cross-origin-isolated
-
-1
--
 cross-origin isolated capability
 dfn
 fetch
@@ -7885,8 +8004,8 @@ SVGFEImageElement
 -
 crossOrigin
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/embedded.html#__svg__SVGImageElement__crossOrigin
@@ -7896,8 +8015,8 @@ SVGImageElement
 -
 crossOrigin
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/interact.html#__svg__SVGScriptElement__crossOrigin
@@ -7907,8 +8026,8 @@ SVGScriptElement
 -
 crossOrigin
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/embedded.html#__svg__SVGImageElement__crossOrigin
@@ -7918,8 +8037,8 @@ SVGImageElement
 -
 crossOrigin
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/interact.html#__svg__SVGScriptElement__crossOrigin
@@ -7984,8 +8103,8 @@ cursor
 -
 crosshair
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-cursor-crosshair
@@ -7995,8 +8114,8 @@ cursor
 -
 crosshair
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-cursor-crosshair
@@ -8093,8 +8212,8 @@ https://www.w3.org/TR/preload/#dfn-crossorigin
 -
 crossorigin
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/embedded.html#ImageElementCrossoriginAttribute
@@ -8104,8 +8223,8 @@ image
 -
 crossorigin
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/interact.html#ScriptElementCrossoriginAttribute
@@ -8115,8 +8234,8 @@ script
 -
 crossorigin
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/embedded.html#ImageElementCrossoriginAttribute
@@ -8126,8 +8245,8 @@ image
 -
 crossorigin
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/interact.html#ScriptElementCrossoriginAttribute
@@ -8207,8 +8326,8 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vcard-rel-crush
 -
 crv
 dict-member
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dom-jsonwebkey-crv
@@ -8217,9 +8336,29 @@ https://w3c.github.io/webcrypto/#dom-jsonwebkey-crv
 JsonWebKey
 -
 crypto
+dfn
+uuid
+uuid
+1
+current
+https://wicg.github.io/uuid/#dom-crypto
+
+
+-
+crypto
+dfn
+uuid
+uuid
+1
+current
+https://wicg.github.io/uuid/#dfn-crypto
+
+1
+-
+crypto
 attribute
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dom-windoworworkerglobalscope-crypto
@@ -8229,8 +8368,8 @@ WindowOrWorkerGlobalScope
 -
 crypto
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-Crypto
@@ -8270,8 +8409,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#concept-request-nonce
 -
 cryptokey
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-CryptoKey
@@ -8280,8 +8419,8 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-CryptoKey
 -
 cryptokeypair
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-CryptoKeyPair

@@ -162,17 +162,6 @@ dfn
 webtransport
 webtransport
 1
-current
-https://w3c.github.io/webtransport/#webtransport-outgoingstreams
-
-1
-WebTransport
--
-[[outgoingstreams]]
-dfn
-webtransport
-webtransport
-1
 snapshot
 https://www.w3.org/TR/webtransport/#webtransport-outgoingstreams
 
@@ -267,6 +256,28 @@ https://www.w3.org/TR/webcodecs/#dom-videoencoder-output-callback-slot
 1
 VideoEncoder
 -
+[[outputNames]]
+attribute
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraph-outputnames-slot
+1
+1
+MLGraph
+-
+[[outputNames]]
+attribute
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraph-outputnames-slot
+1
+1
+MLGraph
+-
 out
 attr-value
 filter-effects-1
@@ -311,8 +322,8 @@ https://www.w3.org/TR/css-display-3/#out-of-flow
 -
 out of flow
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#out-of-flow
@@ -321,8 +332,8 @@ https://drafts.csswg.org/css2/#out-of-flow
 -
 out of flow
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#out-of-flow
@@ -401,8 +412,8 @@ https://www.w3.org/TR/css-display-3/#out-of-flow
 -
 out-of-line keys
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#object-store-out-of-line-keys
@@ -412,8 +423,8 @@ object-store
 -
 out-of-line keys
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#object-store-out-of-line-keys
@@ -555,8 +566,8 @@ https://www.w3.org/TR/css-box-4/#outer-edge
 -
 outer edge
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#outer-edge
@@ -565,8 +576,8 @@ https://drafts.csswg.org/css2/#outer-edge
 -
 outer edge
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#outer-edge
@@ -788,8 +799,8 @@ Element
 -
 outerHTML
 attribute
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dom-element-outerhtml
@@ -904,8 +915,8 @@ https://www.w3.org/TR/webdriver2/#dfn-outerhtml-idl-attribute
 -
 outermost svg element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#TermOutermostSVGElement
@@ -914,8 +925,8 @@ https://svgwg.org/svg2-draft/struct.html#TermOutermostSVGElement
 -
 outermost svg element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#TermOutermostSVGElement
@@ -942,13 +953,13 @@ https://www.w3.org/TR/webdriver2/#dfn-outerwidth
 
 1
 -
-outgoing
+outgoing unidirectional
 dfn
 webtransport
 webtransport
 1
 current
-https://w3c.github.io/webtransport/#stream-outgoing
+https://w3c.github.io/webtransport/#stream-outgoing-unidirectional
 
 1
 stream
@@ -1007,8 +1018,8 @@ https://www.w3.org/TR/css-ui-4/#propdef-outline
 -
 outline
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-outline
@@ -1017,8 +1028,8 @@ https://drafts.csswg.org/css2/#propdef-outline
 -
 outline
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-outline
@@ -1027,8 +1038,8 @@ https://drafts.csswg.org/css2/#propdef-outline
 -
 outline
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/ui.html#propdef-outline
@@ -1067,8 +1078,8 @@ https://www.w3.org/TR/css-ui-4/#propdef-outline-color
 -
 outline-color
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-outline-color
@@ -1077,8 +1088,8 @@ https://drafts.csswg.org/css2/#propdef-outline-color
 -
 outline-color
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-outline-color
@@ -1087,8 +1098,8 @@ https://drafts.csswg.org/css2/#propdef-outline-color
 -
 outline-color
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/ui.html#propdef-outline-color
@@ -1137,8 +1148,8 @@ https://www.w3.org/TR/css-ui-4/#propdef-outline-style
 -
 outline-style
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-outline-style
@@ -1147,8 +1158,8 @@ https://drafts.csswg.org/css2/#propdef-outline-style
 -
 outline-style
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-outline-style
@@ -1157,8 +1168,8 @@ https://drafts.csswg.org/css2/#propdef-outline-style
 -
 outline-style
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/ui.html#propdef-outline-style
@@ -1187,8 +1198,8 @@ https://www.w3.org/TR/css-ui-4/#propdef-outline-width
 -
 outline-width
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-outline-width
@@ -1197,8 +1208,8 @@ https://drafts.csswg.org/css2/#propdef-outline-width
 -
 outline-width
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-outline-width
@@ -1207,8 +1218,8 @@ https://drafts.csswg.org/css2/#propdef-outline-width
 -
 outline-width
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/ui.html#propdef-outline-width
@@ -1766,6 +1777,16 @@ https://www.w3.org/TR/css-easing-1/#output-progress-value
 
 1
 -
+output tag
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-output-tag
+
+
+-
 output videoframes
 dfn
 webcodecs
@@ -1918,6 +1939,28 @@ https://www.w3.org/TR/webaudio/#dom-audiocontext-outputlatency
 1
 AudioContext
 -
+outputPadding
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlconv2doptions-outputpadding
+1
+1
+MLConv2dOptions
+-
+outputPadding
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlconv2doptions-outputpadding
+1
+1
+MLConv2dOptions
+-
 outputReports
 dict-member
 webhid
@@ -1928,6 +1971,28 @@ https://wicg.github.io/webhid/#dom-hidcollectioninfo-outputreports
 1
 1
 HIDCollectionInfo
+-
+outputSizes
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlconv2doptions-outputsizes
+1
+1
+MLConv2dOptions
+-
+outputSizes
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlconv2doptions-outputsizes
+1
+1
+MLConv2dOptions
 -
 outputs
 dfn
@@ -1982,6 +2047,50 @@ https://webaudio.github.io/web-midi-api/#dom-midiaccess-outputs
 1
 MIDIAccess
 -
+outputs
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-build-outputs-outputs
+1
+1
+MLGraphBuilder/build(outputs)
+-
+outputs
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraph-compute-inputs-outputs-outputs
+1
+1
+MLGraph/compute(inputs, outputs)
+-
+outputs
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-build-outputs-outputs
+1
+1
+MLGraphBuilder/build(outputs)
+-
+outputs
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraph-compute-inputs-outputs-outputs
+1
+1
+MLGraph/compute(inputs, outputs)
+-
 outset
 value
 css-backgrounds-3
@@ -2018,8 +2127,8 @@ border
 -
 outset
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-outset
@@ -2034,8 +2143,8 @@ border-style
 -
 outset
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-outset
@@ -2094,8 +2203,8 @@ list-style-position
 -
 outside
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-list-style-position-outside
@@ -2105,8 +2214,8 @@ list-style-position
 -
 outside
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-list-style-position-outside

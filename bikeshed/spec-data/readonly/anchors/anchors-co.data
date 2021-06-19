@@ -167,30 +167,8 @@ enum-value
 webtransport
 webtransport
 1
-current
-https://w3c.github.io/webtransport/#dom-webtransportstate-connected
-1
-1
-WebTransportState
--
-"connected"
-enum-value
-webtransport
-webtransport
-1
 snapshot
 https://www.w3.org/TR/webtransport/#dom-webtransportstate-connected
-1
-1
-WebTransportState
--
-"connecting"
-enum-value
-webtransport
-webtransport
-1
-current
-https://w3c.github.io/webtransport/#dom-webtransportstate-connecting
 1
 1
 WebTransportState
@@ -249,6 +227,28 @@ https://www.w3.org/TR/webgpu/#dom-gpublendfactor-constant
 1
 1
 GPUBlendFactor
+-
+"constant"
+enum-value
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlpaddingmode-constant
+1
+1
+MLPaddingMode
+-
+"constant"
+enum-value
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlpaddingmode-constant
+1
+1
+MLPaddingMode
 -
 "content"
 enum-value
@@ -462,8 +462,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#'content'
 -
 'continuous' media group
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#continuous-media-group
@@ -472,8 +472,8 @@ https://drafts.csswg.org/css2/#continuous-media-group
 -
 'continuous' media group
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#continuous-media-group
@@ -527,16 +527,6 @@ css-syntax
 3
 snapshot
 https://www.w3.org/TR/css-syntax-3/#typedef-colon-token
-1
-1
--
-<color-adjuster>
-type
-css-color-5
-css-color
-5
-current
-https://drafts.csswg.org/css-color-5/#typedef-color-adjuster
 1
 1
 -
@@ -810,8 +800,8 @@ accent-color
 -
 <color>
 type
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-color
@@ -820,8 +810,8 @@ https://drafts.csswg.org/css2/#value-def-color
 -
 <color>
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-border-color-color
@@ -835,8 +825,8 @@ border-left-color
 -
 <color>
 type
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-color
@@ -845,8 +835,8 @@ https://drafts.csswg.org/css2/#value-def-color
 -
 <color>
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-border-color-color
@@ -1427,8 +1417,8 @@ https://www.w3.org/TR/css-lists-3/#typedef-counter
 -
 <counter>
 type
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-counter
@@ -1437,8 +1427,8 @@ https://drafts.csswg.org/css2/#value-def-counter
 -
 <counter>
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-content-counter
@@ -1448,8 +1438,8 @@ content
 -
 <counter>
 type
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-counter
@@ -1458,8 +1448,8 @@ https://drafts.csswg.org/css2/#value-def-counter
 -
 <counter>
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-content-counter
@@ -2317,8 +2307,8 @@ https://www.w3.org/TR/mediacapture-streams/#dom-constrainablepattern
 -
 ConstraintError
 exception
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#constrainterror
@@ -2530,8 +2520,8 @@ https://www.w3.org/TR/cssom-view-1/#dictdef-convertcoordinateoptions
 -
 ConvertToInt
 abstract-op
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#abstract-opdef-converttoint
@@ -2876,7 +2866,7 @@ https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-collectfromcredentials
 PublicKeyCredential
 -
 [[Configuration]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2886,7 +2876,7 @@ https://w3c.github.io/webrtc-pc/#dfn-configuration
 1
 -
 [[Configuration]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2896,7 +2886,7 @@ https://www.w3.org/TR/webrtc/#dfn-configuration
 1
 -
 [[Constraints]]
-idl
+attribute
 mediacapture-streams
 mediacapture-streams
 1
@@ -2906,7 +2896,7 @@ https://w3c.github.io/mediacapture-main/#dfn-constraints
 1
 -
 [[Constraints]]
-idl
+attribute
 mediacapture-streams
 mediacapture-streams
 1
@@ -3069,6 +3059,17 @@ https://www.w3.org/TR/webcodecs/#dom-videoframe-coded-width-slot
 1
 VideoFrame
 -
+[[collections]]
+attribute
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-collections
+
+1
+HIDDevice
+-
 [[command_encoder]]
 attribute
 webgpu
@@ -3136,17 +3137,18 @@ https://www.w3.org/TR/webgpu/#dom-gpucommandencoder-command_list-slot
 GPUCommandEncoder
 -
 [[complete]]
-idl
+attribute
 payment-request
 payment-request
 1
 current
 https://w3c.github.io/payment-request/#dfn-complete
+
 1
-1
+PaymentResponse
 -
 [[complete]]
-idl
+attribute
 payment-request
 payment-request
 1
@@ -3154,6 +3156,7 @@ snapshot
 https://www.w3.org/TR/payment-request/#dfn-complete
 1
 1
+PaymentResponse
 -
 [[complete]]
 attribute
@@ -3265,6 +3268,17 @@ https://www.w3.org/TR/webgpu/#dom-gpupresentationcontext-configuration-slot
 1
 GPUPresentationContext
 -
+[[connected]]
+attribute
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-connected
+
+1
+Gamepad
+-
 [[connection]]
 dfn
 webtransport
@@ -3326,6 +3340,28 @@ https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothdevice-context-slot
 1
 1
 BluetoothDevice
+-
+[[context]]
+attribute
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraph-context-slot
+1
+1
+MLGraph
+-
+[[context]]
+attribute
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraph-context-slot
+1
+1
+MLGraph
 -
 [[control thread state]]
 attribute
@@ -3393,16 +3429,6 @@ https://streams.spec.whatwg.org/#transformstream-controller
 1
 TransformStream
 -
-[[country]]
-idl
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-country-0
-1
-1
--
 coalesced and predicted events
 dfn
 pointerevents3
@@ -3420,16 +3446,6 @@ pointerevents
 3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dfn-coalesced-and-predicted-events
-
-1
--
-coalesced event list
-dfn
-pointerevents3
-pointerevents
-3
-current
-https://w3c.github.io/pointerevents/#dfn-coalesced-event-list
 
 1
 -
@@ -3463,13 +3479,13 @@ https://www.w3.org/TR/pointerevents3/#dfn-coalesced-events
 
 1
 -
-coalesced events targets dirty
+coalesced events list
 dfn
 pointerevents3
 pointerevents
 3
 current
-https://w3c.github.io/pointerevents/#dfn-coalesced-events-targets-dirty
+https://w3c.github.io/pointerevents/#dfn-coalesced-events-list
 
 1
 -
@@ -3688,8 +3704,8 @@ OTPCredential
 -
 code
 attribute
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dom-geolocationpositionerror-code
@@ -3699,8 +3715,8 @@ GeolocationPositionError
 -
 code
 attribute
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dom-geolocationpositionerror-code
@@ -3796,8 +3812,8 @@ GPUShaderModuleDescriptor
 -
 code
 attribute
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dom-domexception-code
@@ -3970,21 +3986,11 @@ https://infra.spec.whatwg.org/#code-unit-prefix
 -
 code units
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-code-unit
-
-1
--
-code units
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-code-unit
 
 1
 -
@@ -4697,8 +4703,8 @@ text-space-collapse
 -
 collapse
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#collapse
@@ -4707,8 +4713,8 @@ https://drafts.csswg.org/css2/#collapse
 -
 collapse
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-visibility-collapse
@@ -4718,8 +4724,8 @@ visibility
 -
 collapse
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-border-collapse-collapse
@@ -4729,8 +4735,8 @@ border-collapse
 -
 collapse
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#collapse
@@ -4739,8 +4745,8 @@ https://drafts.csswg.org/css2/#collapse
 -
 collapse
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-visibility-collapse
@@ -4750,8 +4756,8 @@ visibility
 -
 collapse
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-border-collapse-collapse
@@ -4761,8 +4767,8 @@ border-collapse
 -
 collapse through
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#collapse-through
@@ -4771,8 +4777,8 @@ https://drafts.csswg.org/css2/#collapse-through
 -
 collapse through
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#collapse-through
@@ -4975,8 +4981,8 @@ https://www.w3.org/TR/css-grid-2/#collapsed-gutter
 -
 collapsed margin
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#collapsed-margin
@@ -4985,8 +4991,8 @@ https://drafts.csswg.org/css2/#collapsed-margin
 -
 collapsed margin
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#collapsed-margin
@@ -5035,8 +5041,8 @@ https://www.w3.org/TR/css-text-3/#collapsible-white-space
 -
 collapsing margin
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#collapsed-margin
@@ -5045,8 +5051,8 @@ https://drafts.csswg.org/css2/#collapsed-margin
 -
 collapsing margin
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#collapsed-margin
@@ -5165,8 +5171,8 @@ https://fetch.spec.whatwg.org/#collect-an-http-quoted-string
 -
 collect attribute values
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#collect-attribute-values
@@ -5175,8 +5181,8 @@ https://heycam.github.io/webidl/#collect-attribute-values
 -
 collect attribute values of an inheritance stack
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#collect-attribute-values-of-an-inheritance-stack
@@ -5335,6 +5341,26 @@ https://www.w3.org/TR/cssom-1/#medialist-collection-of-media-queries
 1
 MediaList
 -
+collection tag
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-collection-tag
+
+
+-
+collection type
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-collection-type
+
+
+-
 collections
 attribute
 webhid
@@ -5417,28 +5443,6 @@ https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-colno
 1
 ErrorEvent
 -
-colno
-attribute
-CSP3
-CSP
-3
-snapshot
-https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationevent-colno
-1
-1
-SecurityPolicyViolationEvent
--
-colno
-dict-member
-CSP3
-CSP
-3
-snapshot
-https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationeventinit-colno
-1
-1
-SecurityPolicyViolationEventInit
--
 color
 value
 compositing-2
@@ -5462,24 +5466,26 @@ https://html.spec.whatwg.org/multipage/semantics.html#attr-link-color
 link
 -
 color
-dfn
+attr-value
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#attr-input-type-color-keyword
-
 1
+1
+input/type
 -
 color
-dfn
+element-state
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#color-state-(type=color)
-
 1
+1
+input
 -
 color
 element-attr
@@ -5610,8 +5616,8 @@ attr()
 -
 color
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-color
@@ -5620,8 +5626,8 @@ https://drafts.csswg.org/css2/#propdef-color
 -
 color
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-color
@@ -5630,8 +5636,8 @@ https://drafts.csswg.org/css2/#propdef-color
 -
 color
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/colors.html#propdef-color
@@ -6073,16 +6079,6 @@ function
 css-color-5
 css-color
 5
-current
-https://drafts.csswg.org/css-color-5/#funcdef-color-adjust
-1
-1
--
-color-adjust()
-function
-css-color-5
-css-color
-5
 snapshot
 https://www.w3.org/TR/css-color-5/#funcdef-color-adjust
 1
@@ -6284,8 +6280,8 @@ https://www.w3.org/TR/mediaqueries-5/#descdef-media-color-index
 -
 color-interpolation
 property
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/painting.html#ColorInterpolationProperty
@@ -6294,8 +6290,8 @@ https://svgwg.org/svg2-draft/painting.html#ColorInterpolationProperty
 -
 color-interpolation
 property
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/painting.html#ColorInterpolationProperty
@@ -6364,8 +6360,8 @@ https://www.w3.org/TR/mediacapture-depth/#dfn-color-only-stream
 -
 color-rendering
 property
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/painting.html#ColorRenderingProperty
@@ -6642,11 +6638,44 @@ dict-member
 webgpu
 webgpu
 1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpupresentationconfiguration-colorspace
+1
+1
+GPUPresentationConfiguration
+-
+colorSpace
+dict-member
+webgpu
+webgpu
+1
 snapshot
 https://www.w3.org/TR/webgpu/#dom-gpuexternaltexturedescriptor-colorspace
 1
 1
 GPUExternalTextureDescriptor
+-
+colorSpace
+dict-member
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpuimagecopytexturetagged-colorspace
+1
+1
+GPUImageCopyTextureTagged
+-
+colorSpace
+dict-member
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpupresentationconfiguration-colorspace
+1
+1
+GPUPresentationConfiguration
 -
 colorSpaceConversion
 dict-member
@@ -7240,8 +7269,8 @@ https://www.w3.org/TR/css-multicol-1/#column-height
 -
 column number
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#violation-column-number
@@ -7251,8 +7280,8 @@ violation
 -
 column number
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#violation-column-number
@@ -7536,8 +7565,8 @@ InterventionReportBody
 -
 columnNumber
 attribute
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-columnnumber
@@ -7547,8 +7576,8 @@ CSPViolationReportBody
 -
 columnNumber
 attribute
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationevent-columnnumber
@@ -7558,8 +7587,8 @@ SecurityPolicyViolationEvent
 -
 columnNumber
 dict-member
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationeventinit-columnnumber
@@ -7569,8 +7598,8 @@ SecurityPolicyViolationEventInit
 -
 columnNumber
 attribute
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dom-cspviolationreportbody-columnnumber
@@ -7580,14 +7609,25 @@ CSPViolationReportBody
 -
 columnNumber
 attribute
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationevent-columnnumber
 1
 1
 SecurityPolicyViolationEvent
+-
+columnNumber
+dict-member
+csp3
+csp
+3
+snapshot
+https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationeventinit-columnnumber
+1
+1
+SecurityPolicyViolationEventInit
 -
 columnNumber
 attribute
@@ -7773,8 +7813,8 @@ selector
 -
 combinators
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#combinator
@@ -7783,8 +7823,8 @@ https://drafts.csswg.org/css2/#combinator
 -
 combinators
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#combinator
@@ -8021,8 +8061,8 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vevent-comment
 -
 comment
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-comment
@@ -8151,8 +8191,8 @@ https://html.spec.whatwg.org/multipage/syntax.html#syntax-comments
 -
 comments
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#comments%E2%91%A0
@@ -8161,8 +8201,8 @@ https://drafts.csswg.org/css2/#comments%E2%91%A0
 -
 comments
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#comments%E2%91%A0
@@ -8171,8 +8211,8 @@ https://drafts.csswg.org/css2/#comments%E2%91%A0
 -
 commit
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#transaction-commit
@@ -8182,8 +8222,8 @@ transaction
 -
 commit
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#transaction-commit
@@ -8193,8 +8233,8 @@ transaction
 -
 commit a transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#commit-a-transaction
@@ -8203,8 +8243,8 @@ https://w3c.github.io/IndexedDB/#commit-a-transaction
 -
 commit a transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#commit-a-transaction
@@ -8253,8 +8293,8 @@ https://html.spec.whatwg.org/multipage/canvas.html#offscreencontext2d-commit
 -
 commit()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbtransaction-commit
@@ -8264,8 +8304,8 @@ IDBTransaction
 -
 commit()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbtransaction-commit
@@ -8297,8 +8337,8 @@ Animation
 -
 committed
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#transaction-commit
@@ -8308,8 +8348,8 @@ transaction
 -
 committed
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#transaction-commit
@@ -8319,8 +8359,8 @@ transaction
 -
 committing
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#transaction-committing
@@ -8330,8 +8370,8 @@ transaction
 -
 committing
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#transaction-committing
@@ -8580,8 +8620,8 @@ https://www.w3.org/TR/cssom-1/#compare-media-queries
 -
 compare two keys
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#compare-two-keys
@@ -8590,8 +8630,8 @@ https://w3c.github.io/IndexedDB/#compare-two-keys
 -
 compare two keys
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#compare-two-keys
@@ -8993,8 +9033,8 @@ transition
 -
 complete
 event
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#eventdef-transaction-complete
@@ -9004,8 +9044,8 @@ transaction
 -
 complete
 event
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#eventdef-transaction-complete
@@ -9439,8 +9479,8 @@ https://url.spec.whatwg.org/#component-percent-encode-set
 -
 component type
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#component-type
@@ -9449,8 +9489,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#component-type
 -
 component type
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#component-type
@@ -9491,8 +9531,8 @@ CSS
 -
 component-wise
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#component-wise
@@ -9501,8 +9541,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#component-wise
 -
 component-wise
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#component-wise
@@ -9533,8 +9573,8 @@ https://www.w3.org/TR/css-color-4/#descdef-color-profile-components
 -
 components
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#components
@@ -9543,8 +9583,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#components
 -
 components
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#components
@@ -9758,8 +9798,8 @@ KeyframeEffectOptions
 -
 composite
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#composite
@@ -9768,8 +9808,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#composite
 -
 composite
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#composite
@@ -9878,8 +9918,8 @@ https://www.w3.org/TR/web-animations-1/#composite-operation-replace
 -
 composite reference component expression
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#composite-reference-component-expression
@@ -9888,8 +9928,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#composite-reference-component-expression
 -
 composite reference component expression
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#composite-reference-component-expression
@@ -10238,8 +10278,8 @@ GPUComputePipelineDescriptor
 -
 compute
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#compute
@@ -10248,8 +10288,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#compute
 -
 compute
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#compute
@@ -10440,8 +10480,8 @@ https://www.w3.org/TR/webgpu/#abstract-opdef-compute-render-extent
 -
 compute shader grid
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#compute-shader-grid
@@ -10450,8 +10490,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#compute-shader-grid
 -
 compute shader grid
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#compute-shader-grid
@@ -10460,8 +10500,8 @@ https://www.w3.org/TR/WGSL/#compute-shader-grid
 -
 compute shader stage
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#compute-shader-stage
@@ -10470,8 +10510,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#compute-shader-stage
 -
 compute shader stage
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#compute-shader-stage
@@ -10480,8 +10520,8 @@ https://www.w3.org/TR/WGSL/#compute-shader-stage
 -
 compute the effective overload set
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#compute-the-effective-overload-set
@@ -10527,6 +10567,28 @@ snapshot
 https://www.w3.org/TR/webdriver2/#dfn-computing-the-tick-duration
 
 1
+-
+compute(inputs, outputs)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraph-compute
+1
+1
+MLGraph
+-
+compute(inputs, outputs)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraph-compute
+1
+1
+MLGraph
 -
 computed <image>
 dfn
@@ -10691,6 +10753,16 @@ https://www.w3.org/TR/webcodecs/#computed-plane-layout
 
 1
 -
+computed repeat notation
+dfn
+css-grid-2
+css-grid
+2
+current
+https://drafts.csswg.org/css-grid-2/#computed-repeat-notation
+
+1
+-
 computed stylepropertymap
 dfn
 css-typed-om-1
@@ -10728,6 +10800,16 @@ css-grid
 2
 snapshot
 https://www.w3.org/TR/css-grid-2/#computed-track-list
+
+1
+-
+computed track size
+dfn
+css-grid-2
+css-grid
+2
+current
+https://drafts.csswg.org/css-grid-2/#computed-track-size
 
 1
 -
@@ -10823,8 +10905,8 @@ https://www.w3.org/TR/webdriver2/#dfn-computed-value
 -
 computed values
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#computed-value
@@ -10833,8 +10915,8 @@ https://drafts.csswg.org/css2/#computed-value
 -
 computed values
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#computed-value
@@ -11107,6 +11189,28 @@ https://www.w3.org/TR/webdriver2/#dfn-computing-the-tick-duration
 
 1
 -
+concat(inputs, axis)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-concat
+1
+1
+MLGraphBuilder
+-
+concat(inputs, axis)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-concat
+1
+1
+MLGraphBuilder
+-
 concatenate
 dfn
 infra
@@ -11219,8 +11323,8 @@ RTCAudioReceiverStats
 -
 concept namespace
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-concept-namespace
@@ -11229,8 +11333,8 @@ https://w3c.github.io/DOM-Parsing/#dfn-concept-namespace
 -
 concept-algorithm-exception
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-algorithm-exception
@@ -11239,8 +11343,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-algorithm-exception
 -
 concept-context-namespace
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-context-namespace
@@ -11249,8 +11353,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-context-namespace
 -
 concept-fragment-serializing-algorithm
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-fragment-serializing-algorithm
@@ -11259,8 +11363,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-fragment-serializing-algorithm
 -
 concept-generate-prefix
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-generate-prefix
@@ -11269,8 +11373,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-generate-prefix
 -
 concept-generated-prefix
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-generated-prefix
@@ -11279,8 +11383,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-generated-prefix
 -
 concept-namespace-localname-set
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-namespace-localname-set
@@ -11289,8 +11393,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-namespace-localname-set
 -
 concept-namespace-prefix-map
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-namespace-prefix-map
@@ -11299,8 +11403,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-namespace-prefix-map
 -
 concept-parse-fragment
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-parse-fragment
@@ -11309,8 +11413,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-parse-fragment
 -
 concept-record-namespace-info
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-record-namespace-info
@@ -11319,8 +11423,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-record-namespace-info
 -
 concept-serialize-attr-value
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-serialize-attr-value
@@ -11329,8 +11433,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-serialize-attr-value
 -
 concept-serialize-doctype
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-serialize-doctype
@@ -11339,8 +11443,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-serialize-doctype
 -
 concept-serialize-html
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-serialize-html
@@ -11349,8 +11453,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-serialize-html
 -
 concept-serialize-xml
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-serialize-xml
@@ -11359,8 +11463,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-serialize-xml
 -
 concept-serialize-xml-attributes
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-serialize-xml-attributes
@@ -11369,8 +11473,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-serialize-xml-attributes
 -
 concept-well-formed
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-well-formed
@@ -11379,8 +11483,8 @@ https://www.w3.org/TR/DOM-Parsing/#dfn-concept-well-formed
 -
 concept-xml-serialization-algorithm
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-concept-xml-serialization-algorithm
@@ -11529,8 +11633,8 @@ https://www.w3.org/TR/css-conditional-3/#conditional-group-rule
 -
 conditional import
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#conditional-import
@@ -11539,8 +11643,8 @@ https://drafts.csswg.org/css2/#conditional-import
 -
 conditional import
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#conditional-import
@@ -11549,8 +11653,8 @@ https://drafts.csswg.org/css2/#conditional-import
 -
 conditional processing attribute
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#TermConditionalProcessingAttribute
@@ -11559,8 +11663,8 @@ https://svgwg.org/svg2-draft/struct.html#TermConditionalProcessingAttribute
 -
 conditional processing attribute
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#TermConditionalProcessingAttribute
@@ -11569,8 +11673,8 @@ https://www.w3.org/TR/SVG2/struct.html#TermConditionalProcessingAttribute
 -
 conditionally exposed
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-conditionally-exposed
@@ -11771,18 +11875,15 @@ https://wicg.github.io/speech-api/#dom-speechrecognitionalternative-confidence
 SpeechRecognitionAlternative
 -
 config
-argument
+attribute
 sanitizer-api
 sanitizer-api
 1
 current
-https://wicg.github.io/sanitizer-api/#dom-sanitizer-sanitizer-config-config
+https://wicg.github.io/sanitizer-api/#dom-sanitizer-config
 1
 1
-Sanitizer/Sanitizer(config)
-Sanitizer/constructor(config)
-Sanitizer/Sanitizer()
-Sanitizer/constructor()
+Sanitizer
 -
 config
 dfn
@@ -12067,17 +12168,6 @@ https://www.w3.org/TR/webcodecs/#dom-videoencodersupport-config
 1
 1
 VideoEncoderSupport
--
-config()
-method
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#dom-sanitizer-config
-1
-1
-Sanitizer
 -
 configuration
 attribute
@@ -12483,8 +12573,8 @@ Window
 -
 conformance
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#conformance-term
@@ -12493,12 +12583,22 @@ https://drafts.csswg.org/css2/#conformance-term
 -
 conformance
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#conformance-term
 
+1
+-
+conformant server
+dfn
+pfe
+pfe
+1
+current
+https://w3c.github.io/PFE/Overview.html#conformant-server
+1
 1
 -
 conformant server
@@ -12529,6 +12629,16 @@ html
 current
 https://html.spec.whatwg.org/multipage/infrastructure.html#conformant-style-sheet
 
+1
+-
+conformant user agent
+dfn
+pfe
+pfe
+1
+current
+https://w3c.github.io/PFE/Overview.html#conformant-user-agent
+1
 1
 -
 conformant user agent
@@ -12703,22 +12813,12 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#conforming-documents
 -
 conforming ecmascript implementation
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-conforming-ecmascript-implementation
 1
-1
--
-conforming ecmascript implementation
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-conforming-ecmascript-implementation
-
 1
 -
 conforming implementation
@@ -12733,22 +12833,12 @@ https://www.w3.org/TR/requestidlecallback/#dfn-conforming-implementation
 -
 conforming implementation
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-conforming-implementation
 1
-1
--
-conforming implementation
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-conforming-implementation
-
 1
 -
 conforming scripted web animations user agent
@@ -12773,22 +12863,12 @@ https://www.w3.org/TR/web-animations-1/#conforming-scripted-web-animations-user-
 -
 conforming set of idl fragments
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-conforming-set-of-idl-fragments
 1
-1
--
-conforming set of idl fragments
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-conforming-set-of-idl-fragments
-
 1
 -
 conforming user agent
@@ -12813,8 +12893,8 @@ https://www.w3.org/TR/webauthn-3/#conforming-user-agent
 -
 conforming user agent
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-conforming-implementation
@@ -12823,8 +12903,8 @@ https://w3c.github.io/webcrypto/#dfn-conforming-implementation
 -
 conforming user agent
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-conforming-implementation
@@ -12931,6 +13011,16 @@ serial
 1
 current
 https://wicg.github.io/serial/#dfn-connect
+
+1
+-
+connect
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-connect
 
 1
 -
@@ -13127,8 +13217,8 @@ AudioNode
 -
 connect-src
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#connect-src
@@ -13137,8 +13227,8 @@ https://w3c.github.io/webappsec-csp/#connect-src
 -
 connect-src
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#connect-src
@@ -13310,8 +13400,8 @@ MockSensorConfiguration
 -
 connected
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#connection
@@ -13320,8 +13410,8 @@ https://w3c.github.io/IndexedDB/#connection
 -
 connected
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#connection
@@ -13688,8 +13778,8 @@ NavigatorNetworkInformation
 -
 connection
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#connection
@@ -13698,8 +13788,8 @@ https://w3c.github.io/IndexedDB/#connection
 -
 connection
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#transaction-connection
@@ -13709,8 +13799,8 @@ transaction
 -
 connection
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#connection
@@ -13719,8 +13809,8 @@ https://www.w3.org/TR/IndexedDB-3/#connection
 -
 connection
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#transaction-connection
@@ -13866,8 +13956,8 @@ https://fetch.spec.whatwg.org/#concept-connection-pool
 -
 connection queue
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#request-connection-queue
@@ -13877,8 +13967,8 @@ request
 -
 connection queue
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#request-connection-queue
@@ -14086,8 +14176,8 @@ https://www.w3.org/TR/css-tables-3/#consecutive-boxes
 -
 consecutive
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#consecutive
@@ -14096,8 +14186,8 @@ https://drafts.csswg.org/css2/#consecutive
 -
 consecutive
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#consecutive
@@ -14170,16 +14260,6 @@ https://www.w3.org/TR/webrtc-stats/#dom-rtcicecandidatepairstats-consentrequests
 1
 RTCIceCandidatePairStats
 -
-consequential interfaces
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-consequential-interfaces
-
-1
--
 considered for event timing
 dfn
 event-timing
@@ -14232,8 +14312,8 @@ https://w3c.github.io/webdriver-bidi/#console-steps
 -
 consolidate
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransformList__consolidate
@@ -14243,8 +14323,8 @@ SVGTransformList
 -
 consolidate
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#__svg__SVGTransformList__consolidate
@@ -14298,23 +14378,79 @@ internal usage
 -
 constant
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-constant
 1
 1
 -
-constant
-dfn
-WebIDL-1
-WebIDL
+constant(desc, bufferView)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-constant
+1
+1
+MLGraphBuilder
+-
+constant(desc, bufferView)
+method
+webnn
+webnn
 1
 snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-constant
-
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-constant
 1
+1
+MLGraphBuilder
+-
+constant(value)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-constant-value-type
+1
+1
+MLGraphBuilder
+-
+constant(value)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-constant-value-type
+1
+1
+MLGraphBuilder
+-
+constant(value, type)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-constant-value-type
+1
+1
+MLGraphBuilder
+-
+constant(value, type)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-constant-value-type
+1
+1
+MLGraphBuilder
 -
 constants
 dict-member
@@ -14530,16 +14666,6 @@ https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#the-cons
 
 1
 -
-constrainterror
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#constrainterror
-
-1
--
 constraints
 argument
 css-layout-api-1
@@ -14680,8 +14806,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#construct
 -
 construct
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#construct-a-callback-function
@@ -14920,6 +15046,26 @@ https://drafts.csswg.org/cssom/#concept-css-style-sheet-constructed-flag
 1
 CSSStyleSheet
 -
+constructible
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#constructible
+
+1
+-
+constructible
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#constructible
+
+1
+-
 constructing
 dfn
 html
@@ -15012,17 +15158,6 @@ https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html#construc
 
 1
 -
-constructor
-constructor
-performance-timeline-2
-performance-timeline
-2
-snapshot
-https://www.w3.org/TR/performance-timeline-2/#dom-performanceobserver-constructor
-1
-1
-PerformanceObserver
--
 constructor document
 dfn
 construct-stylesheets
@@ -15057,8 +15192,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#constructor-operation
 -
 constructor operations
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#idl-constructors
@@ -15078,8 +15213,8 @@ SharedWorkerGlobalScope
 -
 constructor steps
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#constructor-steps
@@ -15572,6 +15707,17 @@ InputDeviceCapabilities
 -
 constructor()
 constructor
+js-self-profiling
+js-self-profiling
+1
+current
+https://wicg.github.io/js-self-profiling/#dom-profiler-constructor
+1
+1
+Profiler
+-
+constructor()
+constructor
 portals
 portals
 1
@@ -15858,8 +16004,8 @@ CSSStyleSheet
 -
 constructor()
 constructor
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dom-xmlserializer-constructor
@@ -15979,8 +16125,8 @@ MediaEncryptedEvent
 -
 constructor()
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dom-blob-blob
@@ -15990,8 +16136,8 @@ Blob
 -
 constructor()
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#filereaderConstrctr
@@ -16001,8 +16147,8 @@ FileReader
 -
 constructor()
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dom-filereadersync-filereadersync
@@ -16012,8 +16158,8 @@ FileReaderSync
 -
 constructor()
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dom-blob-blob
@@ -16023,8 +16169,8 @@ Blob
 -
 constructor()
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#filereaderConstrctr
@@ -16034,8 +16180,8 @@ FileReader
 -
 constructor()
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dom-filereadersync-filereadersync
@@ -16804,8 +16950,8 @@ GPUOutOfMemoryError
 -
 constructor()
 constructor
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dom-domexception-domexception
@@ -17165,6 +17311,17 @@ https://drafts.csswg.org/css-highlight-api-1/#dom-highlight-highlight
 1
 Highlight
 -
+constructor(aConfig)
+constructor
+sanitizer-api
+sanitizer-api
+1
+current
+https://wicg.github.io/sanitizer-api/#dom-sanitizer-sanitizer
+1
+1
+Sanitizer
+-
 constructor(alternate, endpointNumber, direction)
 constructor
 webusb
@@ -17299,8 +17456,8 @@ BarcodeDetector
 -
 constructor(blobParts)
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dom-blob-blob
@@ -17310,8 +17467,8 @@ Blob
 -
 constructor(blobParts)
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dom-blob-blob
@@ -17321,8 +17478,8 @@ Blob
 -
 constructor(blobParts, options)
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dom-blob-blob
@@ -17332,8 +17489,8 @@ Blob
 -
 constructor(blobParts, options)
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dom-blob-blob
@@ -17436,6 +17593,17 @@ performance-timeline
 2
 current
 https://w3c.github.io/performance-timeline/#dom-performanceobserver-constructor
+1
+1
+PerformanceObserver
+-
+constructor(callback)
+constructor
+performance-timeline-2
+performance-timeline
+2
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dom-performanceobserver-constructor
 1
 1
 PerformanceObserver
@@ -17582,17 +17750,6 @@ https://drafts.css-houdini.org/css-typed-om-1/#dom-csscolor-csscolor
 1
 1
 CSSColor
--
-constructor(config)
-constructor
-sanitizer-api
-sanitizer-api
-1
-current
-https://wicg.github.io/sanitizer-api/#dom-sanitizer-sanitizer
-1
-1
-Sanitizer
 -
 constructor(configuration)
 constructor
@@ -18022,6 +18179,28 @@ https://www.w3.org/TR/webaudio/#dom-waveshapernode-waveshapernode
 1
 1
 WaveShaperNode
+-
+constructor(context)
+constructor
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-mlgraphbuilder
+1
+1
+MLGraphBuilder
+-
+constructor(context)
+constructor
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-mlgraphbuilder
+1
+1
+MLGraphBuilder
 -
 constructor(context, name)
 constructor
@@ -18784,8 +18963,8 @@ FontFace
 -
 constructor(fileBits, fileName)
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dom-file-file
@@ -18795,8 +18974,8 @@ File
 -
 constructor(fileBits, fileName)
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dom-file-file
@@ -18806,8 +18985,8 @@ File
 -
 constructor(fileBits, fileName, options)
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dom-file-file
@@ -18817,8 +18996,8 @@ File
 -
 constructor(fileBits, fileName, options)
 constructor
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dom-file-file
@@ -19653,8 +19832,8 @@ GPUValidationError
 -
 constructor(message)
 constructor
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dom-domexception-domexception
@@ -19664,8 +19843,8 @@ DOMException
 -
 constructor(message, name)
 constructor
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dom-domexception-domexception
@@ -19696,17 +19875,6 @@ https://w3c.github.io/payment-request/#dom-paymentrequest-constructor
 PaymentRequest
 -
 constructor(methodData, details)
-constructor
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentrequest-constructor
-1
-1
-PaymentRequest
--
-constructor(methodData, details, options)
 constructor
 payment-request
 payment-request
@@ -19881,6 +20049,17 @@ https://wicg.github.io/construct-stylesheets/#dom-cssstylesheet-cssstylesheet
 1
 1
 CSSStyleSheet
+-
+constructor(options)
+constructor
+js-self-profiling
+js-self-profiling
+1
+current
+https://wicg.github.io/js-self-profiling/#dom-profiler-constructor
+1
+1
+Profiler
 -
 constructor(options)
 constructor
@@ -20995,8 +21174,8 @@ ClipboardEvent
 -
 constructor(type)
 constructor
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationevent-securitypolicyviolationevent
@@ -21006,8 +21185,8 @@ SecurityPolicyViolationEvent
 -
 constructor(type)
 constructor
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationevent-securitypolicyviolationevent
@@ -21094,8 +21273,8 @@ MediaEncryptedEvent
 -
 constructor(type)
 constructor
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbversionchangeevent-idbversionchangeevent
@@ -21105,8 +21284,8 @@ IDBVersionChangeEvent
 -
 constructor(type)
 constructor
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbversionchangeevent-idbversionchangeevent
@@ -21589,6 +21768,17 @@ NotificationEvent
 -
 constructor(type, eventInitDict)
 constructor
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-sframetransformerrorevent-sframetransformerrorevent
+1
+1
+SFrameTransformErrorEvent
+-
+constructor(type, eventInitDict)
+constructor
 cookie-store
 cookie-store
 1
@@ -21721,8 +21911,8 @@ ClipboardEvent
 -
 constructor(type, eventInitDict)
 constructor
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationevent-securitypolicyviolationevent
@@ -21732,8 +21922,8 @@ SecurityPolicyViolationEvent
 -
 constructor(type, eventInitDict)
 constructor
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationevent-securitypolicyviolationevent
@@ -21831,8 +22021,8 @@ GamepadEvent
 -
 constructor(type, eventInitDict)
 constructor
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbversionchangeevent-idbversionchangeevent
@@ -21842,8 +22032,8 @@ IDBVersionChangeEvent
 -
 constructor(type, eventInitDict)
 constructor
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbversionchangeevent-idbversionchangeevent
@@ -24424,8 +24614,8 @@ browsing context
 -
 container element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#container-element
@@ -24434,8 +24624,8 @@ https://svgwg.org/svg2-draft/struct.html#container-element
 -
 container element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#container-element
@@ -24632,8 +24822,8 @@ https://www.w3.org/TR/css-page-3/#containing-block
 -
 containing block
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#containing-block%E2%91%A0
@@ -24642,8 +24832,8 @@ https://drafts.csswg.org/css2/#containing-block%E2%91%A0
 -
 containing block
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#containing-block%E2%91%A0
@@ -24714,8 +24904,8 @@ job
 -
 containing only
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#containing-only
@@ -24724,8 +24914,8 @@ https://w3c.github.io/IndexedDB/#containing-only
 -
 containing only
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#containing-only
@@ -24826,6 +25016,16 @@ https://w3c.github.io/webappsec-cspee/#directive-contains
 1
 directive
 -
+contains a gamepad user gesture
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-gamepad-user-gesture
+
+1
+-
 contains a header-delivered content security policy
 dfn
 html
@@ -24838,8 +25038,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#contains-a-header-del
 -
 contains a header-delivered content security policy
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#contains-a-header-delivered-content-security-policy
@@ -24848,8 +25048,8 @@ https://w3c.github.io/webappsec-csp/#contains-a-header-delivered-content-securit
 -
 contains a header-delivered content security policy
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#contains-a-header-delivered-content-security-policy
@@ -25094,8 +25294,8 @@ https://www.w3.org/TR/css-speech-1/#content-def
 -
 content
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#content
@@ -25104,8 +25304,8 @@ https://drafts.csswg.org/css2/#content
 -
 content
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-content
@@ -25114,8 +25314,8 @@ https://drafts.csswg.org/css2/#propdef-content
 -
 content
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#content
@@ -25124,8 +25324,8 @@ https://drafts.csswg.org/css2/#content
 -
 content
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-content
@@ -25134,8 +25334,8 @@ https://drafts.csswg.org/css2/#propdef-content
 -
 content
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/generate.html#propdef-content
@@ -25144,8 +25344,8 @@ https://www.w3.org/TR/CSS22/generate.html#propdef-content
 -
 content (of a box)
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#box-content-area
@@ -25154,8 +25354,8 @@ https://drafts.csswg.org/css2/#box-content-area
 -
 content (of a box)
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#box-content-area
@@ -25224,8 +25424,8 @@ https://www.w3.org/TR/css-box-4/#content-area
 -
 content area
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#box-content-area
@@ -25234,8 +25434,8 @@ https://drafts.csswg.org/css2/#box-content-area
 -
 content area
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#box-content-area
@@ -25264,8 +25464,8 @@ https://www.w3.org/TR/css3-exclusions/#content-area
 -
 content area
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#TermContentArea
@@ -25354,8 +25554,8 @@ https://www.w3.org/TR/css-box-4/#content-box
 -
 content box
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#content-box
@@ -25364,8 +25564,8 @@ https://drafts.csswg.org/css2/#content-box
 -
 content box
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#content-box
@@ -25424,8 +25624,8 @@ https://www.w3.org/TR/css-box-4/#content-edge
 -
 content edge
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#content-edge
@@ -25434,8 +25634,8 @@ https://drafts.csswg.org/css2/#content-edge
 -
 content edge
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#content-edge
@@ -25484,8 +25684,8 @@ https://www.w3.org/TR/webdriver2/#dfn-content-editable
 -
 content encoding
 dfn
-SRI
-SRI
+sri
+sri
 1
 snapshot
 https://www.w3.org/TR/SRI/#dfn-content-encoding
@@ -25494,8 +25694,8 @@ https://www.w3.org/TR/SRI/#dfn-content-encoding
 -
 content height
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#content-height
@@ -25504,8 +25704,8 @@ https://drafts.csswg.org/css2/#content-height
 -
 content height
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#content-height
@@ -25667,8 +25867,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#content-security-poli
 -
 content security policy
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#content-security-policy
@@ -25677,8 +25877,8 @@ https://w3c.github.io/webappsec-csp/#content-security-policy
 -
 content security policy
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#content-security-policy
@@ -25697,8 +25897,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#content-security-poli
 -
 content security policy object
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#content-security-policy-object
@@ -25707,8 +25907,8 @@ https://w3c.github.io/webappsec-csp/#content-security-policy-object
 -
 content security policy object
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#content-security-policy-object
@@ -25838,8 +26038,8 @@ https://wicg.github.io/media-feeds/#dfn-content-type
 -
 content type
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-content-type
@@ -25848,8 +26048,8 @@ https://w3c.github.io/DOM-Parsing/#dfn-content-type
 -
 content width
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#content-width
@@ -25858,8 +26058,8 @@ https://drafts.csswg.org/css2/#content-width
 -
 content width
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#content-width
@@ -26381,8 +26581,8 @@ meta/http-equiv
 -
 content-security-policy
 http-header
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#header-content-security-policy
@@ -26391,8 +26591,8 @@ https://w3c.github.io/webappsec-csp/#header-content-security-policy
 -
 content-security-policy
 http-header
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#header-content-security-policy
@@ -26401,8 +26601,8 @@ https://www.w3.org/TR/CSP3/#header-content-security-policy
 -
 content-security-policy-report-only
 http-header
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#header-content-security-policy-report-only
@@ -26411,8 +26611,8 @@ https://w3c.github.io/webappsec-csp/#header-content-security-policy-report-only
 -
 content-security-policy-report-only
 http-header
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#header-content-security-policy-report-only
@@ -26614,8 +26814,8 @@ MediaKeySystemMediaCapability
 -
 contentType
 argument
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-contentTypeBlob
@@ -26625,8 +26825,8 @@ Blob/slice(start, end, contentType)
 -
 contentType
 argument
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-contentTypeBlob
@@ -26888,8 +27088,8 @@ rtcidentityvalidationresult
 -
 contents of an arraybuffer
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#concept-contents-of-arraybuffer
@@ -26898,8 +27098,8 @@ https://w3c.github.io/webcrypto/#concept-contents-of-arraybuffer
 -
 contents of an arraybuffer
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#concept-contents-of-arraybuffer
@@ -26972,8 +27172,8 @@ alternate signed exchange link info
 -
 context
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-context
@@ -28058,6 +28258,30 @@ AudioWorkletNode/constructor()
 -
 context
 argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-mlgraphbuilder-context-context
+1
+1
+MLGraphBuilder/MLGraphBuilder(context)
+MLGraphBuilder/constructor(context)
+-
+context
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-mlgraphbuilder-context-context
+1
+1
+MLGraphBuilder/MLGraphBuilder(context)
+MLGraphBuilder/constructor(context)
+-
+context
+argument
 webxr
 webxr
 1
@@ -28198,8 +28422,8 @@ XRWebGLBinding
 -
 context element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/painting.html#TermContextElement
@@ -28208,8 +28432,8 @@ https://svgwg.org/svg2-draft/painting.html#TermContextElement
 -
 context element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/painting.html#TermContextElement
@@ -28228,8 +28452,8 @@ https://html.spec.whatwg.org/multipage/canvas.html#offscreencanvas-context-mode
 -
 context namespace
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-context-namespace
@@ -28238,8 +28462,8 @@ https://w3c.github.io/DOM-Parsing/#dfn-context-namespace
 -
 context object
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-context-object
@@ -28248,8 +28472,8 @@ https://w3c.github.io/DOM-Parsing/#dfn-context-object
 -
 context object
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-context-object
@@ -28263,6 +28487,26 @@ webdriver
 2
 snapshot
 https://www.w3.org/TR/webdriver2/#dfn-context-object
+
+1
+-
+context type
+dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#context-type
+
+1
+-
+context type
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#context-type
 
 1
 -
@@ -28547,8 +28791,8 @@ https://www.w3.org/TR/encoding/#continue
 -
 continue()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbcursor-continue
@@ -28558,8 +28802,8 @@ IDBCursor
 -
 continue()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-continue
@@ -28569,8 +28813,8 @@ IDBCursor
 -
 continue(key)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbcursor-continue
@@ -28580,8 +28824,8 @@ IDBCursor
 -
 continue(key)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-continue
@@ -28591,8 +28835,8 @@ IDBCursor
 -
 continuePrimaryKey(key, primaryKey)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbcursor-continueprimarykey
@@ -28602,8 +28846,8 @@ IDBCursor
 -
 continuePrimaryKey(key, primaryKey)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-continueprimarykey
@@ -28621,6 +28865,17 @@ https://wicg.github.io/speech-api/#dom-speechrecognition-continuous
 1
 1
 SpeechRecognition
+-
+continuous
+enum-value
+device-posture
+device-posture
+1
+current
+https://w3c.github.io/device-posture/#dom-deviceposturetype-continuous
+1
+1
+DevicePostureType
 -
 continuous
 enum-value
@@ -29592,6 +29847,50 @@ https://www.w3.org/TR/service-workers-1/#dfn-control
 
 1
 -
+conv2d(input, filter)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-conv2d
+1
+1
+MLGraphBuilder
+-
+conv2d(input, filter)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-conv2d
+1
+1
+MLGraphBuilder
+-
+conv2d(input, filter, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-conv2d
+1
+1
+MLGraphBuilder
+-
+conv2d(input, filter, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-conv2d
+1
+1
+MLGraphBuilder
+-
 conversion to db
 dfn
 webaudio
@@ -29698,16 +29997,6 @@ https://www.w3.org/TR/css-typed-om-1/#convert-a-cssunitvalue
 1
 1
 -
-convert a domstring to a sequence of unicode scalar values
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-obtain-unicode
-
-1
--
 convert a json-derived javascript value to an infra value
 dfn
 infra
@@ -29720,8 +30009,8 @@ https://infra.spec.whatwg.org/#convert-a-json-derived-javascript-value-to-an-inf
 -
 convert a key to a value
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#convert-a-key-to-a-value
@@ -29730,8 +30019,8 @@ https://w3c.github.io/IndexedDB/#convert-a-key-to-a-value
 -
 convert a key to a value
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#convert-a-key-to-a-value
@@ -29820,8 +30109,8 @@ https://www.w3.org/TR/user-timing-3/#dfn-convert-a-name-to-a-timestamp
 -
 convert a non-negative integer i to an octet string of length n
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-convert-integer-to-octet-string
@@ -29830,21 +30119,11 @@ https://w3c.github.io/webcrypto/#dfn-convert-integer-to-octet-string
 -
 convert a non-negative integer i to an octet string of length n
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-convert-integer-to-octet-string
-
-1
--
-convert a serialized value to an ecmascript value
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-convert-serialized-value-to-ecmascript-value
 
 1
 -
@@ -29870,8 +30149,8 @@ https://www.w3.org/TR/css-syntax-3/#convert-a-string-to-a-number
 -
 convert a value to a key
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#convert-a-value-to-a-key
@@ -29880,8 +30159,8 @@ https://w3c.github.io/IndexedDB/#convert-a-value-to-a-key
 -
 convert a value to a key
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#convert-a-value-to-a-key
@@ -29890,8 +30169,8 @@ https://www.w3.org/TR/IndexedDB-3/#convert-a-value-to-a-key
 -
 convert a value to a key range
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#convert-a-value-to-a-key-range
@@ -29900,8 +30179,8 @@ https://w3c.github.io/IndexedDB/#convert-a-value-to-a-key-range
 -
 convert a value to a key range
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#convert-a-value-to-a-key-range
@@ -29910,8 +30189,8 @@ https://www.w3.org/TR/IndexedDB-3/#convert-a-value-to-a-key-range
 -
 convert a value to a multientry key
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#convert-a-value-to-a-multientry-key
@@ -29920,8 +30199,8 @@ https://w3c.github.io/IndexedDB/#convert-a-value-to-a-multientry-key
 -
 convert a value to a multientry key
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#convert-a-value-to-a-multientry-key
@@ -30060,8 +30339,8 @@ https://www.w3.org/TR/payment-handler/#dfn-convert-image-objects
 -
 convert line endings to native
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#convert-line-endings-to-native
@@ -30070,8 +30349,8 @@ https://w3c.github.io/FileAPI/#convert-line-endings-to-native
 -
 convert line endings to native
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#convert-line-endings-to-native
@@ -30253,8 +30532,8 @@ OffscreenCanvas
 -
 convertToSpecifiedUnits
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__convertToSpecifiedUnits
@@ -30264,8 +30543,8 @@ SVGLength
 -
 convertToSpecifiedUnits
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__convertToSpecifiedUnits
@@ -30275,8 +30554,8 @@ SVGAngle
 -
 convertToSpecifiedUnits
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGLength__convertToSpecifiedUnits
@@ -30286,8 +30565,8 @@ SVGLength
 -
 convertToSpecifiedUnits
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAngle__convertToSpecifiedUnits
@@ -30297,8 +30576,8 @@ SVGAngle
 -
 converted to a numeric type or bigint
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#converted-to-a-numeric-type-or-bigint
@@ -30307,8 +30586,8 @@ https://heycam.github.io/webidl/#converted-to-a-numeric-type-or-bigint
 -
 converted to an ecmascript value
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-convert-idl-to-ecmascript-value
@@ -30317,62 +30596,32 @@ https://heycam.github.io/webidl/#dfn-convert-idl-to-ecmascript-value
 -
 converted to an idl value
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-convert-ecmascript-to-idl-value
 1
 1
 -
-converted to an idl value
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-convert-ecmascript-to-idl-value
-
-1
--
 converted to ecmascript values
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-convert-idl-to-ecmascript-value
 1
-1
--
-converted to ecmascript values
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-convert-idl-to-ecmascript-value
-
 1
 -
 converted to idl values
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-convert-ecmascript-to-idl-value
 1
-1
--
-converted to serialized values
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-convert-to-serialized-value
-
 1
 -
 converting
@@ -30387,8 +30636,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#concept-idl-convert
 -
 converting
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#web-idl-arguments-list-converting
@@ -30448,8 +30697,8 @@ https://infra.spec.whatwg.org/#convert-an-infra-value-to-a-json-compatible-javas
 -
 converting arguments for an asynchronous iterator method
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#converting-arguments-for-an-asynchronous-iterator-method
@@ -30458,8 +30707,8 @@ https://heycam.github.io/webidl/#converting-arguments-for-an-asynchronous-iterat
 -
 converting line endings to native
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#convert-line-endings-to-native
@@ -30468,8 +30717,8 @@ https://w3c.github.io/FileAPI/#convert-line-endings-to-native
 -
 converting line endings to native
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#convert-line-endings-to-native
@@ -30857,6 +31106,16 @@ https://www.w3.org/TR/webdriver2/#dfn-cookie-averse-document-object
 
 1
 -
+cookie-like fingerprinting
+dfn
+fingerprinting-guidance
+fingerprinting-guidance
+1
+current
+https://w3c.github.io/fingerprinting-guidance/#dfn-cookie-like-fingerprinting
+
+
+-
 cookie-string
 dfn
 html
@@ -31049,8 +31308,8 @@ HTMLAnchorElement
 -
 coords
 attribute
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dom-geolocationposition-coords
@@ -31060,8 +31319,8 @@ GeolocationPosition
 -
 coords
 attribute
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dom-geolocationposition-coords
@@ -31164,8 +31423,8 @@ cursor
 -
 copy a namespace prefix map
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-copy-a-namespace-prefix-map
@@ -31672,8 +31931,8 @@ https://fetch.spec.whatwg.org/#corb-protected-mime-type
 -
 core attributes
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#TermCoreAttribute
@@ -31682,8 +31941,8 @@ https://svgwg.org/svg2-draft/struct.html#TermCoreAttribute
 -
 core attributes
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#TermCoreAttribute
@@ -31821,8 +32080,8 @@ https://www.w3.org/TR/css-color-4/#valdef-color-cornsilk
 -
 correctly rounded
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#correctly-rounded
@@ -31831,8 +32090,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#correctly-rounded
 -
 correctly rounded
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#correctly-rounded
@@ -31861,8 +32120,8 @@ https://drafts.css-houdini.org/css-animationworklet-1/#corresponding-effect
 -
 corresponding element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#TermCorrespondingElement
@@ -31891,8 +32150,8 @@ https://www.w3.org/TR/webdriver2/#dfn-corresponding-input-source-state-type
 -
 corresponding use element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#TermCorrespondingUseElement
@@ -31901,8 +32160,8 @@ https://svgwg.org/svg2-draft/struct.html#TermCorrespondingUseElement
 -
 correspondingElement
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGElementInstance__correspondingElement
@@ -31912,8 +32171,8 @@ SVGElementInstance
 -
 correspondingElement
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGElementInstance__correspondingElement
@@ -31923,8 +32182,8 @@ SVGElementInstance
 -
 correspondingUseElement
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGElementInstance__correspondingUseElement
@@ -31934,8 +32193,8 @@ SVGElementInstance
 -
 correspondingUseElement
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGElementInstance__correspondingUseElement
@@ -32173,7 +32432,7 @@ js-self-profiling
 current
 https://wicg.github.io/js-self-profiling/#dfn-cors-same-origin
 
-1
+
 -
 cors-unsafe request-header byte
 dfn
@@ -32215,6 +32474,28 @@ https://www.w3.org/TR/css-values-4/#funcdef-cos
 1
 1
 -
+cos(x)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-cos
+1
+1
+MLGraphBuilder
+-
+cos(x)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-cos
+1
+1
+MLGraphBuilder
+-
 count
 argument
 dom
@@ -32250,8 +32531,8 @@ CharacterData/replaceData(offset, count, data)
 -
 count
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getall-query-count-count
@@ -32263,8 +32544,8 @@ IDBObjectStore/getAll()
 -
 count
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getallkeys-query-count-count
@@ -32276,8 +32557,8 @@ IDBObjectStore/getAllKeys()
 -
 count
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-getall-query-count-count
@@ -32289,8 +32570,8 @@ IDBIndex/getAll()
 -
 count
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-getallkeys-query-count-count
@@ -32302,8 +32583,8 @@ IDBIndex/getAllKeys()
 -
 count
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbcursor-advance-count-count
@@ -32313,8 +32594,8 @@ IDBCursor/advance(count)
 -
 count
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getall-query-count-count
@@ -32326,8 +32607,8 @@ IDBObjectStore/getAll()
 -
 count
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-getallkeys-query-count-count
@@ -32339,8 +32620,8 @@ IDBObjectStore/getAllKeys()
 -
 count
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getall-query-count-count
@@ -32352,8 +32633,8 @@ IDBIndex/getAll()
 -
 count
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-getallkeys-query-count-count
@@ -32365,8 +32646,8 @@ IDBIndex/getAllKeys()
 -
 count
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-advance-count-count
@@ -32440,8 +32721,8 @@ https://streams.spec.whatwg.org/#count-queuing-strategy-size-function
 -
 count the records in a range
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#count-the-records-in-a-range
@@ -32450,8 +32731,8 @@ https://w3c.github.io/IndexedDB/#count-the-records-in-a-range
 -
 count the records in a range
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#count-the-records-in-a-range
@@ -32471,8 +32752,8 @@ console
 -
 count()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-count
@@ -32482,8 +32763,8 @@ IDBObjectStore
 -
 count()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-count
@@ -32493,8 +32774,8 @@ IDBIndex
 -
 count()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-count
@@ -32504,8 +32785,8 @@ IDBObjectStore
 -
 count()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-count
@@ -32526,8 +32807,8 @@ console
 -
 count(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-count
@@ -32537,8 +32818,8 @@ IDBObjectStore
 -
 count(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-count
@@ -32548,8 +32829,8 @@ IDBIndex
 -
 count(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-count
@@ -32559,8 +32840,8 @@ IDBObjectStore
 -
 count(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-count
@@ -32612,8 +32893,8 @@ https://www.w3.org/TR/css-lists-3/#counter
 -
 counter
 dict-member
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-AesCtrParams-counter
@@ -32623,8 +32904,8 @@ AesCtrParams
 -
 counter
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-AesCtrParams-counter
@@ -32733,8 +33014,8 @@ https://www.w3.org/TR/css-lists-3/#funcdef-counter
 -
 counter()
 function
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#funcdef-counter
@@ -32743,8 +33024,8 @@ https://drafts.csswg.org/css2/#funcdef-counter
 -
 counter()
 function
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#funcdef-counter
@@ -32773,8 +33054,8 @@ https://www.w3.org/TR/css-lists-3/#propdef-counter-increment
 -
 counter-increment
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-counter-increment
@@ -32783,8 +33064,8 @@ https://drafts.csswg.org/css2/#propdef-counter-increment
 -
 counter-increment
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-counter-increment
@@ -32793,8 +33074,8 @@ https://drafts.csswg.org/css2/#propdef-counter-increment
 -
 counter-increment
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/generate.html#propdef-counter-increment
@@ -32823,8 +33104,8 @@ https://www.w3.org/TR/css-lists-3/#propdef-counter-reset
 -
 counter-reset
 property
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#propdef-counter-reset
@@ -32833,8 +33114,8 @@ https://drafts.csswg.org/css2/#propdef-counter-reset
 -
 counter-reset
 property
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#propdef-counter-reset
@@ -32843,8 +33124,8 @@ https://drafts.csswg.org/css2/#propdef-counter-reset
 -
 counter-reset
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 snapshot
 https://www.w3.org/TR/CSS22/generate.html#propdef-counter-reset
@@ -32873,8 +33154,8 @@ https://www.w3.org/TR/css-lists-3/#propdef-counter-set
 -
 counters
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#counters%E2%91%A0
@@ -32883,8 +33164,8 @@ https://drafts.csswg.org/css2/#counters%E2%91%A0
 -
 counters
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#counters%E2%91%A0
@@ -32913,8 +33194,8 @@ https://www.w3.org/TR/css-lists-3/#funcdef-counters
 -
 counters()
 function
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#funcdef-counters
@@ -32923,8 +33204,8 @@ https://drafts.csswg.org/css2/#funcdef-counters
 -
 counters()
 function
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#funcdef-counters
@@ -32947,49 +33228,6 @@ object/autocomplete
 output/autocomplete
 select/autocomplete
 textarea/autocomplete
--
-country
-dfn
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-country
-
-1
--
-country
-attribute
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentaddress-country
-1
-1
-PaymentAddress
--
-country
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addressinit-country
-1
-1
-AddressInit
--
-country
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addresserrors-country
-1
-1
-AddressErrors
 -
 country subdivision code element
 dfn

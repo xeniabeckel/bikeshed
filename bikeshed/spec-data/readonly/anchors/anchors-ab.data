@@ -86,8 +86,8 @@ font-size
 -
 <absolute-size>
 type
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-absolute-size
@@ -96,8 +96,8 @@ https://drafts.csswg.org/css2/#value-def-absolute-size
 -
 <absolute-size>
 type
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-absolute-size
@@ -106,8 +106,8 @@ https://drafts.csswg.org/css2/#value-def-absolute-size
 -
 ABORT_ERR
 const
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dom-domexception-abort_err
@@ -138,8 +138,8 @@ AbortController
 -
 AbortError
 exception
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#aborterror
@@ -293,6 +293,17 @@ https://streams.spec.whatwg.org/#writablestreamdefaultcontroller-abortalgorithm
 1
 WritableStreamDefaultController
 -
+[[abortreason]]
+dfn
+streams
+streams
+1
+current
+https://streams.spec.whatwg.org/#writablestreamdefaultcontroller-abortreason
+
+1
+WritableStreamDefaultController
+-
 a browsing context is discarded
 dfn
 webdriver2
@@ -432,8 +443,8 @@ WritableStream
 -
 abort
 event
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-abort-event
@@ -443,8 +454,8 @@ FileReader
 -
 abort
 event
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-abort-event
@@ -454,8 +465,8 @@ FileReader
 -
 abort
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#transaction-abort
@@ -465,8 +476,8 @@ transaction
 -
 abort
 event
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#eventdef-transaction-abort
@@ -476,8 +487,8 @@ transaction
 -
 abort
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#transaction-abort
@@ -487,8 +498,8 @@ transaction
 -
 abort
 event
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#eventdef-transaction-abort
@@ -548,6 +559,17 @@ https://www.w3.org/TR/uievents/#abort
 1
 -
 abort
+dfn
+webtransport
+webtransport
+1
+current
+https://w3c.github.io/webtransport/#sendstream-abort
+
+1
+SendStream
+-
+abort
 event
 xhr
 xhr
@@ -590,8 +612,8 @@ https://html.spec.whatwg.org/multipage/webappapis.html#abort-a-running-script
 -
 abort a transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#abort-a-transaction
@@ -600,8 +622,8 @@ https://w3c.github.io/IndexedDB/#abort-a-transaction
 -
 abort a transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#abort-a-transaction
@@ -652,8 +674,8 @@ background fetch
 -
 abort an upgrade transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#abort-an-upgrade-transaction
@@ -662,8 +684,8 @@ https://w3c.github.io/IndexedDB/#abort-an-upgrade-transaction
 -
 abort an upgrade transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#abort-an-upgrade-transaction
@@ -808,8 +830,8 @@ SpeechRecognition
 -
 abort()
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-abort
@@ -819,8 +841,8 @@ FileReader
 -
 abort()
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-abort
@@ -830,8 +852,8 @@ FileReader
 -
 abort()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbtransaction-abort
@@ -841,8 +863,8 @@ IDBTransaction
 -
 abort()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbtransaction-abort
@@ -921,18 +943,6 @@ argument
 webtransport
 webtransport
 1
-current
-https://w3c.github.io/webtransport/#dom-sendstream-reset-abortinfo-abortinfo
-1
-1
-SendStream/reset(abortInfo)
-SendStream/reset()
--
-abortInfo
-argument
-webtransport
-webtransport
-1
 snapshot
 https://www.w3.org/TR/webtransport/#dom-sendstream-abortwriting-abortinfo-abortinfo
 1
@@ -974,6 +984,17 @@ https://www.w3.org/TR/webtransport/#dom-receivestream-abortreading
 1
 ReceiveStream
 -
+abortReason
+attribute
+streams
+streams
+1
+current
+https://streams.spec.whatwg.org/#ws-default-controller-abort-reason
+1
+1
+WritableStreamDefaultController
+-
 abortWriting()
 method
 webtransport
@@ -996,16 +1017,6 @@ https://www.w3.org/TR/webtransport/#dom-sendstream-abortwriting
 1
 SendStream
 -
-abort_err
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dom-domexception-abort_err
-
-1
--
 abortalgorithm
 dfn
 streams
@@ -1016,16 +1027,6 @@ https://streams.spec.whatwg.org/#writablestream-set-up-abortalgorithm
 1
 1
 WritableStream/set up
--
-abortalgorithm
-dfn
-webtransport
-webtransport
-1
-current
-https://w3c.github.io/webtransport/#abortalgorithm
-
-1
 -
 aborted
 attribute
@@ -1040,8 +1041,8 @@ AbortSignal
 -
 aborted
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#transaction-abort
@@ -1051,8 +1052,8 @@ transaction
 -
 aborted
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#transaction-abort
@@ -1092,16 +1093,6 @@ https://fetch.spec.whatwg.org/#concept-aborted-network-error
 1
 1
 -
-aborterror
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#aborterror
-
-1
--
 aborting
 dfn
 streams
@@ -1115,8 +1106,8 @@ WritableStream
 -
 aborting
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#transaction-abort
@@ -1126,8 +1117,8 @@ transaction
 -
 aborting
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#transaction-abort
@@ -1245,6 +1236,28 @@ https://www.w3.org/TR/css-values-4/#funcdef-abs
 1
 1
 -
+abs(x)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-abs
+1
+1
+MLGraphBuilder
+-
+abs(x)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-abs
+1
+1
+MLGraphBuilder
+-
 absence-of-digits-in-numeric-character-reference
 dfn
 html
@@ -1301,8 +1314,8 @@ voice-range
 -
 absolute
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-position-absolute
@@ -1312,8 +1325,8 @@ position
 -
 absolute
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-position-absolute
@@ -1407,8 +1420,8 @@ https://www.w3.org/TR/css-values-4/#absolute-length
 -
 absolute length
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#absolute-length
@@ -1417,8 +1430,8 @@ https://drafts.csswg.org/css2/#absolute-length
 -
 absolute length
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#absolute-length
@@ -1689,8 +1702,8 @@ https://www.w3.org/TR/css-position-3/#absolute-position
 -
 absolutely positioned element
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#absolutely-positioned
@@ -1699,8 +1712,8 @@ https://drafts.csswg.org/css2/#absolutely-positioned
 -
 absolutely positioned element
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#absolutely-positioned
@@ -1859,8 +1872,8 @@ https://www.w3.org/TR/css-values-4/#mult-num-range
 -
 {a,b}
 grammar
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#mult-num-range
@@ -1869,8 +1882,8 @@ https://drafts.csswg.org/css2/#mult-num-range
 -
 {a,b}
 grammar
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#mult-num-range

@@ -148,7 +148,7 @@ def fetchSpecData():
 
 def specFromRaw(rawSpec):
     spec = {}
-    spec["vshortname"] = rawSpec["shortname"]
+    spec["vshortname"] = rawSpec["shortname"].lower()
     spec["title"] = rawSpec["shortTitle"]
     spec["description"] = rawSpec["title"]
     spec["current_url"] = rawSpec["nightly"]["url"]
@@ -157,9 +157,9 @@ def specFromRaw(rawSpec):
     else:
         spec["snapshot_url"] = None
     if rawSpec["series"]["shortname"] != spec["vshortname"]:
-        spec["shortname"] = rawSpec["series"]["shortname"]
+        spec["shortname"] = rawSpec["series"]["shortname"].lower()
     else:
-        spec["shortname"] = rawSpec["shortname"]
+        spec["shortname"] = rawSpec["shortname"].lower()
     if "seriesVersion" in rawSpec:
         spec["version"] = rawSpec["seriesVersion"]
     else:
@@ -169,6 +169,8 @@ def specFromRaw(rawSpec):
         spec["tests"] = rawSpec["tests"]
     else:
         spec["tests"] = {}
+
+    spec = manualExceptions(spec)
 
     return spec
 
@@ -203,14 +205,14 @@ def fetchRoutingData():
 
     routes = dict()
     for raw in edRouting["results"]:
-        shortname = raw["shortname"]
+        shortname = raw["shortname"].lower()
         data = routes.setdefault(shortname, {})
         if "dfns" in raw:
             data["current_dfns"] = raw["dfns"]
         if "headings" in raw:
             data["current_headings"] = raw["headings"]
     for raw in trRouting["results"]:
-        shortname = raw["shortname"]
+        shortname = raw["shortname"].lower()
         data = routes.setdefault(shortname, {})
         if "dfns" in raw:
             data["snapshot_dfns"] = raw["dfns"]
@@ -451,3 +453,16 @@ def writeAnchorsFile(anchors, path):
                             fh.write(forValue + "\n")
                     fh.write("-" + "\n")
     return writtenPaths
+
+
+def manualExceptions(spec):
+    '''
+    For handling a few things I need to manually intervene in for linking purposes.
+    '''
+
+    # WebIDL's last snapshot publication was in 2016,
+    # it's not suitable for linking at all.
+    if spec["vshortname"] == "webidl-1":
+        spec["snapshot_url"] = None
+
+    return spec

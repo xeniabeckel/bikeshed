@@ -81,7 +81,7 @@ https://www.w3.org/TR/css-fonts-4/#east-asian-width-values
 1
 -
 [[EarlyCandidates]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -91,7 +91,7 @@ https://w3c.github.io/webrtc-pc/#dfn-earlycandidates
 1
 -
 [[EarlyCandidates]]
-idl
+attribute
 webrtc
 webrtc
 1

@@ -55,8 +55,8 @@ GPUBufferBindingType
 -
 "readonly"
 enum-value
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbtransactionmode-readonly
@@ -66,8 +66,8 @@ IDBTransactionMode
 -
 "readonly"
 enum-value
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbtransactionmode-readonly
@@ -88,8 +88,8 @@ FileSystemPermissionMode
 -
 "readwrite"
 enum-value
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbtransactionmode-readwrite
@@ -99,8 +99,8 @@ IDBTransactionMode
 -
 "readwrite"
 enum-value
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbtransactionmode-readwrite
@@ -206,6 +206,28 @@ https://www.w3.org/TR/service-workers-1/#dom-serviceworkerstate-redundant
 1
 ServiceWorkerState
 -
+"reflection"
+enum-value
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlpaddingmode-reflection
+1
+1
+MLPaddingMode
+-
+"reflection"
+enum-value
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlpaddingmode-reflection
+1
+1
+MLPaddingMode
+-
 "region"
 enum-value
 css-layout-api-1
@@ -274,8 +296,8 @@ MockSensorType
 -
 "relaxed"
 enum-value
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbtransactiondurability-relaxed
@@ -285,8 +307,8 @@ IDBTransactionDurability
 -
 "relaxed"
 enum-value
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbtransactiondurability-relaxed
@@ -304,6 +326,28 @@ https://fetch.spec.whatwg.org/#dom-requestcache-reload
 1
 1
 RequestCache
+-
+"relu"
+enum-value
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlrecurrentnetworkactivation-relu
+1
+1
+MLRecurrentNetworkActivation
+-
+"relu"
+enum-value
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlrecurrentnetworkactivation-relu
+1
+1
+MLRecurrentNetworkActivation
 -
 "removed"
 enum-value
@@ -419,8 +463,8 @@ RequestDestination
 -
 "report"
 enum-value
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationeventdisposition-report
@@ -430,8 +474,8 @@ SecurityPolicyViolationEventDisposition
 -
 "report"
 enum-value
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationeventdisposition-report
@@ -538,6 +582,16 @@ https://www.w3.org/TR/webauthn-3/#dom-largeblobsupport-required
 1
 LargeBlobSupport
 -
+"reserved"
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-reserved
+
+1
+-
 "resolution"
 enum-value
 css-typed-om-1
@@ -626,8 +680,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#'relative-colorimetri
 -
 'report-sample'
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-report-sample
@@ -636,8 +690,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-report-sample
 -
 'report-sample'
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-report-sample
@@ -820,8 +874,8 @@ font-size
 -
 <relative-size>
 type
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-relative-size
@@ -830,8 +884,8 @@ https://drafts.csswg.org/css2/#value-def-relative-size
 -
 <relative-size>
 type
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-relative-size
@@ -1031,8 +1085,8 @@ GPUTextureUsage
 -
 ReadOnlyError
 exception
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#readonlyerror
@@ -1179,6 +1233,16 @@ https://streams.spec.whatwg.org/#readable-byte-stream-controller-fill-pull-into-
 1
 1
 -
+ReadableByteStreamControllerGetBYOBRequest
+abstract-op
+streams
+streams
+1
+current
+https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamcontrollergetbyobrequest
+1
+1
+-
 ReadableByteStreamControllerGetDesiredSize
 abstract-op
 streams
@@ -1296,6 +1360,16 @@ streams
 1
 current
 https://streams.spec.whatwg.org/#readable-byte-stream-controller-should-call-pull
+1
+1
+-
+ReadableByteStreamTee
+abstract-op
+streams
+streams
+1
+current
+https://streams.spec.whatwg.org/#abstract-opdef-readablebytestreamtee
 1
 1
 -
@@ -1584,6 +1658,16 @@ https://streams.spec.whatwg.org/#readable-stream-default-reader-read
 1
 1
 -
+ReadableStreamDefaultTee
+abstract-op
+streams
+streams
+1
+current
+https://streams.spec.whatwg.org/#abstract-opdef-readablestreamdefaulttee
+1
+1
+-
 ReadableStreamError
 abstract-op
 streams
@@ -1847,8 +1931,8 @@ https://www.w3.org/TR/image-capture/#enumdef-redeyereduction
 -
 ReferenceError
 exception
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#exceptiondef-referenceerror
@@ -2051,8 +2135,8 @@ https://html.spec.whatwg.org/multipage/canvas.html#renderingcontext
 -
 Replaceable
 extended-attribute
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#Replaceable
@@ -2698,7 +2782,7 @@ https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-readypromise-slot
 FontFaceSet
 -
 [[ReadyState]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2708,7 +2792,7 @@ https://w3c.github.io/webrtc-pc/#dfn-readystate
 1
 -
 [[ReadyState]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2718,7 +2802,7 @@ https://www.w3.org/TR/webrtc/#dfn-readystate
 1
 -
 [[ReceiveCodecs]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2728,7 +2812,7 @@ https://w3c.github.io/webrtc-pc/#dfn-receivecodecs
 1
 -
 [[ReceiveCodecs]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2738,7 +2822,7 @@ https://www.w3.org/TR/webrtc/#dfn-receivecodecs
 1
 -
 [[ReceiverTrack]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2748,7 +2832,7 @@ https://w3c.github.io/webrtc-pc/#dfn-receivertrack
 1
 -
 [[ReceiverTrack]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2758,7 +2842,7 @@ https://www.w3.org/TR/webrtc/#dfn-receivertrack
 1
 -
 [[ReceiverTransport]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2768,7 +2852,7 @@ https://w3c.github.io/webrtc-pc/#dfn-receivertransport
 1
 -
 [[ReceiverTransport]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2778,7 +2862,7 @@ https://www.w3.org/TR/webrtc/#dfn-receivertransport
 1
 -
 [[Receiver]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2788,7 +2872,7 @@ https://w3c.github.io/webrtc-pc/#dfn-receiver
 1
 -
 [[Receiver]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2798,7 +2882,7 @@ https://www.w3.org/TR/webrtc/#dfn-receiver
 1
 -
 [[Receptive]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2808,7 +2892,7 @@ https://w3c.github.io/webrtc-pc/#dfn-receptive
 1
 -
 [[Receptive]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2840,17 +2924,18 @@ https://www.w3.org/TR/intersection-observer/#dom-element-registeredintersectiono
 Element
 -
 [[Released]]
-idl
+attribute
 screen-wake-lock
 screen-wake-lock
 1
 current
 https://w3c.github.io/screen-wake-lock/#dfn-released
+
 1
-1
+WakeLockSentinel
 -
 [[Released]]
-idl
+attribute
 screen-wake-lock
 screen-wake-lock
 1
@@ -2858,9 +2943,10 @@ snapshot
 https://www.w3.org/TR/screen-wake-lock/#dfn-released
 1
 1
+WakeLockSentinel
 -
 [[RemoteCertificates]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2870,7 +2956,7 @@ https://w3c.github.io/webrtc-pc/#dfn-remotecertificates
 1
 -
 [[RemoteCertificates]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -2880,7 +2966,7 @@ https://www.w3.org/TR/webrtc/#dfn-remotecertificates
 1
 -
 [[readFatal]]
-idl
+attribute
 serial
 serial
 1
@@ -2901,7 +2987,7 @@ https://streams.spec.whatwg.org/#transformstream-readable
 TransformStream
 -
 [[readable]]
-idl
+attribute
 serial
 serial
 1
@@ -3068,17 +3154,6 @@ dfn
 webtransport
 webtransport
 1
-current
-https://w3c.github.io/webtransport/#webtransport-receivedstreams
-
-1
-WebTransport
--
-[[receivedstreams]]
-dfn
-webtransport
-webtransport
-1
 snapshot
 https://www.w3.org/TR/webtransport/#webtransport-receivedstreams
 
@@ -3096,16 +3171,6 @@ https://w3c.github.io/webtransport/#webtransport-receivestreams
 1
 WebTransport
 -
-[[recipient]]
-idl
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-recipient-0
-1
-1
--
 [[referringDevice]]
 attribute
 web-bluetooth
@@ -3116,16 +3181,6 @@ https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetooth-referringdevice-sl
 1
 1
 Bluetooth
--
-[[region]]
-idl
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-region-0
-1
-1
 -
 [[registeredPropertySet]]
 attribute
@@ -3304,17 +3359,18 @@ https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattservice-r
 BluetoothRemoteGATTService
 -
 [[request]]
-idl
+attribute
 payment-request
 payment-request
 1
 current
 https://w3c.github.io/payment-request/#dfn-request
+
 1
-1
+PaymentResponse
 -
 [[request]]
-idl
+attribute
 payment-request
 payment-request
 1
@@ -3322,6 +3378,7 @@ snapshot
 https://www.w3.org/TR/payment-request/#dfn-request
 1
 1
+PaymentResponse
 -
 [[resizeObservers]]
 attribute
@@ -3379,17 +3436,17 @@ https://www.w3.org/TR/webcodecs/#dom-videoframe-resource-reference-slot
 VideoFrame
 -
 [[respondWithCalled]]
-idl
+attribute
 payment-handler
 payment-handler
 1
 current
-https://w3c.github.io/payment-handler/#dfn-respondwithcalled
-1
+https://w3c.github.io/payment-handler/#respec-offender-internal-slot-respondwithcalled-must-be-associated-with-a-webidl-interface
+
 1
 -
 [[respondWithCalled]]
-idl
+attribute
 payment-handler
 payment-handler
 1
@@ -3399,17 +3456,18 @@ https://www.w3.org/TR/payment-handler/#dfn-respondwithcalled
 1
 -
 [[response]]
-idl
+attribute
 payment-request
 payment-request
 1
 current
 https://w3c.github.io/payment-request/#dfn-response
+
 1
-1
+PaymentRequest
 -
 [[response]]
-idl
+attribute
 payment-request
 payment-request
 1
@@ -3417,19 +3475,21 @@ snapshot
 https://www.w3.org/TR/payment-request/#dfn-response
 1
 1
+PaymentRequest
 -
 [[retryPromise]]
-idl
+attribute
 payment-request
 payment-request
 1
 current
 https://w3c.github.io/payment-request/#dfn-retrypromise
+
 1
-1
+PaymentResponse
 -
 [[retryPromise]]
-idl
+attribute
 payment-request
 payment-request
 1
@@ -3437,6 +3497,7 @@ snapshot
 https://www.w3.org/TR/payment-request/#dfn-retrypromise
 1
 1
+PaymentResponse
 -
 re-snap
 dfn
@@ -3460,8 +3521,8 @@ https://www.w3.org/TR/css-scroll-snap-1/#re-snap
 -
 re-used graphics
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/render.html#TermReusedGraphics
@@ -3470,8 +3531,8 @@ https://svgwg.org/svg2-draft/render.html#TermReusedGraphics
 -
 re-used graphics
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/render.html#TermReusedGraphics
@@ -3480,8 +3541,8 @@ https://www.w3.org/TR/SVG2/render.html#TermReusedGraphics
 -
 react
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-perform-steps-once-promise-is-settled
@@ -3491,8 +3552,8 @@ promise
 -
 reacting
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-perform-steps-once-promise-is-settled
@@ -3590,8 +3651,8 @@ AuthenticationExtensionsLargeBlobInputs
 -
 read
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#access-read
@@ -3601,8 +3662,8 @@ access
 -
 read
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#access-read
@@ -3633,8 +3694,8 @@ ReadableStreamDefaultReader
 -
 read access
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#read-access
@@ -3643,8 +3704,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#read-access
 -
 read access
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#read-access
@@ -3734,8 +3795,8 @@ https://webbluetoothcg.github.io/web-bluetooth/#read-long-characteristic-descrip
 -
 read method
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#read-method
@@ -3744,8 +3805,8 @@ https://w3c.github.io/FileAPI/#read-method
 -
 read method
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#read-method
@@ -3774,22 +3835,12 @@ https://www.w3.org/TR/webdriver2/#dfn-read-only
 -
 read only
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-read-only
 1
-1
--
-read only
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-read-only
-
 1
 -
 read only arraybuffer
@@ -3804,8 +3855,8 @@ https://webbluetoothcg.github.io/web-bluetooth/#read-only-arraybuffer
 -
 read operation
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#readOperation
@@ -3814,8 +3865,8 @@ https://w3c.github.io/FileAPI/#readOperation
 -
 read operation
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#readOperation
@@ -4002,8 +4053,8 @@ https://www.w3.org/TR/webrtc/#dfn-read-only-parameter
 -
 read-only storage texture
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#read-only-storage-texture
@@ -4012,8 +4063,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#read-only-storage-texture
 -
 read-only storage texture
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#read-only-storage-texture
@@ -4022,8 +4073,8 @@ https://www.w3.org/TR/WGSL/#read-only-storage-texture
 -
 read-only transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#transaction-read-only-transaction
@@ -4033,8 +4084,8 @@ transaction
 -
 read-only transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#transaction-read-only-transaction
@@ -4054,8 +4105,8 @@ https://html.spec.whatwg.org/multipage/dnd.html#concept-dnd-rw
 -
 read/write transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#transaction-read-write-transaction
@@ -4065,8 +4116,8 @@ transaction
 -
 read/write transaction
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#transaction-read-write-transaction
@@ -4076,8 +4127,8 @@ transaction
 -
 readAsArrayBuffer(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-readAsArrayBuffer
@@ -4087,8 +4138,8 @@ FileReader
 -
 readAsArrayBuffer(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-readAsArrayBufferSync
@@ -4098,8 +4149,8 @@ FileReaderSync
 -
 readAsArrayBuffer(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-readAsArrayBuffer
@@ -4109,8 +4160,8 @@ FileReader
 -
 readAsArrayBuffer(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-readAsArrayBufferSync
@@ -4120,8 +4171,8 @@ FileReaderSync
 -
 readAsBinaryString(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-readAsBinaryString
@@ -4131,8 +4182,8 @@ FileReader
 -
 readAsBinaryString(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-readAsBinaryStringSync
@@ -4142,8 +4193,8 @@ FileReaderSync
 -
 readAsBinaryString(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-readAsBinaryString
@@ -4153,8 +4204,8 @@ FileReader
 -
 readAsBinaryString(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-readAsBinaryStringSync
@@ -4164,8 +4215,8 @@ FileReaderSync
 -
 readAsDataURL(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-readAsDataURL
@@ -4175,8 +4226,8 @@ FileReader
 -
 readAsDataURL(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-readAsDataURLSync
@@ -4186,8 +4237,8 @@ FileReaderSync
 -
 readAsDataURL(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-readAsDataURL
@@ -4197,8 +4248,8 @@ FileReader
 -
 readAsDataURL(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-readAsDataURLSync
@@ -4208,8 +4259,8 @@ FileReaderSync
 -
 readAsText(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-readAsText
@@ -4219,8 +4270,8 @@ FileReader
 -
 readAsText(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-readAsTextSync
@@ -4230,8 +4281,8 @@ FileReaderSync
 -
 readAsText(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-readAsText
@@ -4241,8 +4292,8 @@ FileReader
 -
 readAsText(blob)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-readAsTextSync
@@ -4252,8 +4303,8 @@ FileReaderSync
 -
 readAsText(blob, encoding)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-readAsText
@@ -4263,8 +4314,8 @@ FileReader
 -
 readAsText(blob, encoding)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-readAsTextSync
@@ -4274,8 +4325,8 @@ FileReaderSync
 -
 readAsText(blob, encoding)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-readAsText
@@ -4285,8 +4336,8 @@ FileReader
 -
 readAsText(blob, encoding)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-readAsTextSync
@@ -4419,8 +4470,8 @@ BluetoothRemoteGATTDescriptor
 -
 read_write
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#access-read_write
@@ -4430,8 +4481,8 @@ access
 -
 read_write
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#access-read_write
@@ -4942,16 +4993,6 @@ https://www.w3.org/TR/cssom-1/#cssstyledeclaration-readonly-flag
 1
 CSSStyleDeclaration
 -
-readonlyerror
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#readonlyerror
-
-1
--
 readpixels from float
 dfn
 mediacapture-depth
@@ -5146,8 +5187,8 @@ ServiceWorkerContainer
 -
 ready promise
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#environment-ready-promise
@@ -5223,8 +5264,8 @@ WebSocket
 -
 readyState
 attribute
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dom-filereader-readystate
@@ -5234,8 +5275,8 @@ FileReader
 -
 readyState
 attribute
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dom-filereader-readystate
@@ -5245,8 +5286,8 @@ FileReader
 -
 readyState
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbrequest-readystate
@@ -5256,8 +5297,8 @@ IDBRequest
 -
 readyState
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbrequest-readystate
@@ -5864,8 +5905,8 @@ WebTransportCloseInfo
 -
 reassociation
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#reassociation
@@ -5874,8 +5915,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#reassociation
 -
 reassociation
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#reassociation
@@ -6045,13 +6086,13 @@ https://www.w3.org/TR/presentation-api/#dfn-receive-algorithm
 
 1
 -
-receive an incoming stream
+receive an incoming unidirectional stream
 dfn
 webtransport
 webtransport
 1
 current
-https://w3c.github.io/webtransport/#session-receive-an-incoming-stream
+https://w3c.github.io/webtransport/#session-receive-an-incoming-unidirectional-stream
 
 1
 session
@@ -6469,6 +6510,16 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#receives-a-set-cookie
 
 1
 -
+receives new button or axis input values
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-receives-new-button-or-axis-input-values
+
+1
+-
 receiving a cookie
 dfn
 webdriver2
@@ -6572,49 +6623,6 @@ USBControlTransferParameters
 -
 recipient
 dfn
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-recipient
-
-1
--
-recipient
-attribute
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentaddress-recipient
-1
-1
-PaymentAddress
--
-recipient
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addressinit-recipient
-1
-1
-AddressInit
--
-recipient
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addresserrors-recipient
-1
-1
-AddressErrors
--
-recipient
-dfn
 tracking-dnt
 tracking-dnt
 1
@@ -6635,8 +6643,8 @@ https://www.w3.org/TR/tracking-dnt/#dfn-recipient
 -
 recognized algorithm name
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#recognized-algorithm-name
@@ -6645,8 +6653,8 @@ https://w3c.github.io/webcrypto/#recognized-algorithm-name
 -
 recognized algorithm name
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#recognized-algorithm-name
@@ -6655,8 +6663,8 @@ https://www.w3.org/TR/WebCryptoAPI/#recognized-algorithm-name
 -
 recognized key format values
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-RecognizedKeyFormats
@@ -6665,8 +6673,8 @@ https://w3c.github.io/webcrypto/#dfn-RecognizedKeyFormats
 -
 recognized key format values
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-RecognizedKeyFormats
@@ -6675,8 +6683,8 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-RecognizedKeyFormats
 -
 recognized key type values
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-RecognizedKeyType
@@ -6685,8 +6693,8 @@ https://w3c.github.io/webcrypto/#dfn-RecognizedKeyType
 -
 recognized key type values
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-RecognizedKeyType
@@ -6695,8 +6703,8 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-RecognizedKeyType
 -
 recognized key usage values
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-RecognizedKeyUsage
@@ -6705,8 +6713,8 @@ https://w3c.github.io/webcrypto/#dfn-RecognizedKeyUsage
 -
 recognized key usage values
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-RecognizedKeyUsage
@@ -6715,8 +6723,8 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-RecognizedKeyUsage
 -
 recommended
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#recommended
@@ -6725,8 +6733,8 @@ https://drafts.csswg.org/css2/#recommended
 -
 recommended
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#recommended
@@ -6931,8 +6939,8 @@ script
 -
 record
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#object-store-record
@@ -6942,8 +6950,8 @@ object-store
 -
 record
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#object-store-record
@@ -6975,8 +6983,8 @@ MediaEncodingType
 -
 record
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#idl-record
@@ -7046,8 +7054,8 @@ https://w3c.github.io/web-nfc/#dfn-record-type
 -
 record type
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#record-type
@@ -7056,8 +7064,8 @@ https://heycam.github.io/webidl/#record-type
 -
 record-namespace-loop
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 snapshot
 https://www.w3.org/TR/DOM-Parsing/#dfn-record-namespace-loop
@@ -7130,8 +7138,8 @@ https://www.w3.org/TR/webaudio/#recording-the-input
 -
 recording the namespace information
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-recording-the-namespace-information
@@ -7173,8 +7181,8 @@ background fetch
 -
 records
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#index-records
@@ -7184,8 +7192,8 @@ index
 -
 records
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#index-records
@@ -7284,8 +7292,8 @@ GeometryUtils/convertRectFromNode(rect, from)
 -
 rect
 element
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/shapes.html#elementdef-rect
@@ -7294,8 +7302,8 @@ https://svgwg.org/svg2-draft/shapes.html#elementdef-rect
 -
 rect
 element
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/shapes.html#elementdef-rect
@@ -7637,6 +7645,98 @@ https://www.w3.org/TR/css-logical-1/#valdef-logical-page-recto
 1
 logical-page
 -
+recurrentBias
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgruoptions-recurrentbias
+1
+1
+MLGruOptions
+-
+recurrentBias
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgrucelloptions-recurrentbias
+1
+1
+MLGruCellOptions
+-
+recurrentBias
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgruoptions-recurrentbias
+1
+1
+MLGruOptions
+-
+recurrentBias
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgrucelloptions-recurrentbias
+1
+1
+MLGruCellOptions
+-
+recurrentWeight
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-gru-input-weight-recurrentweight-steps-hiddensize-options-recurrentweight
+1
+1
+MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize, options)
+MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize)
+-
+recurrentWeight
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-grucell-input-weight-recurrentweight-hiddenstate-hiddensize-options-recurrentweight
+1
+1
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize, options)
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize)
+-
+recurrentWeight
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-gru-input-weight-recurrentweight-steps-hiddensize-options-recurrentweight
+1
+1
+MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize, options)
+MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize)
+-
+recurrentWeight
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-grucell-input-weight-recurrentweight-hiddenstate-hiddensize-options-recurrentweight
+1
+1
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize, options)
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize)
+-
 recursive
 dict-member
 file-system-access
@@ -7704,8 +7804,8 @@ https://www.w3.org/TR/css-color-4/#valdef-color-red
 -
 red
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-color-red
@@ -7715,8 +7815,8 @@ https://drafts.csswg.org/css2/#valdef-color-red
 -
 red
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-color-red
@@ -8207,6 +8307,446 @@ https://www.w3.org/TR/generic-sensor/#reduce-accuracy
 
 1
 -
+reduceL1(input)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducel1
+1
+1
+MLGraphBuilder
+-
+reduceL1(input)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducel1
+1
+1
+MLGraphBuilder
+-
+reduceL1(input, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducel1
+1
+1
+MLGraphBuilder
+-
+reduceL1(input, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducel1
+1
+1
+MLGraphBuilder
+-
+reduceL2(input)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducel2
+1
+1
+MLGraphBuilder
+-
+reduceL2(input)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducel2
+1
+1
+MLGraphBuilder
+-
+reduceL2(input, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducel2
+1
+1
+MLGraphBuilder
+-
+reduceL2(input, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducel2
+1
+1
+MLGraphBuilder
+-
+reduceLogSum(input)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducelogsum
+1
+1
+MLGraphBuilder
+-
+reduceLogSum(input)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducelogsum
+1
+1
+MLGraphBuilder
+-
+reduceLogSum(input, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducelogsum
+1
+1
+MLGraphBuilder
+-
+reduceLogSum(input, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducelogsum
+1
+1
+MLGraphBuilder
+-
+reduceLogSumExp(input)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducelogsumexp
+1
+1
+MLGraphBuilder
+-
+reduceLogSumExp(input)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducelogsumexp
+1
+1
+MLGraphBuilder
+-
+reduceLogSumExp(input, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducelogsumexp
+1
+1
+MLGraphBuilder
+-
+reduceLogSumExp(input, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducelogsumexp
+1
+1
+MLGraphBuilder
+-
+reduceMax(input)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducemax
+1
+1
+MLGraphBuilder
+-
+reduceMax(input)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducemax
+1
+1
+MLGraphBuilder
+-
+reduceMax(input, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducemax
+1
+1
+MLGraphBuilder
+-
+reduceMax(input, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducemax
+1
+1
+MLGraphBuilder
+-
+reduceMean(input)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducemean
+1
+1
+MLGraphBuilder
+-
+reduceMean(input)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducemean
+1
+1
+MLGraphBuilder
+-
+reduceMean(input, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducemean
+1
+1
+MLGraphBuilder
+-
+reduceMean(input, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducemean
+1
+1
+MLGraphBuilder
+-
+reduceMin(input)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducemin
+1
+1
+MLGraphBuilder
+-
+reduceMin(input)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducemin
+1
+1
+MLGraphBuilder
+-
+reduceMin(input, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducemin
+1
+1
+MLGraphBuilder
+-
+reduceMin(input, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducemin
+1
+1
+MLGraphBuilder
+-
+reduceProduct(input)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reduceproduct
+1
+1
+MLGraphBuilder
+-
+reduceProduct(input)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reduceproduct
+1
+1
+MLGraphBuilder
+-
+reduceProduct(input, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reduceproduct
+1
+1
+MLGraphBuilder
+-
+reduceProduct(input, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reduceproduct
+1
+1
+MLGraphBuilder
+-
+reduceSum(input)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducesum
+1
+1
+MLGraphBuilder
+-
+reduceSum(input)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducesum
+1
+1
+MLGraphBuilder
+-
+reduceSum(input, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducesum
+1
+1
+MLGraphBuilder
+-
+reduceSum(input, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducesum
+1
+1
+MLGraphBuilder
+-
+reduceSumSquare(input)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducesumsquare
+1
+1
+MLGraphBuilder
+-
+reduceSumSquare(input)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducesumsquare
+1
+1
+MLGraphBuilder
+-
+reduceSumSquare(input, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducesumsquare
+1
+1
+MLGraphBuilder
+-
+reduceSumSquare(input, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducesumsquare
+1
+1
+MLGraphBuilder
+-
 reduced
 value
 css-speech-1
@@ -8318,8 +8858,8 @@ PannerOptions
 -
 refX
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__refX
@@ -8329,8 +8869,8 @@ SVGMarkerElement
 -
 refX
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/painting.html#__svg__SVGMarkerElement__refX
@@ -8340,8 +8880,8 @@ SVGMarkerElement
 -
 refY
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__refY
@@ -8351,8 +8891,8 @@ SVGMarkerElement
 -
 refY
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/painting.html#__svg__SVGMarkerElement__refY
@@ -8485,8 +9025,8 @@ https://www.w3.org/TR/css-values-4/#reference-pixel
 -
 reference pixel
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#reference-pixel
@@ -8495,8 +9035,8 @@ https://drafts.csswg.org/css2/#reference-pixel
 -
 reference pixel
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#reference-pixel
@@ -8525,8 +9065,8 @@ https://www.w3.org/TR/webxr/#reference-space-is-supported
 -
 reference type
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#reference-type
@@ -8535,8 +9075,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#reference-type
 -
 reference type
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#reference-type
@@ -8720,8 +9260,8 @@ https://html.spec.whatwg.org/multipage/dom.html#referenced
 -
 referenced
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#index-referenced
@@ -8731,8 +9271,8 @@ index
 -
 referenced
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#index-referenced
@@ -8742,8 +9282,8 @@ index
 -
 referenced document subtree
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#TermReferencedDocumentSubtree
@@ -8752,8 +9292,8 @@ https://svgwg.org/svg2-draft/struct.html#TermReferencedDocumentSubtree
 -
 referenced element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#TermReferencedElement
@@ -8762,8 +9302,8 @@ https://svgwg.org/svg2-draft/struct.html#TermReferencedElement
 -
 referenced value
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#index-referenced-value
@@ -8773,8 +9313,8 @@ index
 -
 referenced value
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#index-referenced-value
@@ -8784,8 +9324,8 @@ index
 -
 references
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#index-referenced
@@ -8795,8 +9335,8 @@ index
 -
 references
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#index-referenced
@@ -8931,8 +9471,8 @@ https://www.w3.org/TR/beacon/#concept-request-referrer
 -
 referrer
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#violation-referrer
@@ -8942,8 +9482,8 @@ violation
 -
 referrer
 attribute
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-cspviolationreportbody-referrer
@@ -8953,8 +9493,8 @@ CSPViolationReportBody
 -
 referrer
 attribute
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationevent-referrer
@@ -8964,8 +9504,8 @@ SecurityPolicyViolationEvent
 -
 referrer
 dict-member
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#dom-securitypolicyviolationeventinit-referrer
@@ -8975,8 +9515,8 @@ SecurityPolicyViolationEventInit
 -
 referrer
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#violation-referrer
@@ -8986,8 +9526,8 @@ violation
 -
 referrer
 attribute
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dom-cspviolationreportbody-referrer
@@ -8997,8 +9537,8 @@ CSPViolationReportBody
 -
 referrer
 attribute
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationevent-referrer
@@ -9008,8 +9548,8 @@ SecurityPolicyViolationEvent
 -
 referrer
 dict-member
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#dom-securitypolicyviolationeventinit-referrer
@@ -9294,8 +9834,8 @@ HTMLPortalElement
 -
 referrerPolicy
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__referrerPolicy
@@ -9305,8 +9845,8 @@ SVGAElement
 -
 referrerPolicy
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/linking.html#__svg__SVGAElement__referrerPolicy
@@ -9383,8 +9923,8 @@ portal
 -
 referrerpolicy
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/linking.html#AElementReferrerpolicyAttribute
@@ -9394,8 +9934,8 @@ a
 -
 referrerpolicy
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/linking.html#AElementReferrerpolicyAttribute
@@ -9477,8 +10017,8 @@ https://www.w3.org/TR/remote-playback/#dfn-reflect
 -
 reflect
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#TermReflect
@@ -9487,8 +10027,8 @@ https://svgwg.org/svg2-draft/types.html#TermReflect
 -
 reflect
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#TermReflect
@@ -9642,8 +10182,8 @@ https://html.spec.whatwg.org/multipage/browsing-the-web.html#refused-to-allow-th
 -
 refx
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#SymbolElementRefXAttribute
@@ -9653,8 +10193,8 @@ symbol
 -
 refx
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/painting.html#MarkerElementRefXAttribute
@@ -9664,8 +10204,8 @@ marker
 -
 refx
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#SymbolElementRefXAttribute
@@ -9675,8 +10215,8 @@ symbol
 -
 refx
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/painting.html#MarkerElementRefXAttribute
@@ -9686,8 +10226,8 @@ marker
 -
 refy
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#SymbolElementRefYAttribute
@@ -9697,8 +10237,8 @@ symbol
 -
 refy
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/painting.html#MarkerElementRefYAttribute
@@ -9708,8 +10248,8 @@ marker
 -
 refy
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#SymbolElementRefYAttribute
@@ -9719,8 +10259,8 @@ symbol
 -
 refy
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/painting.html#MarkerElementRefYAttribute
@@ -9859,49 +10399,6 @@ https://www.w3.org/TR/css-page-floats-3/#valdef-float-reference-region
 1
 1
 float-reference
--
-region
-dfn
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-region
-
-1
--
-region
-attribute
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentaddress-region
-1
-1
-PaymentAddress
--
-region
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addressinit-region
-1
-1
-AddressInit
--
-region
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addresserrors-region
-1
-1
-AddressErrors
 -
 region
 attribute
@@ -10766,42 +11263,22 @@ https://wicg.github.io/background-sync/spec/#registration-state
 -
 regular attribute
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-regular-attribute
 1
 1
 -
-regular attribute
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-regular-attribute
-
-1
--
 regular operation
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-regular-operation
 1
-1
--
-regular operation
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-regular-operation
-
 1
 -
 reification
@@ -11090,8 +11567,8 @@ https://www.w3.org/TR/webdriver2/#dfn-reject
 -
 reject
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#reject
@@ -11452,8 +11929,8 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vcard-related-rel
 -
 rel
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/linking.html#AElementRelAttribute
@@ -11463,8 +11940,8 @@ a
 -
 rel
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__rel
@@ -11474,8 +11951,8 @@ SVGAElement
 -
 rel
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/linking.html#AElementRelAttribute
@@ -11485,8 +11962,8 @@ a
 -
 rel
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/linking.html#__svg__SVGAElement__rel
@@ -11540,8 +12017,8 @@ HTMLFormElement
 -
 relList
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__relList
@@ -11551,8 +12028,8 @@ SVGAElement
 -
 relList
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/linking.html#__svg__SVGAElement__relList
@@ -12200,8 +12677,8 @@ position
 -
 relative
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-position-relative
@@ -12211,8 +12688,8 @@ position
 -
 relative
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-position-relative
@@ -12372,8 +12849,8 @@ https://www.w3.org/TR/css-position-3/#relative-position
 -
 relative positioning
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#relative-positioning%E2%91%A0
@@ -12382,8 +12859,8 @@ https://drafts.csswg.org/css2/#relative-positioning%E2%91%A0
 -
 relative positioning
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#relative-positioning%E2%91%A0
@@ -12432,8 +12909,8 @@ https://url.spec.whatwg.org/#relative-state
 -
 relative units
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#relative-units
@@ -12442,8 +12919,8 @@ https://drafts.csswg.org/css2/#relative-units
 -
 relative units
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#relative-units
@@ -12932,6 +13409,17 @@ https://www.w3.org/TR/screen-wake-lock/#dom-wakelocksentinel-release
 1
 WakeLockSentinel
 -
+release-acknowledged
+enum-value
+encrypted-media
+encrypted-media
+1
+current
+https://w3c.github.io/encrypted-media/#dom-mediakeysessionclosedreason-release-acknowledged
+1
+1
+MediaKeySessionClosedReason
+-
 releaseEvents()
 method
 html
@@ -13269,13 +13757,13 @@ https://html.spec.whatwg.org/multipage/workers.html#relevant-owner-to-add
 
 1
 -
-relevant performance entry buffer
+relevant performance entry tuple
 dfn
 performance-timeline-2
 performance-timeline
 2
-snapshot
-https://www.w3.org/TR/performance-timeline-2/#dfn-relevant-performance-entry-buffer
+current
+https://w3c.github.io/performance-timeline/#dfn-relevant-performance-entry-tuple
 
 1
 -
@@ -13284,8 +13772,8 @@ dfn
 performance-timeline-2
 performance-timeline
 2
-current
-https://w3c.github.io/performance-timeline/#dfn-relevant-performance-entry-tuple
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dfn-relevant-performance-entry-tuple
 
 1
 -
@@ -13534,6 +14022,28 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#concept-request-reloa
 
 1
 -
+relu(x)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-relu
+1
+1
+MLGraphBuilder
+-
+relu(x)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-relu
+1
+1
+MLGraphBuilder
+-
 relying party
 dfn
 webauthn-3
@@ -13727,16 +14237,6 @@ css-flexbox
 1
 snapshot
 https://www.w3.org/TR/css-flexbox-1/#remaining-free-space
-
-1
--
-remapping
-dfn
-gamepad
-gamepad
-1
-current
-https://w3c.github.io/gamepad/#dfn-standard-gamepad-layout
 
 1
 -
@@ -14353,17 +14853,6 @@ https://www.w3.org/TR/openscreenprotocol/#remote-playback-termination-response
 
 1
 -
-remoteCanceled
-attribute
-webtransport
-webtransport
-1
-current
-https://w3c.github.io/webtransport/#dom-sendstream-remotecanceled
-1
-1
-SendStream
--
 remoteCandidateId
 dict-member
 webrtc-stats
@@ -14473,17 +14962,6 @@ https://www.w3.org/TR/webrtc-stats/#dom-rtcoutboundrtpstreamstats-remoteid
 1
 1
 RTCOutboundRtpStreamStats
--
-remoteReset
-attribute
-webtransport
-webtransport
-1
-current
-https://w3c.github.io/webtransport/#dom-receivestream-remotereset
-1
-1
-ReceiveStream
 -
 remoteSource
 dict-member
@@ -14868,8 +15346,8 @@ https://dom.spec.whatwg.org/#concept-element-attributes-remove-by-namespace
 -
 remove an entry
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#removeTheEntry
@@ -14879,8 +15357,8 @@ blob url store
 -
 remove an entry
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#removeTheEntry
@@ -14890,8 +15368,8 @@ blob url store
 -
 remove an entry from the blob url store
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#removeTheEntry
@@ -14901,8 +15379,8 @@ blob url store
 -
 remove an entry from the blob url store
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#removeTheEntry
@@ -15035,8 +15513,8 @@ https://www.w3.org/TR/web-animations-1/#remove-replaced-animations
 -
 remove the entry
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#removeTheEntry
@@ -15046,8 +15524,8 @@ blob url store
 -
 remove the entry
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#removeTheEntry
@@ -15057,8 +15535,8 @@ blob url store
 -
 remove the entry from the blob url store
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#removeTheEntry
@@ -15068,8 +15546,8 @@ blob url store
 -
 remove the entry from the blob url store
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#removeTheEntry
@@ -15163,17 +15641,6 @@ HTMLSelectElement
 -
 remove()
 method
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/dnd.html#dom-datatransferitemlist-remove
-1
-1
-DataTransferItemList
--
-remove()
-method
 encrypted-media
 encrypted-media
 1
@@ -15226,6 +15693,17 @@ https://html.spec.whatwg.org/multipage/common-dom-interfaces.html#dom-htmloption
 1
 1
 HTMLOptionsCollection
+-
+remove(index)
+method
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/dnd.html#dom-datatransferitemlist-remove
+1
+1
+DataTransferItemList
 -
 remove(start, end)
 method
@@ -16089,8 +16567,8 @@ LargestContentfulPaint
 -
 renderable element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/render.html#TermRenderableElement
@@ -16099,8 +16577,8 @@ https://svgwg.org/svg2-draft/render.html#TermRenderableElement
 -
 renderable element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/render.html#TermRenderableElement
@@ -16129,8 +16607,8 @@ https://www.w3.org/TR/webgpu/#renderable-format
 -
 rendered content
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#rendered-content
@@ -16139,8 +16617,8 @@ https://drafts.csswg.org/css2/#rendered-content
 -
 rendered content
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#rendered-content
@@ -16149,8 +16627,8 @@ https://drafts.csswg.org/css2/#rendered-content
 -
 rendered element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/render.html#TermRenderedElement
@@ -16159,8 +16637,8 @@ https://svgwg.org/svg2-draft/render.html#TermRenderedElement
 -
 rendered element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/render.html#TermRenderedElement
@@ -16305,8 +16783,8 @@ https://www.w3.org/TR/webaudio/#rendering-thread
 -
 rendering tree
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/render.html#TermRenderingTree
@@ -16315,8 +16793,8 @@ https://svgwg.org/svg2-draft/render.html#TermRenderingTree
 -
 rendering tree
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/render.html#TermRenderingTree
@@ -16818,8 +17296,8 @@ set
 -
 replace
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-replace
@@ -16873,8 +17351,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#concept-node-replace-
 -
 replace all
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-replace-all
@@ -17245,8 +17723,8 @@ https://www.w3.org/TR/css-display-3/#replaced-element
 -
 replaced element
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#replaced-element
@@ -17255,8 +17733,8 @@ https://drafts.csswg.org/css2/#replaced-element
 -
 replaced element
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#replaced-element
@@ -17490,8 +17968,8 @@ https://www.w3.org/TR/reporting-1/#report-buffer
 -
 report content security policy violations for request
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#report-for-request
@@ -17500,13 +17978,43 @@ https://w3c.github.io/webappsec-csp/#report-for-request
 -
 report content security policy violations for request
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#report-for-request
 1
 1
+-
+report count tag
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-report-count-tag
+
+
+-
+report descriptor
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-report-descriptor
+
+1
+-
+report id tag
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-report-id-tag
+
+
 -
 report image element timing
 dfn
@@ -17621,6 +18129,16 @@ https://www.w3.org/TR/reporting-1/#reportingobserver-report-queue
 
 1
 ReportingObserver
+-
+report size tag
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-report-size-tag
+
+
 -
 report text element timing
 dfn
@@ -17784,8 +18302,8 @@ https://html.spec.whatwg.org/multipage/origin.html#coep-report-to
 -
 report-to
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#report-to
@@ -17794,8 +18312,8 @@ https://w3c.github.io/webappsec-csp/#report-to
 -
 report-to
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#report-to
@@ -17814,8 +18332,8 @@ https://www.w3.org/TR/reporting-1/#report-to
 -
 report-uri
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#report-uri
@@ -17824,8 +18342,8 @@ https://w3c.github.io/webappsec-csp/#report-uri
 -
 report-uri
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#report-uri
@@ -17854,17 +18372,6 @@ https://wicg.github.io/webhid/#dom-hidreportitem-reportcount
 HIDReportItem
 -
 reportId
-dict-member
-webhid
-webhid
-1
-current
-https://wicg.github.io/webhid/#dom-hidinputreporteventinit-reportid
-1
-1
-HIDInputReportEventInit
--
-reportId
 attribute
 webhid
 webhid
@@ -17874,6 +18381,17 @@ https://wicg.github.io/webhid/#dom-hidinputreportevent-reportid
 1
 1
 HIDInputReportEvent
+-
+reportId
+dict-member
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dom-hidinputreporteventinit-reportid
+1
+1
+HIDInputReportEventInit
 -
 reportId
 dict-member
@@ -17922,6 +18440,8 @@ HTMLInputElement
 HTMLButtonElement
 HTMLSelectElement
 HTMLTextAreaElement
+HTMLOutputElement
+HTMLFieldSetElement
 -
 reportValidity()
 method
@@ -18215,8 +18735,8 @@ https://www.w3.org/TR/tracking-dnt/#dfn-representation
 -
 representation data
 dfn
-SRI
-SRI
+sri
+sri
 1
 snapshot
 https://www.w3.org/TR/SRI/#dfn-representation-data
@@ -18261,6 +18781,26 @@ webdriver
 2
 current
 https://w3c.github.io/webdriver/#dfn-represents-a-shadow-root
+
+1
+-
+represents a standard gamepad axis
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-represents-a-standard-gamepad-axis
+
+1
+-
+represents a standard gamepad button
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-represents-a-standard-gamepad-button
 
 1
 -
@@ -18458,8 +18998,8 @@ https://www.w3.org/TR/beacon/#concept-request
 -
 request
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#request
@@ -18468,8 +19008,8 @@ https://w3c.github.io/IndexedDB/#request
 -
 request
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#cursor-request
@@ -18479,8 +19019,8 @@ cursor
 -
 request
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbcursor-request
@@ -18490,8 +19030,8 @@ IDBCursor
 -
 request
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#request
@@ -18500,8 +19040,8 @@ https://www.w3.org/TR/IndexedDB-3/#request
 -
 request
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#cursor-request
@@ -18511,8 +19051,8 @@ cursor
 -
 request
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-request
@@ -18926,8 +19466,8 @@ https://immersive-web.github.io/hit-test/#request-hit-test
 -
 request list
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#transaction-request-list
@@ -18937,8 +19477,8 @@ transaction
 -
 request list
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#transaction-request-list
@@ -19048,8 +19588,8 @@ https://www.w3.org/TR/picture-in-picture/#request-picture-in-picture-algorithm
 -
 request position
 dfn
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dfn-request-position
@@ -19058,8 +19598,8 @@ https://w3c.github.io/geolocation-api/#dfn-request-position
 -
 request position
 dfn
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dfn-request-position
@@ -19380,17 +19920,6 @@ https://www.w3.org/TR/webxr/#dom-xrsession-requestanimationframe
 1
 1
 XRSession
--
-requestBillingAddress
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentoptions-requestbillingaddress
-1
-1
-PaymentOptions
 -
 requestBytesSent
 dict-member
@@ -19722,39 +20251,6 @@ https://w3c.github.io/encrypted-media/#dom-navigator-requestmediakeysystemaccess
 1
 Navigator
 -
-requestPayerEmail
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentoptions-requestpayeremail
-1
-1
-PaymentOptions
--
-requestPayerName
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentoptions-requestpayername
-1
-1
-PaymentOptions
--
-requestPayerPhone
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentoptions-requestpayerphone
-1
-1
-PaymentOptions
--
 requestPermission()
 method
 notifications
@@ -19996,17 +20492,6 @@ https://www.w3.org/TR/webxr/#dom-xrsystem-requestsession
 1
 1
 XRSystem
--
-requestShipping
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentoptions-requestshipping
-1
-1
-PaymentOptions
 -
 requestStart
 attribute
@@ -20532,8 +21017,8 @@ notification
 -
 require well-formed
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-require-well-formed
@@ -20715,8 +21200,8 @@ CredentialMediationRequirement
 -
 required
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#required
@@ -20725,8 +21210,8 @@ https://drafts.csswg.org/css2/#required
 -
 required
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#required
@@ -20821,8 +21306,8 @@ UserVerificationRequirement
 -
 required
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#required-dictionary-member
@@ -20871,16 +21356,6 @@ https://www.w3.org/TR/csp-embedded-enforcement/#required-csp
 1
 1
 -
-required dictionary member
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#required-dictionary-member
-
-1
--
 required document policy
 dfn
 document-policy
@@ -20913,8 +21388,8 @@ https://www.w3.org/TR/webxr/#required-features
 -
 required-ascii-whitespace
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-required-ascii-whitespace
@@ -20923,8 +21398,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-required-ascii-whitespace
 -
 required-ascii-whitespace
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-required-ascii-whitespace
@@ -20933,8 +21408,8 @@ https://www.w3.org/TR/CSP3/#grammardef-required-ascii-whitespace
 -
 requiredExtensions
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__requiredExtensions
@@ -20944,8 +21419,8 @@ SVGTests
 -
 requiredExtensions
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGTests__requiredExtensions
@@ -20960,6 +21435,17 @@ webgpu
 1
 current
 https://gpuweb.github.io/gpuweb/#dom-gpudevicedescriptor-requiredfeatures
+1
+1
+GPUDeviceDescriptor
+-
+requiredFeatures
+dict-member
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpudevicedescriptor-requiredfeatures
 1
 1
 GPUDeviceDescriptor
@@ -21019,10 +21505,21 @@ https://gpuweb.github.io/gpuweb/#dom-gpudevicedescriptor-requiredlimits
 1
 GPUDeviceDescriptor
 -
+requiredLimits
+dict-member
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpudevicedescriptor-requiredlimits
+1
+1
+GPUDeviceDescriptor
+-
 requiredalignof
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#requiredalignof
@@ -21031,8 +21528,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#requiredalignof
 -
 requiredalignof
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#requiredalignof
@@ -21041,8 +21538,8 @@ https://www.w3.org/TR/WGSL/#requiredalignof
 -
 requiredextensions
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#RequiredExtensionsAttribute
@@ -21075,8 +21572,8 @@ use
 -
 requiredextensions
 element-attr
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#RequiredExtensionsAttribute
@@ -21154,10 +21651,54 @@ https://wicg.github.io/background-sync/spec/#reregisteredwhilefiring
 
 1
 -
+resample(input)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-resample
+1
+1
+MLGraphBuilder
+-
+resample(input)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-resample
+1
+1
+MLGraphBuilder
+-
+resample(input, options)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-resample
+1
+1
+MLGraphBuilder
+-
+resample(input, options)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-resample
+1
+1
+MLGraphBuilder
+-
 reserialized
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#TermReserialize
@@ -21166,8 +21707,8 @@ https://svgwg.org/svg2-draft/types.html#TermReserialize
 -
 reserialized
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#TermReserialize
@@ -21218,22 +21759,12 @@ https://html.spec.whatwg.org/multipage/browsing-the-web.html#navigation-params-r
 -
 reserved identifiers
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-reserved-identifier
 1
-1
--
-reserved identifiers
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-reserved-identifier
-
 1
 -
 reserved key codes
@@ -21248,14 +21779,15 @@ https://wicg.github.io/keyboard-lock/#keyboard-reserved-key-codes
 Keyboard
 -
 reset
-dfn
+attr-value
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#attr-input-type-reset-keyword
-
 1
+1
+input/type
 -
 reset
 attr-value
@@ -21299,6 +21831,17 @@ https://w3c.github.io/webtransport/#stream-reset
 
 1
 stream
+-
+reset
+dfn
+webtransport
+webtransport
+1
+current
+https://w3c.github.io/webtransport/#stream-event-reset
+
+1
+stream-event
 -
 reset
 event
@@ -21433,14 +21976,15 @@ https://www.w3.org/TR/webcodecs/#reset-audioencoder
 1
 -
 reset button
-dfn
+element-state
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#reset-button-state-(type=reset)
-
 1
+1
+input
 -
 reset button
 dfn
@@ -21738,28 +22282,6 @@ https://www.w3.org/TR/webcodecs/#dom-imagedecoder-reset
 1
 ImageDecoder
 -
-reset()
-method
-webtransport
-webtransport
-1
-current
-https://w3c.github.io/webtransport/#dom-sendstream-reset
-1
-1
-SendStream
--
-reset(abortInfo)
-method
-webtransport
-webtransport
-1
-current
-https://w3c.github.io/webtransport/#dom-sendstream-reset
-1
-1
-SendStream
--
 reset-only sub-property
 dfn
 css-cascade-3
@@ -21819,6 +22341,50 @@ snapshot
 https://www.w3.org/TR/css-cascade-5/#reset-only-sub-property
 1
 1
+-
+resetAfter
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgruoptions-resetafter
+1
+1
+MLGruOptions
+-
+resetAfter
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgrucelloptions-resetafter
+1
+1
+MLGruCellOptions
+-
+resetAfter
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgruoptions-resetafter
+1
+1
+MLGruOptions
+-
+resetAfter
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgrucelloptions-resetafter
+1
+1
+MLGruCellOptions
 -
 resetTransform()
 method
@@ -21900,6 +22466,28 @@ snapshot
 https://www.w3.org/TR/webdriver2/#dfn-resettable-elements
 
 1
+-
+reshape(input, newShape)
+method
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reshape
+1
+1
+MLGraphBuilder
+-
+reshape(input, newShape)
+method
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reshape
+1
+1
+MLGraphBuilder
 -
 resident
 dfn
@@ -22406,8 +22994,8 @@ entry
 -
 resolve
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#blob-url-resolve
@@ -22417,8 +23005,8 @@ blob URL
 -
 resolve
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#blob-url-resolve
@@ -22478,8 +23066,8 @@ https://www.w3.org/TR/webdriver2/#dfn-resolve
 -
 resolve
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#resolve
@@ -22915,8 +23503,8 @@ https://www.w3.org/TR/webrtc/#dfn-resolve
 -
 resolved descendant node
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/text.html#TermResolvedDescendantNode
@@ -22925,8 +23513,8 @@ https://svgwg.org/svg2-draft/text.html#TermResolvedDescendantNode
 -
 resolved descendant node
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/text.html#TermResolvedDescendantNode
@@ -23161,8 +23749,8 @@ https://www.w3.org/TR/webrtc/#dfn-resolve
 -
 resolves
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#resolves
@@ -23171,8 +23759,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#resolves
 -
 resolves
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#resolves
@@ -23231,8 +23819,8 @@ https://mimesniff.spec.whatwg.org/#resource
 -
 resource
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#violation-resource
@@ -23242,8 +23830,8 @@ violation
 -
 resource
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#violation-resource
@@ -23314,9 +23902,53 @@ https://www.w3.org/TR/webgpu/#dom-gpubindgroupentry-resource
 GPUBindGroupEntry
 -
 resource
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlbufferresourceview-resource
+1
+1
+MLBufferResourceView
+-
+resource
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlinput-resource
+1
+1
+MLInput
+-
+resource
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlbufferresourceview-resource
+1
+1
+MLBufferResourceView
+-
+resource
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlinput-resource
+1
+1
+MLInput
+-
+resource
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#resource
@@ -23325,8 +23957,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#resource
 -
 resource
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#resource
@@ -23395,8 +24027,8 @@ https://www.w3.org/TR/resource-hints/#dfn-resource-hint-link
 -
 resource interface of a shader
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#resource-interface-of-a-shader
@@ -23405,8 +24037,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#resource-interface-of-a-shader
 -
 resource interface of a shader
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#resource-interface-of-a-shader
@@ -23592,6 +24224,17 @@ snapshot
 https://www.w3.org/TR/resource-timing-2/#dfn-resource-timing-secondary-buffer-current-size
 
 1
+-
+resource-evicted
+enum-value
+encrypted-media
+encrypted-media
+1
+current
+https://w3c.github.io/encrypted-media/#dom-mediakeysessionclosedreason-resource-evicted
+1
+1
+MediaKeySessionClosedReason
 -
 resourceId
 dict-member
@@ -23912,16 +24555,6 @@ https://wicg.github.io/background-fetch/#background-fetch-response-response
 
 1
 background fetch response
--
-response
-dfn
-js-self-profiling
-js-self-profiling
-1
-current
-https://wicg.github.io/js-self-profiling/#dfn-response
-
-1
 -
 response
 dfn
@@ -24831,8 +25464,8 @@ signed exchange report
 -
 result
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#filereader-result
@@ -24842,8 +25475,8 @@ FileReader
 -
 result
 attribute
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dom-filereader-result
@@ -24853,8 +25486,8 @@ FileReader
 -
 result
 dfn
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#filereader-result
@@ -24864,8 +25497,8 @@ FileReader
 -
 result
 attribute
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dom-filereader-result
@@ -24919,8 +25552,8 @@ SVGFilterPrimitiveStandardAttributes
 -
 result
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#request-result
@@ -24930,8 +25563,8 @@ request
 -
 result
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbrequest-result
@@ -24941,8 +25574,8 @@ IDBRequest
 -
 result
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#request-result
@@ -24952,8 +25585,8 @@ request
 -
 result
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbrequest-result
@@ -24963,8 +25596,8 @@ IDBRequest
 -
 result
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#algorithm-result
@@ -24973,8 +25606,8 @@ https://w3c.github.io/webcrypto/#algorithm-result
 -
 result
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#algorithm-result
@@ -25372,8 +26005,8 @@ RTCOutboundRtpStreamStats
 -
 retrieve a key from an object store
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#retrieve-a-key-from-an-object-store
@@ -25382,8 +26015,8 @@ https://w3c.github.io/IndexedDB/#retrieve-a-key-from-an-object-store
 -
 retrieve a key from an object store
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#retrieve-a-key-from-an-object-store
@@ -25392,8 +26025,8 @@ https://www.w3.org/TR/IndexedDB-3/#retrieve-a-key-from-an-object-store
 -
 retrieve a preferred prefix string
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-retrieving-a-preferred-prefix-string
@@ -25402,8 +26035,8 @@ https://w3c.github.io/DOM-Parsing/#dfn-retrieving-a-preferred-prefix-string
 -
 retrieve a referenced value from an index
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#retrieve-a-referenced-value-from-an-index
@@ -25412,8 +26045,8 @@ https://w3c.github.io/IndexedDB/#retrieve-a-referenced-value-from-an-index
 -
 retrieve a referenced value from an index
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#retrieve-a-referenced-value-from-an-index
@@ -25422,8 +26055,8 @@ https://www.w3.org/TR/IndexedDB-3/#retrieve-a-referenced-value-from-an-index
 -
 retrieve a value from an index
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#retrieve-a-value-from-an-index
@@ -25432,8 +26065,8 @@ https://w3c.github.io/IndexedDB/#retrieve-a-value-from-an-index
 -
 retrieve a value from an index
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#retrieve-a-value-from-an-index
@@ -25442,8 +26075,8 @@ https://www.w3.org/TR/IndexedDB-3/#retrieve-a-value-from-an-index
 -
 retrieve a value from an object store
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#retrieve-a-value-from-an-object-store
@@ -25452,8 +26085,8 @@ https://w3c.github.io/IndexedDB/#retrieve-a-value-from-an-object-store
 -
 retrieve a value from an object store
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#retrieve-a-value-from-an-object-store
@@ -25462,8 +26095,8 @@ https://www.w3.org/TR/IndexedDB-3/#retrieve-a-value-from-an-object-store
 -
 retrieve multiple keys from an object store
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#retrieve-multiple-keys-from-an-object-store
@@ -25472,8 +26105,8 @@ https://w3c.github.io/IndexedDB/#retrieve-multiple-keys-from-an-object-store
 -
 retrieve multiple keys from an object store
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#retrieve-multiple-keys-from-an-object-store
@@ -25482,8 +26115,8 @@ https://www.w3.org/TR/IndexedDB-3/#retrieve-multiple-keys-from-an-object-store
 -
 retrieve multiple referenced values from an index
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#retrieve-multiple-referenced-values-from-an-index
@@ -25492,8 +26125,8 @@ https://w3c.github.io/IndexedDB/#retrieve-multiple-referenced-values-from-an-ind
 -
 retrieve multiple referenced values from an index
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#retrieve-multiple-referenced-values-from-an-index
@@ -25502,8 +26135,8 @@ https://www.w3.org/TR/IndexedDB-3/#retrieve-multiple-referenced-values-from-an-i
 -
 retrieve multiple values from an index
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#retrieve-multiple-values-from-an-index
@@ -25512,8 +26145,8 @@ https://w3c.github.io/IndexedDB/#retrieve-multiple-values-from-an-index
 -
 retrieve multiple values from an index
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#retrieve-multiple-values-from-an-index
@@ -25522,8 +26155,8 @@ https://www.w3.org/TR/IndexedDB-3/#retrieve-multiple-values-from-an-index
 -
 retrieve multiple values from an object store
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#retrieve-multiple-values-from-an-object-store
@@ -25532,8 +26165,8 @@ https://w3c.github.io/IndexedDB/#retrieve-multiple-values-from-an-object-store
 -
 retrieve multiple values from an object store
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#retrieve-multiple-values-from-an-object-store
@@ -25562,8 +26195,8 @@ https://wicg.github.io/client-hints-infrastructure/#retrieve-the-client-hints-se
 -
 retrieving a preferred prefix string
 dfn
-DOM-Parsing
-DOM-Parsing
+dom-parsing
+dom-parsing
 1
 current
 https://w3c.github.io/DOM-Parsing/#dfn-retrieving-a-preferred-prefix-string
@@ -25647,8 +26280,8 @@ endpoint
 -
 return
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#return
@@ -25657,8 +26290,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#return
 -
 return
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#return
@@ -25687,8 +26320,8 @@ https://wicg.github.io/ua-client-hints/#abstract-opdef-return-the-sec-ch-ua-valu
 -
 return type
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-return-type
@@ -25697,18 +26330,8 @@ https://heycam.github.io/webidl/#dfn-return-type
 -
 return type
 dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-return-type
-
-1
--
-return type
-dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#return-type
@@ -25717,13 +26340,35 @@ https://gpuweb.github.io/gpuweb/wgsl/#return-type
 -
 return type
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#return-type
 
 1
+-
+returnSequence
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgruoptions-returnsequence
+1
+1
+MLGruOptions
+-
+returnSequence
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgruoptions-returnsequence
+1
+1
+MLGruOptions
 -
 returnValue
 attribute
@@ -26073,8 +26718,8 @@ Permissions
 -
 revokeObjectURL(url)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dfn-revokeObjectURL
@@ -26084,8 +26729,8 @@ URL
 -
 revokeObjectURL(url)
 method
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dfn-revokeObjectURL

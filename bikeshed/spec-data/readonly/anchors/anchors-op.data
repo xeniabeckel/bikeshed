@@ -161,8 +161,8 @@ https://wicg.github.io/file-system-access/#dictdef-openfilepickeroptions
 -
 OperationError
 exception
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#operationerror
@@ -201,7 +201,7 @@ https://www.w3.org/TR/web-animations-1/#dictdef-optionaleffecttiming
 1
 -
 [[Operations]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -211,7 +211,7 @@ https://w3c.github.io/webrtc-pc/#dfn-operations
 1
 -
 [[Operations]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -219,17 +219,6 @@ snapshot
 https://www.w3.org/TR/webrtc/#dfn-operations
 1
 1
--
-[[options]]
-idl
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-options
-1
-1
-PaymentRequest
 -
 opacity
 property
@@ -294,16 +283,6 @@ https://www.w3.org/TR/mediaqueries-5/#valdef-media-environment-blending-opaque
 1
 1
 @media/environment-blending
--
-opaque
-dfn
-trace-context-1
-trace-context
-1
-current
-https://w3c.github.io/trace-context/#dfn-opaque
-
-
 -
 opaque
 dfn
@@ -467,16 +446,6 @@ https://www.w3.org/TR/webxrlayers-1/#opaque-texture
 
 1
 -
-opaque value
-dfn
-trace-context-1
-trace-context
-1
-current
-https://w3c.github.io/trace-context/#dfn-opaque
-
-
--
 opaque-host parser
 dfn
 url
@@ -631,8 +600,8 @@ text-text-emphasis
 -
 open
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbkeyrange-lowerbound-lower-open-open
@@ -643,8 +612,8 @@ IDBKeyRange/lowerBound(lower)
 -
 open
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbkeyrange-upperbound-upper-open-open
@@ -655,8 +624,8 @@ IDBKeyRange/upperBound(upper)
 -
 open
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbkeyrange-lowerbound-lower-open-open
@@ -667,8 +636,8 @@ IDBKeyRange/lowerBound(lower)
 -
 open
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbkeyrange-upperbound-upper-open-open
@@ -777,8 +746,8 @@ https://www.w3.org/TR/webrtc/#event-datachannel-open
 -
 open a database
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#open-a-database
@@ -787,8 +756,8 @@ https://w3c.github.io/IndexedDB/#open-a-database
 -
 open a database
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#open-a-database
@@ -797,8 +766,8 @@ https://www.w3.org/TR/IndexedDB-3/#open-a-database
 -
 open request
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#request-open-request
@@ -808,8 +777,8 @@ request
 -
 open request
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#request-open-request
@@ -839,8 +808,8 @@ https://www.w3.org/TR/openscreenprotocol/#open-screen-protocol-agent
 -
 open subpath
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/paths.html#TermOpenSubpath
@@ -849,8 +818,8 @@ https://svgwg.org/svg2-draft/paths.html#TermOpenSubpath
 -
 open subpath
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/paths.html#TermOpenSubpath
@@ -999,8 +968,8 @@ XMLHttpRequest
 -
 open(name)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbfactory-open
@@ -1010,8 +979,8 @@ IDBFactory
 -
 open(name)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbfactory-open
@@ -1021,8 +990,8 @@ IDBFactory
 -
 open(name, version)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbfactory-open
@@ -1032,8 +1001,8 @@ IDBFactory
 -
 open(name, version)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbfactory-open
@@ -1113,8 +1082,8 @@ content
 -
 open-quote
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-open-quote
@@ -1124,8 +1093,8 @@ content
 -
 open-quote
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-open-quote
@@ -1135,8 +1104,8 @@ content
 -
 openCursor()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-opencursor
@@ -1146,8 +1115,8 @@ IDBObjectStore
 -
 openCursor()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-opencursor
@@ -1157,8 +1126,8 @@ IDBIndex
 -
 openCursor()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-opencursor
@@ -1168,8 +1137,8 @@ IDBObjectStore
 -
 openCursor()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-opencursor
@@ -1179,8 +1148,8 @@ IDBIndex
 -
 openCursor(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-opencursor
@@ -1190,8 +1159,8 @@ IDBObjectStore
 -
 openCursor(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-opencursor
@@ -1201,8 +1170,8 @@ IDBIndex
 -
 openCursor(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-opencursor
@@ -1212,8 +1181,8 @@ IDBObjectStore
 -
 openCursor(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-opencursor
@@ -1223,8 +1192,8 @@ IDBIndex
 -
 openCursor(query, direction)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-opencursor
@@ -1234,8 +1203,8 @@ IDBObjectStore
 -
 openCursor(query, direction)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-opencursor
@@ -1245,8 +1214,8 @@ IDBIndex
 -
 openCursor(query, direction)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-opencursor
@@ -1256,8 +1225,8 @@ IDBObjectStore
 -
 openCursor(query, direction)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-opencursor
@@ -1267,8 +1236,8 @@ IDBIndex
 -
 openKeyCursor()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-openkeycursor
@@ -1278,8 +1247,8 @@ IDBObjectStore
 -
 openKeyCursor()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-openkeycursor
@@ -1289,8 +1258,8 @@ IDBIndex
 -
 openKeyCursor()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-openkeycursor
@@ -1300,8 +1269,8 @@ IDBObjectStore
 -
 openKeyCursor()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-openkeycursor
@@ -1311,8 +1280,8 @@ IDBIndex
 -
 openKeyCursor(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-openkeycursor
@@ -1322,8 +1291,8 @@ IDBObjectStore
 -
 openKeyCursor(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-openkeycursor
@@ -1333,8 +1302,8 @@ IDBIndex
 -
 openKeyCursor(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-openkeycursor
@@ -1344,8 +1313,8 @@ IDBObjectStore
 -
 openKeyCursor(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-openkeycursor
@@ -1355,8 +1324,8 @@ IDBIndex
 -
 openKeyCursor(query, direction)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-openkeycursor
@@ -1366,8 +1335,8 @@ IDBObjectStore
 -
 openKeyCursor(query, direction)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-openkeycursor
@@ -1377,8 +1346,8 @@ IDBIndex
 -
 openKeyCursor(query, direction)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-openkeycursor
@@ -1388,8 +1357,8 @@ IDBObjectStore
 -
 openKeyCursor(query, direction)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-openkeycursor
@@ -1621,8 +1590,8 @@ https://www.w3.org/TR/filter-effects-1/#operating-coordinate-space
 -
 operation
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#supported-operations
@@ -1631,8 +1600,8 @@ https://w3c.github.io/webcrypto/#supported-operations
 -
 operation
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#supported-operations
@@ -1663,22 +1632,12 @@ GPUBlendComponent
 -
 operation
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-operation
 1
-1
--
-operation
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-operation
-
 1
 -
 operationerror
@@ -1693,21 +1652,11 @@ https://www.w3.org/TR/remote-playback/#dfn-operationerror
 -
 operationerror
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-OperationError
-
-1
--
-operationerror
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#operationerror
 
 1
 -
@@ -2106,8 +2055,8 @@ https://www.w3.org/TR/webdriver2/#dfn-option-elements
 -
 option-expression
 grammar
-SRI
-SRI
+sri
+sri
 1
 current
 https://w3c.github.io/webappsec-subresource-integrity/#grammardef-option-expression
@@ -2160,8 +2109,8 @@ https://www.w3.org/TR/css-fonts-4/#valdef-font-face-font-display-optional
 -
 optional
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#optional
@@ -2170,8 +2119,8 @@ https://drafts.csswg.org/css2/#optional
 -
 optional
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#optional
@@ -2202,8 +2151,8 @@ mediakeysrequirement
 -
 optional
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dictionary-member-optional
@@ -2213,22 +2162,12 @@ dictionary member
 -
 optional argument
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-optional-argument
 1
-1
--
-optional argument
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-optional-argument
-
 1
 -
 optional basic constraints
@@ -2283,8 +2222,8 @@ https://privacycg.github.io/private-click-measurement/#optional-trigger-priority
 -
 optional-ascii-whitespace
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-optional-ascii-whitespace
@@ -2293,8 +2232,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-optional-ascii-whitespace
 -
 optional-ascii-whitespace
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-optional-ascii-whitespace
@@ -2391,8 +2330,8 @@ BluetoothPermissionDescriptor
 -
 optionality list
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#optionality-list
@@ -2401,22 +2340,12 @@ https://heycam.github.io/webidl/#optionality-list
 -
 optionality values
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-optionality-value
 1
-1
--
-optionality values
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-optionality-value
-
 1
 -
 optionally truncate a simple dialog string
@@ -3874,8 +3803,8 @@ TextDecoderStream/constructor()
 -
 options
 argument
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dom-blob-blob-blobparts-options-options
@@ -3890,8 +3819,8 @@ Blob/constructor()
 -
 options
 argument
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 current
 https://w3c.github.io/FileAPI/#dom-file-file-filebits-filename-options-options
@@ -3904,8 +3833,8 @@ File/constructor(fileBits, fileName)
 -
 options
 argument
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dom-blob-blob-blobparts-options-options
@@ -3920,8 +3849,8 @@ Blob/constructor()
 -
 options
 argument
-FileAPI
-FileAPI
+fileapi
+fileapi
 1
 snapshot
 https://www.w3.org/TR/FileAPI/#dom-file-file-filebits-filename-options-options
@@ -3962,8 +3891,8 @@ GeolocationSensor/constructor()
 -
 options
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbdatabase-transaction-storenames-mode-options-options
@@ -3975,8 +3904,8 @@ IDBDatabase/transaction(storeNames)
 -
 options
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbdatabase-createobjectstore-name-options-options
@@ -3987,8 +3916,8 @@ IDBDatabase/createObjectStore(name)
 -
 options
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-createindex-name-keypath-options-options
@@ -3999,8 +3928,8 @@ IDBObjectStore/createIndex(name, keyPath)
 -
 options
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbdatabase-transaction-storenames-mode-options-options
@@ -4012,8 +3941,8 @@ IDBDatabase/transaction(storeNames)
 -
 options
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbdatabase-createobjectstore-name-options-options
@@ -4024,8 +3953,8 @@ IDBDatabase/createObjectStore(name)
 -
 options
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-createindex-name-keypath-options-options
@@ -5818,6 +5747,678 @@ https://www.w3.org/TR/webgpu/#dom-gpu-requestadapter-options-options
 1
 1
 GPU/requestAdapter(options)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-ml-createcontext-options-options
+1
+1
+ML/createContext(options)
+ML/createContext()
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-batchnormalization-input-mean-variance-options-options
+1
+1
+MLGraphBuilder/batchNormalization(input, mean, variance, options)
+MLGraphBuilder/batchNormalization(input, mean, variance)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-clamp-x-options-options
+1
+1
+MLGraphBuilder/clamp(x, options)
+MLGraphBuilder/clamp(x)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-conv2d-input-filter-options-options
+1
+1
+MLGraphBuilder/conv2d(input, filter, options)
+MLGraphBuilder/conv2d(input, filter)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-gemm-a-b-options-options
+1
+1
+MLGraphBuilder/gemm(a, b, options)
+MLGraphBuilder/gemm(a, b)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-gru-input-weight-recurrentweight-steps-hiddensize-options-options
+1
+1
+MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize, options)
+MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-grucell-input-weight-recurrentweight-hiddenstate-hiddensize-options-options
+1
+1
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize, options)
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-instancenormalization-input-options-options
+1
+1
+MLGraphBuilder/instanceNormalization(input, options)
+MLGraphBuilder/instanceNormalization(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-leakyrelu-x-options-options
+1
+1
+MLGraphBuilder/leakyRelu(x, options)
+MLGraphBuilder/leakyRelu(x)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-pad-input-padding-options-options
+1
+1
+MLGraphBuilder/pad(input, padding, options)
+MLGraphBuilder/pad(input, padding)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-averagepool2d-input-options-options
+1
+1
+MLGraphBuilder/averagePool2d(input, options)
+MLGraphBuilder/averagePool2d(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-l2pool2d-input-options-options
+1
+1
+MLGraphBuilder/l2Pool2d(input, options)
+MLGraphBuilder/l2Pool2d(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-maxpool2d-input-options-options
+1
+1
+MLGraphBuilder/maxPool2d(input, options)
+MLGraphBuilder/maxPool2d(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducel1-input-options-options
+1
+1
+MLGraphBuilder/reduceL1(input, options)
+MLGraphBuilder/reduceL1(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducel2-input-options-options
+1
+1
+MLGraphBuilder/reduceL2(input, options)
+MLGraphBuilder/reduceL2(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducelogsum-input-options-options
+1
+1
+MLGraphBuilder/reduceLogSum(input, options)
+MLGraphBuilder/reduceLogSum(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducelogsumexp-input-options-options
+1
+1
+MLGraphBuilder/reduceLogSumExp(input, options)
+MLGraphBuilder/reduceLogSumExp(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducemax-input-options-options
+1
+1
+MLGraphBuilder/reduceMax(input, options)
+MLGraphBuilder/reduceMax(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducemean-input-options-options
+1
+1
+MLGraphBuilder/reduceMean(input, options)
+MLGraphBuilder/reduceMean(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducemin-input-options-options
+1
+1
+MLGraphBuilder/reduceMin(input, options)
+MLGraphBuilder/reduceMin(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reduceproduct-input-options-options
+1
+1
+MLGraphBuilder/reduceProduct(input, options)
+MLGraphBuilder/reduceProduct(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducesum-input-options-options
+1
+1
+MLGraphBuilder/reduceSum(input, options)
+MLGraphBuilder/reduceSum(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-reducesumsquare-input-options-options
+1
+1
+MLGraphBuilder/reduceSumSquare(input, options)
+MLGraphBuilder/reduceSumSquare(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-resample-input-options-options
+1
+1
+MLGraphBuilder/resample(input, options)
+MLGraphBuilder/resample(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-slice-input-starts-sizes-options-options
+1
+1
+MLGraphBuilder/slice(input, starts, sizes, options)
+MLGraphBuilder/slice(input, starts, sizes)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-split-input-splits-options-options
+1
+1
+MLGraphBuilder/split(input, splits, options)
+MLGraphBuilder/split(input, splits)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-squeeze-input-options-options
+1
+1
+MLGraphBuilder/squeeze(input, options)
+MLGraphBuilder/squeeze(input)
+-
+options
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-transpose-input-options-options
+1
+1
+MLGraphBuilder/transpose(input, options)
+MLGraphBuilder/transpose(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-ml-createcontext-options-options
+1
+1
+ML/createContext(options)
+ML/createContext()
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-batchnormalization-input-mean-variance-options-options
+1
+1
+MLGraphBuilder/batchNormalization(input, mean, variance, options)
+MLGraphBuilder/batchNormalization(input, mean, variance)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-clamp-x-options-options
+1
+1
+MLGraphBuilder/clamp(x, options)
+MLGraphBuilder/clamp(x)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-conv2d-input-filter-options-options
+1
+1
+MLGraphBuilder/conv2d(input, filter, options)
+MLGraphBuilder/conv2d(input, filter)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-gemm-a-b-options-options
+1
+1
+MLGraphBuilder/gemm(a, b, options)
+MLGraphBuilder/gemm(a, b)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-gru-input-weight-recurrentweight-steps-hiddensize-options-options
+1
+1
+MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize, options)
+MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-grucell-input-weight-recurrentweight-hiddenstate-hiddensize-options-options
+1
+1
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize, options)
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-instancenormalization-input-options-options
+1
+1
+MLGraphBuilder/instanceNormalization(input, options)
+MLGraphBuilder/instanceNormalization(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-leakyrelu-x-options-options
+1
+1
+MLGraphBuilder/leakyRelu(x, options)
+MLGraphBuilder/leakyRelu(x)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-pad-input-padding-options-options
+1
+1
+MLGraphBuilder/pad(input, padding, options)
+MLGraphBuilder/pad(input, padding)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-averagepool2d-input-options-options
+1
+1
+MLGraphBuilder/averagePool2d(input, options)
+MLGraphBuilder/averagePool2d(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-l2pool2d-input-options-options
+1
+1
+MLGraphBuilder/l2Pool2d(input, options)
+MLGraphBuilder/l2Pool2d(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-maxpool2d-input-options-options
+1
+1
+MLGraphBuilder/maxPool2d(input, options)
+MLGraphBuilder/maxPool2d(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducel1-input-options-options
+1
+1
+MLGraphBuilder/reduceL1(input, options)
+MLGraphBuilder/reduceL1(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducel2-input-options-options
+1
+1
+MLGraphBuilder/reduceL2(input, options)
+MLGraphBuilder/reduceL2(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducelogsum-input-options-options
+1
+1
+MLGraphBuilder/reduceLogSum(input, options)
+MLGraphBuilder/reduceLogSum(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducelogsumexp-input-options-options
+1
+1
+MLGraphBuilder/reduceLogSumExp(input, options)
+MLGraphBuilder/reduceLogSumExp(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducemax-input-options-options
+1
+1
+MLGraphBuilder/reduceMax(input, options)
+MLGraphBuilder/reduceMax(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducemean-input-options-options
+1
+1
+MLGraphBuilder/reduceMean(input, options)
+MLGraphBuilder/reduceMean(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducemin-input-options-options
+1
+1
+MLGraphBuilder/reduceMin(input, options)
+MLGraphBuilder/reduceMin(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reduceproduct-input-options-options
+1
+1
+MLGraphBuilder/reduceProduct(input, options)
+MLGraphBuilder/reduceProduct(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducesum-input-options-options
+1
+1
+MLGraphBuilder/reduceSum(input, options)
+MLGraphBuilder/reduceSum(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-reducesumsquare-input-options-options
+1
+1
+MLGraphBuilder/reduceSumSquare(input, options)
+MLGraphBuilder/reduceSumSquare(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-resample-input-options-options
+1
+1
+MLGraphBuilder/resample(input, options)
+MLGraphBuilder/resample(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-slice-input-starts-sizes-options-options
+1
+1
+MLGraphBuilder/slice(input, starts, sizes, options)
+MLGraphBuilder/slice(input, starts, sizes)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-split-input-splits-options-options
+1
+1
+MLGraphBuilder/split(input, splits, options)
+MLGraphBuilder/split(input, splits)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-squeeze-input-options-options
+1
+1
+MLGraphBuilder/squeeze(input, options)
+MLGraphBuilder/squeeze(input)
+-
+options
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-transpose-input-options-options
+1
+1
+MLGraphBuilder/transpose(input, options)
+MLGraphBuilder/transpose(input)
 -
 options
 argument

@@ -88,8 +88,8 @@ NotificationPermission
 -
 "default"
 enum-value
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbtransactiondurability-default
@@ -99,14 +99,58 @@ IDBTransactionDurability
 -
 "default"
 enum-value
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbtransactiondurability-default
 1
 1
 IDBTransactionDurability
+-
+"default"
+enum-value
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mldevicepreference-default
+1
+1
+MLDevicePreference
+-
+"default"
+enum-value
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlpowerpreference-default
+1
+1
+MLPowerPreference
+-
+"default"
+enum-value
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mldevicepreference-default
+1
+1
+MLDevicePreference
+-
+"default"
+enum-value
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlpowerpreference-default
+1
+1
+MLPowerPreference
 -
 "default"
 enum-value
@@ -1015,8 +1059,8 @@ https://html.spec.whatwg.org/multipage/workers.html#dedicatedworkerglobalscope
 -
 Default
 extended-attribute
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#Default
@@ -1634,17 +1678,17 @@ https://drafts.csswg.org/css-scoping/#dom-window-defaultelementstylesmap-slot
 Window
 -
 [[defaultOrientation]]
-idl
+attribute
 screen-orientation
 screen-orientation
 1
 current
-https://w3c.github.io/screen-orientation/#dfn-defaultorientation
-1
+https://w3c.github.io/screen-orientation/#respec-offender-internal-slot-defaultorientation-must-be-associated-with-a-webidl-interface
+
 1
 -
 [[defaultOrientation]]
-idl
+attribute
 screen-orientation
 screen-orientation
 1
@@ -1661,16 +1705,6 @@ html
 current
 https://html.spec.whatwg.org/multipage/history.html#defaultproperties
 
-1
--
-[[dependentLocality]]
-idl
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-dependentlocality
-1
 1
 -
 [[descriptor]]
@@ -1833,6 +1867,17 @@ webgpu
 webgpu
 1
 snapshot
+https://www.w3.org/TR/webgpu/#dom-gputexture-destroyed-slot
+1
+1
+GPUTexture
+-
+[[destroyed]]
+attribute
+webgpu
+webgpu
+1
+snapshot
 https://www.w3.org/TR/webgpu/#dom-gpuexternaltexture-destroyed-slot
 1
 1
@@ -1916,7 +1961,7 @@ https://www.w3.org/TR/webcodecs/#dom-videoframe-detached-slot
 VideoFrame
 -
 [[details]]
-idl
+attribute
 payment-request
 payment-request
 1
@@ -1927,7 +1972,7 @@ https://w3c.github.io/payment-request/#dfn-details
 PaymentRequest
 -
 [[details]]
-idl
+attribute
 payment-request
 payment-request
 1
@@ -2004,7 +2049,7 @@ https://www.w3.org/TR/webgpu/#dom-gpuobjectbase-device-slot
 GPUObjectBase
 -
 [[devicesAccessibleMap]]
-idl
+attribute
 mediacapture-streams
 mediacapture-streams
 1
@@ -2014,7 +2059,7 @@ https://w3c.github.io/mediacapture-main/#dfn-devicesaccessiblemap
 1
 -
 [[devicesAccessibleMap]]
-idl
+attribute
 mediacapture-streams
 mediacapture-streams
 1
@@ -2024,7 +2069,7 @@ https://www.w3.org/TR/mediacapture-streams/#dfn-devicesaccessiblemap
 1
 -
 [[devicesLiveMap]]
-idl
+attribute
 mediacapture-streams
 mediacapture-streams
 1
@@ -2034,7 +2079,7 @@ https://w3c.github.io/mediacapture-main/#dfn-deviceslivemap
 1
 -
 [[devicesLiveMap]]
-idl
+attribute
 mediacapture-streams
 mediacapture-streams
 1
@@ -2042,6 +2087,17 @@ snapshot
 https://www.w3.org/TR/mediacapture-streams/#dfn-deviceslivemap
 1
 1
+-
+[[devices]]
+attribute
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-devices
+
+1
+HID
 -
 [[devices]]
 attribute
@@ -2231,8 +2287,8 @@ https://www.w3.org/TR/css-counter-styles-3/#decimal
 -
 decimal
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-decimal
@@ -2242,8 +2298,8 @@ list-style-type
 -
 decimal
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-decimal
@@ -2295,8 +2351,8 @@ https://www.w3.org/TR/css-counter-styles-3/#decimal-leading-zero
 -
 decimal-leading-zero
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-decimal-leading-zero
@@ -2306,8 +2362,8 @@ list-style-type
 -
 decimal-leading-zero
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-decimal-leading-zero
@@ -2339,8 +2395,8 @@ CSS
 -
 declaration
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#declaration%E2%91%A0
@@ -2349,8 +2405,8 @@ https://drafts.csswg.org/css2/#declaration%E2%91%A0
 -
 declaration
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#declaration%E2%91%A0
@@ -2359,8 +2415,8 @@ https://drafts.csswg.org/css2/#declaration%E2%91%A0
 -
 declaration
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 current
 https://gpuweb.github.io/gpuweb/wgsl/#declaration
@@ -2369,8 +2425,8 @@ https://gpuweb.github.io/gpuweb/wgsl/#declaration
 -
 declaration
 dfn
-WGSL
-WGSL
+wgsl
+wgsl
 1
 snapshot
 https://www.w3.org/TR/WGSL/#declaration
@@ -2379,8 +2435,8 @@ https://www.w3.org/TR/WGSL/#declaration
 -
 declaration block
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#declaration-block
@@ -2389,8 +2445,8 @@ https://drafts.csswg.org/css2/#declaration-block
 -
 declaration block
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#declaration-block
@@ -3416,8 +3472,8 @@ https://www.w3.org/TR/css-images-4/#decorated-bounding-box
 -
 decorated bounding box
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#TermDecoratedBoundingBox
@@ -3426,8 +3482,8 @@ https://svgwg.org/svg2-draft/coords.html#TermDecoratedBoundingBox
 -
 decorated bounding box
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#TermDecoratedBoundingBox
@@ -3496,8 +3552,8 @@ https://www.w3.org/TR/css-color-4/#decreasing
 -
 decrypt
 enum-value
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dom-keyusage-decrypt
@@ -3507,8 +3563,8 @@ KeyUsage
 -
 decrypt
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-SubtleCrypto-method-decrypt
@@ -3517,8 +3573,8 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-SubtleCrypto-method-decrypt
 -
 decrypt()
 method
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-decrypt
@@ -3528,8 +3584,8 @@ SubtleCrypto
 -
 decrypt(algorithm, key, data)
 method
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-decrypt
@@ -3797,8 +3853,8 @@ cursor
 -
 default
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-cursor-default
@@ -3808,8 +3864,8 @@ cursor
 -
 default
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-cursor-default
@@ -3995,8 +4051,8 @@ parsed payment method manifest
 -
 default asynchronous iterator object
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-default-asynchronous-iterator-object
@@ -4195,22 +4251,12 @@ https://www.w3.org/TR/webxr/#default-inline-xr-device
 -
 default iterator object
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-default-iterator-object
 1
-1
--
-default iterator object
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-default-iterator-object
-
 1
 -
 default maximum
@@ -4225,8 +4271,8 @@ https://html.spec.whatwg.org/multipage/input.html#concept-input-max-default
 -
 default method steps
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#default-method-steps
@@ -4566,8 +4612,8 @@ https://html.spec.whatwg.org/multipage/input.html#concept-input-step-default-bas
 -
 default style sheet
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#default-style-sheet
@@ -4576,8 +4622,8 @@ https://drafts.csswg.org/css2/#default-style-sheet
 -
 default style sheet
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#default-style-sheet
@@ -4616,22 +4662,12 @@ https://www.w3.org/TR/appmanifest/#dfn-default-theme-color
 -
 default tojson steps
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#default-tojson-steps
 1
-1
--
-default unforgeable valueof function
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-default-unforgeable-valueOf-function
-
 1
 -
 default unlock gesture
@@ -4697,8 +4733,8 @@ https://www.w3.org/TR/mediacapture-depth/#dfn-default-value
 -
 default value
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-optional-argument-default-value
@@ -4708,34 +4744,14 @@ optional argument
 -
 default value
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-dictionary-member-default-value
 1
 1
 dictionary member
--
-default value
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-optional-argument-default-value
-
-1
--
-default value
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-dictionary-member-default-value
-
-1
 -
 default value override
 dfn
@@ -4767,10 +4783,30 @@ https://www.w3.org/TR/battery-status/#dfn-default-values
 
 1
 -
+default-context
+dfn
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#default-context
+
+1
+-
+default-context
+dfn
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#default-context
+
+1
+-
 default-src
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#default-src
@@ -4779,8 +4815,8 @@ https://w3c.github.io/webappsec-csp/#default-src
 -
 default-src
 dfn
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#default-src
@@ -4819,8 +4855,8 @@ https://html.spec.whatwg.org/multipage/input.html#dom-input-defaultchecked
 1
 HTMLInputElement
 -
-defaultConfig()
-method
+defaultConfig
+attribute
 sanitizer-api
 sanitizer-api
 1
@@ -5071,8 +5107,8 @@ HTMLScriptElement
 -
 define an algorithm
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#concept-define-an-algorithm
@@ -5081,8 +5117,8 @@ https://w3c.github.io/webcrypto/#concept-define-an-algorithm
 -
 define an algorithm
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#concept-define-an-algorithm
@@ -5131,8 +5167,8 @@ https://www.w3.org/TR/permissions-policy-1/#define-inherited-policy-in-container
 -
 define the asynchronous iteration methods
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#define-the-asynchronous-iteration-methods
@@ -5141,8 +5177,8 @@ https://heycam.github.io/webidl/#define-the-asynchronous-iteration-methods
 -
 define the attributes
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#define-the-attributes
@@ -5151,8 +5187,8 @@ https://heycam.github.io/webidl/#define-the-attributes
 -
 define the constants
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#define-the-constants
@@ -5161,8 +5197,8 @@ https://heycam.github.io/webidl/#define-the-constants
 -
 define the global property references
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#define-the-global-property-references
@@ -5171,8 +5207,8 @@ https://heycam.github.io/webidl/#define-the-global-property-references
 -
 define the iteration methods
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#define-the-iteration-methods
@@ -5181,8 +5217,8 @@ https://heycam.github.io/webidl/#define-the-iteration-methods
 -
 define the operations
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#define-the-operations
@@ -5191,8 +5227,8 @@ https://heycam.github.io/webidl/#define-the-operations
 -
 define the regular attributes
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#define-the-regular-attributes
@@ -5201,8 +5237,8 @@ https://heycam.github.io/webidl/#define-the-regular-attributes
 -
 define the regular operations
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#define-the-regular-operations
@@ -5211,8 +5247,8 @@ https://heycam.github.io/webidl/#define-the-regular-operations
 -
 define the static attributes
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#define-the-static-attributes
@@ -5221,8 +5257,8 @@ https://heycam.github.io/webidl/#define-the-static-attributes
 -
 define the static operations
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#define-the-static-operations
@@ -5231,8 +5267,8 @@ https://heycam.github.io/webidl/#define-the-static-operations
 -
 define the unforgeable regular attributes
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#define-the-unforgeable-regular-attributes
@@ -5241,8 +5277,8 @@ https://heycam.github.io/webidl/#define-the-unforgeable-regular-attributes
 -
 define the unforgeable regular operations
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#define-the-unforgeable-regular-operations
@@ -5585,28 +5621,18 @@ https://webbluetoothcg.github.io/web-bluetooth/#definition-of-keys-and-values
 -
 definitions
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-definition
 
 1
 -
-definitions
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-definition
-
-1
--
 defs
 element
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#elementdef-defs
@@ -5615,8 +5641,8 @@ https://svgwg.org/svg2-draft/struct.html#elementdef-defs
 -
 defs
 element
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#elementdef-defs
@@ -6108,8 +6134,8 @@ https://wicg.github.io/cookie-store/#delete-a-cookie
 -
 delete a database
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#delete-a-database
@@ -6118,8 +6144,8 @@ https://w3c.github.io/IndexedDB/#delete-a-database
 -
 delete a database
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#delete-a-database
@@ -6168,28 +6194,18 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#delete-an-existing-na
 -
 delete an existing named property
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-delete-an-existing-named-property
 1
 1
 -
-delete an existing named property
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-delete-an-existing-named-property
-
-1
--
 delete an indexed value
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#observable-array-attribute-delete-an-indexed-value
@@ -6279,8 +6295,8 @@ https://www.w3.org/TR/generic-sensor/#delete-mock-sensor
 -
 delete records from an object store
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#delete-records-from-an-object-store
@@ -6289,8 +6305,8 @@ https://w3c.github.io/IndexedDB/#delete-records-from-an-object-store
 -
 delete records from an object store
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#delete-records-from-an-object-store
@@ -6362,8 +6378,8 @@ NamedFlowMap
 -
 delete()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbcursor-delete
@@ -6373,8 +6389,8 @@ IDBCursor
 -
 delete()
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-delete
@@ -6549,8 +6565,8 @@ StylePropertyMap
 -
 delete(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-delete
@@ -6560,8 +6576,8 @@ IDBObjectStore
 -
 delete(query)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-delete
@@ -6659,8 +6675,8 @@ CharacterData
 -
 deleteDatabase(name)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbfactory-deletedatabase
@@ -6670,8 +6686,8 @@ IDBFactory
 -
 deleteDatabase(name)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbfactory-deletedatabase
@@ -6703,8 +6719,8 @@ Selection
 -
 deleteIndex(name)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-deleteindex
@@ -6714,8 +6730,8 @@ IDBObjectStore
 -
 deleteIndex(name)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-deleteindex
@@ -6747,8 +6763,8 @@ MediaList
 -
 deleteObjectStore(name)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbdatabase-deleteobjectstore
@@ -6758,8 +6774,8 @@ IDBDatabase
 -
 deleteObjectStore(name)
 method
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbdatabase-deleteobjectstore
@@ -7009,22 +7025,12 @@ RTCIceCandidateStats
 -
 deleter
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-deleter
 1
-1
--
-deleters
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-deleter
-
 1
 -
 deliver resize loop error notification
@@ -7046,17 +7052,6 @@ snapshot
 https://www.w3.org/TR/resize-observer-1/#deliver-resize-loop-error-notification
 
 1
--
-delivery
-enum-value
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentshippingtype-delivery
-1
-1
-PaymentShippingType
 -
 delta
 dfn
@@ -7510,49 +7505,6 @@ https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata
 1
 1
 RTCEncodedVideoFrameMetadata
--
-dependent locality
-dfn
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dfn-dependent-locality
-
-1
--
-dependentLocality
-attribute
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-paymentaddress-dependentlocality
-1
-1
-PaymentAddress
--
-dependentLocality
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addressinit-dependentlocality
-1
-1
-AddressInit
--
-dependentLocality
-dict-member
-payment-request
-payment-request
-1
-snapshot
-https://www.w3.org/TR/payment-request/#dom-addresserrors-dependentlocality
-1
-1
-AddressErrors
 -
 deprecate
 dfn
@@ -8973,8 +8925,8 @@ https://www.w3.org/TR/image-resource/#dfn-deriving-the-accessible-name
 -
 deriveBits
 enum-value
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dom-keyusage-derivebits
@@ -8984,8 +8936,8 @@ KeyUsage
 -
 deriveBits()
 method
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-deriveBits
@@ -8995,8 +8947,8 @@ SubtleCrypto
 -
 deriveBits(algorithm, baseKey, length)
 method
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-deriveBits
@@ -9006,8 +8958,8 @@ SubtleCrypto
 -
 deriveKey
 enum-value
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dom-keyusage-derivekey
@@ -9017,8 +8969,8 @@ KeyUsage
 -
 deriveKey()
 method
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-deriveKey
@@ -9028,8 +8980,8 @@ SubtleCrypto
 -
 deriveKey(algorithm, baseKey, derivedKeyType, extractable, keyUsages)
 method
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-SubtleCrypto-method-deriveKey
@@ -9039,8 +8991,8 @@ SubtleCrypto
 -
 derivebits
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-SubtleCrypto-method-deriveBits
@@ -9049,8 +9001,8 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-SubtleCrypto-method-deriveBits
 -
 derivekey
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-SubtleCrypto-method-deriveKey
@@ -9079,8 +9031,8 @@ https://www.w3.org/TR/image-resource/#dfn-deriving-the-accessible-name
 -
 desc
 element
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#elementdef-desc
@@ -9089,13 +9041,57 @@ https://svgwg.org/svg2-draft/struct.html#elementdef-desc
 -
 desc
 element
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#elementdef-desc
 1
 1
+-
+desc
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-input-name-desc-desc
+1
+1
+MLGraphBuilder/input(name, desc)
+-
+desc
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-constant-desc-bufferview-desc
+1
+1
+MLGraphBuilder/constant(desc, bufferView)
+-
+desc
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-input-name-desc-desc
+1
+1
+MLGraphBuilder/input(name, desc)
+-
+desc
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-constant-desc-bufferview-desc
+1
+1
+MLGraphBuilder/constant(desc, bufferView)
 -
 descendant
 dfn
@@ -9130,8 +9126,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#concept-tree-descenda
 -
 descendant
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#descendant
@@ -9140,8 +9136,8 @@ https://drafts.csswg.org/css2/#descendant
 -
 descendant
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#descendant
@@ -9230,8 +9226,8 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#descendant-text-conte
 -
 descendant-selectors
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#descendant-selectors%E2%91%A0
@@ -9240,8 +9236,8 @@ https://drafts.csswg.org/css2/#descendant-selectors%E2%91%A0
 -
 descendant-selectors
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#descendant-selectors%E2%91%A0
@@ -9571,8 +9567,8 @@ https://html.spec.whatwg.org/multipage/media.html#dom-texttrack-kind-description
 -
 descriptive element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#TermDescriptiveElement
@@ -9581,8 +9577,8 @@ https://svgwg.org/svg2-draft/struct.html#TermDescriptiveElement
 -
 descriptive element
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#TermDescriptiveElement
@@ -10262,8 +10258,8 @@ FontFace/FontFace()
 -
 deselectAll
 method
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__deselectAll
@@ -10273,8 +10269,8 @@ SVGSVGElement
 -
 deselectAll
 method
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGSVGElement__deselectAll
@@ -10392,6 +10388,17 @@ https://html.spec.whatwg.org/multipage/interaction.html#design-mode-enabled
 
 1
 -
+designMode
+attribute
+html
+html
+1
+current
+https://html.spec.whatwg.org/multipage/interaction.html#designMode
+1
+1
+Document
+-
 designated resource
 dfn
 tracking-dnt
@@ -10409,16 +10416,6 @@ tracking-dnt
 1
 snapshot
 https://www.w3.org/TR/tracking-dnt/#dfn-designated-resource
-
-1
--
-designmode
-dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/interaction.html#designMode
 
 1
 -
@@ -11598,24 +11595,14 @@ CanvasRenderingContext2DSettings
 -
 detach
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-detach
 1
 1
 ArrayBuffer
--
-detach
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-detach
-
-1
 -
 detach()
 method
@@ -11661,8 +11648,8 @@ https://html.spec.whatwg.org/multipage/canvas.html#offscreencanvas-context-detac
 -
 detached
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#TermDetach
@@ -11671,13 +11658,24 @@ https://svgwg.org/svg2-draft/types.html#TermDetach
 -
 detached
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#TermDetach
 1
 1
+-
+detached
+dfn
+webidl-1
+webidl
+1
+current
+https://heycam.github.io/webidl/#buffersource-detached
+1
+1
+BufferSource
 -
 detached shadow root
 dfn
@@ -12152,6 +12150,16 @@ https://w3c.github.io/performance-timeline/#dfn-determine-if-a-performance-entry
 
 1
 -
+determine if a performance entry buffer is full
+dfn
+performance-timeline-2
+performance-timeline
+2
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dfn-determine-if-a-performance-entry-buffer-is-full
+
+1
+-
 determine if a site has storage access
 dfn
 storage-access
@@ -12494,6 +12502,16 @@ https://drafts.csswg.org/css-color-adjust-1/#determine-the-used-color-scheme
 
 1
 -
+determine the used color scheme
+dfn
+css-color-adjust-1
+css-color-adjust
+1
+snapshot
+https://www.w3.org/TR/css-color-adjust-1/#determine-the-used-color-scheme
+
+1
+-
 determine the value of a named property
 dfn
 html
@@ -12506,22 +12524,12 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#determine-the-value-o
 -
 determine the value of a named property
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-determine-the-value-of-a-named-property
 1
-1
--
-determine the value of a named property
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-determine-the-value-of-a-named-property
-
 1
 -
 determine the value of an indexed property
@@ -12536,22 +12544,12 @@ https://html.spec.whatwg.org/multipage/infrastructure.html#determine-the-value-o
 -
 determine the value of an indexed property
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dfn-determine-the-value-of-an-indexed-property
 1
-1
--
-determine the value of an indexed property
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dfn-determine-the-value-of-an-indexed-property
-
 1
 -
 determine the visibility state
@@ -12844,17 +12842,6 @@ https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothremotegattservice-d
 BluetoothRemoteGATTService
 -
 device
-dict-member
-webhid
-webhid
-1
-current
-https://wicg.github.io/webhid/#dom-hidconnectioneventinit-device
-1
-1
-HIDConnectionEventInit
--
-device
 attribute
 webhid
 webhid
@@ -12871,10 +12858,10 @@ webhid
 webhid
 1
 current
-https://wicg.github.io/webhid/#dom-hidinputreporteventinit-device
+https://wicg.github.io/webhid/#dom-hidconnectioneventinit-device
 1
 1
-HIDInputReportEventInit
+HIDConnectionEventInit
 -
 device
 attribute
@@ -12886,6 +12873,17 @@ https://wicg.github.io/webhid/#dom-hidinputreportevent-device
 1
 1
 HIDInputReportEvent
+-
+device
+dict-member
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dom-hidinputreporteventinit-device
+1
+1
+HIDInputReportEventInit
 -
 device
 dict-member
@@ -13664,6 +13662,28 @@ https://www.w3.org/TR/device-posture/#dom-navigator-deviceposture
 1
 1
 Navigator
+-
+devicePreference
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlcontextoptions-devicepreference
+1
+1
+MLContextOptions
+-
+devicePreference
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlcontextoptions-devicepreference
+1
+1
+MLContextOptions
 -
 deviceProtocol
 attribute

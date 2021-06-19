@@ -149,17 +149,6 @@ value
 css-images-3
 css-images
 3
-current
-https://drafts.csswg.org/css-images-3/#valdef-image-orientation-angle
-1
-1
-image-orientation
--
-<angle>
-value
-css-images-3
-css-images
-3
 snapshot
 https://www.w3.org/TR/css-images-3/#valdef-image-orientation-angle
 1
@@ -954,10 +943,20 @@ https://www.w3.org/TR/wasm-js-api-1/#a-new-exported-function
 
 1
 -
+a new gamepad
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-a-new-gamepad
+
+1
+-
 a new geolocationposition
 dfn
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 current
 https://w3c.github.io/geolocation-api/#dfn-a-new-geolocationposition
@@ -966,8 +965,8 @@ https://w3c.github.io/geolocation-api/#dfn-a-new-geolocationposition
 -
 a new geolocationposition
 dfn
-geolocation-API
-geolocation-API
+geolocation-api
+geolocation-api
 1
 snapshot
 https://www.w3.org/TR/geolocation-API/#dfn-a-new-geolocationposition
@@ -986,8 +985,8 @@ https://www.w3.org/TR/webdriver2/#dfn-a-new-promise
 -
 a new promise
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#a-new-promise
@@ -1016,8 +1015,8 @@ https://html.spec.whatwg.org/multipage/media.html#text-track-cue-end-time
 -
 an exception was thrown
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#an-exception-was-thrown
@@ -1177,8 +1176,8 @@ https://drafts.csswg.org/web-animations-2/#ancestor
 -
 ancestor
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#ancestor
@@ -1187,8 +1186,8 @@ https://drafts.csswg.org/css2/#ancestor
 -
 ancestor
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#ancestor
@@ -1239,8 +1238,8 @@ https://html.spec.whatwg.org/multipage/history.html#concept-location-ancestor-or
 -
 ancestor-source
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-ancestor-source
@@ -1249,8 +1248,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-ancestor-source
 -
 ancestor-source
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-ancestor-source
@@ -1259,8 +1258,8 @@ https://www.w3.org/TR/CSP3/#grammardef-ancestor-source
 -
 ancestor-source-list
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-ancestor-source-list
@@ -1269,8 +1268,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-ancestor-source-list
 -
 ancestor-source-list
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-ancestor-source-list
@@ -1797,8 +1796,8 @@ ScreenOrientation
 -
 angle
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__angle
@@ -1808,8 +1807,8 @@ SVGTransform
 -
 angle
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#__svg__SVGTransform__angle
@@ -1872,8 +1871,8 @@ XRPose
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedBoolean__animVal
@@ -1883,8 +1882,8 @@ SVGAnimatedBoolean
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedEnumeration__animVal
@@ -1894,8 +1893,8 @@ SVGAnimatedEnumeration
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedInteger__animVal
@@ -1905,8 +1904,8 @@ SVGAnimatedInteger
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumber__animVal
@@ -1916,8 +1915,8 @@ SVGAnimatedNumber
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLength__animVal
@@ -1927,8 +1926,8 @@ SVGAnimatedLength
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedAngle__animVal
@@ -1938,8 +1937,8 @@ SVGAnimatedAngle
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedString__animVal
@@ -1949,8 +1948,8 @@ SVGAnimatedString
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedRect__animVal
@@ -1960,8 +1959,8 @@ SVGAnimatedRect
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumberList__animVal
@@ -1971,8 +1970,8 @@ SVGAnimatedNumberList
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLengthList__animVal
@@ -1982,8 +1981,8 @@ SVGAnimatedLengthList
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedTransformList__animVal
@@ -1993,8 +1992,8 @@ SVGAnimatedTransformList
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedPreserveAspectRatio__animVal
@@ -2004,8 +2003,8 @@ SVGAnimatedPreserveAspectRatio
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedBoolean__animVal
@@ -2015,8 +2014,8 @@ SVGAnimatedBoolean
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedEnumeration__animVal
@@ -2026,8 +2025,8 @@ SVGAnimatedEnumeration
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedInteger__animVal
@@ -2037,8 +2036,8 @@ SVGAnimatedInteger
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedNumber__animVal
@@ -2048,8 +2047,8 @@ SVGAnimatedNumber
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedLength__animVal
@@ -2059,8 +2058,8 @@ SVGAnimatedLength
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedAngle__animVal
@@ -2070,8 +2069,8 @@ SVGAnimatedAngle
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedString__animVal
@@ -2081,8 +2080,8 @@ SVGAnimatedString
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedRect__animVal
@@ -2092,8 +2091,8 @@ SVGAnimatedRect
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedNumberList__animVal
@@ -2103,8 +2102,8 @@ SVGAnimatedNumberList
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/types.html#__svg__SVGAnimatedLengthList__animVal
@@ -2114,8 +2113,8 @@ SVGAnimatedLengthList
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#__svg__SVGAnimatedTransformList__animVal
@@ -2125,8 +2124,8 @@ SVGAnimatedTransformList
 -
 animVal
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/coords.html#__svg__SVGAnimatedPreserveAspectRatio__animVal
@@ -2272,8 +2271,8 @@ https://www.w3.org/TR/svg-integration/#animated-image-document-mode
 -
 animatedInstanceRoot
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/struct.html#__svg__SVGUseElement__animatedInstanceRoot
@@ -2283,8 +2282,8 @@ SVGUseElement
 -
 animatedInstanceRoot
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/struct.html#__svg__SVGUseElement__animatedInstanceRoot
@@ -2294,8 +2293,8 @@ SVGUseElement
 -
 animatedPoints
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__animatedPoints
@@ -2305,8 +2304,8 @@ SVGAnimatedPoints
 -
 animatedPoints
 attribute
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/shapes.html#__svg__SVGAnimatedPoints__animatedPoints
@@ -3594,8 +3593,8 @@ https://html.spec.whatwg.org/multipage/microdata.html#md-vcard-anniversary
 -
 annotated types
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#annotated-types
@@ -3865,8 +3864,8 @@ CSS
 -
 anonymous
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#anonymous
@@ -3875,8 +3874,8 @@ https://drafts.csswg.org/css2/#anonymous
 -
 anonymous
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#anonymous
@@ -3927,8 +3926,8 @@ https://html.spec.whatwg.org/multipage/rendering.html#anonymous-fieldset-content
 -
 anonymous inline boxes
 dfn
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#anonymous-inline-boxes
@@ -3937,8 +3936,8 @@ https://drafts.csswg.org/css2/#anonymous-inline-boxes
 -
 anonymous inline boxes
 dfn
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#anonymous-inline-boxes
@@ -4171,8 +4170,8 @@ https://www.w3.org/TR/screen-orientation/#dfn-any
 -
 any
 interface
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#idl-any

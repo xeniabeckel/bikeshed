@@ -75,6 +75,17 @@ https://www.w3.org/TR/webcodecs/#dom-encodedvideochunktype-key
 1
 EncodedVideoChunkType
 -
+"keyID"
+enum-value
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-sframetransformerroreventtype-keyid
+1
+1
+SFrameTransformErrorEventType
+-
 <keyframe-block>
 type
 css-animations-1
@@ -223,8 +234,8 @@ CSSRule
 -
 KeyAlgorithm
 dictionary
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-KeyAlgorithm
@@ -233,8 +244,8 @@ https://w3c.github.io/webcrypto/#dfn-KeyAlgorithm
 -
 KeyFormat
 enum
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dom-keyformat
@@ -263,8 +274,8 @@ https://www.w3.org/TR/media-capabilities/#dictdef-keysystemtrackconfiguration
 -
 KeyType
 enum
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dom-keytype
@@ -273,8 +284,8 @@ https://w3c.github.io/webcrypto/#dom-keytype
 -
 KeyUsage
 enum
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dom-keyusage
@@ -544,7 +555,7 @@ https://www.w3.org/TR/web-animations-1/#dictdef-keyframeeffectoptions
 1
 -
 [[KeyingMaterialHandle]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -554,7 +565,7 @@ https://w3c.github.io/webrtc-pc/#dfn-keyingmaterialhandle
 1
 -
 [[KeyingMaterialHandle]]
-idl
+attribute
 webrtc
 webrtc
 1
@@ -670,6 +681,28 @@ https://www.w3.org/TR/css-text-3/#valdef-word-break-keep-all
 1
 1
 word-break
+-
+keepDimensions
+dict-member
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlreduceoptions-keepdimensions
+1
+1
+MLReduceOptions
+-
+keepDimensions
+dict-member
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlreduceoptions-keepdimensions
+1
+1
+MLReduceOptions
 -
 keepExistingData
 dict-member
@@ -1026,8 +1059,8 @@ SFrameTransform/setEncryptionKey(key)
 -
 key
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#key
@@ -1036,8 +1069,8 @@ https://w3c.github.io/IndexedDB/#key
 -
 key
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#cursor-key
@@ -1047,8 +1080,8 @@ cursor
 -
 key
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-put-value-key-key
@@ -1059,8 +1092,8 @@ IDBObjectStore/put(value)
 -
 key
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-add-value-key-key
@@ -1071,8 +1104,8 @@ IDBObjectStore/add(value)
 -
 key
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbkeyrange-includes-key-key
@@ -1082,8 +1115,8 @@ IDBKeyRange/includes(key)
 -
 key
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbcursor-continue-key-key
@@ -1094,8 +1127,8 @@ IDBCursor/continue()
 -
 key
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbcursor-continueprimarykey-key-primarykey-key
@@ -1105,8 +1138,8 @@ IDBCursor/continuePrimaryKey(key, primaryKey)
 -
 key
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbcursor-key
@@ -1116,8 +1149,8 @@ IDBCursor
 -
 key
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#key
@@ -1126,8 +1159,8 @@ https://www.w3.org/TR/IndexedDB-3/#key
 -
 key
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#cursor-key
@@ -1137,8 +1170,8 @@ cursor
 -
 key
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-put-value-key-key
@@ -1149,8 +1182,8 @@ IDBObjectStore/put(value)
 -
 key
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-add-value-key-key
@@ -1161,8 +1194,8 @@ IDBObjectStore/add(value)
 -
 key
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbkeyrange-includes-key-key
@@ -1172,8 +1205,8 @@ IDBKeyRange/includes(key)
 -
 key
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-continue-key-key
@@ -1184,8 +1217,8 @@ IDBCursor/continue()
 -
 key
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-continueprimarykey-key-primarykey-key
@@ -1195,8 +1228,8 @@ IDBCursor/continuePrimaryKey(key, primaryKey)
 -
 key
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbcursor-key
@@ -1211,6 +1244,16 @@ performance-timeline
 2
 current
 https://w3c.github.io/performance-timeline/#dfn-keyed
+
+1
+-
+key
+dfn
+performance-timeline-2
+performance-timeline
+2
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dfn-keyed
 
 1
 -
@@ -1260,8 +1303,8 @@ KeyboardEventInit
 -
 key
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#value-pair-key
@@ -1342,8 +1385,8 @@ https://www.w3.org/TR/uievents-code/#key-code-attribute-value
 -
 key export steps
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-ssa-extended-export-steps
@@ -1352,8 +1395,8 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-ssa-extended-export-steps
 -
 key export steps
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-pss-extended-export-steps
@@ -1362,8 +1405,8 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-pss-extended-export-steps
 -
 key export steps
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-oaep-extended-export-steps
@@ -1372,8 +1415,8 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-oaep-extended-export-steps
 -
 key export steps
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-hmac-extended-export-steps
@@ -1402,8 +1445,8 @@ https://www.w3.org/TR/webcodecs/#key-chunk
 -
 key generator
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#key-generator
@@ -1412,8 +1455,8 @@ https://w3c.github.io/IndexedDB/#key-generator
 -
 key generator
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#key-generator
@@ -1422,8 +1465,8 @@ https://www.w3.org/TR/IndexedDB-3/#key-generator
 -
 key import steps
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-ssa-extended-import-steps
@@ -1432,8 +1475,8 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-ssa-extended-import-steps
 -
 key import steps
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-pss-extended-import-steps
@@ -1442,8 +1485,8 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-pss-extended-import-steps
 -
 key import steps
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-oaep-extended-import-steps
@@ -1452,8 +1495,8 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-rsa-oaep-extended-import-steps
 -
 key import steps
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-hmac-extended-import-steps
@@ -1562,8 +1605,8 @@ https://www.w3.org/TR/uievents/#modifier-key-name
 -
 key only flag
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#cursor-key-only-flag
@@ -1573,8 +1616,8 @@ cursor
 -
 key only flag
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#cursor-key-only-flag
@@ -1584,8 +1627,8 @@ cursor
 -
 key path
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#object-store-key-path
@@ -1595,8 +1638,8 @@ object-store
 -
 key path
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#key-path
@@ -1605,8 +1648,8 @@ https://w3c.github.io/IndexedDB/#key-path
 -
 key path
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#index-key-path
@@ -1616,8 +1659,8 @@ index
 -
 key path
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#object-store-key-path
@@ -1627,8 +1670,8 @@ object-store
 -
 key path
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#key-path
@@ -1637,8 +1680,8 @@ https://www.w3.org/TR/IndexedDB-3/#key-path
 -
 key path
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#index-key-path
@@ -1648,8 +1691,8 @@ index
 -
 key range
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#key-range
@@ -1658,8 +1701,8 @@ https://w3c.github.io/IndexedDB/#key-range
 -
 key range
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#key-range
@@ -1706,7 +1749,7 @@ https://www.w3.org/TR/uievents/#key-value
 
 1
 -
-key(n)
+key(index)
 method
 html
 html
@@ -1948,10 +1991,32 @@ https://w3c.github.io/webrtc-encoded-transform/#dom-sframetransform-setencryptio
 SFrameTransform/setEncryptionKey(key, keyID)
 SFrameTransform/setEncryptionKey(key)
 -
+keyID
+attribute
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-sframetransformerrorevent-keyid
+1
+1
+SFrameTransformErrorEvent
+-
+keyID
+dict-member
+webrtc-encoded-transform
+webrtc-encoded-transform
+1
+current
+https://w3c.github.io/webrtc-encoded-transform/#dom-sframetransformerroreventinit-keyid
+1
+1
+SFrameTransformErrorEventInit
+-
 keyPath
 dict-member
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstoreparameters-keypath
@@ -1961,8 +2026,8 @@ IDBObjectStoreParameters
 -
 keyPath
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-createindex-name-keypath-options-keypath
@@ -1973,8 +2038,8 @@ IDBObjectStore/createIndex(name, keyPath)
 -
 keyPath
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbobjectstore-keypath
@@ -1984,8 +2049,8 @@ IDBObjectStore
 -
 keyPath
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#dom-idbindex-keypath
@@ -1995,8 +2060,8 @@ IDBIndex
 -
 keyPath
 dict-member
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstoreparameters-keypath
@@ -2006,8 +2071,8 @@ IDBObjectStoreParameters
 -
 keyPath
 argument
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-createindex-name-keypath-options-keypath
@@ -2018,8 +2083,8 @@ IDBObjectStore/createIndex(name, keyPath)
 -
 keyPath
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbobjectstore-keypath
@@ -2029,8 +2094,8 @@ IDBObjectStore
 -
 keyPath
 attribute
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#dom-idbindex-keypath
@@ -2150,8 +2215,8 @@ CSSKeyframeRule
 -
 key_ops
 dict-member
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dom-jsonwebkey-key_ops
@@ -2161,8 +2226,8 @@ JsonWebKey
 -
 keyalgorithm
 dfn
-WebCryptoAPI
-WebCryptoAPI
+webcryptoapi
+webcryptoapi
 1
 snapshot
 https://www.w3.org/TR/WebCryptoAPI/#dfn-KeyAlgorithm
@@ -2555,6 +2620,16 @@ https://w3c.github.io/performance-timeline/#dfn-keyed
 
 1
 -
+keyed
+dfn
+performance-timeline-2
+performance-timeline
+2
+snapshot
+https://www.w3.org/TR/performance-timeline-2/#dfn-keyed
+
+1
+-
 keyframe
 dfn
 web-animations-1
@@ -2836,8 +2911,8 @@ https://www.w3.org/TR/webdriver2/#dfn-keypress-event
 -
 keys
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 current
 https://w3c.github.io/IndexedDB/#index-keys
@@ -2847,8 +2922,8 @@ index
 -
 keys
 dfn
-IndexedDB-3
-IndexedDB
+indexeddb-3
+indexeddb
 3
 snapshot
 https://www.w3.org/TR/IndexedDB-3/#index-keys
@@ -3177,8 +3252,8 @@ CSS
 -
 keyword-source
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 current
 https://w3c.github.io/webappsec-csp/#grammardef-keyword-source
@@ -3187,8 +3262,8 @@ https://w3c.github.io/webappsec-csp/#grammardef-keyword-source
 -
 keyword-source
 grammar
-CSP3
-CSP
+csp3
+csp
 3
 snapshot
 https://www.w3.org/TR/CSP3/#grammardef-keyword-source

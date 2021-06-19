@@ -1,5 +1,5 @@
 [[kindsAccessibleMap]]
-idl
+attribute
 mediacapture-streams
 mediacapture-streams
 1
@@ -9,7 +9,7 @@ https://w3c.github.io/mediacapture-main/#dfn-kindsaccessiblemap
 1
 -
 [[kindsAccessibleMap]]
-idl
+attribute
 mediacapture-streams
 mediacapture-streams
 1
@@ -225,8 +225,8 @@ ModuleImportDescriptor
 -
 kind
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#default-iterator-object-kind
@@ -236,8 +236,8 @@ default iterator object
 -
 kind
 dfn
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#default-asynchronous-iterator-object-kind

@@ -85,6 +85,28 @@ https://www.w3.org/TR/webgpu/#dom-gpupowerpreference-high-performance
 1
 GPUPowerPreference
 -
+"high-performance"
+enum-value
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlpowerpreference-high-performance
+1
+1
+MLPowerPreference
+-
+"high-performance"
+enum-value
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlpowerpreference-high-performance
+1
+1
+MLPowerPreference
+-
 "highpass"
 enum-value
 webaudio
@@ -253,7 +275,6 @@ current
 https://wicg.github.io/webhid/#dom-hiddevicefilter
 1
 1
-HIDDeviceFilter
 -
 HIDDeviceRequestOptions
 dictionary
@@ -264,7 +285,6 @@ current
 https://wicg.github.io/webhid/#dom-hiddevicerequestoptions
 1
 1
-HIDDeviceRequestOptions
 -
 HIDInputReportEvent
 interface
@@ -319,12 +339,11 @@ current
 https://wicg.github.io/webhid/#dom-hidunitsystem
 1
 1
-HIDUnitSystem
 -
 HIERARCHY_REQUEST_ERR
 const
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#dom-domexception-hierarchy_request_err
@@ -334,8 +353,8 @@ DOMException
 -
 HierarchyRequestError
 exception
-WebIDL-1
-WebIDL
+webidl-1
+webidl
 1
 current
 https://heycam.github.io/webidl/#hierarchyrequesterror
@@ -469,6 +488,46 @@ https://wicg.github.io/webhid/#dom-navigator-hid
 1
 Navigator
 -
+hid blocklist
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-hid-blocklist
+
+1
+-
+hid device task source
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-hid-device-task-source
+
+1
+-
+hid interface
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-hid-interface
+
+
+-
+hid usages
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-hid-usages
+
+1
+-
 hidden
 dfn
 html
@@ -490,24 +549,26 @@ https://html.spec.whatwg.org/multipage/media.html#dom-texttrack-hidden
 1
 -
 hidden
-dfn
+attr-value
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#attr-input-type-hidden-keyword
-
 1
+1
+input/type
 -
 hidden
-dfn
+element-state
 html
 html
 1
 current
 https://html.spec.whatwg.org/multipage/input.html#hidden-state-(type=hidden)
-
 1
+1
+input
 -
 hidden
 element-attr
@@ -655,8 +716,8 @@ overflow-y
 -
 hidden
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#value-def-hidden
@@ -671,8 +732,8 @@ border-style
 -
 hidden
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-overflow-hidden
@@ -682,8 +743,8 @@ overflow
 -
 hidden
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-visibility-hidden
@@ -693,8 +754,8 @@ visibility
 -
 hidden
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#value-def-hidden
@@ -709,8 +770,8 @@ border-style
 -
 hidden
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-overflow-hidden
@@ -720,8 +781,8 @@ overflow
 -
 hidden
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-visibility-hidden
@@ -967,6 +1028,78 @@ https://html.spec.whatwg.org/multipage/interactive-elements.html#command-facet-h
 
 1
 -
+hiddenSize
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-gru-input-weight-recurrentweight-steps-hiddensize-options-hiddensize
+1
+1
+MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize, options)
+MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize)
+-
+hiddenSize
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-grucell-input-weight-recurrentweight-hiddenstate-hiddensize-options-hiddensize
+1
+1
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize, options)
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize)
+-
+hiddenSize
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-gru-input-weight-recurrentweight-steps-hiddensize-options-hiddensize
+1
+1
+MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize, options)
+MLGraphBuilder/gru(input, weight, recurrentWeight, steps, hiddenSize)
+-
+hiddenSize
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-grucell-input-weight-recurrentweight-hiddenstate-hiddensize-options-hiddensize
+1
+1
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize, options)
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize)
+-
+hiddenState
+argument
+webnn
+webnn
+1
+current
+https://webmachinelearning.github.io/webnn/#dom-mlgraphbuilder-grucell-input-weight-recurrentweight-hiddenstate-hiddensize-options-hiddenstate
+1
+1
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize, options)
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize)
+-
+hiddenState
+argument
+webnn
+webnn
+1
+snapshot
+https://www.w3.org/TR/webnn/#dom-mlgraphbuilder-grucell-input-weight-recurrentweight-hiddenstate-hiddensize-options-hiddenstate
+1
+1
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize, options)
+MLGraphBuilder/gruCell(input, weight, recurrentWeight, hiddenState, hiddenSize)
+-
 hide
 dfn
 css-ruby-1
@@ -989,8 +1122,8 @@ https://www.w3.org/TR/css-ruby-1/#hidden-annotation
 -
 hide
 value
-CSS21
-CSS
+css21
+css
 2.1
 current
 https://drafts.csswg.org/css2/#valdef-empty-cells-hide
@@ -1000,8 +1133,8 @@ empty-cells
 -
 hide
 value
-CSS22
-CSS
+css22
+css
 2.2
 current
 https://drafts.csswg.org/css2/#valdef-empty-cells-hide
@@ -1016,26 +1149,6 @@ html
 1
 current
 https://html.spec.whatwg.org/multipage/grouping-content.html#hierarchically-correct-main-element
-
-1
--
-hierarchy_request_err
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#dom-domexception-hierarchy_request_err
-
-1
--
-hierarchyrequesterror
-dfn
-WebIDL-1
-WebIDL
-1
-snapshot
-https://www.w3.org/TR/WebIDL-1/#hierarchyrequesterror
 
 1
 -
@@ -1775,8 +1888,8 @@ https://immersive-web.github.io/hit-test/#hit-test
 -
 hit-testing
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 current
 https://svgwg.org/svg2-draft/interact.html#TermHitTesting
@@ -1785,8 +1898,8 @@ https://svgwg.org/svg2-draft/interact.html#TermHitTesting
 -
 hit-testing
 dfn
-SVG2
-SVG
+svg2
+svg
 2
 snapshot
 https://www.w3.org/TR/SVG2/interact.html#TermHitTesting

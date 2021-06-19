@@ -32,6 +32,16 @@ https://immersive-web.github.io/webxr/#dom-permissionname-xr-session-supported
 PermissionName
 -
 "xr-standard"
+dfn
+gamepad
+gamepad
+1
+current
+https://w3c.github.io/gamepad/#dfn-xr-standard
+
+1
+-
+"xr-standard"
 enum-value
 webxr-gamepads-module-1
 webxr-gamepads-module
