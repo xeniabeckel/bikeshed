@@ -973,7 +973,7 @@ handlers on elements, <code>Document</code> objects, and <code>Window</code> obj
 	according to the CSS cascade (<a data-link-type="biblio" href="#biblio-css3cascade">[CSS3CASCADE]</a>).</p>
    <p>While an animation is applied but has not finished, or has finished but has
 	an <a class="property" data-link-type="propdesc" href="#propdef-animation-fill-mode" id="ref-for-propdef-animation-fill-mode①">animation-fill-mode</a> of <a class="css" data-link-type="maybe" href="#valdef-animation-fill-mode-forwards" id="ref-for-valdef-animation-fill-mode-forwards">forwards</a> or <a class="css" data-link-type="maybe" href="#valdef-animation-fill-mode-both" id="ref-for-valdef-animation-fill-mode-both">both</a>, the user agent must act
-	as if the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-will-change-1/#propdef-will-change" id="ref-for-propdef-will-change">will-change</a> property (<a data-link-type="biblio" href="#biblio-css-will-change-1">[css-will-change-1]</a>) on the element
+	as if the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-will-change/#propdef-will-change" id="ref-for-propdef-will-change">will-change</a> property (<a data-link-type="biblio" href="#biblio-css-will-change-1">[css-will-change-1]</a>) on the element
 	additionally includes all the properties animated by the animation.</p>
    <p>The start time of an animation is the time at which the style applying
 	the animation and the corresponding @keyframes rule are both resolved.
@@ -1037,10 +1037,10 @@ handlers on elements, <code>Document</code> objects, and <code>Window</code> obj
 		(100px, 100px) over five seconds and repeats itself nine times
 		(for a total of ten iterations).</p>
    </div>
-   <p>Setting the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-display" id="ref-for-propdef-display">display</a> property to <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display-3/#valdef-display-none" id="ref-for-valdef-display-none">none</a> will terminate any running animation applied
-	to the element and its descendants. If an element has a <span class="property" id="ref-for-propdef-display①">display</span> of <span class="css" id="ref-for-valdef-display-none①">none</span>, updating <span class="property" id="ref-for-propdef-display②">display</span> to a value other than <span class="css" id="ref-for-valdef-display-none②">none</span> will start all animations applied to the element
+   <p>Setting the <a class="property" data-link-type="propdesc">display</a> property to <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display/#valdef-display-none" id="ref-for-valdef-display-none">none</a> will terminate any running animation applied
+	to the element and its descendants. If an element has a <span class="property">display</span> of <span class="css" id="ref-for-valdef-display-none①">none</span>, updating <span class="property">display</span> to a value other than <span class="css" id="ref-for-valdef-display-none②">none</span> will start all animations applied to the element
 	by the <a class="property" data-link-type="propdesc" href="#propdef-animation-name" id="ref-for-propdef-animation-name⑦">animation-name</a> property, as well as all animations applied to descendants
-	with <span class="property" id="ref-for-propdef-display③">display</span> other than <span class="css" id="ref-for-valdef-display-none③">none</span>.</p>
+	with <span class="property">display</span> other than <span class="css" id="ref-for-valdef-display-none③">none</span>.</p>
    <p>While authors can use animations to create dynamically changing content, dynamically
 	changing content can lead to seizures in some users. For information on how to avoid
 	content that can lead to seizures, see Guideline 2.3: Seizures: Do not design content
@@ -1069,16 +1069,16 @@ handlers on elements, <code>Document</code> objects, and <code>Window</code> obj
 	the animation may iterate zero or more times.</p>
    <p>Keyframes are specified using the <dfn class="dfn-paneled css" data-dfn-type="at-rule" data-export id="at-ruledef-keyframes">@keyframes</dfn> at-rule,
 	defined as follows:</p>
-<pre>@keyframes = @keyframes <a class="production" data-link-type="type" href="#typedef-keyframes-name" id="ref-for-typedef-keyframes-name">&lt;keyframes-name></a> { <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-syntax-3/#typedef-rule-list" id="ref-for-typedef-rule-list">&lt;rule-list></a> }
+<pre>@keyframes = @keyframes <a class="production" data-link-type="type" href="#typedef-keyframes-name" id="ref-for-typedef-keyframes-name">&lt;keyframes-name></a> { <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-syntax/#typedef-rule-list" id="ref-for-typedef-rule-list">&lt;rule-list></a> }
 
 <dfn class="dfn-paneled" data-dfn-type="type" data-export id="typedef-keyframes-name">&lt;keyframes-name></dfn> = <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#identifier-value" id="ref-for-identifier-value">&lt;custom-ident></a> | <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#string-value" id="ref-for-string-value">&lt;string></a>
 
-<dfn class="dfn-paneled" data-dfn-type="type" data-export id="typedef-keyframe-block">&lt;keyframe-block></dfn> = <a class="production" data-link-type="type" href="#typedef-keyframe-selector" id="ref-for-typedef-keyframe-selector">&lt;keyframe-selector></a># { <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-syntax-3/#typedef-declaration-list" id="ref-for-typedef-declaration-list">&lt;declaration-list></a> }
+<dfn class="dfn-paneled" data-dfn-type="type" data-export id="typedef-keyframe-block">&lt;keyframe-block></dfn> = <a class="production" data-link-type="type" href="#typedef-keyframe-selector" id="ref-for-typedef-keyframe-selector">&lt;keyframe-selector></a># { <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-syntax/#typedef-declaration-list" id="ref-for-typedef-declaration-list">&lt;declaration-list></a> }
 
 <dfn class="dfn-paneled" data-dfn-type="type" data-export id="typedef-keyframe-selector">&lt;keyframe-selector></dfn> = from | to | <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#percentage-value" id="ref-for-percentage-value">&lt;percentage></a>
 </pre>
-   <p>The <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-syntax-3/#typedef-rule-list" id="ref-for-typedef-rule-list①">&lt;rule-list></a> inside of <a class="css" data-link-type="maybe" href="#at-ruledef-keyframes" id="ref-for-at-ruledef-keyframes">@keyframes</a> can only contain <a class="production css" data-link-type="type" href="#typedef-keyframe-block" id="ref-for-typedef-keyframe-block">&lt;keyframe-block></a> rules.</p>
-   <p>The <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-syntax-3/#typedef-declaration-list" id="ref-for-typedef-declaration-list①">&lt;declaration-list></a> inside of <a class="production css" data-link-type="type" href="#typedef-keyframe-block" id="ref-for-typedef-keyframe-block①">&lt;keyframe-block></a> accepts any CSS property
+   <p>The <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-syntax/#typedef-rule-list" id="ref-for-typedef-rule-list①">&lt;rule-list></a> inside of <a class="css" data-link-type="maybe" href="#at-ruledef-keyframes" id="ref-for-at-ruledef-keyframes">@keyframes</a> can only contain <a class="production css" data-link-type="type" href="#typedef-keyframe-block" id="ref-for-typedef-keyframe-block">&lt;keyframe-block></a> rules.</p>
+   <p>The <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-syntax/#typedef-declaration-list" id="ref-for-typedef-declaration-list①">&lt;declaration-list></a> inside of <a class="production css" data-link-type="type" href="#typedef-keyframe-block" id="ref-for-typedef-keyframe-block①">&lt;keyframe-block></a> accepts any CSS property
 	except those defined in this specification,
 	but <em>does</em> accept the <a class="property" data-link-type="propdesc" href="#propdef-animation-timing-function" id="ref-for-propdef-animation-timing-function">animation-timing-function</a> property
 	and interprets it specially.
@@ -1201,7 +1201,7 @@ as illustrated below:</p>
 }
 </pre>
     <p>Four keyframes are specified for the animation named "wobble". In the first keyframe,
-		shown at the beginning of the animation cycle, the value of the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position-3/#propdef-left" id="ref-for-propdef-left">left</a> property being
+		shown at the beginning of the animation cycle, the value of the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position/#propdef-left" id="ref-for-propdef-left">left</a> property being
 		animated is <span class="css">100px</span>. By 40% of the animation duration, <span class="property" id="ref-for-propdef-left①">left</span> has animated to <span class="css">150px</span>.
 		At 60% of the animation duration, <span class="property" id="ref-for-propdef-left②">left</span> has animated back to <span class="css">75px</span>. At the end of the
 		animation cycle, the value of <span class="property" id="ref-for-propdef-left③">left</span> has returned to <span class="css">100px</span>. The diagram below shows
@@ -1286,7 +1286,7 @@ as illustrated below:</p>
 	used. If one of the other properties doesn’t have enough comma-separated values to match the number of
 	values of <span class="property" id="ref-for-propdef-animation-name①①">animation-name</span>, the UA must calculate its used value by repeating the list of values until
 	there are enough. This truncation or repetition does not affect the computed value.</p>
-   <p class="note" role="note"><span>Note:</span> This is analogous to the behavior of the <a class="property" data-link-type="propdesc">background-*</a> properties, with <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image" id="ref-for-propdef-background-image">background-image</a> analogous to <a class="property" data-link-type="propdesc" href="#propdef-animation-name" id="ref-for-propdef-animation-name①②">animation-name</a>.</p>
+   <p class="note" role="note"><span>Note:</span> This is analogous to the behavior of the <a class="property" data-link-type="propdesc">background-*</a> properties, with <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-background-image" id="ref-for-propdef-background-image">background-image</a> analogous to <a class="property" data-link-type="propdesc" href="#propdef-animation-name" id="ref-for-propdef-animation-name①②">animation-name</a>.</p>
    <table class="def propdef" data-link-for-hint="animation-name">
     <tbody>
      <tr>
@@ -1309,7 +1309,7 @@ as illustrated below:</p>
       <td>N/A 
      <tr>
       <th><a href="https://www.w3.org/TR/css-cascade/#computed">Computed value:</a>
-      <td>list, each item either a case-sensitive <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#identifier" id="ref-for-identifier">css identifier</a> or the keyword <a class="css" data-link-type="maybe" href="#valdef-animation-name-none" id="ref-for-valdef-animation-name-none①">none</a> 
+      <td>list, each item either a case-sensitive <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#identifier" id="ref-for-identifier">css identifier</a> or the keyword <a class="css" data-link-type="maybe" href="#valdef-animation-name-none" id="ref-for-valdef-animation-name-none①">none</a> 
      <tr>
       <th>Canonical order:
       <td>per grammar 
@@ -1413,13 +1413,13 @@ If <span class="property" id="ref-for-propdef-animation-fill-mode④">animation-
    <p>The <a class="property" data-link-type="propdesc" href="#propdef-animation-timing-function" id="ref-for-propdef-animation-timing-function④">animation-timing-function</a> property describes how the animation will
 	progress between each pair of keyframes.
 	Timing functions are defined in the separate CSS Easing Functions module <a data-link-type="biblio" href="#biblio-css-easing-1">[css-easing-1]</a>.</p>
-   <p>The <a data-link-type="dfn" href="https://drafts.csswg.org/css-easing-1/#input-progress-value" id="ref-for-input-progress-value">input progress value</a> used is the percentage
+   <p>The <a data-link-type="dfn" href="https://drafts.csswg.org/css-easing/#input-progress-value" id="ref-for-input-progress-value">input progress value</a> used is the percentage
 	of the time elapsed between the current keyframe and the next keyframe <em>after</em> incorporating the effect of the <a class="property" data-link-type="propdesc" href="#propdef-animation-direction" id="ref-for-propdef-animation-direction②">animation-direction</a> property.</p>
    <p>During the <a class="property" data-link-type="propdesc" href="#propdef-animation-delay" id="ref-for-propdef-animation-delay④">animation-delay</a>, the <a class="property" data-link-type="propdesc" href="#propdef-animation-timing-function" id="ref-for-propdef-animation-timing-function⑤">animation-timing-function</a> is not applied.</p>
-   <p class="note" role="note"><span>Note:</span> This definition is necessary because otherwise a <a data-link-type="dfn" href="https://drafts.csswg.org/css-easing-1/#step-easing-function" id="ref-for-step-easing-function">step
-	easing function</a> with a <a data-link-type="dfn" href="https://drafts.csswg.org/css-easing-1/#step-position" id="ref-for-step-position">step position</a> of <a class="css" data-link-type="value" href="https://drafts.csswg.org/css-easing-1/#valdef-steps-start" id="ref-for-valdef-steps-start">start</a> would produce a backwards fill equal
+   <p class="note" role="note"><span>Note:</span> This definition is necessary because otherwise a <a data-link-type="dfn" href="https://drafts.csswg.org/css-easing/#step-easing-function" id="ref-for-step-easing-function">step
+	easing function</a> with a <a data-link-type="dfn" href="https://drafts.csswg.org/css-easing/#step-position" id="ref-for-step-position">step position</a> of <a class="css" data-link-type="value" href="https://drafts.csswg.org/css-easing/#valdef-steps-start" id="ref-for-valdef-steps-start">start</a> would produce a backwards fill equal
 	to the top of the first step in the function.</p>
-   <p>The <a data-link-type="dfn" href="https://drafts.csswg.org/css-easing-1/#output-progress-value" id="ref-for-output-progress-value">output progress value</a> is used as the <var>p</var> value when interpolating the property values between the
+   <p>The <a data-link-type="dfn" href="https://drafts.csswg.org/css-easing/#output-progress-value" id="ref-for-output-progress-value">output progress value</a> is used as the <var>p</var> value when interpolating the property values between the
 	current and next keyframe.</p>
    <table class="def propdef" data-link-for-hint="animation-timing-function">
     <tbody>
@@ -1428,7 +1428,7 @@ If <span class="property" id="ref-for-propdef-animation-fill-mode④">animation-
       <td><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-animation-timing-function">animation-timing-function</dfn>
      <tr class="value">
       <th><a href="https://www.w3.org/TR/css-values/#value-defs">Value:</a>
-      <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-easing-1/#typedef-easing-function" id="ref-for-typedef-easing-function">&lt;easing-function></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-comma" id="ref-for-mult-comma②">#</a> 
+      <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-easing/#typedef-easing-function" id="ref-for-typedef-easing-function">&lt;easing-function></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-comma" id="ref-for-mult-comma②">#</a> 
      <tr>
       <th><a href="https://www.w3.org/TR/css-cascade/#initial-values">Initial:</a>
       <td>ease 
@@ -1443,7 +1443,7 @@ If <span class="property" id="ref-for-propdef-animation-fill-mode④">animation-
       <td>N/A 
      <tr>
       <th><a href="https://www.w3.org/TR/css-cascade/#computed">Computed value:</a>
-      <td>list, each item a computed <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-easing-1/#typedef-easing-function" id="ref-for-typedef-easing-function①">&lt;easing-function></a> 
+      <td>list, each item a computed <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-easing/#typedef-easing-function" id="ref-for-typedef-easing-function①">&lt;easing-function></a> 
      <tr>
       <th>Canonical order:
       <td>per grammar 
@@ -1544,7 +1544,7 @@ If <span class="property" id="ref-for-propdef-animation-fill-mode④">animation-
    </div>
    <p>The <a class="property" data-link-type="propdesc" href="#propdef-animation-direction" id="ref-for-propdef-animation-direction⑤">animation-direction</a> property defines whether or not the animation should play in reverse
 	on some or all cycles. When an animation is played in reverse the timing functions are also
-	reversed. For example, when played in reverse an <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-easing-1/#valdef-cubic-bezier-easing-function-ease-in" id="ref-for-valdef-cubic-bezier-easing-function-ease-in">ease-in</a> animation would appear to be an <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-easing-1/#valdef-cubic-bezier-easing-function-ease-out" id="ref-for-valdef-cubic-bezier-easing-function-ease-out">ease-out</a> animation.</p>
+	reversed. For example, when played in reverse an <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-easing/#valdef-cubic-bezier-easing-function-ease-in" id="ref-for-valdef-cubic-bezier-easing-function-ease-in">ease-in</a> animation would appear to be an <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-easing/#valdef-cubic-bezier-easing-function-ease-out" id="ref-for-valdef-cubic-bezier-easing-function-ease-out">ease-out</a> animation.</p>
    <table class="def propdef" data-link-for-hint="animation-direction">
     <tbody>
      <tr>
@@ -1845,7 +1845,7 @@ If <span class="property" id="ref-for-propdef-animation-fill-mode④">animation-
       <th><a href="https://www.w3.org/TR/web-animations/#animation-type">Animation type:</a>
       <td>not animatable 
    </table>
-   <p><dfn class="dfn-paneled css" data-dfn-type="type" data-export id="typedef-single-animation">&lt;single-animation></dfn> = <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#time-value" id="ref-for-time-value⑧" title="Expands to: ms | s">&lt;time></a> || <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-easing-1/#typedef-easing-function" id="ref-for-typedef-easing-function②">&lt;easing-function></a> || <span class="production" id="ref-for-time-value⑨" title="Expands to: ms | s">&lt;time></span> || <a class="production css" data-link-type="type" href="#typedef-single-animation-iteration-count" id="ref-for-typedef-single-animation-iteration-count①">&lt;single-animation-iteration-count></a> || <a class="production css" data-link-type="type" href="#typedef-single-animation-direction" id="ref-for-typedef-single-animation-direction①">&lt;single-animation-direction></a> || <a class="production css" data-link-type="type" href="#typedef-single-animation-fill-mode" id="ref-for-typedef-single-animation-fill-mode①">&lt;single-animation-fill-mode></a> || <a class="production css" data-link-type="type" href="#typedef-single-animation-play-state" id="ref-for-typedef-single-animation-play-state①">&lt;single-animation-play-state></a> || [ none | <a class="production css" data-link-type="type" href="#typedef-keyframes-name" id="ref-for-typedef-keyframes-name④">&lt;keyframes-name></a> ]</p>
+   <p><dfn class="dfn-paneled css" data-dfn-type="type" data-export id="typedef-single-animation">&lt;single-animation></dfn> = <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#time-value" id="ref-for-time-value⑧" title="Expands to: ms | s">&lt;time></a> || <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-easing/#typedef-easing-function" id="ref-for-typedef-easing-function②">&lt;easing-function></a> || <span class="production" id="ref-for-time-value⑨" title="Expands to: ms | s">&lt;time></span> || <a class="production css" data-link-type="type" href="#typedef-single-animation-iteration-count" id="ref-for-typedef-single-animation-iteration-count①">&lt;single-animation-iteration-count></a> || <a class="production css" data-link-type="type" href="#typedef-single-animation-direction" id="ref-for-typedef-single-animation-direction①">&lt;single-animation-direction></a> || <a class="production css" data-link-type="type" href="#typedef-single-animation-fill-mode" id="ref-for-typedef-single-animation-fill-mode①">&lt;single-animation-fill-mode></a> || <a class="production css" data-link-type="type" href="#typedef-single-animation-play-state" id="ref-for-typedef-single-animation-play-state①">&lt;single-animation-play-state></a> || [ none | <a class="production css" data-link-type="type" href="#typedef-keyframes-name" id="ref-for-typedef-keyframes-name④">&lt;keyframes-name></a> ]</p>
    <p>Note that order is important within each animation definition: the first value in each <a class="production css" data-link-type="type" href="#typedef-single-animation" id="ref-for-typedef-single-animation①">&lt;single-animation></a> that can be parsed as a <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#time-value" id="ref-for-time-value①⓪" title="Expands to: ms | s">&lt;time></a> is assigned to the <a class="property" data-link-type="propdesc" href="#propdef-animation-duration" id="ref-for-propdef-animation-duration④">animation-duration</a>,
 	and the second value in each <span class="production" id="ref-for-typedef-single-animation②">&lt;single-animation></span> that can be parsed as a <span class="production" id="ref-for-time-value①①" title="Expands to: ms | s">&lt;time></span> is assigned to <a class="property" data-link-type="propdesc" href="#propdef-animation-delay" id="ref-for-propdef-animation-delay⑨">animation-delay</a>.</p>
    <p>Note that order is also important within each animation definition for distinguishing <a class="production css" data-link-type="type" href="#typedef-keyframes-name" id="ref-for-typedef-keyframes-name⑤">&lt;keyframes-name></a> values from other keywords. When parsing, keywords that are valid for
@@ -1906,15 +1906,15 @@ If <span class="property" id="ref-for-propdef-animation-fill-mode④">animation-
    </div>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed" id="ref-for-Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
 <c- b>interface</c-> <dfn class="idl-code" data-dfn-type="interface" data-export id="animationevent"><code><c- g>AnimationEvent</c-></code><a class="self-link" href="#animationevent"></a></dfn> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#event" id="ref-for-event"><c- n>Event</c-></a> {
-  <dfn class="idl-code" data-dfn-for="AnimationEvent" data-dfn-type="constructor" data-export data-lt="AnimationEvent(type, animationEventInitDict)|constructor(type, animationEventInitDict)|AnimationEvent(type)|constructor(type)" id="dom-animationevent-animationevent"><code><c- g>constructor</c-></code><a class="self-link" href="#dom-animationevent-animationevent"></a></dfn>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-dfn-for="AnimationEvent/AnimationEvent(type, animationEventInitDict), AnimationEvent/constructor(type, animationEventInitDict), AnimationEvent/AnimationEvent(type), AnimationEvent/constructor(type)" data-dfn-type="argument" data-export id="dom-animationevent-animationevent-type-animationeventinitdict-type"><code><c- g>type</c-></code><a class="self-link" href="#dom-animationevent-animationevent-type-animationeventinitdict-type"></a></dfn>, <c- b>optional</c-> <a data-link-type="idl-name" href="#dictdef-animationeventinit" id="ref-for-dictdef-animationeventinit"><c- n>AnimationEventInit</c-></a> <dfn class="idl-code" data-dfn-for="AnimationEvent/AnimationEvent(type, animationEventInitDict), AnimationEvent/constructor(type, animationEventInitDict), AnimationEvent/AnimationEvent(type), AnimationEvent/constructor(type)" data-dfn-type="argument" data-export id="dom-animationevent-animationevent-type-animationeventinitdict-animationeventinitdict"><code><c- g>animationEventInitDict</c-></code><a class="self-link" href="#dom-animationevent-animationevent-type-animationeventinitdict-animationeventinitdict"></a></dfn> = {});
-  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring①"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSOMString" href="#dom-animationevent-animationname" id="ref-for-dom-animationevent-animationname"><c- g>animationName</c-></a>;
+  <dfn class="idl-code" data-dfn-for="AnimationEvent" data-dfn-type="constructor" data-export data-lt="AnimationEvent(type, animationEventInitDict)|constructor(type, animationEventInitDict)|AnimationEvent(type)|constructor(type)" id="dom-animationevent-animationevent"><code><c- g>constructor</c-></code><a class="self-link" href="#dom-animationevent-animationevent"></a></dfn>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-dfn-for="AnimationEvent/AnimationEvent(type, animationEventInitDict), AnimationEvent/constructor(type, animationEventInitDict), AnimationEvent/AnimationEvent(type), AnimationEvent/constructor(type)" data-dfn-type="argument" data-export id="dom-animationevent-animationevent-type-animationeventinitdict-type"><code><c- g>type</c-></code><a class="self-link" href="#dom-animationevent-animationevent-type-animationeventinitdict-type"></a></dfn>, <c- b>optional</c-> <a data-link-type="idl-name" href="#dictdef-animationeventinit" id="ref-for-dictdef-animationeventinit"><c- n>AnimationEventInit</c-></a> <dfn class="idl-code" data-dfn-for="AnimationEvent/AnimationEvent(type, animationEventInitDict), AnimationEvent/constructor(type, animationEventInitDict), AnimationEvent/AnimationEvent(type), AnimationEvent/constructor(type)" data-dfn-type="argument" data-export id="dom-animationevent-animationevent-type-animationeventinitdict-animationeventinitdict"><code><c- g>animationEventInitDict</c-></code><a class="self-link" href="#dom-animationevent-animationevent-type-animationeventinitdict-animationeventinitdict"></a></dfn> = {});
+  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring①"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSOMString" href="#dom-animationevent-animationname" id="ref-for-dom-animationevent-animationname"><c- g>animationName</c-></a>;
   <c- b>readonly</c-> <c- b>attribute</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double"><c- b>double</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="double" href="#dom-animationevent-elapsedtime" id="ref-for-dom-animationevent-elapsedtime"><c- g>elapsedTime</c-></a>;
-  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring②"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSOMString" href="#dom-animationevent-pseudoelement" id="ref-for-dom-animationevent-pseudoelement"><c- g>pseudoElement</c-></a>;
+  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring②"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSOMString" href="#dom-animationevent-pseudoelement" id="ref-for-dom-animationevent-pseudoelement"><c- g>pseudoElement</c-></a>;
 };
 <c- b>dictionary</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="dictionary" data-export id="dictdef-animationeventinit"><code><c- g>AnimationEventInit</c-></code></dfn> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#dictdef-eventinit" id="ref-for-dictdef-eventinit"><c- n>EventInit</c-></a> {
-  <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring③"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-default="&quot;&quot;" data-dfn-for="AnimationEventInit" data-dfn-type="dict-member" data-export data-type="CSSOMString " id="dom-animationeventinit-animationname"><code><c- g>animationName</c-></code><a class="self-link" href="#dom-animationeventinit-animationname"></a></dfn> = "";
+  <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring③"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-default="&quot;&quot;" data-dfn-for="AnimationEventInit" data-dfn-type="dict-member" data-export data-type="CSSOMString " id="dom-animationeventinit-animationname"><code><c- g>animationName</c-></code><a class="self-link" href="#dom-animationeventinit-animationname"></a></dfn> = "";
   <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-double" id="ref-for-idl-double①"><c- b>double</c-></a> <dfn class="idl-code" data-default="0.0" data-dfn-for="AnimationEventInit" data-dfn-type="dict-member" data-export data-type="double " id="dom-animationeventinit-elapsedtime"><code><c- g>elapsedTime</c-></code><a class="self-link" href="#dom-animationeventinit-elapsedtime"></a></dfn> = 0.0;
-  <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring④"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-default="&quot;&quot;" data-dfn-for="AnimationEventInit" data-dfn-type="dict-member" data-export data-type="CSSOMString " id="dom-animationeventinit-pseudoelement"><code><c- g>pseudoElement</c-></code><a class="self-link" href="#dom-animationeventinit-pseudoelement"></a></dfn> = "";
+  <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring④"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-default="&quot;&quot;" data-dfn-for="AnimationEventInit" data-dfn-type="dict-member" data-export data-type="CSSOMString " id="dom-animationeventinit-pseudoelement"><code><c- g>pseudoElement</c-></code><a class="self-link" href="#dom-animationeventinit-pseudoelement"></a></dfn> = "";
 };
 </pre>
    <h4 class="heading settled" data-level="4.1.2" id="interface-animationevent-attributes"><span class="secno">4.1.2. </span><span class="content"> Attributes</span><a class="self-link" href="#interface-animationevent-attributes"></a></h4>
@@ -1936,7 +1936,7 @@ If <span class="property" id="ref-for-propdef-animation-fill-mode④">animation-
        </div>
       </div>
      </div>
-     <dfn class="dfn-paneled idl-code" data-dfn-for="AnimationEvent" data-dfn-type="attribute" data-export id="dom-animationevent-animationname"><code>animationName</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring⑤">CSSOMString</a>, readonly</span>
+     <dfn class="dfn-paneled idl-code" data-dfn-for="AnimationEvent" data-dfn-type="attribute" data-export id="dom-animationevent-animationname"><code>animationName</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring⑤">CSSOMString</a>, readonly</span>
     <dd> The value of the <a class="property" data-link-type="propdesc" href="#propdef-animation-name" id="ref-for-propdef-animation-name②⑤">animation-name</a> property of the animation that fired the event. 
     <dt>
      <div class="mdn-anno wrapped">
@@ -1976,7 +1976,7 @@ If <span class="property" id="ref-for-propdef-animation-fill-mode④">animation-
        </div>
       </div>
      </div>
-     <dfn class="dfn-paneled idl-code" data-dfn-for="AnimationEvent" data-dfn-type="attribute" data-export id="dom-animationevent-pseudoelement"><code>pseudoElement</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring⑥">CSSOMString</a>, readonly</span>
+     <dfn class="dfn-paneled idl-code" data-dfn-for="AnimationEvent" data-dfn-type="attribute" data-export id="dom-animationevent-pseudoelement"><code>pseudoElement</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring⑥">CSSOMString</a>, readonly</span>
     <dd> The name (beginning with two colons) of the CSS pseudo-element on which the animation
 			runs (in which case the target of the event is that pseudo-element’s corresponding
 			element), or the empty string if the animation runs on an element (which means the
@@ -2310,10 +2310,10 @@ attributes</a>; and that must be supported by all <code class="idl"><a data-link
    <p>CSS animations are exposed to the CSSOM through a pair of new interfaces describing the keyframes.</p>
    <p class="note" role="note"><span>Note:</span> the interfaces defined below reflect the interoperable API available as of this level of the specification. Future levels may deprecate parts of this API and extend others.</p>
    <h3 class="heading settled" data-level="5.1" id="interface-cssrule"><span class="secno">5.1. </span><span class="content"> The <code>CSSRule</code> Interface</span><a class="self-link" href="#interface-cssrule"></a></h3>
-   <p>The following two rule types are added to the <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom-1/#cssrule" id="ref-for-cssrule">CSSRule</a></code> interface. They provide
+   <p>The following two rule types are added to the <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom/#cssrule" id="ref-for-cssrule">CSSRule</a></code> interface. They provide
 	identification for the new keyframe and keyframes rules.</p>
    <h4 class="heading settled" data-level="5.1.1" id="interface-cssrule-idl"><span class="secno">5.1.1. </span><span class="content"> IDL Definition</span><a class="self-link" href="#interface-cssrule-idl"></a></h4>
-<pre class="idl highlight def"><c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://drafts.csswg.org/cssom-1/#cssrule" id="ref-for-cssrule①"><c- g>CSSRule</c-></a> {
+<pre class="idl highlight def"><c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://drafts.csswg.org/cssom/#cssrule" id="ref-for-cssrule①"><c- g>CSSRule</c-></a> {
     <c- b>const</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-short" id="ref-for-idl-unsigned-short"><c- b>unsigned</c-> <c- b>short</c-></a> <dfn class="idl-code" data-dfn-for="CSSRule" data-dfn-type="const" data-export id="dom-cssrule-keyframes_rule"><code><c- g>KEYFRAMES_RULE</c-></code><a class="self-link" href="#dom-cssrule-keyframes_rule"></a></dfn> = 7;
     <c- b>const</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-short" id="ref-for-idl-unsigned-short①"><c- b>unsigned</c-> <c- b>short</c-></a> <dfn class="idl-code" data-dfn-for="CSSRule" data-dfn-type="const" data-export id="dom-cssrule-keyframe_rule"><code><c- g>KEYFRAME_RULE</c-></code><a class="self-link" href="#dom-cssrule-keyframe_rule"></a></dfn> = 8;
 };
@@ -2338,9 +2338,9 @@ attributes</a>; and that must be supported by all <code class="idl"><a data-link
    <p>The <code class="idl"><a data-link-type="idl" href="#csskeyframerule" id="ref-for-csskeyframerule">CSSKeyframeRule</a></code> interface represents the style rule for a single key.</p>
    <h4 class="heading settled" data-level="5.2.1" id="interface-csskeyframerule-idl"><span class="secno">5.2.1. </span><span class="content"> IDL Definition</span><a class="self-link" href="#interface-csskeyframerule-idl"></a></h4>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed" id="ref-for-Exposed①"><c- g>Exposed</c-></a>=<c- n>Window</c->]
-<c- b>interface</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="csskeyframerule"><code><c- g>CSSKeyframeRule</c-></code></dfn> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssrule" id="ref-for-cssrule②"><c- n>CSSRule</c-></a> {
-  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring⑦"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-type="CSSOMString" href="#dom-csskeyframerule-keytext" id="ref-for-dom-csskeyframerule-keytext"><c- g>keyText</c-></a>;
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#SameObject" id="ref-for-SameObject"><c- g>SameObject</c-></a>, <a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#PutForwards" id="ref-for-PutForwards"><c- g>PutForwards</c-></a>=<a class="idl-code" data-link-type="attribute" href="https://drafts.csswg.org/cssom-1/#dom-cssstyledeclaration-csstext" id="ref-for-dom-cssstyledeclaration-csstext"><c- n>cssText</c-></a>] <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration" id="ref-for-cssstyledeclaration"><c- n>CSSStyleDeclaration</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSStyleDeclaration" href="#dom-csskeyframerule-style" id="ref-for-dom-csskeyframerule-style"><c- g>style</c-></a>;
+<c- b>interface</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="csskeyframerule"><code><c- g>CSSKeyframeRule</c-></code></dfn> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssrule" id="ref-for-cssrule②"><c- n>CSSRule</c-></a> {
+  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring⑦"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-type="CSSOMString" href="#dom-csskeyframerule-keytext" id="ref-for-dom-csskeyframerule-keytext"><c- g>keyText</c-></a>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#SameObject" id="ref-for-SameObject"><c- g>SameObject</c-></a>, <a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#PutForwards" id="ref-for-PutForwards"><c- g>PutForwards</c-></a>=<a class="idl-code" data-link-type="attribute" href="https://drafts.csswg.org/cssom/#dom-cssstyledeclaration-csstext" id="ref-for-dom-cssstyledeclaration-csstext"><c- n>cssText</c-></a>] <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssstyledeclaration" id="ref-for-cssstyledeclaration"><c- n>CSSStyleDeclaration</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSStyleDeclaration" href="#dom-csskeyframerule-style" id="ref-for-dom-csskeyframerule-style"><c- g>style</c-></a>;
 };
 </pre>
    <h4 class="heading settled" data-level="5.2.2" id="interface-csskeyframerule-attributes"><span class="secno">5.2.2. </span><span class="content"> Attributes</span><a class="self-link" href="#interface-csskeyframerule-attributes"></a></h4>
@@ -2362,7 +2362,7 @@ attributes</a>; and that must be supported by all <code class="idl"><a data-link
        </div>
       </div>
      </div>
-     <dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframeRule" data-dfn-type="attribute" data-export id="dom-csskeyframerule-keytext"><code>keyText</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring⑧">CSSOMString</a></span>
+     <dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframeRule" data-dfn-type="attribute" data-export id="dom-csskeyframerule-keytext"><code>keyText</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring⑧">CSSOMString</a></span>
     <dd>
       This attribute represents the keyframe selector as a comma-separated list
       of percentage values. The <span class="css">from</span> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-2/#valdef-shape-to" id="ref-for-valdef-shape-to⑤">to</a> keywords map to 0% and 100%,
@@ -2386,19 +2386,19 @@ attributes</a>; and that must be supported by all <code class="idl"><a data-link
        </div>
       </div>
      </div>
-     <dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframeRule" data-dfn-type="attribute" data-export id="dom-csskeyframerule-style"><code>style</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration" id="ref-for-cssstyledeclaration①">CSSStyleDeclaration</a>, readonly</span>
+     <dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframeRule" data-dfn-type="attribute" data-export id="dom-csskeyframerule-style"><code>style</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssstyledeclaration" id="ref-for-cssstyledeclaration①">CSSStyleDeclaration</a>, readonly</span>
     <dd>
-      Must return a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration" id="ref-for-cssstyledeclaration②">CSSStyleDeclaration</a></code> object for the
+      Must return a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom/#cssstyledeclaration" id="ref-for-cssstyledeclaration②">CSSStyleDeclaration</a></code> object for the
       keyframe rule, with the following properties: 
      <dl>
       <dt><a data-link-type="dfn" href="https://www.w3.org/TR/cssom-1/#cssstyledeclaration-readonly-flag" id="ref-for-cssstyledeclaration-readonly-flag">readonly flag</a>
       <dd>Unset.
-      <dt><a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-declarations" id="ref-for-cssstyledeclaration-declarations">declarations</a>
-      <dd>The declared declarations in the rule, in <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#concept-declarations-specified-order" id="ref-for-concept-declarations-specified-order">specified
+      <dt><a data-link-type="dfn" href="https://drafts.csswg.org/cssom/#cssstyledeclaration-declarations" id="ref-for-cssstyledeclaration-declarations">declarations</a>
+      <dd>The declared declarations in the rule, in <a data-link-type="dfn" href="https://drafts.csswg.org/cssom/#concept-declarations-specified-order" id="ref-for-concept-declarations-specified-order">specified
             order</a>.
-      <dt><a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-parent-css-rule" id="ref-for-cssstyledeclaration-parent-css-rule">parent CSS rule</a>
+      <dt><a data-link-type="dfn" href="https://drafts.csswg.org/cssom/#cssstyledeclaration-parent-css-rule" id="ref-for-cssstyledeclaration-parent-css-rule">parent CSS rule</a>
       <dd>The <a data-link-type="dfn">context object</a> (i.e. this <code class="idl"><a data-link-type="idl" href="#csskeyframerule" id="ref-for-csskeyframerule①">CSSKeyframeRule</a></code>).
-      <dt><a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-owner-node" id="ref-for-cssstyledeclaration-owner-node">owner node</a>
+      <dt><a data-link-type="dfn" href="https://drafts.csswg.org/cssom/#cssstyledeclaration-owner-node" id="ref-for-cssstyledeclaration-owner-node">owner node</a>
       <dd>Null.
      </dl>
    </dl>
@@ -2423,13 +2423,13 @@ attributes</a>; and that must be supported by all <code class="idl"><a data-link
 	a single animation.</p>
    <h4 class="heading settled" data-level="5.3.1" id="interface-csskeyframesrule-idl"><span class="secno">5.3.1. </span><span class="content"> IDL Definition</span><a class="self-link" href="#interface-csskeyframesrule-idl"></a></h4>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed" id="ref-for-Exposed②"><c- g>Exposed</c-></a>=<c- n>Window</c->]
-<c- b>interface</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="csskeyframesrule"><code><c- g>CSSKeyframesRule</c-></code></dfn> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssrule" id="ref-for-cssrule③"><c- n>CSSRule</c-></a> {
-           <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring⑨"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-type="CSSOMString" href="#dom-csskeyframesrule-name" id="ref-for-dom-csskeyframesrule-name"><c- g>name</c-></a>;
-  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssrulelist" id="ref-for-cssrulelist"><c- n>CSSRuleList</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSRuleList" href="#dom-csskeyframesrule-cssrules" id="ref-for-dom-csskeyframesrule-cssrules"><c- g>cssRules</c-></a>;
+<c- b>interface</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="csskeyframesrule"><code><c- g>CSSKeyframesRule</c-></code></dfn> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssrule" id="ref-for-cssrule③"><c- n>CSSRule</c-></a> {
+           <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring⑨"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-type="CSSOMString" href="#dom-csskeyframesrule-name" id="ref-for-dom-csskeyframesrule-name"><c- g>name</c-></a>;
+  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssrulelist" id="ref-for-cssrulelist"><c- n>CSSRuleList</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSRuleList" href="#dom-csskeyframesrule-cssrules" id="ref-for-dom-csskeyframesrule-cssrules"><c- g>cssRules</c-></a>;
 
-  <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined" id="ref-for-idl-undefined"><c- b>undefined</c-></a>        <a class="idl-code" data-link-type="method" href="#dom-csskeyframesrule-appendrule" id="ref-for-dom-csskeyframesrule-appendrule"><c- g>appendRule</c-></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring①⓪"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="argument" href="#dom-csskeyframesrule-appendrule-rule-rule" id="ref-for-dom-csskeyframesrule-appendrule-rule-rule"><c- g>rule</c-></a>);
-  <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined" id="ref-for-idl-undefined①"><c- b>undefined</c-></a>        <a class="idl-code" data-link-type="method" href="#dom-csskeyframesrule-deleterule" id="ref-for-dom-csskeyframesrule-deleterule"><c- g>deleteRule</c-></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring①①"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="argument" href="#dom-csskeyframesrule-deleterule-select-select" id="ref-for-dom-csskeyframesrule-deleterule-select-select"><c- g>select</c-></a>);
-  <a data-link-type="idl-name" href="#csskeyframerule" id="ref-for-csskeyframerule②"><c- n>CSSKeyframeRule</c-></a>? <a class="idl-code" data-link-type="method" href="#dom-csskeyframesrule-findrule" id="ref-for-dom-csskeyframesrule-findrule"><c- g>findRule</c-></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring①②"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="argument" href="#dom-csskeyframesrule-findrule-select-select" id="ref-for-dom-csskeyframesrule-findrule-select-select"><c- g>select</c-></a>);
+  <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined" id="ref-for-idl-undefined"><c- b>undefined</c-></a>        <a class="idl-code" data-link-type="method" href="#dom-csskeyframesrule-appendrule" id="ref-for-dom-csskeyframesrule-appendrule"><c- g>appendRule</c-></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring①⓪"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="argument" href="#dom-csskeyframesrule-appendrule-rule-rule" id="ref-for-dom-csskeyframesrule-appendrule-rule-rule"><c- g>rule</c-></a>);
+  <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined" id="ref-for-idl-undefined①"><c- b>undefined</c-></a>        <a class="idl-code" data-link-type="method" href="#dom-csskeyframesrule-deleterule" id="ref-for-dom-csskeyframesrule-deleterule"><c- g>deleteRule</c-></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring①①"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="argument" href="#dom-csskeyframesrule-deleterule-select-select" id="ref-for-dom-csskeyframesrule-deleterule-select-select"><c- g>select</c-></a>);
+  <a data-link-type="idl-name" href="#csskeyframerule" id="ref-for-csskeyframerule②"><c- n>CSSKeyframeRule</c-></a>? <a class="idl-code" data-link-type="method" href="#dom-csskeyframesrule-findrule" id="ref-for-dom-csskeyframesrule-findrule"><c- g>findRule</c-></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring①②"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="argument" href="#dom-csskeyframesrule-findrule-select-select" id="ref-for-dom-csskeyframesrule-findrule-select-select"><c- g>select</c-></a>);
 };
 </pre>
    <h4 class="heading settled" data-level="5.3.2" id="interface-csskeyframesrule-attributes"><span class="secno">5.3.2. </span><span class="content"> Attributes</span><a class="self-link" href="#interface-csskeyframesrule-attributes"></a></h4>
@@ -2451,7 +2451,7 @@ attributes</a>; and that must be supported by all <code class="idl"><a data-link
        </div>
       </div>
      </div>
-     <dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframesRule" data-dfn-type="attribute" data-export id="dom-csskeyframesrule-name"><code>name</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring①③">CSSOMString</a></span>
+     <dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframesRule" data-dfn-type="attribute" data-export id="dom-csskeyframesrule-name"><code>name</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring①③">CSSOMString</a></span>
     <dd> This attribute is the name of the keyframes, used by the <a class="property" data-link-type="propdesc" href="#propdef-animation-name" id="ref-for-propdef-animation-name②⑦">animation-name</a> property. 
     <dt>
      <div class="mdn-anno wrapped">
@@ -2470,7 +2470,7 @@ attributes</a>; and that must be supported by all <code class="idl"><a data-link
        </div>
       </div>
      </div>
-     <dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframesRule" data-dfn-type="attribute" data-export id="dom-csskeyframesrule-cssrules"><code>cssRules</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssrulelist" id="ref-for-cssrulelist①">CSSRuleList</a>, readonly</span>
+     <dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframesRule" data-dfn-type="attribute" data-export id="dom-csskeyframesrule-cssrules"><code>cssRules</code></dfn>, <span> of type <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssrulelist" id="ref-for-cssrulelist①">CSSRuleList</a>, readonly</span>
     <dd> This attribute gives access to the keyframes in the list. 
    </dl>
    <h4 class="heading settled" data-level="5.3.3" id="interface-csskeyframesrule-appendrule"><span class="secno">5.3.3. </span><span class="content"> The <code>appendRule</code> method</span><a class="self-link" href="#interface-csskeyframesrule-appendrule"></a></h4>
@@ -2493,7 +2493,7 @@ attributes</a>; and that must be supported by all <code class="idl"><a data-link
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframesRule" data-dfn-type="method" data-export data-lt="appendRule(rule)" id="dom-csskeyframesrule-appendrule"><code>appendRule</code></dfn> method appends the passed <code class="idl"><a data-link-type="idl" href="#csskeyframerule" id="ref-for-csskeyframerule③">CSSKeyframeRule</a></code> at the end of the keyframes rule.</p>
    <p>Parameters:</p>
    <dl>
-    <dt><dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframesRule/appendRule(rule)" data-dfn-type="argument" data-export id="dom-csskeyframesrule-appendrule-rule-rule"><code>rule</code></dfn> of type <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring①④">CSSOMString</a></code> 
+    <dt><dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframesRule/appendRule(rule)" data-dfn-type="argument" data-export id="dom-csskeyframesrule-appendrule-rule-rule"><code>rule</code></dfn> of type <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring①④">CSSOMString</a></code> 
     <dd> The rule to be appended, expressed in the same syntax as one entry in the <a class="css" data-link-type="maybe" href="#at-ruledef-keyframes" id="ref-for-at-ruledef-keyframes⑨">@keyframes</a> rule. A valid rule is always appended e.g. even if its key(s) already
 			exists. 
    </dl>
@@ -2521,7 +2521,7 @@ deletes the last declared <code class="idl"><a data-link-type="idl" href="#csske
 If no matching rule exists, the method does nothing.</p>
    <p>Parameters:</p>
    <dl>
-    <dt><dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframesRule/deleteRule(select)" data-dfn-type="argument" data-export id="dom-csskeyframesrule-deleterule-select-select"><code>select</code></dfn> of type <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring①⑤">CSSOMString</a></code> 
+    <dt><dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframesRule/deleteRule(select)" data-dfn-type="argument" data-export id="dom-csskeyframesrule-deleterule-select-select"><code>select</code></dfn> of type <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring①⑤">CSSOMString</a></code> 
     <dd>
       The keyframe selector of the rule to be deleted: a comma-separated list of percentage values between 0% and 100% or the keywords <span class="css">from</span> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-2/#valdef-shape-to" id="ref-for-valdef-shape-to⑥">to</a> which resolve to 0% and 100%, respectively. 
      <p>The number and order of the values in the specified keyframe selector must match those of the targeted keyframe rule(s).  The match is not sensitive to white space around the values in the list.</p>
@@ -2550,7 +2550,7 @@ If no matching rule exists, the method does nothing.</p>
     If no matching rule exists, the method does nothing.</p>
    <p>Parameters:</p>
    <dl>
-    <dt><dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframesRule/findRule(select)" data-dfn-type="argument" data-export id="dom-csskeyframesrule-findrule-select-select"><code>select</code></dfn> of type <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring①⑥">CSSOMString</a></code> 
+    <dt><dfn class="dfn-paneled idl-code" data-dfn-for="CSSKeyframesRule/findRule(select)" data-dfn-type="argument" data-export id="dom-csskeyframesrule-findrule-select-select"><code>select</code></dfn> of type <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring①⑥">CSSOMString</a></code> 
     <dd>
       The keyframe selector of the rule to be found: a comma-separated list of percentage values between 0% and 100% or the keywords <span class="css">from</span> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-2/#valdef-shape-to" id="ref-for-valdef-shape-to⑦">to</a> which resolve to 0% and 100%, respectively. 
      <p>The number and order of the values in the specified keyframe selector must match those of the targeted keyframe rule(s). The match is not sensitive to white space around the values in the list.</p>
@@ -2916,21 +2916,21 @@ objects</a>.</p>
     </ul>
   </ul>
   <aside class="dfn-panel" data-for="term-for-propdef-background-image">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image">https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#propdef-background-image">https://drafts.csswg.org/css-backgrounds/#propdef-background-image</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-background-image">3.2. 
 The animation-name property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-display-none">
-   <a href="https://drafts.csswg.org/css-display-3/#valdef-display-none">https://drafts.csswg.org/css-display-3/#valdef-display-none</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-display/#valdef-display-none">https://drafts.csswg.org/css-display/#valdef-display-none</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-display-none">2. 
 Animations</a> <a href="#ref-for-valdef-display-none①">(2)</a> <a href="#ref-for-valdef-display-none②">(3)</a> <a href="#ref-for-valdef-display-none③">(4)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-typedef-easing-function">
-   <a href="https://drafts.csswg.org/css-easing-1/#typedef-easing-function">https://drafts.csswg.org/css-easing-1/#typedef-easing-function</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-easing/#typedef-easing-function">https://drafts.csswg.org/css-easing/#typedef-easing-function</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-typedef-easing-function">3.4. 
 The animation-timing-function property</a> <a href="#ref-for-typedef-easing-function①">(2)</a>
@@ -2939,56 +2939,56 @@ The animation shorthand property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-cubic-bezier-easing-function-ease-in">
-   <a href="https://drafts.csswg.org/css-easing-1/#valdef-cubic-bezier-easing-function-ease-in">https://drafts.csswg.org/css-easing-1/#valdef-cubic-bezier-easing-function-ease-in</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-easing/#valdef-cubic-bezier-easing-function-ease-in">https://drafts.csswg.org/css-easing/#valdef-cubic-bezier-easing-function-ease-in</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-cubic-bezier-easing-function-ease-in">3.6. 
 The animation-direction property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-cubic-bezier-easing-function-ease-out">
-   <a href="https://drafts.csswg.org/css-easing-1/#valdef-cubic-bezier-easing-function-ease-out">https://drafts.csswg.org/css-easing-1/#valdef-cubic-bezier-easing-function-ease-out</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-easing/#valdef-cubic-bezier-easing-function-ease-out">https://drafts.csswg.org/css-easing/#valdef-cubic-bezier-easing-function-ease-out</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-cubic-bezier-easing-function-ease-out">3.6. 
 The animation-direction property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-input-progress-value">
-   <a href="https://drafts.csswg.org/css-easing-1/#input-progress-value">https://drafts.csswg.org/css-easing-1/#input-progress-value</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-easing/#input-progress-value">https://drafts.csswg.org/css-easing/#input-progress-value</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-input-progress-value">3.4. 
 The animation-timing-function property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-output-progress-value">
-   <a href="https://drafts.csswg.org/css-easing-1/#output-progress-value">https://drafts.csswg.org/css-easing-1/#output-progress-value</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-easing/#output-progress-value">https://drafts.csswg.org/css-easing/#output-progress-value</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-output-progress-value">3.4. 
 The animation-timing-function property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-steps-start">
-   <a href="https://drafts.csswg.org/css-easing-1/#valdef-steps-start">https://drafts.csswg.org/css-easing-1/#valdef-steps-start</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-easing/#valdef-steps-start">https://drafts.csswg.org/css-easing/#valdef-steps-start</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-steps-start">3.4. 
 The animation-timing-function property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-step-easing-function">
-   <a href="https://drafts.csswg.org/css-easing-1/#step-easing-function">https://drafts.csswg.org/css-easing-1/#step-easing-function</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-easing/#step-easing-function">https://drafts.csswg.org/css-easing/#step-easing-function</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-step-easing-function">3.4. 
 The animation-timing-function property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-step-position">
-   <a href="https://drafts.csswg.org/css-easing-1/#step-position">https://drafts.csswg.org/css-easing-1/#step-position</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-easing/#step-position">https://drafts.csswg.org/css-easing/#step-position</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-step-position">3.4. 
 The animation-timing-function property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-left">
-   <a href="https://drafts.csswg.org/css-position-3/#propdef-left">https://drafts.csswg.org/css-position-3/#propdef-left</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-position/#propdef-left">https://drafts.csswg.org/css-position/#propdef-left</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-left">3. 
 Keyframes</a> <a href="#ref-for-propdef-left①">(2)</a> <a href="#ref-for-propdef-left②">(3)</a> <a href="#ref-for-propdef-left③">(4)</a>
@@ -3012,21 +3012,21 @@ The findRule method</a> <a href="#ref-for-valdef-shape-to⑧">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-typedef-declaration-list">
-   <a href="https://drafts.csswg.org/css-syntax-3/#typedef-declaration-list">https://drafts.csswg.org/css-syntax-3/#typedef-declaration-list</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#typedef-declaration-list">https://drafts.csswg.org/css-syntax/#typedef-declaration-list</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-typedef-declaration-list">3. 
 Keyframes</a> <a href="#ref-for-typedef-declaration-list①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-typedef-rule-list">
-   <a href="https://drafts.csswg.org/css-syntax-3/#typedef-rule-list">https://drafts.csswg.org/css-syntax-3/#typedef-rule-list</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#typedef-rule-list">https://drafts.csswg.org/css-syntax/#typedef-rule-list</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-typedef-rule-list">3. 
 Keyframes</a> <a href="#ref-for-typedef-rule-list①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-identifier">
-   <a href="https://drafts.csswg.org/css-syntax-3/#identifier">https://drafts.csswg.org/css-syntax-3/#identifier</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#identifier">https://drafts.csswg.org/css-syntax/#identifier</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-identifier">3.2. 
 The animation-name property</a>
@@ -3109,21 +3109,14 @@ The animation-name property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-will-change">
-   <a href="https://drafts.csswg.org/css-will-change-1/#propdef-will-change">https://drafts.csswg.org/css-will-change-1/#propdef-will-change</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-will-change/#propdef-will-change">https://drafts.csswg.org/css-will-change/#propdef-will-change</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-will-change">2. 
 Animations</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-propdef-display">
-   <a href="https://drafts.csswg.org/css2/#propdef-display">https://drafts.csswg.org/css2/#propdef-display</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-propdef-display">2. 
-Animations</a> <a href="#ref-for-propdef-display①">(2)</a> <a href="#ref-for-propdef-display②">(3)</a> <a href="#ref-for-propdef-display③">(4)</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-cssomstring">
-   <a href="https://drafts.csswg.org/cssom-1/#cssomstring">https://drafts.csswg.org/cssom-1/#cssomstring</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#cssomstring">https://drafts.csswg.org/cssom/#cssomstring</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-cssomstring">4.1.1. 
 IDL Definition</a> <a href="#ref-for-cssomstring①">(2)</a> <a href="#ref-for-cssomstring②">(3)</a> <a href="#ref-for-cssomstring③">(4)</a> <a href="#ref-for-cssomstring④">(5)</a>
@@ -3146,7 +3139,7 @@ The findRule method</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-cssrule">
-   <a href="https://drafts.csswg.org/cssom-1/#cssrule">https://drafts.csswg.org/cssom-1/#cssrule</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#cssrule">https://drafts.csswg.org/cssom/#cssrule</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-cssrule">5.1. 
 The CSSRule Interface</a>
@@ -3159,7 +3152,7 @@ IDL Definition</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-cssrulelist">
-   <a href="https://drafts.csswg.org/cssom-1/#cssrulelist">https://drafts.csswg.org/cssom-1/#cssrulelist</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#cssrulelist">https://drafts.csswg.org/cssom/#cssrulelist</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-cssrulelist">5.3.1. 
 IDL Definition</a>
@@ -3168,7 +3161,7 @@ Attributes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-cssstyledeclaration">
-   <a href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration">https://drafts.csswg.org/cssom-1/#cssstyledeclaration</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#cssstyledeclaration">https://drafts.csswg.org/cssom/#cssstyledeclaration</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-cssstyledeclaration">5.2.1. 
 IDL Definition</a>
@@ -3177,28 +3170,28 @@ Attributes</a> <a href="#ref-for-cssstyledeclaration②">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-dom-cssstyledeclaration-csstext">
-   <a href="https://drafts.csswg.org/cssom-1/#dom-cssstyledeclaration-csstext">https://drafts.csswg.org/cssom-1/#dom-cssstyledeclaration-csstext</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#dom-cssstyledeclaration-csstext">https://drafts.csswg.org/cssom/#dom-cssstyledeclaration-csstext</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dom-cssstyledeclaration-csstext">5.2.1. 
 IDL Definition</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-cssstyledeclaration-declarations">
-   <a href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-declarations">https://drafts.csswg.org/cssom-1/#cssstyledeclaration-declarations</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#cssstyledeclaration-declarations">https://drafts.csswg.org/cssom/#cssstyledeclaration-declarations</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-cssstyledeclaration-declarations">5.2.2. 
 Attributes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-cssstyledeclaration-owner-node">
-   <a href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-owner-node">https://drafts.csswg.org/cssom-1/#cssstyledeclaration-owner-node</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#cssstyledeclaration-owner-node">https://drafts.csswg.org/cssom/#cssstyledeclaration-owner-node</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-cssstyledeclaration-owner-node">5.2.2. 
 Attributes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-cssstyledeclaration-parent-css-rule">
-   <a href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-parent-css-rule">https://drafts.csswg.org/cssom-1/#cssstyledeclaration-parent-css-rule</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#cssstyledeclaration-parent-css-rule">https://drafts.csswg.org/cssom/#cssstyledeclaration-parent-css-rule</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-cssstyledeclaration-parent-css-rule">5.2.2. 
 Attributes</a>
@@ -3212,7 +3205,7 @@ Attributes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-concept-declarations-specified-order">
-   <a href="https://drafts.csswg.org/cssom-1/#concept-declarations-specified-order">https://drafts.csswg.org/cssom-1/#concept-declarations-specified-order</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#concept-declarations-specified-order">https://drafts.csswg.org/cssom/#concept-declarations-specified-order</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-concept-declarations-specified-order">5.2.2. 
 Attributes</a>
@@ -3424,11 +3417,6 @@ IDL Definition</a> <a href="#ref-for-idl-unsigned-short①">(2)</a>
      <li><span class="dfn-paneled" id="term-for-propdef-will-change">will-change</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS2]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="term-for-propdef-display">display</span>
-    </ul>
-   <li>
     <a data-link-type="biblio">[cssom-1]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-cssomstring">CSSOMString</span>
@@ -3462,7 +3450,7 @@ IDL Definition</a> <a href="#ref-for-idl-unsigned-short①">(2)</a>
      <li><span class="dfn-paneled" id="term-for-html-elements">html elements</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[WebIDL]</a> defines the following terms:
+    <a data-link-type="biblio">[WebIDL-20161215]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-Exposed">Exposed</span>
      <li><span class="dfn-paneled" id="term-for-PutForwards">PutForwards</span>
@@ -3504,8 +3492,8 @@ IDL Definition</a> <a href="#ref-for-idl-unsigned-short①">(2)</a>
    <dd>S. Bradner. <a href="https://tools.ietf.org/html/rfc2119">Key words for use in RFCs to Indicate Requirement Levels</a>. March 1997. Best Current Practice. URL: <a href="https://tools.ietf.org/html/rfc2119">https://tools.ietf.org/html/rfc2119</a>
    <dt id="biblio-wcag20">[WCAG20]
    <dd>Ben Caldwell; et al. <a href="https://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines (WCAG) 2.0</a>. 11 December 2008. REC. URL: <a href="https://www.w3.org/TR/WCAG20/">https://www.w3.org/TR/WCAG20/</a>
-   <dt id="biblio-webidl">[WebIDL]
-   <dd>Boris Zbarsky. <a href="https://heycam.github.io/webidl/">Web IDL</a>. 15 December 2016. ED. URL: <a href="https://heycam.github.io/webidl/">https://heycam.github.io/webidl/</a>
+   <dt id="biblio-webidl-20161215">[WebIDL-20161215]
+   <dd>Cameron McCormack. <a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">WebIDL Level 1</a>. 15 December 2016. REC. URL: <a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/</a>
   </dl>
   <h3 class="no-num no-ref heading settled" id="informative"><span class="content">Informative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
@@ -3626,36 +3614,36 @@ IDL Definition</a> <a href="#ref-for-idl-unsigned-short①">(2)</a>
   <h2 class="no-num no-ref heading settled" id="idl-index"><span class="content">IDL Index</span><a class="self-link" href="#idl-index"></a></h2>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
 <c- b>interface</c-> <a href="#animationevent"><code><c- g>AnimationEvent</c-></code></a> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#event"><c- n>Event</c-></a> {
-  <a href="#dom-animationevent-animationevent"><code><c- g>constructor</c-></code></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a href="#dom-animationevent-animationevent-type-animationeventinitdict-type"><code><c- g>type</c-></code></a>, <c- b>optional</c-> <a data-link-type="idl-name" href="#dictdef-animationeventinit"><c- n>AnimationEventInit</c-></a> <a href="#dom-animationevent-animationevent-type-animationeventinitdict-animationeventinitdict"><code><c- g>animationEventInitDict</c-></code></a> = {});
-  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSOMString" href="#dom-animationevent-animationname"><c- g>animationName</c-></a>;
+  <a href="#dom-animationevent-animationevent"><code><c- g>constructor</c-></code></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a href="#dom-animationevent-animationevent-type-animationeventinitdict-type"><code><c- g>type</c-></code></a>, <c- b>optional</c-> <a data-link-type="idl-name" href="#dictdef-animationeventinit"><c- n>AnimationEventInit</c-></a> <a href="#dom-animationevent-animationevent-type-animationeventinitdict-animationeventinitdict"><code><c- g>animationEventInitDict</c-></code></a> = {});
+  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSOMString" href="#dom-animationevent-animationname"><c- g>animationName</c-></a>;
   <c- b>readonly</c-> <c- b>attribute</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-double"><c- b>double</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="double" href="#dom-animationevent-elapsedtime"><c- g>elapsedTime</c-></a>;
-  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSOMString" href="#dom-animationevent-pseudoelement"><c- g>pseudoElement</c-></a>;
+  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSOMString" href="#dom-animationevent-pseudoelement"><c- g>pseudoElement</c-></a>;
 };
 <c- b>dictionary</c-> <a href="#dictdef-animationeventinit"><code><c- g>AnimationEventInit</c-></code></a> : <a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#dictdef-eventinit"><c- n>EventInit</c-></a> {
-  <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a data-default="&quot;&quot;" data-type="CSSOMString " href="#dom-animationeventinit-animationname"><code><c- g>animationName</c-></code></a> = "";
+  <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a data-default="&quot;&quot;" data-type="CSSOMString " href="#dom-animationeventinit-animationname"><code><c- g>animationName</c-></code></a> = "";
   <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-double"><c- b>double</c-></a> <a data-default="0.0" data-type="double " href="#dom-animationeventinit-elapsedtime"><code><c- g>elapsedTime</c-></code></a> = 0.0;
-  <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a data-default="&quot;&quot;" data-type="CSSOMString " href="#dom-animationeventinit-pseudoelement"><code><c- g>pseudoElement</c-></code></a> = "";
+  <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a data-default="&quot;&quot;" data-type="CSSOMString " href="#dom-animationeventinit-pseudoelement"><code><c- g>pseudoElement</c-></code></a> = "";
 };
 
-<c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://drafts.csswg.org/cssom-1/#cssrule"><c- g>CSSRule</c-></a> {
+<c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://drafts.csswg.org/cssom/#cssrule"><c- g>CSSRule</c-></a> {
     <c- b>const</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-short"><c- b>unsigned</c-> <c- b>short</c-></a> <a href="#dom-cssrule-keyframes_rule"><code><c- g>KEYFRAMES_RULE</c-></code></a> = 7;
     <c- b>const</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-short"><c- b>unsigned</c-> <c- b>short</c-></a> <a href="#dom-cssrule-keyframe_rule"><code><c- g>KEYFRAME_RULE</c-></code></a> = 8;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
-<c- b>interface</c-> <a href="#csskeyframerule"><code><c- g>CSSKeyframeRule</c-></code></a> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssrule"><c- n>CSSRule</c-></a> {
-  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-type="CSSOMString" href="#dom-csskeyframerule-keytext"><c- g>keyText</c-></a>;
-  [<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#SameObject"><c- g>SameObject</c-></a>, <a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#PutForwards"><c- g>PutForwards</c-></a>=<a class="idl-code" data-link-type="attribute" href="https://drafts.csswg.org/cssom-1/#dom-cssstyledeclaration-csstext"><c- n>cssText</c-></a>] <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration"><c- n>CSSStyleDeclaration</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSStyleDeclaration" href="#dom-csskeyframerule-style"><c- g>style</c-></a>;
+<c- b>interface</c-> <a href="#csskeyframerule"><code><c- g>CSSKeyframeRule</c-></code></a> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssrule"><c- n>CSSRule</c-></a> {
+  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-type="CSSOMString" href="#dom-csskeyframerule-keytext"><c- g>keyText</c-></a>;
+  [<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#SameObject"><c- g>SameObject</c-></a>, <a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#PutForwards"><c- g>PutForwards</c-></a>=<a class="idl-code" data-link-type="attribute" href="https://drafts.csswg.org/cssom/#dom-cssstyledeclaration-csstext"><c- n>cssText</c-></a>] <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssstyledeclaration"><c- n>CSSStyleDeclaration</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSStyleDeclaration" href="#dom-csskeyframerule-style"><c- g>style</c-></a>;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
-<c- b>interface</c-> <a href="#csskeyframesrule"><code><c- g>CSSKeyframesRule</c-></code></a> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssrule"><c- n>CSSRule</c-></a> {
-           <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-type="CSSOMString" href="#dom-csskeyframesrule-name"><c- g>name</c-></a>;
-  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssrulelist"><c- n>CSSRuleList</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSRuleList" href="#dom-csskeyframesrule-cssrules"><c- g>cssRules</c-></a>;
+<c- b>interface</c-> <a href="#csskeyframesrule"><code><c- g>CSSKeyframesRule</c-></code></a> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssrule"><c- n>CSSRule</c-></a> {
+           <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="attribute" data-type="CSSOMString" href="#dom-csskeyframesrule-name"><c- g>name</c-></a>;
+  <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssrulelist"><c- n>CSSRuleList</c-></a> <a class="idl-code" data-link-type="attribute" data-readonly data-type="CSSRuleList" href="#dom-csskeyframesrule-cssrules"><c- g>cssRules</c-></a>;
 
-  <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined"><c- b>undefined</c-></a>        <a class="idl-code" data-link-type="method" href="#dom-csskeyframesrule-appendrule"><c- g>appendRule</c-></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="argument" href="#dom-csskeyframesrule-appendrule-rule-rule"><c- g>rule</c-></a>);
-  <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined"><c- b>undefined</c-></a>        <a class="idl-code" data-link-type="method" href="#dom-csskeyframesrule-deleterule"><c- g>deleteRule</c-></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="argument" href="#dom-csskeyframesrule-deleterule-select-select"><c- g>select</c-></a>);
-  <a data-link-type="idl-name" href="#csskeyframerule"><c- n>CSSKeyframeRule</c-></a>? <a class="idl-code" data-link-type="method" href="#dom-csskeyframesrule-findrule"><c- g>findRule</c-></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="argument" href="#dom-csskeyframesrule-findrule-select-select"><c- g>select</c-></a>);
+  <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined"><c- b>undefined</c-></a>        <a class="idl-code" data-link-type="method" href="#dom-csskeyframesrule-appendrule"><c- g>appendRule</c-></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="argument" href="#dom-csskeyframesrule-appendrule-rule-rule"><c- g>rule</c-></a>);
+  <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined"><c- b>undefined</c-></a>        <a class="idl-code" data-link-type="method" href="#dom-csskeyframesrule-deleterule"><c- g>deleteRule</c-></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="argument" href="#dom-csskeyframesrule-deleterule-select-select"><c- g>select</c-></a>);
+  <a data-link-type="idl-name" href="#csskeyframerule"><c- n>CSSKeyframeRule</c-></a>? <a class="idl-code" data-link-type="method" href="#dom-csskeyframesrule-findrule"><c- g>findRule</c-></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a class="idl-code" data-link-type="argument" href="#dom-csskeyframesrule-findrule-select-select"><c- g>select</c-></a>);
 };
 
 <c- b>partial</c-> <c- b>interface</c-> <c- b>mixin</c-> <a class="idl-code" data-link-type="interface" href="https://html.spec.whatwg.org/multipage/webappapis.html#globaleventhandlers"><c- g>GlobalEventHandlers</c-></a> {

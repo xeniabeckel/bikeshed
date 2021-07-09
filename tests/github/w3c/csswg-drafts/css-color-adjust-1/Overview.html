@@ -886,7 +886,7 @@ such as suppressing background colors when printing to save ink.</p>
 	of its navigation interface as well as in-page interface elements
 	such as form controls and scrollbars,
 	and is expected to also be reflected
-	in the values of the CSS <a data-link-type="dfn" href="https://drafts.csswg.org/css-color-4/#css-system-colors" id="ref-for-css-system-colors">system colors</a>.</p>
+	in the values of the CSS <a data-link-type="dfn">system colors</a>.</p>
    <p>A UA can also allow the user to indicate a preference
 	for the <a data-link-type="dfn" href="#color-scheme" id="ref-for-color-scheme②">color scheme</a> of the pages they view,
 	requesting that the author adapt the page to those color preferences.
@@ -906,7 +906,7 @@ with dark background colors and light foreground/text colors.</p>
    <p><strong class="advisement"> <strong>The <a data-link-type="dfn" href="#light-color-scheme" id="ref-for-light-color-scheme">light</a> and <a data-link-type="dfn" href="#dark-color-scheme" id="ref-for-dark-color-scheme">dark color schemes</a> don’t represent an exact color palette (such as black-and-white),
 	but a range of possible palettes.
 	To guarantee specific colors, authors must specify those colors themselves.</strong> Note also that, consequently,
-	pairing default or <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-color-4/#typedef-system-color" id="ref-for-typedef-system-color" title="Expands to: activetext | buttonborder | buttonface | buttontext | canvas | canvastext | field | fieldtext | graytext | highlight | highlighttext | linktext | mark | marktext | visitedtext">&lt;system-color></a> colors with author-specified colors
+	pairing default or <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-color/#typedef-system-color" id="ref-for-typedef-system-color" title="Expands to: activetext | buttonborder | buttonface | buttontext | canvas | canvastext | field | fieldtext | graytext | highlight | highlighttext | linktext | mark | marktext | visitedtext">&lt;system-color></a> colors with author-specified colors
 	cannot guarantee any particular contrast level;
 	it might be necessary to set both foreground and background colors together
 	to ensure legibility <a data-link-type="biblio" href="#biblio-wcag21">[WCAG21]</a>.</strong></p>
@@ -1042,7 +1042,7 @@ are not valid <a class="production css" data-link-type="type" href="https://draf
 </pre>
    </div>
    <div class="example" id="example-a6b0948d">
-    <a class="self-link" href="#example-a6b0948d"></a> If a page limits itself to using <em>only</em> the <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-color-4/#typedef-system-color" id="ref-for-typedef-system-color①" title="Expands to: activetext | buttonborder | buttonface | buttontext | canvas | canvastext | field | fieldtext | graytext | highlight | highlighttext | linktext | mark | marktext | visitedtext">&lt;system-color></a>s,
+    <a class="self-link" href="#example-a6b0948d"></a> If a page limits itself to using <em>only</em> the <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-color/#typedef-system-color" id="ref-for-typedef-system-color①" title="Expands to: activetext | buttonborder | buttonface | buttontext | canvas | canvastext | field | fieldtext | graytext | highlight | highlighttext | linktext | mark | marktext | visitedtext">&lt;system-color></a>s,
 		it can support the user’s preferred color scheme
 		without needing to use <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-conditional-3/#at-ruledef-media" id="ref-for-at-ruledef-media">@media</a> at all,
 		simply by using the <a class="property" data-link-type="propdesc" href="#propdef-color-scheme" id="ref-for-propdef-color-scheme⑦">color-scheme</a> property: 
@@ -1050,7 +1050,7 @@ are not valid <a class="production css" data-link-type="type" href="https://draf
   <c- k>color-scheme</c-><c- p>:</c-> light dark<c- p>;</c->
 <c- p>}</c->
 </pre>
-    <p>because the <a data-link-type="dfn" href="#used-color-scheme" id="ref-for-used-color-scheme③">used color scheme</a> affects what <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-color-4/#typedef-system-color" id="ref-for-typedef-system-color②" title="Expands to: activetext | buttonborder | buttonface | buttontext | canvas | canvastext | field | fieldtext | graytext | highlight | highlighttext | linktext | mark | marktext | visitedtext">&lt;system-color></a>s resolve to.</p>
+    <p>because the <a data-link-type="dfn" href="#used-color-scheme" id="ref-for-used-color-scheme③">used color scheme</a> affects what <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-color/#typedef-system-color" id="ref-for-typedef-system-color②" title="Expands to: activetext | buttonborder | buttonface | buttontext | canvas | canvastext | field | fieldtext | graytext | highlight | highlighttext | linktext | mark | marktext | visitedtext">&lt;system-color></a>s resolve to.</p>
    </div>
    <p class="note" role="note"><span>Note:</span> <a data-link-type="biblio" href="#biblio-html">[HTML]</a> specifies a <a href="https://html.spec.whatwg.org/multipage/semantics.html#meta-color-scheme">color-scheme</a> <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/semantics.html#meta" id="ref-for-meta">meta</a></code> tag which can be used to set the color-scheme on the root element as
 	a <a href="https://www.w3.org/TR/css-cascade-4/#preshint">non-CSS presentational hint</a>.</p>
@@ -1072,15 +1072,15 @@ are not valid <a class="production css" data-link-type="type" href="https://draf
    </ul>
    <p>On the root element,
 	the <a data-link-type="dfn" href="#used-color-scheme" id="ref-for-used-color-scheme⑤">used color scheme</a> additionally must affect
-	the surface color of the <a data-link-type="dfn" href="https://drafts.csswg.org/css2/#canvas" id="ref-for-canvas">canvas</a>,
-	the initial value of the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color">color</a> property,
+	the surface color of the <a data-link-type="dfn">canvas</a>,
+	the initial value of the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color/#propdef-color" id="ref-for-propdef-color">color</a> property,
 	and the viewport’s scrollbars.</p>
    <p>In order to preserve expected color contrasts,
-	in the case of embedded documents typically rendered over a transparent <a data-link-type="dfn" href="https://drafts.csswg.org/css2/#canvas" id="ref-for-canvas①">canvas</a> (such as provided via an HTML <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element" id="ref-for-the-iframe-element">iframe</a></code> element),
+	in the case of embedded documents typically rendered over a transparent <a data-link-type="dfn">canvas</a> (such as provided via an HTML <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element" id="ref-for-the-iframe-element">iframe</a></code> element),
 	if the <a data-link-type="dfn" href="#used-color-scheme" id="ref-for-used-color-scheme⑥">used color scheme</a> of the element
 	and the <span id="ref-for-used-color-scheme⑦">used color scheme</span> of the embedded document’s root element
 	do not match,
-	then the UA must use an opaque <span id="ref-for-canvas②">canvas</span> of the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-color-4/#valdef-system-color-canvas" id="ref-for-valdef-system-color-canvas">Canvas</a> color
+	then the UA must use an opaque <span>canvas</span> of the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-color/#valdef-system-color-canvas" id="ref-for-valdef-system-color-canvas">Canvas</a> color
 	appropriate to the embedded document’s <span id="ref-for-used-color-scheme⑧">used color scheme</span> instead of a transparent canvas.
 	This rule does not apply to documents embedded
 	via elements intended for graphics
@@ -1118,7 +1118,7 @@ are not valid <a class="production css" data-link-type="type" href="https://draf
 	(see <a data-link-type="biblio" href="#biblio-css-color-4">[CSS-COLOR-4]</a>).
 	Additionally,
 	if the UA determines, based on Lab lightness,
-	that the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-color-4/#valdef-system-color-canvas" id="ref-for-valdef-system-color-canvas①">Canvas</a> color
+	that the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-color/#valdef-system-color-canvas" id="ref-for-valdef-system-color-canvas①">Canvas</a> color
 	is clearly either dark (L &lt; 33%) or light (L > 67%),
 	then it must match the appropriate value
 	of the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/mediaqueries-5/#descdef-media-prefers-color-scheme" id="ref-for-descdef-media-prefers-color-scheme⑥">prefers-color-scheme</a> media query
@@ -1135,47 +1135,47 @@ are not valid <a class="production css" data-link-type="type" href="https://draf
 	colors on the element are force-adjusted to the user’s preferred color palette.</p>
    <p>Specifically, for each of the following properties:</p>
    <ul>
-    <li><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color①">color</a> 
-    <li><a class="property" data-link-type="propdesc" href="https://drafts.fxtf.org/fill-stroke-3/#propdef-fill" id="ref-for-propdef-fill">fill</a> 
-    <li><a class="property" data-link-type="propdesc" href="https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke" id="ref-for-propdef-stroke">stroke</a> 
+    <li><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color/#propdef-color" id="ref-for-propdef-color①">color</a> 
+    <li><a class="property" data-link-type="propdesc" href="https://drafts.fxtf.org/fill-stroke/#propdef-fill" id="ref-for-propdef-fill">fill</a> 
+    <li><a class="property" data-link-type="propdesc" href="https://drafts.fxtf.org/fill-stroke/#propdef-stroke" id="ref-for-propdef-stroke">stroke</a> 
     <li><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-text-decor-4/#propdef-text-decoration-color" id="ref-for-propdef-text-decoration-color">text-decoration-color</a> 
     <li><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-text-decor-4/#propdef-text-emphasis-color" id="ref-for-propdef-text-emphasis-color">text-emphasis-color</a> 
-    <li><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-color" id="ref-for-propdef-border-color">border-color</a> 
+    <li><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-border-color" id="ref-for-propdef-border-color">border-color</a> 
     <li><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-ui-4/#propdef-outline-color" id="ref-for-propdef-outline-color">outline-color</a> 
-    <li><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-multicol-1/#propdef-column-rule-color" id="ref-for-propdef-column-rule-color">column-rule-color</a> 
-    <li><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-scrollbars-1/#propdef-scrollbar-color" id="ref-for-propdef-scrollbar-color">scrollbar-color</a> 
+    <li><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-multicol/#propdef-column-rule-color" id="ref-for-propdef-column-rule-color">column-rule-color</a> 
+    <li><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-scrollbars/#propdef-scrollbar-color" id="ref-for-propdef-scrollbar-color">scrollbar-color</a> 
     <li><a class="property" data-link-type="propdesc">-webkit-tap-highlight-color</a> 
-    <li><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color" id="ref-for-propdef-background-color">background-color</a> 
+    <li><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-background-color" id="ref-for-propdef-background-color">background-color</a> 
    </ul>
-   <p>if its <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#computed-value" id="ref-for-computed-value">computed value</a> would be a color other than a <a data-link-type="dfn" href="https://drafts.csswg.org/css-color-4/#css-system-colors" id="ref-for-css-system-colors①">system color</a>,
-	it is instead forced to a <span id="ref-for-css-system-colors②">system color</span> as follows:</p>
+   <p>if its <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#computed-value" id="ref-for-computed-value">computed value</a> would be a color other than a <a data-link-type="dfn">system color</a>,
+	it is instead forced to a <span>system color</span> as follows:</p>
    <ul>
     <li data-md>
      <p>If the color value indicates a “fallback” color
 (as in the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-color-5/#funcdef-color" id="ref-for-funcdef-color">color()</a> function in <a data-link-type="biblio" href="#biblio-css-color-5">[CSS-COLOR-5]</a>)
-and that fallback color is a <a data-link-type="dfn" href="https://drafts.csswg.org/css-color-4/#css-system-colors" id="ref-for-css-system-colors③">system color</a>,
-then the color is forced to that <span id="ref-for-css-system-colors④">system color</span>.</p>
+and that fallback color is a <a data-link-type="dfn">system color</a>,
+then the color is forced to that <span>system color</span>.</p>
     <li data-md>
-     <p>Else for <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color" id="ref-for-propdef-background-color①">background-color</a> in particular,
+     <p>Else for <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-background-color" id="ref-for-propdef-background-color①">background-color</a> in particular,
 it is forced to
-the color opposite the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color②">color</a> property’s <a data-link-type="dfn" href="https://drafts.csswg.org/css-color-4/#css-system-colors" id="ref-for-css-system-colors⑤">system color</a> value
-in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-color-4/#system-color-pairings" id="ref-for-system-color-pairings">system color pairings</a>,
-using <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-color-4/#valdef-system-color-canvastext" id="ref-for-valdef-system-color-canvastext">CanvasText</a> as the opposite of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-color-4/#valdef-system-color-canvas" id="ref-for-valdef-system-color-canvas②">Canvas</a>.
+the color opposite the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color/#propdef-color" id="ref-for-propdef-color②">color</a> property’s <a data-link-type="dfn">system color</a> value
+in the <a data-link-type="dfn" href="https://drafts.csswg.org/css-color/#system-color-pairings" id="ref-for-system-color-pairings">system color pairings</a>,
+using <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-color/#valdef-system-color-canvastext" id="ref-for-valdef-system-color-canvastext">CanvasText</a> as the opposite of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-color/#valdef-system-color-canvas" id="ref-for-valdef-system-color-canvas②">Canvas</a>.
 However, its alpha channel is taken from
 the original <span class="property" id="ref-for-propdef-background-color②">background-color</span> value
 so that transparent backgrounds remain transparent.</p>
     <li data-md>
      <p>In all other cases, the UA determines
-the appropriate forced <a data-link-type="dfn" href="https://drafts.csswg.org/css-color-4/#css-system-colors" id="ref-for-css-system-colors⑥">system color</a>—<wbr>which should match the color that would result
-from an empty <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#cascade-origin-author" id="ref-for-cascade-origin-author">author style sheet</a> whenever all of the element’s affected properties
+the appropriate forced <a data-link-type="dfn">system color</a>—<wbr>which should match the color that would result
+from an empty <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#cascade-origin-author" id="ref-for-cascade-origin-author">author style sheet</a> whenever all of the element’s affected properties
 are likewise UA-determined.</p>
    </ul>
    <p>Additionally:</p>
    <ul>
     <li data-md>
-     <p><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow" id="ref-for-propdef-box-shadow">box-shadow</a> and <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-text-decor-4/#propdef-text-shadow" id="ref-for-propdef-text-shadow">text-shadow</a> compute to to <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-backgrounds-3/#box-shadow-none" id="ref-for-box-shadow-none">none</a></p>
+     <p><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-box-shadow" id="ref-for-propdef-box-shadow">box-shadow</a> and <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-text-decor-4/#propdef-text-shadow" id="ref-for-propdef-text-shadow">text-shadow</a> compute to to <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-backgrounds/#box-shadow-none" id="ref-for-box-shadow-none">none</a></p>
     <li data-md>
-     <p><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image" id="ref-for-propdef-background-image">background-image</a> computes to <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-backgrounds-3/#valdef-background-image-none" id="ref-for-valdef-background-image-none">none</a> unless the original value contains a <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-values-4/#funcdef-url" id="ref-for-funcdef-url">url()</a> function</p>
+     <p><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-background-image" id="ref-for-propdef-background-image">background-image</a> computes to <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-backgrounds/#valdef-background-image-none" id="ref-for-valdef-background-image-none">none</a> unless the original value contains a <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-values-4/#funcdef-url" id="ref-for-funcdef-url">url()</a> function</p>
     <li data-md>
      <p><a class="property" data-link-type="propdesc" href="#propdef-color-scheme" id="ref-for-propdef-color-scheme①⓪">color-scheme</a> computes to <span class="css">light dark</span></p>
    </ul>
@@ -1376,7 +1376,7 @@ svg|foreignObject { forced-color-adjust: auto; }
    <p>Changes since the <a href="https://www.w3.org/TR/2019/WD-css-color-adjust-1-20190523/">23 May 2019 Working Draft</a>:</p>
    <ul>
     <li>Forced background colors don’t revert, they force all color channels other than alpha (to preserve author’s transparency). <a href="https://github.com/w3c/csswg-drafts/issues/4175">Issue 4175</a>. 
-    <li>Other properties revert by rewriting author-level rules to specify <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-cascade-5/#valdef-all-revert" id="ref-for-valdef-all-revert">revert</a>,
+    <li>Other properties revert by rewriting author-level rules to specify <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-cascade/#valdef-all-revert" id="ref-for-valdef-all-revert">revert</a>,
 			not by injecting <span class="css">revert !important</span> rules into the cascade. <a href="https://github.com/w3c/csswg-drafts/issues/4020">Issue 4020</a>. 
     <li>Force opaque background if color-adjust mismatches between <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element" id="ref-for-the-iframe-element②">iframe</a></code> and embedded document. <a href="https://github.com/w3c/csswg-drafts/issues/4472">Issue 4472</a>. 
     <li>Don’t force colors on SVG text. 
@@ -1393,13 +1393,13 @@ svg|foreignObject { forced-color-adjust: auto; }
 		(<a href="https://github.com/w3c/csswg-drafts/issues/3885">Issue 3885</a>) 
     <li>Exempted properties already set as system colors from color forcing.
 		(<a href="https://github.com/w3c/csswg-drafts/issues/4178">Issue 4178</a>) 
-    <li>Switched color forcing to a <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#used-value" id="ref-for-used-value">used value</a> rather than <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#computed-value" id="ref-for-computed-value①">computed value</a> operation.
+    <li>Switched color forcing to a <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#used-value" id="ref-for-used-value">used value</a> rather than <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#computed-value" id="ref-for-computed-value①">computed value</a> operation.
 		(<a href="https://github.com/w3c/csswg-drafts/issues/4915">Issue 4915</a>) 
    </ul>
    <p>Changes since the <a href="https://www.w3.org/TR/2019/WD-css-color-adjust-1-20190523/">23 May 2019 Working Draft</a>:</p>
    <ul>
     <li>Forced background colors don’t revert, they force all color channels other than alpha (to preserve author’s transparency). <a href="https://github.com/w3c/csswg-drafts/issues/4175">Issue 4175</a>. 
-    <li>Other properties revert by rewriting author-level rules to specify <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-cascade-5/#valdef-all-revert" id="ref-for-valdef-all-revert①">revert</a>,
+    <li>Other properties revert by rewriting author-level rules to specify <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-cascade/#valdef-all-revert" id="ref-for-valdef-all-revert①">revert</a>,
 			not by injecting <span class="css">revert !important</span> rules into the cascade. <a href="https://github.com/w3c/csswg-drafts/issues/4020">Issue 4020</a>. 
     <li>Force opaque background if color-adjust mismatches between <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element" id="ref-for-the-iframe-element③">iframe</a></code> and embedded document. <a href="https://github.com/w3c/csswg-drafts/issues/4472">Issue 4472</a>. 
     <li>Don’t force colors on SVG text. 
@@ -1532,69 +1532,69 @@ svg|foreignObject { forced-color-adjust: auto; }
    <li><a href="#used-color-scheme">used color scheme</a><span>, in §2.1</span>
   </ul>
   <aside class="dfn-panel" data-for="term-for-propdef-background-color">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color">https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#propdef-background-color">https://drafts.csswg.org/css-backgrounds/#propdef-background-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-background-color">3.1. Properties Affected by Forced Colors Mode</a> <a href="#ref-for-propdef-background-color①">(2)</a> <a href="#ref-for-propdef-background-color②">(3)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-background-image">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image">https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#propdef-background-image">https://drafts.csswg.org/css-backgrounds/#propdef-background-image</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-background-image">3.1. Properties Affected by Forced Colors Mode</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-color">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-color">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#propdef-border-color">https://drafts.csswg.org/css-backgrounds/#propdef-border-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-color">3.1. Properties Affected by Forced Colors Mode</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-box-shadow">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow">https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#propdef-box-shadow">https://drafts.csswg.org/css-backgrounds/#propdef-box-shadow</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-box-shadow">3.1. Properties Affected by Forced Colors Mode</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-box-shadow-none">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#box-shadow-none">https://drafts.csswg.org/css-backgrounds-3/#box-shadow-none</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#box-shadow-none">https://drafts.csswg.org/css-backgrounds/#box-shadow-none</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-box-shadow-none">3.1. Properties Affected by Forced Colors Mode</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-cascade-origin-author">
-   <a href="https://drafts.csswg.org/css-cascade-5/#cascade-origin-author">https://drafts.csswg.org/css-cascade-5/#cascade-origin-author</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-cascade/#cascade-origin-author">https://drafts.csswg.org/css-cascade/#cascade-origin-author</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-cascade-origin-author">3.1. Properties Affected by Forced Colors Mode</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-computed-value">
-   <a href="https://drafts.csswg.org/css-cascade-5/#computed-value">https://drafts.csswg.org/css-cascade-5/#computed-value</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-cascade/#computed-value">https://drafts.csswg.org/css-cascade/#computed-value</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-computed-value">3.1. Properties Affected by Forced Colors Mode</a>
     <li><a href="#ref-for-computed-value①">7. Changes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-all-revert">
-   <a href="https://drafts.csswg.org/css-cascade-5/#valdef-all-revert">https://drafts.csswg.org/css-cascade-5/#valdef-all-revert</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-cascade/#valdef-all-revert">https://drafts.csswg.org/css-cascade/#valdef-all-revert</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-all-revert">7. Changes</a> <a href="#ref-for-valdef-all-revert①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-used-value">
-   <a href="https://drafts.csswg.org/css-cascade-5/#used-value">https://drafts.csswg.org/css-cascade-5/#used-value</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-cascade/#used-value">https://drafts.csswg.org/css-cascade/#used-value</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-used-value">7. Changes</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-typedef-system-color">
-   <a href="https://drafts.csswg.org/css-color-4/#typedef-system-color">https://drafts.csswg.org/css-color-4/#typedef-system-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-color/#typedef-system-color">https://drafts.csswg.org/css-color/#typedef-system-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-typedef-system-color">2. Preferred Color Schemes</a>
     <li><a href="#ref-for-typedef-system-color①">2.1. Opting Into a Preferred Color Scheme: the color-scheme property</a> <a href="#ref-for-typedef-system-color②">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-system-color-canvas">
-   <a href="https://drafts.csswg.org/css-color-4/#valdef-system-color-canvas">https://drafts.csswg.org/css-color-4/#valdef-system-color-canvas</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-color/#valdef-system-color-canvas">https://drafts.csswg.org/css-color/#valdef-system-color-canvas</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-system-color-canvas">2.2. Effects of the Used Color Scheme</a>
     <li><a href="#ref-for-valdef-system-color-canvas①">3. Forced Color Schemes</a>
@@ -1602,29 +1602,22 @@ svg|foreignObject { forced-color-adjust: auto; }
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-system-color-canvastext">
-   <a href="https://drafts.csswg.org/css-color-4/#valdef-system-color-canvastext">https://drafts.csswg.org/css-color-4/#valdef-system-color-canvastext</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-color/#valdef-system-color-canvastext">https://drafts.csswg.org/css-color/#valdef-system-color-canvastext</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-system-color-canvastext">3.1. Properties Affected by Forced Colors Mode</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-color">
-   <a href="https://drafts.csswg.org/css-color-4/#propdef-color">https://drafts.csswg.org/css-color-4/#propdef-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-color/#propdef-color">https://drafts.csswg.org/css-color/#propdef-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-color">2.2. Effects of the Used Color Scheme</a>
     <li><a href="#ref-for-propdef-color①">3.1. Properties Affected by Forced Colors Mode</a> <a href="#ref-for-propdef-color②">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-system-color-pairings">
-   <a href="https://drafts.csswg.org/css-color-4/#system-color-pairings">https://drafts.csswg.org/css-color-4/#system-color-pairings</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-color/#system-color-pairings">https://drafts.csswg.org/css-color/#system-color-pairings</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-system-color-pairings">3.1. Properties Affected by Forced Colors Mode</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-css-system-colors">
-   <a href="https://drafts.csswg.org/css-color-4/#css-system-colors">https://drafts.csswg.org/css-color-4/#css-system-colors</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-css-system-colors">2. Preferred Color Schemes</a>
-    <li><a href="#ref-for-css-system-colors①">3.1. Properties Affected by Forced Colors Mode</a> <a href="#ref-for-css-system-colors②">(2)</a> <a href="#ref-for-css-system-colors③">(3)</a> <a href="#ref-for-css-system-colors④">(4)</a> <a href="#ref-for-css-system-colors⑤">(5)</a> <a href="#ref-for-css-system-colors⑥">(6)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-funcdef-color">
@@ -1640,7 +1633,7 @@ svg|foreignObject { forced-color-adjust: auto; }
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-column-rule-color">
-   <a href="https://drafts.csswg.org/css-multicol-1/#propdef-column-rule-color">https://drafts.csswg.org/css-multicol-1/#propdef-column-rule-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-multicol/#propdef-column-rule-color">https://drafts.csswg.org/css-multicol/#propdef-column-rule-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-column-rule-color">3.1. Properties Affected by Forced Colors Mode</a>
    </ul>
@@ -1652,7 +1645,7 @@ svg|foreignObject { forced-color-adjust: auto; }
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-scrollbar-color">
-   <a href="https://drafts.csswg.org/css-scrollbars-1/#propdef-scrollbar-color">https://drafts.csswg.org/css-scrollbars-1/#propdef-scrollbar-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-scrollbars/#propdef-scrollbar-color">https://drafts.csswg.org/css-scrollbars/#propdef-scrollbar-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-scrollbar-color">3.1. Properties Affected by Forced Colors Mode</a>
    </ul>
@@ -1713,20 +1706,14 @@ svg|foreignObject { forced-color-adjust: auto; }
     <li><a href="#ref-for-comb-one④">4. Performance-based Color Adjustments: the color-adjust property</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-canvas">
-   <a href="https://drafts.csswg.org/css2/#canvas">https://drafts.csswg.org/css2/#canvas</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-canvas">2.2. Effects of the Used Color Scheme</a> <a href="#ref-for-canvas①">(2)</a> <a href="#ref-for-canvas②">(3)</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-fill">
-   <a href="https://drafts.fxtf.org/fill-stroke-3/#propdef-fill">https://drafts.fxtf.org/fill-stroke-3/#propdef-fill</a><b>Referenced in:</b>
+   <a href="https://drafts.fxtf.org/fill-stroke/#propdef-fill">https://drafts.fxtf.org/fill-stroke/#propdef-fill</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-fill">3.1. Properties Affected by Forced Colors Mode</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-stroke">
-   <a href="https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke">https://drafts.fxtf.org/fill-stroke-3/#propdef-stroke</a><b>Referenced in:</b>
+   <a href="https://drafts.fxtf.org/fill-stroke/#propdef-stroke">https://drafts.fxtf.org/fill-stroke/#propdef-stroke</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-stroke">3.1. Properties Affected by Forced Colors Mode</a>
    </ul>
@@ -1792,7 +1779,7 @@ svg|foreignObject { forced-color-adjust: auto; }
      <li><span class="dfn-paneled" id="term-for-box-shadow-none">none <small>(for box-shadow)</small></span>
     </ul>
    <li>
-    <a data-link-type="biblio">[css-cascade-5]</a> defines the following terms:
+    <a data-link-type="biblio">[css-cascade-4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-cascade-origin-author">author style sheet</span>
      <li><span class="dfn-paneled" id="term-for-computed-value">computed value</span>
@@ -1807,7 +1794,6 @@ svg|foreignObject { forced-color-adjust: auto; }
      <li><span class="dfn-paneled" id="term-for-valdef-system-color-canvastext">canvastext</span>
      <li><span class="dfn-paneled" id="term-for-propdef-color">color</span>
      <li><span class="dfn-paneled" id="term-for-system-color-pairings">system color pairings</span>
-     <li><span class="dfn-paneled" id="term-for-css-system-colors">system colors</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS-COLOR-5]</a> defines the following terms:
@@ -1856,11 +1842,6 @@ svg|foreignObject { forced-color-adjust: auto; }
      <li><span class="dfn-paneled" id="term-for-comb-one">|</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[CSS2]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="term-for-canvas">canvas</span>
-    </ul>
-   <li>
     <a data-link-type="biblio">[fill-stroke-3]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-propdef-fill">fill</span>
@@ -1887,8 +1868,8 @@ svg|foreignObject { forced-color-adjust: auto; }
   <dl>
    <dt id="biblio-css-backgrounds-3">[CSS-BACKGROUNDS-3]
    <dd>Bert Bos; Elika Etemad; Brad Kemper. <a href="https://www.w3.org/TR/css-backgrounds-3/">CSS Backgrounds and Borders Module Level 3</a>. 22 December 2020. CR. URL: <a href="https://www.w3.org/TR/css-backgrounds-3/">https://www.w3.org/TR/css-backgrounds-3/</a>
-   <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
-   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-5/">CSS Cascading and Inheritance Level 5</a>. 8 June 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-5/">https://www.w3.org/TR/css-cascade-5/</a>
+   <dt id="biblio-css-cascade-4">[CSS-CASCADE-4]
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-4/">CSS Cascading and Inheritance Level 4</a>. 19 March 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-4/">https://www.w3.org/TR/css-cascade-4/</a>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
    <dd>Tab Atkins Jr.; Chris Lilley. <a href="https://www.w3.org/TR/css-color-4/">CSS Color Module Level 4</a>. 1 June 2021. WD. URL: <a href="https://www.w3.org/TR/css-color-4/">https://www.w3.org/TR/css-color-4/</a>
    <dt id="biblio-css-color-5">[CSS-COLOR-5]

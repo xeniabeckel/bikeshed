@@ -895,7 +895,7 @@ on screen, on paper, etc.
     <dd data-md>
      <p>The area used for excluding inline flow content around an exclusion box.
 The <a data-link-type="dfn" href="#exclusion-area" id="ref-for-exclusion-area">exclusion area</a> is equivalent to the <a data-link-type="dfn" href="https://drafts.csswg.org/css-box-4/#border-box" id="ref-for-border-box">border box</a> for an exclusion box.
-This specification’s <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes-1/#propdef-shape-outside" id="ref-for-propdef-shape-outside">shape-outside</a> property
+This specification’s <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes/#propdef-shape-outside" id="ref-for-propdef-shape-outside">shape-outside</a> property
 can be used to define arbitrary, non-rectangular <span id="ref-for-exclusion-area①">exclusion areas</span>.
 The <a class="property" data-link-type="propdesc" href="#propdef-shape-inside" id="ref-for-propdef-shape-inside①">shape-inside</a> property also defines an <span id="ref-for-exclusion-area②">exclusion area</span>,
 but in this case it is the area outside the shape that inline content avoids.</p>
@@ -903,7 +903,7 @@ but in this case it is the area outside the shape that inline content avoids.</p
     <dd data-md>
      <p>The area used for wrapping content around a float element.
 By default, the float area is the float element’s <a data-link-type="dfn" href="https://drafts.csswg.org/css-box-4/#margin-box" id="ref-for-margin-box">margin box</a>.
-This specification’s <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes-1/#propdef-shape-outside" id="ref-for-propdef-shape-outside①">shape-outside</a> property can be used
+This specification’s <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes/#propdef-shape-outside" id="ref-for-propdef-shape-outside①">shape-outside</a> property can be used
 to define arbitrary, non-rectangular float areas.</p>
     <dt data-md><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="content-area">content area</dfn>
     <dd data-md>
@@ -960,10 +960,10 @@ For square boxes, this is the same as the width/height.</p>
    </div>
    <p>Add the final <a href="https://www.w3.org/TR/css-shapes/#basic-shape-functions">level 1</a> sections.</p>
    <h4 class="heading settled" data-level="4.1.1" id="shape-function"><span class="secno">4.1.1. </span><span class="content"> The <a class="css" data-link-type="maybe" href="#funcdef-shape" id="ref-for-funcdef-shape">shape()</a> Function</span><a class="self-link" href="#shape-function"></a></h4>
-   <p>While the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#funcdef-path" id="ref-for-funcdef-path">path()</a> function allows reuse of the SVG path syntax
+   <p>While the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes/#funcdef-path" id="ref-for-funcdef-path">path()</a> function allows reuse of the SVG path syntax
 	to define more arbitrary shapes than allowed by more specialized shape functions,
 	it requires writing a path as a single string
-	(which is not compatible with, for example, building a path piecemeal with <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-variables-1/#funcdef-var" id="ref-for-funcdef-var">var()</a>),
+	(which is not compatible with, for example, building a path piecemeal with <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-variables/#funcdef-var" id="ref-for-funcdef-var">var()</a>),
 	and inherits a number of limitations from SVG,
 	such as implicitly only allowing the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-values-4/#px" id="ref-for-px">px</a> unit.</p>
    <p>The <a class="css" data-link-type="maybe" href="#funcdef-shape" id="ref-for-funcdef-shape①">shape()</a> function defines a path in the same way,
@@ -972,13 +972,13 @@ For square boxes, this is the same as the width/height.</p>
 	such as additional units and math functions.</p>
 <pre class="prod"><dfn class="dfn-paneled" data-dfn-type="function" data-export id="funcdef-shape">shape()</dfn> = shape( <a class="production" data-link-type="type" href="https://www.w3.org/TR/css-shapes-1/#typedef-fill-rule" id="ref-for-typedef-fill-rule">&lt;fill-rule></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-opt" id="ref-for-mult-opt">?</a> from <a class="production" data-link-type="type" href="#typedef-shape-coordinate-pair" id="ref-for-typedef-shape-coordinate-pair">&lt;coordinate-pair></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-comma" id="ref-for-comb-comma">,</a> <a class="production" data-link-type="type" href="#typedef-shape-command" id="ref-for-typedef-shape-command">&lt;shape-command></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-comma" id="ref-for-mult-comma">#</a>)
 </pre>
-   <p>The <a class="production css" data-link-type="type" href="https://www.w3.org/TR/css-shapes-1/#typedef-fill-rule" id="ref-for-typedef-fill-rule①">&lt;fill-rule></a> is interpreted identically to the same argument in <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#funcdef-path" id="ref-for-funcdef-path①">path()</a>.</p>
+   <p>The <a class="production css" data-link-type="type" href="https://www.w3.org/TR/css-shapes-1/#typedef-fill-rule" id="ref-for-typedef-fill-rule①">&lt;fill-rule></a> is interpreted identically to the same argument in <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes/#funcdef-path" id="ref-for-funcdef-path①">path()</a>.</p>
    <p>The rest of the arguments define a list of path data commands,
 	identical to that of an <a href="https://www.w3.org/TR/SVG11/paths.html#PathData">SVG Path</a>,
 	which the function represents.</p>
    <p>The <span class="css">from <a class="production css" data-link-type="type" href="#typedef-shape-coordinate-pair" id="ref-for-typedef-shape-coordinate-pair①">&lt;coordinate-pair></a></span> represents the starting point for the first shape-command.
 	It adds an initial <a href="https://www.w3.org/TR/SVG/paths.html#PathDataMovetoCommands">absolute moveto</a> to the list of path data commands,
-	with the <a class="production css" data-link-type="type" href="#typedef-shape-coordinate-pair" id="ref-for-typedef-shape-coordinate-pair②">&lt;coordinate-pair></a> measured from the top-left corner of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shapes-1/#reference-box" id="ref-for-reference-box">reference box</a>.</p>
+	with the <a class="production css" data-link-type="type" href="#typedef-shape-coordinate-pair" id="ref-for-typedef-shape-coordinate-pair②">&lt;coordinate-pair></a> measured from the top-left corner of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shapes/#reference-box" id="ref-for-reference-box">reference box</a>.</p>
    <p>The sequence of <dfn class="dfn-paneled css" data-dfn-type="type" data-export id="typedef-shape-command"><a class="production css" data-link-type="type" href="#typedef-shape-command" id="ref-for-typedef-shape-command①">&lt;shape-command></a></dfn>s represent
 	further <a href="https://www.w3.org/TR/SVG11/paths.html#PathData">path data commands</a>.
 	Each command’s starting point is the previous command’s ending point.</p>
@@ -1002,16 +1002,16 @@ For square boxes, this is the same as the width/height.</p>
 			representing a rightward and downward offset, respectively,
 			from a specified reference point.
 			Percentages are resolved against the width or height, respectively,
-			of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shapes-1/#reference-box" id="ref-for-reference-box①">reference box</a>. 
+			of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shapes/#reference-box" id="ref-for-reference-box①">reference box</a>. 
     <dt><dfn class="dfn-paneled css" data-dfn-for="shape()" data-dfn-type="type" data-export id="typedef-shape-by-to"><a class="production css" data-link-type="type" href="#typedef-shape-by-to" id="ref-for-typedef-shape-by-to⑦" title="Expands to: by | to">&lt;by-to></a></dfn> = <dfn class="dfn-paneled css" data-dfn-for="shape(), <by-to>" data-dfn-type="value" data-export id="valdef-shape-by">by</dfn> | <dfn class="dfn-paneled css" data-dfn-for="shape(), <by-to>" data-dfn-type="value" data-export id="valdef-shape-to">to</dfn> 
     <dd>
       Every command can be specified in "absolute" or "relative" coordinates,
 			determined by their <a class="production css" data-link-type="type" href="#typedef-shape-by-to" id="ref-for-typedef-shape-by-to⑧" title="Expands to: by | to">&lt;by-to></a> component. <a class="css" data-link-type="maybe" href="#valdef-shape-to" id="ref-for-valdef-shape-to">to</a> indicates that any <a class="production css" data-link-type="type" href="#typedef-shape-coordinate-pair" id="ref-for-typedef-shape-coordinate-pair①②">&lt;coordinate-pair></a>s in the command
-			are relative to the top-left corner of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shapes-1/#reference-box" id="ref-for-reference-box②">reference box</a>,
+			are relative to the top-left corner of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shapes/#reference-box" id="ref-for-reference-box②">reference box</a>,
 			while <a class="css" data-link-type="maybe" href="#valdef-shape-by" id="ref-for-valdef-shape-by">by</a> indicates that the <span class="production" id="ref-for-typedef-shape-coordinate-pair①③">&lt;coordinate-pair></span>s
 			are relative to the command’s starting point. 
      <p class="note" role="note"><span>Note:</span> In either case, <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#percentage-value" id="ref-for-percentage-value">&lt;percentage></a> values in <a class="production css" data-link-type="type" href="#typedef-shape-coordinate-pair" id="ref-for-typedef-shape-coordinate-pair①④">&lt;coordinate-pair></a>s
-			are always computed relative to the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shapes-1/#reference-box" id="ref-for-reference-box③">reference box’s</a> size.</p>
+			are always computed relative to the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shapes/#reference-box" id="ref-for-reference-box③">reference box’s</a> size.</p>
     <dt><dfn class="dfn-paneled css" data-dfn-for="shape()" data-dfn-type="type" data-export id="typedef-shape-move-command"><a class="production css" data-link-type="type" href="#typedef-shape-move-command" id="ref-for-typedef-shape-move-command②">&lt;move-command></a></dfn> = <dfn class="css" data-dfn-for="shape()" data-dfn-type="value" data-export id="valdef-shape-move">move<a class="self-link" href="#valdef-shape-move"></a></dfn> <a class="production css" data-link-type="type" href="#typedef-shape-by-to" id="ref-for-typedef-shape-by-to⑨" title="Expands to: by | to">&lt;by-to></a> <a class="production css" data-link-type="type" href="#typedef-shape-coordinate-pair" id="ref-for-typedef-shape-coordinate-pair①⑤">&lt;coordinate-pair></a> 
     <dd>
       Adds a <a href="https://www.w3.org/TR/SVG/paths.html#PathDataMovetoCommands">moveto</a> command
@@ -1069,11 +1069,11 @@ For square boxes, this is the same as the width/height.</p>
      <p>The <span class="css">of</span> component specifies the size of the ellipse that the arc is taken from.
 			The first <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#typedef-length-percentage" id="ref-for-typedef-length-percentage⑦">&lt;length-percentage></a> provides the horizontal radius of the ellipse
 			and the second provides the vertical radius.
-			Like for <a class="production css" data-link-type="type" href="#typedef-shape-coordinate-pair" id="ref-for-typedef-shape-coordinate-pair③⓪">&lt;coordinate-pair></a>s, <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#percentage-value" id="ref-for-percentage-value①">&lt;percentage></a> values are resolved against the width or height of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shapes-1/#reference-box" id="ref-for-reference-box④">reference box</a>,
+			Like for <a class="production css" data-link-type="type" href="#typedef-shape-coordinate-pair" id="ref-for-typedef-shape-coordinate-pair③⓪">&lt;coordinate-pair></a>s, <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#percentage-value" id="ref-for-percentage-value①">&lt;percentage></a> values are resolved against the width or height of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shapes/#reference-box" id="ref-for-reference-box④">reference box</a>,
 			as appropriate.</p>
      <p>If only one <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#typedef-length-percentage" id="ref-for-typedef-length-percentage⑧">&lt;length-percentage></a> is provided,
 			both radiuses use the provided value.
-			In that case, <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#percentage-value" id="ref-for-percentage-value②">&lt;percentage></a> values are resolved against the <a data-link-type="dfn" href="#direction-agnostic-size" id="ref-for-direction-agnostic-size①">direction-agnostic size</a> of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shapes-1/#reference-box" id="ref-for-reference-box⑤">reference box</a> (similar to the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#funcdef-circle" id="ref-for-funcdef-circle">circle()</a> function).</p>
+			In that case, <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#percentage-value" id="ref-for-percentage-value②">&lt;percentage></a> values are resolved against the <a data-link-type="dfn" href="#direction-agnostic-size" id="ref-for-direction-agnostic-size①">direction-agnostic size</a> of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-shapes/#reference-box" id="ref-for-reference-box⑤">reference box</a> (similar to the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes/#funcdef-circle" id="ref-for-funcdef-circle">circle()</a> function).</p>
      <div class="note" role="note">
        Note that SVG has <a href="https://www.w3.org/TR/SVG2/paths.html#ArcOutOfRangeParameters">some specific error-handling for the ellipse radiuses</a>: 
       <ul>
@@ -1092,7 +1092,7 @@ they are scaled up uniformly until the ellipse is just large enough to reach.</p
      </div>
      <p>The ellipse described by the specified radiuses defaults to being axis-aligned,
 			but can be rotated by specifying an <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#angle-value" id="ref-for-angle-value③" title="Expands to: deg | grad | rad | turn">&lt;angle></a>.
-			Similar to the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-transforms-1/#funcdef-transform-rotate" id="ref-for-funcdef-transform-rotate">rotate()</a> transform function,
+			Similar to the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-transforms/#funcdef-transform-rotate" id="ref-for-funcdef-transform-rotate">rotate()</a> transform function,
 			positive angles specify a clockwise rotation,
 			and negative angles specify a counterclockwise rotation.
 			If omitted, this defaults to <span class="css">0deg</span>.</p>
@@ -1141,7 +1141,7 @@ and <a class="production css" data-link-type="type" href="#typedef-shape-arc-siz
 			which affects how line-joins and line-caps are rendered.</p>
    </dl>
    <h5 class="heading settled" data-level="4.1.1.1" id="interpolating-shape"><span class="secno">4.1.1.1. </span><span class="content"> Interpolating the <a class="css" data-link-type="maybe" href="#funcdef-shape" id="ref-for-funcdef-shape②">shape()</a> Function</span><a class="self-link" href="#interpolating-shape"></a></h5>
-   <p><a class="css" data-link-type="maybe" href="#funcdef-shape" id="ref-for-funcdef-shape③">shape()</a> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#funcdef-path" id="ref-for-funcdef-path②">path()</a> functions can be <a data-link-type="dfn" href="https://drafts.csswg.org/css-values-4/#interpolation" id="ref-for-interpolation">interpolated</a> with each other
+   <p><a class="css" data-link-type="maybe" href="#funcdef-shape" id="ref-for-funcdef-shape③">shape()</a> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes/#funcdef-path" id="ref-for-funcdef-path②">path()</a> functions can be <a data-link-type="dfn" href="https://drafts.csswg.org/css-values-4/#interpolation" id="ref-for-interpolation">interpolated</a> with each other
 	if their associated list of path data commands is the same length
 	and has the same commands, in order.
 	If the starting and ending values are both <span class="css" id="ref-for-funcdef-path③">path()</span> functions,
@@ -1198,14 +1198,14 @@ and <a class="production css" data-link-type="type" href="#typedef-shape-arc-siz
    <h2 class="heading settled" data-level="7" id="shapes-from-box-values"><span class="secno">7. </span><span class="content"> Shapes from Box Values</span><a class="self-link" href="#shapes-from-box-values"></a></h2>
    <p>Add the final <a href="https://www.w3.org/TR/css-shapes/#shapes-from-box-values">level 1</a> section.</p>
    <h2 class="heading settled" data-level="8" id="declaring-shapes"><span class="secno">8. </span><span class="content"> Declaring Shapes</span><a class="self-link" href="#declaring-shapes"></a></h2>
-   <p>A shape can be declared with the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes-1/#propdef-shape-outside" id="ref-for-propdef-shape-outside②">shape-outside</a> property,
-	with possible modifications from the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes-1/#propdef-shape-margin" id="ref-for-propdef-shape-margin">shape-margin</a> property.
+   <p>A shape can be declared with the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes/#propdef-shape-outside" id="ref-for-propdef-shape-outside②">shape-outside</a> property,
+	with possible modifications from the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes/#propdef-shape-margin" id="ref-for-propdef-shape-margin">shape-margin</a> property.
 	The shape defined by the <span class="property" id="ref-for-propdef-shape-outside③">shape-outside</span> and <span class="property" id="ref-for-propdef-shape-margin①">shape-margin</span> properties
 	changes the geometry of a float element’s <a data-link-type="dfn" href="#float-area" id="ref-for-float-area②">float area</a> and an exclusion element’s <a data-link-type="dfn" href="#exclusion-area" id="ref-for-exclusion-area④">exclusion area</a>.</p>
    <p>A shape can be declared with the <a class="property" data-link-type="propdesc" href="#propdef-shape-inside" id="ref-for-propdef-shape-inside②">shape-inside</a> property,
 	with possible modifications from the <a class="property" data-link-type="propdesc" href="#propdef-shape-padding" id="ref-for-propdef-shape-padding">shape-padding</a> property.
 	The shape defined by the <span class="property" id="ref-for-propdef-shape-inside③">shape-inside</span> and <span class="property" id="ref-for-propdef-shape-padding①">shape-padding</span> properties
-	defines an <a data-link-type="dfn" href="#exclusion-area" id="ref-for-exclusion-area⑤">exclusion area</a> that contributes to the element’s <a data-link-type="dfn" href="https://drafts.csswg.org/css-exclusions-1/#wrapping-context" id="ref-for-wrapping-context">wrapping context</a>.
+	defines an <a data-link-type="dfn" href="#exclusion-area" id="ref-for-exclusion-area⑤">exclusion area</a> that contributes to the element’s <a data-link-type="dfn" href="https://drafts.csswg.org/css-exclusions/#wrapping-context" id="ref-for-wrapping-context">wrapping context</a>.
 	The <span class="property" id="ref-for-propdef-shape-inside④">shape-inside</span> property applies to all block-level elements.</p>
    <div class="example" id="example-c8f2dc07">
     <a class="self-link" href="#example-c8f2dc07"></a> The red box illustrates an exclusion element’s content box,
@@ -1231,7 +1231,7 @@ and <a class="production css" data-link-type="type" href="#typedef-shape-arc-siz
 </pre>
     <p><img alt="Example rendering of circle shape and box model." class="singleImgExample" src="images/shapes_CSS2.1_MBP.png" style="max-width:40%"></p>
    </div>
-   <h3 class="heading settled" data-level="8.1" id="shape-outside-property"><span class="secno">8.1. </span><span class="content"> The <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes-1/#propdef-shape-outside" id="ref-for-propdef-shape-outside④">shape-outside</a> Property</span><a class="self-link" href="#shape-outside-property"></a></h3>
+   <h3 class="heading settled" data-level="8.1" id="shape-outside-property"><span class="secno">8.1. </span><span class="content"> The <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes/#propdef-shape-outside" id="ref-for-propdef-shape-outside④">shape-outside</a> Property</span><a class="self-link" href="#shape-outside-property"></a></h3>
    <div class="mdn-anno wrapped after">
     <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
     <div class="feature">
@@ -1265,7 +1265,7 @@ and <a class="production css" data-link-type="type" href="#typedef-shape-arc-siz
       <td><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-shape-inside">shape-inside</dfn>
      <tr class="value">
       <th><a href="https://www.w3.org/TR/css-values/#value-defs">Value:</a>
-      <td class="prod">auto <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①⓪">|</a> outside-shape <span id="ref-for-comb-one①①">|</span> [ <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes-1/#typedef-basic-shape" id="ref-for-typedef-basic-shape">&lt;basic-shape></a> <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-any" id="ref-for-comb-any②">||</a> shape-box ] <span id="ref-for-comb-one①②">|</span> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-images-3/#typedef-image" id="ref-for-typedef-image">&lt;image></a> <span id="ref-for-comb-one①③">|</span> display 
+      <td class="prod">auto <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①⓪">|</a> outside-shape <span id="ref-for-comb-one①①">|</span> [ <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes/#typedef-basic-shape" id="ref-for-typedef-basic-shape">&lt;basic-shape></a> <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-any" id="ref-for-comb-any②">||</a> shape-box ] <span id="ref-for-comb-one①②">|</span> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-images-3/#typedef-image" id="ref-for-typedef-image">&lt;image></a> <span id="ref-for-comb-one①③">|</span> display 
      <tr>
       <th><a href="https://www.w3.org/TR/css-cascade/#initial-values">Initial:</a>
       <td>auto 
@@ -1280,13 +1280,13 @@ and <a class="production css" data-link-type="type" href="#typedef-shape-arc-siz
       <td>n/a 
      <tr>
       <th><a href="https://www.w3.org/TR/css-cascade/#computed">Computed value:</a>
-      <td>computed lengths for <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes-1/#typedef-basic-shape" id="ref-for-typedef-basic-shape①">&lt;basic-shape></a>, the absolute URL for <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#url-value" id="ref-for-url-value">&lt;url></a>, otherwise as specified 
+      <td>computed lengths for <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes/#typedef-basic-shape" id="ref-for-typedef-basic-shape①">&lt;basic-shape></a>, the absolute URL for <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#url-value" id="ref-for-url-value">&lt;url></a>, otherwise as specified 
      <tr>
       <th>Canonical order:
       <td>per grammar 
      <tr>
       <th><a href="https://www.w3.org/TR/web-animations/#animation-type">Animation type:</a>
-      <td>as defined for <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes-1/#typedef-basic-shape" id="ref-for-typedef-basic-shape②">&lt;basic-shape></a>, otherwise discrete 
+      <td>as defined for <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes/#typedef-basic-shape" id="ref-for-typedef-basic-shape②">&lt;basic-shape></a>, otherwise discrete 
    </table>
    <p>The values of this property have the following meanings:</p>
    <dl>
@@ -1296,9 +1296,9 @@ and <a class="production css" data-link-type="type" href="#typedef-shape-arc-siz
     <dd> The shape is computed based on
 			the shape defined by the shape-outside
 			and shape-margin properties. 
-    <dt><dfn class="css" data-dfn-for="shape-inside" data-dfn-type="value" data-export id="valdef-shape-inside-basic-shape"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes-1/#typedef-basic-shape" id="ref-for-typedef-basic-shape③">&lt;basic-shape></a><a class="self-link" href="#valdef-shape-inside-basic-shape"></a></dfn> 
+    <dt><dfn class="css" data-dfn-for="shape-inside" data-dfn-type="value" data-export id="valdef-shape-inside-basic-shape"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes/#typedef-basic-shape" id="ref-for-typedef-basic-shape③">&lt;basic-shape></a><a class="self-link" href="#valdef-shape-inside-basic-shape"></a></dfn> 
     <dd> The shape is computed based
-			on the values of one of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#funcdef-inset" id="ref-for-funcdef-inset">inset()</a>, <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#funcdef-circle" id="ref-for-funcdef-circle①">circle()</a>, <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#funcdef-ellipse" id="ref-for-funcdef-ellipse">ellipse()</a> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-1/#funcdef-polygon" id="ref-for-funcdef-polygon">polygon()</a>. 
+			on the values of one of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes/#funcdef-inset" id="ref-for-funcdef-inset">inset()</a>, <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes/#funcdef-circle" id="ref-for-funcdef-circle①">circle()</a>, <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes/#funcdef-ellipse" id="ref-for-funcdef-ellipse">ellipse()</a> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes/#funcdef-polygon" id="ref-for-funcdef-polygon">polygon()</a>. 
     <dt><dfn class="css" data-dfn-for="shape-inside" data-dfn-type="value" data-export id="valdef-shape-inside-url"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#url-value" id="ref-for-url-value①">&lt;url></a><a class="self-link" href="#valdef-shape-inside-url"></a></dfn> 
     <dd>
       If the &lt;uri> references an SVG shape element,
@@ -1316,7 +1316,7 @@ and <a class="production css" data-link-type="type" href="#typedef-shape-arc-siz
    </dl>
    <p>The <a class="property" data-link-type="propdesc" href="#propdef-shape-inside" id="ref-for-propdef-shape-inside⑦">shape-inside</a> property applies to floats.</p>
    <p>The <a class="property" data-link-type="propdesc" href="#propdef-shape-inside" id="ref-for-propdef-shape-inside⑧">shape-inside</a> property may not apply on some elements
-	such as elements with a computed <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-display-3/#propdef-display" id="ref-for-propdef-display">display</a> value of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display-3/#valdef-display-table" id="ref-for-valdef-display-table">table</a>.</p>
+	such as elements with a computed <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-display/#propdef-display" id="ref-for-propdef-display">display</a> value of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display/#valdef-display-table" id="ref-for-valdef-display-table">table</a>.</p>
    <figure>
      <img alt="Content flowing with and without a shape-inside" src="images/shape-inside-content.png"> 
     <figcaption>Effect of shape-inside on inline content.</figcaption>
@@ -1358,7 +1358,7 @@ and <a class="production css" data-link-type="type" href="#typedef-shape-arc-siz
     </div>
    </div>
    <p>Add the final <a href="https://www.w3.org/TR/css-shapes/#shape-image-threshold-property">level 1</a> section with the change that
-	it applies to both <a class="property" data-link-type="propdesc" href="#propdef-shape-inside" id="ref-for-propdef-shape-inside①①">shape-inside</a> and <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes-1/#propdef-shape-outside" id="ref-for-propdef-shape-outside⑤">shape-outside</a>.</p>
+	it applies to both <a class="property" data-link-type="propdesc" href="#propdef-shape-inside" id="ref-for-propdef-shape-inside①①">shape-inside</a> and <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes/#propdef-shape-outside" id="ref-for-propdef-shape-outside⑤">shape-outside</a>.</p>
    <h3 class="heading settled" data-level="8.4" id="shape-image-source-type-property"><span class="secno">8.4. </span><span class="content"> The shape-image-source-type Property</span><a class="self-link" href="#shape-image-source-type-property"></a></h3>
    <p>Should we add an alpha/luminance switch
 	to determine which values we use
@@ -1367,7 +1367,7 @@ and <a class="production css" data-link-type="type" href="#typedef-shape-arc-siz
 	on the shape-image-threshold property.
 	Whatever we go with should be compatible
 	with the alpha/luminance switch from mask sources.</p>
-   <h3 class="heading settled" data-level="8.5" id="shape-margin-property"><span class="secno">8.5. </span><span class="content"> The <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes-1/#propdef-shape-margin" id="ref-for-propdef-shape-margin②">shape-margin</a> property</span><a class="self-link" href="#shape-margin-property"></a></h3>
+   <h3 class="heading settled" data-level="8.5" id="shape-margin-property"><span class="secno">8.5. </span><span class="content"> The <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes/#propdef-shape-margin" id="ref-for-propdef-shape-margin②">shape-margin</a> property</span><a class="self-link" href="#shape-margin-property"></a></h3>
    <div class="mdn-anno wrapped after">
     <button class="mdn-anno-btn"><b class="all-engines-flag" title="This feature is in all current engines.">✔</b><span>MDN</span></button>
     <div class="feature">
@@ -1431,7 +1431,7 @@ and <a class="production css" data-link-type="type" href="#typedef-shape-arc-siz
    </div>
    <p class="note" role="note"><span>Note:</span> The <a class="property" data-link-type="propdesc" href="#propdef-shape-padding" id="ref-for-propdef-shape-padding⑦">shape-padding</a> property only affects layout of content
 	inside the element it applies to
-	while the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes-1/#propdef-shape-margin" id="ref-for-propdef-shape-margin③">shape-margin</a> property only affects layout of content
+	while the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-shapes/#propdef-shape-margin" id="ref-for-propdef-shape-margin③">shape-margin</a> property only affects layout of content
 	outside the element.</p>
   </main>
   <h2 class="no-ref no-num heading settled" id="w3c-conformance"><span class="content"> Conformance</span><a class="self-link" href="#w3c-conformance"></a></h2>
@@ -1583,14 +1583,14 @@ Terminology</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-display">
-   <a href="https://drafts.csswg.org/css-display-3/#propdef-display">https://drafts.csswg.org/css-display-3/#propdef-display</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-display/#propdef-display">https://drafts.csswg.org/css-display/#propdef-display</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-display">8.2. 
 The shape-inside Property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-display-table">
-   <a href="https://drafts.csswg.org/css-display-3/#valdef-display-table">https://drafts.csswg.org/css-display-3/#valdef-display-table</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-display/#valdef-display-table">https://drafts.csswg.org/css-display/#valdef-display-table</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-display-table">8.2. 
 The shape-inside Property</a>
@@ -1604,7 +1604,7 @@ The shape-inside Property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-typedef-basic-shape">
-   <a href="https://drafts.csswg.org/css-shapes-1/#typedef-basic-shape">https://drafts.csswg.org/css-shapes-1/#typedef-basic-shape</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#typedef-basic-shape">https://drafts.csswg.org/css-shapes/#typedef-basic-shape</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-typedef-basic-shape">8.2. 
 The shape-inside Property</a> <a href="#ref-for-typedef-basic-shape①">(2)</a> <a href="#ref-for-typedef-basic-shape②">(3)</a> <a href="#ref-for-typedef-basic-shape③">(4)</a>
@@ -1618,7 +1618,7 @@ The shape() Function</a> <a href="#ref-for-typedef-fill-rule①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-funcdef-circle">
-   <a href="https://drafts.csswg.org/css-shapes-1/#funcdef-circle">https://drafts.csswg.org/css-shapes-1/#funcdef-circle</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#funcdef-circle">https://drafts.csswg.org/css-shapes/#funcdef-circle</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-funcdef-circle">4.1.1. 
 The shape() Function</a>
@@ -1627,21 +1627,21 @@ The shape-inside Property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-funcdef-ellipse">
-   <a href="https://drafts.csswg.org/css-shapes-1/#funcdef-ellipse">https://drafts.csswg.org/css-shapes-1/#funcdef-ellipse</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#funcdef-ellipse">https://drafts.csswg.org/css-shapes/#funcdef-ellipse</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-funcdef-ellipse">8.2. 
 The shape-inside Property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-funcdef-inset">
-   <a href="https://drafts.csswg.org/css-shapes-1/#funcdef-inset">https://drafts.csswg.org/css-shapes-1/#funcdef-inset</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#funcdef-inset">https://drafts.csswg.org/css-shapes/#funcdef-inset</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-funcdef-inset">8.2. 
 The shape-inside Property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-funcdef-path">
-   <a href="https://drafts.csswg.org/css-shapes-1/#funcdef-path">https://drafts.csswg.org/css-shapes-1/#funcdef-path</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#funcdef-path">https://drafts.csswg.org/css-shapes/#funcdef-path</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-funcdef-path">4.1.1. 
 The shape() Function</a> <a href="#ref-for-funcdef-path①">(2)</a>
@@ -1650,21 +1650,21 @@ Interpolating the shape() Function</a> <a href="#ref-for-funcdef-path③">(2)</a
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-funcdef-polygon">
-   <a href="https://drafts.csswg.org/css-shapes-1/#funcdef-polygon">https://drafts.csswg.org/css-shapes-1/#funcdef-polygon</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#funcdef-polygon">https://drafts.csswg.org/css-shapes/#funcdef-polygon</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-funcdef-polygon">8.2. 
 The shape-inside Property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-reference-box">
-   <a href="https://drafts.csswg.org/css-shapes-1/#reference-box">https://drafts.csswg.org/css-shapes-1/#reference-box</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#reference-box">https://drafts.csswg.org/css-shapes/#reference-box</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-reference-box">4.1.1. 
 The shape() Function</a> <a href="#ref-for-reference-box①">(2)</a> <a href="#ref-for-reference-box②">(3)</a> <a href="#ref-for-reference-box③">(4)</a> <a href="#ref-for-reference-box④">(5)</a> <a href="#ref-for-reference-box⑤">(6)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-shape-margin">
-   <a href="https://drafts.csswg.org/css-shapes-1/#propdef-shape-margin">https://drafts.csswg.org/css-shapes-1/#propdef-shape-margin</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#propdef-shape-margin">https://drafts.csswg.org/css-shapes/#propdef-shape-margin</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-shape-margin">8. 
 Declaring Shapes</a> <a href="#ref-for-propdef-shape-margin①">(2)</a>
@@ -1675,7 +1675,7 @@ The shape-padding Property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-shape-outside">
-   <a href="https://drafts.csswg.org/css-shapes-1/#propdef-shape-outside">https://drafts.csswg.org/css-shapes-1/#propdef-shape-outside</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#propdef-shape-outside">https://drafts.csswg.org/css-shapes/#propdef-shape-outside</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-shape-outside">2. 
 Terminology</a> <a href="#ref-for-propdef-shape-outside①">(2)</a>
@@ -1688,7 +1688,7 @@ The shape-image-threshold Property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-funcdef-transform-rotate">
-   <a href="https://drafts.csswg.org/css-transforms-1/#funcdef-transform-rotate">https://drafts.csswg.org/css-transforms-1/#funcdef-transform-rotate</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-transforms/#funcdef-transform-rotate">https://drafts.csswg.org/css-transforms/#funcdef-transform-rotate</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-funcdef-transform-rotate">4.1.1. 
 The shape() Function</a>
@@ -1804,14 +1804,14 @@ The shape-inside Property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-funcdef-var">
-   <a href="https://drafts.csswg.org/css-variables-1/#funcdef-var">https://drafts.csswg.org/css-variables-1/#funcdef-var</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-variables/#funcdef-var">https://drafts.csswg.org/css-variables/#funcdef-var</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-funcdef-var">4.1.1. 
 The shape() Function</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-wrapping-context">
-   <a href="https://drafts.csswg.org/css-exclusions-1/#wrapping-context">https://drafts.csswg.org/css-exclusions-1/#wrapping-context</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-exclusions/#wrapping-context">https://drafts.csswg.org/css-exclusions/#wrapping-context</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-wrapping-context">8. 
 Declaring Shapes</a>

@@ -1,19 +1,19 @@
 "usb"
 enum-value
-webauthn-1
-webauthn
+webusb
+webusb
 1
-snapshot
-https://www.w3.org/TR/webauthn/#dom-authenticatortransport-usb
+current
+https://wicg.github.io/webusb/#dom-permissionname-usb
 1
 1
-AuthenticatorTransport
+PermissionName
 -
 "usb"
 enum-value
-webauthn-1
+webauthn-3
 webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#dom-authenticatortransport-usb
 1
@@ -22,14 +22,46 @@ AuthenticatorTransport
 -
 "usb"
 enum-value
-webusb-1
-webusb
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticatortransport-usb
+1
+1
+AuthenticatorTransport
+-
+"user-blocking"
+enum-value
+scheduling-apis
+scheduling-apis
 1
 current
-https://wicg.github.io/webusb/#dom-permissionname-usb
+https://wicg.github.io/scheduling-apis/#dom-taskpriority-user-blocking
 1
 1
-PermissionName
+TaskPriority
+-
+"user-visible"
+enum-value
+scheduling-apis
+scheduling-apis
+1
+current
+https://wicg.github.io/scheduling-apis/#dom-taskpriority-user-visible
+1
+1
+TaskPriority
+-
+:user-invalid
+selector
+selectors-4
+selectors
+4
+current
+https://drafts.csswg.org/selectors/#user-invalid-pseudo
+1
+1
 -
 :user-invalid
 selector
@@ -41,29 +73,19 @@ https://www.w3.org/TR/selectors-4/#user-invalid-pseudo
 1
 1
 -
-:user-invalid
-selector
-selectors-4
-selectors
-4
-current
-https://drafts.csswg.org/selectors-4/#user-invalid-pseudo
-1
-1
--
 :user-valid
 selector
 selectors-4
 selectors
 4
 current
-https://drafts.csswg.org/selectors-4/#user-valid-pseudo
+https://drafts.csswg.org/selectors/#user-valid-pseudo
 1
 1
 -
 USB
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -73,7 +95,7 @@ https://wicg.github.io/webusb/#usb
 -
 USBAlternateInterface
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -83,7 +105,7 @@ https://wicg.github.io/webusb/#usbalternateinterface
 -
 USBAlternateInterface(deviceInterface, alternateSetting)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -94,7 +116,7 @@ USBAlternateInterface
 -
 USBConfiguration
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -104,7 +126,7 @@ https://wicg.github.io/webusb/#usbconfiguration
 -
 USBConfiguration(device, configurationValue)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -115,7 +137,7 @@ USBConfiguration
 -
 USBConnectionEvent
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -125,7 +147,7 @@ https://wicg.github.io/webusb/#usbconnectionevent
 -
 USBConnectionEvent(type, eventInitDict)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -136,7 +158,7 @@ USBConnectionEvent
 -
 USBConnectionEventInit
 dictionary
-webusb-1
+webusb
 webusb
 1
 current
@@ -146,7 +168,7 @@ https://wicg.github.io/webusb/#dictdef-usbconnectioneventinit
 -
 USBControlTransferParameters
 dictionary
-webusb-1
+webusb
 webusb
 1
 current
@@ -156,7 +178,7 @@ https://wicg.github.io/webusb/#dictdef-usbcontroltransferparameters
 -
 USBDevice
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -166,7 +188,7 @@ https://wicg.github.io/webusb/#usbdevice
 -
 USBDeviceFilter
 dictionary
-webusb-1
+webusb
 webusb
 1
 current
@@ -176,7 +198,7 @@ https://wicg.github.io/webusb/#dictdef-usbdevicefilter
 -
 USBDeviceRequestOptions
 dictionary
-webusb-1
+webusb
 webusb
 1
 current
@@ -186,7 +208,7 @@ https://wicg.github.io/webusb/#dictdef-usbdevicerequestoptions
 -
 USBDirection
 enum
-webusb-1
+webusb
 webusb
 1
 current
@@ -196,7 +218,7 @@ https://wicg.github.io/webusb/#enumdef-usbdirection
 -
 USBEndpoint
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -206,7 +228,7 @@ https://wicg.github.io/webusb/#usbendpoint
 -
 USBEndpoint(alternate, endpointNumber, direction)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -217,7 +239,7 @@ USBEndpoint
 -
 USBEndpointType
 enum
-webusb-1
+webusb
 webusb
 1
 current
@@ -227,7 +249,7 @@ https://wicg.github.io/webusb/#enumdef-usbendpointtype
 -
 USBInTransferResult
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -237,7 +259,7 @@ https://wicg.github.io/webusb/#usbintransferresult
 -
 USBInTransferResult(status)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -248,7 +270,7 @@ USBInTransferResult
 -
 USBInTransferResult(status, data)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -259,7 +281,7 @@ USBInTransferResult
 -
 USBInterface
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -269,7 +291,7 @@ https://wicg.github.io/webusb/#usbinterface
 -
 USBInterface(configuration, interfaceNumber)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -280,7 +302,7 @@ USBInterface
 -
 USBIsochronousInTransferPacket
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -290,7 +312,7 @@ https://wicg.github.io/webusb/#usbisochronousintransferpacket
 -
 USBIsochronousInTransferPacket(status)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -301,7 +323,7 @@ USBIsochronousInTransferPacket
 -
 USBIsochronousInTransferPacket(status, data)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -312,7 +334,7 @@ USBIsochronousInTransferPacket
 -
 USBIsochronousInTransferResult
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -322,7 +344,7 @@ https://wicg.github.io/webusb/#usbisochronousintransferresult
 -
 USBIsochronousInTransferResult(packets)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -333,7 +355,7 @@ USBIsochronousInTransferResult
 -
 USBIsochronousInTransferResult(packets, data)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -344,7 +366,7 @@ USBIsochronousInTransferResult
 -
 USBIsochronousOutTransferPacket
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -354,7 +376,7 @@ https://wicg.github.io/webusb/#usbisochronousouttransferpacket
 -
 USBIsochronousOutTransferPacket(status)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -365,7 +387,7 @@ USBIsochronousOutTransferPacket
 -
 USBIsochronousOutTransferPacket(status, bytesWritten)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -376,7 +398,7 @@ USBIsochronousOutTransferPacket
 -
 USBIsochronousOutTransferResult
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -386,7 +408,7 @@ https://wicg.github.io/webusb/#usbisochronousouttransferresult
 -
 USBIsochronousOutTransferResult(packets)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -397,7 +419,7 @@ USBIsochronousOutTransferResult
 -
 USBOutTransferResult
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -407,7 +429,7 @@ https://wicg.github.io/webusb/#usbouttransferresult
 -
 USBOutTransferResult(status)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -418,7 +440,7 @@ USBOutTransferResult
 -
 USBOutTransferResult(status, bytesWritten)
 constructor
-webusb-1
+webusb
 webusb
 1
 current
@@ -429,7 +451,7 @@ USBOutTransferResult
 -
 USBPermissionDescriptor
 dictionary
-webusb-1
+webusb
 webusb
 1
 current
@@ -439,7 +461,7 @@ https://wicg.github.io/webusb/#dictdef-usbpermissiondescriptor
 -
 USBPermissionResult
 interface
-webusb-1
+webusb
 webusb
 1
 current
@@ -449,7 +471,7 @@ https://wicg.github.io/webusb/#usbpermissionresult
 -
 USBPermissionStorage
 dictionary
-webusb-1
+webusb
 webusb
 1
 current
@@ -459,7 +481,7 @@ https://wicg.github.io/webusb/#dictdef-usbpermissionstorage
 -
 USBRecipient
 enum
-webusb-1
+webusb
 webusb
 1
 current
@@ -469,7 +491,7 @@ https://wicg.github.io/webusb/#enumdef-usbrecipient
 -
 USBRequestType
 enum
-webusb-1
+webusb
 webusb
 1
 current
@@ -479,7 +501,7 @@ https://wicg.github.io/webusb/#enumdef-usbrequesttype
 -
 USBTransferStatus
 enum
-webusb-1
+webusb
 webusb
 1
 current
@@ -489,7 +511,7 @@ https://wicg.github.io/webusb/#enumdef-usbtransferstatus
 -
 USVString
 interface
-webidl
+webidl-1
 webidl
 1
 current
@@ -502,34 +524,66 @@ interface
 dom
 dom
 1
-snapshot
+current
 https://dom.spec.whatwg.org/#userdatahandler
 1
 1
 -
-UserVerificationRequirement
+UserIdleState
 enum
-webauthn-1
-webauthn
+idle-detection
+idle-detection
 1
-snapshot
-https://www.w3.org/TR/webauthn/#enumdef-userverificationrequirement
+current
+https://wicg.github.io/idle-detection/#enumdef-useridlestate
 1
 1
 -
 UserVerificationRequirement
 enum
-webauthn-1
+webauthn-3
 webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#enumdef-userverificationrequirement
 1
 1
 -
+UserVerificationRequirement
+enum
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#enumdef-userverificationrequirement
+1
+1
+-
+[[usage]]
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpubuffer-usage-slot
+1
+1
+GPUBuffer
+-
+[[usage]]
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpubuffer-usage-slot
+1
+1
+GPUBuffer
+-
 [[usages]]
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -537,15 +591,81 @@ https://w3c.github.io/webcrypto/#dfn-CryptoKey-slot-usages
 
 1
 -
+[[usedResources]]
+attribute
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpubindgroup-usedresources-slot
+1
+1
+GPUBindGroup
+-
+[[usedResources]]
+attribute
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpubindgroup-usedresources-slot
+1
+1
+GPUBindGroup
+-
+[[userState]]
+attribute
+idle-detection
+idle-detection
+1
+current
+https://wicg.github.io/idle-detection/#dom-idledetector-userstate-slot
+1
+1
+IdleDetector
+-
 [usages_cached]
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
 https://w3c.github.io/webcrypto/#dfn-CryptoKey-slot-usages_cached
 
 1
+-
+usable
+enum-value
+encrypted-media
+encrypted-media
+1
+current
+https://w3c.github.io/encrypted-media/#dom-mediakeystatus-usable
+1
+1
+MediaKeyStatus
+-
+usable
+dfn
+encrypted-media
+encrypted-media
+1
+snapshot
+https://www.w3.org/TR/encrypted-media/#dom-mediakeystatus-usable
+
+1
+mediakeystatus
+-
+usable-in-future
+enum-value
+encrypted-media
+encrypted-media
+1
+current
+https://w3c.github.io/encrypted-media/#dom-mediakeystatus-usable-in-future
+1
+1
+MediaKeyStatus
 -
 usage
 dict-member
@@ -558,19 +678,107 @@ https://storage.spec.whatwg.org/#dom-storageestimate-usage
 1
 StorageEstimate
 -
-usage intersection
-dfn
-webcryptoapi-1
-webcryptoapi
+usage
+dict-member
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dom-hiddevicefilter-usage
+1
+1
+HIDDeviceFilter
+-
+usage
+dict-member
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dom-hidcollectioninfo-usage
+1
+1
+HIDCollectionInfo
+-
+usage
+dict-member
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpubufferdescriptor-usage
+1
+1
+GPUBufferDescriptor
+-
+usage
+dict-member
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gputexturedescriptor-usage
+1
+1
+GPUTextureDescriptor
+-
+usage
+dict-member
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#dom-gpupresentationconfiguration-usage
+1
+1
+GPUPresentationConfiguration
+-
+usage
+dict-member
+webgpu
+webgpu
 1
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#concept-usage-intersection
+https://www.w3.org/TR/webgpu/#dom-gpubufferdescriptor-usage
+1
+1
+GPUBufferDescriptor
+-
+usage
+dict-member
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gputexturedescriptor-usage
+1
+1
+GPUTextureDescriptor
+-
+usage
+dict-member
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#dom-gpupresentationconfiguration-usage
+1
+1
+GPUPresentationConfiguration
+-
+usage id
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-usage-id
 
 1
 -
 usage intersection
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -578,19 +786,175 @@ https://w3c.github.io/webcrypto/#concept-usage-intersection
 
 1
 -
-usages
+usage intersection
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 snapshot
-https://www.w3.org/TR/WebCryptoAPI/#dfn-CryptoKey-slot-usages
+https://www.w3.org/TR/WebCryptoAPI/#concept-usage-intersection
 
 1
 -
+usage maximum tag
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-usage-maximum-tag
+
+
+-
+usage minimum tag
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-usage-minimum-tag
+
+
+-
+usage page
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-usage-page
+
+1
+-
+usage page tag
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-usage-page-tag
+
+
+-
+usage scope validation
+dfn
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#usage-scope-validation
+
+1
+-
+usage scope validation
+dfn
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#usage-scope-validation
+
+1
+-
+usage scopes
+dfn
+webgpu
+webgpu
+1
+current
+https://gpuweb.github.io/gpuweb/#usage-scopes
+
+1
+-
+usage scopes
+dfn
+webgpu
+webgpu
+1
+snapshot
+https://www.w3.org/TR/webgpu/#usage-scopes
+
+1
+-
+usage tag
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-usage-tag
+
+
+-
+usageMaximum
+dict-member
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dom-hidreportitem-usagemaximum
+1
+1
+HIDReportItem
+-
+usageMinimum
+dict-member
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dom-hidreportitem-usageminimum
+1
+1
+HIDReportItem
+-
+usagePage
+dict-member
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dom-hiddevicefilter-usagepage
+1
+1
+HIDDeviceFilter
+-
+usagePage
+dict-member
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dom-hidcollectioninfo-usagepage
+1
+1
+HIDCollectionInfo
+-
+usagePreference
+dict-member
+depth-sensing
+depth-sensing
+1
+current
+https://immersive-web.github.io/depth-sensing/#dom-xrdepthstateinit-usagepreference
+1
+1
+XRDepthStateInit
+-
+usages
+dict-member
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dom-hidreportitem-usages
+1
+1
+HIDReportItem
+-
 usages
 attribute
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -599,9 +963,19 @@ https://w3c.github.io/webcrypto/#dom-cryptokey-usages
 1
 CryptoKey
 -
+usages
+dfn
+webcryptoapi
+webcryptoapi
+1
+snapshot
+https://www.w3.org/TR/WebCryptoAPI/#dfn-CryptoKey-slot-usages
+
+1
+-
 usages_cached
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 snapshot
@@ -610,30 +984,8 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-CryptoKey-slot-usages_cached
 1
 -
 usb
-enum-value
-webauthn-1
-webauthn
-1
-snapshot
-https://www.w3.org/TR/webauthn/#dom-authenticatortransport-usb
-1
-1
-AuthenticatorTransport
--
-usb
-enum-value
-webauthn-1
-webauthn
-1
-current
-https://w3c.github.io/webauthn/#dom-authenticatortransport-usb
-1
-1
-AuthenticatorTransport
--
-usb
 attribute
-webusb-1
+webusb
 webusb
 1
 current
@@ -644,7 +996,7 @@ Navigator
 -
 usb
 attribute
-webusb-1
+webusb
 webusb
 1
 current
@@ -653,9 +1005,31 @@ https://wicg.github.io/webusb/#dom-workernavigator-usb
 1
 WorkerNavigator
 -
+usb
+enum-value
+webauthn-3
+webauthn
+3
+current
+https://w3c.github.io/webauthn/#dom-authenticatortransport-usb
+1
+1
+AuthenticatorTransport
+-
+usb
+enum-value
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticatortransport-usb
+1
+1
+AuthenticatorTransport
+-
 usb device
 dfn
-webusb-1
+webusb
 webusb
 1
 current
@@ -665,7 +1039,7 @@ https://wicg.github.io/webusb/#usb-device
 -
 usbProductId
 dict-member
-serial-1
+serial
 serial
 1
 current
@@ -676,7 +1050,7 @@ SerialPortFilter
 -
 usbProductId
 dict-member
-serial-1
+serial
 serial
 1
 current
@@ -687,7 +1061,7 @@ SerialPortInfo
 -
 usbVendorId
 dict-member
-serial-1
+serial
 serial
 1
 current
@@ -698,7 +1072,7 @@ SerialPortFilter
 -
 usbVendorId
 dict-member
-serial-1
+serial
 serial
 1
 current
@@ -709,7 +1083,7 @@ SerialPortInfo
 -
 usbVersionMajor
 attribute
-webusb-1
+webusb
 webusb
 1
 current
@@ -720,7 +1094,7 @@ USBDevice
 -
 usbVersionMinor
 attribute
-webusb-1
+webusb
 webusb
 1
 current
@@ -731,7 +1105,7 @@ USBDevice
 -
 usbVersionSubminor
 attribute
-webusb-1
+webusb
 webusb
 1
 current
@@ -742,11 +1116,11 @@ USBDevice
 -
 use
 element
+svg2
 svg
-svg
-1
-snapshot
-https://www.w3.org/TR/SVG11/struct.html#UseElement
+2
+current
+https://svgwg.org/svg2-draft/struct.html#elementdef-use
 1
 1
 -
@@ -761,18 +1135,8 @@ https://www.w3.org/TR/SVG2/struct.html#elementdef-use
 1
 -
 use
-element
-svg2
-svg
-2
-current
-https://svgwg.org/svg2-draft/struct.html#elementdef-use
-1
-1
--
-use
 dict-member
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -786,8 +1150,8 @@ dfn
 css-counter-styles-3
 css-counter-styles
 3
-snapshot
-https://www.w3.org/TR/css-counter-styles-3/#use-a-negative-sign
+current
+https://drafts.csswg.org/css-counter-styles/#use-a-negative-sign
 1
 1
 -
@@ -796,19 +1160,29 @@ dfn
 css-counter-styles-3
 css-counter-styles
 3
-current
-https://drafts.csswg.org/css-counter-styles-3/#use-a-negative-sign
+snapshot
+https://www.w3.org/TR/css-counter-styles-3/#use-a-negative-sign
 1
 1
 -
 use credentials
-element-attr
+dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-crossorigin-use-credentials
+
 1
+-
+use report ids
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-use-report-ids
+
 1
 -
 use srcset or picture
@@ -816,8 +1190,38 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/images.html#use-srcset-or-picture
+
+1
+-
+use strict directive
+dfn
+ecmascript
+ecmascript
+1
+current
+https://tc39.es/ecma262/multipage/ecmascript-language-source-code.html#use-strict-directive
+
+1
+-
+use strict directive
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-use-strict-directive
+
+1
+-
+use strict directive
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-use-strict-directive
 
 1
 -
@@ -837,7 +1241,7 @@ attr-value
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-crossorigin-use-credentials-keyword
 1
 1
@@ -873,7 +1277,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#use-url-credentials-flag
 
 1
@@ -883,7 +1287,7 @@ attribute
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-usemap
 1
 1
@@ -894,7 +1298,7 @@ attribute
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/obsolete.html#dom-input-usemap
 1
 1
@@ -905,51 +1309,29 @@ attribute
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/obsolete.html#dom-object-usemap
 1
 1
 HTMLObjectElement
 -
-useNativeTypes
-dict-member
-json-ld11-api
-json-ld11-api
-1
-snapshot
-https://www.w3.org/TR/json-ld11-api/#dom-jsonldoptions-usenativetypes
-1
-1
-JsonLdOptions
--
-useRdfType
-dict-member
-json-ld11-api
-json-ld11-api
-1
-snapshot
-https://www.w3.org/TR/json-ld11-api/#dom-jsonldoptions-userdftype
-1
-1
-JsonLdOptions
--
 used
 dfn
-service-workers
+service-workers-1
 service-workers
 1
-snapshot
-https://www.w3.org/TR/service-workers-1/#dfn-use
+current
+https://w3c.github.io/ServiceWorker/#dfn-use
 
 1
 -
 used
 dfn
-service-workers
+service-workers-1
 service-workers
 1
-current
-https://w3c.github.io/ServiceWorker/#dfn-use
+snapshot
+https://www.w3.org/TR/service-workers-1/#dfn-use
 
 1
 -
@@ -958,7 +1340,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/interaction.html#used-autocapitalization-hint
 
 1
@@ -968,8 +1350,8 @@ dfn
 css-color-4
 css-color
 4
-snapshot
-https://www.w3.org/TR/css-color-4/#used-color
+current
+https://drafts.csswg.org/css-color/#used-color
 1
 1
 -
@@ -978,18 +1360,8 @@ dfn
 css-color-4
 css-color
 4
-current
-https://drafts.csswg.org/css-color-4/#used-color
-1
-1
--
-used color scheme
-dfn
-css-color-adjust-1
-css-color-adjust
-1
 snapshot
-https://www.w3.org/TR/css-color-adjust-1/#used-color-scheme
+https://www.w3.org/TR/css-color-4/#used-color
 1
 1
 -
@@ -1003,6 +1375,26 @@ https://drafts.csswg.org/css-color-adjust-1/#used-color-scheme
 1
 1
 -
+used color scheme
+dfn
+css-color-adjust-1
+css-color-adjust
+1
+snapshot
+https://www.w3.org/TR/css-color-adjust-1/#used-color-scheme
+1
+1
+-
+used min-width of a table
+dfn
+css-tables-3
+css-tables
+3
+current
+https://drafts.csswg.org/css-tables-3/#used-min-width-of-table
+
+1
+-
 used min-width of a table
 dfn
 css-tables-3
@@ -1013,13 +1405,13 @@ https://www.w3.org/TR/css-tables-3/#used-min-width-of-table
 
 1
 -
-used min-width of a table
+used offset distance
 dfn
-css-tables-3
-css-tables
-3
+motion-1
+motion
+1
 current
-https://drafts.csswg.org/css-tables-3/#used-min-width-of-table
+https://drafts.fxtf.org/motion-1/#used-offset-distance
 
 1
 -
@@ -1033,14 +1425,24 @@ https://www.w3.org/TR/motion-1/#used-offset-distance
 
 1
 -
-used offset distance
+used value
 dfn
-motion-1
-motion
+html
+html
 1
 current
-https://drafts.fxtf.org/motion-1/#used-offset-distance
+https://html.spec.whatwg.org/multipage/infrastructure.html#used-value
 
+1
+-
+used value
+dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#used-value
+1
 1
 -
 used value
@@ -1055,11 +1457,11 @@ https://www.w3.org/TR/css-cascade-3/#used-value
 -
 used value
 dfn
-css-cascade-3
+css-cascade-4
 css-cascade
-3
+4
 current
-https://drafts.csswg.org/css-cascade-3/#used-value
+https://drafts.csswg.org/css-cascade/#used-value
 1
 1
 -
@@ -1075,11 +1477,11 @@ https://www.w3.org/TR/css-cascade-4/#used-value
 -
 used value
 dfn
-css-cascade-4
+css-cascade-5
 css-cascade
-4
+5
 current
-https://drafts.csswg.org/css-cascade-4/#used-value
+https://drafts.csswg.org/css-cascade/#used-value
 1
 1
 -
@@ -1095,29 +1497,9 @@ https://www.w3.org/TR/css-cascade-5/#used-value
 -
 used value
 dfn
-css-cascade-5
-css-cascade
-5
-current
-https://drafts.csswg.org/css-cascade-5/#used-value
-1
-1
--
-used value
-dfn
-css2
-css2
-1
-snapshot
-https://www.w3.org/TR/CSS2/cascade.html#usedValue
-
-1
--
-used value
-dfn
-css2
-css2
-1
+css21
+css
+2.1
 current
 https://drafts.csswg.org/css2/#usedValue
 
@@ -1125,31 +1507,51 @@ https://drafts.csswg.org/css2/#usedValue
 -
 used value
 dfn
-html
-html
-1
+css21
+css
+2.1
 snapshot
-https://html.spec.whatwg.org/multipage/infrastructure.html#used-value
+https://www.w3.org/TR/CSS21/cascade.html#usedValue
+
+1
+-
+used value
+dfn
+css22
+css
+2.2
+current
+https://drafts.csswg.org/css2/#usedValue
+
+1
+-
+used value
+dfn
+css22
+css
+2.2
+snapshot
+https://www.w3.org/TR/CSS22/cascade.html#usedValue
 
 1
 -
 used values
 dfn
-css2
-css2
-1
+css21
+css
+2.1
 current
 https://drafts.csswg.org/css2/#used-value
 
 1
 -
-used width of a table
+used values
 dfn
-css-tables-3
-css-tables
-3
-snapshot
-https://www.w3.org/TR/css-tables-3/#used-width-of-table
+css22
+css
+2.2
+current
+https://drafts.csswg.org/css2/#used-value
 
 1
 -
@@ -1163,12 +1565,22 @@ https://drafts.csswg.org/css-tables-3/#used-width-of-table
 
 1
 -
+used width of a table
+dfn
+css-tables-3
+css-tables
+3
+snapshot
+https://www.w3.org/TR/css-tables-3/#used-width-of-table
+
+1
+-
 usemap
 element-attr
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/image-maps.html#attr-hyperlink-usemap
 1
 1
@@ -1179,7 +1591,7 @@ element-attr
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/obsolete.html#attr-input-usemap
 1
 1
@@ -1190,7 +1602,7 @@ element-attr
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/obsolete.html#attr-object-usemap
 1
 1
@@ -1209,13 +1621,54 @@ fetch
 -
 user
 dfn
-css2
-css2
-1
+css21
+css
+2.1
 current
 https://drafts.csswg.org/css2/#user
 
 1
+-
+user
+dfn
+css22
+css
+2.2
+current
+https://drafts.csswg.org/css2/#user
+
+1
+-
+user
+dfn
+html-media-capture
+html-media-capture
+1
+current
+https://w3c.github.io/html-media-capture/#dfn-user
+
+1
+-
+user
+dfn
+html-media-capture
+html-media-capture
+1
+snapshot
+https://www.w3.org/TR/html-media-capture/#dfn-user
+
+1
+-
+user
+enum-value
+mediacapture-streams
+mediacapture-streams
+1
+current
+https://w3c.github.io/mediacapture-main/#dom-videofacingmodeenum-user
+1
+1
+VideoFacingModeEnum
 -
 user
 enum-value
@@ -1230,40 +1683,59 @@ VideoFacingModeEnum
 -
 user
 dfn
-mediacapture-streams
-mediacapture-streams
+tracking-dnt
+tracking-dnt
 1
 current
-https://w3c.github.io/mediacapture-main/#idl-def-VideoFacingModeEnum.user
+https://w3c.github.io/dnt/drafts/tracking-dnt.html#dfn-user
 
-1
-VideoFacingModeEnum
+
 -
 user
-dict-member
-webauthn-1
-webauthn
+dfn
+tracking-dnt
+tracking-dnt
 1
 snapshot
-https://www.w3.org/TR/webauthn/#dom-publickeycredentialcreationoptions-user
+https://www.w3.org/TR/tracking-dnt/#dfn-user
+
 1
-1
-PublicKeyCredentialCreationOptions
 -
 user
 dict-member
-webauthn-1
+webauthn-3
 webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#dom-publickeycredentialcreationoptions-user
 1
 1
 PublicKeyCredentialCreationOptions
 -
+user
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptions-user
+1
+1
+PublicKeyCredentialCreationOptions
+-
 user aborts the payment request
 dfn
-payment-request-1
+payment-request
+payment-request
+1
+current
+https://w3c.github.io/payment-request/#dfn-user-aborts-the-payment-request
+
+1
+-
+user aborts the payment request
+dfn
+payment-request
 payment-request
 1
 snapshot
@@ -1273,7 +1745,17 @@ https://www.w3.org/TR/payment-request/#dfn-user-aborts-the-payment-request
 -
 user aborts the payment request algorithm
 dfn
-payment-request-1
+payment-request
+payment-request
+1
+current
+https://w3c.github.io/payment-request/#dfn-user-aborts-the-payment-request
+
+1
+-
+user aborts the payment request algorithm
+dfn
+payment-request
 payment-request
 1
 snapshot
@@ -1283,7 +1765,17 @@ https://www.w3.org/TR/payment-request/#dfn-user-aborts-the-payment-request
 -
 user accepts the payment request
 dfn
-payment-request-1
+payment-request
+payment-request
+1
+current
+https://w3c.github.io/payment-request/#dfn-user-accepts-the-payment-request
+
+1
+-
+user accepts the payment request
+dfn
+payment-request
 payment-request
 1
 snapshot
@@ -1293,11 +1785,71 @@ https://www.w3.org/TR/payment-request/#dfn-user-accepts-the-payment-request
 -
 user accepts the payment request algorithm
 dfn
-payment-request-1
+payment-handler
+payment-handler
+1
+current
+https://w3c.github.io/payment-handler/#dfn-user-accepts-the-payment-request-algorithm
+
+1
+-
+user accepts the payment request algorithm
+dfn
+payment-handler
+payment-handler
+1
+snapshot
+https://www.w3.org/TR/payment-handler/#dfn-user-accepts-the-payment-request-algorithm
+
+1
+-
+user accepts the payment request algorithm
+dfn
+payment-request
+payment-request
+1
+current
+https://w3c.github.io/payment-request/#dfn-user-accepts-the-payment-request
+
+1
+-
+user accepts the payment request algorithm
+dfn
+payment-request
 payment-request
 1
 snapshot
 https://www.w3.org/TR/payment-request/#dfn-user-accepts-the-payment-request
+
+1
+-
+user action
+dfn
+tracking-dnt
+tracking-dnt
+1
+current
+https://w3c.github.io/dnt/drafts/tracking-dnt.html#dfn-user-action
+
+
+-
+user action
+dfn
+tracking-dnt
+tracking-dnt
+1
+snapshot
+https://www.w3.org/TR/tracking-dnt/#dfn-user-action
+
+1
+-
+user action pseudo-class
+dfn
+selectors-4
+selectors
+4
+current
+https://drafts.csswg.org/selectors/#user-action-pseudo-class
 
 1
 -
@@ -1311,31 +1863,10 @@ https://www.w3.org/TR/selectors-4/#user-action-pseudo-class
 
 1
 -
-user action pseudo-class
-dfn
-selectors-4
-selectors
-4
-current
-https://drafts.csswg.org/selectors-4/#user-action-pseudo-class
-
-1
--
 user activation
 dfn
-webappsec-fetch-metadata-1
-webappsec-fetch-metadata
-1
-snapshot
-https://www.w3.org/TR/fetch-metadata/#request-user-activation
-
-1
-request
--
-user activation
-dfn
-webappsec-fetch-metadata-1
-webappsec-fetch-metadata
+fetch-metadata
+fetch-metadata
 1
 current
 https://w3c.github.io/webappsec-fetch-metadata/#request-user-activation
@@ -1343,53 +1874,34 @@ https://w3c.github.io/webappsec-fetch-metadata/#request-user-activation
 1
 request
 -
-user agent
+user activation
 dfn
-css-backgrounds-3
-css-backgrounds
-3
-snapshot
-https://www.w3.org/TR/css-backgrounds-3/#user-agent
-
-1
--
-user agent
-dfn
-css-backgrounds-3
-css-backgrounds
-3
-current
-https://drafts.csswg.org/css-backgrounds-3/#user-agent
-
-1
--
-user agent
-dfn
-css-speech-1
-css-speech
+fetch-metadata
+fetch-metadata
 1
 snapshot
-https://www.w3.org/TR/css-speech-1/#user-agent
+https://www.w3.org/TR/fetch-metadata/#request-user-activation
 
 1
+request
 -
-user agent
+user activity
 dfn
-css-speech-1
-css-speech
+tracking-dnt
+tracking-dnt
 1
 current
-https://drafts.csswg.org/css-speech-1/#user-agent
+https://w3c.github.io/dnt/drafts/tracking-dnt.html#dfn-user-activity
 
-1
+
 -
-user agent
+user activity
 dfn
-css2
-css2
+tracking-dnt
+tracking-dnt
 1
-current
-https://drafts.csswg.org/css2/#ua
+snapshot
+https://www.w3.org/TR/tracking-dnt/#dfn-user-activity
 
 1
 -
@@ -1405,6 +1917,376 @@ https://infra.spec.whatwg.org/#user-agent
 -
 user agent
 dfn
+mathml-aam
+mathml-aam
+1
+current
+https://w3c.github.io/mathml-aam/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+mathml-aam
+mathml-aam
+1
+current
+https://w3c.github.io/mathml-aam/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+mediacapture-automation
+mediacapture-automation
+1
+current
+https://w3c.github.io/mediacapture-automation/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+webrtc-ice
+webrtc-ice
+1
+current
+https://w3c.github.io/webrtc-ice/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+netinfo
+netinfo
+1
+current
+https://wicg.github.io/netinfo/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+savedata
+savedata
+1
+current
+https://wicg.github.io/savedata/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+accname-1.2
+accname
+1.2
+snapshot
+https://www.w3.org/TR/accname-1.2/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+audio-output
+audio-output
+1
+current
+https://w3c.github.io/mediacapture-output/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+audio-output
+audio-output
+1
+snapshot
+https://www.w3.org/TR/audio-output/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+battery-status
+battery-status
+1
+current
+https://w3c.github.io/battery/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+battery-status
+battery-status
+1
+snapshot
+https://www.w3.org/TR/battery-status/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+core-aam-1.2
+core-aam
+1.2
+snapshot
+https://www.w3.org/TR/core-aam-1.2/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+core-aam-1.2
+core-aam
+1.2
+snapshot
+https://www.w3.org/TR/core-aam-1.2/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+css-backgrounds-3
+css-backgrounds
+3
+current
+https://drafts.csswg.org/css-backgrounds/#user-agent
+
+1
+-
+user agent
+dfn
+css-backgrounds-3
+css-backgrounds
+3
+snapshot
+https://www.w3.org/TR/css-backgrounds-3/#user-agent
+
+1
+-
+user agent
+dfn
+css-speech-1
+css-speech
+1
+current
+https://drafts.csswg.org/css-speech-1/#user-agent
+
+1
+-
+user agent
+dfn
+css-speech-1
+css-speech
+1
+snapshot
+https://www.w3.org/TR/css-speech-1/#user-agent
+
+1
+-
+user agent
+dfn
+css21
+css
+2.1
+current
+https://drafts.csswg.org/css2/#ua
+
+1
+-
+user agent
+dfn
+css22
+css
+2.2
+current
+https://drafts.csswg.org/css2/#ua
+
+1
+-
+user agent
+dfn
+device-posture
+device-posture
+1
+current
+https://w3c.github.io/device-posture/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+device-posture
+device-posture
+1
+snapshot
+https://www.w3.org/TR/device-posture/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+gamepad
+gamepad
+1
+snapshot
+https://www.w3.org/TR/gamepad/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+graphics-aam-1.0
+graphics-aam
+1.0
+current
+https://w3c.github.io/graphics-aam/#dfn-user-agent
+
+
+-
+user agent
+dfn
+graphics-aam-1.0
+graphics-aam
+1.0
+current
+https://w3c.github.io/graphics-aam/#dfn-user-agent
+
+
+-
+user agent
+dfn
+graphics-aam-1.0
+graphics-aam
+1.0
+snapshot
+https://www.w3.org/TR/graphics-aam-1.0/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+graphics-aria-1.0
+graphics-aria
+1.0
+current
+https://w3c.github.io/graphics-aria/#dfn-user-agent
+
+
+-
+user agent
+dfn
+graphics-aria-1.0
+graphics-aria
+1.0
+current
+https://w3c.github.io/graphics-aria/#dfn-user-agent
+
+
+-
+user agent
+dfn
+graphics-aria-1.0
+graphics-aria
+1.0
+snapshot
+https://www.w3.org/TR/graphics-aria-1.0/#dfn-user-agent
+
+
+-
+user agent
+dfn
+html-aam-1.0
+html-aam
+1.0
+snapshot
+https://www.w3.org/TR/html-aam-1.0/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+html-aam-1.0
+html-aam
+1.0
+snapshot
+https://www.w3.org/TR/html-aam-1.0/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+html-media-capture
+html-media-capture
+1
+current
+https://w3c.github.io/html-media-capture/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+html-media-capture
+html-media-capture
+1
+snapshot
+https://www.w3.org/TR/html-media-capture/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+mediacapture-depth
+mediacapture-depth
+1
+current
+https://w3c.github.io/mediacapture-depth/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+mediacapture-depth
+mediacapture-depth
+1
+snapshot
+https://www.w3.org/TR/mediacapture-depth/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+mediacapture-fromelement
+mediacapture-fromelement
+1
+current
+https://w3c.github.io/mediacapture-fromelement/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+mediacapture-fromelement
+mediacapture-fromelement
+1
+snapshot
+https://www.w3.org/TR/mediacapture-fromelement/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+mediacapture-streams
+mediacapture-streams
+1
+current
+https://w3c.github.io/mediacapture-main/#dfn-user-agent
+
+1
+-
+user agent
+dfn
 mediacapture-streams
 mediacapture-streams
 1
@@ -1415,7 +2297,37 @@ https://www.w3.org/TR/mediacapture-streams/#dfn-user-agent
 -
 user agent
 dfn
-payment-request-1
+payment-handler
+payment-handler
+1
+current
+https://w3c.github.io/payment-handler/#dfn-user-agents
+
+1
+-
+user agent
+dfn
+payment-handler
+payment-handler
+1
+snapshot
+https://www.w3.org/TR/payment-handler/#dfn-user-agents
+
+1
+-
+user agent
+dfn
+payment-request
+payment-request
+1
+current
+https://w3c.github.io/payment-request/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+payment-request
 payment-request
 1
 snapshot
@@ -1428,10 +2340,120 @@ dfn
 pointerevents3
 pointerevents
 3
+current
+https://w3c.github.io/pointerevents/#dfn-user-agent
+
+
+-
+user agent
+dfn
+pointerevents3
+pointerevents
+3
 snapshot
 https://www.w3.org/TR/pointerevents3/#dfn-user-agent
 
 
+-
+user agent
+dfn
+pointerlock-2
+pointerlock
+2
+current
+https://w3c.github.io/pointerlock/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+pointerlock-2
+pointerlock
+2
+snapshot
+https://www.w3.org/TR/pointerlock-2/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+preload
+preload
+1
+current
+https://w3c.github.io/preload/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+preload
+preload
+1
+snapshot
+https://www.w3.org/TR/preload/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+presentation-api
+presentation-api
+1
+current
+https://w3c.github.io/presentation-api/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+presentation-api
+presentation-api
+1
+snapshot
+https://www.w3.org/TR/presentation-api/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+push-api
+push-api
+1
+current
+https://w3c.github.io/push-api/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+push-api
+push-api
+1
+snapshot
+https://www.w3.org/TR/push-api/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+remote-playback
+remote-playback
+1
+current
+https://w3c.github.io/remote-playback/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+remote-playback
+remote-playback
+1
+snapshot
+https://www.w3.org/TR/remote-playback/#dfn-user-agent
+
+1
 -
 user agent
 dfn
@@ -1446,11 +2468,142 @@ report
 -
 user agent
 dfn
-screen-orientation-1
+reporting-1
+reporting
+1
+snapshot
+https://www.w3.org/TR/reporting-1/#report-user-agent
+1
+1
+report
+-
+user agent
+dfn
+resource-hints
+resource-hints
+1
+current
+https://w3c.github.io/resource-hints/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+resource-hints
+resource-hints
+1
+snapshot
+https://www.w3.org/TR/resource-hints/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+screen-capture
+screen-capture
+1
+current
+https://w3c.github.io/mediacapture-screen-share/#dfn-user-agents
+
+1
+-
+user agent
+dfn
+screen-capture
+screen-capture
+1
+snapshot
+https://www.w3.org/TR/screen-capture/#dfn-user-agents
+
+1
+-
+user agent
+dfn
+screen-orientation
+screen-orientation
+1
+current
+https://w3c.github.io/screen-orientation/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+screen-orientation
 screen-orientation
 1
 snapshot
 https://www.w3.org/TR/screen-orientation/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+screen-wake-lock
+screen-wake-lock
+1
+current
+https://w3c.github.io/screen-wake-lock/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+screen-wake-lock
+screen-wake-lock
+1
+snapshot
+https://www.w3.org/TR/screen-wake-lock/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+selection-api
+selection-api
+1
+current
+https://w3c.github.io/selection-api/#ua
+
+1
+-
+user agent
+dfn
+selection-api
+selection-api
+1
+snapshot
+https://www.w3.org/TR/selection-api/#ua
+
+1
+-
+user agent
+dfn
+svg-aam-1.0
+svg-aam
+1.0
+current
+https://w3c.github.io/svg-aam/#dfn-user-agent
+
+
+-
+user agent
+dfn
+svg-aam-1.0
+svg-aam
+1.0
+current
+https://w3c.github.io/svg-aam/#dfn-user-agent
+
+
+-
+user agent
+dfn
+svg-aam-1.0
+svg-aam
+1.0
+snapshot
+https://www.w3.org/TR/svg-aam-1.0/#dfn-user-agent
 
 1
 -
@@ -1466,8 +2619,58 @@ https://svgwg.org/svg2-draft/conform.html#TermUserAgent
 -
 user agent
 dfn
-ui-events-1
-ui-events
+touch-events
+touch-events
+1
+current
+https://w3c.github.io/touch-events/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+touch-events
+touch-events
+1
+snapshot
+https://www.w3.org/TR/touch-events/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+tracking-dnt
+tracking-dnt
+1
+current
+https://w3c.github.io/dnt/drafts/tracking-dnt.html#dfn-user-agent
+
+
+-
+user agent
+dfn
+tracking-dnt
+tracking-dnt
+1
+snapshot
+https://www.w3.org/TR/tracking-dnt/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+uievents
+uievents
+1
+current
+https://w3c.github.io/uievents/#user-agent
+
+1
+-
+user agent
+dfn
+uievents
+uievents
 1
 snapshot
 https://www.w3.org/TR/uievents/#user-agent
@@ -1476,7 +2679,137 @@ https://www.w3.org/TR/uievents/#user-agent
 -
 user agent
 dfn
-webrtc-1
+vibration
+vibration
+1
+current
+https://w3c.github.io/vibration/#ua
+
+1
+-
+user agent
+dfn
+vibration
+vibration
+1
+snapshot
+https://www.w3.org/TR/vibration/#ua
+
+1
+-
+user agent
+dfn
+wai-aria-1.2
+wai-aria
+1.2
+current
+https://w3c.github.io/aria/#dfn-user-agent
+1
+
+-
+user agent
+dfn
+wai-aria-1.2
+wai-aria
+1.2
+current
+https://w3c.github.io/aria/#dfn-user-agent
+1
+
+-
+user agent
+dfn
+wai-aria-1.2
+wai-aria
+1.2
+snapshot
+https://www.w3.org/TR/wai-aria-1.2/#dfn-user-agent
+
+
+-
+user agent
+dfn
+wai-aria-1.2
+wai-aria
+1.2
+snapshot
+https://www.w3.org/TR/wai-aria-1.2/#dfn-user-agent
+
+
+-
+user agent
+dfn
+webmidi
+webmidi
+1
+current
+https://webaudio.github.io/web-midi-api/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+webmidi
+webmidi
+1
+snapshot
+https://www.w3.org/TR/webmidi/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+webrtc-identity
+webrtc-identity
+1
+current
+https://w3c.github.io/webrtc-identity/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+webrtc-identity
+webrtc-identity
+1
+snapshot
+https://www.w3.org/TR/webrtc-identity/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+webrtc-svc
+webrtc-svc
+1
+current
+https://w3c.github.io/webrtc-svc/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+webrtc-svc
+webrtc-svc
+1
+snapshot
+https://www.w3.org/TR/webrtc-svc/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+webrtc
+webrtc
+1
+current
+https://w3c.github.io/webrtc-pc/#dfn-user-agent
+
+1
+-
+user agent
+dfn
+webrtc
 webrtc
 1
 snapshot
@@ -1486,32 +2819,302 @@ https://www.w3.org/TR/webrtc/#dfn-user-agent
 -
 user agent (ua)
 dfn
-css2
-css2
-1
+css21
+css
+2.1
 current
 https://drafts.csswg.org/css2/#user-agent
 
 1
 -
-user consent
+user agent (ua)
 dfn
-webauthn-1
-webauthn
+css22
+css
+2.2
+current
+https://drafts.csswg.org/css2/#user-agent
+
+1
+-
+user agents
+dfn
+mathml-aam
+mathml-aam
+1
+current
+https://w3c.github.io/mathml-aam/#dfn-user-agent
+
+1
+-
+user agents
+dfn
+accname-1.2
+accname
+1.2
+snapshot
+https://www.w3.org/TR/accname-1.2/#dfn-user-agent
+
+1
+-
+user agents
+dfn
+core-aam-1.2
+core-aam
+1.2
+snapshot
+https://www.w3.org/TR/core-aam-1.2/#dfn-user-agent
+
+1
+-
+user agents
+dfn
+graphics-aam-1.0
+graphics-aam
+1.0
+current
+https://w3c.github.io/graphics-aam/#dfn-user-agent
+
+
+-
+user agents
+dfn
+graphics-aam-1.0
+graphics-aam
+1.0
+snapshot
+https://www.w3.org/TR/graphics-aam-1.0/#dfn-user-agent
+
+1
+-
+user agents
+dfn
+graphics-aria-1.0
+graphics-aria
+1.0
+current
+https://w3c.github.io/graphics-aria/#dfn-user-agent
+
+
+-
+user agents
+dfn
+graphics-aria-1.0
+graphics-aria
+1.0
+snapshot
+https://www.w3.org/TR/graphics-aria-1.0/#dfn-user-agent
+
+
+-
+user agents
+dfn
+html-aam-1.0
+html-aam
+1.0
+snapshot
+https://www.w3.org/TR/html-aam-1.0/#dfn-user-agent
+
+1
+-
+user agents
+dfn
+payment-handler
+payment-handler
+1
+current
+https://w3c.github.io/payment-handler/#dfn-user-agents
+
+1
+-
+user agents
+dfn
+payment-handler
+payment-handler
 1
 snapshot
-https://www.w3.org/TR/webauthn/#user-consent
+https://www.w3.org/TR/payment-handler/#dfn-user-agents
+
+1
+-
+user agents
+dfn
+presentation-api
+presentation-api
+1
+current
+https://w3c.github.io/presentation-api/#dfn-user-agent
+
+1
+-
+user agents
+dfn
+presentation-api
+presentation-api
+1
+snapshot
+https://www.w3.org/TR/presentation-api/#dfn-user-agent
+
+1
+-
+user agents
+dfn
+screen-capture
+screen-capture
+1
+current
+https://w3c.github.io/mediacapture-screen-share/#dfn-user-agents
+
+1
+-
+user agents
+dfn
+screen-capture
+screen-capture
+1
+snapshot
+https://www.w3.org/TR/screen-capture/#dfn-user-agents
+
+1
+-
+user agents
+dfn
+svg-aam-1.0
+svg-aam
+1.0
+current
+https://w3c.github.io/svg-aam/#dfn-user-agent
+
+
+-
+user agents
+dfn
+svg-aam-1.0
+svg-aam
+1.0
+snapshot
+https://www.w3.org/TR/svg-aam-1.0/#dfn-user-agent
+
+1
+-
+user agents
+dfn
+wai-aria-1.2
+wai-aria
+1.2
+current
+https://w3c.github.io/aria/#dfn-user-agent
+1
+
+-
+user agents
+dfn
+wai-aria-1.2
+wai-aria
+1.2
+snapshot
+https://www.w3.org/TR/wai-aria-1.2/#dfn-user-agent
+
+
+-
+user agents that do not support a full html css engine
+dfn
+webvtt1
+webvtt
+1
+current
+https://w3c.github.io/webvtt/#user-agents-that-do-not-support-a-full-html-css-engine
+
+1
+-
+user agents that do not support a full html css engine
+dfn
+webvtt1
+webvtt
+1
+snapshot
+https://www.w3.org/TR/webvtt1/#user-agents-that-do-not-support-a-full-html-css-engine
+
+1
+-
+user agents that do not support css
+dfn
+webvtt1
+webvtt
+1
+current
+https://w3c.github.io/webvtt/#user-agents-that-do-not-support-css
+
+1
+-
+user agents that do not support css
+dfn
+webvtt1
+webvtt
+1
+snapshot
+https://www.w3.org/TR/webvtt1/#user-agents-that-do-not-support-css
+
+1
+-
+user agents that support a full html css engine
+dfn
+webvtt1
+webvtt
+1
+current
+https://w3c.github.io/webvtt/#user-agents-that-support-a-full-html-css-engine
+
+1
+-
+user agents that support a full html css engine
+dfn
+webvtt1
+webvtt
+1
+snapshot
+https://www.w3.org/TR/webvtt1/#user-agents-that-support-a-full-html-css-engine
 
 1
 -
 user consent
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#user-consent
 
+1
+-
+user consent
+dfn
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#user-consent
+
+1
+-
+user contact
+dfn
+contact-api
+contact-api
+1
+current
+https://wicg.github.io/contact-api/spec/#user-contact
+
+1
+-
+user coordinate system
+dfn
+css-transforms-1
+css-transforms
+1
+current
+https://drafts.csswg.org/css-transforms/#user-coordinate-system
+1
 1
 -
 user coordinate system
@@ -1526,11 +3129,11 @@ https://www.w3.org/TR/css-transforms-1/#user-coordinate-system
 -
 user coordinate system
 dfn
-css-transforms-1
-css-transforms
-1
+svg2
+svg
+2
 current
-https://drafts.csswg.org/css-transforms-1/#user-coordinate-system
+https://svgwg.org/svg2-draft/coords.html#TermUserCoordinateSystem
 1
 1
 -
@@ -1544,53 +3147,43 @@ https://www.w3.org/TR/SVG2/coords.html#TermUserCoordinateSystem
 1
 1
 -
-user coordinate system
-dfn
-svg2
-svg
-2
-current
-https://svgwg.org/svg2-draft/coords.html#TermUserCoordinateSystem
-1
-1
--
 user handle
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
-snapshot
-https://www.w3.org/TR/webauthn/#user-handle
-
-1
--
-user handle
-dfn
-webauthn-1
-webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#user-handle
 
 1
 -
-user intent
+user handle
 dfn
-webxr-1
-webxr
-1
+webauthn-3
+webauthn
+3
 snapshot
-https://www.w3.org/TR/webxr/#user-intent
+https://www.w3.org/TR/webauthn-3/#user-handle
 
 1
 -
 user intent
 dfn
-webxr-1
+webxr
 webxr
 1
 current
 https://immersive-web.github.io/webxr/#user-intent
+
+1
+-
+user intent
+dfn
+webxr
+webxr
+1
+snapshot
+https://www.w3.org/TR/webxr/#user-intent
 
 1
 -
@@ -1599,9 +3192,9 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/interaction.html#editing
-1
+
 1
 -
 user interaction task source
@@ -1609,7 +3202,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/webappapis.html#user-interaction-task-source
 1
 1
@@ -1619,8 +3212,8 @@ dfn
 credential-management-1
 credential-management
 1
-snapshot
-https://www.w3.org/TR/credential-management-1/#user-mediated
+current
+https://w3c.github.io/webappsec-credential-management/#user-mediated
 1
 1
 -
@@ -1629,16 +3222,6 @@ dfn
 credential-management-1
 credential-management
 1
-current
-https://w3c.github.io/webappsec-credential-management/#user-mediated
-1
-1
--
-user mediation
-dfn
-credential-management-1
-credential-management
-1
 snapshot
 https://www.w3.org/TR/credential-management-1/#user-mediated
 1
@@ -1654,23 +3237,13 @@ https://w3c.github.io/webappsec-credential-management/#user-mediated
 1
 1
 -
-user object
+user mediation
 dfn
-webidl
-webidl
+credential-management-1
+credential-management
 1
 snapshot
-https://www.w3.org/TR/WebIDL/#dfn-user-object
-
-1
--
-user origin
-dfn
-css-cascade-3
-css-cascade
-3
-snapshot
-https://www.w3.org/TR/css-cascade-3/#cascade-origin-user
+https://www.w3.org/TR/credential-management-1/#user-mediated
 1
 1
 -
@@ -1686,6 +3259,26 @@ https://drafts.csswg.org/css-cascade-3/#cascade-origin-user
 -
 user origin
 dfn
+css-cascade-3
+css-cascade
+3
+snapshot
+https://www.w3.org/TR/css-cascade-3/#cascade-origin-user
+1
+1
+-
+user origin
+dfn
+css-cascade-4
+css-cascade
+4
+current
+https://drafts.csswg.org/css-cascade/#cascade-origin-user
+1
+1
+-
+user origin
+dfn
 css-cascade-4
 css-cascade
 4
@@ -1696,11 +3289,11 @@ https://www.w3.org/TR/css-cascade-4/#cascade-origin-user
 -
 user origin
 dfn
-css-cascade-4
+css-cascade-5
 css-cascade
-4
+5
 current
-https://drafts.csswg.org/css-cascade-4/#cascade-origin-user
+https://drafts.csswg.org/css-cascade/#cascade-origin-user
 1
 1
 -
@@ -1714,54 +3307,134 @@ https://www.w3.org/TR/css-cascade-5/#cascade-origin-user
 1
 1
 -
-user origin
-dfn
-css-cascade-5
-css-cascade
-5
-current
-https://drafts.csswg.org/css-cascade-5/#cascade-origin-user
-1
-1
--
 user present
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
-snapshot
-https://www.w3.org/TR/webauthn/#concept-user-present
-
-1
--
-user present
-dfn
-webauthn-1
-webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#concept-user-present
 
 1
 -
-user public key
+user present
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
+3
 snapshot
-https://www.w3.org/TR/webauthn/#user-public-key
+https://www.w3.org/TR/webauthn-3/#concept-user-present
+
+1
+-
+user prompt
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-user-prompts
+
+1
+-
+user prompt
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-user-prompts
+
+1
+-
+user prompt handler
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-user-prompt-handler
+
+1
+-
+user prompt handler
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-user-prompt-handler
+
+1
+-
+user prompt message
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-user-prompt-message
+
+1
+-
+user prompt message
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-user-prompt-message
+
+1
+-
+user prompts
+dfn
+webdriver2
+webdriver
+2
+current
+https://w3c.github.io/webdriver/#dfn-user-prompts
+
+1
+-
+user prompts
+dfn
+webdriver2
+webdriver
+2
+snapshot
+https://www.w3.org/TR/webdriver2/#dfn-user-prompts
 
 1
 -
 user public key
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#user-public-key
 
+1
+-
+user public key
+dfn
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#user-public-key
+
+1
+-
+user style sheet
+dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#cascade-origin-user
+1
 1
 -
 user style sheet
@@ -1776,11 +3449,11 @@ https://www.w3.org/TR/css-cascade-3/#cascade-origin-user
 -
 user style sheet
 dfn
-css-cascade-3
+css-cascade-4
 css-cascade
-3
+4
 current
-https://drafts.csswg.org/css-cascade-3/#cascade-origin-user
+https://drafts.csswg.org/css-cascade/#cascade-origin-user
 1
 1
 -
@@ -1796,11 +3469,11 @@ https://www.w3.org/TR/css-cascade-4/#cascade-origin-user
 -
 user style sheet
 dfn
-css-cascade-4
+css-cascade-5
 css-cascade
-4
+5
 current
-https://drafts.csswg.org/css-cascade-4/#cascade-origin-user
+https://drafts.csswg.org/css-cascade/#cascade-origin-user
 1
 1
 -
@@ -1814,13 +3487,53 @@ https://www.w3.org/TR/css-cascade-5/#cascade-origin-user
 1
 1
 -
-user style sheet
+user timing
 dfn
-css-cascade-5
-css-cascade
-5
+user-timing-2
+user-timing
+2
 current
-https://drafts.csswg.org/css-cascade-5/#cascade-origin-user
+https://w3c.github.io/user-timing/#dfn-user-timing
+
+1
+-
+user timing
+dfn
+user-timing-2
+user-timing
+2
+snapshot
+https://www.w3.org/TR/user-timing-2/#dfn-user-timing
+
+1
+-
+user timing
+dfn
+user-timing-3
+user-timing
+3
+current
+https://w3c.github.io/user-timing/#dfn-user-timing
+
+1
+-
+user timing
+dfn
+user-timing-3
+user-timing
+3
+snapshot
+https://www.w3.org/TR/user-timing-3/#dfn-user-timing
+
+1
+-
+user units
+dfn
+svg2
+svg
+2
+current
+https://svgwg.org/svg2-draft/coords.html#TermUserUnits
 1
 1
 -
@@ -1834,73 +3547,63 @@ https://www.w3.org/TR/SVG2/coords.html#TermUserUnits
 1
 1
 -
-user units
-dfn
-svg2
-svg
-2
-current
-https://svgwg.org/svg2-draft/coords.html#TermUserUnits
-1
-1
--
 user verification
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
-snapshot
-https://www.w3.org/TR/webauthn/#user-verification
-
-1
--
-user verification
-dfn
-webauthn-1
-webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#user-verification
 
 1
 -
-user verification method
+user verification
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
+3
 snapshot
-https://www.w3.org/TR/webauthn/#user-verification-method
+https://www.w3.org/TR/webauthn-3/#user-verification
 
 1
 -
 user verification method
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#user-verification-method
 
 1
 -
-user verified
+user verification method
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
+3
 snapshot
-https://www.w3.org/TR/webauthn/#concept-user-verified
+https://www.w3.org/TR/webauthn-3/#user-verification-method
 
 1
 -
 user verified
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#concept-user-verified
+
+1
+-
+user verified
+dfn
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#concept-user-verified
 
 1
 -
@@ -1920,7 +3623,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#concept-request-user-activation
 
 1
@@ -1930,8 +3633,8 @@ dfn
 css-cascade-3
 css-cascade
 3
-snapshot
-https://www.w3.org/TR/css-cascade-3/#cascade-origin-ua
+current
+https://drafts.csswg.org/css-cascade-3/#cascade-origin-ua
 1
 1
 -
@@ -1940,8 +3643,18 @@ dfn
 css-cascade-3
 css-cascade
 3
+snapshot
+https://www.w3.org/TR/css-cascade-3/#cascade-origin-ua
+1
+1
+-
+user-agent origin
+dfn
+css-cascade-4
+css-cascade
+4
 current
-https://drafts.csswg.org/css-cascade-3/#cascade-origin-ua
+https://drafts.csswg.org/css-cascade/#cascade-origin-ua
 1
 1
 -
@@ -1957,11 +3670,11 @@ https://www.w3.org/TR/css-cascade-4/#cascade-origin-ua
 -
 user-agent origin
 dfn
-css-cascade-4
+css-cascade-5
 css-cascade
-4
+5
 current
-https://drafts.csswg.org/css-cascade-4/#cascade-origin-ua
+https://drafts.csswg.org/css-cascade/#cascade-origin-ua
 1
 1
 -
@@ -1972,26 +3685,6 @@ css-cascade
 5
 snapshot
 https://www.w3.org/TR/css-cascade-5/#cascade-origin-ua
-1
-1
--
-user-agent origin
-dfn
-css-cascade-5
-css-cascade
-5
-current
-https://drafts.csswg.org/css-cascade-5/#cascade-origin-ua
-1
-1
--
-user-agent style sheet
-dfn
-css-cascade-3
-css-cascade
-3
-snapshot
-https://www.w3.org/TR/css-cascade-3/#cascade-origin-ua
 1
 1
 -
@@ -2007,6 +3700,26 @@ https://drafts.csswg.org/css-cascade-3/#cascade-origin-ua
 -
 user-agent style sheet
 dfn
+css-cascade-3
+css-cascade
+3
+snapshot
+https://www.w3.org/TR/css-cascade-3/#cascade-origin-ua
+1
+1
+-
+user-agent style sheet
+dfn
+css-cascade-4
+css-cascade
+4
+current
+https://drafts.csswg.org/css-cascade/#cascade-origin-ua
+1
+1
+-
+user-agent style sheet
+dfn
 css-cascade-4
 css-cascade
 4
@@ -2017,11 +3730,11 @@ https://www.w3.org/TR/css-cascade-4/#cascade-origin-ua
 -
 user-agent style sheet
 dfn
-css-cascade-4
+css-cascade-5
 css-cascade
-4
+5
 current
-https://drafts.csswg.org/css-cascade-4/#cascade-origin-ua
+https://drafts.csswg.org/css-cascade/#cascade-origin-ua
 1
 1
 -
@@ -2035,13 +3748,64 @@ https://www.w3.org/TR/css-cascade-5/#cascade-origin-ua
 1
 1
 -
-user-agent style sheet
-dfn
-css-cascade-5
-css-cascade
-5
+user-blocking
+enum-value
+scheduling-apis
+scheduling-apis
+1
 current
-https://drafts.csswg.org/css-cascade-5/#cascade-origin-ua
+https://wicg.github.io/scheduling-apis/#dom-taskpriority-user-blocking
+1
+1
+TaskPriority
+-
+user-defined function
+dfn
+wgsl
+wgsl
+1
+current
+https://gpuweb.github.io/gpuweb/wgsl/#user-defined-function
+
+1
+-
+user-defined function
+dfn
+wgsl
+wgsl
+1
+snapshot
+https://www.w3.org/TR/WGSL/#user-defined-function
+
+1
+-
+user-granted exception
+dfn
+tracking-dnt
+tracking-dnt
+1
+current
+https://w3c.github.io/dnt/drafts/tracking-dnt.html#dfn-user-granted-exception
+
+
+-
+user-granted exception
+dfn
+tracking-dnt
+tracking-dnt
+1
+snapshot
+https://www.w3.org/TR/tracking-dnt/#dfn-user-granted-exception
+
+1
+-
+user-origin
+dfn
+css-cascade-3
+css-cascade
+3
+current
+https://drafts.csswg.org/css-cascade-3/#cascade-origin-user
 1
 1
 -
@@ -2057,11 +3821,11 @@ https://www.w3.org/TR/css-cascade-3/#cascade-origin-user
 -
 user-origin
 dfn
-css-cascade-3
+css-cascade-4
 css-cascade
-3
+4
 current
-https://drafts.csswg.org/css-cascade-3/#cascade-origin-user
+https://drafts.csswg.org/css-cascade/#cascade-origin-user
 1
 1
 -
@@ -2077,11 +3841,11 @@ https://www.w3.org/TR/css-cascade-4/#cascade-origin-user
 -
 user-origin
 dfn
-css-cascade-4
+css-cascade-5
 css-cascade
-4
+5
 current
-https://drafts.csswg.org/css-cascade-4/#cascade-origin-user
+https://drafts.csswg.org/css-cascade/#cascade-origin-user
 1
 1
 -
@@ -2095,16 +3859,6 @@ https://www.w3.org/TR/css-cascade-5/#cascade-origin-user
 1
 1
 -
-user-origin
-dfn
-css-cascade-5
-css-cascade
-5
-current
-https://drafts.csswg.org/css-cascade-5/#cascade-origin-user
-1
-1
--
 user-select
 property
 css-ui-4
@@ -2115,33 +3869,54 @@ https://drafts.csswg.org/css-ui-4/#propdef-user-select
 1
 1
 -
+user-select
+property
+css-ui-4
+css-ui
+4
+snapshot
+https://www.w3.org/TR/css-ui-4/#propdef-user-select
+1
+1
+-
 user-verifying platform authenticator
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
-snapshot
-https://www.w3.org/TR/webauthn/#user-verifying-platform-authenticator
+3
+current
+https://w3c.github.io/webauthn/#user-verifying-platform-authenticator
 
 1
 -
 user-verifying platform authenticator
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
-current
-https://w3c.github.io/webauthn/#user-verifying-platform-authenticator
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#user-verifying-platform-authenticator
 
 1
+-
+user-visible
+enum-value
+scheduling-apis
+scheduling-apis
+1
+current
+https://wicg.github.io/scheduling-apis/#dom-taskpriority-user-visible
+1
+1
+TaskPriority
 -
 user-zoom
 descriptor
 css-device-adapt-1
 css-device-adapt
 1
-snapshot
-https://www.w3.org/TR/css-device-adapt/#descdef-viewport-user-zoom
+current
+https://drafts.csswg.org/css-device-adapt/#descdef-viewport-user-zoom
 1
 1
 @viewport
@@ -2151,8 +3926,8 @@ descriptor
 css-device-adapt-1
 css-device-adapt
 1
-current
-https://drafts.csswg.org/css-device-adapt-1/#descdef-viewport-user-zoom
+snapshot
+https://www.w3.org/TR/css-device-adapt-1/#descdef-viewport-user-zoom
 1
 1
 @viewport
@@ -2162,61 +3937,83 @@ attribute
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/system-state.html#dom-navigator-useragent
 1
 1
 NavigatorID
 -
-userHandle
+userAgentData
 attribute
-webauthn-1
-webauthn
+ua-client-hints
+ua-client-hints
 1
-snapshot
-https://www.w3.org/TR/webauthn/#dom-authenticatorassertionresponse-userhandle
+current
+https://wicg.github.io/ua-client-hints/#dom-navigatorua-useragentdata
 1
 1
-AuthenticatorAssertionResponse
+NavigatorUA
 -
 userHandle
 attribute
-webauthn-1
+webauthn-3
 webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#dom-authenticatorassertionresponse-userhandle
 1
 1
 AuthenticatorAssertionResponse
 -
-userVerification
-dict-member
-webauthn-1
+userHandle
+attribute
+webauthn-3
 webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticatorassertionresponse-userhandle
+1
+1
+AuthenticatorAssertionResponse
+-
+userHint
+attribute
+payment-handler
+payment-handler
+1
+current
+https://w3c.github.io/payment-handler/#dom-paymentmanager-userhint
+1
+1
+PaymentManager
+-
+userHint
+attribute
+payment-handler
+payment-handler
 1
 snapshot
-https://www.w3.org/TR/webauthn/#dom-authenticatorselectioncriteria-userverification
+https://www.w3.org/TR/payment-handler/#dom-paymentmanager-userhint
 1
 1
-AuthenticatorSelectionCriteria
+PaymentManager
+-
+userState
+attribute
+idle-detection
+idle-detection
+1
+current
+https://wicg.github.io/idle-detection/#dom-idledetector-userstate
+1
+1
+IdleDetector
 -
 userVerification
 dict-member
-webauthn-1
+webauthn-3
 webauthn
-1
-snapshot
-https://www.w3.org/TR/webauthn/#dom-publickeycredentialrequestoptions-userverification
-1
-1
-PublicKeyCredentialRequestOptions
--
-userVerification
-dict-member
-webauthn-1
-webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#dom-authenticatorselectioncriteria-userverification
 1
@@ -2225,18 +4022,40 @@ AuthenticatorSelectionCriteria
 -
 userVerification
 dict-member
-webauthn-1
+webauthn-3
 webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#dom-publickeycredentialrequestoptions-userverification
 1
 1
 PublicKeyCredentialRequestOptions
 -
+userVerification
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-authenticatorselectioncriteria-userverification
+1
+1
+AuthenticatorSelectionCriteria
+-
+userVerification
+dict-member
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialrequestoptions-userverification
+1
+1
+PublicKeyCredentialRequestOptions
+-
 userVisibleOnly
 dict-member
-permissions-1
+permissions
 permissions
 1
 current
@@ -2245,46 +4064,101 @@ https://w3c.github.io/permissions/#dom-pushpermissiondescriptor-uservisibleonly
 1
 PushPermissionDescriptor
 -
-userhandle
-dfn
-webauthn-1
-webauthn
+userVisibleOnly
+dict-member
+permissions
+permissions
 1
 snapshot
-https://www.w3.org/TR/webauthn/#public-key-credential-source-userhandle
-
+https://www.w3.org/TR/permissions/#dom-pushpermissiondescriptor-uservisibleonly
 1
-public key credential source
+1
+PushPermissionDescriptor
+-
+userVisibleOnly
+attribute
+push-api
+push-api
+1
+current
+https://w3c.github.io/push-api/#dom-pushsubscriptionoptions-uservisibleonly
+1
+1
+PushSubscriptionOptions
+-
+userVisibleOnly
+dict-member
+push-api
+push-api
+1
+current
+https://w3c.github.io/push-api/#dom-pushsubscriptionoptionsinit-uservisibleonly
+1
+1
+PushSubscriptionOptionsInit
+-
+userVisibleOnly
+attribute
+push-api
+push-api
+1
+snapshot
+https://www.w3.org/TR/push-api/#dom-pushsubscriptionoptions-uservisibleonly
+1
+1
+PushSubscriptionOptions
+-
+userVisibleOnly
+dict-member
+push-api
+push-api
+1
+snapshot
+https://www.w3.org/TR/push-api/#dom-pushsubscriptionoptionsinit-uservisibleonly
+1
+1
+PushSubscriptionOptionsInit
 -
 userhandle
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
+3
 current
 https://w3c.github.io/webauthn/#public-key-credential-source-userhandle
 
 1
 public key credential source
 -
+userhandle
+dfn
+webauthn-3
+webauthn
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#public-key-credential-source-userhandle
+
+1
+public key credential source
+-
 userhandleresult
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
-snapshot
-https://www.w3.org/TR/webauthn/#assertioncreationdata-userhandleresult
+3
+current
+https://w3c.github.io/webauthn/#assertioncreationdata-userhandleresult
 
 1
 assertionCreationData
 -
 userhandleresult
 dfn
-webauthn-1
+webauthn-3
 webauthn
-1
-current
-https://w3c.github.io/webauthn/#assertioncreationdata-userhandleresult
+3
+snapshot
+https://www.w3.org/TR/webauthn-3/#assertioncreationdata-userhandleresult
 
 1
 assertionCreationData
@@ -2294,7 +4168,7 @@ dfn
 url
 url
 1
-snapshot
+current
 https://url.spec.whatwg.org/#userinfo-percent-encode-set
 
 1
@@ -2304,7 +4178,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#concept-url-username
 
 1
@@ -2314,7 +4188,7 @@ attribute
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-username
 1
 1
@@ -2325,7 +4199,7 @@ attr-value
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete-username
 1
 1
@@ -2342,7 +4216,7 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#control-group-username
 
 1
@@ -2352,7 +4226,7 @@ dfn
 url
 url
 1
-snapshot
+current
 https://url.spec.whatwg.org/#concept-url-username
 1
 1
@@ -2363,7 +4237,7 @@ attribute
 url
 url
 1
-snapshot
+current
 https://url.spec.whatwg.org/#dom-url-username
 1
 1
@@ -2371,7 +4245,18 @@ URL
 -
 username
 dict-member
-webrtc-1
+webrtc
+webrtc
+1
+current
+https://w3c.github.io/webrtc-pc/#dom-rtciceserver-username
+1
+1
+RTCIceServer
+-
+username
+dict-member
+webrtc
 webrtc
 1
 snapshot
@@ -2395,7 +4280,40 @@ XMLHttpRequest/open(method, url, async)
 -
 usernameFragment
 attribute
-webrtc-1
+webrtc
+webrtc
+1
+current
+https://w3c.github.io/webrtc-pc/#dom-rtcicecandidate-usernamefragment
+1
+1
+RTCIceCandidate
+-
+usernameFragment
+dict-member
+webrtc
+webrtc
+1
+current
+https://w3c.github.io/webrtc-pc/#dom-rtcicecandidateinit-usernamefragment
+1
+1
+RTCIceCandidateInit
+-
+usernameFragment
+dict-member
+webrtc
+webrtc
+1
+current
+https://w3c.github.io/webrtc-pc/#dom-rtciceparameters-usernamefragment
+1
+1
+RTCIceParameters
+-
+usernameFragment
+attribute
+webrtc
 webrtc
 1
 snapshot
@@ -2406,7 +4324,7 @@ RTCIceCandidate
 -
 usernameFragment
 dict-member
-webrtc-1
+webrtc
 webrtc
 1
 snapshot
@@ -2417,7 +4335,7 @@ RTCIceCandidateInit
 -
 usernameFragment
 dict-member
-webrtc-1
+webrtc
 webrtc
 1
 snapshot
@@ -2426,38 +4344,27 @@ https://www.w3.org/TR/webrtc/#dom-rtciceparameters-usernamefragment
 1
 RTCIceParameters
 -
-userspaceonuse
-value
-css-masking-1
-css-masking
+usernamehint
+dfn
+webrtc-identity
+webrtc-identity
 1
-snapshot
-https://www.w3.org/TR/css-masking-1/#valuedef-userspaceonuse0
+current
+https://w3c.github.io/webrtc-identity/#dom-rtcidentityprovideroptions-usernamehint
+
 1
-1
-clipPathUnits
+rtcidentityprovideroptions
 -
-userspaceonuse
-value
-css-masking-1
-css-masking
+usernamehint
+dfn
+webrtc-identity
+webrtc-identity
 1
 snapshot
-https://www.w3.org/TR/css-masking-1/#valuedef-userspaceonuse
+https://www.w3.org/TR/webrtc-identity/#dom-rtcidentityprovideroptions-usernamehint
+
 1
-1
-maskContentUnits
--
-userspaceonuse
-value
-css-masking-1
-css-masking
-1
-snapshot
-https://www.w3.org/TR/css-masking-1/#valuedef-userspaceonuse1
-1
-1
-maskUnits
+rtcidentityprovideroptions
 -
 userspaceonuse
 value
@@ -2476,6 +4383,17 @@ css-masking-1
 css-masking
 1
 current
+https://drafts.fxtf.org/css-masking-1/#valdef-maskunits-userspaceonuse
+1
+1
+maskUnits
+-
+userspaceonuse
+value
+css-masking-1
+css-masking
+1
+current
 https://drafts.fxtf.org/css-masking-1/#valdef-maskcontentunits-userspaceonuse
 1
 1
@@ -2486,33 +4404,33 @@ value
 css-masking-1
 css-masking
 1
-current
-https://drafts.fxtf.org/css-masking-1/#valdef-maskunits-userspaceonuse
+snapshot
+https://www.w3.org/TR/css-masking-1/#valuedef-userspaceonuse0
+1
+1
+clipPathUnits
+-
+userspaceonuse
+value
+css-masking-1
+css-masking
+1
+snapshot
+https://www.w3.org/TR/css-masking-1/#valuedef-userspaceonuse1
 1
 1
 maskUnits
 -
 userspaceonuse
-attr-value
-filter-effects-1
-filter-effects
+value
+css-masking-1
+css-masking
 1
 snapshot
-https://www.w3.org/TR/filter-effects-1/#attr-valuedef-filterunits-userspaceonuse
+https://www.w3.org/TR/css-masking-1/#valuedef-userspaceonuse
 1
 1
-filterUnits
--
-userspaceonuse
-attr-value
-filter-effects-1
-filter-effects
-1
-snapshot
-https://www.w3.org/TR/filter-effects-1/#attr-valuedef-primitiveunits-userspaceonuse
-1
-1
-primitiveUnits
+maskContentUnits
 -
 userspaceonuse
 attr-value
@@ -2536,9 +4454,41 @@ https://drafts.fxtf.org/filter-effects-1/#attr-valuedef-primitiveunits-userspace
 1
 primitiveUnits
 -
+userspaceonuse
+attr-value
+filter-effects-1
+filter-effects
+1
+snapshot
+https://www.w3.org/TR/filter-effects-1/#attr-valuedef-filterunits-userspaceonuse
+1
+1
+filterUnits
+-
+userspaceonuse
+attr-value
+filter-effects-1
+filter-effects
+1
+snapshot
+https://www.w3.org/TR/filter-effects-1/#attr-valuedef-primitiveunits-userspaceonuse
+1
+1
+primitiveUnits
+-
 uses
 dfn
+service-workers-1
 service-workers
+1
+current
+https://w3c.github.io/ServiceWorker/#dfn-use
+
+1
+-
+uses
+dfn
+service-workers-1
 service-workers
 1
 snapshot
@@ -2548,12 +4498,32 @@ https://www.w3.org/TR/service-workers-1/#dfn-use
 -
 uses
 dfn
-service-workers
-service-workers
+tracking-dnt
+tracking-dnt
 1
 current
-https://w3c.github.io/ServiceWorker/#dfn-use
+https://w3c.github.io/dnt/drafts/tracking-dnt.html#dfn-uses
 
+
+-
+uses
+dfn
+tracking-dnt
+tracking-dnt
+1
+snapshot
+https://www.w3.org/TR/tracking-dnt/#dfn-uses
+
+1
+-
+uses a negative sign
+dfn
+css-counter-styles-3
+css-counter-styles
+3
+current
+https://drafts.csswg.org/css-counter-styles/#use-a-negative-sign
+1
 1
 -
 uses a negative sign
@@ -2566,33 +4536,93 @@ https://www.w3.org/TR/css-counter-styles-3/#use-a-negative-sign
 1
 1
 -
-uses a negative sign
+uses distinctive identifier(s)
 dfn
-css-counter-styles-3
-css-counter-styles
-3
-current
-https://drafts.csswg.org/css-counter-styles-3/#use-a-negative-sign
+encrypted-media
+encrypted-media
 1
+current
+https://w3c.github.io/encrypted-media/#uses-distinctive-identifiers
+
 1
 -
-using
+uses distinctive identifier(s)
 dfn
-service-workers
-service-workers
+encrypted-media
+encrypted-media
 1
 snapshot
-https://www.w3.org/TR/service-workers-1/#dfn-use
+https://www.w3.org/TR/encrypted-media/#uses-distinctive-identifiers
+
+1
+-
+uses distinctive identifier(s) or distinctive permanent identifier(s)
+dfn
+encrypted-media
+encrypted-media
+1
+current
+https://w3c.github.io/encrypted-media/#uses-distinctive-identifiers-or-distinctive-permanent-identifiers
+
+1
+-
+uses distinctive identifier(s) or distinctive permanent identifier(s)
+dfn
+encrypted-media
+encrypted-media
+1
+snapshot
+https://www.w3.org/TR/encrypted-media/#uses-distinctive-identifiers-or-distinctive-permanent-identifiers
+
+1
+-
+uses distinctive permanent identifier(s)
+dfn
+encrypted-media
+encrypted-media
+1
+current
+https://w3c.github.io/encrypted-media/#uses-distinctive-permanent-identifiers
+
+1
+-
+uses distinctive permanent identifier(s)
+dfn
+encrypted-media
+encrypted-media
+1
+snapshot
+https://www.w3.org/TR/encrypted-media/#uses-distinctive-permanent-identifiers
+
+1
+-
+uses report ids
+dfn
+webhid
+webhid
+1
+current
+https://wicg.github.io/webhid/#dfn-use-report-ids
 
 1
 -
 using
 dfn
-service-workers
+service-workers-1
 service-workers
 1
 current
 https://w3c.github.io/ServiceWorker/#dfn-use
+
+1
+-
+using
+dfn
+service-workers-1
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers-1/#dfn-use
 
 1
 -
@@ -2601,9 +4631,9 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/interactive-elements.html#using-the-a-element-to-define-a-command
-1
+
 1
 -
 using the accesskey attribute on a legend element to define a command
@@ -2611,9 +4641,9 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/interactive-elements.html#using-the-accesskey-attribute-on-a-legend-element-to-define-a-command
-1
+
 1
 -
 using the accesskey attribute to define a command on other elements
@@ -2621,9 +4651,9 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/interactive-elements.html#using-the-accesskey-attribute-to-define-a-command-on-other-elements
-1
+
 1
 -
 using the button element to define a command
@@ -2631,9 +4661,9 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/interactive-elements.html#using-the-button-element-to-define-a-command
-1
+
 1
 -
 using the input element to define a command
@@ -2641,9 +4671,9 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/interactive-elements.html#using-the-input-element-to-define-a-command
-1
+
 1
 -
 using the option element to define a command
@@ -2651,9 +4681,9 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/interactive-elements.html#using-the-option-element-to-define-a-command
-1
+
 1
 -
 using the rules for
@@ -2661,28 +4691,48 @@ dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/parsing.html#using-the-rules-for
 
 1
 -
 usually support
 dfn
-webxr-1
+webxr
 webxr
 1
 current
 https://immersive-web.github.io/webxr/#usually-support
 
-1
+
 -
 usvstring
 dfn
 html
 html
 1
-snapshot
+current
 https://html.spec.whatwg.org/multipage/infrastructure.html#idl-usvstring
+
+1
+-
+usvstring
+dfn
+beacon
+beacon
+1
+current
+https://w3c.github.io/beacon/#dfn-usvstring
+
+1
+-
+usvstring
+dfn
+beacon
+beacon
+1
+snapshot
+https://www.w3.org/TR/beacon/#usvstring
 
 1
 -

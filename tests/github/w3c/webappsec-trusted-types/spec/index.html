@@ -946,7 +946,7 @@ enforcing types for HTML injection sinks.</p>
    <p>Examples of HTML injection sinks include:</p>
    <ul>
     <li data-md>
-     <p>Functions that parse &amp; insert HTML strings into the document like <a href="https://www.w3.org/TR/DOM-Parsing/#widl-Element-innerHTML">Element.innerHTML</a>, <a href="https://www.w3.org/TR/DOM-Parsing/#widl-Element-outerHTML">Element.outerHTML</a> setter, or <code class="idl"><a data-link-type="idl" href="#dom-document-write" id="ref-for-dom-document-write">Document.write</a></code>.</p>
+     <p>Functions that parse &amp; insert HTML strings into the document like <span spec-section="#widl-Element-innerHTML">Element.innerHTML</span>, <span spec-section="#widl-Element-outerHTML">Element.outerHTML</span> setter, or <code class="idl"><a data-link-type="idl" href="#dom-document-write" id="ref-for-dom-document-write">Document.write</a></code>.</p>
     <li data-md>
      <p>Functions that create a new same-origin <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document">Document</a></code> with caller-controlled
 markup like <code class="idl"><a data-link-type="idl" href="#dom-domparser-parsefromstring" id="ref-for-dom-domparser-parsefromstring">parseFromString()</a></code>,</p>
@@ -1390,7 +1390,7 @@ scriptElement<c- p>.</c->src <c- o>=</c-> myPolicy<c- p>.</c->createScriptURL<c-
       <p>Returns true if value is an instance of <code class="idl"><a data-link-type="idl" href="#trustedhtml" id="ref-for-trustedhtml②">TrustedHTML</a></code> and has its <code>[[Data]]</code> internal slot set, false otherwise.</p>
       <p class="note" role="note"><span>Note:</span> <code>is*</code> functions are used to check if a given object is truly a legitimate <a data-link-type="dfn" href="#trusted-type" id="ref-for-trusted-type①">Trusted Type</a> object (i.e. it was created via one of the configured
 policies). This is to be able to detect a forgery of the objects via
-e.g. <a href="https://tc39.es/ecma262/multipage/#sec-object.create">Object.create</a> or prototype chains manipulation.</p>
+e.g. <span spec-section="#sec-object.create">Object.create</span> or prototype chains manipulation.</p>
       <div class="example" id="is-html-example">
        <a class="self-link" href="#is-html-example"></a> 
 <pre class="highlight"><c- a>const</c-> html <c- o>=</c-> policy<c- p>.</c->createHTML<c- p>(</c-><c- t>'&lt;div>'</c-><c- p>);</c->
@@ -1914,7 +1914,7 @@ based on the following table:</p>
      <p>If <var>function</var> is <code>null</code>, throw a TypeError.</p>
     <li data-md>
      <p>Let <var>policyValue</var> be the result of invoking <var>function</var> with <var>value</var> as a first argument, items of <var>arguments</var> as subsequent arguments,
-and <a href="https://tc39.es/ecma262/multipage/#sec-method">callback **this** value</a> set to <code>null</code>.</p>
+and <span spec-section="#sec-method">callback **this** value</span> set to <code>null</code>.</p>
     <li data-md>
      <p>If <var>policyValue</var> is an error, return <var>policyValue</var> and abort the following steps.</p>
     <li data-md>
@@ -2048,7 +2048,7 @@ extended attribute must not appear in a <a data-link-type="dfn" href="https://he
 a <a data-link-type="dfn" href="https://heycam.github.io/webidl/#dfn-regular-operation" id="ref-for-dfn-regular-operation①">regular operation</a> argument that the type annotated with the [<code class="idl"><a data-link-type="idl" href="#StringContext" id="ref-for-StringContext①②">StringContext</a></code>] extended
 attribute appears in is its <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="related-construct">related construct</dfn>.</p>
    <p>A type that is not <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#idl-DOMString" id="ref-for-idl-DOMString②④">DOMString</a></code> or <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#idl-USVString" id="ref-for-idl-USVString④">USVString</a></code> must not be associated with the [<code class="idl"><a data-link-type="idl" href="#StringContext" id="ref-for-StringContext①③">StringContext</a></code>] extended attribute.</p>
-   <p>See the rules for converting ECMAScript values to the IDL types in <a href="https://heycam.github.io/webidl/#es-DOMString">Web IDL §3.2.10 DOMString</a> for the specific requirements that the use of [<code class="idl"><a data-link-type="idl" href="#StringContext" id="ref-for-StringContext①④">StringContext</a></code>] entails.</p>
+   <p>See the rules for converting ECMAScript values to the IDL types in <span spec-section="#es-DOMString"></span> for the specific requirements that the use of [<code class="idl"><a data-link-type="idl" href="#StringContext" id="ref-for-StringContext①④">StringContext</a></code>] entails.</p>
    <div class="example" id="webidl-stringcontext-example">
     <a class="self-link" href="#webidl-stringcontext-example"></a> 
     <p>In the following <a data-link-type="dfn" href="https://heycam.github.io/webidl/#dfn-idl-fragment" id="ref-for-dfn-idl-fragment">IDL fragment</a>,
@@ -2071,7 +2071,7 @@ attribute appears in is its <dfn class="dfn-paneled" data-dfn-type="dfn" data-no
  [<code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#LegacyNullToEmptyString" id="ref-for-LegacyNullToEmptyString">LegacyNullToEmptyString</a></code>].
    </p>
    <h4 class="heading settled" data-level="4.2.2" id="webidl-type-conversion"><span class="secno">4.2.2. </span><span class="content">Type conversion</span><a class="self-link" href="#webidl-type-conversion"></a></h4>
-   <p>This specification modifies the algorithm implementing the conversion to DOMString in <a href="https://heycam.github.io/webidl/#es-DOMString">Web IDL §3.2.10 DOMString</a>:</p>
+   <p>This specification modifies the algorithm implementing the conversion to DOMString in <span spec-section="#es-DOMString"></span>:</p>
    <p>An ECMAScript value <var>V</var> is <a data-link-type="dfn" href="https://heycam.github.io/webidl/#dfn-convert-ecmascript-to-idl-value" id="ref-for-dfn-convert-ecmascript-to-idl-value">converted</a> to an IDL <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#idl-DOMString" id="ref-for-idl-DOMString②⑤">DOMString</a></code> value by running the following algorithm:</p>
    <ol>
     <li data-md>
@@ -2090,8 +2090,8 @@ attribute appears in is its <dfn class="dfn-paneled" data-dfn-type="dfn" data-no
      <p>Return the IDL <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#idl-DOMString" id="ref-for-idl-DOMString②⑦">DOMString</a></code> value that represents the same sequence of code units as the one the ECMAScript String value <var>x</var> represents.</p>
    </ol>
    <h4 class="heading settled" data-level="4.2.3" id="webidl-validate-the-string-in-context"><span class="secno">4.2.3. </span><span class="content">Validate the string in context</span><a class="self-link" href="#webidl-validate-the-string-in-context"></a></h4>
-   <p>This specification adds a following section to <a href="https://heycam.github.io/webidl/#es-security">Web IDL §3.5 Security</a>.</p>
-   <p>Certain algorithms in <a href="https://heycam.github.io/webidl/#es-type-mapping">Web IDL §3.2 ECMAScript type mapping</a> are defined to <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="dfn-validate-the-string-in-context">validate the string in context</dfn> on a given
+   <p>This specification adds a following section to <span spec-section="#es-security"></span>.</p>
+   <p>Certain algorithms in <span spec-section="#es-type-mapping"></span> are defined to <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="dfn-validate-the-string-in-context">validate the string in context</dfn> on a given
 value. This check is used to determine whether a given value
 is appropriate for its <code class="idl"><a data-link-type="idl" href="#StringContext" id="ref-for-StringContext②⓪">StringContext</a></code>. This validation takes the following four inputs:</p>
    <ol>
@@ -2631,7 +2631,7 @@ document<c- p>.</c->createElement<c- p>(</c-><c- t>'iframe'</c-><c- p>).</c->set
    <h3 class="heading settled" data-level="4.6" id="integration-with-dom"><span class="secno">4.6. </span><span class="content">Integration with DOM</span><a class="self-link" href="#integration-with-dom"></a></h3>
    <p>This document modifies the <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#element" id="ref-for-element④">Element</a></code> interface, adding <a data-link-type="dfn" href="#concept-element-attributes-validation-ext" id="ref-for-concept-element-attributes-validation-ext">attribute validation steps</a>:</p>
    <p>
-    <ins>This and <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#other-applicable-specifications" id="ref-for-other-applicable-specifications">other specifications</a> may define <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="concept-element-attributes-validation-ext">attribute validation steps</dfn> for <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-element" id="ref-for-concept-element">elements</a>. The algorithm is passed <var>element</var>, <var>localName</var>, <var>value</var>, and <var>namespace</var>.</ins>
+    <ins>This and <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#other-applicable-specifications" id="ref-for-other-applicable-specifications">other specifications</a> may define <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="concept-element-attributes-validation-ext">attribute validation steps</dfn> for <a data-link-type="dfn" href="https://w3c.github.io/aria/#dfn-element" id="ref-for-dfn-element">elements</a>. The algorithm is passed <var>element</var>, <var>localName</var>, <var>value</var>, and <var>namespace</var>.</ins>
    </p>
    <p>This document changes the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#handle-attribute-changes" id="ref-for-handle-attribute-changes">handle attribute changes</a> algorithm, adding the following step at the beginning:</p>
    <ol>
@@ -2643,7 +2643,7 @@ document<c- p>.</c->createElement<c- p>(</c-><c- t>'iframe'</c-><c- p>).</c->set
    </ol>
    <p>Additionally, this document changes the <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-node-append" id="ref-for-concept-node-append">append</a> an attribute algorithm:</p>
    <p>
-    To <dfn data-dfn-type="dfn" data-export data-lt="append an attribute" id="concept-element-attributes-append">append<a class="self-link" href="#concept-element-attributes-append"></a></dfn> an <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-attribute" id="ref-for-concept-attribute①">attribute</a> <var>attribute</var> to an <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-element" id="ref-for-concept-element①">element</a> <var>element</var> 
+    To <dfn data-dfn-type="dfn" data-export data-lt="append an attribute" id="concept-element-attributes-append">append<a class="self-link" href="#concept-element-attributes-append"></a></dfn> an <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-attribute" id="ref-for-concept-attribute①">attribute</a> <var>attribute</var> to an <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-element" id="ref-for-concept-element">element</a> <var>element</var> 
     <ins>with a <var>value</var></ins>
     , run these steps: 
    </p>
@@ -2893,7 +2893,7 @@ self<c- p>.</c->top<c- p>.</c->body<c- p>.</c->innerHTML <c- o>=</c-> <c- t>'Hel
 the <var>calleeRealm</var> or <var>callerRealm</var>’s Content-Security-Policy rejects string compilation.</p>
    </div>
    <p>
-    Given two <a href="https://tc39.es/ecma262/multipage/#realm">realms</a> (<var>callerRealm</var> and <var>calleeRealm</var>), a string
+    Given two <span spec-section="#realm">realms</span> (<var>callerRealm</var> and <var>calleeRealm</var>), a string
 (<var>source</var>) 
     <ins>, a boolean <var>wasCodeLike</var> and a string <var>compilationSink</var></ins>
     , this algorithm returns 
@@ -3781,6 +3781,19 @@ to the <a data-link-type="dfn" href="#injection-sink" id="ref-for-injection-sink
     <li><a href="#ref-for-concept-url-serializer">4.8.1.1. require-trusted-types-for Pre-Navigation check</a>
    </ul>
   </aside>
+  <aside class="dfn-panel" data-for="term-for-dfn-element">
+   <a href="https://w3c.github.io/aria/#dfn-element">https://w3c.github.io/aria/#dfn-element</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-dfn-element">4.6. Integration with DOM</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-this">
+   <a href="https://heycam.github.io/webidl/#this">https://heycam.github.io/webidl/#this</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-this">4.2.2. Type conversion</a>
+    <li><a href="#ref-for-this①">4.3.1. Extensions to the WindowOrWorkerGlobalScope interface</a>
+   </ul>
+  </aside>
   <aside class="dfn-panel" data-for="term-for-AllowShared">
    <a href="https://heycam.github.io/webidl/#AllowShared">https://heycam.github.io/webidl/#AllowShared</a><b>Referenced in:</b>
    <ul>
@@ -3980,13 +3993,6 @@ to the <a data-link-type="dfn" href="#injection-sink" id="ref-for-injection-sink
     <li><a href="#ref-for-dfn-xattr-identifier">4.2. [StringContext]</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-this">
-   <a href="https://heycam.github.io/webidl/#this">https://heycam.github.io/webidl/#this</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-this">4.2.2. Type conversion</a>
-    <li><a href="#ref-for-this①">4.3.1. Extensions to the WindowOrWorkerGlobalScope interface</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-idl-undefined">
    <a href="https://heycam.github.io/webidl/#idl-undefined">https://heycam.github.io/webidl/#idl-undefined</a><b>Referenced in:</b>
    <ul>
@@ -4125,7 +4131,17 @@ to the <a data-link-type="dfn" href="#injection-sink" id="ref-for-injection-sink
      <li><span class="dfn-paneled" id="term-for-concept-url-serializer">url serializer</span>
     </ul>
    <li>
+    <a data-link-type="biblio">[wai-aria-1.2]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="term-for-dfn-element">elements</span>
+    </ul>
+   <li>
     <a data-link-type="biblio">[WebIDL]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="term-for-this">this</span>
+    </ul>
+   <li>
+    <a data-link-type="biblio">[WebIDL-20161215]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-AllowShared">AllowShared</span>
      <li><span class="dfn-paneled" id="term-for-Clamp">Clamp</span>
@@ -4155,7 +4171,6 @@ to the <a data-link-type="dfn" href="#injection-sink" id="ref-for-injection-sink
      <li><span class="dfn-paneled" id="term-for-dfn-regular-attribute">regular attribute</span>
      <li><span class="dfn-paneled" id="term-for-dfn-regular-operation">regular operation</span>
      <li><span class="dfn-paneled" id="term-for-dfn-xattr-identifier">takes an identifier</span>
-     <li><span class="dfn-paneled" id="term-for-this">this</span>
      <li><span class="dfn-paneled" id="term-for-idl-undefined">undefined</span>
      <li><span class="dfn-paneled" id="term-for-dfn-variadic">variadic</span>
     </ul>
@@ -4187,8 +4202,12 @@ to the <a data-link-type="dfn" href="#injection-sink" id="ref-for-injection-sink
    <dd>Amelia Bellamy-Royds; et al. <a href="https://www.w3.org/TR/SVG2/">Scalable Vector Graphics (SVG) 2</a>. 4 October 2018. CR. URL: <a href="https://www.w3.org/TR/SVG2/">https://www.w3.org/TR/SVG2/</a>
    <dt id="biblio-url">[URL]
    <dd>Anne van Kesteren. <a href="https://url.spec.whatwg.org/">URL Standard</a>. Living Standard. URL: <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
+   <dt id="biblio-wai-aria-12">[WAI-ARIA-1.2]
+   <dd>Joanmarie Diggs; James Nurthen; Michael Cooper. <a href="https://www.w3.org/TR/wai-aria-1.2/">Accessible Rich Internet Applications (WAI-ARIA) 1.2</a>. 2 March 2021. CR. URL: <a href="https://www.w3.org/TR/wai-aria-1.2/">https://www.w3.org/TR/wai-aria-1.2/</a>
    <dt id="biblio-webidl">[WebIDL]
    <dd>Boris Zbarsky. <a href="https://heycam.github.io/webidl/">Web IDL</a>. 15 December 2016. ED. URL: <a href="https://heycam.github.io/webidl/">https://heycam.github.io/webidl/</a>
+   <dt id="biblio-webidl-20161215">[WebIDL-20161215]
+   <dd>Cameron McCormack. <a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">WebIDL Level 1</a>. 15 December 2016. REC. URL: <a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/</a>
   </dl>
   <h3 class="no-num no-ref heading settled" id="informative"><span class="content">Informative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>

@@ -970,9 +970,9 @@ mutating some value to make it true or false, respectively.</p>
    <p>The term <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="supported-styling-language">supported styling language</dfn> refers to CSS.</p>
    <p class="note" role="note"><span>Note:</span> If another styling language becomes supported in user agents, this specification is expected to be updated as necessary.</p>
    <p>The term <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="supported-css-property">supported CSS property</dfn> refers to a CSS property that the user agent
-implements, including any vendor-prefixed properties, but excluding <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables-1/#custom-property" id="ref-for-custom-property">custom properties</a>. A <a data-link-type="dfn" href="#supported-css-property" id="ref-for-supported-css-property">supported CSS property</a> must be in its lowercase form for the purpose of comparisons in this
+implements, including any vendor-prefixed properties, but excluding <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables/#custom-property" id="ref-for-custom-property">custom properties</a>. A <a data-link-type="dfn" href="#supported-css-property" id="ref-for-supported-css-property">supported CSS property</a> must be in its lowercase form for the purpose of comparisons in this
 specification.</p>
-   <p>In this specification the <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/selectors-3/#sel-before" id="ref-for-sel-before">::before</a> and <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/selectors-3/#sel-after" id="ref-for-sel-after">::after</a> pseudo-elements
+   <p>In this specification the <span class="css">::before</span> and <span class="css">::after</span> pseudo-elements
 are assumed to exist for all elements even if no box is generated for them.</p>
    <p>When a method or an attribute is said to call another method or attribute, the user agent must invoke its internal API for that attribute or method so that
 e.g. the author can’t change the behavior by overriding attributes or methods with custom properties or functions in ECMAScript.</p>
@@ -1276,9 +1276,9 @@ comma-separated list of these serializations.</p>
    <p>To <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="serialize-a-selector">serialize a selector</dfn> let <var>s</var> be the empty string, run the steps below for each
 part of the chain of the selector, and finally return <var>s</var>:</p>
    <ol>
-    <li>If there is only one <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#simple" id="ref-for-simple">simple selector</a> in the <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#compound" id="ref-for-compound">compound selectors</a> which is a <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#universal-selector" id="ref-for-universal-selector">universal selector</a>, append the result of <a data-link-type="dfn" href="#serialize-a-simple-selector" id="ref-for-serialize-a-simple-selector">serializing</a> the <span id="ref-for-universal-selector①">universal selector</span> to <var>s</var>. 
-    <li>Otherwise, for each <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#simple" id="ref-for-simple①">simple selector</a> in the <a data-link-type="dfn" href="https://drafts.csswg.org/selectors-4/#compound" id="ref-for-compound①">compound selectors</a> that is not a
- universal selector of which the <a data-link-type="dfn" href="https://drafts.csswg.org/css-namespaces-3/#namespace-prefix" id="ref-for-namespace-prefix">namespace prefix</a> maps to a namespace that is not the <a data-link-type="dfn" href="https://drafts.csswg.org/css-namespaces-3/#default-namespace" id="ref-for-default-namespace">default namespace</a> <a data-link-type="dfn" href="#serialize-a-simple-selector" id="ref-for-serialize-a-simple-selector①">serialize</a> the <span id="ref-for-simple②">simple selector</span> and append the result to <var>s</var>. 
+    <li>If there is only one <a data-link-type="dfn" href="https://drafts.csswg.org/selectors/#simple" id="ref-for-simple">simple selector</a> in the <a data-link-type="dfn" href="https://drafts.csswg.org/selectors/#compound" id="ref-for-compound">compound selectors</a> which is a <a data-link-type="dfn" href="https://drafts.csswg.org/selectors/#universal-selector" id="ref-for-universal-selector">universal selector</a>, append the result of <a data-link-type="dfn" href="#serialize-a-simple-selector" id="ref-for-serialize-a-simple-selector">serializing</a> the <span id="ref-for-universal-selector①">universal selector</span> to <var>s</var>. 
+    <li>Otherwise, for each <a data-link-type="dfn" href="https://drafts.csswg.org/selectors/#simple" id="ref-for-simple①">simple selector</a> in the <a data-link-type="dfn" href="https://drafts.csswg.org/selectors/#compound" id="ref-for-compound①">compound selectors</a> that is not a
+ universal selector of which the <a data-link-type="dfn" href="https://drafts.csswg.org/css-namespaces/#namespace-prefix" id="ref-for-namespace-prefix">namespace prefix</a> maps to a namespace that is not the <a data-link-type="dfn" href="https://drafts.csswg.org/css-namespaces/#default-namespace" id="ref-for-default-namespace">default namespace</a> <a data-link-type="dfn" href="#serialize-a-simple-selector" id="ref-for-serialize-a-simple-selector①">serialize</a> the <span id="ref-for-simple②">simple selector</span> and append the result to <var>s</var>. 
     <li>If this is not the last part of the chain of the selector append a
  single SPACE (U+0020), followed by the combinator
  "<code>></code>",
@@ -1299,11 +1299,11 @@ finally return <var>s</var>:</p>
     <dt>universal selector 
     <dd>
      <ol>
-      <li>If the <a data-link-type="dfn" href="https://drafts.csswg.org/css-namespaces-3/#namespace-prefix" id="ref-for-namespace-prefix①">namespace prefix</a> maps to a namespace that is
-   not the <a data-link-type="dfn" href="https://drafts.csswg.org/css-namespaces-3/#default-namespace" id="ref-for-default-namespace①">default namespace</a> and is not the
+      <li>If the <a data-link-type="dfn" href="https://drafts.csswg.org/css-namespaces/#namespace-prefix" id="ref-for-namespace-prefix①">namespace prefix</a> maps to a namespace that is
+   not the <a data-link-type="dfn" href="https://drafts.csswg.org/css-namespaces/#default-namespace" id="ref-for-default-namespace①">default namespace</a> and is not the
    null namespace (not in a namespace) append the <a data-link-type="dfn" href="#serialize-an-identifier" id="ref-for-serialize-an-identifier①">serialization</a> of the <span id="ref-for-namespace-prefix②">namespace prefix</span> as an identifier, followed by a
    "<code>|</code>" (U+007C) to <var>s</var>. 
-      <li>If the <a data-link-type="dfn" href="https://drafts.csswg.org/css-namespaces-3/#namespace-prefix" id="ref-for-namespace-prefix③">namespace prefix</a> maps to a namespace that is
+      <li>If the <a data-link-type="dfn" href="https://drafts.csswg.org/css-namespaces/#namespace-prefix" id="ref-for-namespace-prefix③">namespace prefix</a> maps to a namespace that is
    the null namespace (not in a namespace) append
    "<code>|</code>" (U+007C) to <var>s</var>. 
       <li>If this is a type selector append the <a data-link-type="dfn" href="#serialize-an-identifier" id="ref-for-serialize-an-identifier②">serialization</a> of the element name
@@ -1315,7 +1315,7 @@ finally return <var>s</var>:</p>
     <dd>
      <ol>
       <li>Append "<code>[</code>" (U+005B) to <var>s</var>. 
-      <li>If the <a data-link-type="dfn" href="https://drafts.csswg.org/css-namespaces-3/#namespace-prefix" id="ref-for-namespace-prefix④">namespace prefix</a> maps to a namespace that is
+      <li>If the <a data-link-type="dfn" href="https://drafts.csswg.org/css-namespaces/#namespace-prefix" id="ref-for-namespace-prefix④">namespace prefix</a> maps to a namespace that is
    not the null namespace (not in a namespace) append the <a data-link-type="dfn" href="#serialize-an-identifier" id="ref-for-serialize-an-identifier③">serialization</a> of the <span id="ref-for-namespace-prefix⑤">namespace prefix</span> as an identifier, followed by a
    "<code>|</code>" (U+007C) to <var>s</var>. 
       <li>Append the <a data-link-type="dfn" href="#serialize-an-identifier" id="ref-for-serialize-an-identifier④">serialization</a> of the attribute name as an identifier to <var>s</var>. 
@@ -1356,7 +1356,7 @@ finally return <var>s</var>:</p>
       <dt><code>:nth-last-child()</code> 
       <dt><code>:nth-of-type()</code> 
       <dt><code>:nth-last-of-type()</code> 
-      <dd>The result of serializing the value using the rules to <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#serialize-an-anb-value" id="ref-for-serialize-an-anb-value">serialize an &lt;an+b> value</a>. 
+      <dd>The result of serializing the value using the rules to <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#serialize-an-anb-value" id="ref-for-serialize-an-anb-value">serialize an &lt;an+b> value</a>. 
       <dt><code>:not()</code> 
       <dd>The result of serializing the value using the rules for <a data-link-type="dfn" href="#serialize-a-group-of-selectors" id="ref-for-serialize-a-group-of-selectors">serializing a group of selectors</a>. 
      </dl>
@@ -1973,7 +1973,7 @@ must be run:</p>
       <dt><a data-link-type="dfn" href="#concept-css-style-sheet-origin-clean-flag" id="ref-for-concept-css-style-sheet-origin-clean-flag④">origin-clean flag</a> 
       <dd>Set if <var>response</var> is <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/urls-and-fetching.html#cors-same-origin" id="ref-for-cors-same-origin①">CORS-same-origin</a>, or unset otherwise. 
      </dl>
-     <p>The CSS <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#environment-encoding" id="ref-for-environment-encoding">environment encoding</a> is the result of running the following steps:</p>
+     <p>The CSS <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#environment-encoding" id="ref-for-environment-encoding">environment encoding</a> is the result of running the following steps:</p>
      <ol>
       <li>If the element has a <code>charset</code> <a data-link-type="dfn" href="https://www.w3.org/TR/xml-stylesheet/#dt-pseudo-attribute" id="ref-for-dt-pseudo-attribute⑧">pseudo-attribute</a>, <a data-link-type="dfn" href="https://encoding.spec.whatwg.org/#concept-encoding-get" id="ref-for-concept-encoding-get">get an encoding</a> from that pseudo-attribute’s value.
    If that succeeds, return the resulting encoding and abort these steps. 
@@ -2061,7 +2061,7 @@ This item is initialized to reference an associated style sheet when the rule is
 with other state in accordance with its <a data-link-type="dfn" href="#concept-css-rule-type" id="ref-for-concept-css-rule-type">type</a>.</p>
    <p>To <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="parse-a-css-rule">parse a CSS rule</dfn> from a string <var>string</var>, run the following steps:</p>
    <ol>
-    <li>Let <var>rule</var> be the return value of invoking <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#parse-a-rule" id="ref-for-parse-a-rule">parse a rule</a> with <var>string</var>. 
+    <li>Let <var>rule</var> be the return value of invoking <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#parse-a-rule" id="ref-for-parse-a-rule">parse a rule</a> with <var>string</var>. 
     <li>If <var>rule</var> is a syntax error, return <var>rule</var>. 
     <li>Let <var>parsed rule</var> be the result of parsing <var>rule</var> according to the appropriate CSS specifications, dropping parts that are said to be
  ignored. If the whole style rule is dropped, return a syntax error. 
@@ -2156,20 +2156,20 @@ with other state in accordance with its <a data-link-type="dfn" href="#concept-c
     <dd>The literal string "<code>@namespace</code>", followed by a single SPACE
  (U+0020), followed by the <a data-link-type="dfn" href="#serialize-an-identifier" id="ref-for-serialize-an-identifier⑦">serialization as an identifier</a> of the <code class="idl"><a data-link-type="idl" href="#dom-cssnamespacerule-prefix" id="ref-for-dom-cssnamespacerule-prefix">prefix</a></code> attribute (if
  any), followed by a single SPACE (U+0020) if there is a prefix, followed by the <a data-link-type="dfn" href="#serialize-a-url" id="ref-for-serialize-a-url②">serialization as URL</a> of the <code class="idl"><a data-link-type="idl" href="#dom-cssnamespacerule-namespaceuri" id="ref-for-dom-cssnamespacerule-namespaceuri">namespaceURI</a></code> attribute, followed the character "<code>;</code>" (U+003B). 
-    <dt><code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations-1/#csskeyframesrule" id="ref-for-csskeyframesrule">CSSKeyframesRule</a></code> 
+    <dt><code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations/#csskeyframesrule" id="ref-for-csskeyframesrule">CSSKeyframesRule</a></code> 
     <dd>
       The result of concatenating the following: 
      <ol>
       <li>The literal string "<code>@keyframes</code>", followed by a single SPACE (U+0020). 
-      <li>The <a data-link-type="dfn" href="#serialize-an-identifier" id="ref-for-serialize-an-identifier⑧">serialization as an identifier</a> of the <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations-1/#dom-csskeyframesrule-name" id="ref-for-dom-csskeyframesrule-name">name</a></code> attribute. 
-      <li>The result of performing <a data-link-type="dfn" href="#serialize-a-css-rule" id="ref-for-serialize-a-css-rule①">serialize a CSS rule</a> on each rule in the rule’s <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations-1/#dom-csskeyframesrule-cssrules" id="ref-for-dom-csskeyframesrule-cssrules">cssRules</a></code> list, separated by a newline and indented by two spaces.
+      <li>The <a data-link-type="dfn" href="#serialize-an-identifier" id="ref-for-serialize-an-identifier⑧">serialization as an identifier</a> of the <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations/#dom-csskeyframesrule-name" id="ref-for-dom-csskeyframesrule-name">name</a></code> attribute. 
+      <li>The result of performing <a data-link-type="dfn" href="#serialize-a-css-rule" id="ref-for-serialize-a-css-rule①">serialize a CSS rule</a> on each rule in the rule’s <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations/#dom-csskeyframesrule-cssrules" id="ref-for-dom-csskeyframesrule-cssrules">cssRules</a></code> list, separated by a newline and indented by two spaces.
       <li>A newline, followed by the string "}", i.e., RIGHT CURLY BRACKET (U+007D)
      </ol>
-    <dt><code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations-1/#csskeyframerule" id="ref-for-csskeyframerule">CSSKeyframeRule</a></code> 
+    <dt><code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations/#csskeyframerule" id="ref-for-csskeyframerule">CSSKeyframeRule</a></code> 
     <dd>
       The result of concatenating the following: 
      <ol>
-      <li>The <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations-1/#dom-csskeyframerule-keytext" id="ref-for-dom-csskeyframerule-keytext">keyText</a></code>. 
+      <li>The <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations/#dom-csskeyframerule-keytext" id="ref-for-dom-csskeyframerule-keytext">keyText</a></code>. 
       <li>The string "<code> { </code>", i.e., a single SPACE (U+0020), followed by LEFT CURLY BRACKET (U+007B), 
       <li>The result of performing <a data-link-type="dfn" href="#serialize-a-css-declaration-block" id="ref-for-serialize-a-css-declaration-block①">serialize a CSS declaration block</a> on the rule’s associated declarations. 
       <li>If the rule is associated with one or more declarations, the string "<code> </code>", i.e., a single SPACE (U+0020). 
@@ -2337,21 +2337,21 @@ It must return an integer, as follows:</p>
     <dd>Return 5. 
     <dt>If the object is a <code class="idl"><a data-link-type="idl" href="#csspagerule" id="ref-for-csspagerule②">CSSPageRule</a></code> 
     <dd>Return 6. 
-    <dt>If the object is a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations-1/#csskeyframesrule" id="ref-for-csskeyframesrule①">CSSKeyframesRule</a></code> 
+    <dt>If the object is a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations/#csskeyframesrule" id="ref-for-csskeyframesrule①">CSSKeyframesRule</a></code> 
     <dd>Return 7. 
-    <dt>If the object is a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations-1/#csskeyframerule" id="ref-for-csskeyframerule①">CSSKeyframeRule</a></code> 
+    <dt>If the object is a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-animations/#csskeyframerule" id="ref-for-csskeyframerule①">CSSKeyframeRule</a></code> 
     <dd>Return 8. 
     <dt>If the object is a <code class="idl"><a data-link-type="idl" href="#cssmarginrule" id="ref-for-cssmarginrule">CSSMarginRule</a></code> 
     <dd>Return 9. 
     <dt>If the object is a <code class="idl"><a data-link-type="idl" href="#cssnamespacerule" id="ref-for-cssnamespacerule①">CSSNamespaceRule</a></code> 
     <dd>Return 10. 
-    <dt>If the object is a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-counter-styles-3/#csscounterstylerule" id="ref-for-csscounterstylerule">CSSCounterStyleRule</a></code> 
+    <dt>If the object is a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-counter-styles/#csscounterstylerule" id="ref-for-csscounterstylerule">CSSCounterStyleRule</a></code> 
     <dd>Return 11. 
     <dt>If the object is a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-conditional-3/#csssupportsrule" id="ref-for-csssupportsrule">CSSSupportsRule</a></code> 
     <dd>Return 12. 
-    <dt>If the object is a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-fonts-4/#cssfontfeaturevaluesrule①" id="ref-for-cssfontfeaturevaluesrule①">CSSFontFeatureValuesRule</a></code> 
+    <dt>If the object is a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-fonts-4/#cssfontfeaturevaluesrule%E2%91%A0" id="ref-for-cssfontfeaturevaluesrule%E2%91%A0">CSSFontFeatureValuesRule</a></code> 
     <dd>Return 14. 
-    <dt>If the object is a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-device-adapt-1/#cssviewportrule" id="ref-for-cssviewportrule">CSSViewportRule</a></code> 
+    <dt>If the object is a <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/css-device-adapt/#cssviewportrule" id="ref-for-cssviewportrule">CSSViewportRule</a></code> 
     <dd>Return 15. 
     <dt>Otherwise 
     <dd>Return 0. 
@@ -2739,7 +2739,7 @@ the DOM a <a data-link-type="dfn" href="#css-declaration-block" id="ref-for-css-
    </dl>
    <p>To <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="parse-a-css-declaration-block">parse a CSS declaration block</dfn> from a string <var>string</var>, follow these steps:</p>
    <ol>
-    <li>Let <var>declarations</var> be the return value of invoking <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#parse-a-list-of-declarations" id="ref-for-parse-a-list-of-declarations">parse a list of declarations</a> with <var>string</var>. 
+    <li>Let <var>declarations</var> be the return value of invoking <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#parse-a-list-of-declarations" id="ref-for-parse-a-list-of-declarations">parse a list of declarations</a> with <var>string</var>. 
     <li>Let <var>parsed declarations</var> be a new empty list. 
     <li>
      For each item <var>declaration</var> in <var>declarations</var>, follow these substeps: 
@@ -2953,7 +2953,7 @@ declarations</a> in the <a data-link-type="dfn" href="#cssstyledeclaration-decla
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="CSSStyleDeclaration" data-dfn-type="method" data-export id="dom-cssstyledeclaration-getpropertyvalue"><code>getPropertyValue(<var>property</var>)</code></dfn> method must run these steps:</p>
    <ol>
     <li>
-     If <var>property</var> is not a <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables-1/#custom-property" id="ref-for-custom-property①">custom property</a>, follow these substeps: 
+     If <var>property</var> is not a <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables/#custom-property" id="ref-for-custom-property①">custom property</a>, follow these substeps: 
      <ol>
       <li>Let <var>property</var> be <var>property</var> <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ascii-lowercase" id="ref-for-ascii-lowercase②">converted to ASCII lowercase</a>. 
       <li>
@@ -2995,7 +2995,7 @@ declarations</a> in the <a data-link-type="dfn" href="#cssstyledeclaration-decla
    <p>The <dfn class="dfn-paneled idl-code" data-dfn-for="CSSStyleDeclaration" data-dfn-type="method" data-export id="dom-cssstyledeclaration-getpropertypriority"><code>getPropertyPriority(<var>property</var>)</code></dfn> method must run these steps:</p>
    <ol>
     <li>
-     If <var>property</var> is not a <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables-1/#custom-property" id="ref-for-custom-property②">custom property</a>, follow these substeps: 
+     If <var>property</var> is not a <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables/#custom-property" id="ref-for-custom-property②">custom property</a>, follow these substeps: 
      <ol>
       <li>Let <var>property</var> be <var>property</var> <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ascii-lowercase" id="ref-for-ascii-lowercase③">converted to ASCII lowercase</a>. 
       <li>
@@ -3033,7 +3033,7 @@ value would be "<code>important</code>".</div>
     <li>If the <a data-link-type="dfn" href="#cssstyledeclaration-computed-flag" id="ref-for-cssstyledeclaration-computed-flag⑧">computed flag</a> is set,
  then <a data-link-type="dfn" href="http://heycam.github.io/webidl/#dfn-throw" id="ref-for-dfn-throw①①">throw</a> a <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#nomodificationallowederror" id="ref-for-nomodificationallowederror①">NoModificationAllowedError</a></code> exception. 
     <li>
-     If <var>property</var> is not a <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables-1/#custom-property" id="ref-for-custom-property③">custom property</a>, follow these substeps: 
+     If <var>property</var> is not a <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables/#custom-property" id="ref-for-custom-property③">custom property</a>, follow these substeps: 
      <ol>
       <li>Let <var>property</var> be <var>property</var> <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ascii-lowercase" id="ref-for-ascii-lowercase④">converted to ASCII lowercase</a>. 
       <li>If <var>property</var> is not a <a data-link-type="dfn">case-sensitive</a> match for a <a data-link-type="dfn" href="#supported-css-property" id="ref-for-supported-css-property①">supported CSS property</a>, then return. 
@@ -3132,7 +3132,7 @@ use different algorithms as long as the constraints above hold.</p>
    <ol>
     <li>If the <a data-link-type="dfn" href="#cssstyledeclaration-computed-flag" id="ref-for-cssstyledeclaration-computed-flag⑨">computed flag</a> is set,
  then <a data-link-type="dfn" href="http://heycam.github.io/webidl/#dfn-throw" id="ref-for-dfn-throw①②">throw</a> a <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#nomodificationallowederror" id="ref-for-nomodificationallowederror②">NoModificationAllowedError</a></code> exception. 
-    <li>If <var>property</var> is not a <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables-1/#custom-property" id="ref-for-custom-property④">custom property</a>,
+    <li>If <var>property</var> is not a <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables/#custom-property" id="ref-for-custom-property④">custom property</a>,
  let <var>property</var> be <var>property</var> <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#ascii-lowercase" id="ref-for-ascii-lowercase⑤">converted to ASCII lowercase</a>. 
     <li>Let <var>value</var> be the return value of invoking <code class="idl"><a data-link-type="idl" href="#dom-cssstyledeclaration-getpropertyvalue" id="ref-for-dom-cssstyledeclaration-getpropertyvalue①">getPropertyValue()</a></code> with <var>property</var> as argument. 
     <li>Let <var>removed</var> be false. 
@@ -3192,7 +3192,7 @@ argument being the result of running the <a data-link-type="dfn" href="#idl-attr
    <p>Setting the <a class="idl-code" data-link-type="attribute" href="#dom-cssstyledeclaration-camel-cased-attribute" id="ref-for-dom-cssstyledeclaration-camel-cased-attribute"><var>camel-cased attribute</var></a> attribute must invoke <code class="idl"><a data-link-type="idl" href="#dom-cssstyledeclaration-setproperty" id="ref-for-dom-cssstyledeclaration-setproperty②">setProperty()</a></code> with the
 first argument being the result of running the <a data-link-type="dfn" href="#idl-attribute-to-css-property" id="ref-for-idl-attribute-to-css-property①">IDL attribute to CSS property</a> algorithm for <var>camel-cased attribute</var>, as second argument the given value, and no third argument. Any
 exceptions thrown must be re-thrown.</p>
-   <div class="example" id="example-5f92c57f"><a class="self-link" href="#example-5f92c57f"></a>For example, for the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-fonts-3/#propdef-font-size" id="ref-for-propdef-font-size">font-size</a> property there would be a <code>fontSize</code> IDL attribute.</div>
+   <div class="example" id="example-5f92c57f"><a class="self-link" href="#example-5f92c57f"></a>For example, for the <a class="property" data-link-type="propdesc">font-size</a> property there would be a <code>fontSize</code> IDL attribute.</div>
    <p>For each CSS property <var>property</var> that is a <a data-link-type="dfn" href="#supported-css-property" id="ref-for-supported-css-property③">supported CSS property</a> and that begins
 with the string <code>-webkit-</code>, the following partial interface applies where <var>webkit-cased attribute</var> is obtained by running the <a data-link-type="dfn" href="#css-property-to-idl-attribute" id="ref-for-css-property-to-idl-attribute①">CSS property to IDL attribute</a> algorithm for <var>property</var>, with the <i>lowercase first</i> flag set.</p>
 <pre class="idl extract highlight def"><c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="#cssstyledeclaration" id="ref-for-cssstyledeclaration⑤"><c- g>CSSStyleDeclaration</c-></a> {
@@ -3222,7 +3222,7 @@ argument being <var>dashed attribute</var>.</p>
 first argument being <var>dashed attribute</var>, as second argument the given value, and no third argument. Any
 exceptions thrown must be re-thrown.</p>
    <div class="example" id="example-5db10c4f">
-    <a class="self-link" href="#example-5db10c4f"></a> For example, for the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-fonts-3/#propdef-font-size" id="ref-for-propdef-font-size①">font-size</a> property there would be a <code>font-size</code> IDL attribute. In JavaScript, the property can be accessed as
+    <a class="self-link" href="#example-5db10c4f"></a> For example, for the <a class="property" data-link-type="propdesc">font-size</a> property there would be a <code>font-size</code> IDL attribute. In JavaScript, the property can be accessed as
  follows, assuming <var>element</var> is an <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/infrastructure.html#html-elements" id="ref-for-html-elements">HTML element</a>: 
 <pre><var>element</var>.style['font-size'];</pre>
    </div>
@@ -3256,7 +3256,7 @@ exceptions thrown must be re-thrown.</p>
    <h4 class="heading settled" data-level="6.7.1" id="parsing-css-values"><span class="secno">6.7.1. </span><span class="content">Parsing CSS Values</span><a class="self-link" href="#parsing-css-values"></a></h4>
    <p>To <dfn class="dfn-paneled" data-dfn-type="dfn" data-export id="parse-a-css-value">parse a CSS value</dfn> <var>value</var> for a given <var>property</var> means to follow these steps:</p>
    <ol>
-    <li>Let <var>list</var> be the value returned by invoking <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#parse-a-list-of-component-values" id="ref-for-parse-a-list-of-component-values">parse a list of component values</a> from <var>value</var>. 
+    <li>Let <var>list</var> be the value returned by invoking <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#parse-a-list-of-component-values" id="ref-for-parse-a-list-of-component-values">parse a list of component values</a> from <var>value</var>. 
     <li>Match <var>list</var> against the grammar for the property <var>property</var> in the CSS specification. 
     <li>If the above step failed, return null. 
     <li>Return <var>list</var>. 
@@ -3281,7 +3281,7 @@ return the empty string.</p>
        <p>Otherwise, <a data-link-type="dfn" href="#serialize-a-css-value" id="ref-for-serialize-a-css-value④">serialize a CSS value</a> from a hypothetical declaration of the property <var>shorthand</var> with its value representing the combined values of the declarations in <var>list</var>.</p>
      </ol>
     <li data-md>
-     <p>Represent the value of the <var>declaration</var> as a <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list" id="ref-for-list①">list</a> of CSS component values <var>components</var> that, when <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar" id="ref-for-css-parse-something-according-to-a-css-grammar">parsed</a> according to the property’s grammar,
+     <p>Represent the value of the <var>declaration</var> as a <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#list" id="ref-for-list①">list</a> of CSS component values <var>components</var> that, when <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#css-parse-something-according-to-a-css-grammar" id="ref-for-css-parse-something-according-to-a-css-grammar">parsed</a> according to the property’s grammar,
 would represent that value.
 Additionally:</p>
      <ul>
@@ -3304,7 +3304,7 @@ For legacy reasons, some properties serialize in a different manner,
 which is intentionally undefined here due to lack of resources.
 Please consult your local reverse-engineer for details.</p>
     <li data-md>
-     <p>Remove any <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-syntax-3/#typedef-whitespace-token" id="ref-for-typedef-whitespace-token">&lt;whitespace-token></a>s from <var>components</var>.</p>
+     <p>Remove any <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-syntax/#typedef-whitespace-token" id="ref-for-typedef-whitespace-token">&lt;whitespace-token></a>s from <var>components</var>.</p>
     <li data-md>
      <p>Replace each component value in <var>components</var> with the result of invoking <a data-link-type="dfn" href="#serialize-a-css-component-value" id="ref-for-serialize-a-css-component-value">serialize a CSS component value</a>.</p>
     <li data-md>
@@ -3321,18 +3321,18 @@ Return the result.</p>
     <dd>
       The &lt;number> component serialized as per &lt;number> followed by the unit in canonical form as defined in its respective specification. 
      <p class="issue" id="issue-5f483407"><a class="self-link" href="#issue-5f483407"></a> Probably should distinguish between specified and computed / resolved values.</p>
-    <dt><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-color-3/#valuea-def-color" id="ref-for-valuea-def-color" title="Expands to: aliceblue | antiquewhite | aqua | aquamarine | azure | beige | bisque | black | blanchedalmond | blue | blueviolet | brown | burlywood | cadetblue | chartreuse | chocolate | coral | cornflowerblue | cornsilk | crimson | currentcolor | cyan | darkblue | darkcyan | darkgoldenrod | darkgray | darkgreen | darkgrey | darkkhaki | darkmagenta | darkolivegreen | darkorange | darkorchid | darkred | darksalmon | darkseagreen | darkslateblue | darkslategray | darkslategrey | darkturquoise | darkviolet | deeppink | deepskyblue | dimgray | dimgrey | dodgerblue | firebrick | floralwhite | forestgreen | fuchsia | gainsboro | ghostwhite | gold | goldenrod | gray | green | greenyellow | grey | honeydew | hotpink | indianred | indigo | ivory | khaki | lavender | lavenderblush | lawngreen | lemonchiffon | lightblue | lightcoral | lightcyan | lightgoldenrodyellow | lightgray | lightgreen | lightgrey | lightpink | lightsalmon | lightseagreen | lightskyblue | lightslategray | lightslategrey | lightsteelblue | lightyellow | lime | limegreen | linen | magenta | maroon | mediumaquamarine | mediumblue | mediumorchid | mediumpurple | mediumseagreen | mediumslateblue | mediumspringgreen | mediumturquoise | mediumvioletred | midnightblue | mintcream | mistyrose | moccasin | navajowhite | navy | oldlace | olive | olivedrab | orange | orangered | orchid | palegoldenrod | palegreen | paleturquoise | palevioletred | papayawhip | peachpuff | peru | pink | plum | powderblue | purple | rebeccapurple | red | rosybrown | royalblue | saddlebrown | salmon | sandybrown | seagreen | seashell | sienna | silver | skyblue | slateblue | slategray | slategrey | snow | springgreen | steelblue | tan | teal | thistle | tomato | transparent | turquoise | violet | wheat | white | whitesmoke | yellow | yellowgreen">&lt;color></a> 
+    <dt><a class="production css" data-link-type="type">&lt;color></a> 
     <dd>
       If &lt;color> is a component of a resolved value, see <a href="https://www.w3.org/TR/css-color-4/#resolving-color-values">CSS Color 4 §4.6 Resolving &lt;color> Values</a>. 
      <p>If &lt;color> is a component of a computed value, see <a href="https://www.w3.org/TR/css-color-4/#serializing-color-values">CSS Color 4 §4.7 Serializing &lt;color> Values</a>.</p>
-     <p>If <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-color-3/#valuea-def-color" id="ref-for-valuea-def-color①" title="Expands to: aliceblue | antiquewhite | aqua | aquamarine | azure | beige | bisque | black | blanchedalmond | blue | blueviolet | brown | burlywood | cadetblue | chartreuse | chocolate | coral | cornflowerblue | cornsilk | crimson | currentcolor | cyan | darkblue | darkcyan | darkgoldenrod | darkgray | darkgreen | darkgrey | darkkhaki | darkmagenta | darkolivegreen | darkorange | darkorchid | darkred | darksalmon | darkseagreen | darkslateblue | darkslategray | darkslategrey | darkturquoise | darkviolet | deeppink | deepskyblue | dimgray | dimgrey | dodgerblue | firebrick | floralwhite | forestgreen | fuchsia | gainsboro | ghostwhite | gold | goldenrod | gray | green | greenyellow | grey | honeydew | hotpink | indianred | indigo | ivory | khaki | lavender | lavenderblush | lawngreen | lemonchiffon | lightblue | lightcoral | lightcyan | lightgoldenrodyellow | lightgray | lightgreen | lightgrey | lightpink | lightsalmon | lightseagreen | lightskyblue | lightslategray | lightslategrey | lightsteelblue | lightyellow | lime | limegreen | linen | magenta | maroon | mediumaquamarine | mediumblue | mediumorchid | mediumpurple | mediumseagreen | mediumslateblue | mediumspringgreen | mediumturquoise | mediumvioletred | midnightblue | mintcream | mistyrose | moccasin | navajowhite | navy | oldlace | olive | olivedrab | orange | orangered | orchid | palegoldenrod | palegreen | paleturquoise | palevioletred | papayawhip | peachpuff | peru | pink | plum | powderblue | purple | rebeccapurple | red | rosybrown | royalblue | saddlebrown | salmon | sandybrown | seagreen | seashell | sienna | silver | skyblue | slateblue | slategray | slategrey | snow | springgreen | steelblue | tan | teal | thistle | tomato | transparent | turquoise | violet | wheat | white | whitesmoke | yellow | yellowgreen">&lt;color></a> is a component of a specified value, then
+     <p>If <a class="production css" data-link-type="type">&lt;color></a> is a component of a specified value, then
  return the color as follows:</p>
      <ol>
       <li>If the color was explicitly specified by the author, then return the original, author specified color value. 
       <li>Otherwise, return the value that would be returned if the color were a component of a computed value. 
      </ol>
      <p class="issue" id="issue-d69ea54c"><a class="self-link" href="#issue-d69ea54c"></a> Should author specified values be normalized for case, the same as computed values? Or should original case be preserved?</p>
-    <dt><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-color-3/#alphavalue-def" id="ref-for-alphavalue-def">&lt;alphavalue></a> 
+    <dt><a class="production css" data-link-type="type">&lt;alphavalue></a> 
     <dd>
       If the value is internally represented as an integer between 0 and 255 inclusive (i.e. 8-bit unsigned integer),
   follow these steps: 
@@ -3405,7 +3405,7 @@ Return the result.</p>
      </ol>
     <dt><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#string-value" id="ref-for-string-value">&lt;string></a> 
     <dt><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-fonts-4/#family-name-value" id="ref-for-family-name-value">&lt;family-name></a> 
-    <dt><a class="production css" data-link-type="type" href="https://www.w3.org/TR/CSS2/aural.html#value-def-specific-voice" id="ref-for-value-def-specific-voice">&lt;specific-voice></a> 
+    <dt><a class="production css" data-link-type="type">&lt;specific-voice></a> 
     <dd>The string <a data-link-type="dfn" href="#serialize-a-string" id="ref-for-serialize-a-string⑤">serialized as a string</a>. 
     <dt><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#time-value" id="ref-for-time-value" title="Expands to: ms | s">&lt;time></a> 
     <dd>The time in seconds serialized as per &lt;number> followed by
@@ -3512,7 +3512,7 @@ whose <a data-link-type="dfn" href="#cssstyledeclaration-owner-node" id="ref-for
 <pre class="idl highlight def"><a data-link-type="idl-name" href="https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement" id="ref-for-InterfaceSVGElement"><c- n>SVGElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle" id="ref-for-elementcssinlinestyle②"><c- n>ElementCSSInlineStyle</c-></a>;
 </pre>
    <p>If the user agent supports MathML, the following IDL applies: <a data-link-type="biblio" href="#biblio-mathml-core">[MathML-Core]</a></p>
-<pre class="idl highlight def"><a data-link-type="idl-name"><c- n>MathMLElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle" id="ref-for-elementcssinlinestyle③"><c- n>ElementCSSInlineStyle</c-></a>;
+<pre class="idl highlight def"><a data-link-type="idl-name" href="https://w3c.github.io/mathml-core/#dom-mathmlelement" id="ref-for-dom-mathmlelement"><c- n>MathMLElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle" id="ref-for-elementcssinlinestyle③"><c- n>ElementCSSInlineStyle</c-></a>;
 </pre>
    <h3 class="heading settled" data-level="7.2" id="extensions-to-the-window-interface"><span class="secno">7.2. </span><span class="content">Extensions to the <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/window-object.html#window" id="ref-for-window">Window</a></code> Interface</span><a class="self-link" href="#extensions-to-the-window-interface"></a></h3>
 <pre class="idl highlight def"><c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://html.spec.whatwg.org/multipage/window-object.html#window" id="ref-for-window①"><c- g>Window</c-></a> {
@@ -3543,8 +3543,8 @@ steps:</p>
     <li>
      If <var>pseudoElt</var> is provided, and it’s not the empty string, then: 
      <ol>
-      <li><a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar" id="ref-for-css-parse-something-according-to-a-css-grammar①">Parse</a> <var>pseudoElt</var> as a <a class="production css" data-link-type="type" href="https://drafts.csswg.org/selectors-4/#typedef-pseudo-element-selector" id="ref-for-typedef-pseudo-element-selector">&lt;pseudo-element-selector></a>, and let <var>type</var> be the result. 
-      <li>If <var>type</var> is failure, or is an <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-scoping-1/#selectordef-slotted" id="ref-for-selectordef-slotted">::slotted()</a> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shadow-parts-1/#selectordef-part" id="ref-for-selectordef-part">::part()</a> pseudo-element, <a data-link-type="dfn" href="http://heycam.github.io/webidl/#dfn-throw" id="ref-for-dfn-throw①③">throw</a> a <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#exceptiondef-typeerror" id="ref-for-exceptiondef-typeerror">TypeError</a></code> exception. 
+      <li><a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#css-parse-something-according-to-a-css-grammar" id="ref-for-css-parse-something-according-to-a-css-grammar①">Parse</a> <var>pseudoElt</var> as a <a class="production css" data-link-type="type" href="https://drafts.csswg.org/selectors/#typedef-pseudo-element-selector" id="ref-for-typedef-pseudo-element-selector">&lt;pseudo-element-selector></a>, and let <var>type</var> be the result. 
+      <li>If <var>type</var> is failure, or is an <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-scoping/#selectordef-slotted" id="ref-for-selectordef-slotted">::slotted()</a> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shadow-parts/#selectordef-part" id="ref-for-selectordef-part">::part()</a> pseudo-element, <a data-link-type="dfn" href="http://heycam.github.io/webidl/#dfn-throw" id="ref-for-dfn-throw①③">throw</a> a <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#exceptiondef-typeerror" id="ref-for-exceptiondef-typeerror">TypeError</a></code> exception. 
       <li>Otherwise let <var>obj</var> be the given pseudo-element of <var>elt</var>. 
      </ol>
      <p class="note" role="note"><span>Note:</span> CSS2 pseudo-elements should match both the double and single-colon
@@ -3552,11 +3552,11 @@ steps:</p>
   match above.</p>
     <li>Let <var>decls</var> be an empty list of <a data-link-type="dfn" href="#css-declaration" id="ref-for-css-declaration②⑨">CSS declarations</a>. 
     <li>
-     If <var>elt</var> is <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#connected" id="ref-for-connected">connected</a>, part of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping-1/#flat-tree" id="ref-for-flat-tree">flat tree</a>,
+     If <var>elt</var> is <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#connected" id="ref-for-connected">connected</a>, part of the <a data-link-type="dfn" href="https://drafts.csswg.org/css-scoping/#flat-tree" id="ref-for-flat-tree">flat tree</a>,
   and its <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-shadow-including-root" id="ref-for-concept-shadow-including-root">shadow-including root</a> has a <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#browsing-context" id="ref-for-browsing-context">browsing context</a> which either
   doesn’t have a <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#browsing-context-container" id="ref-for-browsing-context-container">browsing context container</a>, or whose <span id="ref-for-browsing-context-container①">browsing context container</span> is <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/rendering.html#being-rendered" id="ref-for-being-rendered">being rendered</a>,
   set <var>decls</var> to a list of all longhand properties that are <a data-link-type="dfn" href="#supported-css-property" id="ref-for-supported-css-property⑤">supported CSS properties</a>, in lexicographical order,
-  with the value being the <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value">resolved value</a> computed for <var>obj</var> using the style rules associated with <var>doc</var>. Additionally, append to <var>decls</var> all the <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables-1/#custom-property" id="ref-for-custom-property⑤">custom properties</a> whose <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#computed-value" id="ref-for-computed-value">computed value</a> for <var>obj</var> is not the <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables-1/#guaranteed-invalid-value" id="ref-for-guaranteed-invalid-value">guaranteed-invalid value</a>. 
+  with the value being the <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value">resolved value</a> computed for <var>obj</var> using the style rules associated with <var>doc</var>. Additionally, append to <var>decls</var> all the <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables/#custom-property" id="ref-for-custom-property⑤">custom properties</a> whose <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#computed-value" id="ref-for-computed-value">computed value</a> for <var>obj</var> is not the <a data-link-type="dfn" href="https://drafts.csswg.org/css-variables/#guaranteed-invalid-value" id="ref-for-guaranteed-invalid-value">guaranteed-invalid value</a>. 
      <p class="issue" id="issue-28428295"><a class="self-link" href="#issue-28428295"></a> There are UAs that handle shorthands, and all UAs handle shorthands
   that used to be longhands like <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-overflow-3/#propdef-overflow" id="ref-for-propdef-overflow">overflow</a>, see <a href="https://github.com/w3c/csswg-drafts/issues/2529">#2529</a>.</p>
      <p class="issue" id="issue-0b704bc1"><a class="self-link" href="#issue-0b704bc1"></a> Order of custom properties is currently undefined, see <a href="https://github.com/w3c/csswg-drafts/issues/4947">#4947</a>.</p>
@@ -3630,23 +3630,23 @@ issue this specification introduces the concept of a <dfn class="dfn-paneled" da
    <p>The <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value①">resolved value</a> for a given longhand property can be determined
 as follows:</p>
    <dl class="switch">
-    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color" id="ref-for-propdef-background-color">background-color</a> 
+    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-background-color" id="ref-for-propdef-background-color">background-color</a> 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-logical-1/#propdef-border-block-end-color" id="ref-for-propdef-border-block-end-color">border-block-end-color</a> 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-logical-1/#propdef-border-block-start-color" id="ref-for-propdef-border-block-start-color">border-block-start-color</a> 
-    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-bottom-color" id="ref-for-propdef-border-bottom-color">border-bottom-color</a> 
+    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-border-bottom-color" id="ref-for-propdef-border-bottom-color">border-bottom-color</a> 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-logical-1/#propdef-border-inline-end-color" id="ref-for-propdef-border-inline-end-color">border-inline-end-color</a> 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-logical-1/#propdef-border-inline-start-color" id="ref-for-propdef-border-inline-start-color">border-inline-start-color</a> 
-    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-left-color" id="ref-for-propdef-border-left-color">border-left-color</a> 
-    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-right-color" id="ref-for-propdef-border-right-color">border-right-color</a> 
-    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top-color" id="ref-for-propdef-border-top-color">border-top-color</a> 
-    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow" id="ref-for-propdef-box-shadow">box-shadow</a> 
+    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-border-left-color" id="ref-for-propdef-border-left-color">border-left-color</a> 
+    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-border-right-color" id="ref-for-propdef-border-right-color">border-right-color</a> 
+    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-border-top-color" id="ref-for-propdef-border-top-color">border-top-color</a> 
+    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-box-shadow" id="ref-for-propdef-box-shadow">box-shadow</a> 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-ui-4/#propdef-caret-color" id="ref-for-propdef-caret-color">caret-color</a> 
-    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color">color</a> 
+    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color/#propdef-color" id="ref-for-propdef-color">color</a> 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-ui-4/#propdef-outline-color" id="ref-for-propdef-outline-color">outline-color</a> 
-    <dt>A <dfn data-dfn-type="dfn" data-export id="resolved-value-special-case-property-like-color">resolved value special case property like <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color①">color</a><a class="self-link" href="#resolved-value-special-case-property-like-color"></a></dfn> defined in another specification 
-    <dd>The <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value②">resolved value</a> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#used-value" id="ref-for-used-value">used value</a>. 
-    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height">line-height</a> 
-    <dd>The <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value③">resolved value</a> is <a class="property" data-link-type="propdesc">normal</a> if the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#computed-value" id="ref-for-computed-value①">computed value</a> is <span class="property">normal</span>, or the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#used-value" id="ref-for-used-value①">used value</a> otherwise. 
+    <dt>A <dfn data-dfn-type="dfn" data-export id="resolved-value-special-case-property-like-color">resolved value special case property like <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color/#propdef-color" id="ref-for-propdef-color①">color</a><a class="self-link" href="#resolved-value-special-case-property-like-color"></a></dfn> defined in another specification 
+    <dd>The <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value②">resolved value</a> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#used-value" id="ref-for-used-value">used value</a>. 
+    <dt><a class="property" data-link-type="propdesc">line-height</a> 
+    <dd>The <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value③">resolved value</a> is <a class="property" data-link-type="propdesc">normal</a> if the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#computed-value" id="ref-for-computed-value①">computed value</a> is <span class="property">normal</span>, or the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#used-value" id="ref-for-used-value①">used value</a> otherwise. 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-logical-1/#propdef-block-size" id="ref-for-propdef-block-size">block-size</a> 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-sizing-3/#propdef-height" id="ref-for-propdef-height">height</a> 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-logical-1/#propdef-inline-size" id="ref-for-propdef-inline-size">inline-size</a> 
@@ -3668,22 +3668,22 @@ as follows:</p>
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-box-4/#propdef-padding-top" id="ref-for-propdef-padding-top">padding-top</a> 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-sizing-3/#propdef-width" id="ref-for-propdef-width">width</a> 
     <dt>A <dfn data-dfn-type="dfn" data-export id="resolved-value-special-case-property-like-height">resolved value special case property like <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-sizing-3/#propdef-height" id="ref-for-propdef-height①">height</a><a class="self-link" href="#resolved-value-special-case-property-like-height"></a></dfn> defined in another specification 
-    <dd>If the property applies to the element or pseudo-element and the <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value④">resolved value</a> of the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-display-3/#propdef-display" id="ref-for-propdef-display">display</a> property is not <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display-3/#valdef-display-none" id="ref-for-valdef-display-none">none</a> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display-3/#valdef-display-contents" id="ref-for-valdef-display-contents">contents</a>, then the <span id="ref-for-resolved-value⑤">resolved value</span> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#used-value" id="ref-for-used-value②">used value</a>. Otherwise the <span id="ref-for-resolved-value⑥">resolved value</span> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#computed-value" id="ref-for-computed-value②">computed value</a>. 
-    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position-3/#propdef-bottom" id="ref-for-propdef-bottom">bottom</a> 
-    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position-3/#propdef-left" id="ref-for-propdef-left">left</a> 
+    <dd>If the property applies to the element or pseudo-element and the <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value④">resolved value</a> of the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-display/#propdef-display" id="ref-for-propdef-display">display</a> property is not <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display/#valdef-display-none" id="ref-for-valdef-display-none">none</a> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display/#valdef-display-contents" id="ref-for-valdef-display-contents">contents</a>, then the <span id="ref-for-resolved-value⑤">resolved value</span> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#used-value" id="ref-for-used-value②">used value</a>. Otherwise the <span id="ref-for-resolved-value⑥">resolved value</span> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#computed-value" id="ref-for-computed-value②">computed value</a>. 
+    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position/#propdef-bottom" id="ref-for-propdef-bottom">bottom</a> 
+    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position/#propdef-left" id="ref-for-propdef-left">left</a> 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-logical-1/#propdef-inset-block-end" id="ref-for-propdef-inset-block-end">inset-block-end</a> 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-logical-1/#propdef-inset-block-start" id="ref-for-propdef-inset-block-start">inset-block-start</a> 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-logical-1/#propdef-inset-inline-end" id="ref-for-propdef-inset-inline-end">inset-inline-end</a> 
     <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-logical-1/#propdef-inset-inline-start" id="ref-for-propdef-inset-inline-start">inset-inline-start</a> 
-    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position-3/#propdef-right" id="ref-for-propdef-right">right</a> 
-    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position-3/#propdef-top" id="ref-for-propdef-top">top</a> 
-    <dt>A <dfn data-dfn-type="dfn" data-export id="resolved-value-special-case-property-like-top">resolved value special case property like <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position-3/#propdef-top" id="ref-for-propdef-top①">top</a><a class="self-link" href="#resolved-value-special-case-property-like-top"></a></dfn> defined in another specification 
-    <dd>If the property applies to a positioned element and the <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value⑦">resolved value</a> of the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-display-3/#propdef-display" id="ref-for-propdef-display①">display</a> property is not <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display-3/#valdef-display-none" id="ref-for-valdef-display-none①">none</a> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display-3/#valdef-display-contents" id="ref-for-valdef-display-contents①">contents</a>, and the property is not over-constrained,
- then the <span id="ref-for-resolved-value⑧">resolved value</span> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#used-value" id="ref-for-used-value③">used value</a>. Otherwise the <span id="ref-for-resolved-value⑨">resolved value</span> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#computed-value" id="ref-for-computed-value③">computed value</a>. 
+    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position/#propdef-right" id="ref-for-propdef-right">right</a> 
+    <dt><a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position/#propdef-top" id="ref-for-propdef-top">top</a> 
+    <dt>A <dfn data-dfn-type="dfn" data-export id="resolved-value-special-case-property-like-top">resolved value special case property like <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position/#propdef-top" id="ref-for-propdef-top①">top</a><a class="self-link" href="#resolved-value-special-case-property-like-top"></a></dfn> defined in another specification 
+    <dd>If the property applies to a positioned element and the <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value⑦">resolved value</a> of the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-display/#propdef-display" id="ref-for-propdef-display①">display</a> property is not <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display/#valdef-display-none" id="ref-for-valdef-display-none①">none</a> or <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display/#valdef-display-contents" id="ref-for-valdef-display-contents①">contents</a>, and the property is not over-constrained,
+ then the <span id="ref-for-resolved-value⑧">resolved value</span> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#used-value" id="ref-for-used-value③">used value</a>. Otherwise the <span id="ref-for-resolved-value⑨">resolved value</span> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#computed-value" id="ref-for-computed-value③">computed value</a>. 
     <dt>A <dfn data-dfn-type="dfn" data-export id="resolved-value-special-case-property">resolved value special case property<a class="self-link" href="#resolved-value-special-case-property"></a></dfn> defined in another specification 
     <dd>As defined in the relevant specification. 
     <dt>Any other property 
-    <dd>The <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value①⓪">resolved value</a> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#computed-value" id="ref-for-computed-value④">computed value</a>. 
+    <dd>The <a data-link-type="dfn" href="#resolved-value" id="ref-for-resolved-value①⓪">resolved value</a> is the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#computed-value" id="ref-for-computed-value④">computed value</a>. 
    </dl>
    <h2 class="heading settled" data-level="10" id="iana-considerations"><span class="secno">10. </span><span class="content">IANA Considerations</span><a class="self-link" href="#iana-considerations"></a></h2>
    <h3 class="heading settled" data-level="10.1" id="default-style"><span class="secno">10.1. </span><span class="content">Default-Style</span><a class="self-link" href="#default-style"></a></h3>
@@ -3734,7 +3734,7 @@ removed.</p>
     <li data-md>
      <p>Serialization of :lang() is changed.</p>
     <li data-md>
-     <p>Serialization of <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-color-3/#valuea-def-color" id="ref-for-valuea-def-color②" title="Expands to: aliceblue | antiquewhite | aqua | aquamarine | azure | beige | bisque | black | blanchedalmond | blue | blueviolet | brown | burlywood | cadetblue | chartreuse | chocolate | coral | cornflowerblue | cornsilk | crimson | currentcolor | cyan | darkblue | darkcyan | darkgoldenrod | darkgray | darkgreen | darkgrey | darkkhaki | darkmagenta | darkolivegreen | darkorange | darkorchid | darkred | darksalmon | darkseagreen | darkslateblue | darkslategray | darkslategrey | darkturquoise | darkviolet | deeppink | deepskyblue | dimgray | dimgrey | dodgerblue | firebrick | floralwhite | forestgreen | fuchsia | gainsboro | ghostwhite | gold | goldenrod | gray | green | greenyellow | grey | honeydew | hotpink | indianred | indigo | ivory | khaki | lavender | lavenderblush | lawngreen | lemonchiffon | lightblue | lightcoral | lightcyan | lightgoldenrodyellow | lightgray | lightgreen | lightgrey | lightpink | lightsalmon | lightseagreen | lightskyblue | lightslategray | lightslategrey | lightsteelblue | lightyellow | lime | limegreen | linen | magenta | maroon | mediumaquamarine | mediumblue | mediumorchid | mediumpurple | mediumseagreen | mediumslateblue | mediumspringgreen | mediumturquoise | mediumvioletred | midnightblue | mintcream | mistyrose | moccasin | navajowhite | navy | oldlace | olive | olivedrab | orange | orangered | orchid | palegoldenrod | palegreen | paleturquoise | palevioletred | papayawhip | peachpuff | peru | pink | plum | powderblue | purple | rebeccapurple | red | rosybrown | royalblue | saddlebrown | salmon | sandybrown | seagreen | seashell | sienna | silver | skyblue | slateblue | slategray | slategrey | snow | springgreen | steelblue | tan | teal | thistle | tomato | transparent | turquoise | violet | wheat | white | whitesmoke | yellow | yellowgreen">&lt;color></a> and <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#number-value" id="ref-for-number-value①">&lt;number></a> is changed.</p>
+     <p>Serialization of <a class="production css" data-link-type="type">&lt;color></a> and <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#number-value" id="ref-for-number-value①">&lt;number></a> is changed.</p>
     <li data-md>
      <p><code class="idl"><a data-link-type="idl" href="#dom-cssstyledeclaration-setproperty" id="ref-for-dom-cssstyledeclaration-setproperty⑤">setProperty()</a></code> on <code class="idl"><a data-link-type="idl" href="#cssstyledeclaration" id="ref-for-cssstyledeclaration①⓪">CSSStyleDeclaration</a></code> is changed.</p>
     <li data-md>
@@ -4164,69 +4164,69 @@ initial version of the alternative style sheets API and canonicalization
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-csskeyframerule">
-   <a href="https://drafts.csswg.org/css-animations-1/#csskeyframerule">https://drafts.csswg.org/css-animations-1/#csskeyframerule</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-animations/#csskeyframerule">https://drafts.csswg.org/css-animations/#csskeyframerule</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-csskeyframerule">6.4. CSS Rules</a>
     <li><a href="#ref-for-csskeyframerule①">6.4.2. The CSSRule Interface</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-csskeyframesrule">
-   <a href="https://drafts.csswg.org/css-animations-1/#csskeyframesrule">https://drafts.csswg.org/css-animations-1/#csskeyframesrule</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-animations/#csskeyframesrule">https://drafts.csswg.org/css-animations/#csskeyframesrule</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-csskeyframesrule">6.4. CSS Rules</a>
     <li><a href="#ref-for-csskeyframesrule①">6.4.2. The CSSRule Interface</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-dom-csskeyframesrule-cssrules">
-   <a href="https://drafts.csswg.org/css-animations-1/#dom-csskeyframesrule-cssrules">https://drafts.csswg.org/css-animations-1/#dom-csskeyframesrule-cssrules</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-animations/#dom-csskeyframesrule-cssrules">https://drafts.csswg.org/css-animations/#dom-csskeyframesrule-cssrules</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dom-csskeyframesrule-cssrules">6.4. CSS Rules</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-dom-csskeyframerule-keytext">
-   <a href="https://drafts.csswg.org/css-animations-1/#dom-csskeyframerule-keytext">https://drafts.csswg.org/css-animations-1/#dom-csskeyframerule-keytext</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-animations/#dom-csskeyframerule-keytext">https://drafts.csswg.org/css-animations/#dom-csskeyframerule-keytext</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dom-csskeyframerule-keytext">6.4. CSS Rules</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-dom-csskeyframesrule-name">
-   <a href="https://drafts.csswg.org/css-animations-1/#dom-csskeyframesrule-name">https://drafts.csswg.org/css-animations-1/#dom-csskeyframesrule-name</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-animations/#dom-csskeyframesrule-name">https://drafts.csswg.org/css-animations/#dom-csskeyframesrule-name</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dom-csskeyframesrule-name">6.4. CSS Rules</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-background-color">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color">https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#propdef-background-color">https://drafts.csswg.org/css-backgrounds/#propdef-background-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-background-color">9. Resolved Values</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-bottom-color">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-bottom-color">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-bottom-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#propdef-border-bottom-color">https://drafts.csswg.org/css-backgrounds/#propdef-border-bottom-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-bottom-color">9. Resolved Values</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-left-color">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-left-color">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-left-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#propdef-border-left-color">https://drafts.csswg.org/css-backgrounds/#propdef-border-left-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-left-color">9. Resolved Values</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-right-color">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-right-color">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-right-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#propdef-border-right-color">https://drafts.csswg.org/css-backgrounds/#propdef-border-right-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-right-color">9. Resolved Values</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-top-color">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top-color">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#propdef-border-top-color">https://drafts.csswg.org/css-backgrounds/#propdef-border-top-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-top-color">9. Resolved Values</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-box-shadow">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow">https://drafts.csswg.org/css-backgrounds-3/#propdef-box-shadow</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#propdef-box-shadow">https://drafts.csswg.org/css-backgrounds/#propdef-box-shadow</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-box-shadow">9. Resolved Values</a>
    </ul>
@@ -4280,71 +4280,52 @@ initial version of the alternative style sheets API and canonicalization
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-computed-value">
-   <a href="https://drafts.csswg.org/css-cascade-5/#computed-value">https://drafts.csswg.org/css-cascade-5/#computed-value</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-cascade/#computed-value">https://drafts.csswg.org/css-cascade/#computed-value</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-computed-value">7.2. Extensions to the Window Interface</a>
     <li><a href="#ref-for-computed-value①">9. Resolved Values</a> <a href="#ref-for-computed-value②">(2)</a> <a href="#ref-for-computed-value③">(3)</a> <a href="#ref-for-computed-value④">(4)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-used-value">
-   <a href="https://drafts.csswg.org/css-cascade-5/#used-value">https://drafts.csswg.org/css-cascade-5/#used-value</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-cascade/#used-value">https://drafts.csswg.org/css-cascade/#used-value</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-used-value">9. Resolved Values</a> <a href="#ref-for-used-value①">(2)</a> <a href="#ref-for-used-value②">(3)</a> <a href="#ref-for-used-value③">(4)</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-alphavalue-def">
-   <a href="https://drafts.csswg.org/css-color-3/#alphavalue-def">https://drafts.csswg.org/css-color-3/#alphavalue-def</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-alphavalue-def">6.7.2. Serializing CSS Values</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-valuea-def-color">
-   <a href="https://drafts.csswg.org/css-color-3/#valuea-def-color">https://drafts.csswg.org/css-color-3/#valuea-def-color</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-valuea-def-color">6.7.2. Serializing CSS Values</a> <a href="#ref-for-valuea-def-color①">(2)</a>
-    <li><a href="#ref-for-valuea-def-color②">11.1. Changes From 5 December 2013</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-color">
-   <a href="https://drafts.csswg.org/css-color-4/#propdef-color">https://drafts.csswg.org/css-color-4/#propdef-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-color/#propdef-color">https://drafts.csswg.org/css-color/#propdef-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-color">9. Resolved Values</a> <a href="#ref-for-propdef-color①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-csscounterstylerule">
-   <a href="https://drafts.csswg.org/css-counter-styles-3/#csscounterstylerule">https://drafts.csswg.org/css-counter-styles-3/#csscounterstylerule</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-counter-styles/#csscounterstylerule">https://drafts.csswg.org/css-counter-styles/#csscounterstylerule</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-csscounterstylerule">6.4.2. The CSSRule Interface</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-cssviewportrule">
-   <a href="https://drafts.csswg.org/css-device-adapt-1/#cssviewportrule">https://drafts.csswg.org/css-device-adapt-1/#cssviewportrule</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-device-adapt/#cssviewportrule">https://drafts.csswg.org/css-device-adapt/#cssviewportrule</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-cssviewportrule">6.4.2. The CSSRule Interface</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-display-contents">
-   <a href="https://drafts.csswg.org/css-display-3/#valdef-display-contents">https://drafts.csswg.org/css-display-3/#valdef-display-contents</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-display/#valdef-display-contents">https://drafts.csswg.org/css-display/#valdef-display-contents</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-display-contents">9. Resolved Values</a> <a href="#ref-for-valdef-display-contents①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-display">
-   <a href="https://drafts.csswg.org/css-display-3/#propdef-display">https://drafts.csswg.org/css-display-3/#propdef-display</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-display/#propdef-display">https://drafts.csswg.org/css-display/#propdef-display</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-display">9. Resolved Values</a> <a href="#ref-for-propdef-display①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-display-none">
-   <a href="https://drafts.csswg.org/css-display-3/#valdef-display-none">https://drafts.csswg.org/css-display-3/#valdef-display-none</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-display/#valdef-display-none">https://drafts.csswg.org/css-display/#valdef-display-none</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-display-none">9. Resolved Values</a> <a href="#ref-for-valdef-display-none①">(2)</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-propdef-font-size">
-   <a href="https://drafts.csswg.org/css-fonts-3/#propdef-font-size">https://drafts.csswg.org/css-fonts-3/#propdef-font-size</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-propdef-font-size">6.6.1. The CSSStyleDeclaration Interface</a> <a href="#ref-for-propdef-font-size①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-family-name-value">
@@ -4360,10 +4341,10 @@ initial version of the alternative style sheets API and canonicalization
     <li><a href="#ref-for-cssfontfacerule②">6.4.2. The CSSRule Interface</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-cssfontfeaturevaluesrule①">
-   <a href="https://drafts.csswg.org/css-fonts-4/#cssfontfeaturevaluesrule①">https://drafts.csswg.org/css-fonts-4/#cssfontfeaturevaluesrule①</a><b>Referenced in:</b>
+  <aside class="dfn-panel" data-for="term-for-cssfontfeaturevaluesrule%E2%91%A0">
+   <a href="https://drafts.csswg.org/css-fonts-4/#cssfontfeaturevaluesrule%E2%91%A0">https://drafts.csswg.org/css-fonts-4/#cssfontfeaturevaluesrule%E2%91%A0</a><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-cssfontfeaturevaluesrule①">6.4.2. The CSSRule Interface</a>
+    <li><a href="#ref-for-cssfontfeaturevaluesrule%25E2%2591%25A0">6.4.2. The CSSRule Interface</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-descdef-font-face-font-feature-settings">
@@ -4525,13 +4506,13 @@ initial version of the alternative style sheets API and canonicalization
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-default-namespace">
-   <a href="https://drafts.csswg.org/css-namespaces-3/#default-namespace">https://drafts.csswg.org/css-namespaces-3/#default-namespace</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-namespaces/#default-namespace">https://drafts.csswg.org/css-namespaces/#default-namespace</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-default-namespace">5.2. Serializing Selectors</a> <a href="#ref-for-default-namespace①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-namespace-prefix">
-   <a href="https://drafts.csswg.org/css-namespaces-3/#namespace-prefix">https://drafts.csswg.org/css-namespaces-3/#namespace-prefix</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-namespaces/#namespace-prefix">https://drafts.csswg.org/css-namespaces/#namespace-prefix</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-namespace-prefix">5.2. Serializing Selectors</a> <a href="#ref-for-namespace-prefix①">(2)</a> <a href="#ref-for-namespace-prefix②">(3)</a> <a href="#ref-for-namespace-prefix③">(4)</a> <a href="#ref-for-namespace-prefix④">(5)</a> <a href="#ref-for-namespace-prefix⑤">(6)</a>
    </ul>
@@ -4543,43 +4524,43 @@ initial version of the alternative style sheets API and canonicalization
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-bottom">
-   <a href="https://drafts.csswg.org/css-position-3/#propdef-bottom">https://drafts.csswg.org/css-position-3/#propdef-bottom</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-position/#propdef-bottom">https://drafts.csswg.org/css-position/#propdef-bottom</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-bottom">9. Resolved Values</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-left">
-   <a href="https://drafts.csswg.org/css-position-3/#propdef-left">https://drafts.csswg.org/css-position-3/#propdef-left</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-position/#propdef-left">https://drafts.csswg.org/css-position/#propdef-left</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-left">9. Resolved Values</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-right">
-   <a href="https://drafts.csswg.org/css-position-3/#propdef-right">https://drafts.csswg.org/css-position-3/#propdef-right</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-position/#propdef-right">https://drafts.csswg.org/css-position/#propdef-right</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-right">9. Resolved Values</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-top">
-   <a href="https://drafts.csswg.org/css-position-3/#propdef-top">https://drafts.csswg.org/css-position-3/#propdef-top</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-position/#propdef-top">https://drafts.csswg.org/css-position/#propdef-top</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-top">9. Resolved Values</a> <a href="#ref-for-propdef-top①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-selectordef-slotted">
-   <a href="https://drafts.csswg.org/css-scoping-1/#selectordef-slotted">https://drafts.csswg.org/css-scoping-1/#selectordef-slotted</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-scoping/#selectordef-slotted">https://drafts.csswg.org/css-scoping/#selectordef-slotted</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-selectordef-slotted">7.2. Extensions to the Window Interface</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-flat-tree">
-   <a href="https://drafts.csswg.org/css-scoping-1/#flat-tree">https://drafts.csswg.org/css-scoping-1/#flat-tree</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-scoping/#flat-tree">https://drafts.csswg.org/css-scoping/#flat-tree</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-flat-tree">7.2. Extensions to the Window Interface</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-selectordef-part">
-   <a href="https://drafts.csswg.org/css-shadow-parts-1/#selectordef-part">https://drafts.csswg.org/css-shadow-parts-1/#selectordef-part</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shadow-parts/#selectordef-part">https://drafts.csswg.org/css-shadow-parts/#selectordef-part</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-selectordef-part">7.2. Extensions to the Window Interface</a>
    </ul>
@@ -4688,7 +4669,7 @@ initial version of the alternative style sheets API and canonicalization
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-custom-property">
-   <a href="https://drafts.csswg.org/css-variables-1/#custom-property">https://drafts.csswg.org/css-variables-1/#custom-property</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-variables/#custom-property">https://drafts.csswg.org/css-variables/#custom-property</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-custom-property">2. Terminology</a>
     <li><a href="#ref-for-custom-property①">6.6.1. The CSSStyleDeclaration Interface</a> <a href="#ref-for-custom-property②">(2)</a> <a href="#ref-for-custom-property③">(3)</a> <a href="#ref-for-custom-property④">(4)</a>
@@ -4696,7 +4677,7 @@ initial version of the alternative style sheets API and canonicalization
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-guaranteed-invalid-value">
-   <a href="https://drafts.csswg.org/css-variables-1/#guaranteed-invalid-value">https://drafts.csswg.org/css-variables-1/#guaranteed-invalid-value</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-variables/#guaranteed-invalid-value">https://drafts.csswg.org/css-variables/#guaranteed-invalid-value</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-guaranteed-invalid-value">7.2. Extensions to the Window Interface</a>
    </ul>
@@ -4711,18 +4692,6 @@ initial version of the alternative style sheets API and canonicalization
    <a href="https://drafts.csswg.org/css2/#value-def-shape">https://drafts.csswg.org/css2/#value-def-shape</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-value-def-shape">6.7.2. Serializing CSS Values</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-value-def-specific-voice">
-   <a href="https://www.w3.org/TR/CSS2/aural.html#value-def-specific-voice">https://www.w3.org/TR/CSS2/aural.html#value-def-specific-voice</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-value-def-specific-voice">6.7.2. Serializing CSS Values</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-propdef-line-height">
-   <a href="https://drafts.csswg.org/css2/#propdef-line-height">https://drafts.csswg.org/css2/#propdef-line-height</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-propdef-line-height">9. Resolved Values</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-cssmediarule">
@@ -4740,44 +4709,44 @@ initial version of the alternative style sheets API and canonicalization
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-typedef-whitespace-token">
-   <a href="https://drafts.csswg.org/css-syntax-3/#typedef-whitespace-token">https://drafts.csswg.org/css-syntax-3/#typedef-whitespace-token</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#typedef-whitespace-token">https://drafts.csswg.org/css-syntax/#typedef-whitespace-token</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-typedef-whitespace-token">6.7.2. Serializing CSS Values</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-environment-encoding">
-   <a href="https://drafts.csswg.org/css-syntax-3/#environment-encoding">https://drafts.csswg.org/css-syntax-3/#environment-encoding</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#environment-encoding">https://drafts.csswg.org/css-syntax/#environment-encoding</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-environment-encoding">6.3.4. Requirements on user agents Implementing the xml-stylesheet processing instruction</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-css-parse-something-according-to-a-css-grammar">
-   <a href="https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar">https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#css-parse-something-according-to-a-css-grammar">https://drafts.csswg.org/css-syntax/#css-parse-something-according-to-a-css-grammar</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-css-parse-something-according-to-a-css-grammar">6.7.2. Serializing CSS Values</a>
     <li><a href="#ref-for-css-parse-something-according-to-a-css-grammar①">7.2. Extensions to the Window Interface</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-parse-a-list-of-component-values">
-   <a href="https://drafts.csswg.org/css-syntax-3/#parse-a-list-of-component-values">https://drafts.csswg.org/css-syntax-3/#parse-a-list-of-component-values</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#parse-a-list-of-component-values">https://drafts.csswg.org/css-syntax/#parse-a-list-of-component-values</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-parse-a-list-of-component-values">6.7.1. Parsing CSS Values</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-parse-a-list-of-declarations">
-   <a href="https://drafts.csswg.org/css-syntax-3/#parse-a-list-of-declarations">https://drafts.csswg.org/css-syntax-3/#parse-a-list-of-declarations</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#parse-a-list-of-declarations">https://drafts.csswg.org/css-syntax/#parse-a-list-of-declarations</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-parse-a-list-of-declarations">6.6. CSS Declaration Blocks</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-parse-a-rule">
-   <a href="https://drafts.csswg.org/css-syntax-3/#parse-a-rule">https://drafts.csswg.org/css-syntax-3/#parse-a-rule</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#parse-a-rule">https://drafts.csswg.org/css-syntax/#parse-a-rule</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-parse-a-rule">6.4. CSS Rules</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-serialize-an-anb-value">
-   <a href="https://drafts.csswg.org/css-syntax-3/#serialize-an-anb-value">https://drafts.csswg.org/css-syntax-3/#serialize-an-anb-value</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#serialize-an-anb-value">https://drafts.csswg.org/css-syntax/#serialize-an-anb-value</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-serialize-an-anb-value">5.2. Serializing Selectors</a>
    </ul>
@@ -5009,6 +4978,13 @@ The ElementCSSInlineStyle Mixin</a>
     <li><a href="#ref-for-surrogate">3. CSSOMString</a> <a href="#ref-for-surrogate①">(2)</a>
    </ul>
   </aside>
+  <aside class="dfn-panel" data-for="term-for-dom-mathmlelement">
+   <a href="https://w3c.github.io/mathml-core/#dom-mathmlelement">https://w3c.github.io/mathml-core/#dom-mathmlelement</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-dom-mathmlelement">7.1. 
+The ElementCSSInlineStyle Mixin</a>
+   </ul>
+  </aside>
   <aside class="dfn-panel" data-for="term-for-descdef-media-aspect-ratio">
    <a href="https://drafts.csswg.org/mediaqueries-4/#descdef-media-aspect-ratio">https://drafts.csswg.org/mediaqueries-4/#descdef-media-aspect-ratio</a><b>Referenced in:</b>
    <ul>
@@ -5125,38 +5101,26 @@ The ElementCSSInlineStyle Mixin</a>
     <li><a href="#ref-for-media-type">4.2. Serializing Media Queries</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-sel-after">
-   <a href="https://drafts.csswg.org/selectors-3/#sel-after">https://drafts.csswg.org/selectors-3/#sel-after</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-sel-after">2. Terminology</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-sel-before">
-   <a href="https://drafts.csswg.org/selectors-3/#sel-before">https://drafts.csswg.org/selectors-3/#sel-before</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-sel-before">2. Terminology</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-typedef-pseudo-element-selector">
-   <a href="https://drafts.csswg.org/selectors-4/#typedef-pseudo-element-selector">https://drafts.csswg.org/selectors-4/#typedef-pseudo-element-selector</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/selectors/#typedef-pseudo-element-selector">https://drafts.csswg.org/selectors/#typedef-pseudo-element-selector</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-typedef-pseudo-element-selector">7.2. Extensions to the Window Interface</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-compound">
-   <a href="https://drafts.csswg.org/selectors-4/#compound">https://drafts.csswg.org/selectors-4/#compound</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/selectors/#compound">https://drafts.csswg.org/selectors/#compound</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-compound">5.2. Serializing Selectors</a> <a href="#ref-for-compound①">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-simple">
-   <a href="https://drafts.csswg.org/selectors-4/#simple">https://drafts.csswg.org/selectors-4/#simple</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/selectors/#simple">https://drafts.csswg.org/selectors/#simple</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-simple">5.2. Serializing Selectors</a> <a href="#ref-for-simple①">(2)</a> <a href="#ref-for-simple②">(3)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-universal-selector">
-   <a href="https://drafts.csswg.org/selectors-4/#universal-selector">https://drafts.csswg.org/selectors-4/#universal-selector</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/selectors/#universal-selector">https://drafts.csswg.org/selectors/#universal-selector</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-universal-selector">5.2. Serializing Selectors</a> <a href="#ref-for-universal-selector①">(2)</a>
    </ul>
@@ -5372,16 +5336,10 @@ The ElementCSSInlineStyle Mixin</a>
      <li><span class="dfn-paneled" id="term-for-propdef-padding-top">padding-top</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[css-cascade-5]</a> defines the following terms:
+    <a data-link-type="biblio">[css-cascade-4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-computed-value">computed value</span>
      <li><span class="dfn-paneled" id="term-for-used-value">used value</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[css-color-3]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="term-for-alphavalue-def">&lt;alphavalue></span>
-     <li><span class="dfn-paneled" id="term-for-valuea-def-color">&lt;color></span>
     </ul>
    <li>
     <a data-link-type="biblio">[css-color-4]</a> defines the following terms:
@@ -5406,16 +5364,11 @@ The ElementCSSInlineStyle Mixin</a>
      <li><span class="dfn-paneled" id="term-for-valdef-display-none">none</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[css-fonts-3]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="term-for-propdef-font-size">font-size</span>
-    </ul>
-   <li>
     <a data-link-type="biblio">[css-fonts-4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-family-name-value">&lt;family-name></span>
      <li><span class="dfn-paneled" id="term-for-cssfontfacerule">CSSFontFaceRule</span>
-     <li><span class="dfn-paneled" id="term-for-cssfontfeaturevaluesrule①">CSSFontFeatureValuesRule</span>
+     <li><span class="dfn-paneled" id="term-for-cssfontfeaturevaluesrule%E2%91%A0">CSSFontFeatureValuesRule</span>
      <li><span class="dfn-paneled" id="term-for-descdef-font-face-font-feature-settings">font-feature-settings</span>
      <li><span class="dfn-paneled" id="term-for-descdef-font-face-font-stretch">font-stretch</span>
      <li><span class="dfn-paneled" id="term-for-descdef-font-face-font-style">font-style</span>
@@ -5525,8 +5478,6 @@ The ElementCSSInlineStyle Mixin</a>
     <ul>
      <li><span class="dfn-paneled" id="term-for-value-def-identifier">&lt;identifier></span>
      <li><span class="dfn-paneled" id="term-for-value-def-shape">&lt;shape></span>
-     <li><span class="dfn-paneled" id="term-for-value-def-specific-voice">&lt;specific-voice></span>
-     <li><span class="dfn-paneled" id="term-for-propdef-line-height">line-height</span>
     </ul>
    <li>
     <a data-link-type="biblio">[CSS3-CONDITIONAL]</a> defines the following terms:
@@ -5597,6 +5548,11 @@ The ElementCSSInlineStyle Mixin</a>
      <li><span class="dfn-paneled" id="term-for-surrogate">surrogate</span>
     </ul>
    <li>
+    <a data-link-type="biblio">[MathML-Core]</a> defines the following terms:
+    <ul>
+     <li><span class="dfn-paneled" id="term-for-dom-mathmlelement">MathMLElement</span>
+    </ul>
+   <li>
     <a data-link-type="biblio">[MEDIAQUERIES]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-descdef-media-aspect-ratio">aspect-ratio</span>
@@ -5624,12 +5580,6 @@ The ElementCSSInlineStyle Mixin</a>
      <li><span class="dfn-paneled" id="term-for-media-type">media type</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[selectors-3]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="term-for-sel-after">::after</span>
-     <li><span class="dfn-paneled" id="term-for-sel-before">::before</span>
-    </ul>
-   <li>
     <a data-link-type="biblio">[selectors-4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-typedef-pseudo-element-selector">&lt;pseudo-element-selector></span>
@@ -5648,7 +5598,7 @@ The ElementCSSInlineStyle Mixin</a>
      <li><span class="dfn-paneled" id="term-for-absolute-url-string">absolute-url string</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[WebIDL]</a> defines the following terms:
+    <a data-link-type="biblio">[WebIDL-20161215]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-idl-DOMString">DOMString</span>
      <li><span class="dfn-paneled" id="term-for-Exposed">Exposed</span>
@@ -5680,10 +5630,8 @@ The ElementCSSInlineStyle Mixin</a>
    <dd>Bert Bos; Elika Etemad; Brad Kemper. <a href="https://www.w3.org/TR/css-backgrounds-3/">CSS Backgrounds and Borders Module Level 3</a>. 22 December 2020. CR. URL: <a href="https://www.w3.org/TR/css-backgrounds-3/">https://www.w3.org/TR/css-backgrounds-3/</a>
    <dt id="biblio-css-box-4">[CSS-BOX-4]
    <dd>Elika Etemad. <a href="https://www.w3.org/TR/css-box-4/">CSS Box Model Module Level 4</a>. 21 April 2020. WD. URL: <a href="https://www.w3.org/TR/css-box-4/">https://www.w3.org/TR/css-box-4/</a>
-   <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
-   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-5/">CSS Cascading and Inheritance Level 5</a>. 8 June 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-5/">https://www.w3.org/TR/css-cascade-5/</a>
-   <dt id="biblio-css-color-3">[CSS-COLOR-3]
-   <dd>Tantek Çelik; Chris Lilley; David Baron. <a href="https://www.w3.org/TR/css-color-3/">CSS Color Module Level 3</a>. 19 June 2018. REC. URL: <a href="https://www.w3.org/TR/css-color-3/">https://www.w3.org/TR/css-color-3/</a>
+   <dt id="biblio-css-cascade-4">[CSS-CASCADE-4]
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-4/">CSS Cascading and Inheritance Level 4</a>. 19 March 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-4/">https://www.w3.org/TR/css-cascade-4/</a>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
    <dd>Tab Atkins Jr.; Chris Lilley. <a href="https://www.w3.org/TR/css-color-4/">CSS Color Module Level 4</a>. 1 June 2021. WD. URL: <a href="https://www.w3.org/TR/css-color-4/">https://www.w3.org/TR/css-color-4/</a>
    <dt id="biblio-css-counter-styles-3">[CSS-COUNTER-STYLES-3]
@@ -5738,22 +5686,22 @@ The ElementCSSInlineStyle Mixin</a>
    <dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/">HTML Standard</a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    <dt id="biblio-infra">[INFRA]
    <dd>Anne van Kesteren; Domenic Denicola. <a href="https://infra.spec.whatwg.org/">Infra Standard</a>. Living Standard. URL: <a href="https://infra.spec.whatwg.org/">https://infra.spec.whatwg.org/</a>
+   <dt id="biblio-mathml-core">[MathML-Core]
+   <dd>David Carlisle; Frédéric Wang. <a href="https://w3c.github.io/mathml-core/">MathML Core</a>. 2021. ED. URL: <a href="https://w3c.github.io/mathml-core/">https://w3c.github.io/mathml-core/</a>
    <dt id="biblio-mediaqueries">[MEDIAQUERIES]
    <dd>Florian Rivoal; Tab Atkins Jr.. <a href="https://www.w3.org/TR/mediaqueries-4/">Media Queries Level 4</a>. 21 July 2020. CR. URL: <a href="https://www.w3.org/TR/mediaqueries-4/">https://www.w3.org/TR/mediaqueries-4/</a>
    <dt id="biblio-mediaqueries-5">[MEDIAQUERIES-5]
    <dd>Dean Jackson; Florian Rivoal; Tab Atkins Jr.. <a href="https://www.w3.org/TR/mediaqueries-5/">Media Queries Level 5</a>. 31 July 2020. WD. URL: <a href="https://www.w3.org/TR/mediaqueries-5/">https://www.w3.org/TR/mediaqueries-5/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://tools.ietf.org/html/rfc2119">Key words for use in RFCs to Indicate Requirement Levels</a>. March 1997. Best Current Practice. URL: <a href="https://tools.ietf.org/html/rfc2119">https://tools.ietf.org/html/rfc2119</a>
-   <dt id="biblio-selectors-3">[SELECTORS-3]
-   <dd>Tantek Çelik; et al. <a href="https://www.w3.org/TR/selectors-3/">Selectors Level 3</a>. 6 November 2018. REC. URL: <a href="https://www.w3.org/TR/selectors-3/">https://www.w3.org/TR/selectors-3/</a>
    <dt id="biblio-selectors-4">[SELECTORS-4]
    <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://www.w3.org/TR/selectors-4/">Selectors Level 4</a>. 21 November 2018. WD. URL: <a href="https://www.w3.org/TR/selectors-4/">https://www.w3.org/TR/selectors-4/</a>
    <dt id="biblio-svg2">[SVG2]
    <dd>Amelia Bellamy-Royds; et al. <a href="https://www.w3.org/TR/SVG2/">Scalable Vector Graphics (SVG) 2</a>. 4 October 2018. CR. URL: <a href="https://www.w3.org/TR/SVG2/">https://www.w3.org/TR/SVG2/</a>
    <dt id="biblio-url">[URL]
    <dd>Anne van Kesteren. <a href="https://url.spec.whatwg.org/">URL Standard</a>. Living Standard. URL: <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
-   <dt id="biblio-webidl">[WebIDL]
-   <dd>Boris Zbarsky. <a href="https://heycam.github.io/webidl/">Web IDL</a>. 15 December 2016. ED. URL: <a href="https://heycam.github.io/webidl/">https://heycam.github.io/webidl/</a>
+   <dt id="biblio-webidl-20161215">[WebIDL-20161215]
+   <dd>Cameron McCormack. <a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">WebIDL Level 1</a>. 15 December 2016. REC. URL: <a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/</a>
    <dt id="biblio-xml">[XML]
    <dd>Tim Bray; et al. <a href="https://www.w3.org/TR/xml/">Extensible Markup Language (XML) 1.0 (Fifth Edition)</a>. 26 November 2008. REC. URL: <a href="https://www.w3.org/TR/xml/">https://www.w3.org/TR/xml/</a>
    <dt id="biblio-xml-stylesheet">[XML-STYLESHEET]
@@ -5763,10 +5711,6 @@ The ElementCSSInlineStyle Mixin</a>
   <dl>
    <dt id="biblio-compat">[COMPAT]
    <dd>Mike Taylor. <a href="https://compat.spec.whatwg.org/">Compatibility Standard</a>. Living Standard. URL: <a href="https://compat.spec.whatwg.org/">https://compat.spec.whatwg.org/</a>
-   <dt id="biblio-css-fonts-3">[CSS-FONTS-3]
-   <dd>John Daggett; Myles Maxfield; Chris Lilley. <a href="https://www.w3.org/TR/css-fonts-3/">CSS Fonts Module Level 3</a>. 20 September 2018. REC. URL: <a href="https://www.w3.org/TR/css-fonts-3/">https://www.w3.org/TR/css-fonts-3/</a>
-   <dt id="biblio-mathml-core">[MathML-Core]
-   <dd>David Carlisle; Frédéric Wang. <a href="https://w3c.github.io/mathml-core/">MathML Core</a>. 2021. ED. URL: <a href="https://w3c.github.io/mathml-core/">https://w3c.github.io/mathml-core/</a>
    <dt id="biblio-svg11">[SVG11]
    <dd>Erik Dahlström; et al. <a href="https://www.w3.org/TR/SVG11/">Scalable Vector Graphics (SVG) 1.1 (Second Edition)</a>. 16 August 2011. REC. URL: <a href="https://www.w3.org/TR/SVG11/">https://www.w3.org/TR/SVG11/</a>
   </dl>
@@ -5903,7 +5847,7 @@ The ElementCSSInlineStyle Mixin</a>
 
 <a data-link-type="idl-name" href="https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement"><c- n>SVGElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle"><c- n>ElementCSSInlineStyle</c-></a>;
 
-<a data-link-type="idl-name"><c- n>MathMLElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle"><c- n>ElementCSSInlineStyle</c-></a>;
+<a data-link-type="idl-name" href="https://w3c.github.io/mathml-core/#dom-mathmlelement"><c- n>MathMLElement</c-></a> <c- b>includes</c-> <a data-link-type="idl-name" href="#elementcssinlinestyle"><c- n>ElementCSSInlineStyle</c-></a>;
 
 <c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://html.spec.whatwg.org/multipage/window-object.html#window"><c- g>Window</c-></a> {
   [<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#NewObject"><c- g>NewObject</c-></a>] <a data-link-type="idl-name" href="#cssstyledeclaration"><c- n>CSSStyleDeclaration</c-></a> <a class="idl-code" data-link-type="method" href="#dom-window-getcomputedstyle"><c- g>getComputedStyle</c-></a>(<a data-link-type="idl-name" href="https://dom.spec.whatwg.org/#element"><c- n>Element</c-></a> <a href="#dom-window-getcomputedstyle-elt-pseudoelt-elt"><code><c- g>elt</c-></code></a>, <c- b>optional</c-> <a data-link-type="idl-name" href="#cssomstring"><c- n>CSSOMString</c-></a>? <a href="#dom-window-getcomputedstyle-elt-pseudoelt-pseudoelt"><code><c- g>pseudoElt</c-></code></a>);

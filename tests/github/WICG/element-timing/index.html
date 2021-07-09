@@ -805,7 +805,7 @@ For example, developers could monitor the time it takes for a widget to show up 
 <c- b>interface</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="performanceelementtiming"><code class="highlight"><c- g>PerformanceElementTiming</c-></code></dfn> : <a data-link-type="idl-name" href="https://w3c.github.io/performance-timeline/#the-performanceentry-interface" id="ref-for-the-performanceentry-interface"><c- n>PerformanceEntry</c-></a> {
     <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://w3c.github.io/hr-time#dom-domhighrestimestamp" id="ref-for-dom-domhighrestimestamp"><c- n>DOMHighResTimeStamp</c-></a> <dfn class="dfn-paneled idl-code" data-dfn-for="PerformanceElementTiming" data-dfn-type="attribute" data-export data-readonly data-type="DOMHighResTimeStamp" id="dom-performanceelementtiming-rendertime"><code class="highlight"><c- g>renderTime</c-></code></dfn>;
     <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://w3c.github.io/hr-time#dom-domhighrestimestamp" id="ref-for-dom-domhighrestimestamp①"><c- n>DOMHighResTimeStamp</c-></a> <dfn class="dfn-paneled idl-code" data-dfn-for="PerformanceElementTiming" data-dfn-type="attribute" data-export data-readonly data-type="DOMHighResTimeStamp" id="dom-performanceelementtiming-loadtime"><code class="highlight"><c- g>loadTime</c-></code></dfn>;
-    <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.fxtf.org/geometry-1/#domrectreadonly" id="ref-for-domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <dfn class="dfn-paneled idl-code" data-dfn-for="PerformanceElementTiming" data-dfn-type="attribute" data-export data-readonly data-type="DOMRectReadOnly" id="dom-performanceelementtiming-intersectionrect"><code class="highlight"><c- g>intersectionRect</c-></code></dfn>;
+    <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.fxtf.org/geometry/#domrectreadonly" id="ref-for-domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <dfn class="dfn-paneled idl-code" data-dfn-for="PerformanceElementTiming" data-dfn-type="attribute" data-export data-readonly data-type="DOMRectReadOnly" id="dom-performanceelementtiming-intersectionrect"><code class="highlight"><c- g>intersectionRect</c-></code></dfn>;
     <c- b>readonly</c-> <c- b>attribute</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-DOMString" id="ref-for-idl-DOMString"><c- b>DOMString</c-></a> <dfn class="dfn-paneled idl-code" data-dfn-for="PerformanceElementTiming" data-dfn-type="attribute" data-export data-readonly data-type="DOMString" id="dom-performanceelementtiming-identifier"><code class="highlight"><c- g>identifier</c-></code></dfn>;
     <c- b>readonly</c-> <c- b>attribute</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long" id="ref-for-idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a> <dfn class="dfn-paneled idl-code" data-dfn-for="PerformanceElementTiming" data-dfn-type="attribute" data-export data-readonly data-type="unsigned long" id="dom-performanceelementtiming-naturalwidth"><code class="highlight"><c- g>naturalWidth</c-></code></dfn>;
     <c- b>readonly</c-> <c- b>attribute</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long" id="ref-for-idl-unsigned-long①"><c- b>unsigned</c-> <c- b>long</c-></a> <dfn class="dfn-paneled idl-code" data-dfn-for="PerformanceElementTiming" data-dfn-type="attribute" data-export data-readonly data-type="unsigned long" id="dom-performanceelementtiming-naturalheight"><code class="highlight"><c- g>naturalHeight</c-></code></dfn>;
@@ -1022,7 +1022,7 @@ When an <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.
      <li data-md>
       <p>If a <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#text" id="ref-for-text">Text</a></code> object <var>text</var> will not be painted due to the font face being in its <a data-link-type="dfn" href="https://drafts.csswg.org/css-fonts-4/#font-block-period" id="ref-for-font-block-period">font block period</a>, then it is not <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#set-append" id="ref-for-set-append">appended</a> to the <a data-link-type="dfn" href="#set-of-owned-text-nodes" id="ref-for-set-of-owned-text-nodes①">set of owned text nodes</a> of any <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#element" id="ref-for-element①②">Element</a></code>.</p>
      <li data-md>
-      <p>Otherwise, <var>text</var> is <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#set-append" id="ref-for-set-append①">appended</a> to the <a data-link-type="dfn" href="#set-of-owned-text-nodes" id="ref-for-set-of-owned-text-nodes②">set of owned text nodes</a> of the <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#element" id="ref-for-element①③">Element</a></code> which determines the <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-3/#containing-block" id="ref-for-containing-block">containing block</a> of <var>text</var>.</p>
+      <p>Otherwise, <var>text</var> is <a data-link-type="dfn" href="https://infra.spec.whatwg.org/#set-append" id="ref-for-set-append①">appended</a> to the <a data-link-type="dfn" href="#set-of-owned-text-nodes" id="ref-for-set-of-owned-text-nodes②">set of owned text nodes</a> of the <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#element" id="ref-for-element①③">Element</a></code> which determines the <a data-link-type="dfn" href="https://drafts.csswg.org/css-display/#containing-block" id="ref-for-containing-block">containing block</a> of <var>text</var>.</p>
     </ul>
    </div>
    <p class="note" role="note"><span>NOTE:</span> A user agent might want to use a stack to efficiently compute the <a data-link-type="dfn" href="#set-of-owned-text-nodes" id="ref-for-set-of-owned-text-nodes③">set of owned text nodes</a> while implementing the <a data-link-type="dfn" href="https://drafts.csswg.org/css2/zindex.html#painting-order" id="ref-for-painting-order①">painting order</a>.</p>
@@ -1034,7 +1034,7 @@ So, for example, if there is a style with two URLs affecting all <code class="hi
 This means that a single <a data-link-type="dfn" href="https://drafts.csswg.org/css-backgrounds-3#propdef-background-image" id="ref-for-propdef-background-image③">background-image</a> property could produce multiple <code class="idl"><a data-link-type="idl" href="#performanceelementtiming" id="ref-for-performanceelementtiming④">PerformanceElementTiming</a></code> entries because it can affect multiple elements and because it can specify multiple URLs.</p>
    <h3 class="heading settled" data-level="3.3" id="sec-modifications-HTML"><span class="secno">3.3. </span><span class="content">Modifications to the HTML specification</span><a class="self-link" href="#sec-modifications-HTML"></a></h3>
    <p><em>This section will be removed once the <a data-link-type="biblio" href="#biblio-html">[HTML]</a> specification has been modified.</em></p>
-   <p>In the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#update-the-rendering" id="ref-for-update-the-rendering">update the rendering</a> step of the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#event-loop-processing-model" id="ref-for-event-loop-processing-model">event loop processing model</a>, add the following substep at the end:</p>
+   <p>In the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#update-the-rendering" id="ref-for-update-the-rendering">update the rendering</a> step of the <a data-link-type="dfn">event loop processing model</a>, add the following substep at the end:</p>
    <ol>
     <li data-md>
      <p>For each <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#fully-active" id="ref-for-fully-active">fully active</a> <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document③">Document</a></code> in <em>docs</em>, run the <a data-link-type="dfn" href="#element-timing-processing" id="ref-for-element-timing-processing">element timing processing</a> algorithm passing in the <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#document" id="ref-for-document④">Document</a></code> and <em>now</em>.</p>
@@ -1325,7 +1325,7 @@ This would unintentionally leak some of the display timing of the image.</p>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-containing-block">
-   <a href="https://drafts.csswg.org/css-display-3/#containing-block">https://drafts.csswg.org/css-display-3/#containing-block</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-display/#containing-block">https://drafts.csswg.org/css-display/#containing-block</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-containing-block">3.2. Modifications to the CSS specification</a>
    </ul>
@@ -1401,7 +1401,7 @@ This would unintentionally leak some of the display timing of the image.</p>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-domrectreadonly">
-   <a href="https://drafts.fxtf.org/geometry-1/#domrectreadonly">https://drafts.fxtf.org/geometry-1/#domrectreadonly</a><b>Referenced in:</b>
+   <a href="https://drafts.fxtf.org/geometry/#domrectreadonly">https://drafts.fxtf.org/geometry/#domrectreadonly</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-domrectreadonly">2.1. PerformanceElementTiming interface</a>
    </ul>
@@ -1454,12 +1454,6 @@ This would unintentionally leak some of the display timing of the image.</p>
    <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element">https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-the-div-element">3.2. Modifications to the CSS specification</a> <a href="#ref-for-the-div-element①">(2)</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-event-loop-processing-model">
-   <a href="https://html.spec.whatwg.org/multipage/webappapis.html#event-loop-processing-model">https://html.spec.whatwg.org/multipage/webappapis.html#event-loop-processing-model</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-event-loop-processing-model">3.3. Modifications to the HTML specification</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-fully-active">
@@ -1747,7 +1741,6 @@ This would unintentionally leak some of the display timing of the image.</p>
      <li><span class="dfn-paneled" id="term-for-window">Window</span>
      <li><span class="dfn-paneled" id="term-for-img-all">completely available</span>
      <li><span class="dfn-paneled" id="term-for-the-div-element">div</span>
-     <li><span class="dfn-paneled" id="term-for-event-loop-processing-model">event loop processing model</span>
      <li><span class="dfn-paneled" id="term-for-fully-active">fully active</span>
      <li><span class="dfn-paneled" id="term-for-image-request">image request</span>
      <li><span class="dfn-paneled" id="term-for-the-img-element">img</span>
@@ -1809,7 +1802,7 @@ This would unintentionally leak some of the display timing of the image.</p>
      <li><span class="dfn-paneled" id="term-for-concept-url-scheme">scheme</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[WebIDL]</a> defines the following terms:
+    <a data-link-type="biblio">[WebIDL-20161215]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-idl-DOMString">DOMString</span>
      <li><span class="dfn-paneled" id="term-for-Default">Default</span>
@@ -1851,8 +1844,8 @@ This would unintentionally leak some of the display timing of the image.</p>
    <dd>Amelia Bellamy-Royds; et al. <a href="https://www.w3.org/TR/SVG2/">Scalable Vector Graphics (SVG) 2</a>. 4 October 2018. CR. URL: <a href="https://www.w3.org/TR/SVG2/">https://www.w3.org/TR/SVG2/</a>
    <dt id="biblio-url">[URL]
    <dd>Anne van Kesteren. <a href="https://url.spec.whatwg.org/">URL Standard</a>. Living Standard. URL: <a href="https://url.spec.whatwg.org/">https://url.spec.whatwg.org/</a>
-   <dt id="biblio-webidl">[WebIDL]
-   <dd>Boris Zbarsky. <a href="https://heycam.github.io/webidl/">Web IDL</a>. 15 December 2016. ED. URL: <a href="https://heycam.github.io/webidl/">https://heycam.github.io/webidl/</a>
+   <dt id="biblio-webidl-20161215">[WebIDL-20161215]
+   <dd>Cameron McCormack. <a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">WebIDL Level 1</a>. 15 December 2016. REC. URL: <a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/</a>
   </dl>
   <h3 class="no-num no-ref heading settled" id="informative"><span class="content">Informative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
@@ -1864,7 +1857,7 @@ This would unintentionally leak some of the display timing of the image.</p>
 <c- b>interface</c-> <a href="#performanceelementtiming"><code class="highlight"><c- g>PerformanceElementTiming</c-></code></a> : <a data-link-type="idl-name" href="https://w3c.github.io/performance-timeline/#the-performanceentry-interface"><c- n>PerformanceEntry</c-></a> {
     <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://w3c.github.io/hr-time#dom-domhighrestimestamp"><c- n>DOMHighResTimeStamp</c-></a> <a data-readonly data-type="DOMHighResTimeStamp" href="#dom-performanceelementtiming-rendertime"><code class="highlight"><c- g>renderTime</c-></code></a>;
     <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://w3c.github.io/hr-time#dom-domhighrestimestamp"><c- n>DOMHighResTimeStamp</c-></a> <a data-readonly data-type="DOMHighResTimeStamp" href="#dom-performanceelementtiming-loadtime"><code class="highlight"><c- g>loadTime</c-></code></a>;
-    <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.fxtf.org/geometry-1/#domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <a data-readonly data-type="DOMRectReadOnly" href="#dom-performanceelementtiming-intersectionrect"><code class="highlight"><c- g>intersectionRect</c-></code></a>;
+    <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.fxtf.org/geometry/#domrectreadonly"><c- n>DOMRectReadOnly</c-></a> <a data-readonly data-type="DOMRectReadOnly" href="#dom-performanceelementtiming-intersectionrect"><code class="highlight"><c- g>intersectionRect</c-></code></a>;
     <c- b>readonly</c-> <c- b>attribute</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-DOMString"><c- b>DOMString</c-></a> <a data-readonly data-type="DOMString" href="#dom-performanceelementtiming-identifier"><code class="highlight"><c- g>identifier</c-></code></a>;
     <c- b>readonly</c-> <c- b>attribute</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a> <a data-readonly data-type="unsigned long" href="#dom-performanceelementtiming-naturalwidth"><code class="highlight"><c- g>naturalWidth</c-></code></a>;
     <c- b>readonly</c-> <c- b>attribute</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a> <a data-readonly data-type="unsigned long" href="#dom-performanceelementtiming-naturalheight"><code class="highlight"><c- g>naturalHeight</c-></code></a>;

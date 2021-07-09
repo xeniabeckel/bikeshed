@@ -1216,7 +1216,7 @@ font-family: "inherit", sans-serif;
    </div>
    <p>Font family <em>names</em> that happen to be the same as
     a <a class="property css" data-link-type="property" href="#propdef-font-family" id="ref-for-propdef-font-family①">font-family</a> keyword value
-    (e.g. <a data-link-type="dfn" href="https://drafts.csswg.org/css-values-4/#css-wide-keywords" id="ref-for-css-wide-keywords①">CSS-wide keywords</a> such as <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-cascade-5/#valdef-all-inherit" id="ref-for-valdef-all-inherit">inherit</a>, or <a class="production css" data-link-type="type" href="#generic-family-value" id="ref-for-generic-family-value⑦" title="Expands to: cursive | emoji | fangsong | fantasy | math | monospace | sans-serif | serif | system-ui | ui-monospace | ui-rounded | ui-sans-serif | ui-serif">&lt;generic-family></a> keywords such as <a class="css" data-link-type="maybe" href="#valdef-font-family-serif" id="ref-for-valdef-font-family-serif">serif</a>)
+    (e.g. <a data-link-type="dfn" href="https://drafts.csswg.org/css-values-4/#css-wide-keywords" id="ref-for-css-wide-keywords①">CSS-wide keywords</a> such as <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-cascade/#valdef-all-inherit" id="ref-for-valdef-all-inherit">inherit</a>, or <a class="production css" data-link-type="type" href="#generic-family-value" id="ref-for-generic-family-value⑦" title="Expands to: cursive | emoji | fangsong | fantasy | math | monospace | sans-serif | serif | system-ui | ui-monospace | ui-rounded | ui-sans-serif | ui-serif">&lt;generic-family></a> keywords such as <a class="css" data-link-type="maybe" href="#valdef-font-family-serif" id="ref-for-valdef-font-family-serif">serif</a>)
     must be quoted to prevent confusion
     with the keywords of the same names.
     UAs must not consider these keywords as matching the <a class="production css" data-link-type="type" href="#family-name-value" id="ref-for-family-name-value⑤">&lt;family-name></a> type.</p>
@@ -1561,7 +1561,7 @@ window.getComputedStyle(document.getElementById("system-text")).getPropertyValue
     <dd>
       Each number indicates a weight that is at least as dark as its predecessor.
             Only values greater than or equal to 1, and less than or equal to 1000, are valid,
-            and all other values are <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#css-invalid" id="ref-for-css-invalid">invalid</a>.
+            and all other values are <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#css-invalid" id="ref-for-css-invalid">invalid</a>.
             Numeric values typically correspond to the commonly used weight names below. 
      <ul>
       <li>100 - Thin 
@@ -1774,7 +1774,7 @@ window.getComputedStyle(document.getElementById("system-text")).getPropertyValue
    <p><dfn class="css" data-dfn-for="font-stretch" data-dfn-type="value" data-export id="valdef-font-stretch-percentage"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#percentage-value" id="ref-for-percentage-value①">&lt;percentage></a><a class="self-link" href="#valdef-font-stretch-percentage"></a></dfn> values represent the fractional width of the glyphs,
     with 100% representing “normal” glyph widths
     (as defined by the font designer).
-    Values less than 0% are <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#css-invalid" id="ref-for-css-invalid①">invalid</a>.</p>
+    Values less than 0% are <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#css-invalid" id="ref-for-css-invalid①">invalid</a>.</p>
    <p>When a face does not exist for a given width,
     values less than 100% map to a narrower face if one exists, otherwise a wider face.
     Conversely, values greater than or equal to 100% map to a wider face if one exists, otherwise a narrower face.
@@ -1794,7 +1794,7 @@ window.getComputedStyle(document.getElementById("system-text")).getPropertyValue
     </figure>
    </div>
    <p>User agents must not synthesize stretched faces for font families which lack actual stretched faces.</p>
-   <p><code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom-1/#dom-window-getcomputedstyle" id="ref-for-dom-window-getcomputedstyle">getComputedStyle()</a></code> always serializes its value as a <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#percentage-value" id="ref-for-percentage-value②">&lt;percentage></a>, regardless of how the value was specified by the author, or whether or not a keyword happens to map to the value.</p>
+   <p><code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom/#dom-window-getcomputedstyle" id="ref-for-dom-window-getcomputedstyle">getComputedStyle()</a></code> always serializes its value as a <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#percentage-value" id="ref-for-percentage-value②">&lt;percentage></a>, regardless of how the value was specified by the author, or whether or not a keyword happens to map to the value.</p>
    <h3 class="heading settled" data-level="2.4" id="font-style-prop"><span class="secno">2.4. </span><span class="content"> Font style: the <a class="property css" data-link-type="property" href="#propdef-font-style" id="ref-for-propdef-font-style①">font-style</a> property</span><a class="self-link" href="#font-style-prop"></a></h3>
    <div class="mdn-anno wrapped after">
     <button class="mdn-anno-btn"><b class="less-than-two-engines-flag" title="This feature is in less than two current engines.">⚠</b><span>MDN</span></button>
@@ -1882,7 +1882,7 @@ window.getComputedStyle(document.getElementById("system-text")).getPropertyValue
             (Note that a font might internally provide its own mapping for "oblique",
             but the mapping within the font is disregarded.)
             Fractional and negative values are accepted; however,
-            values less than -90deg or values greater than 90deg are <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#css-invalid" id="ref-for-css-invalid②">invalid</a>.
+            values less than -90deg or values greater than 90deg are <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#css-invalid" id="ref-for-css-invalid②">invalid</a>.
 			If no oblique faces exist,
 			and <a class="property" data-link-type="propdesc" href="#propdef-font-synthesis-style" id="ref-for-propdef-font-synthesis-style">font-synthesis-style</a> has the value auto,
 			a synthetic oblique face will be generated. 
@@ -1971,7 +1971,7 @@ window.getComputedStyle(document.getElementById("system-text")).getPropertyValue
       <td><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-font-size">font-size</dfn>
      <tr class="value">
       <th><a href="https://www.w3.org/TR/css-values/#value-defs">Value:</a>
-      <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-fonts-3/#absolute-size-value" id="ref-for-absolute-size-value">&lt;absolute-size></a> <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①⑥">|</a> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-fonts-3/#relative-size-value" id="ref-for-relative-size-value">&lt;relative-size></a> <span id="ref-for-comb-one①⑦">|</span> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#typedef-length-percentage" id="ref-for-typedef-length-percentage">&lt;length-percentage></a> 
+      <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css2/#value-def-absolute-size" id="ref-for-value-def-absolute-size">&lt;absolute-size></a> <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①⑥">|</a> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css2/#value-def-relative-size" id="ref-for-value-def-relative-size">&lt;relative-size></a> <span id="ref-for-comb-one①⑦">|</span> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#typedef-length-percentage" id="ref-for-typedef-length-percentage">&lt;length-percentage></a> 
      <tr>
       <th><a href="https://www.w3.org/TR/css-cascade/#initial-values">Initial:</a>
       <td>medium 
@@ -2003,25 +2003,25 @@ window.getComputedStyle(document.getElementById("system-text")).getPropertyValue
     Individual fonts can have a different apparent visual size
     when rendered at the same <a class="property" data-link-type="propdesc" href="#propdef-font-size" id="ref-for-propdef-font-size①">font-size</a>.
     Additionally, glyphs might render arbitrarily far outside their EM box;
-    and if they overflow their <a data-link-type="dfn" href="https://drafts.csswg.org/css-display-3/#containing-block" id="ref-for-containing-block">containing block</a> can induce <a data-link-type="dfn" href="https://drafts.csswg.org/css-overflow-3/#ink-overflow" id="ref-for-ink-overflow">ink overflow</a>.</p>
+    and if they overflow their <a data-link-type="dfn" href="https://drafts.csswg.org/css-display/#containing-block" id="ref-for-containing-block">containing block</a> can induce <a data-link-type="dfn" href="https://drafts.csswg.org/css-overflow-3/#ink-overflow" id="ref-for-ink-overflow">ink overflow</a>.</p>
    <p>Values have the following meanings:</p>
    <dl>
-    <dt><dfn class="css" data-dfn-for="font-size" data-dfn-type="value" data-export id="valdef-font-size-absolute-size"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-fonts-3/#absolute-size-value" id="ref-for-absolute-size-value①">&lt;absolute-size></a><a class="self-link" href="#valdef-font-size-absolute-size"></a></dfn> 
+    <dt><dfn class="css" data-dfn-for="font-size" data-dfn-type="value" data-export id="valdef-font-size-absolute-size"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css2/#value-def-absolute-size" id="ref-for-value-def-absolute-size①">&lt;absolute-size></a><a class="self-link" href="#valdef-font-size-absolute-size"></a></dfn> 
     <dd>
-      An <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-fonts-3/#absolute-size-value" id="ref-for-absolute-size-value②">&lt;absolute-size></a> keyword refers to an entry in a table of font sizes
+      An <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css2/#value-def-absolute-size" id="ref-for-value-def-absolute-size②">&lt;absolute-size></a> keyword refers to an entry in a table of font sizes
             computed and kept by the user agent.
             See <a href="#absolute-size-mapping">§ 2.5.1 Absolute Size Keyword Mapping Table</a>. 
      <p>Possible values are:</p>
 <pre class="prod">[ xx-small <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①⑧">|</a> x-small <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①⑨">|</a> small <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one②⓪">|</a> medium <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one②①">|</a> large <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one②②">|</a> x-large <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one②③">|</a> xx-large <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one②④">|</a> xxx-large ]</pre>
-    <dt><dfn class="css" data-dfn-for="font-size" data-dfn-type="value" data-export id="valdef-font-size-relative-size"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-fonts-3/#relative-size-value" id="ref-for-relative-size-value①">&lt;relative-size></a><a class="self-link" href="#valdef-font-size-relative-size"></a></dfn> 
+    <dt><dfn class="css" data-dfn-for="font-size" data-dfn-type="value" data-export id="valdef-font-size-relative-size"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css2/#value-def-relative-size" id="ref-for-value-def-relative-size①">&lt;relative-size></a><a class="self-link" href="#valdef-font-size-relative-size"></a></dfn> 
     <dd>
-      A <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-fonts-3/#relative-size-value" id="ref-for-relative-size-value②">&lt;relative-size></a> keyword is interpreted
+      A <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css2/#value-def-relative-size" id="ref-for-value-def-relative-size②">&lt;relative-size></a> keyword is interpreted
             relative to the computed <a class="property" data-link-type="propdesc" href="#propdef-font-size" id="ref-for-propdef-font-size②">font-size</a> of the parent element
             and possibly the table of font sizes. Possible values are: 
 <pre class="prod">[ larger <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one②⑤">|</a> smaller ]</pre>
      <p>If the parent element has a keyword font size in the absolute size keyword mapping table, <span class="css">larger</span> may compute the font size to the next entry in the table,
             and <span class="css">smaller</span> may compute the font size to the previous entry in the table.
-            For example, if the parent element has a font size of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-backgrounds-3/#valdef-line-width-medium" id="ref-for-valdef-line-width-medium">medium</a>,
+            For example, if the parent element has a font size of <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-backgrounds/#valdef-line-width-medium" id="ref-for-valdef-line-width-medium">medium</a>,
             specifying a value of <span class="css">larger</span> may make the font size of the child element <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-shapes-2/#valdef-shape-large" id="ref-for-valdef-shape-large">large</a>.</p>
      <p>Instead of using next and previous items in the previous keyword table,
             User agents may instead use a simple ratio
@@ -2275,8 +2275,8 @@ c  =  adjusted font-size to use
 	It affects the size of relative units
 	that are based on font metrics
 	such as <code>ex</code> and <code>ch</code> but does not affect the size of <code>em</code> units.
-	Since numeric values of <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height">line-height</a> refer to the computed size of <span class="property" id="ref-for-propdef-font-size⑥">font-size</span>, <span class="property" id="ref-for-propdef-font-size-adjust⑨">font-size-adjust</span> does not affect the used value of <span class="property" id="ref-for-propdef-line-height①">line-height</span>.</p>
-   <p class="note" role="note"><span>Note:</span> In CSS, authors often specify <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height②">line-height</a> as a multiple of the <a class="property" data-link-type="propdesc" href="#propdef-font-size" id="ref-for-propdef-font-size⑦">font-size</a>.
+	Since numeric values of <a class="property" data-link-type="propdesc">line-height</a> refer to the computed size of <span class="property" id="ref-for-propdef-font-size⑥">font-size</span>, <span class="property" id="ref-for-propdef-font-size-adjust⑨">font-size-adjust</span> does not affect the used value of <span class="property">line-height</span>.</p>
+   <p class="note" role="note"><span>Note:</span> In CSS, authors often specify <a class="property" data-link-type="propdesc">line-height</a> as a multiple of the <a class="property" data-link-type="propdesc" href="#propdef-font-size" id="ref-for-propdef-font-size⑦">font-size</a>.
 	Since the <a class="property" data-link-type="propdesc" href="#propdef-font-size-adjust" id="ref-for-propdef-font-size-adjust①⓪">font-size-adjust</a> property affects the used value of <span class="property" id="ref-for-propdef-font-size⑧">font-size</span>,
 	authors should take care setting the line height
 	when <span class="property" id="ref-for-propdef-font-size-adjust①①">font-size-adjust</span> is used.
@@ -2340,7 +2340,7 @@ span {
       <td><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-font">font</dfn>
      <tr class="value">
       <th><a href="https://www.w3.org/TR/css-values/#value-defs">Value:</a>
-      <td class="prod">[ [ <a class="production" data-link-type="propdesc">&lt;'font-style'></a> <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-any" id="ref-for-comb-any">||</a> <a class="production css" data-link-type="type" href="#font-variant-css21-values" id="ref-for-font-variant-css21-values">&lt;font-variant-css2></a> <span id="ref-for-comb-any①">||</span> <span class="production">&lt;'font-weight'></span> <span id="ref-for-comb-any②">||</span> <a class="production css" data-link-type="type" href="#font-stretch-css3-values" id="ref-for-font-stretch-css3-values">&lt;font-stretch-css3></a> ]<a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-opt" id="ref-for-mult-opt①">?</a> <a class="production" data-link-type="propdesc" href="#propdef-font-size" id="ref-for-propdef-font-size①⓪">&lt;'font-size'></a> [ / <a class="production" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height③">&lt;'line-height'></a> ]<span id="ref-for-mult-opt②">?</span> <span class="production">&lt;'font-family'></span> ] <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one②⑦">|</a> caption <span id="ref-for-comb-one②⑧">|</span> icon <span id="ref-for-comb-one②⑨">|</span> menu <span id="ref-for-comb-one③⓪">|</span> message-box <span id="ref-for-comb-one③①">|</span> small-caption <span id="ref-for-comb-one③②">|</span> status-bar 
+      <td class="prod">[ [ <a class="production" data-link-type="propdesc">&lt;'font-style'></a> <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-any" id="ref-for-comb-any">||</a> <a class="production css" data-link-type="type" href="#font-variant-css21-values" id="ref-for-font-variant-css21-values">&lt;font-variant-css2></a> <span id="ref-for-comb-any①">||</span> <span class="production">&lt;'font-weight'></span> <span id="ref-for-comb-any②">||</span> <a class="production css" data-link-type="type" href="#font-stretch-css3-values" id="ref-for-font-stretch-css3-values">&lt;font-stretch-css3></a> ]<a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-opt" id="ref-for-mult-opt①">?</a> <a class="production" data-link-type="propdesc" href="#propdef-font-size" id="ref-for-propdef-font-size①⓪">&lt;'font-size'></a> [ / <span class="production">&lt;'line-height'></span> ]<span id="ref-for-mult-opt②">?</span> <span class="production">&lt;'font-family'></span> ] <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one②⑦">|</a> caption <span id="ref-for-comb-one②⑧">|</span> icon <span id="ref-for-comb-one②⑨">|</span> menu <span id="ref-for-comb-one③⓪">|</span> message-box <span id="ref-for-comb-one③①">|</span> small-caption <span id="ref-for-comb-one③②">|</span> status-bar 
      <tr>
       <th><a href="https://www.w3.org/TR/css-cascade/#initial-values">Initial:</a>
       <td>see individual properties 
@@ -2365,7 +2365,7 @@ span {
    </table>
    <p>The <a class="property css" data-link-type="property" href="#propdef-font" id="ref-for-propdef-font①">font</a> property is,
 	except as described below,
-	a shorthand property for setting <a class="property css" data-link-type="property" href="#propdef-font-style" id="ref-for-propdef-font-style③">font-style</a>, <a class="property css" data-link-type="property" href="#propdef-font-variant" id="ref-for-propdef-font-variant">font-variant</a>, <a class="property css" data-link-type="property" href="#propdef-font-weight" id="ref-for-propdef-font-weight④">font-weight</a>, <a class="property css" data-link-type="property" href="#propdef-font-stretch" id="ref-for-propdef-font-stretch③">font-stretch</a>, <a class="property css" data-link-type="property" href="#propdef-font-size" id="ref-for-propdef-font-size①①">font-size</a>, <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height④">line-height</a>, <a class="property css" data-link-type="property" href="#propdef-font-family" id="ref-for-propdef-font-family②">font-family</a> at the same place in the stylesheet.
+	a shorthand property for setting <a class="property css" data-link-type="property" href="#propdef-font-style" id="ref-for-propdef-font-style③">font-style</a>, <a class="property css" data-link-type="property" href="#propdef-font-variant" id="ref-for-propdef-font-variant">font-variant</a>, <a class="property css" data-link-type="property" href="#propdef-font-weight" id="ref-for-propdef-font-weight④">font-weight</a>, <a class="property css" data-link-type="property" href="#propdef-font-stretch" id="ref-for-propdef-font-stretch③">font-stretch</a>, <a class="property css" data-link-type="property" href="#propdef-font-size" id="ref-for-propdef-font-size①①">font-size</a>, <a class="property" data-link-type="propdesc">line-height</a>, <a class="property css" data-link-type="property" href="#propdef-font-family" id="ref-for-propdef-font-family②">font-family</a> at the same place in the stylesheet.
 	Values for the <span class="property" id="ref-for-propdef-font-variant①">font-variant</span> property can also be included
 	but only those supported in CSS 2.1;
 	none of the <span class="property" id="ref-for-propdef-font-variant②">font-variant</span> values added in
@@ -2423,7 +2423,7 @@ p { font: condensed oblique 25deg 753 12pt "Helvetica Neue", serif; }
 		and implicitly sets <span class="property" id="ref-for-propdef-font-variant⑤">font-variant</span> to <span class="css" id="ref-for-font-variant-normal-value①">normal</span>.</p>
     <p>The fifth rule sets the <a class="property css" data-link-type="property" href="#propdef-font-variant" id="ref-for-propdef-font-variant⑥">font-variant</a> (<a class="css" data-link-type="maybe" href="#valdef-font-variant-caps-small-caps" id="ref-for-valdef-font-variant-caps-small-caps">small-caps</a>),
 		the <a class="property css" data-link-type="property" href="#propdef-font-size" id="ref-for-propdef-font-size①③">font-size</a> (120% of the parent’s font size),
-		the <a class="property css" data-link-type="property" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height⑤">line-height</a> (120% of the font size) and
+		the <a class="property css" data-link-type="property">line-height</a> (120% of the font size) and
 		the <a class="property css" data-link-type="property" href="#propdef-font-family" id="ref-for-propdef-font-family③">font-family</a> (<a class="css" data-link-type="maybe" href="#valdef-font-family-fantasy" id="ref-for-valdef-font-family-fantasy">fantasy</a>).
 		It follows that the keyword <span class="css">normal</span> applies to the two remaining properties: <a class="property css" data-link-type="property" href="#propdef-font-style" id="ref-for-propdef-font-style⑤">font-style</a> and <a class="property css" data-link-type="property" href="#propdef-font-weight" id="ref-for-propdef-font-weight⑦">font-weight</a>.</p>
     <p>The sixth rule sets the <a class="property css" data-link-type="property" href="#propdef-font-style" id="ref-for-propdef-font-style⑥">font-style</a>, <a class="property css" data-link-type="property" href="#propdef-font-stretch" id="ref-for-propdef-font-stretch⑥">font-stretch</a>, <a class="property css" data-link-type="property" href="#propdef-font-size" id="ref-for-propdef-font-size①④">font-size</a>, and <a class="property css" data-link-type="property" href="#propdef-font-family" id="ref-for-propdef-font-family④">font-family</a>,
@@ -2910,7 +2910,7 @@ Otherwise, the font face is used normally.</p>
 	only those faces that are needed for a given piece of text.</p>
    <p>Its syntax is:</p>
 <pre class="prod">@font-face {
-  <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-syntax-3/#typedef-declaration-list" id="ref-for-typedef-declaration-list">&lt;declaration-list></a>
+  <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-syntax/#typedef-declaration-list" id="ref-for-typedef-declaration-list">&lt;declaration-list></a>
 }
 </pre>
    <p>The <a class="css" data-link-type="maybe" href="#at-font-face-rule" id="ref-for-at-font-face-rule④">@font-face</a> rule accepts the descriptors defined in this specification.</p>
@@ -3085,7 +3085,7 @@ p { font-family: Gentium, serif; }
     are located.
     The value is then split at these comma locations.</p>
    <p>Each item in the split value is then parsed against this grammar:</p>
-<pre><a class="production" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#url-value" id="ref-for-url-value">&lt;url></a> [ format(<a class="production" data-link-type="type" href="#font-format-values" id="ref-for-font-format-values">&lt;font-format></a> [supports <a class="production" data-link-type="type" href="#font-technology-values" id="ref-for-font-technology-values">&lt;font-technology></a>#]?)]? | local(<a class="production" data-link-type="type" href="https://drafts.csswg.org/css-fonts-3/#font-face-name-value" id="ref-for-font-face-name-value">&lt;font-face-name></a>)</pre>
+<pre><a class="production" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#url-value" id="ref-for-url-value">&lt;url></a> [ format(<a class="production" data-link-type="type" href="#font-format-values" id="ref-for-font-format-values">&lt;font-format></a> [supports <a class="production" data-link-type="type" href="#font-technology-values" id="ref-for-font-technology-values">&lt;font-technology></a>#]?)]? | local(<a class="production" data-link-type="type">&lt;font-face-name></a>)</pre>
 <pre class="prod"><dfn class="dfn-paneled" data-dfn-type="type" data-export id="font-format-values">&lt;font-format></dfn> = [<a class="production" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#string-value" id="ref-for-string-value①">&lt;string></a> <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one④⑥">|</a> woff <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one④⑦">|</a> truetype <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one④⑧">|</a> opentype <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one④⑨">|</a> woff2 <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one⑤⓪">|</a> embedded-opentype <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one⑤①">|</a> collection <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one⑤②">|</a> svg]</pre>
 <pre class="prod"><dfn class="dfn-paneled" data-dfn-type="type" data-export id="font-technology-values">&lt;font-technology></dfn> = [features <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one⑤③">|</a> variations <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one⑤④">|</a> color(<a class="production" data-link-type="type" href="#color-font-technology-values" id="ref-for-color-font-technology-values">&lt;color-font-technology></a>) <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one⑤⑤">|</a> palettes]</pre>
 <pre class="prod"><dfn class="dfn-paneled" data-dfn-type="type" data-export id="color-font-technology-values">&lt;color-font-technology></dfn> = [COLR <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one⑤⑥">|</a> SVG <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one⑤⑦">|</a> sbix <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one⑤⑧">|</a> CBDT ]</pre>
@@ -3214,7 +3214,7 @@ src: url(ideal-sans-serif.woff2) format("woff2"),
     commonly implemented in <a data-link-type="biblio" href="#biblio-opentype">[OPENTYPE]</a> with the <code>avar</code>, <code>cvar</code>, <code>fvar</code>, <code>gvar</code>, <code>HVAR</code>, <code>MVAR</code>, <code>STAT</code>, and <code>VVAR</code> tables,
     as well as in <a data-link-type="biblio" href="#biblio-aat-features">[AAT-FEATURES]</a> using the <code>avar</code>, <code>cvar</code>, <code>fvar</code>, and <code>gvar</code> tables.
     The section on <a href="#basic-font-props">§ 2 Basic Font Properties</a> as well as the section on <a href="#font-variation-props">§ 8 Font Variation Properties</a> describe properties that interact with these facilities.</p>
-   <p>The <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color">color</a> requirement lists various types of color font file technologies.
+   <p>The <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color/#propdef-color" id="ref-for-propdef-color">color</a> requirement lists various types of color font file technologies.
     Each of the arguments to the <span class="property" id="ref-for-propdef-color①">color</span> function represents a table
     inside <a data-link-type="biblio" href="#biblio-opentype">[OPENTYPE]</a> or <a data-link-type="biblio" href="#biblio-aat-features">[AAT-FEATURES]</a> fonts which must be supported
     to satisfy this requirement.</p>
@@ -3240,7 +3240,7 @@ src: url(ideal-sans-serif.woff2) format("woff2"),
    <p>When authors would prefer to use
 	a locally available copy of a given font
 	and download it if it’s not, <code>local()</code> can be used.
-	The locally-installed <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-fonts-3/#font-face-name-value" id="ref-for-font-face-name-value①">&lt;font-face-name></a> argument to <code>local()</code> is a format-specific string
+	The locally-installed <a class="production css" data-link-type="type">&lt;font-face-name></a> argument to <code>local()</code> is a format-specific string
 	that uniquely identifies a single font face
 	within a larger family.
 	The name can optionally be enclosed in quotes.
@@ -3441,7 +3441,7 @@ src: local("Gentium"), url(gentium.woff);  /* Overrides src definition */
       <td><a class="css" data-link-type="at-rule" href="#at-font-face-rule" id="ref-for-at-font-face-rule②⑤">@font-face</a> 
      <tr>
       <th>Value:
-      <td class="prod">auto <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one⑥④">|</a> <a class="production" data-link-type="propdesc">&lt;'font-stretch'></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-num-range" id="ref-for-mult-num-range②">{1,2}</a> 
+      <td class="prod">auto <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one⑥④">|</a> <a class="production" data-link-type="propdesc" href="#descdef-font-face-font-stretch" id="ref-for-descdef-font-face-font-stretch①">&lt;'font-stretch'></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-num-range" id="ref-for-mult-num-range②">{1,2}</a> 
      <tr>
       <th>Initial:
       <td>auto 
@@ -3551,18 +3551,18 @@ font-style: italic;
       <td><a class="css" data-link-type="at-rule" href="#at-font-face-rule" id="ref-for-at-font-face-rule③⓪">@font-face</a>
      <tr>
       <th>Value:
-      <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-syntax-3/#typedef-urange" id="ref-for-typedef-urange">&lt;urange></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-comma" id="ref-for-mult-comma①">#</a>
+      <td class="prod"><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-syntax/#typedef-urange" id="ref-for-typedef-urange">&lt;urange></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-comma" id="ref-for-mult-comma①">#</a>
      <tr>
       <th>Initial:
       <td>U+0-10FFFF
    </table>
    <p>This descriptor defines the set of Unicode codepoints that may be
 supported by the font face for which it is declared. The descriptor
-value is a comma-delimited list of Unicode range (<a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-syntax-3/#typedef-urange" id="ref-for-typedef-urange①">&lt;urange></a>)
+value is a comma-delimited list of Unicode range (<a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-syntax/#typedef-urange" id="ref-for-typedef-urange①">&lt;urange></a>)
 values. The union of these ranges defines the set of codepoints that
 serves as a hint for user agents when deciding whether or not to
 download a font resource for a given text run.</p>
-   <p>Each <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-syntax-3/#typedef-urange" id="ref-for-typedef-urange②">&lt;urange></a> value is a <a href="https://www.w3.org/TR/CSS21/syndata.html#tokenization"><code title="UNICODE-RANGE token">UNICODE-RANGE</code></a> token made up of a "U+" or "u+" prefix
+   <p>Each <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-syntax/#typedef-urange" id="ref-for-typedef-urange②">&lt;urange></a> value is a <a href="https://www.w3.org/TR/CSS21/syndata.html#tokenization"><code title="UNICODE-RANGE token">UNICODE-RANGE</code></a> token made up of a "U+" or "u+" prefix
 followed by a codepoint range in one of the three forms listed below.
 Ranges that do not fit one of the these forms are invalid
 and cause the declaration to be ignored.</p>
@@ -3758,7 +3758,7 @@ be checked for a given character.</p>
       <td><a class="css" data-link-type="at-rule" href="#at-font-face-rule" id="ref-for-at-font-face-rule③⑤">@font-face</a>
      <tr>
       <th>Value:
-      <td class="prod">normal <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one⑥⑤">|</a> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-fonts-3/#feature-tag-value" id="ref-for-feature-tag-value">&lt;feature-tag-value></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-comma" id="ref-for-mult-comma②">#</a>
+      <td class="prod">normal <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one⑥⑤">|</a> <a class="production css" data-link-type="type">&lt;feature-tag-value></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-comma" id="ref-for-mult-comma②">#</a>
      <tr>
       <th>Initial:
       <td>normal
@@ -3940,7 +3940,7 @@ for example, forcing all fonts to have a <span class="css">0s</span> <a data-lin
     <dt><dfn class="css" data-dfn-for="@font-face/font-display" data-dfn-type="value" data-export id="valdef-font-face-font-display-auto">auto<a class="self-link" href="#valdef-font-face-font-display-auto"></a></dfn> 
     <dd>
       The font display policy is user-agent-defined. 
-     <p class="note" role="note"><span>Note:</span> Many browsers have a default policy similar to that specified by <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display-3/#valdef-display-block" id="ref-for-valdef-display-block">block</a>.</p>
+     <p class="note" role="note"><span>Note:</span> Many browsers have a default policy similar to that specified by <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-display/#valdef-display-block" id="ref-for-valdef-display-block">block</a>.</p>
     <dt><dfn class="css" data-dfn-for="@font-face/font-display" data-dfn-type="value" data-export id="valdef-font-face-font-display-block">block<a class="self-link" href="#valdef-font-face-font-display-block"></a></dfn> 
     <dd>
       Gives the font face a short <a data-link-type="dfn" href="#font-block-period" id="ref-for-font-block-period④">block period</a> (<span class="css">3s</span> is recommended in most cases)
@@ -4595,7 +4595,7 @@ Matching occurs in a well-defined order
 to ensure that the results are as consistent as possible across user agents,
 given an identical set of available fonts and rendering technology.</p>
    <p>The <dfn data-dfn-type="dfn" data-export id="first-available-font">first available font<a class="self-link" href="#first-available-font"></a></dfn>,
-used for example in the definition of <a data-link-type="dfn" href="https://drafts.csswg.org/css-values-4/#font-relative-length" id="ref-for-font-relative-length①">font-relative lengths</a> such as <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-values-4/#ex" id="ref-for-ex">ex</a> or in the definition of the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css2/#propdef-line-height" id="ref-for-propdef-line-height⑥">line-height</a> property,
+used for example in the definition of <a data-link-type="dfn" href="https://drafts.csswg.org/css-values-4/#font-relative-length" id="ref-for-font-relative-length①">font-relative lengths</a> such as <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-values-4/#ex" id="ref-for-ex">ex</a> or in the definition of the <a class="property" data-link-type="propdesc">line-height</a> property,
 is defined to be the first available font
 that would match the U+0020 (space) character
 given font families in the <a class="property css" data-link-type="property" href="#propdef-font-family" id="ref-for-propdef-font-family①①">font-family</a> list
@@ -5706,9 +5706,9 @@ Each <span class="production">&lt;feature-value-block></span> contains declarati
 mapping author-chosen human-friendly names
 (such as "flowing")
 to feature indexes for the associated feature.</p>
-<pre class="prod">@font-feature-values <a class="production" data-link-type="type" href="#family-name-value" id="ref-for-family-name-value⑧">&lt;family-name></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-comma" id="ref-for-mult-comma⑥">#</a> { <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-syntax-3/#typedef-rule-list" id="ref-for-typedef-rule-list">&lt;rule-list></a> }
+<pre class="prod">@font-feature-values <a class="production" data-link-type="type" href="#family-name-value" id="ref-for-family-name-value⑧">&lt;family-name></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-comma" id="ref-for-mult-comma⑥">#</a> { <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-syntax/#typedef-rule-list" id="ref-for-typedef-rule-list">&lt;rule-list></a> }
 
-<a class="production" data-link-type="type">&lt;feature-value-block></a> = <a class="production" data-link-type="type">&lt;font-feature-value-type></a> { <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-syntax-3/#typedef-declaration-list" id="ref-for-typedef-declaration-list①">&lt;declaration-list></a> }
+<a class="production" data-link-type="type">&lt;feature-value-block></a> = <a class="production" data-link-type="type">&lt;font-feature-value-type></a> { <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-syntax/#typedef-declaration-list" id="ref-for-typedef-declaration-list①">&lt;declaration-list></a> }
 
 <a class="production" data-link-type="type">&lt;font-feature-value-type></a> = @stylistic <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①⓪①">|</a> @historical-forms <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①⓪②">|</a> @styleset <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①⓪③">|</a> @character-variant
   <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①⓪④">|</a> @swash <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①⓪⑤">|</a> @ornaments <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①⓪⑥">|</a> @annotation
@@ -5723,12 +5723,12 @@ If syntax errors occur within the <span class="production" id="ref-for-family-na
 the entire rule <span class="css" id="ref-for-at-ruledef-font-feature-values⑧">@font-feature-values</span> rule is invalid
 and must be ignored.</p>
    <p>The <a class="css" data-link-type="maybe" href="#at-ruledef-font-feature-values" id="ref-for-at-ruledef-font-feature-values⑨">@font-feature-values</a> block accepts <a class="production css" data-link-type="type">&lt;feature-value-block></a>s as its contents;
-these are <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#at-rule" id="ref-for-at-rule">at-rules</a> named by one of the <span class="production">&lt;font-feature-value-type></span> at-keyword tokens.
+these are <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#at-rule" id="ref-for-at-rule">at-rules</a> named by one of the <span class="production">&lt;font-feature-value-type></span> at-keyword tokens.
 Specifying the same <span class="production">&lt;font-feature-value-type></span> more than once is valid;
 their contents are cascaded together.
-Each <span class="production">&lt;feature-value-block></span> accepts a list of <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-declarations" id="ref-for-cssstyledeclaration-declarations">declarations</a>,
+Each <span class="production">&lt;feature-value-block></span> accepts a list of <a data-link-type="dfn" href="https://drafts.csswg.org/cssom/#cssstyledeclaration-declarations" id="ref-for-cssstyledeclaration-declarations">declarations</a>,
 the <dfn class="dfn-paneled" data-dfn-type="dfn" data-lt="font feature value declaration" data-noexport id="font-feature-value-declaration">font feature value declarations</dfn>,
-where the declaration’s name can be any <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#identifier" id="ref-for-identifier">identifier</a>,
+where the declaration’s name can be any <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#identifier" id="ref-for-identifier">identifier</a>,
 and the value must be a list of one or more non-negative <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#integer-value" id="ref-for-integer-value">&lt;integer></a>s.</p>
    <p>The <a class="production css" data-link-type="type">&lt;feature-value-block></a>s accepts any declaration name;
 these names must be identifiers,
@@ -6153,7 +6153,7 @@ to their initial values.</p>
       <td><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-font-feature-settings">font-feature-settings</dfn>
      <tr class="value">
       <th><a href="https://www.w3.org/TR/css-values/#value-defs">Value:</a>
-      <td class="prod">normal <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①②②">|</a> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-fonts-3/#feature-tag-value" id="ref-for-feature-tag-value①">&lt;feature-tag-value></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-comma" id="ref-for-mult-comma⑨">#</a>
+      <td class="prod">normal <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①②②">|</a> <a class="production css" data-link-type="type">&lt;feature-tag-value></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-comma" id="ref-for-mult-comma⑨">#</a>
      <tr>
       <th><a href="https://www.w3.org/TR/css-cascade/#initial-values">Initial:</a>
       <td>normal
@@ -6447,7 +6447,7 @@ by the <a href="#font-style-matching">font matching algorithm</a>. User agents m
 at most one value due to the <span class="property" id="ref-for-propdef-font-style②②">font-style</span> property; both "ital" and "slnt" values must
 not be set together.</p>
      <p>If the selected font is defined in an <a class="css" data-link-type="maybe" href="#at-font-face-rule" id="ref-for-at-font-face-rule⑥④">@font-face</a> rule, then the values applied at this step
-should be clamped to the value of the <a class="property css" data-link-type="descriptor" href="#descdef-font-face-font-weight" id="ref-for-descdef-font-face-font-weight①">font-weight</a>, <a class="property css" data-link-type="descriptor" href="#descdef-font-face-font-stretch" id="ref-for-descdef-font-face-font-stretch①">font-stretch</a>,
+should be clamped to the value of the <a class="property css" data-link-type="descriptor" href="#descdef-font-face-font-weight" id="ref-for-descdef-font-face-font-weight①">font-weight</a>, <a class="property css" data-link-type="descriptor" href="#descdef-font-face-font-stretch" id="ref-for-descdef-font-face-font-stretch②">font-stretch</a>,
 and <a class="property css" data-link-type="descriptor" href="#descdef-font-face-font-style" id="ref-for-descdef-font-face-font-style②">font-style</a> descriptors in that <span class="css" id="ref-for-at-font-face-rule⑥⑤">@font-face</span> rule.</p>
      <p>Then, the values applied in this step should be clamped (possibly again) to the values
 that are supported by the font.</p>
@@ -6672,7 +6672,7 @@ if they do not cause text to reflow.
 However, other user operations,
 such as increasing text size for accessibility purposes,
 can be considered layout-causing because they cause text to reflow.
-Similarly, the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-1/#propdef-transform" id="ref-for-propdef-transform">transform</a> property can be considered not-layout-causing
+Similarly, the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms/#propdef-transform" id="ref-for-propdef-transform">transform</a> property can be considered not-layout-causing
 because transforms generally do not cause text to reflow.
 Each user-agent is free to decide
 whether or not each operation is layout-changing or not.</p>
@@ -6846,7 +6846,7 @@ as well as the colored versions.</p>
     <dd> User-Agents attempt to treat the color font
 		as closely as possible to a non-color font.
 		In particular, user-agents use a palette which will yield the best default result for reading.
-		User-agents may take the computed value of the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color-4/#propdef-color" id="ref-for-propdef-color②">color</a> property into consideration
+		User-agents may take the computed value of the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-color/#propdef-color" id="ref-for-propdef-color②">color</a> property into consideration
 		when making this decision.
 		User agents may also construct and use a palette not defined in the font. 
     <dt><dfn class="css" data-dfn-for="font-palette" data-dfn-type="value" data-export id="valdef-font-palette-light">light<a class="self-link" href="#valdef-font-palette-light"></a></dfn> 
@@ -6914,7 +6914,7 @@ as well as the colored versions.</p>
     followed by a block of descriptor declarations.
     It has the following syntax:</p>
 <pre class="prod">@font-palette-values <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#identifier-value" id="ref-for-identifier-value①">&lt;custom-ident></a> {
-    <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-syntax-3/#typedef-declaration-list" id="ref-for-typedef-declaration-list②">&lt;declaration-list></a>
+    <a class="production" data-link-type="type" href="https://drafts.csswg.org/css-syntax/#typedef-declaration-list" id="ref-for-typedef-declaration-list②">&lt;declaration-list></a>
 }
 </pre>
    <p>The <a class="css" data-link-type="maybe" href="#at-ruledef-font-palette-values" id="ref-for-at-ruledef-font-palette-values⑧">@font-palette-values</a> rule accepts the descriptors defined in this specification.</p>
@@ -7070,7 +7070,7 @@ as well as the colored versions.</p>
       <td><a class="css" data-link-type="at-rule" href="#at-ruledef-font-palette-values" id="ref-for-at-ruledef-font-palette-values②⑥">@font-palette-values</a> 
      <tr>
       <th>Value:
-      <td class="prod">[ [ <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#string-value" id="ref-for-string-value①①">&lt;string></a> <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①③③">|</a> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#integer-value" id="ref-for-integer-value④">&lt;integer></a> ] <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-color-3/#valuea-def-color" id="ref-for-valuea-def-color" title="Expands to: aliceblue | antiquewhite | aqua | aquamarine | azure | beige | bisque | black | blanchedalmond | blue | blueviolet | brown | burlywood | cadetblue | chartreuse | chocolate | coral | cornflowerblue | cornsilk | crimson | currentcolor | cyan | darkblue | darkcyan | darkgoldenrod | darkgray | darkgreen | darkgrey | darkkhaki | darkmagenta | darkolivegreen | darkorange | darkorchid | darkred | darksalmon | darkseagreen | darkslateblue | darkslategray | darkslategrey | darkturquoise | darkviolet | deeppink | deepskyblue | dimgray | dimgrey | dodgerblue | firebrick | floralwhite | forestgreen | fuchsia | gainsboro | ghostwhite | gold | goldenrod | gray | green | greenyellow | grey | honeydew | hotpink | indianred | indigo | ivory | khaki | lavender | lavenderblush | lawngreen | lemonchiffon | lightblue | lightcoral | lightcyan | lightgoldenrodyellow | lightgray | lightgreen | lightgrey | lightpink | lightsalmon | lightseagreen | lightskyblue | lightslategray | lightslategrey | lightsteelblue | lightyellow | lime | limegreen | linen | magenta | maroon | mediumaquamarine | mediumblue | mediumorchid | mediumpurple | mediumseagreen | mediumslateblue | mediumspringgreen | mediumturquoise | mediumvioletred | midnightblue | mintcream | mistyrose | moccasin | navajowhite | navy | oldlace | olive | olivedrab | orange | orangered | orchid | palegoldenrod | palegreen | paleturquoise | palevioletred | papayawhip | peachpuff | peru | pink | plum | powderblue | purple | rebeccapurple | red | rosybrown | royalblue | saddlebrown | salmon | sandybrown | seagreen | seashell | sienna | silver | skyblue | slateblue | slategray | slategrey | snow | springgreen | steelblue | tan | teal | thistle | tomato | transparent | turquoise | violet | wheat | white | whitesmoke | yellow | yellowgreen">&lt;color></a> ]<a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-comma" id="ref-for-mult-comma①①">#</a> 
+      <td class="prod">[ [ <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#string-value" id="ref-for-string-value①①">&lt;string></a> <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one①③③">|</a> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#integer-value" id="ref-for-integer-value④">&lt;integer></a> ] <a class="production css" data-link-type="type">&lt;color></a> ]<a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-comma" id="ref-for-mult-comma①①">#</a> 
      <tr>
       <th>Initial:
       <td>N/A 
@@ -7273,20 +7273,20 @@ can be accessed via the following extensions to the CSS Object Model.</p>
     </div>
    </div>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed" id="ref-for-Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
-<c- b>interface</c-> <dfn class="idl-code" data-dfn-type="interface" data-export id="cssfontfacerule"><code><c- g>CSSFontFaceRule</c-></code><a class="self-link" href="#cssfontfacerule"></a></dfn> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssrule" id="ref-for-cssrule"><c- n>CSSRule</c-></a> {
-    <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration" id="ref-for-cssstyledeclaration"><c- n>CSSStyleDeclaration</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontFaceRule" data-dfn-type="attribute" data-export data-readonly data-type="CSSStyleDeclaration" id="dom-cssfontfacerule-style"><code><c- g>style</c-></code><a class="self-link" href="#dom-cssfontfacerule-style"></a></dfn>;
+<c- b>interface</c-> <dfn class="idl-code" data-dfn-type="interface" data-export id="cssfontfacerule"><code><c- g>CSSFontFaceRule</c-></code><a class="self-link" href="#cssfontfacerule"></a></dfn> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssrule" id="ref-for-cssrule"><c- n>CSSRule</c-></a> {
+    <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssstyledeclaration" id="ref-for-cssstyledeclaration"><c- n>CSSStyleDeclaration</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontFaceRule" data-dfn-type="attribute" data-export data-readonly data-type="CSSStyleDeclaration" id="dom-cssfontfacerule-style"><code><c- g>style</c-></code><a class="self-link" href="#dom-cssfontfacerule-style"></a></dfn>;
 };
 </pre>
    <p>The (now superseded) <a href="https://www.w3.org/TR/DOM-Level-2-Style/">DOM Level 2 Style specification</a> defined a different variant of this rule.
 This definition supersedes that one.</p>
    <h3 class="heading settled" data-level="11.2" id="om-fontfeaturevalues"><span class="secno">11.2. </span><span class="content"> The <code id="cssfontfeaturevaluesrule-interface">CSSFontFeatureValuesRule</code> interface</span><a class="self-link" href="#om-fontfeaturevalues"></a></h3>
    <p>The <code>CSSRule</code> interface is extended as follows:</p>
-<pre class="idl highlight def"><c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://drafts.csswg.org/cssom-1/#cssrule" id="ref-for-cssrule①"><c- g>CSSRule</c-></a> {  <c- b>const</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-short" id="ref-for-idl-unsigned-short"><c- b>unsigned</c-> <c- b>short</c-></a> <dfn class="idl-code" data-dfn-for="CSSRule" data-dfn-type="const" data-export id="dom-cssrule-font_feature_values_rule"><code><c- g>FONT_FEATURE_VALUES_RULE</c-></code><a class="self-link" href="#dom-cssrule-font_feature_values_rule"></a></dfn> = 14;
+<pre class="idl highlight def"><c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://drafts.csswg.org/cssom/#cssrule" id="ref-for-cssrule①"><c- g>CSSRule</c-></a> {  <c- b>const</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-short" id="ref-for-idl-unsigned-short"><c- b>unsigned</c-> <c- b>short</c-></a> <dfn class="idl-code" data-dfn-for="CSSRule" data-dfn-type="const" data-export id="dom-cssrule-font_feature_values_rule"><code><c- g>FONT_FEATURE_VALUES_RULE</c-></code><a class="self-link" href="#dom-cssrule-font_feature_values_rule"></a></dfn> = 14;
 };</pre>
    <p>The <dfn data-dfn-type="dfn" data-noexport id="cssfontfeaturevaluesrule">CSSFontFeatureValuesRule<a class="self-link" href="#cssfontfeaturevaluesrule"></a></dfn> interface represents a <code>@font-feature-values</code> rule.</p>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed" id="ref-for-Exposed①"><c- g>Exposed</c-></a>=<c- n>Window</c->]
-<c- b>interface</c-> <dfn class="idl-code" data-dfn-type="interface" data-export id="cssfontfeaturevaluesrule①"><code><c- g>CSSFontFeatureValuesRule</c-></code><a class="self-link" href="#cssfontfeaturevaluesrule①"></a></dfn> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssrule" id="ref-for-cssrule②"><c- n>CSSRule</c-></a> {
-  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontFeatureValuesRule" data-dfn-type="attribute" data-export data-type="CSSOMString" id="dom-cssfontfeaturevaluesrule-fontfamily"><code><c- g>fontFamily</c-></code><a class="self-link" href="#dom-cssfontfeaturevaluesrule-fontfamily"></a></dfn>;
+<c- b>interface</c-> <dfn class="idl-code" data-dfn-type="interface" data-export id="cssfontfeaturevaluesrule①"><code><c- g>CSSFontFeatureValuesRule</c-></code><a class="self-link" href="#cssfontfeaturevaluesrule①"></a></dfn> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssrule" id="ref-for-cssrule②"><c- n>CSSRule</c-></a> {
+  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontFeatureValuesRule" data-dfn-type="attribute" data-export data-type="CSSOMString" id="dom-cssfontfeaturevaluesrule-fontfamily"><code><c- g>fontFamily</c-></code><a class="self-link" href="#dom-cssfontfeaturevaluesrule-fontfamily"></a></dfn>;
   <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="#cssfontfeaturevaluesmap" id="ref-for-cssfontfeaturevaluesmap"><c- n>CSSFontFeatureValuesMap</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontFeatureValuesRule" data-dfn-type="attribute" data-export data-readonly data-type="CSSFontFeatureValuesMap" id="dom-cssfontfeaturevaluesrule-annotation"><code><c- g>annotation</c-></code><a class="self-link" href="#dom-cssfontfeaturevaluesrule-annotation"></a></dfn>;
   <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="#cssfontfeaturevaluesmap" id="ref-for-cssfontfeaturevaluesmap①"><c- n>CSSFontFeatureValuesMap</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontFeatureValuesRule" data-dfn-type="attribute" data-export data-readonly data-type="CSSFontFeatureValuesMap" id="dom-cssfontfeaturevaluesrule-ornaments"><code><c- g>ornaments</c-></code><a class="self-link" href="#dom-cssfontfeaturevaluesrule-ornaments"></a></dfn>;
   <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="#cssfontfeaturevaluesmap" id="ref-for-cssfontfeaturevaluesmap②"><c- n>CSSFontFeatureValuesMap</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontFeatureValuesRule" data-dfn-type="attribute" data-export data-readonly data-type="CSSFontFeatureValuesMap" id="dom-cssfontfeaturevaluesrule-stylistic"><code><c- g>stylistic</c-></code><a class="self-link" href="#dom-cssfontfeaturevaluesrule-stylistic"></a></dfn>;
@@ -7297,8 +7297,8 @@ This definition supersedes that one.</p>
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed" id="ref-for-Exposed②"><c- g>Exposed</c-></a>=<c- n>Window</c->]
 <c- b>interface</c-> <dfn class="dfn-paneled idl-code" data-dfn-type="interface" data-export id="cssfontfeaturevaluesmap"><code><c- g>CSSFontFeatureValuesMap</c-></code></dfn> {
-  <c- b>maplike</c->&lt;<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring①"><c- n>CSSOMString</c-></a>, <a data-link-type="dfn" href="https://heycam.github.io/webidl/#idl-sequence" id="ref-for-idl-sequence"><c- b>sequence</c-></a>&lt;<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long" id="ref-for-idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a>>>;
-  <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined" id="ref-for-idl-undefined"><c- b>undefined</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontFeatureValuesMap" data-dfn-type="method" data-export data-lt="set(featureValueName, values)" id="dom-cssfontfeaturevaluesmap-set"><code><c- g>set</c-></code><a class="self-link" href="#dom-cssfontfeaturevaluesmap-set"></a></dfn>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring②"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontFeatureValuesMap/set(featureValueName, values)" data-dfn-type="argument" data-export id="dom-cssfontfeaturevaluesmap-set-featurevaluename-values-featurevaluename"><code><c- g>featureValueName</c-></code><a class="self-link" href="#dom-cssfontfeaturevaluesmap-set-featurevaluename-values-featurevaluename"></a></dfn>,
+  <c- b>maplike</c->&lt;<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring①"><c- n>CSSOMString</c-></a>, <a data-link-type="dfn" href="https://heycam.github.io/webidl/#idl-sequence" id="ref-for-idl-sequence"><c- b>sequence</c-></a>&lt;<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long" id="ref-for-idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a>>>;
+  <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined" id="ref-for-idl-undefined"><c- b>undefined</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontFeatureValuesMap" data-dfn-type="method" data-export data-lt="set(featureValueName, values)" id="dom-cssfontfeaturevaluesmap-set"><code><c- g>set</c-></code><a class="self-link" href="#dom-cssfontfeaturevaluesmap-set"></a></dfn>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring②"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontFeatureValuesMap/set(featureValueName, values)" data-dfn-type="argument" data-export id="dom-cssfontfeaturevaluesmap-set-featurevaluename-values-featurevaluename"><code><c- g>featureValueName</c-></code><a class="self-link" href="#dom-cssfontfeaturevaluesmap-set-featurevaluename-values-featurevaluename"></a></dfn>,
            (<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long" id="ref-for-idl-unsigned-long①"><c- b>unsigned</c-> <c- b>long</c-></a> <c- b>or</c-> <a data-link-type="dfn" href="https://heycam.github.io/webidl/#idl-sequence" id="ref-for-idl-sequence①"><c- b>sequence</c-></a>&lt;<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long" id="ref-for-idl-unsigned-long②"><c- b>unsigned</c-> <c- b>long</c-></a>>) <dfn class="idl-code" data-dfn-for="CSSFontFeatureValuesMap/set(featureValueName, values)" data-dfn-type="argument" data-export id="dom-cssfontfeaturevaluesmap-set-featurevaluename-values-values"><code><c- g>values</c-></code><a class="self-link" href="#dom-cssfontfeaturevaluesmap-set-featurevaluename-values-values"></a></dfn>);
 };
 </pre>
@@ -7326,16 +7326,16 @@ description of <a href="#multi-value-features">multi-valued feature value defini
 of <i title="feature_value_block">feature value block</i>.  The <code>get</code> method always returns a sequence of values, even if the sequence only contains
 a single value.</p>
    <h3 class="heading settled" data-level="11.3" id="om-fontpalettevalues"><span class="secno">11.3. </span><span class="content"> The <code id="cssfontpalettevaluesrule2">CSSFontPaletteValuesRule</code> interface</span><a class="self-link" href="#om-fontpalettevalues"></a></h3>
-<pre class="idl highlight def"><c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://drafts.csswg.org/cssom-1/#cssrule" id="ref-for-cssrule③"><c- g>CSSRule</c-></a> {  <c- b>const</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-short" id="ref-for-idl-unsigned-short①"><c- b>unsigned</c-> <c- b>short</c-></a> <dfn class="idl-code" data-dfn-for="CSSRule" data-dfn-type="const" data-export id="dom-cssrule-font_palette_values_rule"><code><c- g>FONT_PALETTE_VALUES_RULE</c-></code><a class="self-link" href="#dom-cssrule-font_palette_values_rule"></a></dfn> = 15;
+<pre class="idl highlight def"><c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://drafts.csswg.org/cssom/#cssrule" id="ref-for-cssrule③"><c- g>CSSRule</c-></a> {  <c- b>const</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-short" id="ref-for-idl-unsigned-short①"><c- b>unsigned</c-> <c- b>short</c-></a> <dfn class="idl-code" data-dfn-for="CSSRule" data-dfn-type="const" data-export id="dom-cssrule-font_palette_values_rule"><code><c- g>FONT_PALETTE_VALUES_RULE</c-></code><a class="self-link" href="#dom-cssrule-font_palette_values_rule"></a></dfn> = 15;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed" id="ref-for-Exposed③"><c- g>Exposed</c-></a>=<c- n>Window</c->]
-<c- b>interface</c-> <dfn class="idl-code" data-dfn-type="interface" data-export id="cssfontpalettevaluesrule"><code><c- g>CSSFontPaletteValuesRule</c-></code><a class="self-link" href="#cssfontpalettevaluesrule"></a></dfn> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssrule" id="ref-for-cssrule④"><c- n>CSSRule</c-></a> {
-  <c- b>maplike</c->&lt;<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long" id="ref-for-idl-unsigned-long③"><c- b>unsigned</c-> <c- b>long</c-></a>, <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring③"><c- n>CSSOMString</c-></a>>;
-  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring④"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontPaletteValuesRule" data-dfn-type="attribute" data-export data-type="CSSOMString" id="dom-cssfontpalettevaluesrule-fontfamily"><code><c- g>fontFamily</c-></code><a class="self-link" href="#dom-cssfontpalettevaluesrule-fontfamily"></a></dfn>;
-  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring" id="ref-for-cssomstring⑤"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontPaletteValuesRule" data-dfn-type="attribute" data-export data-type="CSSOMString" id="dom-cssfontpalettevaluesrule-basepalette"><code><c- g>basePalette</c-></code><a class="self-link" href="#dom-cssfontpalettevaluesrule-basepalette"></a></dfn>;
+<c- b>interface</c-> <dfn class="idl-code" data-dfn-type="interface" data-export id="cssfontpalettevaluesrule"><code><c- g>CSSFontPaletteValuesRule</c-></code><a class="self-link" href="#cssfontpalettevaluesrule"></a></dfn> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssrule" id="ref-for-cssrule④"><c- n>CSSRule</c-></a> {
+  <c- b>maplike</c->&lt;<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long" id="ref-for-idl-unsigned-long③"><c- b>unsigned</c-> <c- b>long</c-></a>, <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring③"><c- n>CSSOMString</c-></a>>;
+  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring④"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontPaletteValuesRule" data-dfn-type="attribute" data-export data-type="CSSOMString" id="dom-cssfontpalettevaluesrule-fontfamily"><code><c- g>fontFamily</c-></code><a class="self-link" href="#dom-cssfontpalettevaluesrule-fontfamily"></a></dfn>;
+  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring" id="ref-for-cssomstring⑤"><c- n>CSSOMString</c-></a> <dfn class="idl-code" data-dfn-for="CSSFontPaletteValuesRule" data-dfn-type="attribute" data-export data-type="CSSOMString" id="dom-cssfontpalettevaluesrule-basepalette"><code><c- g>basePalette</c-></code><a class="self-link" href="#dom-cssfontpalettevaluesrule-basepalette"></a></dfn>;
 };</pre>
-   <p>The value of the <a class="property" data-link-type="propdesc">maplike</a> function <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar" id="ref-for-css-parse-something-according-to-a-css-grammar">parses</a> as a <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-color-3/#valuea-def-color" id="ref-for-valuea-def-color①" title="Expands to: aliceblue | antiquewhite | aqua | aquamarine | azure | beige | bisque | black | blanchedalmond | blue | blueviolet | brown | burlywood | cadetblue | chartreuse | chocolate | coral | cornflowerblue | cornsilk | crimson | currentcolor | cyan | darkblue | darkcyan | darkgoldenrod | darkgray | darkgreen | darkgrey | darkkhaki | darkmagenta | darkolivegreen | darkorange | darkorchid | darkred | darksalmon | darkseagreen | darkslateblue | darkslategray | darkslategrey | darkturquoise | darkviolet | deeppink | deepskyblue | dimgray | dimgrey | dodgerblue | firebrick | floralwhite | forestgreen | fuchsia | gainsboro | ghostwhite | gold | goldenrod | gray | green | greenyellow | grey | honeydew | hotpink | indianred | indigo | ivory | khaki | lavender | lavenderblush | lawngreen | lemonchiffon | lightblue | lightcoral | lightcyan | lightgoldenrodyellow | lightgray | lightgreen | lightgrey | lightpink | lightsalmon | lightseagreen | lightskyblue | lightslategray | lightslategrey | lightsteelblue | lightyellow | lime | limegreen | linen | magenta | maroon | mediumaquamarine | mediumblue | mediumorchid | mediumpurple | mediumseagreen | mediumslateblue | mediumspringgreen | mediumturquoise | mediumvioletred | midnightblue | mintcream | mistyrose | moccasin | navajowhite | navy | oldlace | olive | olivedrab | orange | orangered | orchid | palegoldenrod | palegreen | paleturquoise | palevioletred | papayawhip | peachpuff | peru | pink | plum | powderblue | purple | rebeccapurple | red | rosybrown | royalblue | saddlebrown | salmon | sandybrown | seagreen | seashell | sienna | silver | skyblue | slateblue | slategray | slategrey | snow | springgreen | steelblue | tan | teal | thistle | tomato | transparent | turquoise | violet | wheat | white | whitesmoke | yellow | yellowgreen">&lt;color></a>. If it is not a color, <a data-link-type="dfn" href="https://heycam.github.io/webidl/#dfn-throw" id="ref-for-dfn-throw">throw</a> a <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#syntaxerror" id="ref-for-syntaxerror">SyntaxError</a></code>.</p>
+   <p>The value of the <a class="property" data-link-type="propdesc">maplike</a> function <a data-link-type="dfn" href="https://drafts.csswg.org/css-syntax/#css-parse-something-according-to-a-css-grammar" id="ref-for-css-parse-something-according-to-a-css-grammar">parses</a> as a <span class="production">&lt;color></span>. If it is not a color, <a data-link-type="dfn" href="https://heycam.github.io/webidl/#dfn-throw" id="ref-for-dfn-throw">throw</a> a <code class="idl"><a data-link-type="idl" href="https://heycam.github.io/webidl/#syntaxerror" id="ref-for-syntaxerror">SyntaxError</a></code>.</p>
    <p>The <code>fontFamily</code> and <code>basePalette</code> interfaces are parsed according to the appropriate CSS property syntax.</p>
    <h2 class="no-num heading settled" id="platform-props-to-css"><span class="content"> Appendix A: Mapping platform font properties to CSS properties</span><a class="self-link" href="#platform-props-to-css"></a></h2>
    <p><em>This appendix is included as background for some of the problems and
@@ -8086,30 +8086,21 @@ Special thanks to Ilya Grigorik and David Kuettel for their help in developing t
    <li><a href="#descdef-font-face-unicode-range">unicode-range</a><span>, in §4.5</span>
   </ul>
   <aside class="dfn-panel" data-for="term-for-valdef-line-width-medium">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#valdef-line-width-medium">https://drafts.csswg.org/css-backgrounds-3/#valdef-line-width-medium</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#valdef-line-width-medium">https://drafts.csswg.org/css-backgrounds/#valdef-line-width-medium</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-line-width-medium">2.5. 
 Font size: the font-size property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-all-inherit">
-   <a href="https://drafts.csswg.org/css-cascade-5/#valdef-all-inherit">https://drafts.csswg.org/css-cascade-5/#valdef-all-inherit</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-cascade/#valdef-all-inherit">https://drafts.csswg.org/css-cascade/#valdef-all-inherit</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-all-inherit">2.1.1. 
 Syntax of &lt;family-name> </a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-valuea-def-color">
-   <a href="https://drafts.csswg.org/css-color-3/#valuea-def-color">https://drafts.csswg.org/css-color-3/#valuea-def-color</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-valuea-def-color">9.2.3. 
-Overriding a color from a palette: The override-color descriptor</a>
-    <li><a href="#ref-for-valuea-def-color①">11.3. 
-The CSSFontPaletteValuesRule interface</a>
-   </ul>
-  </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-color">
-   <a href="https://drafts.csswg.org/css-color-4/#propdef-color">https://drafts.csswg.org/css-color-4/#propdef-color</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-color/#propdef-color">https://drafts.csswg.org/css-color/#propdef-color</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-color">4.3.3.2. @font-face requirements</a> <a href="#ref-for-propdef-color①">(2)</a>
     <li><a href="#ref-for-propdef-color②">9.1. 
@@ -8117,47 +8108,17 @@ Controlling Color Font Palettes: The font-palette property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-display-block">
-   <a href="https://drafts.csswg.org/css-display-3/#valdef-display-block">https://drafts.csswg.org/css-display-3/#valdef-display-block</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-display/#valdef-display-block">https://drafts.csswg.org/css-display/#valdef-display-block</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-display-block">4.9. 
 Controlling Font Display Per Font-Face: the font-display descriptor</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-containing-block">
-   <a href="https://drafts.csswg.org/css-display-3/#containing-block">https://drafts.csswg.org/css-display-3/#containing-block</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-display/#containing-block">https://drafts.csswg.org/css-display/#containing-block</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-containing-block">2.5. 
 Font size: the font-size property</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-absolute-size-value">
-   <a href="https://drafts.csswg.org/css-fonts-3/#absolute-size-value">https://drafts.csswg.org/css-fonts-3/#absolute-size-value</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-absolute-size-value">2.5. 
-Font size: the font-size property</a> <a href="#ref-for-absolute-size-value①">(2)</a> <a href="#ref-for-absolute-size-value②">(3)</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-feature-tag-value">
-   <a href="https://drafts.csswg.org/css-fonts-3/#feature-tag-value">https://drafts.csswg.org/css-fonts-3/#feature-tag-value</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-feature-tag-value">4.6. 
-Font features and variations: the font-feature-settings and font-variation-settings descriptors</a>
-    <li><a href="#ref-for-feature-tag-value①">6.12. 
-Low-level font feature settings control: the font-feature-settings property</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-font-face-name-value">
-   <a href="https://drafts.csswg.org/css-fonts-3/#font-face-name-value">https://drafts.csswg.org/css-fonts-3/#font-face-name-value</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-font-face-name-value">4.3.1. Parsing the src descriptor</a>
-    <li><a href="#ref-for-font-face-name-value①">4.3.3.3. Local font fallback</a>
-   </ul>
-  </aside>
-  <aside class="dfn-panel" data-for="term-for-relative-size-value">
-   <a href="https://drafts.csswg.org/css-fonts-3/#relative-size-value">https://drafts.csswg.org/css-fonts-3/#relative-size-value</a><b>Referenced in:</b>
-   <ul>
-    <li><a href="#ref-for-relative-size-value">2.5. 
-Font size: the font-size property</a> <a href="#ref-for-relative-size-value①">(2)</a> <a href="#ref-for-relative-size-value②">(3)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-ascent-metric">
@@ -8199,7 +8160,7 @@ Font size: the font-size property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-typedef-declaration-list">
-   <a href="https://drafts.csswg.org/css-syntax-3/#typedef-declaration-list">https://drafts.csswg.org/css-syntax-3/#typedef-declaration-list</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#typedef-declaration-list">https://drafts.csswg.org/css-syntax/#typedef-declaration-list</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-typedef-declaration-list">4.1. 
 The @font-face rule</a>
@@ -8209,32 +8170,32 @@ User-defined font color palettes: The @font-palette-values rule</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-typedef-rule-list">
-   <a href="https://drafts.csswg.org/css-syntax-3/#typedef-rule-list">https://drafts.csswg.org/css-syntax-3/#typedef-rule-list</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#typedef-rule-list">https://drafts.csswg.org/css-syntax/#typedef-rule-list</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-typedef-rule-list">6.9.1. Basic syntax</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-typedef-urange">
-   <a href="https://drafts.csswg.org/css-syntax-3/#typedef-urange">https://drafts.csswg.org/css-syntax-3/#typedef-urange</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#typedef-urange">https://drafts.csswg.org/css-syntax/#typedef-urange</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-typedef-urange">4.5. 
 Character range: the unicode-range descriptor</a> <a href="#ref-for-typedef-urange①">(2)</a> <a href="#ref-for-typedef-urange②">(3)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-at-rule">
-   <a href="https://drafts.csswg.org/css-syntax-3/#at-rule">https://drafts.csswg.org/css-syntax-3/#at-rule</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#at-rule">https://drafts.csswg.org/css-syntax/#at-rule</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-at-rule">6.9.1. Basic syntax</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-identifier">
-   <a href="https://drafts.csswg.org/css-syntax-3/#identifier">https://drafts.csswg.org/css-syntax-3/#identifier</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#identifier">https://drafts.csswg.org/css-syntax/#identifier</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-identifier">6.9.1. Basic syntax</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-css-invalid">
-   <a href="https://drafts.csswg.org/css-syntax-3/#css-invalid">https://drafts.csswg.org/css-syntax-3/#css-invalid</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#css-invalid">https://drafts.csswg.org/css-syntax/#css-invalid</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-css-invalid">2.2. Font weight: the font-weight property</a>
     <li><a href="#ref-for-css-invalid①">2.3. 
@@ -8244,14 +8205,14 @@ Font style: the font-style property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-css-parse-something-according-to-a-css-grammar">
-   <a href="https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar">https://drafts.csswg.org/css-syntax-3/#css-parse-something-according-to-a-css-grammar</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-syntax/#css-parse-something-according-to-a-css-grammar">https://drafts.csswg.org/css-syntax/#css-parse-something-according-to-a-css-grammar</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-css-parse-something-according-to-a-css-grammar">11.3. 
 The CSSFontPaletteValuesRule interface</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-transform">
-   <a href="https://drafts.csswg.org/css-transforms-1/#propdef-transform">https://drafts.csswg.org/css-transforms-1/#propdef-transform</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-transforms/#propdef-transform">https://drafts.csswg.org/css-transforms/#propdef-transform</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-transform">8.1. 
 Optical sizing control: the font-optical-sizing property</a>
@@ -8553,14 +8514,18 @@ Kerning: the font-kerning property</a>
 Kerning: the font-kerning property</a>
    </ul>
   </aside>
-  <aside class="dfn-panel" data-for="term-for-propdef-line-height">
-   <a href="https://drafts.csswg.org/css2/#propdef-line-height">https://drafts.csswg.org/css2/#propdef-line-height</a><b>Referenced in:</b>
+  <aside class="dfn-panel" data-for="term-for-value-def-absolute-size">
+   <a href="https://drafts.csswg.org/css2/#value-def-absolute-size">https://drafts.csswg.org/css2/#value-def-absolute-size</a><b>Referenced in:</b>
    <ul>
-    <li><a href="#ref-for-propdef-line-height">2.6. 
-Relative sizing: the font-size-adjust property</a> <a href="#ref-for-propdef-line-height①">(2)</a> <a href="#ref-for-propdef-line-height②">(3)</a>
-    <li><a href="#ref-for-propdef-line-height③">2.7. 
-Shorthand font property: the font property</a> <a href="#ref-for-propdef-line-height④">(2)</a> <a href="#ref-for-propdef-line-height⑤">(3)</a>
-    <li><a href="#ref-for-propdef-line-height⑥">5.2. Matching font styles</a>
+    <li><a href="#ref-for-value-def-absolute-size">2.5. 
+Font size: the font-size property</a> <a href="#ref-for-value-def-absolute-size①">(2)</a> <a href="#ref-for-value-def-absolute-size②">(3)</a>
+   </ul>
+  </aside>
+  <aside class="dfn-panel" data-for="term-for-value-def-relative-size">
+   <a href="https://drafts.csswg.org/css2/#value-def-relative-size">https://drafts.csswg.org/css2/#value-def-relative-size</a><b>Referenced in:</b>
+   <ul>
+    <li><a href="#ref-for-value-def-relative-size">2.5. 
+Font size: the font-size property</a> <a href="#ref-for-value-def-relative-size①">(2)</a> <a href="#ref-for-value-def-relative-size②">(3)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-font-size-medium">
@@ -8604,7 +8569,7 @@ Capitalization: the font-variant-caps property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-cssomstring">
-   <a href="https://drafts.csswg.org/cssom-1/#cssomstring">https://drafts.csswg.org/cssom-1/#cssomstring</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#cssomstring">https://drafts.csswg.org/cssom/#cssomstring</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-cssomstring">11.2. 
 The CSSFontFeatureValuesRule interface</a> <a href="#ref-for-cssomstring①">(2)</a> <a href="#ref-for-cssomstring②">(3)</a>
@@ -8613,7 +8578,7 @@ The CSSFontPaletteValuesRule interface</a> <a href="#ref-for-cssomstring④">(2)
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-cssrule">
-   <a href="https://drafts.csswg.org/cssom-1/#cssrule">https://drafts.csswg.org/cssom-1/#cssrule</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#cssrule">https://drafts.csswg.org/cssom/#cssrule</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-cssrule">11.1. 
 The CSSFontFaceRule interface</a>
@@ -8624,20 +8589,20 @@ The CSSFontPaletteValuesRule interface</a> <a href="#ref-for-cssrule④">(2)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-cssstyledeclaration">
-   <a href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration">https://drafts.csswg.org/cssom-1/#cssstyledeclaration</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#cssstyledeclaration">https://drafts.csswg.org/cssom/#cssstyledeclaration</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-cssstyledeclaration">11.1. 
 The CSSFontFaceRule interface</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-cssstyledeclaration-declarations">
-   <a href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-declarations">https://drafts.csswg.org/cssom-1/#cssstyledeclaration-declarations</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#cssstyledeclaration-declarations">https://drafts.csswg.org/cssom/#cssstyledeclaration-declarations</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-cssstyledeclaration-declarations">6.9.1. Basic syntax</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-dom-window-getcomputedstyle">
-   <a href="https://drafts.csswg.org/cssom-1/#dom-window-getcomputedstyle">https://drafts.csswg.org/cssom-1/#dom-window-getcomputedstyle</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom/#dom-window-getcomputedstyle">https://drafts.csswg.org/cssom/#dom-window-getcomputedstyle</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dom-window-getcomputedstyle">2.3. 
 Font width: the font-stretch property</a>
@@ -8735,14 +8700,9 @@ The CSSFontPaletteValuesRule interface</a>
      <li><span class="dfn-paneled" id="term-for-valdef-line-width-medium">medium</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[css-cascade-5]</a> defines the following terms:
+    <a data-link-type="biblio">[css-cascade-4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-valdef-all-inherit">inherit</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[css-color-3]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="term-for-valuea-def-color">&lt;color></span>
     </ul>
    <li>
     <a data-link-type="biblio">[css-color-4]</a> defines the following terms:
@@ -8754,14 +8714,6 @@ The CSSFontPaletteValuesRule interface</a>
     <ul>
      <li><span class="dfn-paneled" id="term-for-valdef-display-block">block</span>
      <li><span class="dfn-paneled" id="term-for-containing-block">containing block</span>
-    </ul>
-   <li>
-    <a data-link-type="biblio">[CSS-FONTS-3]</a> defines the following terms:
-    <ul>
-     <li><span class="dfn-paneled" id="term-for-absolute-size-value">&lt;absolute-size></span>
-     <li><span class="dfn-paneled" id="term-for-feature-tag-value">&lt;feature-tag-value></span>
-     <li><span class="dfn-paneled" id="term-for-font-face-name-value">&lt;font-face-name></span>
-     <li><span class="dfn-paneled" id="term-for-relative-size-value">&lt;relative-size></span>
     </ul>
    <li>
     <a data-link-type="biblio">[css-inline-3]</a> defines the following terms:
@@ -8834,7 +8786,8 @@ The CSSFontPaletteValuesRule interface</a>
    <li>
     <a data-link-type="biblio">[CSS2]</a> defines the following terms:
     <ul>
-     <li><span class="dfn-paneled" id="term-for-propdef-line-height">line-height</span>
+     <li><span class="dfn-paneled" id="term-for-value-def-absolute-size">&lt;absolute-size></span>
+     <li><span class="dfn-paneled" id="term-for-value-def-relative-size">&lt;relative-size></span>
      <li><span class="dfn-paneled" id="term-for-valdef-font-size-medium">medium</span>
      <li><span class="dfn-paneled" id="term-for-valdef-font-style-oblique">oblique</span>
     </ul>
@@ -8871,7 +8824,7 @@ The CSSFontPaletteValuesRule interface</a>
      <li><span class="dfn-paneled" id="term-for-tuple">tuple</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[WebIDL]</a> defines the following terms:
+    <a data-link-type="biblio">[WebIDL-20161215]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-Exposed">Exposed</span>
      <li><span class="dfn-paneled" id="term-for-syntaxerror">SyntaxError</span>
@@ -8889,10 +8842,8 @@ The CSSFontPaletteValuesRule interface</a>
    <dd><a href="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html">Apple Advanced Typography Font Feature Registry</a>. URL: <a href="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html">https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html</a>
    <dt id="biblio-css-backgrounds-3">[CSS-BACKGROUNDS-3]
    <dd>Bert Bos; Elika Etemad; Brad Kemper. <a href="https://www.w3.org/TR/css-backgrounds-3/">CSS Backgrounds and Borders Module Level 3</a>. 22 December 2020. CR. URL: <a href="https://www.w3.org/TR/css-backgrounds-3/">https://www.w3.org/TR/css-backgrounds-3/</a>
-   <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
-   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-5/">CSS Cascading and Inheritance Level 5</a>. 8 June 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-5/">https://www.w3.org/TR/css-cascade-5/</a>
-   <dt id="biblio-css-color-3">[CSS-COLOR-3]
-   <dd>Tantek Çelik; Chris Lilley; David Baron. <a href="https://www.w3.org/TR/css-color-3/">CSS Color Module Level 3</a>. 19 June 2018. REC. URL: <a href="https://www.w3.org/TR/css-color-3/">https://www.w3.org/TR/css-color-3/</a>
+   <dt id="biblio-css-cascade-4">[CSS-CASCADE-4]
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-4/">CSS Cascading and Inheritance Level 4</a>. 19 March 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-4/">https://www.w3.org/TR/css-cascade-4/</a>
    <dt id="biblio-css-color-4">[CSS-COLOR-4]
    <dd>Tab Atkins Jr.; Chris Lilley. <a href="https://www.w3.org/TR/css-color-4/">CSS Color Module Level 4</a>. 1 June 2021. WD. URL: <a href="https://www.w3.org/TR/css-color-4/">https://www.w3.org/TR/css-color-4/</a>
    <dt id="biblio-css-fonts-3">[CSS-FONTS-3]
@@ -8933,8 +8884,8 @@ The CSSFontPaletteValuesRule interface</a>
    <dd><a href="https://www.unicode.org/versions/latest/">The Unicode Standard</a>. URL: <a href="https://www.unicode.org/versions/latest/">https://www.unicode.org/versions/latest/</a>
    <dt id="biblio-uts51">[UTS51]
    <dd>Mark Davis; Peter Edberg. <a href="https://www.unicode.org/reports/tr51/tr51-19.html">Unicode Emoji</a>. 18 September 2020. Unicode Technical Standard #51. URL: <a href="https://www.unicode.org/reports/tr51/tr51-19.html">https://www.unicode.org/reports/tr51/tr51-19.html</a>
-   <dt id="biblio-webidl">[WebIDL]
-   <dd>Boris Zbarsky. <a href="https://heycam.github.io/webidl/">Web IDL</a>. 15 December 2016. ED. URL: <a href="https://heycam.github.io/webidl/">https://heycam.github.io/webidl/</a>
+   <dt id="biblio-webidl-20161215">[WebIDL-20161215]
+   <dd>Cameron McCormack. <a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">WebIDL Level 1</a>. 15 December 2016. REC. URL: <a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/</a>
   </dl>
   <h3 class="no-num no-ref heading settled" id="informative"><span class="content">Informative References</span><a class="self-link" href="#informative"></a></h3>
   <dl>
@@ -9303,7 +9254,7 @@ annotation(&lt;feature-value-name>) ]
       <td>auto | &lt;string>
       <td>auto
      <tr>
-      <th scope="row"><a class="css" data-link-type="descriptor" href="#descdef-font-face-font-stretch" id="ref-for-descdef-font-face-font-stretch②">font-stretch</a>
+      <th scope="row"><a class="css" data-link-type="descriptor" href="#descdef-font-face-font-stretch" id="ref-for-descdef-font-face-font-stretch③">font-stretch</a>
       <td>auto | &lt;'font-stretch'>{1,2}
       <td>auto
      <tr>
@@ -9372,15 +9323,15 @@ annotation(&lt;feature-value-name>) ]
   </div>
   <h2 class="no-num no-ref heading settled" id="idl-index"><span class="content">IDL Index</span><a class="self-link" href="#idl-index"></a></h2>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
-<c- b>interface</c-> <a href="#cssfontfacerule"><code><c- g>CSSFontFaceRule</c-></code></a> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssrule"><c- n>CSSRule</c-></a> {
-    <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration"><c- n>CSSStyleDeclaration</c-></a> <a data-readonly data-type="CSSStyleDeclaration" href="#dom-cssfontfacerule-style"><code><c- g>style</c-></code></a>;
+<c- b>interface</c-> <a href="#cssfontfacerule"><code><c- g>CSSFontFaceRule</c-></code></a> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssrule"><c- n>CSSRule</c-></a> {
+    <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssstyledeclaration"><c- n>CSSStyleDeclaration</c-></a> <a data-readonly data-type="CSSStyleDeclaration" href="#dom-cssfontfacerule-style"><code><c- g>style</c-></code></a>;
 };
 
-<c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://drafts.csswg.org/cssom-1/#cssrule"><c- g>CSSRule</c-></a> {  <c- b>const</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-short"><c- b>unsigned</c-> <c- b>short</c-></a> <a href="#dom-cssrule-font_feature_values_rule"><code><c- g>FONT_FEATURE_VALUES_RULE</c-></code></a> = 14;
+<c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://drafts.csswg.org/cssom/#cssrule"><c- g>CSSRule</c-></a> {  <c- b>const</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-short"><c- b>unsigned</c-> <c- b>short</c-></a> <a href="#dom-cssrule-font_feature_values_rule"><code><c- g>FONT_FEATURE_VALUES_RULE</c-></code></a> = 14;
 };
 [<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
-<c- b>interface</c-> <a href="#cssfontfeaturevaluesrule①"><code><c- g>CSSFontFeatureValuesRule</c-></code></a> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssrule"><c- n>CSSRule</c-></a> {
-  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a data-type="CSSOMString" href="#dom-cssfontfeaturevaluesrule-fontfamily"><code><c- g>fontFamily</c-></code></a>;
+<c- b>interface</c-> <a href="#cssfontfeaturevaluesrule①"><code><c- g>CSSFontFeatureValuesRule</c-></code></a> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssrule"><c- n>CSSRule</c-></a> {
+  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a data-type="CSSOMString" href="#dom-cssfontfeaturevaluesrule-fontfamily"><code><c- g>fontFamily</c-></code></a>;
   <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="#cssfontfeaturevaluesmap"><c- n>CSSFontFeatureValuesMap</c-></a> <a data-readonly data-type="CSSFontFeatureValuesMap" href="#dom-cssfontfeaturevaluesrule-annotation"><code><c- g>annotation</c-></code></a>;
   <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="#cssfontfeaturevaluesmap"><c- n>CSSFontFeatureValuesMap</c-></a> <a data-readonly data-type="CSSFontFeatureValuesMap" href="#dom-cssfontfeaturevaluesrule-ornaments"><code><c- g>ornaments</c-></code></a>;
   <c- b>readonly</c-> <c- b>attribute</c-> <a data-link-type="idl-name" href="#cssfontfeaturevaluesmap"><c- n>CSSFontFeatureValuesMap</c-></a> <a data-readonly data-type="CSSFontFeatureValuesMap" href="#dom-cssfontfeaturevaluesrule-stylistic"><code><c- g>stylistic</c-></code></a>;
@@ -9391,19 +9342,19 @@ annotation(&lt;feature-value-name>) ]
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
 <c- b>interface</c-> <a href="#cssfontfeaturevaluesmap"><code><c- g>CSSFontFeatureValuesMap</c-></code></a> {
-  <c- b>maplike</c->&lt;<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a>, <a data-link-type="dfn" href="https://heycam.github.io/webidl/#idl-sequence"><c- b>sequence</c-></a>&lt;<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a>>>;
-  <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined"><c- b>undefined</c-></a> <a href="#dom-cssfontfeaturevaluesmap-set"><code><c- g>set</c-></code></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a href="#dom-cssfontfeaturevaluesmap-set-featurevaluename-values-featurevaluename"><code><c- g>featureValueName</c-></code></a>,
+  <c- b>maplike</c->&lt;<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a>, <a data-link-type="dfn" href="https://heycam.github.io/webidl/#idl-sequence"><c- b>sequence</c-></a>&lt;<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a>>>;
+  <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-undefined"><c- b>undefined</c-></a> <a href="#dom-cssfontfeaturevaluesmap-set"><code><c- g>set</c-></code></a>(<a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a href="#dom-cssfontfeaturevaluesmap-set-featurevaluename-values-featurevaluename"><code><c- g>featureValueName</c-></code></a>,
            (<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a> <c- b>or</c-> <a data-link-type="dfn" href="https://heycam.github.io/webidl/#idl-sequence"><c- b>sequence</c-></a>&lt;<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a>>) <a href="#dom-cssfontfeaturevaluesmap-set-featurevaluename-values-values"><code><c- g>values</c-></code></a>);
 };
 
-<c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://drafts.csswg.org/cssom-1/#cssrule"><c- g>CSSRule</c-></a> {  <c- b>const</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-short"><c- b>unsigned</c-> <c- b>short</c-></a> <a href="#dom-cssrule-font_palette_values_rule"><code><c- g>FONT_PALETTE_VALUES_RULE</c-></code></a> = 15;
+<c- b>partial</c-> <c- b>interface</c-> <a class="idl-code" data-link-type="interface" href="https://drafts.csswg.org/cssom/#cssrule"><c- g>CSSRule</c-></a> {  <c- b>const</c-> <a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-short"><c- b>unsigned</c-> <c- b>short</c-></a> <a href="#dom-cssrule-font_palette_values_rule"><code><c- g>FONT_PALETTE_VALUES_RULE</c-></code></a> = 15;
 };
 
 [<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
-<c- b>interface</c-> <a href="#cssfontpalettevaluesrule"><code><c- g>CSSFontPaletteValuesRule</c-></code></a> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssrule"><c- n>CSSRule</c-></a> {
-  <c- b>maplike</c->&lt;<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a>, <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a>>;
-  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a data-type="CSSOMString" href="#dom-cssfontpalettevaluesrule-fontfamily"><code><c- g>fontFamily</c-></code></a>;
-  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom-1/#cssomstring"><c- n>CSSOMString</c-></a> <a data-type="CSSOMString" href="#dom-cssfontpalettevaluesrule-basepalette"><code><c- g>basePalette</c-></code></a>;
+<c- b>interface</c-> <a href="#cssfontpalettevaluesrule"><code><c- g>CSSFontPaletteValuesRule</c-></code></a> : <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssrule"><c- n>CSSRule</c-></a> {
+  <c- b>maplike</c->&lt;<a class="idl-code" data-link-type="interface" href="https://heycam.github.io/webidl/#idl-unsigned-long"><c- b>unsigned</c-> <c- b>long</c-></a>, <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a>>;
+  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a data-type="CSSOMString" href="#dom-cssfontpalettevaluesrule-fontfamily"><code><c- g>fontFamily</c-></code></a>;
+  <c- b>attribute</c-> <a data-link-type="idl-name" href="https://drafts.csswg.org/cssom/#cssomstring"><c- n>CSSOMString</c-></a> <a data-type="CSSOMString" href="#dom-cssfontpalettevaluesrule-basepalette"><code><c- g>basePalette</c-></code></a>;
 };
 </pre>
   <h2 class="no-num no-ref heading settled" id="issues-index"><span class="content">Issues Index</span><a class="self-link" href="#issues-index"></a></h2>
@@ -9937,8 +9888,8 @@ Feature and variation precedence</a>
    <ul>
     <li><a href="#ref-for-descdef-font-face-font-stretch">4.4. 
 Font property descriptors: the font-style, font-weight, and
-font-stretch descriptors</a>
-    <li><a href="#ref-for-descdef-font-face-font-stretch①">7.2. 
+font-stretch descriptors</a> <a href="#ref-for-descdef-font-face-font-stretch①">(2)</a>
+    <li><a href="#ref-for-descdef-font-face-font-stretch②">7.2. 
 Feature and variation precedence</a>
    </ul>
   </aside>

@@ -775,7 +775,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
   <main>
    <h2 class="heading settled" data-level="1" id="intro"><span class="secno">1. </span><span class="content">Introduction</span><a class="self-link" href="#intro"></a></h2>
    <p><em>This section is not normative.</em></p>
-   <p>Authors have possibilities to position objects like boxes or containers relative to each other or absolutely in their own coordinate system. CSS Transforms extends these possibilities with a set of transform functions allowing authors to mutate the object’s <a data-link-type="dfn" href="https://drafts.csswg.org/css-transforms-1/#local-coordinate-system" id="ref-for-local-coordinate-system">local coordinate system</a>. With CSS Animations and CSS Transitions, these static placements can change over a given period of time. Both kind of animations are powerful to express transitions in time but not suitable to describe transitions of location of an object over time.</p>
+   <p>Authors have possibilities to position objects like boxes or containers relative to each other or absolutely in their own coordinate system. CSS Transforms extends these possibilities with a set of transform functions allowing authors to mutate the object’s <a data-link-type="dfn" href="https://drafts.csswg.org/css-transforms/#local-coordinate-system" id="ref-for-local-coordinate-system">local coordinate system</a>. With CSS Animations and CSS Transitions, these static placements can change over a given period of time. Both kind of animations are powerful to express transitions in time but not suitable to describe transitions of location of an object over time.</p>
    <p>This specification allows authors to specify a path. The object can be positioned, transitioned and animated along this path over a given period of time. The time may be static if no animation was specified.</p>
    <div class="example" id="example-a09ee7e4">
     <a class="self-link" href="#example-a09ee7e4"></a> In the following example, a schematic of an air plane is animated along a path. The plane faces in the direction of the path at each position on the path. 
@@ -786,7 +786,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
    </div>
    <h2 class="heading settled" data-level="2" id="placement"><span class="secno">2. </span><span class="content">Module interactions</span><a class="self-link" href="#placement"></a></h2>
    <p>This specification defines a set of CSS properties that affect the visual rendering of elements to which those properties are applied. These effects are applied after <a href="https://www.w3.org/TR/css-display-3/#box">box</a>es have been sized and positioned according to the <a href="https://www.w3.org/TR/CSS2/visuren.html">Visual formatting model</a> from <a data-link-type="biblio" href="#biblio-css21">[CSS21]</a>. Some values of <a class="property" data-link-type="propdesc" href="#propdef-offset-path" id="ref-for-propdef-offset-path">offset-path</a> and <a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position">offset-position</a> result in the creation of a <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/render.html#TermStackingContext" id="ref-for-TermStackingContext">stacking context</a> and <a href="https://www.w3.org/TR/CSS2/visuren.html#containing-block">containing block</a>.</p>
-   <p>Some CSS properties in this specification manipulate the user coordinate system of the element by transformations. These transformations are pre-multiplied to transformations specified by the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-1/#propdef-transform" id="ref-for-propdef-transform">transform</a> property or deriving properties defined in CSS Transform Module Level 1 <a data-link-type="biblio" href="#biblio-css-transforms-1">[CSS-TRANSFORMS-1]</a>, and post-multiplied to transformations specified by the individual transform properties <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-2/#propdef-translate" id="ref-for-propdef-translate">translate</a>, <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-2/#propdef-scale" id="ref-for-propdef-scale">scale</a>, and <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-2/#propdef-rotate" id="ref-for-propdef-rotate">rotate</a>, as <a href="https://drafts.csswg.org/css-transforms-2/#ctm">explained</a> in <a href="https://drafts.csswg.org/css-transforms-2/">CSS Transform Module Level 2</a>.</p>
+   <p>Some CSS properties in this specification manipulate the user coordinate system of the element by transformations. These transformations are pre-multiplied to transformations specified by the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms/#propdef-transform" id="ref-for-propdef-transform">transform</a> property or deriving properties defined in CSS Transform Module Level 1 <a data-link-type="biblio" href="#biblio-css-transforms-1">[CSS-TRANSFORMS-1]</a>, and post-multiplied to transformations specified by the individual transform properties <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-2/#propdef-translate" id="ref-for-propdef-translate">translate</a>, <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-2/#propdef-scale" id="ref-for-propdef-scale">scale</a>, and <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-2/#propdef-rotate" id="ref-for-propdef-rotate">rotate</a>, as <a href="https://drafts.csswg.org/css-transforms-2/#ctm">explained</a> in <a href="https://drafts.csswg.org/css-transforms-2/">CSS Transform Module Level 2</a>.</p>
    <h2 class="heading settled" data-level="3" id="values"><span class="secno">3. </span><span class="content">Values</span><a class="self-link" href="#values"></a></h2>
    <p>This specification follows the <a href="https://www.w3.org/TR/CSS21/about.html#property-defs">CSS property definition conventions</a> from <a data-link-type="biblio" href="#biblio-css21">[CSS21]</a>. Basic shapes are defined in CSS Shapes Module Level 1 <a data-link-type="biblio" href="#biblio-css-shapes">[CSS-SHAPES]</a>. Value types not defined in these specifications are defined in CSS Values and Units Module Level 3 <a data-link-type="biblio" href="#biblio-css3val">[CSS3VAL]</a>.</p>
    <p>In addition to the property-specific values listed in their definitions, all properties defined in this specification also accept CSS-wide keywords such as <a href="https://drafts.csswg.org/css-cascade-4/#valdef-all-initial">initial</a> and <a href="https://drafts.csswg.org/css-cascade-4/#valdef-all-inherit">inherit</a> as their property value <a data-link-type="biblio" href="#biblio-css3val">[CSS3VAL]</a>. For readability it has not been repeated explicitly.</p>
@@ -815,7 +815,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
       <td><dfn class="dfn-paneled css" data-dfn-type="property" data-export id="propdef-offset-path">offset-path</dfn>
      <tr class="value">
       <th><a href="https://www.w3.org/TR/css-values/#value-defs">Value:</a>
-      <td class="prod">none <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one">|</a> <a class="production css" data-link-type="function" href="#funcdef-offset-path-ray" id="ref-for-funcdef-offset-path-ray">&lt;ray()></a> <span id="ref-for-comb-one①">|</span> <a class="production css" data-link-type="function" href="#funcdef-offsetpath-pathfunc-path" id="ref-for-funcdef-offsetpath-pathfunc-path">&lt;path()></a> <span id="ref-for-comb-one②">|</span> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#url-value" id="ref-for-url-value">&lt;url></a> <span id="ref-for-comb-one③">|</span> [ <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes-1/#typedef-basic-shape" id="ref-for-typedef-basic-shape">&lt;basic-shape></a> <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-all" id="ref-for-comb-all">&amp;&amp;</a> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-box-4/#typedef-coord-box" id="ref-for-typedef-coord-box">&lt;coord-box></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-opt" id="ref-for-mult-opt">?</a> ] <span id="ref-for-comb-one④">|</span> <span class="production" id="ref-for-typedef-coord-box①">&lt;coord-box></span>
+      <td class="prod">none <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-one" id="ref-for-comb-one">|</a> <a class="production css" data-link-type="function" href="#funcdef-offset-path-ray" id="ref-for-funcdef-offset-path-ray">&lt;ray()></a> <span id="ref-for-comb-one①">|</span> <a class="production css" data-link-type="function" href="#funcdef-offsetpath-pathfunc-path" id="ref-for-funcdef-offsetpath-pathfunc-path">&lt;path()></a> <span id="ref-for-comb-one②">|</span> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#url-value" id="ref-for-url-value">&lt;url></a> <span id="ref-for-comb-one③">|</span> [ <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes/#typedef-basic-shape" id="ref-for-typedef-basic-shape">&lt;basic-shape></a> <a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#comb-all" id="ref-for-comb-all">&amp;&amp;</a> <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-box-4/#typedef-coord-box" id="ref-for-typedef-coord-box">&lt;coord-box></a><a data-link-type="grammar" href="https://drafts.csswg.org/css-values-4/#mult-opt" id="ref-for-mult-opt">?</a> ] <span id="ref-for-comb-one④">|</span> <span class="production" id="ref-for-typedef-coord-box①">&lt;coord-box></span>
      <tr>
       <th><a href="https://www.w3.org/TR/css-cascade/#initial-values">Initial:</a>
       <td>none
@@ -882,31 +882,31 @@ and the <dfn data-dfn-for="offset path" data-dfn-type="dfn" data-export id="offs
        <p>The used value of <a class="property" data-link-type="propdesc" href="#propdef-offset-distance" id="ref-for-propdef-offset-distance④">offset-distance</a> is clamped so that the box is entirely contained within the path.</p>
        <p>If no <a class="property" data-link-type="propdesc" href="#propdef-offset-distance" id="ref-for-propdef-offset-distance⑤">offset-distance</a> would lead to the box being enclosed by the path, the path size is minimally increased so that such an <span class="property" id="ref-for-propdef-offset-distance⑥">offset-distance</span> exists.</p>
      </dl>
-    <dt data-md><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes-1/#typedef-basic-shape" id="ref-for-typedef-basic-shape①">&lt;basic-shape></a> &amp;&amp; <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-box-4/#typedef-coord-box" id="ref-for-typedef-coord-box②">&lt;coord-box></a>?
+    <dt data-md><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes/#typedef-basic-shape" id="ref-for-typedef-basic-shape①">&lt;basic-shape></a> &amp;&amp; <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-box-4/#typedef-coord-box" id="ref-for-typedef-coord-box②">&lt;coord-box></a>?
     <dd data-md>
      <p>The <a data-link-type="dfn" href="#offset-path" id="ref-for-offset-path②">offset path</a> is a basic shape as specified in CSS Shapes <a data-link-type="biblio" href="#biblio-css-shapes">[CSS-SHAPES]</a>.</p>
      <p><a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position②">offset-position</a> is ignored for circle and ellipse basic shapes with explicit center positions, and for other types of basic shapes. If a circle or ellipse basic shape has no explicit center position, the shape is centered at the <var>initial position</var> of the path, as described in <span class="property" id="ref-for-propdef-offset-position③">offset-position</span>.</p>
      <p>The <var>initial position</var> for basic shapes are defined as follows:</p>
      <dl>
-      <dt data-md><a class="production css" data-link-type="function" href="https://drafts.csswg.org/css-shapes-1/#funcdef-circle" id="ref-for-funcdef-circle">&lt;circle()></a>
-      <dt data-md><a class="production css" data-link-type="function" href="https://drafts.csswg.org/css-shapes-1/#funcdef-ellipse" id="ref-for-funcdef-ellipse">&lt;ellipse()></a>
+      <dt data-md><a class="production css" data-link-type="function" href="https://drafts.csswg.org/css-shapes/#funcdef-circle" id="ref-for-funcdef-circle">&lt;circle()></a>
+      <dt data-md><a class="production css" data-link-type="function" href="https://drafts.csswg.org/css-shapes/#funcdef-ellipse" id="ref-for-funcdef-ellipse">&lt;ellipse()></a>
       <dd data-md>
        <p>The <var>initial position</var> is defined by the point where a horizontal tangent to the circle/ellipse would reach the top vertical position.</p>
-      <dt data-md><a class="production css" data-link-type="function" href="https://drafts.csswg.org/css-shapes-1/#funcdef-inset" id="ref-for-funcdef-inset">&lt;inset()></a>
+      <dt data-md><a class="production css" data-link-type="function" href="https://drafts.csswg.org/css-shapes/#funcdef-inset" id="ref-for-funcdef-inset">&lt;inset()></a>
       <dd data-md>
-       <p>The <var>initial position</var> is the left end of the top horizontal line, immediately to the right of any <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-radius" id="ref-for-propdef-border-radius">border-radius</a> arc.</p>
-      <dt data-md><a class="production css" data-link-type="function" href="https://drafts.csswg.org/css-shapes-1/#funcdef-polygon" id="ref-for-funcdef-polygon">&lt;polygon()></a>
+       <p>The <var>initial position</var> is the left end of the top horizontal line, immediately to the right of any <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-border-radius" id="ref-for-propdef-border-radius">border-radius</a> arc.</p>
+      <dt data-md><a class="production css" data-link-type="function" href="https://drafts.csswg.org/css-shapes/#funcdef-polygon" id="ref-for-funcdef-polygon">&lt;polygon()></a>
       <dd data-md>
        <p>The <var>initial position</var> is defined by the first coordinate pair of the polygon.</p>
        <p>The <var>initial direction</var> is defined by the vector connecting.</p>
        <p>the <var>initial position</var> with the next following coordinate pair that isn’t equal to the <var>initial position</var>.</p>
      </dl>
-     <p>The <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-box-4/#typedef-coord-box" id="ref-for-typedef-coord-box③">&lt;coord-box></a> specified in combination with a <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes-1/#typedef-basic-shape" id="ref-for-typedef-basic-shape②">&lt;basic-shape></a> provides the reference box for the <span class="production" id="ref-for-typedef-basic-shape③">&lt;basic-shape></span>. If no reference box is specified, it defaults to <span class="css">border-box</span>.</p>
+     <p>The <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-box-4/#typedef-coord-box" id="ref-for-typedef-coord-box③">&lt;coord-box></a> specified in combination with a <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes/#typedef-basic-shape" id="ref-for-typedef-basic-shape②">&lt;basic-shape></a> provides the reference box for the <span class="production" id="ref-for-typedef-basic-shape③">&lt;basic-shape></span>. If no reference box is specified, it defaults to <span class="css">border-box</span>.</p>
      <p>Apart from polygons with non-zero length, the <var>initial direction</var> is 90 degrees (i.e. to the right).</p>
      <p class="note" role="note"><span>Note:</span> This gives <span class="css">0deg</span> rotation when <a class="property" data-link-type="propdesc" href="#propdef-offset-rotate" id="ref-for-propdef-offset-rotate②">offset-rotate</a> is <a class="css" data-link-type="maybe" href="#valdef-offset-rotate-auto" id="ref-for-valdef-offset-rotate-auto">auto</a>.</p>
     <dt data-md><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-box-4/#typedef-coord-box" id="ref-for-typedef-coord-box④">&lt;coord-box></a>
     <dd data-md>
-     <p>The <var>initial position</var> is the left end of the top horizontal line, immediately to the right of any <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-radius" id="ref-for-propdef-border-radius①">border-radius</a> arc, and the <var>initial direction</var> is to the right.</p>
+     <p>The <var>initial position</var> is the left end of the top horizontal line, immediately to the right of any <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-border-radius" id="ref-for-propdef-border-radius①">border-radius</a> arc, and the <var>initial direction</var> is to the right.</p>
     <dt data-md><dfn class="dfn-paneled css" data-dfn-for="offsetpath-pathfunc" data-dfn-type="function" data-export id="funcdef-offsetpath-pathfunc-path">path()</dfn> = path( <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#string-value" id="ref-for-string-value">&lt;string></a> )
     <dd data-md>
      <p>The <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-3/#string-value" id="ref-for-string-value①">&lt;string></a> represents an SVG Path data string.
@@ -920,13 +920,13 @@ See SVG 1.1 for more information about the <var>initial position</var> and <var>
     <dd data-md>
      <p>No <a data-link-type="dfn" href="#offset-path" id="ref-for-offset-path④">offset path</a> gets created. When <a class="property" data-link-type="propdesc" href="#propdef-offset-path" id="ref-for-propdef-offset-path③">offset-path</a> is <a href="#offsetpath-none" id="ref-for-offsetpath-none">none</a>, <a class="property" data-link-type="propdesc" href="#propdef-offset-distance" id="ref-for-propdef-offset-distance⑦">offset-distance</a> and <a class="property" data-link-type="propdesc" href="#propdef-offset-rotate" id="ref-for-propdef-offset-rotate③">offset-rotate</a> have no effect.</p>
    </dl>
-   <p>A computed value of other than <a href="#offsetpath-none" id="ref-for-offsetpath-none①">none</a> results in the creation of a <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/render.html#TermStackingContext" id="ref-for-TermStackingContext①">stacking context</a> <a data-link-type="biblio" href="#biblio-css21">[CSS21]</a> and <a href="https://www.w3.org/TR/CSS2/visuren.html#containing-block">containing block</a>, per usual for <a href="https://drafts.csswg.org/css-transforms-1/#propdef-transform" id="termref-for-propdef-transform">transforms</a>.</p>
+   <p>A computed value of other than <a href="#offsetpath-none" id="ref-for-offsetpath-none①">none</a> results in the creation of a <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/render.html#TermStackingContext" id="ref-for-TermStackingContext①">stacking context</a> <a data-link-type="biblio" href="#biblio-css21">[CSS21]</a> and <a href="https://www.w3.org/TR/CSS2/visuren.html#containing-block">containing block</a>, per usual for <a href="https://drafts.csswg.org/css-transforms-1/#propdef-transform">transforms</a>.</p>
    <p>A reference that fails to download, is not a reference to an SVG <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/shapes.html#TermShapeElement" id="ref-for-TermShapeElement①">shape element</a>, or is non-existent, is treated as equivalent to <code>path("m 0 0")</code>.</p>
    <p class="note" role="note"><span>Note:</span> This is a zero length path with <a href="https://www.w3.org/TR/SVG11/implnote.html#PathElementImplementationNotes">directionality</a> aligned with the positive x-axis.</p>
    <p></p>
    <p>See the section <a href="#calculating-path-transform">“Calculating the path transform”</a> for how to use the <a data-link-type="dfn" href="#offset-path" id="ref-for-offset-path⑤">offset path</a> to compute the transform.</p>
-   <p>For SVG <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/shapes.html#TermShapeElement" id="ref-for-TermShapeElement②">shape element</a>s without associated CSS layout box, the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#used-value" id="ref-for-used-value">used value</a> for <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-content-box" id="ref-for-valdef-mask-clip-content-box">content-box</a>, <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-padding-box" id="ref-for-valdef-mask-clip-padding-box">padding-box</a>, <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-border-box" id="ref-for-valdef-mask-clip-border-box">border-box</a> and <a class="css" data-link-type="value" href="https://www.w3.org/TR/css-masking-1/#valuedef-margin-box0" id="ref-for-valuedef-margin-box0">margin-box</a> is <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-clip-path-fill-box" id="ref-for-valdef-clip-path-fill-box">fill-box</a>.</p>
-   <p>For <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/shapes.html#TermShapeElement" id="ref-for-TermShapeElement③">shape element</a>s with associated CSS layout box, the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade-5/#used-value" id="ref-for-used-value①">used value</a> for <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-clip-path-fill-box" id="ref-for-valdef-clip-path-fill-box①">fill-box</a>, <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-clip-path-stroke-box" id="ref-for-valdef-clip-path-stroke-box">stroke-box</a> and <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-clip-path-view-box" id="ref-for-valdef-clip-path-view-box">view-box</a> is <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-border-box" id="ref-for-valdef-mask-clip-border-box①">border-box</a>.</p>
+   <p>For SVG <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/shapes.html#TermShapeElement" id="ref-for-TermShapeElement②">shape element</a>s without associated CSS layout box, the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#used-value" id="ref-for-used-value">used value</a> for <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-content-box" id="ref-for-valdef-mask-clip-content-box">content-box</a>, <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-padding-box" id="ref-for-valdef-mask-clip-padding-box">padding-box</a>, <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-border-box" id="ref-for-valdef-mask-clip-border-box">border-box</a> and <a class="css" data-link-type="value" href="https://www.w3.org/TR/css-masking-1/#valuedef-margin-box0" id="ref-for-valuedef-margin-box0">margin-box</a> is <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-clip-path-fill-box" id="ref-for-valdef-clip-path-fill-box">fill-box</a>.</p>
+   <p>For <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/shapes.html#TermShapeElement" id="ref-for-TermShapeElement③">shape element</a>s with associated CSS layout box, the <a data-link-type="dfn" href="https://drafts.csswg.org/css-cascade/#used-value" id="ref-for-used-value①">used value</a> for <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-clip-path-fill-box" id="ref-for-valdef-clip-path-fill-box①">fill-box</a>, <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-clip-path-stroke-box" id="ref-for-valdef-clip-path-stroke-box">stroke-box</a> and <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-clip-path-view-box" id="ref-for-valdef-clip-path-view-box">view-box</a> is <a class="css" data-link-type="value" href="https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-border-box" id="ref-for-valdef-mask-clip-border-box①">border-box</a>.</p>
    <h4 class="heading settled" data-level="4.1.1" id="example-ray"><span class="secno">4.1.1. </span><span class="content">Examples Of <a class="css" data-link-type="maybe" href="#funcdef-offset-path-ray" id="ref-for-funcdef-offset-path-ray①">ray()</a> Positioning</span><a class="self-link" href="#example-ray"></a></h4>
    <div class="example" id="example-c2ddc1d0">
     <a class="self-link" href="#example-c2ddc1d0"></a> Here are some examples. The first example shows that some parts of boxes are outside of the <a data-link-type="dfn" href="#offset-path" id="ref-for-offset-path⑥">offset path</a>. 
@@ -1055,7 +1055,7 @@ See SVG 1.1 for more information about the <var>initial position</var> and <var>
      <figcaption>Initial position outside the containing block</figcaption>
     </figure>
    </div>
-   <h4 class="heading settled" data-level="4.1.2" id="example-shape"><span class="secno">4.1.2. </span><span class="content">Examples Of <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes-1/#typedef-basic-shape" id="ref-for-typedef-basic-shape④">&lt;basic-shape></a> Positioning</span><a class="self-link" href="#example-shape"></a></h4>
+   <h4 class="heading settled" data-level="4.1.2" id="example-shape"><span class="secno">4.1.2. </span><span class="content">Examples Of <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-shapes/#typedef-basic-shape" id="ref-for-typedef-basic-shape④">&lt;basic-shape></a> Positioning</span><a class="self-link" href="#example-shape"></a></h4>
    <div class="example" id="example-11a5a836">
     <a class="self-link" href="#example-11a5a836"></a> This example uses a circle with implicit center position. 
 <pre><code class="highlight"><c- p>&lt;</c-><c- f>style</c-><c- p>></c->
@@ -1092,7 +1092,7 @@ See SVG 1.1 for more information about the <var>initial position</var> and <var>
    </div>
    <h4 class="heading settled" data-level="4.1.3" id="example-coord"><span class="secno">4.1.3. </span><span class="content">Examples of <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-box-4/#typedef-coord-box" id="ref-for-typedef-coord-box⑤">&lt;coord-box></a> Positioning</span><a class="self-link" href="#example-coord"></a></h4>
    <div class="example" id="example-1ea93cf3">
-    <a class="self-link" href="#example-1ea93cf3"></a> This example shows how <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-box-4/#typedef-coord-box" id="ref-for-typedef-coord-box⑥">&lt;coord-box></a> <a data-link-type="dfn" href="#offset-path" id="ref-for-offset-path⑦">offset path</a> works in combination with <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-radius" id="ref-for-propdef-border-radius②">border-radius</a>. 
+    <a class="self-link" href="#example-1ea93cf3"></a> This example shows how <a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-box-4/#typedef-coord-box" id="ref-for-typedef-coord-box⑥">&lt;coord-box></a> <a data-link-type="dfn" href="#offset-path" id="ref-for-offset-path⑦">offset path</a> works in combination with <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-border-radius" id="ref-for-propdef-border-radius②">border-radius</a>. 
 <pre><code class="highlight"><c- p>&lt;</c-><c- f>style</c-><c- p>></c->
     <c- f>body</c-> <c- p>{</c->
         <c- k>width</c-><c- p>:</c-> <c- mi>500</c-><c- b>px</c-><c- p>;</c->
@@ -1362,19 +1362,19 @@ where the output is always non-negative.</p>
       <th>Media:
       <td>visual
    </table>
-   <p>Specifies the <var>initial position</var> of the <a data-link-type="dfn" href="#offset-path" id="ref-for-offset-path②③">offset path</a>. If <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position-3/#propdef-position" id="ref-for-propdef-position">position</a> is specified with <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-position-3/#valdef-position-static" id="ref-for-valdef-position-static">static</a>, <a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position⑤">offset-position</a> would be ignored.</p>
+   <p>Specifies the <var>initial position</var> of the <a data-link-type="dfn" href="#offset-path" id="ref-for-offset-path②③">offset path</a>. If <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position/#propdef-position" id="ref-for-propdef-position">position</a> is specified with <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-position/#valdef-position-static" id="ref-for-valdef-position-static">static</a>, <a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position⑤">offset-position</a> would be ignored.</p>
    <p>Values are defined as follows:</p>
    <dl>
     <dt data-md><var>auto</var>
     <dd data-md>
-     <p>Indicates the <var>initial position</var> is the position of the box specified with <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position-3/#propdef-position" id="ref-for-propdef-position①">position</a> property.</p>
-     <p class="note" role="note"><span>Note:</span> When <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position-3/#propdef-position" id="ref-for-propdef-position②">position</a> is <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-position-3/#valdef-position-static" id="ref-for-valdef-position-static①">static</a> and <a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position⑥">offset-position</a> is <a class="css" data-link-type="maybe" href="#valdef-offset-rotate-auto" id="ref-for-valdef-offset-rotate-auto①">auto</a> (and not ignored due to <a class="property" data-link-type="propdesc" href="#propdef-offset-path" id="ref-for-propdef-offset-path⑨">offset-path</a>), we have positioning relative to <a href="https://drafts.csswg.org/css-position-3/#normal-flow">normal flow</a>.</p>
+     <p>Indicates the <var>initial position</var> is the position of the box specified with <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position/#propdef-position" id="ref-for-propdef-position①">position</a> property.</p>
+     <p class="note" role="note"><span>Note:</span> When <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position/#propdef-position" id="ref-for-propdef-position②">position</a> is <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-position/#valdef-position-static" id="ref-for-valdef-position-static①">static</a> and <a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position⑥">offset-position</a> is <a class="css" data-link-type="maybe" href="#valdef-offset-rotate-auto" id="ref-for-valdef-offset-rotate-auto①">auto</a> (and not ignored due to <a class="property" data-link-type="propdesc" href="#propdef-offset-path" id="ref-for-propdef-offset-path⑨">offset-path</a>), we have positioning relative to <a href="https://drafts.csswg.org/css-position-3/#normal-flow">normal flow</a>.</p>
     <dt data-md><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#typedef-position" id="ref-for-typedef-position①">&lt;position></a>
     <dd data-md>
      <p>Specifies the <var>initial position</var>, with the the containing block as the positioning area and a dimensionless point (zero-sized box) as the object area.</p>
      <p class="note" role="note"><span>Note:</span> This is similar to absolute positioning, except that <a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position⑦">offset-position</a> does not prevent boxes from impacting the layout of later siblings.</p>
    </dl>
-   <p>A computed value of other than <a class="css" data-link-type="maybe" href="#valdef-offset-rotate-auto" id="ref-for-valdef-offset-rotate-auto②">auto</a> results in the creation of a <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/render.html#TermStackingContext" id="ref-for-TermStackingContext②">stacking context</a> <a data-link-type="biblio" href="#biblio-css21">[CSS21]</a> and <a href="https://www.w3.org/TR/CSS2/visuren.html#containing-block">containing block</a>, per usual for <a href="https://drafts.csswg.org/css-transforms-1/#propdef-transform" id="termref-for-propdef-transform①">transforms</a>.</p>
+   <p>A computed value of other than <a class="css" data-link-type="maybe" href="#valdef-offset-rotate-auto" id="ref-for-valdef-offset-rotate-auto②">auto</a> results in the creation of a <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/render.html#TermStackingContext" id="ref-for-TermStackingContext②">stacking context</a> <a data-link-type="biblio" href="#biblio-css21">[CSS21]</a> and <a href="https://www.w3.org/TR/CSS2/visuren.html#containing-block">containing block</a>, per usual for <a href="https://drafts.csswg.org/css-transforms-1/#propdef-transform">transforms</a>.</p>
    <p><a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position⑧">offset-position</a> is ignored if <a class="property" data-link-type="propdesc" href="#propdef-offset-path" id="ref-for-propdef-offset-path①⓪">offset-path</a> is a geometry-box, or a basic shape (other than a circle or ellipse with implicit center). In these cases, the geometry-box or basic shape specifies the <var>initial position</var>.</p>
    <div class="example" id="example-d288583a">
     <a class="self-link" href="#example-d288583a"></a> This example shows positioning a box with <a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position⑨">offset-position</a>. 
@@ -1410,7 +1410,7 @@ where the output is always non-negative.</p>
     </figure>
    </div>
    <div class="example" id="example-43c03a15">
-    <a class="self-link" href="#example-43c03a15"></a> This example shows the interaction with the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-1/#propdef-transform" id="ref-for-propdef-transform①">transform</a> property, and with an individual transform property (<a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-2/#propdef-rotate" id="ref-for-propdef-rotate①">rotate</a>). The motion path transform is a vertical translation moving (<a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position-3/#propdef-left" id="ref-for-propdef-left">left</a>, <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position-3/#propdef-top" id="ref-for-propdef-top">top</a>) to <a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position①①">offset-position</a>. 
+    <a class="self-link" href="#example-43c03a15"></a> This example shows the interaction with the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms/#propdef-transform" id="ref-for-propdef-transform①">transform</a> property, and with an individual transform property (<a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-2/#propdef-rotate" id="ref-for-propdef-rotate①">rotate</a>). The motion path transform is a vertical translation moving (<a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position/#propdef-left" id="ref-for-propdef-left">left</a>, <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position/#propdef-top" id="ref-for-propdef-top">top</a>) to <a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position①①">offset-position</a>. 
 <pre><code class="highlight"><c- p>&lt;</c-><c- f>style</c-><c- p>></c->
     <c- p>#</c-><c- nn>wrap</c-> <c- p>{</c->
         <c- k>transform-style</c-><c- p>:</c-> <c- kc>preserve-3d</c-><c- p>;</c->
@@ -1459,7 +1459,7 @@ where the output is always non-negative.</p>
     </figure>
    </div>
    <div class="example" id="example-c1988e48">
-    <a class="self-link" href="#example-c1988e48"></a> This example uses <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position-3/#propdef-position" id="ref-for-propdef-position③">position</a> <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-position-3/#valdef-position-static" id="ref-for-valdef-position-static②">static</a>, so <a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position①②">offset-position</a> generates translations from the <a href="https://drafts.csswg.org/css-position/#normal-flow">normal flow</a> positions. By amplifying these translations using <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-2/#propdef-scale" id="ref-for-propdef-scale①">scale</a>, the normal flow is rotated 180 degrees around the <span class="property" id="ref-for-propdef-offset-position①③">offset-position</span>, and the boxes are exploded away from each other. 
+    <a class="self-link" href="#example-c1988e48"></a> This example uses <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-position/#propdef-position" id="ref-for-propdef-position③">position</a> <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-position/#valdef-position-static" id="ref-for-valdef-position-static②">static</a>, so <a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position①②">offset-position</a> generates translations from the <a href="https://drafts.csswg.org/css-position/#normal-flow">normal flow</a> positions. By amplifying these translations using <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-2/#propdef-scale" id="ref-for-propdef-scale①">scale</a>, the normal flow is rotated 180 degrees around the <span class="property" id="ref-for-propdef-offset-position①③">offset-position</span>, and the boxes are exploded away from each other. 
 <pre><code class="highlight"><c- p>&lt;</c-><c- f>style</c-><c- p>></c->
     <c- p>#</c-><c- nn>wrap</c-> <c- p>{</c->
         <c- k>transform-style</c-><c- p>:</c-> <c- kc>preserve-3d</c-><c- p>;</c->
@@ -1618,7 +1618,7 @@ where the output is always non-negative.</p>
    <dl>
     <dt data-md><var>auto</var>
     <dd data-md>
-     <p>Computes to the value from <a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position①⑥">offset-position</a>, provided <a class="property" data-link-type="propdesc" href="#propdef-offset-path" id="ref-for-propdef-offset-path①②">offset-path</a> is <a href="#offsetpath-none" id="ref-for-offsetpath-none②">none</a> and <span class="property" id="ref-for-propdef-offset-position①⑦">offset-position</span> is not <a class="css" data-link-type="maybe" href="#valdef-offset-rotate-auto" id="ref-for-valdef-offset-rotate-auto④">auto</a>. Otherwise, computes to the value from <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-1/#propdef-transform-origin" id="ref-for-propdef-transform-origin">transform-origin</a>. When <span class="css" id="ref-for-valdef-offset-rotate-auto⑤">auto</span> is given to <a class="property" data-link-type="propdesc" href="#propdef-offset-anchor" id="ref-for-propdef-offset-anchor②">offset-anchor</a>, and <span class="property" id="ref-for-propdef-offset-path①③">offset-path</span> is <a href="#offsetpath-none" id="ref-for-offsetpath-none③">none</a>, <span class="property" id="ref-for-propdef-offset-position①⑧">offset-position</span> behaves similar to <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-position" id="ref-for-propdef-background-position">background-position</a>.</p>
+     <p>Computes to the value from <a class="property" data-link-type="propdesc" href="#propdef-offset-position" id="ref-for-propdef-offset-position①⑥">offset-position</a>, provided <a class="property" data-link-type="propdesc" href="#propdef-offset-path" id="ref-for-propdef-offset-path①②">offset-path</a> is <a href="#offsetpath-none" id="ref-for-offsetpath-none②">none</a> and <span class="property" id="ref-for-propdef-offset-position①⑦">offset-position</span> is not <a class="css" data-link-type="maybe" href="#valdef-offset-rotate-auto" id="ref-for-valdef-offset-rotate-auto④">auto</a>. Otherwise, computes to the value from <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms/#propdef-transform-origin" id="ref-for-propdef-transform-origin">transform-origin</a>. When <span class="css" id="ref-for-valdef-offset-rotate-auto⑤">auto</span> is given to <a class="property" data-link-type="propdesc" href="#propdef-offset-anchor" id="ref-for-propdef-offset-anchor②">offset-anchor</a>, and <span class="property" id="ref-for-propdef-offset-path①③">offset-path</span> is <a href="#offsetpath-none" id="ref-for-offsetpath-none③">none</a>, <span class="property" id="ref-for-propdef-offset-position①⑧">offset-position</span> behaves similar to <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-backgrounds/#propdef-background-position" id="ref-for-propdef-background-position">background-position</a>.</p>
     <dt data-md><a class="production css" data-link-type="type" href="https://drafts.csswg.org/css-values-4/#typedef-position" id="ref-for-typedef-position③">&lt;position></a>
     <dd data-md>
      <dl>
@@ -1846,7 +1846,7 @@ where the output is always non-negative.</p>
    <p>When the <a data-link-type="dfn" href="#offset-path" id="ref-for-offset-path②⑨">offset path</a> is a zero length path, the value of <a class="property" data-link-type="propdesc" href="#propdef-offset-rotate" id="ref-for-propdef-offset-rotate⑤">offset-rotate</a> is 0 degree, the direction of the positive x-axis.</p>
    <p>If the <a data-link-type="dfn" href="#offset-path" id="ref-for-offset-path③⓪">offset path</a> is composed of multiple line segments, the orientation at the connection between the segments is the direction of the "later" segment.
 (This matches SVG’s notion of <a data-link-type="dfn" href="https://svgwg.org/svg2-draft/paths.html#TermPathDirection" id="ref-for-TermPathDirection">direction of a path</a>.)</p>
-   <p class="note" role="note"><span>Note:</span> The rotation described here does not override or replace any rotation defined by the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms-1/#propdef-transform" id="ref-for-propdef-transform②">transform</a> property.</p>
+   <p class="note" role="note"><span>Note:</span> The rotation described here does not override or replace any rotation defined by the <a class="property" data-link-type="propdesc" href="https://drafts.csswg.org/css-transforms/#propdef-transform" id="ref-for-propdef-transform②">transform</a> property.</p>
    <div class="example" id="example-b0a7dcb3">
     <a class="self-link" href="#example-b0a7dcb3"></a> The following examples use the shape of a plane. The red dot in the middle of the shape indicates the <a data-link-type="dfn" href="#anchor-point" id="ref-for-anchor-point⑧">anchor point</a> of the shape. When no offset properties are set, the shape is not translated or rotated along the path. 
     <figure>
@@ -1960,7 +1960,7 @@ The computed value of <span class="production" id="ref-for-angle-value①⑦" ti
     </ol>
    </div>
    <p class="issue" id="issue-8c7a4468"><a class="self-link" href="#issue-8c7a4468"></a> Do we need to say how to get the position in more detail?</p>
-   <p class="issue" id="issue-af0945aa"><a class="self-link" href="#issue-af0945aa"></a> There needs to be a process for converting <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-transforms-1/#funcdef-transform-rotate" id="ref-for-funcdef-transform-rotate">rotate()</a> to an angle.</p>
+   <p class="issue" id="issue-af0945aa"><a class="self-link" href="#issue-af0945aa"></a> There needs to be a process for converting <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-transforms/#funcdef-transform-rotate" id="ref-for-funcdef-transform-rotate">rotate()</a> to an angle.</p>
    <h3 class="heading settled" data-level="4.6" id="offset-shorthand"><span class="secno">4.6. </span><span class="content">Offset shorthand: The <a class="property" data-link-type="propdesc" href="#propdef-offset" id="ref-for-propdef-offset">offset</a> property</span><a class="self-link" href="#offset-shorthand"></a></h3>
    <div class="mdn-anno wrapped after">
     <button class="mdn-anno-btn"><span>MDN</span></button>
@@ -2160,13 +2160,13 @@ for their reviews, comments, and corrections.</p>
    <li><a href="#used-offset-distance">used offset distance</a><span>, in §4.2.1</span>
   </ul>
   <aside class="dfn-panel" data-for="term-for-propdef-background-position">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-background-position">https://drafts.csswg.org/css-backgrounds-3/#propdef-background-position</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#propdef-background-position">https://drafts.csswg.org/css-backgrounds/#propdef-background-position</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-background-position">4.4. Define an anchor point: The offset-anchor property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-border-radius">
-   <a href="https://drafts.csswg.org/css-backgrounds-3/#propdef-border-radius">https://drafts.csswg.org/css-backgrounds-3/#propdef-border-radius</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-backgrounds/#propdef-border-radius">https://drafts.csswg.org/css-backgrounds/#propdef-border-radius</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-border-radius">4.1. Define a path: The offset-path property</a> <a href="#ref-for-propdef-border-radius①">(2)</a>
     <li><a href="#ref-for-propdef-border-radius②">4.1.3. Examples of &lt;coord-box> Positioning</a>
@@ -2180,7 +2180,7 @@ for their reviews, comments, and corrections.</p>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-used-value">
-   <a href="https://drafts.csswg.org/css-cascade-5/#used-value">https://drafts.csswg.org/css-cascade-5/#used-value</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-cascade/#used-value">https://drafts.csswg.org/css-cascade/#used-value</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-used-value">4.1. Define a path: The offset-path property</a> <a href="#ref-for-used-value①">(2)</a>
    </ul>
@@ -2248,83 +2248,82 @@ for their reviews, comments, and corrections.</p>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-left">
-   <a href="https://drafts.csswg.org/css-position-3/#propdef-left">https://drafts.csswg.org/css-position-3/#propdef-left</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-position/#propdef-left">https://drafts.csswg.org/css-position/#propdef-left</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-left">4.3. Define the starting point of the path: The offset-position property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-position">
-   <a href="https://drafts.csswg.org/css-position-3/#propdef-position">https://drafts.csswg.org/css-position-3/#propdef-position</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-position/#propdef-position">https://drafts.csswg.org/css-position/#propdef-position</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-position">4.3. Define the starting point of the path: The offset-position property</a> <a href="#ref-for-propdef-position①">(2)</a> <a href="#ref-for-propdef-position②">(3)</a> <a href="#ref-for-propdef-position③">(4)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-valdef-position-static">
-   <a href="https://drafts.csswg.org/css-position-3/#valdef-position-static">https://drafts.csswg.org/css-position-3/#valdef-position-static</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-position/#valdef-position-static">https://drafts.csswg.org/css-position/#valdef-position-static</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-valdef-position-static">4.3. Define the starting point of the path: The offset-position property</a> <a href="#ref-for-valdef-position-static①">(2)</a> <a href="#ref-for-valdef-position-static②">(3)</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-top">
-   <a href="https://drafts.csswg.org/css-position-3/#propdef-top">https://drafts.csswg.org/css-position-3/#propdef-top</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-position/#propdef-top">https://drafts.csswg.org/css-position/#propdef-top</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-top">4.3. Define the starting point of the path: The offset-position property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-typedef-basic-shape">
-   <a href="https://drafts.csswg.org/css-shapes-1/#typedef-basic-shape">https://drafts.csswg.org/css-shapes-1/#typedef-basic-shape</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#typedef-basic-shape">https://drafts.csswg.org/css-shapes/#typedef-basic-shape</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-typedef-basic-shape">4.1. Define a path: The offset-path property</a> <a href="#ref-for-typedef-basic-shape①">(2)</a> <a href="#ref-for-typedef-basic-shape②">(3)</a> <a href="#ref-for-typedef-basic-shape③">(4)</a>
     <li><a href="#ref-for-typedef-basic-shape④">4.1.2. Examples Of &lt;basic-shape> Positioning</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-funcdef-circle">
-   <a href="https://drafts.csswg.org/css-shapes-1/#funcdef-circle">https://drafts.csswg.org/css-shapes-1/#funcdef-circle</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#funcdef-circle">https://drafts.csswg.org/css-shapes/#funcdef-circle</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-funcdef-circle">4.1. Define a path: The offset-path property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-funcdef-ellipse">
-   <a href="https://drafts.csswg.org/css-shapes-1/#funcdef-ellipse">https://drafts.csswg.org/css-shapes-1/#funcdef-ellipse</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#funcdef-ellipse">https://drafts.csswg.org/css-shapes/#funcdef-ellipse</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-funcdef-ellipse">4.1. Define a path: The offset-path property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-funcdef-inset">
-   <a href="https://drafts.csswg.org/css-shapes-1/#funcdef-inset">https://drafts.csswg.org/css-shapes-1/#funcdef-inset</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#funcdef-inset">https://drafts.csswg.org/css-shapes/#funcdef-inset</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-funcdef-inset">4.1. Define a path: The offset-path property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-funcdef-polygon">
-   <a href="https://drafts.csswg.org/css-shapes-1/#funcdef-polygon">https://drafts.csswg.org/css-shapes-1/#funcdef-polygon</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-shapes/#funcdef-polygon">https://drafts.csswg.org/css-shapes/#funcdef-polygon</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-funcdef-polygon">4.1. Define a path: The offset-path property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-local-coordinate-system">
-   <a href="https://drafts.csswg.org/css-transforms-1/#local-coordinate-system">https://drafts.csswg.org/css-transforms-1/#local-coordinate-system</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-transforms/#local-coordinate-system">https://drafts.csswg.org/css-transforms/#local-coordinate-system</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-local-coordinate-system">1. Introduction</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-funcdef-transform-rotate">
-   <a href="https://drafts.csswg.org/css-transforms-1/#funcdef-transform-rotate">https://drafts.csswg.org/css-transforms-1/#funcdef-transform-rotate</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-transforms/#funcdef-transform-rotate">https://drafts.csswg.org/css-transforms/#funcdef-transform-rotate</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-funcdef-transform-rotate">4.5.1. Calculating the path transform</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-transform">
-   <a href="https://drafts.csswg.org/css-transforms-1/#propdef-transform">https://drafts.csswg.org/css-transforms-1/#propdef-transform</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-transforms/#propdef-transform">https://drafts.csswg.org/css-transforms/#propdef-transform</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-transform">2. Module interactions</a>
-    <li><a href="#termref-for-propdef-transform">4.1. Define a path: The offset-path property</a>
-    <li><a href="#termref-for-propdef-transform">4.3. Define the starting point of the path: The offset-position property</a> <a href="#ref-for-propdef-transform①">(2)</a>
+    <li><a href="#ref-for-propdef-transform①">4.3. Define the starting point of the path: The offset-position property</a>
     <li><a href="#ref-for-propdef-transform②">4.5. Rotation at point: The offset-rotate property</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-propdef-transform-origin">
-   <a href="https://drafts.csswg.org/css-transforms-1/#propdef-transform-origin">https://drafts.csswg.org/css-transforms-1/#propdef-transform-origin</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/css-transforms/#propdef-transform-origin">https://drafts.csswg.org/css-transforms/#propdef-transform-origin</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-propdef-transform-origin">4.4. Define an anchor point: The offset-anchor property</a>
    </ul>
@@ -2465,7 +2464,7 @@ for their reviews, comments, and corrections.</p>
      <li><span class="dfn-paneled" id="term-for-typedef-coord-box">&lt;coord-box></span>
     </ul>
    <li>
-    <a data-link-type="biblio">[css-cascade-5]</a> defines the following terms:
+    <a data-link-type="biblio">[css-cascade-4]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-used-value">used value</span>
     </ul>
@@ -2558,8 +2557,8 @@ for their reviews, comments, and corrections.</p>
    <dd>Bert Bos; Elika Etemad; Brad Kemper. <a href="https://www.w3.org/TR/css-backgrounds-3/">CSS Backgrounds and Borders Module Level 3</a>. 22 December 2020. CR. URL: <a href="https://www.w3.org/TR/css-backgrounds-3/">https://www.w3.org/TR/css-backgrounds-3/</a>
    <dt id="biblio-css-box-4">[CSS-BOX-4]
    <dd>Elika Etemad. <a href="https://www.w3.org/TR/css-box-4/">CSS Box Model Module Level 4</a>. 21 April 2020. WD. URL: <a href="https://www.w3.org/TR/css-box-4/">https://www.w3.org/TR/css-box-4/</a>
-   <dt id="biblio-css-cascade-5">[CSS-CASCADE-5]
-   <dd>Elika Etemad; Miriam Suzanne; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-5/">CSS Cascading and Inheritance Level 5</a>. 8 June 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-5/">https://www.w3.org/TR/css-cascade-5/</a>
+   <dt id="biblio-css-cascade-4">[CSS-CASCADE-4]
+   <dd>Elika Etemad; Tab Atkins Jr.. <a href="https://www.w3.org/TR/css-cascade-4/">CSS Cascading and Inheritance Level 4</a>. 19 March 2021. WD. URL: <a href="https://www.w3.org/TR/css-cascade-4/">https://www.w3.org/TR/css-cascade-4/</a>
    <dt id="biblio-css-contain-2">[CSS-CONTAIN-2]
    <dd>Tab Atkins Jr.; Florian Rivoal; Vladimir Levin. <a href="https://www.w3.org/TR/css-contain-2/">CSS Containment Module Level 2</a>. 16 December 2020. WD. URL: <a href="https://www.w3.org/TR/css-contain-2/">https://www.w3.org/TR/css-contain-2/</a>
    <dt id="biblio-css-images-3">[CSS-IMAGES-3]
@@ -2679,7 +2678,7 @@ for their reviews, comments, and corrections.</p>
   <h2 class="no-num no-ref heading settled" id="issues-index"><span class="content">Issues Index</span><a class="self-link" href="#issues-index"></a></h2>
   <div style="counter-reset:issue">
    <div class="issue"> Do we need to say how to get the position in more detail?<a href="#issue-8c7a4468"> ↵ </a></div>
-   <div class="issue"> There needs to be a process for converting <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-transforms-1/#funcdef-transform-rotate">rotate()</a> to an angle.<a href="#issue-af0945aa"> ↵ </a></div>
+   <div class="issue"> There needs to be a process for converting <a class="css" data-link-type="maybe" href="https://drafts.csswg.org/css-transforms/#funcdef-transform-rotate">rotate()</a> to an angle.<a href="#issue-af0945aa"> ↵ </a></div>
   </div>
   <aside class="dfn-panel" data-for="propdef-offset-path">
    <b><a href="#propdef-offset-path">#propdef-offset-path</a></b><b>Referenced in:</b>

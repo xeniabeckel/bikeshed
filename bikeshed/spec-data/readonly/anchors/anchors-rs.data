@@ -1,6 +1,6 @@
 RsaHashedImportParams
 dictionary
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -10,7 +10,7 @@ https://w3c.github.io/webcrypto/#dfn-RsaHashedImportParams
 -
 RsaHashedKeyAlgorithm
 dictionary
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -20,7 +20,7 @@ https://w3c.github.io/webcrypto/#dfn-RsaHashedKeyAlgorithm
 -
 RsaHashedKeyGenParams
 dictionary
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -30,7 +30,7 @@ https://w3c.github.io/webcrypto/#dfn-RsaHashedKeyGenParams
 -
 RsaKeyAlgorithm
 dictionary
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -40,7 +40,7 @@ https://w3c.github.io/webcrypto/#dfn-RsaKeyAlgorithm
 -
 RsaKeyGenParams
 dictionary
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -50,7 +50,7 @@ https://w3c.github.io/webcrypto/#dfn-RsaKeyGenParams
 -
 RsaOaepParams
 dictionary
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -60,7 +60,7 @@ https://w3c.github.io/webcrypto/#dfn-RsaOaepParams
 -
 RsaOtherPrimesInfo
 dictionary
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -70,7 +70,7 @@ https://w3c.github.io/webcrypto/#dfn-RsaOtherPrimesInfo
 -
 RsaPssParams
 dictionary
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -80,7 +80,7 @@ https://w3c.github.io/webcrypto/#dfn-RsaPssParams
 -
 rsa-oaep key export steps
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -90,7 +90,7 @@ https://w3c.github.io/webcrypto/#dfn-rsa-oaep-extended-export-steps
 -
 rsa-oaep key import steps
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -100,7 +100,7 @@ https://w3c.github.io/webcrypto/#dfn-rsa-oaep-extended-import-steps
 -
 rsa-pss key export steps
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -110,7 +110,7 @@ https://w3c.github.io/webcrypto/#dfn-rsa-pss-extended-export-steps
 -
 rsa-pss key import steps
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -120,7 +120,7 @@ https://w3c.github.io/webcrypto/#dfn-rsa-pss-extended-import-steps
 -
 rsahashedimportparams
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 snapshot
@@ -130,7 +130,7 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-RsaHashedImportParams
 -
 rsahashedkeyalgorithm
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 snapshot
@@ -140,7 +140,7 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-RsaHashedKeyAlgorithm
 -
 rsahashedkeygenparams
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 snapshot
@@ -150,7 +150,7 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-RsaHashedKeyGenParams
 -
 rsakeyalgorithm
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 snapshot
@@ -160,7 +160,7 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-RsaKeyAlgorithm
 -
 rsakeygenparams
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 snapshot
@@ -170,7 +170,7 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-RsaKeyGenParams
 -
 rsaoaepparams
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 snapshot
@@ -180,7 +180,7 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-RsaOaepParams
 -
 rsaotherprimesinfo
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 snapshot
@@ -190,7 +190,7 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-RsaOtherPrimesInfo
 -
 rsapssparams
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 snapshot
@@ -200,7 +200,7 @@ https://www.w3.org/TR/WebCryptoAPI/#dfn-RsaPssParams
 -
 rsassa-pkcs1-v1_5 key export steps
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -210,7 +210,7 @@ https://w3c.github.io/webcrypto/#dfn-rsa-ssa-extended-export-steps
 -
 rsassa-pkcs1-v1_5 key import steps
 dfn
-webcryptoapi-1
+webcryptoapi
 webcryptoapi
 1
 current
@@ -218,34 +218,44 @@ https://w3c.github.io/webcrypto/#dfn-rsa-ssa-extended-import-steps
 
 
 -
-rssi
-attribute
-web-bluetooth-1
-web-bluetooth
+rspace
+dfn
+mathml-core
+mathml-core
 1
-snapshot
-https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothadvertisingevent-rssi
-1
+current
+https://w3c.github.io/mathml-core/#dfn-rspace
 
-BluetoothAdvertisingEvent
+1
 -
 rssi
 dict-member
-web-bluetooth-1
+web-bluetooth
 web-bluetooth
 1
-snapshot
+current
 https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothadvertisingeventinit-rssi
 1
 1
 BluetoothAdvertisingEventInit
 -
 rssi
-dfn
-web-bluetooth-1
+attribute
+web-bluetooth
 web-bluetooth
 1
-snapshot
+current
+https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothadvertisingevent-rssi
+1
+
+BluetoothAdvertisingEvent
+-
+rssi
+dfn
+web-bluetooth
+web-bluetooth
+1
+current
 https://webbluetoothcg.github.io/web-bluetooth/#rssi
 
 1

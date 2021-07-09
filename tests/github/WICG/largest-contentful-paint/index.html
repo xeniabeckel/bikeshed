@@ -819,7 +819,7 @@ This allows developers to detect support for the API.</p>
     <dl>
      <dt data-md>Input
      <dd data-md>
-      <p><var>intersectionRect</var>, a <code class="idl"><a data-link-type="idl" href="https://drafts.fxtf.org/geometry-1/#domrectreadonly" id="ref-for-domrectreadonly">DOMRectReadOnly</a></code></p>
+      <p><var>intersectionRect</var>, a <code class="idl"><a data-link-type="idl" href="https://drafts.fxtf.org/geometry/#domrectreadonly" id="ref-for-domrectreadonly">DOMRectReadOnly</a></code></p>
      <dd data-md>
       <p><var>imageRequest</var>, a <code class="idl"><a data-link-type="idl" href="https://fetch.spec.whatwg.org/#request" id="ref-for-request①">Request</a></code></p>
      <dd data-md>
@@ -851,9 +851,9 @@ This allows developers to detect support for the API.</p>
        <li data-md>
         <p>Let <var>id</var> be <var>element</var>’s <a class="idl-code" data-link-type="attribute" href="https://dom.spec.whatwg.org#dom-element-id" id="ref-for-dom-element-id">element id</a>.</p>
        <li data-md>
-        <p>Let <var>width</var> be <var>intersectionRect</var>’s <code class="idl"><a data-link-type="idl" href="https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-width" id="ref-for-dom-domrectreadonly-width">width</a></code>.</p>
+        <p>Let <var>width</var> be <var>intersectionRect</var>’s <code class="idl"><a data-link-type="idl" href="https://drafts.fxtf.org/geometry/#dom-domrectreadonly-width" id="ref-for-dom-domrectreadonly-width">width</a></code>.</p>
        <li data-md>
-        <p>Let <var>height</var> be <var>intersectionRect</var>’s <code class="idl"><a data-link-type="idl" href="https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-height" id="ref-for-dom-domrectreadonly-height">height</a></code>.</p>
+        <p>Let <var>height</var> be <var>intersectionRect</var>’s <code class="idl"><a data-link-type="idl" href="https://drafts.fxtf.org/geometry/#dom-domrectreadonly-height" id="ref-for-dom-domrectreadonly-height">height</a></code>.</p>
        <li data-md>
         <p>Let <var>size</var> be <code class="highlight"><var>width</var> <c- o>*</c-> <var>height</var></code>.</p>
        <li data-md>
@@ -924,7 +924,7 @@ This allows developers to detect support for the API.</p>
     <p>Right after step 1, we add the following step:</p>
     <ul>
      <li data-md>
-      <p>If <var>target</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global" id="ref-for-concept-relevant-global①">relevant global object</a> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/window-object.html#window" id="ref-for-window①">Window</a></code> object, <var>event</var>’s <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#dom-event-type" id="ref-for-dom-event-type">type</a></code> is <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom-view-1/#eventdef-document-scroll" id="ref-for-eventdef-document-scroll">scroll</a></code> and its <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#dom-event-istrusted" id="ref-for-dom-event-istrusted">isTrusted</a></code> is false, set <var>target</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global" id="ref-for-concept-relevant-global②">relevant global object</a>'s <a data-link-type="dfn" href="#has-dispatched-scroll-event" id="ref-for-has-dispatched-scroll-event①">has dispatched scroll event</a> to true.</p>
+      <p>If <var>target</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global" id="ref-for-concept-relevant-global①">relevant global object</a> is a <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/window-object.html#window" id="ref-for-window①">Window</a></code> object, <var>event</var>’s <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#dom-event-type" id="ref-for-dom-event-type">type</a></code> is <code class="idl"><a data-link-type="idl" href="https://drafts.csswg.org/cssom-view/#eventdef-document-scroll" id="ref-for-eventdef-document-scroll">scroll</a></code> and its <code class="idl"><a data-link-type="idl" href="https://dom.spec.whatwg.org/#dom-event-istrusted" id="ref-for-dom-event-istrusted">isTrusted</a></code> is false, set <var>target</var>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-relevant-global" id="ref-for-concept-relevant-global②">relevant global object</a>'s <a data-link-type="dfn" href="#has-dispatched-scroll-event" id="ref-for-has-dispatched-scroll-event①">has dispatched scroll event</a> to true.</p>
     </ul>
    </div>
    <h3 class="heading settled" data-level="3.4" id="sec-modifications-HTML"><span class="secno">3.4. </span><span class="content">Modifications to the HTML specification</span><a class="self-link" href="#sec-modifications-HTML"></a></h3>
@@ -1023,7 +1023,7 @@ This allows developers to detect support for the API.</p>
     </ul>
   </ul>
   <aside class="dfn-panel" data-for="term-for-eventdef-document-scroll">
-   <a href="https://drafts.csswg.org/cssom-view-1/#eventdef-document-scroll">https://drafts.csswg.org/cssom-view-1/#eventdef-document-scroll</a><b>Referenced in:</b>
+   <a href="https://drafts.csswg.org/cssom-view/#eventdef-document-scroll">https://drafts.csswg.org/cssom-view/#eventdef-document-scroll</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-eventdef-document-scroll">3.3. Modifications to the DOM specification</a>
    </ul>
@@ -1109,19 +1109,19 @@ This allows developers to detect support for the API.</p>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-domrectreadonly">
-   <a href="https://drafts.fxtf.org/geometry-1/#domrectreadonly">https://drafts.fxtf.org/geometry-1/#domrectreadonly</a><b>Referenced in:</b>
+   <a href="https://drafts.fxtf.org/geometry/#domrectreadonly">https://drafts.fxtf.org/geometry/#domrectreadonly</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-domrectreadonly">3.1. Potentially add LargestContentfulPaint entry</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-dom-domrectreadonly-height">
-   <a href="https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-height">https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-height</a><b>Referenced in:</b>
+   <a href="https://drafts.fxtf.org/geometry/#dom-domrectreadonly-height">https://drafts.fxtf.org/geometry/#dom-domrectreadonly-height</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dom-domrectreadonly-height">3.1. Potentially add LargestContentfulPaint entry</a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="term-for-dom-domrectreadonly-width">
-   <a href="https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-width">https://drafts.fxtf.org/geometry-1/#dom-domrectreadonly-width</a><b>Referenced in:</b>
+   <a href="https://drafts.fxtf.org/geometry/#dom-domrectreadonly-width">https://drafts.fxtf.org/geometry/#dom-domrectreadonly-width</a><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-dom-domrectreadonly-width">3.1. Potentially add LargestContentfulPaint entry</a>
    </ul>
@@ -1368,7 +1368,7 @@ This allows developers to detect support for the API.</p>
      <li><span class="dfn-paneled" id="term-for-supportedentrytypes-attribute">supportedEntryTypes</span>
     </ul>
    <li>
-    <a data-link-type="biblio">[WebIDL]</a> defines the following terms:
+    <a data-link-type="biblio">[WebIDL-20161215]</a> defines the following terms:
     <ul>
      <li><span class="dfn-paneled" id="term-for-idl-DOMString">DOMString</span>
      <li><span class="dfn-paneled" id="term-for-Default">Default</span>
@@ -1402,8 +1402,8 @@ This allows developers to detect support for the API.</p>
    <dd>Nicolas Pena Moreno; Ilya Grigorik. <a href="https://www.w3.org/TR/performance-timeline-2/">Performance Timeline Level 2</a>. 30 June 2021. WD. URL: <a href="https://www.w3.org/TR/performance-timeline-2/">https://www.w3.org/TR/performance-timeline-2/</a>
    <dt id="biblio-rfc2119">[RFC2119]
    <dd>S. Bradner. <a href="https://tools.ietf.org/html/rfc2119">Key words for use in RFCs to Indicate Requirement Levels</a>. March 1997. Best Current Practice. URL: <a href="https://tools.ietf.org/html/rfc2119">https://tools.ietf.org/html/rfc2119</a>
-   <dt id="biblio-webidl">[WebIDL]
-   <dd>Boris Zbarsky. <a href="https://heycam.github.io/webidl/">Web IDL</a>. 15 December 2016. ED. URL: <a href="https://heycam.github.io/webidl/">https://heycam.github.io/webidl/</a>
+   <dt id="biblio-webidl-20161215">[WebIDL-20161215]
+   <dd>Cameron McCormack. <a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">WebIDL Level 1</a>. 15 December 2016. REC. URL: <a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/</a>
   </dl>
   <h2 class="no-num no-ref heading settled" id="idl-index"><span class="content">IDL Index</span><a class="self-link" href="#idl-index"></a></h2>
 <pre class="idl highlight def">[<a class="idl-code" data-link-type="extended-attribute" href="https://heycam.github.io/webidl/#Exposed"><c- g>Exposed</c-></a>=<c- n>Window</c->]
