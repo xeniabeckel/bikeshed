@@ -1,21 +1,10 @@
 w
-dict-member
-hit-test
-hit-test
-1
-current
-https://immersive-web.github.io/hit-test/#dom-xrraydirectioninit-w
-1
-1
-XRRayDirectionInit
--
-w
 value
 css-color-5
 css-color
 5
-current
-https://drafts.csswg.org/css-color-5/#valdef-hwb-w
+snapshot
+https://www.w3.org/TR/css-color-5/#valdef-hwb-w
 1
 1
 hwb()
@@ -25,8 +14,8 @@ value
 css-color-5
 css-color
 5
-snapshot
-https://www.w3.org/TR/css-color-5/#valdef-hwb-w
+current
+https://drafts.csswg.org/css-color-5/#valdef-hwb-w
 1
 1
 hwb()
@@ -61,20 +50,45 @@ argument
 geometry-1
 geometry
 1
-current
-https://drafts.fxtf.org/geometry/#dom-dompointreadonly-dompointreadonly-x-y-z-w-w
+snapshot
+https://www.w3.org/TR/geometry-1/#dom-dompoint-dompoint-x-y-z-w-w
+1
+1
+DOMPoint/DOMPoint(x, y, z, w)
+-
+w
+dict-member
+geometry-1
+geometry
+1
+snapshot
+https://www.w3.org/TR/geometry-1/#dom-dompointinit-w
+1
+1
+DOMPointInit
+-
+w
+argument
+geometry-1
+geometry
+1
+snapshot
+https://www.w3.org/TR/geometry-1/#dom-dompointreadonly-dompointreadonly-x-y-z-w-w
 1
 1
 DOMPointReadOnly/DOMPointReadOnly(x, y, z, w)
-DOMPointReadOnly/constructor(x, y, z, w)
-DOMPointReadOnly/DOMPointReadOnly(x, y, z)
-DOMPointReadOnly/constructor(x, y, z)
-DOMPointReadOnly/DOMPointReadOnly(x, y)
-DOMPointReadOnly/constructor(x, y)
-DOMPointReadOnly/DOMPointReadOnly(x)
-DOMPointReadOnly/constructor(x)
-DOMPointReadOnly/DOMPointReadOnly()
-DOMPointReadOnly/constructor()
+-
+w
+attribute
+geometry-1
+geometry
+1
+snapshot
+https://www.w3.org/TR/geometry-1/#dom-dompointreadonly-w
+1
+1
+DOMPointReadOnly
+DOMPoint
 -
 w
 argument
@@ -82,7 +96,7 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry/#dom-dompoint-dompoint-x-y-z-w-w
+https://drafts.fxtf.org/geometry-1/#dom-dompoint-dompoint-x-y-z-w-w
 1
 1
 DOMPoint/DOMPoint(x, y, z, w)
@@ -102,10 +116,30 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry/#dom-dompointinit-w
+https://drafts.fxtf.org/geometry-1/#dom-dompointinit-w
 1
 1
 DOMPointInit
+-
+w
+argument
+geometry-1
+geometry
+1
+current
+https://drafts.fxtf.org/geometry-1/#dom-dompointreadonly-dompointreadonly-x-y-z-w-w
+1
+1
+DOMPointReadOnly/DOMPointReadOnly(x, y, z, w)
+DOMPointReadOnly/constructor(x, y, z, w)
+DOMPointReadOnly/DOMPointReadOnly(x, y, z)
+DOMPointReadOnly/constructor(x, y, z)
+DOMPointReadOnly/DOMPointReadOnly(x, y)
+DOMPointReadOnly/constructor(x, y)
+DOMPointReadOnly/DOMPointReadOnly(x)
+DOMPointReadOnly/constructor(x)
+DOMPointReadOnly/DOMPointReadOnly()
+DOMPointReadOnly/constructor()
 -
 w
 attribute
@@ -113,54 +147,20 @@ geometry-1
 geometry
 1
 current
-https://drafts.fxtf.org/geometry/#dom-dompointreadonly-w
+https://drafts.fxtf.org/geometry-1/#dom-dompointreadonly-w
 1
 1
 DOMPointReadOnly
 DOMPoint
--
-w
-argument
-geometry-1
-geometry
-1
-snapshot
-https://www.w3.org/TR/geometry-1/#dom-dompointreadonly-dompointreadonly-x-y-z-w-w
-1
-1
-DOMPointReadOnly/DOMPointReadOnly(x, y, z, w)
--
-w
-argument
-geometry-1
-geometry
-1
-snapshot
-https://www.w3.org/TR/geometry-1/#dom-dompoint-dompoint-x-y-z-w-w
-1
-1
-DOMPoint/DOMPoint(x, y, z, w)
 -
 w
 dict-member
-geometry-1
-geometry
+webxr-hit-test-1
+webxr-hit-test
 1
-snapshot
-https://www.w3.org/TR/geometry-1/#dom-dompointinit-w
-1
-1
-DOMPointInit
--
-w
-attribute
-geometry-1
-geometry
-1
-snapshot
-https://www.w3.org/TR/geometry-1/#dom-dompointreadonly-w
+current
+https://immersive-web.github.io/hit-test/#dom-xrraydirectioninit-w
 1
 1
-DOMPointReadOnly
-DOMPoint
+XRRayDirectionInit
 -

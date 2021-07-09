@@ -3,8 +3,8 @@ enum-value
 wasm-js-api-1
 wasm-js-api
 1
-current
-https://webassembly.github.io/spec/js-api/#dom-valuetype-i64
+snapshot
+https://www.w3.org/TR/wasm-js-api-1/#dom-valuetype-i64
 1
 1
 ValueType
@@ -14,8 +14,8 @@ enum-value
 wasm-js-api-1
 wasm-js-api
 1
-snapshot
-https://www.w3.org/TR/wasm-js-api-1/#dom-valuetype-i64
+current
+https://webassembly.github.io/spec/js-api/#dom-valuetype-i64
 1
 1
 ValueType

@@ -19,75 +19,14 @@ https://infra.spec.whatwg.org/#if-aborted
 1
 1
 -
-if-none-match
-dfn
-network-error-logging-1
-network-error-logging
-1
-current
-https://w3c.github.io/network-error-logging/#dfn-if-none-match
-
-1
--
-ifAvailable
-dict-member
-web-locks
-web-locks
-1
-current
-https://wicg.github.io/web-locks/#dom-lockoptions-ifavailable
-1
-1
-LockOptions
--
 iframe
 element
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element
 1
-1
--
-iframe
-dfn
-webdriver2
-webdriver
-2
-current
-https://w3c.github.io/webdriver/#dfn-iframe
-
-1
--
-iframe
-dfn
-webdriver2
-webdriver
-2
-snapshot
-https://www.w3.org/TR/webdriver2/#dfn-iframe
-
-1
--
-iframe element
-dfn
-webdriver2
-webdriver
-2
-current
-https://w3c.github.io/webdriver/#dfn-iframe
-
-1
--
-iframe element
-dfn
-webdriver2
-webdriver
-2
-snapshot
-https://www.w3.org/TR/webdriver2/#dfn-iframe
-
 1
 -
 iframe fullscreen flag
@@ -105,7 +44,7 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/iframe-embed-object.html#iframe-load-event-steps
 
 1
@@ -115,7 +54,7 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/iframe-embed-object.html#iframe-load-in-progress
 
 1
@@ -125,7 +64,7 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/origin.html#iframe-sandboxing-flag-set
 
 1

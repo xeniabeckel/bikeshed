@@ -1,5 +1,5 @@
 {
-    "dom-navigatorautomationinformation-webdriver": [
+    "dfn-webdriver": [
         {
             "engines": [
                 "blink",
@@ -178,7 +178,9 @@
                 }
             },
             "title": "Get Element Attribute"
-        },
+        }
+    ],
+    "dfn-get-element-property": [
         {
             "engines": [
                 "blink",

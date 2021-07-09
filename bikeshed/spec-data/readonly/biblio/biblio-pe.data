@@ -13,7 +13,7 @@ Zhiheng Wang
 -
 d:performance-timeline-2
 performance-timeline-2
-24 October 2019
+30 June 2021
 WD
 Performance Timeline Level 2
 https://www.w3.org/TR/performance-timeline-2/
@@ -21,6 +21,7 @@ https://w3c.github.io/performance-timeline/
 
 
 
+Nicolas Pena Moreno
 Ilya Grigorik
 -
 d:performance-timeline-2-20150717
@@ -201,6 +202,7 @@ https://www.w3.org/TR/2016/WD-performance-timeline-2-20160907/
 
 
 
+Nicolas Pena Moreno
 Ilya Grigorik
 -
 d:performance-timeline-2-20160928
@@ -213,6 +215,7 @@ https://www.w3.org/TR/2016/WD-performance-timeline-2-20160928/
 
 
 
+Nicolas Pena Moreno
 Ilya Grigorik
 -
 d:performance-timeline-2-20160929
@@ -225,6 +228,7 @@ https://www.w3.org/TR/2016/WD-performance-timeline-2-20160929/
 
 
 
+Nicolas Pena Moreno
 Ilya Grigorik
 -
 d:performance-timeline-2-20161024
@@ -237,6 +241,7 @@ https://www.w3.org/TR/2016/WD-performance-timeline-2-20161024/
 
 
 
+Nicolas Pena Moreno
 Ilya Grigorik
 -
 d:performance-timeline-2-20161027
@@ -249,6 +254,7 @@ https://www.w3.org/TR/2016/WD-performance-timeline-2-20161027/
 
 
 
+Nicolas Pena Moreno
 Ilya Grigorik
 -
 d:performance-timeline-2-20161114
@@ -261,6 +267,7 @@ https://www.w3.org/TR/2016/WD-performance-timeline-2-20161114/
 
 
 
+Nicolas Pena Moreno
 Ilya Grigorik
 -
 d:performance-timeline-2-20161208
@@ -411,6 +418,19 @@ https://www.w3.org/TR/2019/WD-performance-timeline-2-20191024/
 
 Ilya Grigorik
 -
+d:performance-timeline-2-20210630
+performance-timeline-2-20210630
+30 June 2021
+WD
+Performance Timeline Level 2
+https://www.w3.org/TR/2021/WD-performance-timeline-2-20210630/
+https://www.w3.org/TR/2021/WD-performance-timeline-2-20210630/
+
+
+
+Nicolas Pena Moreno
+Ilya Grigorik
+-
 d:performance-timeline-20110811
 performance-timeline-20110811
 11 August 2011
@@ -525,7 +545,7 @@ Robert McMillan
 -
 d:permissions
 permissions
-20 July 2020
+24 June 2021
 WD
 Permissions
 https://www.w3.org/TR/permissions/
@@ -571,6 +591,62 @@ WD
 Permissions
 https://www.w3.org/TR/2020/WD-permissions-20200720/
 https://www.w3.org/TR/2020/WD-permissions-20200720/
+
+
+
+Mounir Lamouri
+Marcos Caceres
+Jeffrey Yasskin
+-
+d:permissions-20210615
+permissions-20210615
+15 June 2021
+WD
+Permissions
+https://www.w3.org/TR/2021/WD-permissions-20210615/
+https://www.w3.org/TR/2021/WD-permissions-20210615/
+
+
+
+Mounir Lamouri
+Marcos Caceres
+Jeffrey Yasskin
+-
+d:permissions-20210617
+permissions-20210617
+17 June 2021
+WD
+Permissions
+https://www.w3.org/TR/2021/WD-permissions-20210617/
+https://www.w3.org/TR/2021/WD-permissions-20210617/
+
+
+
+Mounir Lamouri
+Marcos Caceres
+Jeffrey Yasskin
+-
+d:permissions-20210622
+permissions-20210622
+22 June 2021
+WD
+Permissions
+https://www.w3.org/TR/2021/WD-permissions-20210622/
+https://www.w3.org/TR/2021/WD-permissions-20210622/
+
+
+
+Mounir Lamouri
+Marcos Caceres
+Jeffrey Yasskin
+-
+d:permissions-20210624
+permissions-20210624
+24 June 2021
+WD
+Permissions
+https://www.w3.org/TR/2021/WD-permissions-20210624/
+https://www.w3.org/TR/2021/WD-permissions-20210624/
 
 
 

@@ -3,7 +3,7 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/infrastructure.html#concept-websocket-message-received
 
 1
@@ -13,7 +13,7 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/webappapis.html#await-a-stable-state
 
 1

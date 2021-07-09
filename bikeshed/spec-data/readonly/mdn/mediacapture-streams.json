@@ -266,6 +266,112 @@
             "title": "DoubleRange"
         }
     ],
+    "dom-inputdeviceinfo-getcapabilities": [
+        {
+            "engines": [
+                "blink"
+            ],
+            "filename": "api/InputDeviceInfo.json",
+            "name": "getCapabilities",
+            "slug": "API/InputDeviceInfo/getCapabilities",
+            "summary": "The getCapabilities() method of the InputDeviceInfo interface returns a MediaTrackCapabilities object describing the primary audio or video track of the device's MediaStream.",
+            "support": {
+                "chrome": {
+                    "version_added": "67"
+                },
+                "chrome_android": {
+                    "version_added": "67"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "54"
+                },
+                "opera_android": {
+                    "version_added": "48"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "9.0"
+                },
+                "webview_android": {
+                    "version_added": "67"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "InputDeviceInfo.getCapabilities()"
+        }
+    ],
+    "dom-inputdeviceinfo": [
+        {
+            "engines": [
+                "blink"
+            ],
+            "filename": "api/InputDeviceInfo.json",
+            "name": "InputDeviceInfo",
+            "slug": "API/InputDeviceInfo",
+            "summary": "The InputDeviceInfo interface of the Media Streams API gives access to the capabilities of the input device that it represents.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false
+                },
+                "firefox_android": {
+                    "version_added": false
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                },
+                "edge_blink": {
+                    "version_added": true
+                }
+            },
+            "title": "InputDeviceInfo"
+        }
+    ],
     "dom-mediadeviceinfo-deviceid": [
         {
             "engines": [
@@ -488,7 +594,7 @@
             "title": "MediaDeviceInfo.label"
         }
     ],
-    "dom-mediadeviceinfo": [
+    "device-info": [
         {
             "engines": [
                 "blink",
@@ -816,7 +922,7 @@
             "filename": "api/MediaDevices.json",
             "name": "ondevicechange",
             "slug": "API/MediaDevices/ondevicechange",
-            "summary": "The MediaDevices.ondevicechange property is an EventHandler which specifies a function to be called when the devicechange event occurs on a MediaDevices instance. This happens whenever the set of media devices available to the user agent and, by extension, to the web site or app has changed. You can at any time use enumerateDevices() to get the updated list of available devices.",
+            "summary": "The MediaDevices.ondevicechange property is an event handler which specifies a function to be called when the devicechange event occurs on a MediaDevices instance. This happens whenever the set of media devices available to the user agent and, by extension, to the web site or app has changed. You can at any time use enumerateDevices() to get the updated list of available devices.",
             "support": {
                 "chrome": {
                     "version_added": "57"
@@ -827,23 +933,9 @@
                 "edge": {
                     "version_added": "12"
                 },
-                "firefox": [
-                    {
-                        "version_added": "52"
-                    },
-                    {
-                        "version_added": "51",
-                        "version_removed": "52",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "media.ondevicechange.enabled",
-                                "value_to_set": "true"
-                            }
-                        ],
-                        "notes": "<code>MediaDevices.ondevicechange</code> is supported only on macOS."
-                    }
-                ],
+                "firefox": {
+                    "version_added": "52"
+                },
                 "firefox_android": {
                     "version_added": true
                 },
@@ -983,7 +1075,7 @@
             "title": "Navigator.mediaDevices"
         }
     ],
-    "mediastream": [
+    "dom-mediastream-constructor": [
         {
             "engines": [
                 "blink",
@@ -1090,7 +1182,7 @@
                     "version_added": "79"
                 }
             },
-            "title": "active"
+            "title": "MediaStream.active"
         }
     ],
     "dom-mediastream-addtrack": [
@@ -1201,59 +1293,6 @@
                 }
             },
             "title": "MediaStream: addtrack event"
-        },
-        {
-            "engines": [
-                "blink",
-                "gecko",
-                "webkit"
-            ],
-            "filename": "api/MediaStream.json",
-            "name": "onaddtrack",
-            "slug": "API/MediaStream/onaddtrack",
-            "summary": "The MediaStream.onaddtrack property is an EventHandler which specifies a function to be called when the addtrack event occurs on a MediaStream instance. This happens when a new track of any kind is added to the media stream.",
-            "support": {
-                "chrome": {
-                    "version_added": "26"
-                },
-                "chrome_android": {
-                    "version_added": "26"
-                },
-                "edge": {
-                    "version_added": "12"
-                },
-                "firefox": {
-                    "version_added": "50"
-                },
-                "firefox_android": {
-                    "version_added": "50"
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": false
-                },
-                "opera_android": {
-                    "version_added": false
-                },
-                "safari": {
-                    "version_added": "11"
-                },
-                "safari_ios": {
-                    "version_added": "11"
-                },
-                "samsunginternet_android": {
-                    "version_added": "1.5"
-                },
-                "webview_android": {
-                    "version_added": "37"
-                },
-                "edge_blink": {
-                    "version_added": "79"
-                }
-            },
-            "title": "MediaStream.onaddtrack"
         }
     ],
     "dom-mediastream-clone": [
@@ -1596,6 +1635,61 @@
             "title": "MediaStream.id"
         }
     ],
+    "dom-mediastream-onaddtrack": [
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/MediaStream.json",
+            "name": "onaddtrack",
+            "slug": "API/MediaStream/onaddtrack",
+            "summary": "The MediaStream.onaddtrack property is an event handler which specifies a function to be called when the addtrack event occurs on a MediaStream instance. This happens when a new track of any kind is added to the media stream.",
+            "support": {
+                "chrome": {
+                    "version_added": "26"
+                },
+                "chrome_android": {
+                    "version_added": "26"
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "firefox": {
+                    "version_added": "50"
+                },
+                "firefox_android": {
+                    "version_added": "50"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "1.5"
+                },
+                "webview_android": {
+                    "version_added": "37"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "MediaStream.onaddtrack"
+        }
+    ],
     "dom-mediastream-onremovetrack": [
         {
             "engines": [
@@ -1605,7 +1699,7 @@
             "filename": "api/MediaStream.json",
             "name": "onremovetrack",
             "slug": "API/MediaStream/onremovetrack",
-            "summary": "The MediaStream.onremovetrack property is an EventHandler which specifies a function to be called when the removetrack event occurs on a MediaStream instance. This happens when a track of any kind is removed from the media stream.",
+            "summary": "The MediaStream.onremovetrack property is an event handler which specifies a function to be called when the removetrack event occurs on a MediaStream instance. This happens when a track of any kind is removed from the media stream.",
             "support": {
                 "chrome": {
                     "version_added": "26"
@@ -1704,7 +1798,7 @@
             "title": "MediaStream: removetrack event"
         }
     ],
-    "dom-mediastream": [
+    "mediastream": [
         {
             "engines": [
                 "blink",
@@ -1714,7 +1808,7 @@
             "filename": "api/MediaStream.json",
             "name": "MediaStream",
             "slug": "API/MediaStream",
-            "summary": "The MediaStream interface represents a stream of media content. A stream consists of several tracks such as video or audio tracks. Each track is specified as an instance of MediaStreamTrack.",
+            "summary": "The MediaStream interface represents a stream of media content. A stream consists of several tracks, such as video or audio tracks. Each track is specified as an instance of MediaStreamTrack.",
             "support": {
                 "chrome": [
                     {
@@ -1805,7 +1899,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaStreamConstraints.json",
             "name": "audio",
@@ -1837,10 +1932,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -1859,7 +1954,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaStreamConstraints.json",
             "name": "video",
@@ -1891,10 +1987,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -1909,7 +2005,62 @@
             "title": "MediaStreamConstraints.video"
         }
     ],
-    "dom-mediatrackconstraints": [
+    "mediastreamconstraints": [
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/MediaStreamConstraints.json",
+            "name": "MediaStreamConstraints",
+            "slug": "API/MediaStreamConstraints",
+            "summary": "The MediaStreamConstraints dictionary is used when calling getUserMedia() to specify what kinds of tracks should be included in the returned MediaStream, and, optionally, to establish constraints for those tracks' settings.",
+            "support": {
+                "chrome": {
+                    "version_added": "53"
+                },
+                "chrome_android": {
+                    "version_added": "53"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "38"
+                },
+                "firefox_android": {
+                    "version_added": "38"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "53"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "MediaStreamConstraints"
+        }
+    ],
+    "dom-mediastreamtrack-applyconstraints": [
         {
             "engines": [
                 "blink",
@@ -1962,58 +2113,6 @@
                 }
             },
             "title": "MediaStreamTrack.applyConstraints()"
-        },
-        {
-            "engines": [
-                "blink",
-                "gecko"
-            ],
-            "filename": "api/MediaTrackConstraints.json",
-            "name": "MediaTrackConstraints",
-            "slug": "API/MediaTrackConstraints",
-            "summary": "The MediaTrackConstraints dictionary is used to describe a set of capabilities and the value or values each can take on. A constraints dictionary is passed into applyConstraints() to allow a script to establish a set of exact (required) values or ranges and/or preferred values or ranges of values for the track, and the most recently-requested set of custom constraints can be retrieved by calling getConstraints().",
-            "support": {
-                "chrome": {
-                    "version_added": "59"
-                },
-                "chrome_android": {
-                    "version_added": true
-                },
-                "edge": {
-                    "version_added": "18"
-                },
-                "firefox": {
-                    "version_added": true
-                },
-                "firefox_android": {
-                    "version_added": true
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": "46"
-                },
-                "opera_android": {
-                    "version_added": "43"
-                },
-                "safari": {
-                    "version_added": null
-                },
-                "safari_ios": {
-                    "version_added": null
-                },
-                "samsunginternet_android": {
-                    "version_added": true
-                },
-                "webview_android": {
-                    "version_added": "59"
-                },
-                "edge_blink": {
-                    "version_added": "79"
-                }
-            },
-            "title": "MediaTrackConstraints"
         }
     ],
     "dom-mediastreamtrack-clone": [
@@ -2630,7 +2729,7 @@
             "filename": "api/MediaStreamTrack.json",
             "name": "onended",
             "slug": "API/MediaStreamTrack/onended",
-            "summary": "The MediaStreamTrack.onended event handler is used to specify a function which serves as an EventHandler to be called when the ended event occurs on the track. This event occurs when the track will no longer provide data to the stream for any reason, including the end of the media input being reached, the user revoking needed permissions, the source device being removed, or the remote peer ending a connection.",
+            "summary": "The MediaStreamTrack.onended event handler is used to specify a function which serves as an event handler to be called when the ended event occurs on the track. This event occurs when the track will no longer provide data to the stream for any reason, including the end of the media input being reached, the user revoking needed permissions, the source device being removed, or the remote peer ending a connection.",
             "support": {
                 "chrome": {
                     "version_added": true
@@ -3005,7 +3104,7 @@
             "title": "MediaStreamTrack"
         }
     ],
-    "dom-mediastreamtrackevent": [
+    "dom-mediastreamtrackevent-constructor": [
         {
             "engines": [
                 "blink",
@@ -3119,7 +3218,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "aspectRatio",
@@ -3151,10 +3251,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -3217,10 +3317,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -3238,7 +3338,8 @@
     "dom-mediatrackconstraintset-channelcount": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "webkit"
             ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "channelCount",
@@ -3270,10 +3371,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -3292,7 +3393,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "deviceId",
@@ -3326,10 +3428,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -3348,7 +3450,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "echoCancellation",
@@ -3380,10 +3483,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -3402,7 +3505,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "facingMode",
@@ -3434,10 +3538,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -3456,7 +3560,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "frameRate",
@@ -3488,10 +3593,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -3510,7 +3615,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "groupId",
@@ -3542,10 +3648,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -3564,7 +3670,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "height",
@@ -3596,10 +3703,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -3618,7 +3725,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "latency",
@@ -3650,10 +3758,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -3716,10 +3824,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -3737,7 +3845,8 @@
     "dom-mediatrackconstraintset-samplerate": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "webkit"
             ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "sampleRate",
@@ -3769,10 +3878,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -3790,7 +3899,8 @@
     "dom-mediatrackconstraintset-samplesize": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "webkit"
             ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "sampleSize",
@@ -3822,10 +3932,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -3844,7 +3954,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "width",
@@ -3876,10 +3987,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -3894,10 +4005,66 @@
             "title": "MediaTrackConstraints.width"
         }
     ],
+    "dom-mediatrackconstraints": [
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/MediaTrackConstraints.json",
+            "name": "MediaTrackConstraints",
+            "slug": "API/MediaTrackConstraints",
+            "summary": "The MediaTrackConstraints dictionary is used to describe a set of capabilities and the value or values each can take on. A constraints dictionary is passed into applyConstraints() to allow a script to establish a set of exact (required) values or ranges and/or preferred values or ranges of values for the track, and the most recently-requested set of custom constraints can be retrieved by calling getConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": "59"
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "18"
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "46"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": "59"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "MediaTrackConstraints"
+        }
+    ],
     "dom-mediatracksettings-aspectratio": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "webkit"
             ],
             "filename": "api/MediaTrackSettings.json",
             "name": "aspectRatio",
@@ -3929,10 +4096,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -3997,10 +4164,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -4017,7 +4184,9 @@
     ],
     "dom-mediatracksettings-channelcount": [
         {
-            "engines": [],
+            "engines": [
+                "webkit"
+            ],
             "filename": "api/MediaTrackSettings.json",
             "name": "channelCount",
             "slug": "API/MediaTrackSettings/channelCount",
@@ -4048,10 +4217,10 @@
                     "version_added": false
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": false
@@ -4070,7 +4239,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSettings.json",
             "name": "deviceId",
@@ -4102,10 +4272,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -4124,7 +4294,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSettings.json",
             "name": "echoCancellation",
@@ -4156,10 +4327,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -4178,7 +4349,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSettings.json",
             "name": "facingMode",
@@ -4210,10 +4382,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -4232,7 +4404,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSettings.json",
             "name": "frameRate",
@@ -4264,10 +4437,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -4286,7 +4459,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSettings.json",
             "name": "groupId",
@@ -4318,10 +4492,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -4340,7 +4514,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSettings.json",
             "name": "height",
@@ -4372,10 +4547,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -4392,7 +4567,9 @@
     ],
     "dom-mediatracksettings-latency": [
         {
-            "engines": [],
+            "engines": [
+                "webkit"
+            ],
             "filename": "api/MediaTrackSettings.json",
             "name": "latency",
             "slug": "API/MediaTrackSettings/latency",
@@ -4423,10 +4600,10 @@
                     "version_added": false
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": false
@@ -4491,10 +4668,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -4511,7 +4688,9 @@
     ],
     "dom-mediatracksettings-samplerate": [
         {
-            "engines": [],
+            "engines": [
+                "webkit"
+            ],
             "filename": "api/MediaTrackSettings.json",
             "name": "sampleRate",
             "slug": "API/MediaTrackSettings/sampleRate",
@@ -4542,10 +4721,10 @@
                     "version_added": false
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": false
@@ -4563,7 +4742,8 @@
     "dom-mediatracksettings-samplesize": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "webkit"
             ],
             "filename": "api/MediaTrackSettings.json",
             "name": "sampleSize",
@@ -4595,10 +4775,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -4617,7 +4797,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSettings.json",
             "name": "width",
@@ -4649,10 +4830,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -4671,7 +4852,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSettings.json",
             "name": "MediaTrackSettings",
@@ -4703,10 +4885,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -4724,7 +4906,8 @@
     "dom-mediatracksupportedconstraints-aspectratio": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "webkit"
             ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "aspectRatio",
@@ -4756,10 +4939,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "6.0"
@@ -4824,10 +5007,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "samsunginternet_android": {
                     "version_added": "10.0"
@@ -4846,7 +5029,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "channelCount",
@@ -4878,10 +5062,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "6.0"
@@ -4900,7 +5084,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "deviceId",
@@ -4932,10 +5117,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "6.0"
@@ -4954,7 +5139,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "echoCancellation",
@@ -4986,10 +5172,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "6.0"
@@ -5008,7 +5194,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "facingMode",
@@ -5040,10 +5227,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "6.0"
@@ -5062,7 +5249,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "frameRate",
@@ -5094,10 +5282,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "6.0"
@@ -5116,7 +5304,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "groupId",
@@ -5148,10 +5337,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "6.0"
@@ -5170,7 +5359,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "height",
@@ -5202,10 +5392,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "6.0"
@@ -5223,7 +5413,8 @@
     "dom-mediatracksupportedconstraints-latency": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "webkit"
             ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "latency",
@@ -5255,10 +5446,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "6.0"
@@ -5323,10 +5514,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "samsunginternet_android": {
                     "version_added": "10.0"
@@ -5344,7 +5535,8 @@
     "dom-mediatracksupportedconstraints-samplerate": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "webkit"
             ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "sampleRate",
@@ -5376,10 +5568,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "6.0"
@@ -5397,7 +5589,8 @@
     "dom-mediatracksupportedconstraints-samplesize": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "webkit"
             ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "sampleSize",
@@ -5429,10 +5622,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "6.0"
@@ -5451,7 +5644,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "width",
@@ -5483,10 +5677,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "6.0"
@@ -5501,7 +5695,62 @@
             "title": "MediaTrackSupportedConstraints.width"
         }
     ],
-    "dom-overconstrainederror-constructor": [
+    "media-track-supported-constraints": [
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/MediaTrackSupportedConstraints.json",
+            "name": "MediaTrackSupportedConstraints",
+            "slug": "API/MediaTrackSupportedConstraints",
+            "summary": "The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the user agent or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.getSupportedConstraints().",
+            "support": {
+                "chrome": {
+                    "version_added": "52"
+                },
+                "chrome_android": {
+                    "version_added": "52"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "42"
+                },
+                "firefox_android": {
+                    "version_added": "42"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": "11"
+                },
+                "safari_ios": {
+                    "version_added": "11"
+                },
+                "samsunginternet_android": {
+                    "version_added": "6.0"
+                },
+                "webview_android": {
+                    "version_added": "52"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "MediaTrackSupportedConstraints"
+        }
+    ],
+    "dom-overconstrainederror": [
         {
             "engines": [
                 "blink",
@@ -5522,10 +5771,10 @@
                     "version_added": false
                 },
                 "firefox": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox_android": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "ie": {
                     "version_added": false
@@ -5552,7 +5801,7 @@
                     "version_added": "79"
                 }
             },
-            "title": "OverconstrainedError.OverconstrainedError()"
+            "title": "OverconstrainedError()"
         }
     ],
     "dom-overconstrainederror-constraint": [
@@ -5576,10 +5825,10 @@
                     "version_added": false
                 },
                 "firefox": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox_android": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "ie": {
                     "version_added": false
@@ -5630,10 +5879,10 @@
                     "version_added": false
                 },
                 "firefox": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox_android": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "ie": {
                     "version_added": false

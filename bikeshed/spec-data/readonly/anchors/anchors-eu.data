@@ -1,6 +1,6 @@
 euc-jp
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -8,19 +8,9 @@ https://encoding.spec.whatwg.org/#euc-jp
 1
 1
 -
-euc-jp
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#euc-jp
-1
-1
--
 euc-jp decoder
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -28,19 +18,9 @@ https://encoding.spec.whatwg.org/#euc-jp-decoder
 1
 1
 -
-euc-jp decoder
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#euc-jp-decoder
-1
-1
--
 euc-jp encoder
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -48,19 +28,9 @@ https://encoding.spec.whatwg.org/#euc-jp-encoder
 1
 1
 -
-euc-jp encoder
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#euc-jp-encoder
-1
-1
--
 euc-jp jis0212
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -68,19 +38,9 @@ https://encoding.spec.whatwg.org/#euc-jp-jis0212-flag
 
 1
 -
-euc-jp jis0212
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#euc-jp-jis0212-flag
-
-1
--
 euc-jp lead
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -88,29 +48,9 @@ https://encoding.spec.whatwg.org/#euc-jp-lead
 
 1
 -
-euc-jp lead
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#euc-jp-lead
-
-1
--
 euc-kr
 dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/parsing.html#euc-kr
-
-1
--
-euc-kr
-dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -120,17 +60,17 @@ https://encoding.spec.whatwg.org/#euc-kr
 -
 euc-kr
 dfn
-encoding
-encoding
+html
+html
 1
 snapshot
-https://www.w3.org/TR/encoding/#euc-kr
-1
+https://html.spec.whatwg.org/multipage/parsing.html#euc-kr
+
 1
 -
 euc-kr decoder
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -138,19 +78,9 @@ https://encoding.spec.whatwg.org/#euc-kr-decoder
 1
 1
 -
-euc-kr decoder
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#euc-kr-decoder
-1
-1
--
 euc-kr encoder
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -158,33 +88,13 @@ https://encoding.spec.whatwg.org/#euc-kr-encoder
 1
 1
 -
-euc-kr encoder
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#euc-kr-encoder
-1
-1
--
 euc-kr lead
 dfn
-encoding
+encoding-1
 encoding
 1
 current
 https://encoding.spec.whatwg.org/#euc-kr-lead
-
-1
--
-euc-kr lead
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#euc-kr-lead
 
 1
 -

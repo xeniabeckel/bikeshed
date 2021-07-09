@@ -3,19 +3,9 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/syntax.html#escapable-raw-text-elements
 
-1
--
-escape a character
-dfn
-cssom-1
-cssom
-1
-current
-https://drafts.csswg.org/cssom/#escape-a-character
-1
 1
 -
 escape a character
@@ -28,14 +18,14 @@ https://www.w3.org/TR/cssom-1/#escape-a-character
 
 1
 -
-escape a character as code point
+escape a character
 dfn
 cssom-1
 cssom
 1
 current
-https://drafts.csswg.org/cssom/#escape-a-character-as-code-point
-
+https://drafts.csswg.org/cssom-1/#escape-a-character
+1
 1
 -
 escape a character as code point
@@ -48,26 +38,25 @@ https://www.w3.org/TR/cssom-1/#escape-a-character-as-code-point
 
 1
 -
+escape a character as code point
+dfn
+cssom-1
+cssom
+1
+current
+https://drafts.csswg.org/cssom-1/#escape-a-character-as-code-point
+
+1
+-
 escape the vcard text string
 dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/microdata.html#escaping-the-vcard-text-string
 
 1
--
-escape(ident)
-method
-cssom-1
-cssom
-1
-current
-https://drafts.csswg.org/cssom/#dom-css-escape
-1
-1
-CSS
 -
 escape(ident)
 method
@@ -80,15 +69,16 @@ https://www.w3.org/TR/cssom-1/#dom-css-escape
 1
 CSS
 -
-escaped as code point
-dfn
+escape(ident)
+method
 cssom-1
 cssom
 1
 current
-https://drafts.csswg.org/cssom/#escape-a-character-as-code-point
-
+https://drafts.csswg.org/cssom-1/#dom-css-escape
 1
+1
+CSS
 -
 escaped as code point
 dfn
@@ -100,13 +90,13 @@ https://www.w3.org/TR/cssom-1/#escape-a-character-as-code-point
 
 1
 -
-escaping
+escaped as code point
 dfn
-css-syntax-3
-css-syntax
-3
+cssom-1
+cssom
+1
 current
-https://drafts.csswg.org/css-syntax/#escape-codepoint
+https://drafts.csswg.org/cssom-1/#escape-a-character-as-code-point
 
 1
 -
@@ -120,12 +110,22 @@ https://www.w3.org/TR/css-syntax-3/#escape-codepoint
 
 1
 -
+escaping
+dfn
+css-syntax-3
+css-syntax
+3
+current
+https://drafts.csswg.org/css-syntax-3/#escape-codepoint
+
+1
+-
 escaping a string
 dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/parsing.html#escapingString
 
 1
@@ -140,57 +140,6 @@ https://mimesniff.spec.whatwg.org/#mime-type-essence
 1
 1
 MIME type
--
-establish
-dfn
-webtransport
-webtransport
-1
-current
-https://w3c.github.io/webtransport/#session-establish
-
-1
-session
--
-establish a connection with the remote playback device
-dfn
-remote-playback
-remote-playback
-1
-current
-https://w3c.github.io/remote-playback/#dfn-establish-a-connection-with-the-remote-playback-device
-
-1
--
-establish a connection with the remote playback device
-dfn
-remote-playback
-remote-playback
-1
-snapshot
-https://www.w3.org/TR/remote-playback/#dfn-establish-a-connection-with-the-remote-playback-device
-
-1
--
-establish a presentation connection
-dfn
-presentation-api
-presentation-api
-1
-current
-https://w3c.github.io/presentation-api/#dfn-establish-a-presentation-connection
-
-1
--
-establish a presentation connection
-dfn
-presentation-api
-presentation-api
-1
-snapshot
-https://www.w3.org/TR/presentation-api/#dfn-establish-a-presentation-connection
-
-1
 -
 establish a websocket connection
 dfn
@@ -207,19 +156,9 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/infrastructure.html#concept-websocket-establish
 
-1
--
-establish an independent formatting context
-dfn
-css-display-3
-css-display
-3
-current
-https://drafts.csswg.org/css-display/#establish-an-independent-formatting-context
-1
 1
 -
 establish an independent formatting context
@@ -232,13 +171,33 @@ https://www.w3.org/TR/css-display-3/#establish-an-independent-formatting-context
 1
 1
 -
+establish an independent formatting context
+dfn
+css-display-3
+css-display
+3
+current
+https://drafts.csswg.org/css-display-3/#establish-an-independent-formatting-context
+1
+1
+-
 establish an orthogonal flow
 dfn
-css-writing-modes-4
+css-writing-modes-3
 css-writing-modes
-4
+3
+snapshot
+https://www.w3.org/TR/css-writing-modes-3/#establish-an-orthogonal-flow
+1
+1
+-
+establish an orthogonal flow
+dfn
+css-writing-modes-3
+css-writing-modes
+3
 current
-https://drafts.csswg.org/css-writing-modes-4/#establish-an-orthogonal-flow
+https://drafts.csswg.org/css-writing-modes-3/#establish-an-orthogonal-flow
 1
 1
 -
@@ -252,27 +211,25 @@ https://www.w3.org/TR/css-writing-modes-4/#establish-an-orthogonal-flow
 1
 1
 -
-establish tracks
+establish an orthogonal flow
 dfn
-webcodecs
-webcodecs
-1
+css-writing-modes-4
+css-writing-modes
+4
 current
-https://w3c.github.io/webcodecs/#imagedecoder-establish-tracks
-
+https://drafts.csswg.org/css-writing-modes-4/#establish-an-orthogonal-flow
 1
-ImageDecoder
+1
 -
-establish tracks
+established an independent formatting context
 dfn
-webcodecs
-webcodecs
-1
+css-display-3
+css-display
+3
 snapshot
-https://www.w3.org/TR/webcodecs/#imagedecoder-establish-tracks
-
+https://www.w3.org/TR/css-display-3/#establish-an-independent-formatting-context
 1
-ImageDecoder
+1
 -
 established an independent formatting context
 dfn
@@ -280,11 +237,11 @@ css-display-3
 css-display
 3
 current
-https://drafts.csswg.org/css-display/#establish-an-independent-formatting-context
+https://drafts.csswg.org/css-display-3/#establish-an-independent-formatting-context
 1
 1
 -
-established an independent formatting context
+establishes an independent formatting context
 dfn
 css-display-3
 css-display
@@ -300,38 +257,7 @@ css-display-3
 css-display
 3
 current
-https://drafts.csswg.org/css-display/#establish-an-independent-formatting-context
-1
-1
--
-establishes an independent formatting context
-dfn
-css-display-3
-css-display
-3
-snapshot
-https://www.w3.org/TR/css-display-3/#establish-an-independent-formatting-context
-1
-1
--
-establishes cross-origin trust
-dfn
-webpackage
-webpackage
-1
-current
-https://wicg.github.io/webpackage/loading.html#exchange-signature-establishes-cross-origin-trust
-
-1
-exchange signature
--
-establishing an independent formatting context
-dfn
-css-display-3
-css-display
-3
-current
-https://drafts.csswg.org/css-display/#establish-an-independent-formatting-context
+https://drafts.csswg.org/css-display-3/#establish-an-independent-formatting-context
 1
 1
 -
@@ -342,6 +268,16 @@ css-display
 3
 snapshot
 https://www.w3.org/TR/css-display-3/#establish-an-independent-formatting-context
+1
+1
+-
+establishing an independent formatting context
+dfn
+css-display-3
+css-display
+3
+current
+https://drafts.csswg.org/css-display-3/#establish-an-independent-formatting-context
 1
 1
 -
@@ -350,7 +286,7 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/media.html#defineTimeline
 
 1
@@ -368,17 +304,7 @@ StorageManager
 -
 estimated floor level
 dfn
-webxr
-webxr
-1
-current
-https://immersive-web.github.io/webxr/#estimated-floor-level
-
-1
--
-estimated floor level
-dfn
-webxr
+webxr-1
 webxr
 1
 snapshot
@@ -386,42 +312,19 @@ https://www.w3.org/TR/webxr/#estimated-floor-level
 
 1
 -
-estimatedPlayoutTimestamp
-dict-member
-webrtc-stats
-webrtc-stats
+estimated floor level
+dfn
+webxr-1
+webxr
 1
 current
-https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-estimatedplayouttimestamp
-1
-1
-RTCInboundRtpStreamStats
--
-estimatedPlayoutTimestamp
-dict-member
-webrtc-stats
-webrtc-stats
-1
-current
-https://w3c.github.io/webrtc-stats/#dom-rtcaudioreceiverstats-estimatedplayouttimestamp
-1
+https://immersive-web.github.io/webxr/#estimated-floor-level
 
-RTCAudioReceiverStats
+1
 -
 estimatedPlayoutTimestamp
 dict-member
-webrtc-stats
-webrtc-stats
-1
-current
-https://w3c.github.io/webrtc-stats/#dom-rtcvideoreceiverstats-estimatedplayouttimestamp
-1
-
-RTCVideoReceiverStats
--
-estimatedPlayoutTimestamp
-dict-member
-webrtc-stats
+webrtc-stats-1
 webrtc-stats
 1
 snapshot
@@ -432,7 +335,7 @@ RTCInboundRtpStreamStats
 -
 estimatedPlayoutTimestamp
 dict-member
-webrtc-stats
+webrtc-stats-1
 webrtc-stats
 1
 snapshot
@@ -443,7 +346,7 @@ RTCAudioReceiverStats
 -
 estimatedPlayoutTimestamp
 dict-member
-webrtc-stats
+webrtc-stats-1
 webrtc-stats
 1
 snapshot

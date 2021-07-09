@@ -11,27 +11,7 @@ XRHand
 -
 job
 dfn
-ecmascript
-ecmascript
-1
-current
-https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html#job
-
-1
--
-job
-dfn
-service-workers-1
 service-workers
-1
-current
-https://w3c.github.io/ServiceWorker/#dfn-job
-
-1
--
-job
-dfn
-service-workers-1
 service-workers
 1
 snapshot
@@ -39,20 +19,19 @@ https://www.w3.org/TR/service-workers-1/#dfn-job
 
 1
 -
-job promise
+job
 dfn
-service-workers-1
+service-workers
 service-workers
 1
 current
-https://w3c.github.io/ServiceWorker/#dfn-job-promise
+https://w3c.github.io/ServiceWorker/#dfn-job
 
 1
-job
 -
 job promise
 dfn
-service-workers-1
+service-workers
 service-workers
 1
 snapshot
@@ -61,19 +40,20 @@ https://www.w3.org/TR/service-workers-1/#dfn-job-promise
 1
 job
 -
-job queue
+job promise
 dfn
-service-workers-1
+service-workers
 service-workers
 1
 current
-https://w3c.github.io/ServiceWorker/#dfn-job-queue
+https://w3c.github.io/ServiceWorker/#dfn-job-promise
 
 1
+job
 -
 job queue
 dfn
-service-workers-1
+service-workers
 service-workers
 1
 snapshot
@@ -81,24 +61,34 @@ https://www.w3.org/TR/service-workers-1/#dfn-job-queue
 
 1
 -
-job type
+job queue
 dfn
-service-workers-1
+service-workers
 service-workers
 1
 current
-https://w3c.github.io/ServiceWorker/#dfn-job-type
+https://w3c.github.io/ServiceWorker/#dfn-job-queue
+
+1
+-
+job type
+dfn
+service-workers
+service-workers
+1
+snapshot
+https://www.w3.org/TR/service-workers-1/#dfn-job-type
 
 1
 job
 -
 job type
 dfn
-service-workers-1
+service-workers
 service-workers
 1
-snapshot
-https://www.w3.org/TR/service-workers-1/#dfn-job-type
+current
+https://w3c.github.io/ServiceWorker/#dfn-job-type
 
 1
 job
@@ -108,7 +98,7 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/infrastructure.html#jobcallback-record
 
 1
@@ -135,101 +125,15 @@ https://immersive-web.github.io/webxr-hand-input/#dom-xrframe-getjointpose-joint
 1
 XRFrame/getJointPose(joint, baseSpace)
 -
-joint
-dfn
-webxr-hand-input-1
-webxr-hand-input
-1
-snapshot
-https://www.w3.org/TR/webxr-hand-input-1/#xrjointspace-joint
-
-1
-XRJointSpace
--
-joint
-argument
-webxr-hand-input-1
-webxr-hand-input
-1
-snapshot
-https://www.w3.org/TR/webxr-hand-input-1/#dom-xrframe-getjointpose-joint-basespace-joint
-1
-1
-XRFrame/getJointPose(joint, baseSpace)
--
-joint index
-dfn
-webxr-hand-input-1
-webxr-hand-input
-1
-snapshot
-https://www.w3.org/TR/webxr-hand-input-1/#xrjointspace-joint-index
-
-1
-XRJointSpace
--
 joint session history
 dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/history.html#joint-session-history
 
 1
--
-joint session history
-dfn
-webdriver2
-webdriver
-2
-current
-https://w3c.github.io/webdriver/#dfn-joint-session-history
-
-1
--
-joint session history
-dfn
-webdriver2
-webdriver
-2
-snapshot
-https://www.w3.org/TR/webdriver2/#dfn-joint-session-history
-
-1
--
-joint(jointIndex)
-method
-webxr-hand-input-1
-webxr-hand-input
-1
-snapshot
-https://www.w3.org/TR/webxr-hand-input-1/#dom-xrhand-joint
-1
-1
-XRHand
--
-joint(jointIndex)
-method
-webxr-hand-input-1
-webxr-hand-input
-1
-snapshot
-https://www.w3.org/TR/webxr-hand-input-1/#dom-xrjointspace-joint
-1
-1
-XRJointSpace
--
-jointIndex
-argument
-webxr-hand-input-1
-webxr-hand-input
-1
-snapshot
-https://www.w3.org/TR/webxr-hand-input-1/#dom-xrhand-joint-jointindex-jointindex
-1
-1
-XRHand/joint(jointIndex)
 -
 jointName
 attribute
@@ -249,17 +153,6 @@ webxr-hand-input
 1
 current
 https://immersive-web.github.io/webxr-hand-input/#dom-xrframe-filljointradii-jointspaces-radii-jointspaces
-1
-1
-XRFrame/fillJointRadii(jointSpaces, radii)
--
-jointSpaces
-argument
-webxr-hand-input-1
-webxr-hand-input
-1
-snapshot
-https://www.w3.org/TR/webxr-hand-input-1/#dom-xrframe-filljointradii-jointspaces-radii-jointspaces
 1
 1
 XRFrame/fillJointRadii(jointSpaces, radii)

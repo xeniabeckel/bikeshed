@@ -462,6 +462,10 @@ a:wicg-geolocation-sensor-20181219
 WICG-GEOLOCATION-SENSOR-20181219
 geolocation-sensor-20181219
 -
+a:wicg-geolocation-sensor-20210602
+WICG-GEOLOCATION-SENSOR-20210602
+geolocation-sensor-20210602
+-
 a:wicg-idle-detection
 WICG-IDLE-DETECTION
 idle-detection
@@ -529,6 +533,10 @@ mst-content-hint-20201202
 a:wicg-mst-content-hint-20210119
 WICG-MST-CONTENT-HINT-20210119
 mst-content-hint-20210119
+-
+a:wicg-mst-content-hint-20210701
+WICG-MST-CONTENT-HINT-20210701
+mst-content-hint-20210701
 -
 a:wicg-native-file-system
 WICG-NATIVE-FILE-SYSTEM

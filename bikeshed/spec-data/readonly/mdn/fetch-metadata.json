@@ -2,12 +2,13 @@
     "sec-fetch-dest-header": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "gecko"
             ],
             "filename": "http/headers/sec-fetch-dest.json",
             "name": "Sec-Fetch-Dest",
             "slug": "HTTP/Headers/Sec-Fetch-Dest",
-            "summary": "The Sec-Fetch-Dest fetch metadata header indicates the request's destination, that is how the fetched data will be used.",
+            "summary": "The Sec-Fetch-Dest fetch metadata request header indicates the request's destination. That is the initiator of the original fetch request, which is where (and how) the fetched data will be used.",
             "support": {
                 "chrome": {
                     "version_added": "80"
@@ -19,10 +20,10 @@
                     "version_added": false
                 },
                 "firefox": {
-                    "version_added": false
+                    "version_added": "90"
                 },
                 "firefox_android": {
-                    "version_added": false
+                    "version_added": "90"
                 },
                 "ie": {
                     "version_added": false
@@ -55,12 +56,13 @@
     "sec-fetch-mode-header": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "gecko"
             ],
             "filename": "http/headers/sec-fetch-mode.json",
             "name": "Sec-Fetch-Mode",
             "slug": "HTTP/Headers/Sec-Fetch-Mode",
-            "summary": "The Sec-Fetch-Mode fetch metadata header indicates the request's mode.",
+            "summary": "The Sec-Fetch-Mode fetch metadata request header indicates the mode of the request.",
             "support": {
                 "chrome": {
                     "version_added": "76"
@@ -72,10 +74,10 @@
                     "version_added": false
                 },
                 "firefox": {
-                    "version_added": false
+                    "version_added": "90"
                 },
                 "firefox_android": {
-                    "version_added": false
+                    "version_added": "90"
                 },
                 "ie": {
                     "version_added": false
@@ -108,12 +110,13 @@
     "sec-fetch-site-header": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "gecko"
             ],
             "filename": "http/headers/sec-fetch-site.json",
             "name": "Sec-Fetch-Site",
             "slug": "HTTP/Headers/Sec-Fetch-Site",
-            "summary": "The Sec-Fetch-Site fetch metadata header indicates the relationship between a request initiator's origin and the origin of the resource.",
+            "summary": "The Sec-Fetch-Site fetch metadata request header indicates the relationship between a request initiator's origin and the origin of the requested resource.",
             "support": {
                 "chrome": {
                     "version_added": "76"
@@ -125,10 +128,10 @@
                     "version_added": false
                 },
                 "firefox": {
-                    "version_added": false
+                    "version_added": "90"
                 },
                 "firefox_android": {
-                    "version_added": false
+                    "version_added": "90"
                 },
                 "ie": {
                     "version_added": false
@@ -161,12 +164,13 @@
     "sec-fetch-user-header": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "gecko"
             ],
             "filename": "http/headers/sec-fetch-user.json",
             "name": "Sec-Fetch-User",
             "slug": "HTTP/Headers/Sec-Fetch-User",
-            "summary": "The Sec-Fetch-User fetch metadata header is only sent for requests initiated by user activation, and its value will always be ?1.",
+            "summary": "The Sec-Fetch-User fetch metadata request header is only sent for requests initiated by user activation, and its value will always be ?1.",
             "support": {
                 "chrome": {
                     "version_added": "76"
@@ -178,10 +182,10 @@
                     "version_added": false
                 },
                 "firefox": {
-                    "version_added": false
+                    "version_added": "90"
                 },
                 "firefox_android": {
-                    "version_added": false
+                    "version_added": "90"
                 },
                 "ie": {
                     "version_added": false

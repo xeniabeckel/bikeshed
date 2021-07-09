@@ -1,448 +1,5 @@
 {
-    "dom-body-arraybuffer": [
-        {
-            "engines": [
-                "blink",
-                "gecko",
-                "webkit"
-            ],
-            "filename": "api/Body.json",
-            "name": "arrayBuffer",
-            "slug": "API/Body/arrayBuffer",
-            "summary": "The arrayBuffer() method of the Body mixin takes a Response stream and reads it to completion. It returns a promise that resolves with an ArrayBuffer.",
-            "support": {
-                "chrome": {
-                    "version_added": "42"
-                },
-                "chrome_android": {
-                    "version_added": "42"
-                },
-                "edge": {
-                    "version_added": "18"
-                },
-                "firefox": {
-                    "version_added": "39"
-                },
-                "firefox_android": {
-                    "version_added": false
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": "29"
-                },
-                "opera_android": {
-                    "version_added": "29"
-                },
-                "safari": {
-                    "version_added": "10.1"
-                },
-                "safari_ios": {
-                    "version_added": "10.3"
-                },
-                "samsunginternet_android": {
-                    "version_added": "4.0"
-                },
-                "webview_android": {
-                    "version_added": false
-                },
-                "edge_blink": {
-                    "version_added": "79"
-                }
-            },
-            "title": "Body.arrayBuffer()"
-        }
-    ],
-    "dom-body-blob": [
-        {
-            "engines": [
-                "blink",
-                "gecko",
-                "webkit"
-            ],
-            "filename": "api/Body.json",
-            "name": "blob",
-            "slug": "API/Body/blob",
-            "summary": "The blob() method of the Body mixin takes a Response stream and reads it to completion. It returns a promise that resolves with a Blob.",
-            "support": {
-                "chrome": {
-                    "version_added": "42"
-                },
-                "chrome_android": {
-                    "version_added": "42"
-                },
-                "edge": {
-                    "version_added": "18"
-                },
-                "firefox": {
-                    "version_added": "39"
-                },
-                "firefox_android": {
-                    "version_added": false
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": "29"
-                },
-                "opera_android": {
-                    "version_added": "29"
-                },
-                "safari": {
-                    "version_added": "10.1"
-                },
-                "safari_ios": {
-                    "version_added": "10.3"
-                },
-                "samsunginternet_android": {
-                    "version_added": "4.0"
-                },
-                "webview_android": {
-                    "version_added": false
-                },
-                "edge_blink": {
-                    "version_added": "79"
-                }
-            },
-            "title": "Body.blob()"
-        }
-    ],
-    "dom-body-body": [
-        {
-            "engines": [
-                "blink",
-                "gecko",
-                "webkit"
-            ],
-            "filename": "api/Body.json",
-            "name": "body",
-            "slug": "API/Body/body",
-            "summary": "The body read-only property of the Body mixin is a simple getter used to expose a ReadableStream of the body contents.",
-            "support": {
-                "chrome": {
-                    "version_added": "52"
-                },
-                "chrome_android": {
-                    "version_added": "52"
-                },
-                "edge": {
-                    "version_added": "18"
-                },
-                "firefox": {
-                    "version_added": "65"
-                },
-                "firefox_android": {
-                    "version_added": "65"
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": "39"
-                },
-                "opera_android": {
-                    "version_added": "41"
-                },
-                "safari": {
-                    "version_added": "11.1"
-                },
-                "safari_ios": {
-                    "version_added": "11.3"
-                },
-                "samsunginternet_android": {
-                    "version_added": "6.0"
-                },
-                "webview_android": {
-                    "version_added": "52"
-                },
-                "edge_blink": {
-                    "version_added": "79"
-                }
-            },
-            "title": "Body.body"
-        }
-    ],
-    "dom-body-bodyused": [
-        {
-            "engines": [
-                "blink",
-                "gecko",
-                "webkit"
-            ],
-            "filename": "api/Body.json",
-            "name": "bodyUsed",
-            "slug": "API/Body/bodyUsed",
-            "summary": "The bodyUsed read-only property of the Body mixin contains a Boolean that indicates whether the body has been read yet.",
-            "support": {
-                "chrome": {
-                    "version_added": "42"
-                },
-                "chrome_android": {
-                    "version_added": false
-                },
-                "edge": {
-                    "version_added": "18"
-                },
-                "firefox": {
-                    "version_added": "39"
-                },
-                "firefox_android": {
-                    "version_added": false
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": "29"
-                },
-                "opera_android": {
-                    "version_added": "29"
-                },
-                "safari": {
-                    "version_added": "10.1"
-                },
-                "safari_ios": {
-                    "version_added": "10.3"
-                },
-                "samsunginternet_android": {
-                    "version_added": false
-                },
-                "webview_android": {
-                    "version_added": false
-                },
-                "edge_blink": {
-                    "version_added": "79"
-                }
-            },
-            "title": "Body.bodyUsed"
-        }
-    ],
-    "dom-body-formdata": [
-        {
-            "engines": [
-                "blink",
-                "gecko"
-            ],
-            "partial": [
-                "webkit"
-            ],
-            "filename": "api/Body.json",
-            "name": "formData",
-            "slug": "API/Body/formData",
-            "summary": "The formData() method of the Body mixin takes a Response stream and reads it to completion. It returns a promise that resolves with a FormData object.",
-            "support": {
-                "chrome": {
-                    "version_added": "60"
-                },
-                "chrome_android": {
-                    "version_added": "60"
-                },
-                "edge": {
-                    "version_added": false
-                },
-                "firefox": {
-                    "version_added": "39"
-                },
-                "firefox_android": {
-                    "version_added": false
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": "47"
-                },
-                "opera_android": {
-                    "version_added": "44"
-                },
-                "safari": {
-                    "version_added": "10.1",
-                    "partial_implementation": true,
-                    "notes": "From Safari 10.1, the method exists but always rejects with <code>NotSupportedError</code>. See <a href='https://webkit.org/b/215671'>bug 215671</a>."
-                },
-                "safari_ios": {
-                    "version_added": "10.3",
-                    "partial_implementation": true,
-                    "notes": "From Safari for iOS 10.3, the method exists but always rejects with <code>NotSupportedError</code>. See <a href='https://webkit.org/b/215671'>bug 215671</a>."
-                },
-                "samsunginternet_android": {
-                    "version_added": "8.0"
-                },
-                "webview_android": {
-                    "version_added": "60"
-                },
-                "edge_blink": {
-                    "version_added": "79"
-                }
-            },
-            "title": "Body.formData()"
-        }
-    ],
-    "dom-body-json": [
-        {
-            "engines": [
-                "blink",
-                "gecko",
-                "webkit"
-            ],
-            "filename": "api/Body.json",
-            "name": "json",
-            "slug": "API/Body/json",
-            "summary": "The json() method of the Body mixin takes a Response stream and reads it to completion. It returns a promise which resolves with a JavaScript object that is the result of parsing the body text as JSON.",
-            "support": {
-                "chrome": {
-                    "version_added": "42"
-                },
-                "chrome_android": {
-                    "version_added": "42"
-                },
-                "edge": {
-                    "version_added": "18"
-                },
-                "firefox": {
-                    "version_added": "39"
-                },
-                "firefox_android": {
-                    "version_added": false
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": "29"
-                },
-                "opera_android": {
-                    "version_added": "29"
-                },
-                "safari": {
-                    "version_added": "10.1"
-                },
-                "safari_ios": {
-                    "version_added": "10.3"
-                },
-                "samsunginternet_android": {
-                    "version_added": "4.0"
-                },
-                "webview_android": {
-                    "version_added": false
-                },
-                "edge_blink": {
-                    "version_added": "79"
-                }
-            },
-            "title": "Body.json()"
-        }
-    ],
-    "dom-body-text": [
-        {
-            "engines": [
-                "blink",
-                "gecko",
-                "webkit"
-            ],
-            "filename": "api/Body.json",
-            "name": "text",
-            "slug": "API/Body/text",
-            "summary": "The text() method of the Body mixin takes a Response stream and reads it to completion. It returns a promise that resolves with a USVString object (text). The response is always decoded using UTF-8.",
-            "support": {
-                "chrome": {
-                    "version_added": "42"
-                },
-                "chrome_android": {
-                    "version_added": "42"
-                },
-                "edge": {
-                    "version_added": "18"
-                },
-                "firefox": {
-                    "version_added": "39"
-                },
-                "firefox_android": {
-                    "version_added": false
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": "29"
-                },
-                "opera_android": {
-                    "version_added": "29"
-                },
-                "safari": {
-                    "version_added": "10.1"
-                },
-                "safari_ios": {
-                    "version_added": "10.3"
-                },
-                "samsunginternet_android": {
-                    "version_added": "4.0"
-                },
-                "webview_android": {
-                    "version_added": false
-                },
-                "edge_blink": {
-                    "version_added": "79"
-                }
-            },
-            "title": "Body.text()"
-        }
-    ],
-    "body-mixin": [
-        {
-            "engines": [
-                "blink",
-                "gecko",
-                "webkit"
-            ],
-            "filename": "api/Body.json",
-            "name": "Body",
-            "slug": "API/Body",
-            "summary": "The Body mixin of the Fetch API represents the body of the response/request, allowing you to declare what its content type is and how it should be handled.",
-            "support": {
-                "chrome": {
-                    "version_added": "42"
-                },
-                "chrome_android": {
-                    "version_added": "42"
-                },
-                "edge": {
-                    "version_added": "18"
-                },
-                "firefox": {
-                    "version_added": "39"
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": "29"
-                },
-                "opera_android": {
-                    "version_added": "29"
-                },
-                "safari": {
-                    "version_added": "10.1"
-                },
-                "safari_ios": {
-                    "version_added": "10.3"
-                },
-                "samsunginternet_android": {
-                    "version_added": "4.0"
-                },
-                "webview_android": {
-                    "version_added": "42"
-                },
-                "edge_blink": {
-                    "version_added": "79"
-                }
-            },
-            "title": "Body"
-        }
-    ],
-    "dom-headers": [
+    "ref-for-dom-headers①": [
         {
             "engines": [
                 "blink",
@@ -454,85 +11,30 @@
             "slug": "API/Headers/Headers",
             "summary": "The Headers() constructor creates a new Headers object.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "chrome_android": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": false
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": ""
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -545,25 +47,14 @@
                 "webview_android": {
                     "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Headers()"
         }
     ],
-    "dom-headers-append": [
+    "ref-for-dom-headers-append①": [
         {
             "engines": [
                 "blink",
@@ -575,85 +66,30 @@
             "slug": "API/Headers/append",
             "summary": "The append() method of the Headers interface appends a new value onto an existing header inside a Headers object, or adds the header if it does not already exist.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "chrome_android": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": false
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -666,25 +102,14 @@
                 "webview_android": {
                     "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Headers.append()"
         }
     ],
-    "dom-headers-delete": [
+    "ref-for-dom-headers-delete①": [
         {
             "engines": [
                 "blink",
@@ -696,85 +121,30 @@
             "slug": "API/Headers/delete",
             "summary": "The delete() method of the Headers interface deletes a header from the current Headers object.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "chrome_android": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": false
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -787,25 +157,14 @@
                 "webview_android": {
                     "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Headers.delete()"
         }
     ],
-    "dom-headers-get": [
+    "ref-for-dom-headers-get①": [
         {
             "engines": [
                 "blink",
@@ -817,34 +176,12 @@
             "slug": "API/Headers/get",
             "summary": "The get() method of the Headers interface returns a byte string of all the values of a header within a Headers object with a given name. If the requested header doesn't exist in the Headers object, it returns null.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "chrome_android": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
                 "edge": {
                     "version_added": "14"
                 },
@@ -855,15 +192,6 @@
                     },
                     {
                         "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
                     }
                 ],
                 "firefox_android": {
@@ -872,34 +200,12 @@
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -912,25 +218,14 @@
                 "webview_android": {
                     "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Headers.get()"
         }
     ],
-    "dom-headers-has": [
+    "ref-for-dom-headers-has①": [
         {
             "engines": [
                 "blink",
@@ -942,85 +237,30 @@
             "slug": "API/Headers/has",
             "summary": "The has() method of the Headers interface returns a boolean stating whether a Headers object contains a certain header.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "chrome_android": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": false
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -1033,25 +273,14 @@
                 "webview_android": {
                     "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Headers.has()"
         }
     ],
-    "dom-headers-set": [
+    "ref-for-dom-headers-set①": [
         {
             "engines": [
                 "blink",
@@ -1063,85 +292,30 @@
             "slug": "API/Headers/set",
             "summary": "The set() method of the Headers interface sets a new value for an existing header inside a Headers object, or adds the header if it does not already exist.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "chrome_android": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": false
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -1154,20 +328,9 @@
                 "webview_android": {
                     "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Headers.set()"
         }
@@ -1184,85 +347,30 @@
             "slug": "API/Headers",
             "summary": "The Headers interface of the Fetch API allows you to perform various actions on HTTP request and response headers. These actions include retrieving, setting, adding to, and removing headers from the list of the request's headers.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "chrome_android": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": "44"
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -1275,25 +383,14 @@
                 "webview_android": {
                     "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Headers"
         }
     ],
-    "dom-request": [
+    "ref-for-dom-request①": [
         {
             "engines": [
                 "blink",
@@ -1306,75 +403,31 @@
             "summary": "The Request() constructor creates a new Request object.",
             "support": {
                 "chrome": {
-                    "version_added": "41",
+                    "version_added": "42",
                     "notes": "From Chrome 47, default values for the <code>init</code> argument's properties changed. <code>mode</code> defaults to <code>same-origin</code> (from <code>no-cors</code>). <code>credentials</code> defaults to <code>include</code> (from <code>same-origin</code>). <code>redirect</code> defaults to <code>follow</code> (from <code>manual</code>)."
                 },
                 "chrome_android": {
-                    "version_added": "41",
+                    "version_added": "42",
                     "notes": "From Chrome 47, default values for the <code>init</code> argument's properties changed. <code>mode</code> defaults to <code>same-origin</code> (from <code>no-cors</code>). <code>credentials</code> defaults to <code>include</code> (from <code>same-origin</code>). <code>redirect</code> defaults to <code>follow</code> (from <code>manual</code>)."
                 },
                 "edge": {
                     "version_added": "15"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
-                "firefox_android": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -1402,7 +455,7 @@
             "title": "Request()"
         }
     ],
-    "dom-request-cache": [
+    "ref-for-dom-request-cache②": [
         {
             "engines": [
                 "blink",
@@ -1457,7 +510,7 @@
             "title": "Request.cache"
         }
     ],
-    "dom-request-clone": [
+    "ref-for-dom-request-clone①": [
         {
             "engines": [
                 "blink",
@@ -1469,74 +522,30 @@
             "slug": "API/Request/clone",
             "summary": "The clone() method of the Request interface creates a copy of the current Request object.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
                 "chrome_android": {
-                    "version_added": false
+                    "version_added": "42"
                 },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": false
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -1549,25 +558,14 @@
                 "webview_android": {
                     "version_added": false
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Request.clone()"
         }
     ],
-    "dom-request-credentials": [
+    "ref-for-dom-request-credentials②": [
         {
             "engines": [
                 "blink",
@@ -1579,74 +577,30 @@
             "slug": "API/Request/credentials",
             "summary": "The credentials read-only property of the Request interface indicates whether the user agent should send cookies from the other domain in the case of cross-origin requests.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
                 "chrome_android": {
                     "version_added": "42"
                 },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": "39"
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -1659,25 +613,14 @@
                 "webview_android": {
                     "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Request.credentials"
         }
     ],
-    "dom-request-destination": [
+    "ref-for-dom-request-destination①": [
         {
             "engines": [
                 "blink",
@@ -1732,7 +675,7 @@
             "title": "Request.destination"
         }
     ],
-    "dom-request-headers": [
+    "ref-for-dom-request-headers②": [
         {
             "engines": [
                 "blink",
@@ -1744,75 +687,30 @@
             "slug": "API/Request/headers",
             "summary": "The headers read-only property of the Request interface contains the Headers object associated with the request.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
                 "chrome_android": {
-                    "version_added": "42",
-                    "version_removed": "46"
+                    "version_added": "42"
                 },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": "39"
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -1820,31 +718,19 @@
                     "version_added": "10.3"
                 },
                 "samsunginternet_android": {
-                    "version_added": "4.0",
-                    "version_removed": "5.0"
+                    "version_added": "4.0"
                 },
                 "webview_android": {
-                    "version_added": false
+                    "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Request.headers"
         }
     ],
-    "dom-request-integrity": [
+    "ref-for-dom-request-integrity②": [
         {
             "engines": [
                 "blink",
@@ -1899,7 +785,7 @@
             "title": "Request.integrity"
         }
     ],
-    "dom-request-method": [
+    "ref-for-dom-request-method②": [
         {
             "engines": [
                 "blink",
@@ -1911,75 +797,30 @@
             "slug": "API/Request/method",
             "summary": "The method read-only property of the Request interface contains the request's method (GET, POST, etc.)",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
                 "chrome_android": {
-                    "version_added": "42",
-                    "version_removed": "46"
+                    "version_added": "42"
                 },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": "39"
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -1987,31 +828,19 @@
                     "version_added": "10.3"
                 },
                 "samsunginternet_android": {
-                    "version_added": "4.0",
-                    "version_removed": "5.0"
+                    "version_added": "4.0"
                 },
                 "webview_android": {
-                    "version_added": false
+                    "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Request.method"
         }
     ],
-    "dom-request-mode": [
+    "ref-for-dom-request-mode②": [
         {
             "engines": [
                 "blink",
@@ -2021,7 +850,7 @@
             "filename": "api/Request.json",
             "name": "mode",
             "slug": "API/Request/mode",
-            "summary": "The mode read-only property of the Request interface contains the mode of the request (e.g., cors, no-cors, same-origin, or navigate.) This is used to determine if cross-origin requests lead to valid responses, and which properties of the response are readable.",
+            "summary": "The mode read-only property of the Request interface contains the mode of the request (e.g., cors, no-cors, same-origin, navigate or websocket.) This is used to determine if cross-origin requests lead to valid responses, and which properties of the response are readable.",
             "support": {
                 "chrome": {
                     "version_added": "42"
@@ -2066,7 +895,7 @@
             "title": "Request.mode"
         }
     ],
-    "dom-request-redirect": [
+    "ref-for-dom-request-redirect②": [
         {
             "engines": [
                 "blink",
@@ -2121,7 +950,7 @@
             "title": "Request.redirect"
         }
     ],
-    "dom-request-referrer": [
+    "ref-for-dom-request-referrer①": [
         {
             "engines": [
                 "blink",
@@ -2133,22 +962,11 @@
             "slug": "API/Request/referrer",
             "summary": "The referrer read-only property of the Request interface is set by the user agent to be the referrer of the Request. (e.g., client, no-referrer, or a URL.)",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
                 "chrome_android": {
-                    "version_added": false
+                    "version_added": "42"
                 },
                 "edge": {
                     "version_added": "14"
@@ -2162,34 +980,12 @@
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -2197,30 +993,19 @@
                     "version_added": "10.3"
                 },
                 "samsunginternet_android": {
-                    "version_added": false
+                    "version_added": "4.0"
                 },
                 "webview_android": {
-                    "version_added": false
+                    "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Request.referrer"
         }
     ],
-    "dom-request-referrerpolicy": [
+    "ref-for-dom-request-referrerpolicy②": [
         {
             "engines": [
                 "blink",
@@ -2275,7 +1060,7 @@
             "title": "Request.referrerPolicy"
         }
     ],
-    "dom-request-url": [
+    "ref-for-dom-request-url③": [
         {
             "engines": [
                 "blink",
@@ -2298,20 +1083,9 @@
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": "39"
                 },
@@ -2360,65 +1134,21 @@
             "slug": "API/Request",
             "summary": "The Request interface of the Fetch API represents a resource request.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "chrome_android": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
                 "edge": {
                     "version_added": "18"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
-                "firefox_android": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
                 "ie": {
                     "version_added": false
                 },
@@ -2440,79 +1170,14 @@
                 "webview_android": {
                     "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "title": "Request"
-        }
-    ],
-    "requestdestination": [
-        {
-            "engines": [
-                "blink",
-                "gecko"
-            ],
-            "filename": "api/RequestDestination.json",
-            "name": "RequestDestination",
-            "slug": "API/RequestDestination",
-            "summary": "The RequestDestination enumerated type contains the permitted values for a request's destination. These string values indicate potential types of content that a request may try to retrieve.",
-            "support": {
-                "chrome": {
-                    "version_added": "65"
-                },
-                "chrome_android": {
-                    "version_added": "65"
-                },
-                "edge": {
-                    "version_added": "14"
-                },
-                "firefox": {
-                    "version_added": "61"
-                },
-                "firefox_android": {
-                    "version_added": "61"
-                },
-                "ie": {
-                    "version_added": null
-                },
-                "opera": {
-                    "version_added": "52"
-                },
-                "opera_android": {
-                    "version_added": "47"
-                },
-                "safari": {
-                    "version_added": null
-                },
-                "safari_ios": {
-                    "version_added": null
-                },
-                "samsunginternet_android": {
-                    "version_added": "9.0"
-                },
-                "webview_android": {
-                    "version_added": "65"
-                },
                 "edge_blink": {
                     "version_added": "79"
                 }
             },
-            "title": "RequestDestination"
+            "title": "Request"
         }
     ],
-    "dom-response": [
+    "ref-for-dom-response①": [
         {
             "engines": [
                 "blink",
@@ -2524,85 +1189,30 @@
             "slug": "API/Response/Response",
             "summary": "The Response() constructor creates a new Response object.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "chrome_android": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": true
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -2615,25 +1225,14 @@
                 "webview_android": {
                     "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Response()"
         }
     ],
-    "dom-response-clone": [
+    "ref-for-dom-response-clone①": [
         {
             "engines": [
                 "blink",
@@ -2645,74 +1244,30 @@
             "slug": "API/Response/clone",
             "summary": "The clone() method of the Response interface creates a clone of a response object, identical in every way, but stored in a different variable.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
                 "chrome_android": {
                     "version_added": false
                 },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": false
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -2725,25 +1280,14 @@
                 "webview_android": {
                     "version_added": false
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Response.clone()"
         }
     ],
-    "dom-response-error": [
+    "ref-for-dom-response-error①": [
         {
             "engines": [
                 "blink",
@@ -2798,90 +1342,47 @@
             "title": "Response.error()"
         }
     ],
-    "dom-response-headers": [
+    "ref-for-dom-response-headers①": [
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/Response.json",
             "name": "headers",
             "slug": "API/Response/headers",
             "summary": "The headers read-only property of the Response interface contains the Headers object associated with the response.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
                 "chrome_android": {
                     "version_added": "42"
                 },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": false
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
-                    "version_added": false
+                    "version_added": "10.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "10.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -2889,25 +1390,14 @@
                 "webview_android": {
                     "version_added": false
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Response.headers"
         }
     ],
-    "dom-response-ok": [
+    "ref-for-dom-response-ok②": [
         {
             "engines": [
                 "blink",
@@ -2919,74 +1409,30 @@
             "slug": "API/Response/ok",
             "summary": "The ok read-only property of the Response interface contains a Boolean stating whether the response was successful (status in the range 200-299) or not.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
                 "chrome_android": {
                     "version_added": "42"
                 },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": "39"
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -2999,25 +1445,14 @@
                 "webview_android": {
                     "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Response.ok"
         }
     ],
-    "dom-response-redirect": [
+    "ref-for-dom-response-redirect①": [
         {
             "engines": [
                 "blink",
@@ -3072,11 +1507,12 @@
             "title": "Response.redirect()"
         }
     ],
-    "dom-response-redirected": [
+    "ref-for-dom-response-redirected①": [
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/Response.json",
             "name": "redirected",
@@ -3108,10 +1544,10 @@
                     "version_added": "44"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "10.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "10.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "8.0"
@@ -3126,7 +1562,7 @@
             "title": "Response.redirected"
         }
     ],
-    "dom-response-status": [
+    "ref-for-dom-response-status①": [
         {
             "engines": [
                 "blink",
@@ -3138,74 +1574,30 @@
             "slug": "API/Response/status",
             "summary": "The status read-only property of the Response interface contains the status code of the response (e.g., 200 for a success).",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
                 "chrome_android": {
                     "version_added": false
                 },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": false
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -3218,25 +1610,14 @@
                 "webview_android": {
                     "version_added": false
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Response.status"
         }
     ],
-    "dom-response-statustext": [
+    "ref-for-dom-response-statustext①": [
         {
             "engines": [
                 "blink",
@@ -3247,74 +1628,30 @@
             "slug": "API/Response/statusText",
             "summary": "The statusText read-only property of the Response interface contains the status message corresponding to the status code (e.g., OK for 200).",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
                 "chrome_android": {
                     "version_added": false
                 },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": false
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": false
                 },
@@ -3327,25 +1664,14 @@
                 "webview_android": {
                     "version_added": false
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Response.statusText"
         }
     ],
-    "dom-response-type": [
+    "ref-for-dom-response-type①": [
         {
             "engines": [
                 "blink",
@@ -3356,74 +1682,30 @@
             "slug": "API/Response/type",
             "summary": "The type read-only property of the Response interface contains the type of the response. It can be one of the following:",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
                 "chrome_android": {
                     "version_added": false
                 },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": false
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": false
                 },
@@ -3436,25 +1718,14 @@
                 "webview_android": {
                     "version_added": false
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Response.type"
         }
     ],
-    "dom-response-url": [
+    "ref-for-dom-response-url①": [
         {
             "engines": [
                 "blink",
@@ -3465,74 +1736,30 @@
             "slug": "API/Response/url",
             "summary": "The url read-only property of the Response interface contains the URL of the response. The value of the url property will be the final URL obtained after any redirects.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
                 "chrome_android": {
                     "version_added": false
                 },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
                 "firefox_android": {
                     "version_added": false
                 },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": false
                 },
@@ -3545,20 +1772,9 @@
                 "webview_android": {
                     "version_added": false
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Response.url"
         }
@@ -3575,96 +1791,30 @@
             "slug": "API/Response",
             "summary": "The Response interface of the Fetch API represents the response to a request.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "chrome_android": [
-                    {
-                        "version_added": "42"
-                    },
-                    {
-                        "version_added": "41",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
                 "edge": {
                     "version_added": "14"
                 },
-                "firefox": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
-                "firefox_android": [
-                    {
-                        "version_added": "39"
-                    },
-                    {
-                        "version_added": "34",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "dom.fetch.enabled"
-                            }
-                        ]
-                    }
-                ],
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
-                "opera_android": [
-                    {
-                        "version_added": "29"
-                    },
-                    {
-                        "version_added": "28",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ],
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
                 "safari": {
                     "version_added": "10.1"
                 },
@@ -3677,20 +1827,9 @@
                 "webview_android": {
                     "version_added": "42"
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": "79",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform Features"
-                            }
-                        ]
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "Response"
         }
@@ -3750,17 +1889,17 @@
             "title": "WindowOrWorkerGlobalScope.fetch()"
         }
     ],
-    "dom-global-fetch": [
+    "ref-for-dom-body-arraybuffer①": [
         {
             "engines": [
                 "blink",
                 "gecko",
                 "webkit"
             ],
-            "filename": "api/WindowOrWorkerGlobalScope.json",
-            "name": "fetch",
-            "slug": "API/WindowOrWorkerGlobalScope/fetch",
-            "summary": "The fetch() method of the WindowOrWorkerGlobalScope mixin starts the process of fetching a resource from the network, returning a promise which is fulfilled once the response is available.",
+            "filename": "api/_mixins/Body__Request.json",
+            "name": "arrayBuffer",
+            "slug": "API/Request/arrayBuffer",
+            "summary": "The arrayBuffer() method of the Request interface reads the request body and returns it as a promise that resolves with an ArrayBuffer.",
             "support": {
                 "chrome": {
                     "version_added": "42"
@@ -3802,7 +1941,739 @@
                     "version_added": "79"
                 }
             },
-            "title": "WindowOrWorkerGlobalScope.fetch()"
+            "title": "Request.arrayBuffer()"
+        },
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/_mixins/Body__Response.json",
+            "name": "arrayBuffer",
+            "slug": "API/Response/arrayBuffer",
+            "summary": "The arrayBuffer() method of the Response interface takes a Response stream and reads it to completion. It returns a promise that resolves with an ArrayBuffer.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "14"
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "42"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "Response.arrayBuffer()"
+        }
+    ],
+    "ref-for-dom-body-blob①": [
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/_mixins/Body__Request.json",
+            "name": "blob",
+            "slug": "API/Request/blob",
+            "summary": "The blob() method of the Request interface reads the request body and returns it as a promise that resolves with a Blob.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "14"
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "42"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "Request.blob()"
+        },
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/_mixins/Body__Response.json",
+            "name": "blob",
+            "slug": "API/Response/blob",
+            "summary": "The blob() method of the Response interface takes a Response stream and reads it to completion. It returns a promise that resolves with a Blob.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "14"
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "42"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "Response.blob()"
+        }
+    ],
+    "ref-for-dom-body-body①": [
+        {
+            "engines": [
+                "webkit"
+            ],
+            "filename": "api/_mixins/Body__Request.json",
+            "name": "body",
+            "slug": "API/Request/body",
+            "summary": "The read-only body property of the Request interface contains a ReadableStream with the body contents that have been added to the request. Note that a request using the GET or HEAD method cannot have a body and null is return in these cases.",
+            "support": {
+                "chrome": {
+                    "version_added": false,
+                    "notes": "See <a href='https://crbug.com/688906'>bug 688906</a>."
+                },
+                "chrome_android": {
+                    "version_added": false,
+                    "notes": "See <a href='https://crbug.com/688906'>bug 688906</a>."
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": false,
+                    "notes": "See <a href='https://bugzil.la/1387483'>bug 1387483</a>"
+                },
+                "firefox_android": {
+                    "version_added": false,
+                    "notes": "See <a href='https://bugzil.la/1387483'>bug 1387483</a>"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": false
+                },
+                "opera_android": {
+                    "version_added": false
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": false
+                },
+                "webview_android": {
+                    "version_added": false
+                },
+                "edge_blink": {
+                    "version_added": false,
+                    "notes": "See <a href='https://crbug.com/688906'>bug 688906</a>."
+                }
+            },
+            "title": "Request.body"
+        },
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/_mixins/Body__Response.json",
+            "name": "body",
+            "slug": "API/Response/body",
+            "summary": "The body read-only property of the Response interface is a ReadableStream of the body contents.",
+            "support": {
+                "chrome": {
+                    "version_added": "43"
+                },
+                "chrome_android": {
+                    "version_added": "43"
+                },
+                "edge": {
+                    "version_added": "14"
+                },
+                "firefox": {
+                    "version_added": "65"
+                },
+                "firefox_android": {
+                    "version_added": "65"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "30"
+                },
+                "opera_android": {
+                    "version_added": "30"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "43"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "Response.body"
+        }
+    ],
+    "ref-for-dom-body-bodyused①": [
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/_mixins/Body__Request.json",
+            "name": "bodyUsed",
+            "slug": "API/Request/bodyUsed",
+            "summary": "The read-only bodyUsed property of the Request interface is a Boolean that indicates whether the request body has been read yet.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "14"
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "42"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "Request.bodyUsed"
+        },
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/_mixins/Body__Response.json",
+            "name": "bodyUsed",
+            "slug": "API/Response/bodyUsed",
+            "summary": "The bodyUsed read-only property of the Response interface is a Boolean that indicates whether the body has been read yet.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "14"
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "42"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "Response.bodyUsed"
+        }
+    ],
+    "ref-for-dom-body-formdata①": [
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/_mixins/Body__Request.json",
+            "name": "formData",
+            "slug": "API/Request/formData",
+            "summary": "The formData() method of the Request interface reads the request body and returns it as a promise that resolves with a FormData object.",
+            "support": {
+                "chrome": {
+                    "version_added": "60"
+                },
+                "chrome_android": {
+                    "version_added": "60"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "47"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": [
+                    {
+                        "version_added": "14.1"
+                    },
+                    {
+                        "version_added": "11.1",
+                        "partial_implementation": true,
+                        "notes": "The method exists but always rejects with <code>NotSupportedError</code>. See <a href='https://webkit.org/b/215671'>bug 215671</a>."
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": "14.5"
+                    },
+                    {
+                        "version_added": "11.3",
+                        "partial_implementation": true,
+                        "notes": "The method exists but always rejects with <code>NotSupportedError</code>. See <a href='https://webkit.org/b/215671'>bug 215671</a>."
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": "8.0"
+                },
+                "webview_android": {
+                    "version_added": "60"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "Request.formData()"
+        },
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/_mixins/Body__Response.json",
+            "name": "formData",
+            "slug": "API/Response/formData",
+            "summary": "The formData() method of the Response interface takes a Response stream and reads it to completion. It returns a promise that resolves with a FormData object.",
+            "support": {
+                "chrome": {
+                    "version_added": "60"
+                },
+                "chrome_android": {
+                    "version_added": "60"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "47"
+                },
+                "opera_android": {
+                    "version_added": "44"
+                },
+                "safari": [
+                    {
+                        "version_added": "14.1"
+                    },
+                    {
+                        "version_added": "10.1",
+                        "partial_implementation": true,
+                        "notes": "The method exists but always rejects with <code>NotSupportedError</code>. See <a href='https://webkit.org/b/215671'>bug 215671</a>."
+                    }
+                ],
+                "safari_ios": [
+                    {
+                        "version_added": "14.5"
+                    },
+                    {
+                        "version_added": "10.3",
+                        "partial_implementation": true,
+                        "notes": "The method exists but always rejects with <code>NotSupportedError</code>. See <a href='https://webkit.org/b/215671'>bug 215671</a>."
+                    }
+                ],
+                "samsunginternet_android": {
+                    "version_added": "8.0"
+                },
+                "webview_android": {
+                    "version_added": "60"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "Response.formData()"
+        }
+    ],
+    "ref-for-dom-body-json①": [
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/_mixins/Body__Request.json",
+            "name": "json",
+            "slug": "API/Request/json",
+            "summary": "The json() method of the Request interface reads the request body and returns it as a promise that resolves with the result of parsing the body text as JSON.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "14"
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "42"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "Request.json()"
+        },
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/_mixins/Body__Response.json",
+            "name": "json",
+            "slug": "API/Response/json",
+            "summary": "The json() method of the Response interface takes a Response stream and reads it to completion. It returns a promise which resolves with the result of parsing the body text as JSON.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "14"
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "42"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "Response.json()"
+        }
+    ],
+    "ref-for-dom-body-text①": [
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/_mixins/Body__Request.json",
+            "name": "text",
+            "slug": "API/Request/text",
+            "summary": "The text() method of the Request interface reads the request body and returns it as a promise that resolves with a String. The response is always decoded using UTF-8.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "14"
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "42"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "Request.text()"
+        },
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/_mixins/Body__Response.json",
+            "name": "text",
+            "slug": "API/Response/text",
+            "summary": "The text() method of the Response interface takes a Response stream and reads it to completion. It returns a promise that resolves with a String. The response is always decoded using UTF-8.",
+            "support": {
+                "chrome": {
+                    "version_added": "42"
+                },
+                "chrome_android": {
+                    "version_added": "42"
+                },
+                "edge": {
+                    "version_added": "14"
+                },
+                "firefox": {
+                    "version_added": "39"
+                },
+                "firefox_android": {
+                    "version_added": "39"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "29"
+                },
+                "opera_android": {
+                    "version_added": "29"
+                },
+                "safari": {
+                    "version_added": "10.1"
+                },
+                "safari_ios": {
+                    "version_added": "10.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "42"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "Response.text()"
         }
     ],
     "http-access-control-allow-credentials": [

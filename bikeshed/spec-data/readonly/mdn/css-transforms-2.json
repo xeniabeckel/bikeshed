@@ -45,17 +45,6 @@
                     {
                         "version_added": "49",
                         "prefix": "-webkit-"
-                    },
-                    {
-                        "prefix": "-webkit-",
-                        "version_added": "45",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "layout.css.prefixes.webkit",
-                                "value_to_set": "true"
-                            }
-                        ]
                     }
                 ],
                 "firefox_android": [
@@ -69,17 +58,6 @@
                     {
                         "version_added": "49",
                         "prefix": "-webkit-"
-                    },
-                    {
-                        "prefix": "-webkit-",
-                        "version_added": "44",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "layout.css.prefixes.webkit",
-                                "value_to_set": "true"
-                            }
-                        ]
                     }
                 ],
                 "ie": {
@@ -186,17 +164,6 @@
                     {
                         "version_added": "49",
                         "prefix": "-webkit-"
-                    },
-                    {
-                        "prefix": "-webkit-",
-                        "version_added": "45",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "layout.css.prefixes.webkit",
-                                "value_to_set": "true"
-                            }
-                        ]
                     }
                 ],
                 "firefox_android": [
@@ -210,17 +177,6 @@
                     {
                         "version_added": "49",
                         "prefix": "-webkit-"
-                    },
-                    {
-                        "prefix": "-webkit-",
-                        "version_added": "45",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "layout.css.prefixes.webkit",
-                                "value_to_set": "true"
-                            }
-                        ]
                     }
                 ],
                 "ie": {
@@ -293,7 +249,7 @@
             "title": "perspective-origin"
         }
     ],
-    "propdef-perspective": [
+    "perspective-property": [
         {
             "engines": [
                 "blink",
@@ -337,17 +293,6 @@
                     {
                         "version_added": "49",
                         "prefix": "-webkit-"
-                    },
-                    {
-                        "prefix": "-webkit-",
-                        "version_added": "45",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "layout.css.prefixes.webkit",
-                                "value_to_set": "true"
-                            }
-                        ]
                     }
                 ],
                 "firefox_android": [
@@ -361,17 +306,6 @@
                     {
                         "version_added": "49",
                         "prefix": "-webkit-"
-                    },
-                    {
-                        "prefix": "-webkit-",
-                        "version_added": "45",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "layout.css.prefixes.webkit",
-                                "value_to_set": "true"
-                            }
-                        ]
                     }
                 ],
                 "ie": {
@@ -447,7 +381,8 @@
     "individual-transforms": [
         {
             "engines": [
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "needsflag": [
                 "gecko"
@@ -502,10 +437,10 @@
                     "version_added": false
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "14.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "14.5"
                 },
                 "samsunginternet_android": {
                     "version_added": false
@@ -521,7 +456,8 @@
         },
         {
             "engines": [
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "needsflag": [
                 "gecko"
@@ -576,10 +512,10 @@
                     "version_added": false
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "14.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "14.5"
                 },
                 "samsunginternet_android": {
                     "version_added": false
@@ -595,7 +531,8 @@
         },
         {
             "engines": [
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "needsflag": [
                 "gecko"
@@ -650,10 +587,10 @@
                     "version_added": false
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "14.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "14.5"
                 },
                 "samsunginternet_android": {
                     "version_added": false
@@ -712,17 +649,6 @@
                     {
                         "prefix": "-webkit-",
                         "version_added": "49"
-                    },
-                    {
-                        "prefix": "-webkit-",
-                        "version_added": "44",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "layout.css.prefixes.webkit",
-                                "value_to_set": "true"
-                            }
-                        ]
                     }
                 ],
                 "firefox_android": [
@@ -736,17 +662,6 @@
                     {
                         "prefix": "-webkit-",
                         "version_added": "49"
-                    },
-                    {
-                        "prefix": "-webkit-",
-                        "version_added": "44",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "layout.css.prefixes.webkit",
-                                "value_to_set": "true"
-                            }
-                        ]
                     }
                 ],
                 "ie": {
@@ -859,17 +774,6 @@
                     {
                         "prefix": "-webkit-",
                         "version_added": "49"
-                    },
-                    {
-                        "prefix": "-webkit-",
-                        "version_added": "44",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "layout.css.prefixes.webkit",
-                                "value_to_set": "true"
-                            }
-                        ]
                     }
                 ],
                 "firefox_android": [
@@ -879,17 +783,6 @@
                     {
                         "prefix": "-webkit-",
                         "version_added": "49"
-                    },
-                    {
-                        "prefix": "-webkit-",
-                        "version_added": "44",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "layout.css.prefixes.webkit",
-                                "value_to_set": "true"
-                            }
-                        ]
                     }
                 ],
                 "ie": [
@@ -989,57 +882,6 @@
                         "version_added": "79"
                     }
                 ]
-            },
-            "title": "transform"
-        }
-    ],
-    "svg-transform": [
-        {
-            "engines": [],
-            "filename": "svg/attributes/presentation.json",
-            "name": "transform",
-            "slug": "SVG/Attribute/transform",
-            "summary": "The transform attribute defines a list of transform definitions that are applied to an element and the element's children.",
-            "support": {
-                "chrome": {
-                    "version_added": null
-                },
-                "chrome_android": {
-                    "version_added": null
-                },
-                "edge": {
-                    "version_added": null
-                },
-                "firefox": {
-                    "version_added": null
-                },
-                "firefox_android": {
-                    "version_added": null
-                },
-                "ie": {
-                    "version_added": null
-                },
-                "opera": {
-                    "version_added": null
-                },
-                "opera_android": {
-                    "version_added": null
-                },
-                "safari": {
-                    "version_added": null
-                },
-                "safari_ios": {
-                    "version_added": null
-                },
-                "samsunginternet_android": {
-                    "version_added": null
-                },
-                "webview_android": {
-                    "version_added": null
-                },
-                "edge_blink": {
-                    "version_added": null
-                }
             },
             "title": "transform"
         }

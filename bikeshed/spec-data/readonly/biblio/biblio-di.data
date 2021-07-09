@@ -287,9 +287,35 @@ https://www.w3.org/TR/2010/NOTE-dial-primer-20100629/
 
 Kevin Smith
 -
+d:did-cbor-representation
+did-cbor-representation
+29 June 2021
+NOTE
+The Plain CBOR Representation v1.0
+https://www.w3.org/TR/did-cbor-representation/
+https://w3c.github.io/did-cbor-note/
+
+
+
+Drummond Reed
+Manu Sporny
+-
+d:did-cbor-representation-20210629
+did-cbor-representation-20210629
+29 June 2021
+NOTE
+The Plain CBOR Representation v1.0
+https://www.w3.org/TR/2021/NOTE-did-cbor-representation-20210629/
+https://www.w3.org/TR/2021/NOTE-did-cbor-representation-20210629/
+
+
+
+Drummond Reed
+Manu Sporny
+-
 d:did-core
 did-core
-18 March 2021
+27 June 2021
 CR
 Decentralized Identifiers (DIDs) v1.0
 https://www.w3.org/TR/did-core/
@@ -300,6 +326,8 @@ https://w3c.github.io/did-core/
 Drummond Reed
 Manu Sporny
 Markus Sabadello
+Dave Longley
+Christopher Allen
 -
 d:did-core-20191107
 did-core-20191107
@@ -1156,9 +1184,167 @@ Drummond Reed
 Manu Sporny
 Markus Sabadello
 -
+d:did-core-20210430
+did-core-20210430
+30 April 2021
+CR
+Decentralized Identifiers (DIDs) v1.0
+https://www.w3.org/TR/2021/CRD-did-core-20210430/
+https://www.w3.org/TR/2021/CRD-did-core-20210430/
+
+
+
+Drummond Reed
+Manu Sporny
+Markus Sabadello
+Dave Longley
+Christopher Allen
+-
+d:did-core-20210514
+did-core-20210514
+14 May 2021
+CR
+Decentralized Identifiers (DIDs) v1.0
+https://www.w3.org/TR/2021/CRD-did-core-20210514/
+https://www.w3.org/TR/2021/CRD-did-core-20210514/
+
+
+
+Drummond Reed
+Manu Sporny
+Markus Sabadello
+Dave Longley
+Christopher Allen
+-
+d:did-core-20210515
+did-core-20210515
+15 May 2021
+CR
+Decentralized Identifiers (DIDs) v1.0
+https://www.w3.org/TR/2021/CRD-did-core-20210515/
+https://www.w3.org/TR/2021/CRD-did-core-20210515/
+
+
+
+Drummond Reed
+Manu Sporny
+Markus Sabadello
+Dave Longley
+Christopher Allen
+-
+d:did-core-20210522
+did-core-20210522
+22 May 2021
+CR
+Decentralized Identifiers (DIDs) v1.0
+https://www.w3.org/TR/2021/CRD-did-core-20210522/
+https://www.w3.org/TR/2021/CRD-did-core-20210522/
+
+
+
+Drummond Reed
+Manu Sporny
+Markus Sabadello
+Dave Longley
+Christopher Allen
+-
+d:did-core-20210529
+did-core-20210529
+29 May 2021
+CR
+Decentralized Identifiers (DIDs) v1.0
+https://www.w3.org/TR/2021/CRD-did-core-20210529/
+https://www.w3.org/TR/2021/CRD-did-core-20210529/
+
+
+
+Drummond Reed
+Manu Sporny
+Markus Sabadello
+Dave Longley
+Christopher Allen
+-
+d:did-core-20210605
+did-core-20210605
+5 June 2021
+CR
+Decentralized Identifiers (DIDs) v1.0
+https://www.w3.org/TR/2021/CRD-did-core-20210605/
+https://www.w3.org/TR/2021/CRD-did-core-20210605/
+
+
+
+Drummond Reed
+Manu Sporny
+Markus Sabadello
+Dave Longley
+Christopher Allen
+-
+d:did-core-20210609
+did-core-20210609
+9 June 2021
+CR
+Decentralized Identifiers (DIDs) v1.0
+https://www.w3.org/TR/2021/CRD-did-core-20210609/
+https://www.w3.org/TR/2021/CRD-did-core-20210609/
+
+
+
+Drummond Reed
+Manu Sporny
+Markus Sabadello
+Dave Longley
+Christopher Allen
+-
+d:did-core-20210615
+did-core-20210615
+15 June 2021
+CR
+Decentralized Identifiers (DIDs) v1.0
+https://www.w3.org/TR/2021/CR-did-core-20210615/
+https://www.w3.org/TR/2021/CR-did-core-20210615/
+
+
+
+Drummond Reed
+Manu Sporny
+Markus Sabadello
+-
+d:did-core-20210616
+did-core-20210616
+16 June 2021
+CR
+Decentralized Identifiers (DIDs) v1.0
+https://www.w3.org/TR/2021/CRD-did-core-20210616/
+https://www.w3.org/TR/2021/CRD-did-core-20210616/
+
+
+
+Drummond Reed
+Manu Sporny
+Markus Sabadello
+Dave Longley
+Christopher Allen
+-
+d:did-core-20210627
+did-core-20210627
+27 June 2021
+CR
+Decentralized Identifiers (DIDs) v1.0
+https://www.w3.org/TR/2021/CRD-did-core-20210627/
+https://www.w3.org/TR/2021/CRD-did-core-20210627/
+
+
+
+Drummond Reed
+Manu Sporny
+Markus Sabadello
+Dave Longley
+Christopher Allen
+-
 d:did-spec-registries
 did-spec-registries
-22 March 2021
+24 June 2021
 NOTE
 DID Specification Registries
 https://www.w3.org/TR/did-spec-registries/
@@ -1501,6 +1687,162 @@ NOTE
 DID Specification Registries
 https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210322/
 https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210322/
+
+
+
+Orie Steele
+Manu Sporny
+-
+d:did-spec-registries-20210409
+did-spec-registries-20210409
+9 April 2021
+NOTE
+DID Specification Registries
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210409/
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210409/
+
+
+
+Orie Steele
+Manu Sporny
+-
+d:did-spec-registries-20210416
+did-spec-registries-20210416
+16 April 2021
+NOTE
+DID Specification Registries
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210416/
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210416/
+
+
+
+Orie Steele
+Manu Sporny
+-
+d:did-spec-registries-20210427
+did-spec-registries-20210427
+27 April 2021
+NOTE
+DID Specification Registries
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210427/
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210427/
+
+
+
+Orie Steele
+Manu Sporny
+-
+d:did-spec-registries-20210428
+did-spec-registries-20210428
+28 April 2021
+NOTE
+DID Specification Registries
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210428/
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210428/
+
+
+
+Orie Steele
+Manu Sporny
+-
+d:did-spec-registries-20210504
+did-spec-registries-20210504
+4 May 2021
+NOTE
+DID Specification Registries
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210504/
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210504/
+
+
+
+Orie Steele
+Manu Sporny
+-
+d:did-spec-registries-20210508
+did-spec-registries-20210508
+8 May 2021
+NOTE
+DID Specification Registries
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210508/
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210508/
+
+
+
+Orie Steele
+Manu Sporny
+-
+d:did-spec-registries-20210515
+did-spec-registries-20210515
+15 May 2021
+NOTE
+DID Specification Registries
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210515/
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210515/
+
+
+
+Orie Steele
+Manu Sporny
+-
+d:did-spec-registries-20210601
+did-spec-registries-20210601
+1 June 2021
+NOTE
+DID Specification Registries
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210601/
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210601/
+
+
+
+Orie Steele
+Manu Sporny
+-
+d:did-spec-registries-20210613
+did-spec-registries-20210613
+13 June 2021
+NOTE
+DID Specification Registries
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210613/
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210613/
+
+
+
+Orie Steele
+Manu Sporny
+-
+d:did-spec-registries-20210614
+did-spec-registries-20210614
+14 June 2021
+NOTE
+DID Specification Registries
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210614/
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210614/
+
+
+
+Orie Steele
+Manu Sporny
+-
+d:did-spec-registries-20210616
+did-spec-registries-20210616
+16 June 2021
+NOTE
+DID Specification Registries
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210616/
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210616/
+
+
+
+Orie Steele
+Manu Sporny
+-
+d:did-spec-registries-20210624
+did-spec-registries-20210624
+24 June 2021
+NOTE
+DID Specification Registries
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210624/
+https://www.w3.org/TR/2021/NOTE-did-spec-registries-20210624/
 
 
 

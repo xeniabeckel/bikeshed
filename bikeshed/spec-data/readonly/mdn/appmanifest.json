@@ -74,7 +74,7 @@
                     "notes": "Does not support <code>lang</code> or <code>scope</code>."
                 },
                 "edge": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox": {
                     "version_added": null
@@ -95,7 +95,7 @@
                     "version_added": null
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "samsunginternet_android": {
                     "version_added": "5.0",
@@ -110,110 +110,6 @@
                 }
             },
             "title": "background_color"
-        }
-    ],
-    "categories-member": [
-        {
-            "engines": [],
-            "filename": "html/manifest/categories.json",
-            "name": "categories",
-            "slug": "Manifest/categories",
-            "summary": "The categories member is an array of strings defining the names of categories that the application supposedly belongs to. There is no standard list of possible values, but the W3C maintains a list of known categories.",
-            "support": {
-                "chrome": {
-                    "version_added": null
-                },
-                "chrome_android": {
-                    "version_added": null
-                },
-                "edge": {
-                    "version_added": null
-                },
-                "firefox": {
-                    "version_added": null
-                },
-                "firefox_android": {
-                    "version_added": null
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": null
-                },
-                "opera_android": {
-                    "version_added": null
-                },
-                "safari": {
-                    "version_added": null
-                },
-                "safari_ios": {
-                    "version_added": null
-                },
-                "samsunginternet_android": {
-                    "version_added": null
-                },
-                "webview_android": {
-                    "version_added": null
-                },
-                "edge_blink": {
-                    "version_added": null
-                }
-            },
-            "title": "categories"
-        }
-    ],
-    "description-member": [
-        {
-            "engines": [
-                "webkit"
-            ],
-            "filename": "html/manifest/description.json",
-            "name": "description",
-            "slug": "Manifest/description",
-            "summary": "The description member is a string in which developers can explain what the application does. description is directionality-capable, which means it can be displayed left to right or right to left based on the values of the dir and lang manifest members.",
-            "support": {
-                "chrome": {
-                    "version_added": null
-                },
-                "chrome_android": {
-                    "version_added": null
-                },
-                "edge": {
-                    "version_added": null
-                },
-                "firefox": {
-                    "version_added": null
-                },
-                "firefox_android": {
-                    "version_added": null
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": null
-                },
-                "opera_android": {
-                    "version_added": null
-                },
-                "safari": {
-                    "version_added": null
-                },
-                "safari_ios": {
-                    "version_added": "11.3"
-                },
-                "samsunginternet_android": {
-                    "version_added": null
-                },
-                "webview_android": {
-                    "version_added": null
-                },
-                "edge_blink": {
-                    "version_added": null
-                }
-            },
-            "title": "description"
         }
     ],
     "dir-member": [
@@ -273,6 +169,9 @@
                 "blink",
                 "gecko"
             ],
+            "partial": [
+                "webkit"
+            ],
             "filename": "html/manifest/display.json",
             "name": "display",
             "slug": "Manifest/display",
@@ -285,7 +184,7 @@
                     "version_added": "39"
                 },
                 "edge": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox": {
                     "version_added": null
@@ -306,7 +205,9 @@
                     "version_added": null
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11.3",
+                    "partial_implementation": true,
+                    "notes": "Does not support <code>fullscreen</code> or <code>minimal-ui</code>."
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -319,57 +220,6 @@
                 }
             },
             "title": "display"
-        }
-    ],
-    "iarc_rating_id-member": [
-        {
-            "engines": [],
-            "filename": "html/manifest/iarc_rating_id.json",
-            "name": "iarc_rating_id",
-            "slug": "Manifest/iarc_rating_id",
-            "summary": "The iarc_rating_id member is a string that represents the International Age Rating Coalition (IARC) certification code of the web application. It is intended to be used to determine which ages the web application is appropriate for.",
-            "support": {
-                "chrome": {
-                    "version_added": null
-                },
-                "chrome_android": {
-                    "version_added": null
-                },
-                "edge": {
-                    "version_added": null
-                },
-                "firefox": {
-                    "version_added": null
-                },
-                "firefox_android": {
-                    "version_added": null
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": null
-                },
-                "opera_android": {
-                    "version_added": null
-                },
-                "safari": {
-                    "version_added": null
-                },
-                "safari_ios": {
-                    "version_added": null
-                },
-                "samsunginternet_android": {
-                    "version_added": null
-                },
-                "webview_android": {
-                    "version_added": null
-                },
-                "edge_blink": {
-                    "version_added": null
-                }
-            },
-            "title": "iarc_rating_id"
         }
     ],
     "icons-member": [
@@ -393,7 +243,7 @@
                     "version_added": "39"
                 },
                 "edge": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox": {
                     "version_added": null
@@ -422,7 +272,8 @@
                     "version_added": null
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": false,
+                    "notes": "See <a href='https://webkit.org/b/183937'>bug 183937</a>."
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -510,7 +361,7 @@
                     "version_added": "39"
                 },
                 "edge": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox": {
                     "version_added": null
@@ -571,7 +422,7 @@
                     "version_added": "39"
                 },
                 "edge": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox": {
                     "version_added": null
@@ -592,7 +443,7 @@
                     "version_added": null
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "samsunginternet_android": {
                     "version_added": null
@@ -624,7 +475,7 @@
                     "version_added": "44"
                 },
                 "edge": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox": {
                     "version_added": null
@@ -677,7 +528,7 @@
                     "version_added": "44"
                 },
                 "edge": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox": {
                     "version_added": null
@@ -716,7 +567,8 @@
     "scope-member": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "webkit"
             ],
             "filename": "html/manifest/scope.json",
             "name": "scope",
@@ -730,7 +582,7 @@
                     "version_added": "53"
                 },
                 "edge": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox": {
                     "version_added": null
@@ -751,7 +603,7 @@
                     "version_added": null
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": null
@@ -766,62 +618,12 @@
             "title": "scope"
         }
     ],
-    "screenshots-member": [
-        {
-            "engines": [],
-            "filename": "html/manifest/screenshots.json",
-            "name": "screenshots",
-            "slug": "Manifest/screenshots",
-            "summary": "The screenshots member defines an array of screenshots intended to showcase the application. These images are intended to be used by progressive web app stores.",
-            "support": {
-                "chrome": {
-                    "version_added": null
-                },
-                "chrome_android": {
-                    "version_added": null
-                },
-                "edge": {
-                    "version_added": null
-                },
-                "firefox": {
-                    "version_added": null
-                },
-                "firefox_android": {
-                    "version_added": null
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": null
-                },
-                "opera_android": {
-                    "version_added": null
-                },
-                "safari": {
-                    "version_added": null
-                },
-                "safari_ios": {
-                    "version_added": null
-                },
-                "samsunginternet_android": {
-                    "version_added": null
-                },
-                "webview_android": {
-                    "version_added": null
-                },
-                "edge_blink": {
-                    "version_added": null
-                }
-            },
-            "title": "screenshots"
-        }
-    ],
     "short_name-member": [
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "needsflag": [
                 "gecko"
@@ -838,7 +640,7 @@
                     "version_added": "39"
                 },
                 "edge": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox": {
                     "version_added": null
@@ -867,7 +669,7 @@
                     "version_added": null
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -951,7 +753,8 @@
     "start_url-member": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "webkit"
             ],
             "filename": "html/manifest/start_url.json",
             "name": "start_url",
@@ -965,7 +768,7 @@
                     "version_added": "39"
                 },
                 "edge": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox": {
                     "version_added": null
@@ -986,7 +789,7 @@
                     "version_added": null
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": null
@@ -1022,7 +825,7 @@
                     "version_added": "46"
                 },
                 "edge": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox": {
                     "version_added": null

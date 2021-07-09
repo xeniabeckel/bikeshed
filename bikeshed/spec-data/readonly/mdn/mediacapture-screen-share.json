@@ -11,23 +11,9 @@
             "slug": "API/MediaDevices/getDisplayMedia",
             "summary": "The MediaDevices interface's getDisplayMedia() method prompts the user to select and grant permission to capture the contents of a display or portion thereof (such as a window) as a MediaStream.",
             "support": {
-                "chrome": [
-                    {
-                        "version_added": "72"
-                    },
-                    {
-                        "version_added": "70",
-                        "version_removed": "72",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform features",
-                                "value_to_set": "Enabled"
-                            }
-                        ],
-                        "notes": "Available as a member of <code>Navigator</code> instead of <code>MediaDevices</code> in Chrome 70 and 71."
-                    }
-                ],
+                "chrome": {
+                    "version_added": "72"
+                },
                 "chrome_android": {
                     "version_added": false
                 },
@@ -51,23 +37,9 @@
                 "ie": {
                     "version_added": false
                 },
-                "opera": [
-                    {
-                        "version_added": "60"
-                    },
-                    {
-                        "version_added": "57",
-                        "version_removed": "60",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform features",
-                                "value_to_set": "Enabled"
-                            }
-                        ],
-                        "notes": "Available as a member of <code>Navigator</code> instead of <code>MediaDevices</code> in Opera 57 and 58."
-                    }
-                ],
+                "opera": {
+                    "version_added": "60"
+                },
                 "opera_android": {
                     "version_added": false
                 },
@@ -84,23 +56,9 @@
                     "version_added": false,
                     "notes": "API is available, but will always fail with <code>NotAllowedError</code>."
                 },
-                "edge_blink": [
-                    {
-                        "version_added": "79"
-                    },
-                    {
-                        "version_added": false,
-                        "version_removed": "72",
-                        "flags": [
-                            {
-                                "type": "preference",
-                                "name": "Experimental Web Platform features",
-                                "value_to_set": "Enabled"
-                            }
-                        ],
-                        "notes": "Available as a member of <code>Navigator</code> instead of <code>MediaDevices</code> in Chrome 70 and 71."
-                    }
-                ]
+                "edge_blink": {
+                    "version_added": "79"
+                }
             },
             "title": "MediaDevices.getDisplayMedia()"
         }
@@ -138,10 +96,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "samsunginternet_android": {
                     "version_added": false
@@ -158,7 +116,9 @@
     ],
     "dom-mediatrackconstraintset-displaysurface": [
         {
-            "engines": [],
+            "engines": [
+                "webkit"
+            ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "displaySurface",
             "slug": "API/MediaTrackConstraints/displaySurface",
@@ -189,10 +149,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": false
@@ -208,7 +168,8 @@
         },
         {
             "engines": [
-                "blink"
+                "blink",
+                "webkit"
             ],
             "filename": "api/MediaTrackSettings.json",
             "name": "displaySurface",
@@ -240,10 +201,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "10.0"
@@ -260,7 +221,9 @@
     ],
     "dom-mediatrackconstraintset-logicalsurface": [
         {
-            "engines": [],
+            "engines": [
+                "webkit"
+            ],
             "filename": "api/MediaTrackConstraints.json",
             "name": "logicalSurface",
             "slug": "API/MediaTrackConstraints/logicalSurface",
@@ -291,10 +254,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": false
@@ -310,7 +273,8 @@
         },
         {
             "engines": [
-                "blink"
+                "blink",
+                "webkit"
             ],
             "filename": "api/MediaTrackSettings.json",
             "name": "logicalSurface",
@@ -342,10 +306,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "10.0"
@@ -395,10 +359,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "samsunginternet_android": {
                     "version_added": "10.0"
@@ -417,7 +381,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/MediaTrackSettings.json",
             "name": "MediaTrackSettings",
@@ -449,10 +414,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11"
                 },
                 "samsunginternet_android": {
                     "version_added": "7.0"
@@ -500,10 +465,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "samsunginternet_android": {
                     "version_added": false
@@ -520,7 +485,9 @@
     ],
     "dom-mediatracksupportedconstraints-displaysurface": [
         {
-            "engines": [],
+            "engines": [
+                "webkit"
+            ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "displaySurface",
             "slug": "API/MediaTrackSupportedConstraints/displaySurface",
@@ -551,10 +518,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": false
@@ -571,7 +538,9 @@
     ],
     "dom-mediatracksupportedconstraints-logicalsurface": [
         {
-            "engines": [],
+            "engines": [
+                "webkit"
+            ],
             "filename": "api/MediaTrackSupportedConstraints.json",
             "name": "logicalSurface",
             "slug": "API/MediaTrackSupportedConstraints/logicalSurface",
@@ -602,10 +571,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": null
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": null
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": false

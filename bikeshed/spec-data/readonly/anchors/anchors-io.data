@@ -1,6 +1,6 @@
 i/o queue
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -10,7 +10,7 @@ https://encoding.spec.whatwg.org/#concept-stream
 -
 i/o queue
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -18,45 +18,4 @@ https://encoding.spec.whatwg.org/#textdecodercommon-i-o-queue
 
 1
 TextDecoderCommon
--
-i/o queue
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#concept-stream
-1
-1
--
-i/o queue
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#textdecodercommon-i-o-queue
-
-1
-TextDecoderCommon
--
-io-shareable
-dfn
-wgsl
-wgsl
-1
-current
-https://gpuweb.github.io/gpuweb/wgsl/#io-shareable
-
-1
--
-io-shareable
-dfn
-wgsl
-wgsl
-1
-snapshot
-https://www.w3.org/TR/WGSL/#io-shareable
-
-1
 -

@@ -1,16 +1,6 @@
 gb18030
 dfn
-html
-html
-1
-current
-https://html.spec.whatwg.org/multipage/parsing.html#gb18030
-
-1
--
-gb18030
-dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -20,17 +10,17 @@ https://encoding.spec.whatwg.org/#gb18030
 -
 gb18030
 dfn
-encoding
-encoding
+html
+html
 1
 snapshot
-https://www.w3.org/TR/encoding/#gb18030
-1
+https://html.spec.whatwg.org/multipage/parsing.html#gb18030
+
 1
 -
 gb18030 decoder
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -38,19 +28,9 @@ https://encoding.spec.whatwg.org/#gb18030-decoder
 1
 1
 -
-gb18030 decoder
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#gb18030-decoder
-1
-1
--
 gb18030 encoder
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -58,19 +38,9 @@ https://encoding.spec.whatwg.org/#gb18030-encoder
 1
 1
 -
-gb18030 encoder
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#gb18030-encoder
-1
-1
--
 gb18030 first
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -78,19 +48,9 @@ https://encoding.spec.whatwg.org/#gb18030-first
 
 1
 -
-gb18030 first
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#gb18030-first
-
-1
--
 gb18030 second
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -98,19 +58,9 @@ https://encoding.spec.whatwg.org/#gb18030-second
 
 1
 -
-gb18030 second
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#gb18030-second
-
-1
--
 gb18030 third
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -118,19 +68,9 @@ https://encoding.spec.whatwg.org/#gb18030-third
 
 1
 -
-gb18030 third
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#gb18030-third
-
-1
--
 gbk
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -138,19 +78,9 @@ https://encoding.spec.whatwg.org/#gbk
 1
 1
 -
-gbk
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#gbk
-1
-1
--
 gbk decoder
 dfn
-encoding
+encoding-1
 encoding
 1
 current
@@ -158,33 +88,13 @@ https://encoding.spec.whatwg.org/#gbk-decoder
 1
 1
 -
-gbk decoder
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#gbk-decoder
-1
-1
--
 gbk encoder
 dfn
-encoding
+encoding-1
 encoding
 1
 current
 https://encoding.spec.whatwg.org/#gbk-encoder
-1
-1
--
-gbk encoder
-dfn
-encoding
-encoding
-1
-snapshot
-https://www.w3.org/TR/encoding/#gbk-encoder
 1
 1
 -

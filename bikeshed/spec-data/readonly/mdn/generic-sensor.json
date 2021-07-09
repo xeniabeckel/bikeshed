@@ -1,5 +1,5 @@
 {
-    "dom-sensor-activated": [
+    "sensor-activated": [
         {
             "engines": [
                 "blink"
@@ -7,7 +7,7 @@
             "filename": "api/Sensor.json",
             "name": "activated",
             "slug": "API/Sensor/activated",
-            "summary": "The activated read-only property of the Sensor interface returns a Boolean indicating whether the sensor is active. ",
+            "summary": "The activated read-only property of the Sensor interface returns a Boolean indicating whether the sensor is active.",
             "support": {
                 "chrome": {
                     "version_added": "67"
@@ -52,7 +52,7 @@
             "title": "Sensor.activated"
         }
     ],
-    "dom-sensor-hasreading": [
+    "sensor-has-reading": [
         {
             "engines": [
                 "blink"
@@ -60,7 +60,7 @@
             "filename": "api/Sensor.json",
             "name": "hasReading",
             "slug": "API/Sensor/hasReading",
-            "summary": "The hasReading read-only property of the Sensor interface returns a Boolean indicating whether the sensor has a reading. ",
+            "summary": "The hasReading read-only property of the Sensor interface returns a Boolean indicating whether the sensor has a reading.",
             "support": {
                 "chrome": {
                     "version_added": "67"
@@ -105,7 +105,7 @@
             "title": "Sensor.hasReading"
         }
     ],
-    "dom-sensor-onactivate": [
+    "sensor-onactivate": [
         {
             "engines": [
                 "blink"
@@ -113,7 +113,7 @@
             "filename": "api/Sensor.json",
             "name": "onactivate",
             "slug": "API/Sensor/onactivate",
-            "summary": "The onactivate EventHandler is called when one of the Sensor interface's child interfaces becomes active.",
+            "summary": "The onactivate event handler is called when one of the Sensor interface's child interfaces becomes active.",
             "support": {
                 "chrome": {
                     "version_added": "67"
@@ -158,7 +158,7 @@
             "title": "Sensor.onactivate"
         }
     ],
-    "dom-sensor-onerror": [
+    "sensor-onerror": [
         {
             "engines": [
                 "blink"
@@ -166,7 +166,7 @@
             "filename": "api/Sensor.json",
             "name": "onerror",
             "slug": "API/Sensor/onerror",
-            "summary": "The onerror EventHandler is called when an error occurs on one of the child interfaces of the Sensor interface.",
+            "summary": "The onerror event handler is called when an error occurs on one of the child interfaces of the Sensor interface.",
             "support": {
                 "chrome": {
                     "version_added": "67"
@@ -211,7 +211,7 @@
             "title": "Sensor.onerror"
         }
     ],
-    "dom-sensor-onreading": [
+    "sensor-onreading": [
         {
             "engines": [
                 "blink"
@@ -219,7 +219,7 @@
             "filename": "api/Sensor.json",
             "name": "onreading",
             "slug": "API/Sensor/onreading",
-            "summary": "The onreading EventHandler is called when a reading is taken on one of the child interfaces of the Sensor interface.",
+            "summary": "The onreading event handler is called when a reading is taken on one of the child interfaces of the Sensor interface.",
             "support": {
                 "chrome": {
                     "version_added": "67"
@@ -264,7 +264,7 @@
             "title": "Sensor.onreading"
         }
     ],
-    "dom-sensor-start": [
+    "sensor-start": [
         {
             "engines": [
                 "blink"
@@ -272,7 +272,7 @@
             "filename": "api/Sensor.json",
             "name": "start",
             "slug": "API/Sensor/start",
-            "summary": "The start method activates one of the sensors based on Sensor. ",
+            "summary": "The start method activates one of the sensors based on Sensor.",
             "support": {
                 "chrome": {
                     "version_added": "67"
@@ -317,7 +317,7 @@
             "title": "Sensor.start()"
         }
     ],
-    "dom-sensor-stop": [
+    "sensor-stop": [
         {
             "engines": [
                 "blink"
@@ -325,7 +325,7 @@
             "filename": "api/Sensor.json",
             "name": "stop",
             "slug": "API/Sensor/stop",
-            "summary": "The stop method of the Sensor interface deactivates the current sensor. ",
+            "summary": "The stop method of the Sensor interface deactivates the current sensor.",
             "support": {
                 "chrome": {
                     "version_added": "67"
@@ -370,7 +370,7 @@
             "title": "Sensor.stop()"
         }
     ],
-    "dom-sensor-timestamp": [
+    "sensor-timestamp": [
         {
             "engines": [
                 "blink"
@@ -378,7 +378,7 @@
             "filename": "api/Sensor.json",
             "name": "timestamp",
             "slug": "API/Sensor/timestamp",
-            "summary": "The timestamp read-only property of the Sensor interface returns the time stamp of the latest sensor reading. ",
+            "summary": "The timestamp read-only property of the Sensor interface returns the time stamp of the latest sensor reading.",
             "support": {
                 "chrome": {
                     "version_added": "67"
@@ -526,7 +526,7 @@
                     "version_added": "79"
                 }
             },
-            "title": "SensorErrorEvent.SensorErrorEvent()"
+            "title": "SensorErrorEvent()"
         }
     ],
     "sensor-error-event-error": [
@@ -537,7 +537,7 @@
             "filename": "api/SensorErrorEvent.json",
             "name": "error",
             "slug": "API/SensorErrorEvent/error",
-            "summary": "The error read-only property of the SensorErrorEvent interface returns the DOMException object passed in the event's contructor. ",
+            "summary": "The error read-only property of the SensorErrorEvent interface returns the DOMException object passed in the event's contructor.",
             "support": {
                 "chrome": {
                     "version_added": "67"
@@ -590,7 +590,7 @@
             "filename": "api/SensorErrorEvent.json",
             "name": "SensorErrorEvent",
             "slug": "API/SensorErrorEvent",
-            "summary": "The SensorErrorEvent interface of the Sensor APIs provides information about errors thrown by a Sensor or related interface. ",
+            "summary": "The SensorErrorEvent interface of the Sensor APIs provides information about errors thrown by a Sensor or derivated interface.",
             "support": {
                 "chrome": {
                     "version_added": "67"

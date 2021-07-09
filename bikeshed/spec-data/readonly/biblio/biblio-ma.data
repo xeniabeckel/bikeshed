@@ -186,6 +186,20 @@ https://www.w3.org/TR/2021/NOTE-manifest-app-info-20210324/
 
 Aaron Gustafson
 -
+d:mapml
+MapML
+
+Draft Community Group Report
+Map Markup Language (MapML) specification
+https://maps4html.org/MapML/spec/
+
+
+
+
+Peter Rushforth
+Robert Linder
+Joan Masó
+-
 d:mathml
 MathML
 7 July 1999
@@ -305,10 +319,10 @@ Michael Kohlhase
 -
 d:mathml-core
 MathML-Core
-2020
-CG-DRAFT
+2021
+ED
 MathML Core
-https://mathml-refresh.github.io/mathml-core/
+https://w3c.github.io/mathml-core/
 
 
 

@@ -413,7 +413,7 @@
             "title": "Cache.put()"
         }
     ],
-    "cache": [
+    "cache-interface": [
         {
             "engines": [
                 "blink",
@@ -804,7 +804,7 @@
             "title": "CacheStorage.open()"
         }
     ],
-    "cachestorage": [
+    "cachestorage-interface": [
         {
             "engines": [
                 "blink",
@@ -870,7 +870,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/Client.json",
             "name": "frameType",
@@ -903,10 +904,10 @@
                     "version_added": "30"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -925,7 +926,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/Client.json",
             "name": "id",
@@ -958,10 +960,10 @@
                     "version_added": "27"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -980,7 +982,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/Client.json",
             "name": "postMessage",
@@ -1013,10 +1016,10 @@
                     "version_added": "32"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "5.0"
@@ -1035,7 +1038,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/Client.json",
             "name": "type",
@@ -1067,10 +1071,10 @@
                     "version_added": "44"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "8.0"
@@ -1089,7 +1093,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/Client.json",
             "name": "url",
@@ -1122,10 +1127,10 @@
                     "version_added": "27"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -1140,11 +1145,12 @@
             "title": "Client.url"
         }
     ],
-    "client": [
+    "client-interface": [
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/Client.json",
             "name": "Client",
@@ -1177,10 +1183,10 @@
                     "version_added": "27"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -1251,7 +1257,7 @@
             "title": "Clients.claim()"
         }
     ],
-    "dom-clients-get": [
+    "clients-get": [
         {
             "engines": [
                 "blink",
@@ -1498,7 +1504,7 @@
             "title": "Clients.openWindow()"
         }
     ],
-    "clients": [
+    "clients-interface": [
         {
             "engines": [
                 "blink",
@@ -1558,7 +1564,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/ExtendableEvent.json",
             "name": "ExtendableEvent",
@@ -1591,10 +1598,10 @@
                     "version_added": "24"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -1613,7 +1620,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/ExtendableEvent.json",
             "name": "waitUntil",
@@ -1645,10 +1653,10 @@
                     "version_added": "24"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -1663,11 +1671,12 @@
             "title": "ExtendableEvent.waitUntil()"
         }
     ],
-    "extendableevent": [
+    "extendableevent-interface": [
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/ExtendableEvent.json",
             "name": "ExtendableEvent",
@@ -1700,10 +1709,10 @@
                     "version_added": "24"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -1721,7 +1730,9 @@
     "dom-extendablemessageevent-extendablemessageevent": [
         {
             "engines": [
-                "gecko"
+                "blink",
+                "gecko",
+                "webkit"
             ],
             "filename": "api/ExtendableMessageEvent.json",
             "name": "ExtendableMessageEvent",
@@ -1729,10 +1740,10 @@
             "summary": "The ExtendableMessageEvent() constructor creates a new ExtendableMessageEvent object instance.",
             "support": {
                 "chrome": {
-                    "version_added": null
+                    "version_added": "51"
                 },
                 "chrome_android": {
-                    "version_added": null
+                    "version_added": "51"
                 },
                 "edge": {
                     "version_added": "17"
@@ -1748,35 +1759,36 @@
                     "version_added": false
                 },
                 "opera": {
-                    "version_added": null
+                    "version_added": "38"
                 },
                 "opera_android": {
-                    "version_added": null
+                    "version_added": "41"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
-                    "version_added": null
+                    "version_added": "5.0"
                 },
                 "webview_android": {
-                    "version_added": false
+                    "version_added": "51"
                 },
                 "edge_blink": {
-                    "version_added": null
+                    "version_added": "79"
                 }
             },
             "title": "ExtendableMessageEvent()"
         }
     ],
-    "dom-extendablemessageevent-data": [
+    "extendablemessage-event-data": [
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/ExtendableMessageEvent.json",
             "name": "data",
@@ -1803,22 +1815,22 @@
                     "version_added": false
                 },
                 "opera": {
-                    "version_added": null
+                    "version_added": "38"
                 },
                 "opera_android": {
-                    "version_added": null
+                    "version_added": "41"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "5.0"
                 },
                 "webview_android": {
-                    "version_added": false
+                    "version_added": "51"
                 },
                 "edge_blink": {
                     "version_added": "79"
@@ -1827,10 +1839,12 @@
             "title": "ExtendableMessageEvent.data"
         }
     ],
-    "dom-extendablemessageevent-lasteventid": [
+    "extendablemessage-event-lasteventid": [
         {
             "engines": [
-                "gecko"
+                "blink",
+                "gecko",
+                "webkit"
             ],
             "filename": "api/ExtendableMessageEvent.json",
             "name": "lastEventId",
@@ -1838,10 +1852,10 @@
             "summary": "The lastEventID read-only property of the ExtendableMessageEvent interface represents, in server-sent events, the last event ID of the event source. This is an empty string.",
             "support": {
                 "chrome": {
-                    "version_added": null
+                    "version_added": "51"
                 },
                 "chrome_android": {
-                    "version_added": null
+                    "version_added": "51"
                 },
                 "edge": {
                     "version_added": "17"
@@ -1857,43 +1871,46 @@
                     "version_added": false
                 },
                 "opera": {
-                    "version_added": null
+                    "version_added": "38"
                 },
                 "opera_android": {
-                    "version_added": null
+                    "version_added": "41"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
-                    "version_added": null
+                    "version_added": "5.0"
                 },
                 "webview_android": {
-                    "version_added": false
+                    "version_added": "51"
                 },
                 "edge_blink": {
-                    "version_added": null
+                    "version_added": "79"
                 }
             },
             "title": "ExtendableMessageEvent.lastEventId"
         }
     ],
-    "dom-extendablemessageevent-origin": [
+    "extendablemessage-event-origin": [
         {
-            "engines": [],
+            "engines": [
+                "blink",
+                "webkit"
+            ],
             "filename": "api/ExtendableMessageEvent.json",
             "name": "origin",
             "slug": "API/ExtendableMessageEvent/origin",
             "summary": "The origin read-only property of the ExtendableMessageEvent interface returns the origin of the Client that sent the message.",
             "support": {
                 "chrome": {
-                    "version_added": null
+                    "version_added": "51"
                 },
                 "chrome_android": {
-                    "version_added": null
+                    "version_added": "51"
                 },
                 "edge": {
                     "version_added": "17"
@@ -1908,34 +1925,36 @@
                     "version_added": false
                 },
                 "opera": {
-                    "version_added": null
+                    "version_added": "38"
                 },
                 "opera_android": {
-                    "version_added": null
+                    "version_added": "41"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
-                    "version_added": null
+                    "version_added": "5.0"
                 },
                 "webview_android": {
-                    "version_added": false
+                    "version_added": "51"
                 },
                 "edge_blink": {
-                    "version_added": null
+                    "version_added": "79"
                 }
             },
             "title": "ExtendableMessageEvent.origin"
         }
     ],
-    "dom-extendablemessageevent-ports": [
+    "extendablemessage-event-ports": [
         {
             "engines": [
-                "gecko"
+                "blink",
+                "gecko",
+                "webkit"
             ],
             "filename": "api/ExtendableMessageEvent.json",
             "name": "ports",
@@ -1943,10 +1962,10 @@
             "summary": "The ports read-only property of the ExtendableMessageEvent interface returns the array containing the MessagePort objects representing the ports of the associated message channel (the channel the message is being sent through.)",
             "support": {
                 "chrome": {
-                    "version_added": null
+                    "version_added": "51"
                 },
                 "chrome_android": {
-                    "version_added": null
+                    "version_added": "51"
                 },
                 "edge": {
                     "version_added": "17"
@@ -1962,34 +1981,36 @@
                     "version_added": false
                 },
                 "opera": {
-                    "version_added": null
+                    "version_added": "38"
                 },
                 "opera_android": {
-                    "version_added": null
+                    "version_added": "41"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
-                    "version_added": null
+                    "version_added": "5.0"
                 },
                 "webview_android": {
-                    "version_added": false
+                    "version_added": "51"
                 },
                 "edge_blink": {
-                    "version_added": null
+                    "version_added": "79"
                 }
             },
             "title": "ExtendableMessageEvent.ports"
         }
     ],
-    "dom-extendablemessageevent-source": [
+    "extendablemessage-event-source": [
         {
             "engines": [
-                "gecko"
+                "blink",
+                "gecko",
+                "webkit"
             ],
             "filename": "api/ExtendableMessageEvent.json",
             "name": "source",
@@ -1997,10 +2018,10 @@
             "summary": "The source read-only property of the ExtendableMessageEvent interface returns a reference to the Client object from which the message was sent.",
             "support": {
                 "chrome": {
-                    "version_added": null
+                    "version_added": "51"
                 },
                 "chrome_android": {
-                    "version_added": null
+                    "version_added": "51"
                 },
                 "edge": {
                     "version_added": "17"
@@ -2016,35 +2037,36 @@
                     "version_added": false
                 },
                 "opera": {
-                    "version_added": null
+                    "version_added": "38"
                 },
                 "opera_android": {
-                    "version_added": null
+                    "version_added": "41"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
-                    "version_added": null
+                    "version_added": "5.0"
                 },
                 "webview_android": {
-                    "version_added": false
+                    "version_added": "51"
                 },
                 "edge_blink": {
-                    "version_added": null
+                    "version_added": "79"
                 }
             },
             "title": "ExtendableMessageEvent.source"
         }
     ],
-    "extendablemessageevent": [
+    "extendablemessageevent-interface": [
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/ExtendableMessageEvent.json",
             "name": "ExtendableMessageEvent",
@@ -2052,10 +2074,10 @@
             "summary": "The ExtendableMessageEvent interface of the Service Worker API represents the event object of a message event fired on a service worker (when a message is received on the ServiceWorkerGlobalScope from another context) — extends the lifetime of such events.",
             "support": {
                 "chrome": {
-                    "version_added": true
+                    "version_added": "51"
                 },
                 "chrome_android": {
-                    "version_added": true
+                    "version_added": "51"
                 },
                 "edge": {
                     "version_added": "17"
@@ -2071,25 +2093,25 @@
                     "version_added": false
                 },
                 "opera": {
-                    "version_added": null
+                    "version_added": "38"
                 },
                 "opera_android": {
-                    "version_added": null
+                    "version_added": "41"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
-                    "version_added": true
+                    "version_added": "5.0"
                 },
                 "webview_android": {
-                    "version_added": false
+                    "version_added": "51"
                 },
                 "edge_blink": {
-                    "version_added": true
+                    "version_added": "79"
                 }
             },
             "title": "ExtendableMessageEvent"
@@ -2099,7 +2121,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/FetchEvent.json",
             "name": "FetchEvent",
@@ -2113,7 +2136,7 @@
                     "version_added": "40"
                 },
                 "edge": {
-                    "version_added": "18"
+                    "version_added": "17"
                 },
                 "firefox": {
                     "version_added": "44",
@@ -2132,10 +2155,10 @@
                     "version_added": "27"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -2148,66 +2171,14 @@
                 }
             },
             "title": "FetchEvent()"
-        },
-        {
-            "engines": [
-                "blink",
-                "gecko"
-            ],
-            "filename": "api/FetchEvent.json",
-            "name": "FetchEvent",
-            "slug": "API/FetchEvent",
-            "summary": "This is the event type for fetch events dispatched on the service worker global scope. It contains information about the fetch, including the request and how the receiver will treat the response. It provides the event.respondWith() method, which allows us to provide a response to this fetch.",
-            "support": {
-                "chrome": {
-                    "version_added": "40"
-                },
-                "chrome_android": {
-                    "version_added": "40"
-                },
-                "edge": {
-                    "version_added": "18"
-                },
-                "firefox": {
-                    "version_added": "44",
-                    "notes": "<a href='https://www.mozilla.org/en-US/firefox/organizations/'>Extended Support Releases (ESR)</a> before Firefox 78 ESR do not support service workers and the Push API."
-                },
-                "firefox_android": {
-                    "version_added": "44"
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": "27"
-                },
-                "opera_android": {
-                    "version_added": "27"
-                },
-                "safari": {
-                    "version_added": false
-                },
-                "safari_ios": {
-                    "version_added": false
-                },
-                "samsunginternet_android": {
-                    "version_added": "4.0"
-                },
-                "webview_android": {
-                    "version_added": "40"
-                },
-                "edge_blink": {
-                    "version_added": "79"
-                }
-            },
-            "title": "FetchEvent"
         }
     ],
-    "dom-fetchevent-clientid": [
+    "fetch-event-clientid": [
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/FetchEvent.json",
             "name": "clientId",
@@ -2221,7 +2192,7 @@
                     "version_added": "49"
                 },
                 "edge": {
-                    "version_added": false
+                    "version_added": "17"
                 },
                 "firefox": {
                     "version_added": "45",
@@ -2240,10 +2211,10 @@
                     "version_added": "36"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "5.0"
@@ -2258,15 +2229,15 @@
             "title": "FetchEvent.clientId"
         }
     ],
-    "service-worker-registration-navigationpreload": [
+    "fetch-event-preloadresponse": [
         {
             "engines": [
                 "blink"
             ],
             "filename": "api/FetchEvent.json",
-            "name": "navigationPreload",
-            "slug": "API/FetchEvent/navigationPreload",
-            "summary": "The navigationPreload read-only property of the FetchEvent interface returns a Promise that resolves to the instance of NavigationPreloadManager associated with the current service worker registration.",
+            "name": "preloadResponse",
+            "slug": "API/FetchEvent/preloadResponse",
+            "summary": "The preloadResponse read-only property of the FetchEvent interface returns a Promise that resolves to the navigation preload Response if navigation preload was triggered or undefined otherwise.",
             "support": {
                 "chrome": {
                     "version_added": "59"
@@ -2275,13 +2246,13 @@
                     "version_added": "59"
                 },
                 "edge": {
-                    "version_added": false
+                    "version_added": "18"
                 },
                 "firefox": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "firefox_android": {
-                    "version_added": null
+                    "version_added": false
                 },
                 "ie": {
                     "version_added": false
@@ -2308,66 +2279,14 @@
                     "version_added": "79"
                 }
             },
-            "title": "FetchEvent.navigationPreload"
-        },
-        {
-            "engines": [
-                "blink",
-                "gecko"
-            ],
-            "filename": "api/ServiceWorkerRegistration.json",
-            "name": "navigationPreload",
-            "slug": "API/ServiceWorkerRegistration/navigationPreload",
-            "summary": "The navigationPreload read-only property of the ServiceWorkerRegistration interface returns the NavigationPreloadManager associated with the current service worker registration.",
-            "support": {
-                "chrome": {
-                    "version_added": "59"
-                },
-                "chrome_android": {
-                    "version_added": "59"
-                },
-                "edge": {
-                    "version_added": "17"
-                },
-                "firefox": {
-                    "version_added": "44",
-                    "notes": "<a href='https://www.mozilla.org/en-US/firefox/organizations/'>Extended Support Releases (ESR)</a> before Firefox 78 ESR do not support service workers and the Push API."
-                },
-                "firefox_android": {
-                    "version_added": "44"
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": "46"
-                },
-                "opera_android": {
-                    "version_added": "43"
-                },
-                "safari": {
-                    "version_added": false
-                },
-                "safari_ios": {
-                    "version_added": false
-                },
-                "samsunginternet_android": {
-                    "version_added": "4.0"
-                },
-                "webview_android": {
-                    "version_added": "59"
-                },
-                "edge_blink": {
-                    "version_added": "79"
-                }
-            },
-            "title": "ServiceWorkerRegistration.navigationPreload"
+            "title": "FetchEvent.preloadResponse"
         }
     ],
-    "dom-fetchevent-replacesclientid": [
+    "fetch-event-replacesClientId": [
         {
-            "engines": [
-                "gecko"
+            "engines": [],
+            "altname": [
+                "webkit"
             ],
             "filename": "api/FetchEvent.json",
             "name": "replacesClientId",
@@ -2384,10 +2303,10 @@
                     "version_added": false
                 },
                 "firefox": {
-                    "version_added": "65"
+                    "version_added": false
                 },
                 "firefox_android": {
-                    "version_added": "65"
+                    "version_added": false
                 },
                 "ie": {
                     "version_added": false
@@ -2399,10 +2318,14 @@
                     "version_added": false
                 },
                 "safari": {
-                    "version_added": false
+                    "alternative_name": "targetClientId",
+                    "version_added": "11.1",
+                    "notes": "See <a href='https://webkit.org/b/226638'>bug 226638</a>."
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "alternative_name": "targetClientId",
+                    "version_added": "11.3",
+                    "notes": "See <a href='https://webkit.org/b/226638'>bug 226638</a>."
                 },
                 "samsunginternet_android": {
                     "version_added": false
@@ -2421,7 +2344,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/FetchEvent.json",
             "name": "request",
@@ -2435,7 +2359,7 @@
                     "version_added": true
                 },
                 "edge": {
-                    "version_added": false
+                    "version_added": "17"
                 },
                 "firefox": {
                     "version_added": "44"
@@ -2453,10 +2377,10 @@
                     "version_added": true
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": true
@@ -2471,11 +2395,12 @@
             "title": "FetchEvent.request"
         }
     ],
-    "dom-fetchevent-respondwith": [
+    "fetch-event-respondwith": [
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/FetchEvent.json",
             "name": "respondWith",
@@ -2491,7 +2416,7 @@
                     "notes": "NetworkError thrown if request mode is same-origin and response type is cors (see <a href='https://bugzil.la/1222008'>bug 1222008</a>). This is being worked on - see <a href='https://www.chromestatus.com/feature/5694278818856960'>https://www.chromestatus.com/feature/5694278818856960</a>."
                 },
                 "edge": {
-                    "version_added": false
+                    "version_added": "17"
                 },
                 "firefox": [
                     {
@@ -2516,10 +2441,10 @@
                     "version_added": "29"
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -2536,7 +2461,7 @@
             "title": "FetchEvent.respondWith()"
         }
     ],
-    "dom-fetchevent-resultingclientid": [
+    "fetch-event-resultingclientid": [
         {
             "engines": [
                 "blink",
@@ -2554,7 +2479,7 @@
                     "version_added": "72"
                 },
                 "edge": {
-                    "version_added": "18"
+                    "version_added": false
                 },
                 "firefox": {
                     "version_added": "65"
@@ -2588,6 +2513,62 @@
                 }
             },
             "title": "FetchEvent.resultingClientId"
+        }
+    ],
+    "fetchevent-interface": [
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/FetchEvent.json",
+            "name": "FetchEvent",
+            "slug": "API/FetchEvent",
+            "summary": "This is the event type for fetch events dispatched on the service worker global scope. It contains information about the fetch, including the request and how the receiver will treat the response. It provides the event.respondWith() method, which allows us to provide a response to this fetch.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "version_added": "44",
+                    "notes": "<a href='https://www.mozilla.org/en-US/firefox/organizations/'>Extended Support Releases (ESR)</a> before Firefox 78 ESR do not support service workers and the Push API."
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "FetchEvent"
         }
     ],
     "navigation-preload-manager": [
@@ -2645,7 +2626,7 @@
             "title": "NavigationPreloadManager"
         }
     ],
-    "navigator-serviceworker": [
+    "navigator-service-worker-attribute": [
         {
             "engines": [
                 "blink",
@@ -2869,7 +2850,7 @@
             "title": "ServiceWorker.state"
         }
     ],
-    "serviceworker": [
+    "serviceworker-interface": [
         {
             "engines": [
                 "blink",
@@ -2981,7 +2962,7 @@
             "title": "ServiceWorkerContainer.controller"
         }
     ],
-    "dom-serviceworkercontainer-getregistration": [
+    "navigator-service-worker-getRegistration": [
         {
             "engines": [
                 "blink",
@@ -3259,6 +3240,60 @@
                 }
             },
             "title": "ServiceWorkerContainer.onmessage"
+        },
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/ServiceWorkerGlobalScope.json",
+            "name": "onmessage",
+            "slug": "API/ServiceWorkerGlobalScope/onmessage",
+            "summary": "The onmessage property of the ServiceWorkerGlobalScope interface is an event handler fired whenever a message event occurs — when incoming messages are received.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "44",
+                    "notes": "<a href='https://www.mozilla.org/en-US/firefox/organizations/'>Extended Support Releases (ESR)</a> before Firefox 78 ESR do not support service workers and the Push API."
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "24"
+                },
+                "opera_android": {
+                    "version_added": "24"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "ServiceWorkerGlobalScope.onmessage"
         }
     ],
     "navigator-service-worker-ready": [
@@ -3317,7 +3352,7 @@
             "title": "ServiceWorkerContainer.ready"
         }
     ],
-    "dom-serviceworkercontainer-register": [
+    "navigator-service-worker-register": [
         {
             "engines": [
                 "blink",
@@ -3373,7 +3408,7 @@
             "title": "ServiceWorkerContainer.register()"
         }
     ],
-    "dom-serviceworkercontainer-startmessages": [
+    "navigator-service-worker-startMessages": [
         {
             "engines": [
                 "blink",
@@ -3410,10 +3445,10 @@
                     "version_added": "50"
                 },
                 "safari": {
-                    "version_added": true
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": true
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "11.0"
@@ -3428,7 +3463,7 @@
             "title": "ServiceWorkerContainer.startMessages()"
         }
     ],
-    "serviceworkercontainer": [
+    "serviceworkercontainer-interface": [
         {
             "engines": [
                 "blink",
@@ -3764,7 +3799,7 @@
             "title": "ServiceWorkerGlobalScope: message event"
         }
     ],
-    "service-worker-global-scope-event-handlers": [
+    "dom-serviceworkerglobalscope-onactivate": [
         {
             "engines": [
                 "blink",
@@ -3818,7 +3853,9 @@
                 }
             },
             "title": "ServiceWorkerGlobalScope.onactivate"
-        },
+        }
+    ],
+    "dom-serviceworkerglobalscope-onfetch": [
         {
             "engines": [
                 "blink",
@@ -3872,7 +3909,9 @@
                 }
             },
             "title": "ServiceWorkerGlobalScope.onfetch"
-        },
+        }
+    ],
+    "dom-serviceworkerglobalscope-oninstall": [
         {
             "engines": [
                 "blink",
@@ -3926,60 +3965,6 @@
                 }
             },
             "title": "ServiceWorkerGlobalScope.oninstall"
-        },
-        {
-            "engines": [
-                "blink",
-                "gecko",
-                "webkit"
-            ],
-            "filename": "api/ServiceWorkerGlobalScope.json",
-            "name": "onmessage",
-            "slug": "API/ServiceWorkerGlobalScope/onmessage",
-            "summary": "The onmessage property of the ServiceWorkerGlobalScope interface is an event handler fired whenever a message event occurs — when incoming messages are received.",
-            "support": {
-                "chrome": {
-                    "version_added": "40"
-                },
-                "chrome_android": {
-                    "version_added": "40"
-                },
-                "edge": {
-                    "version_added": false
-                },
-                "firefox": {
-                    "version_added": "44",
-                    "notes": "<a href='https://www.mozilla.org/en-US/firefox/organizations/'>Extended Support Releases (ESR)</a> before Firefox 78 ESR do not support service workers and the Push API."
-                },
-                "firefox_android": {
-                    "version_added": "44"
-                },
-                "ie": {
-                    "version_added": false
-                },
-                "opera": {
-                    "version_added": "24"
-                },
-                "opera_android": {
-                    "version_added": "24"
-                },
-                "safari": {
-                    "version_added": "11.1"
-                },
-                "safari_ios": {
-                    "version_added": "11.3"
-                },
-                "samsunginternet_android": {
-                    "version_added": "4.0"
-                },
-                "webview_android": {
-                    "version_added": "40"
-                },
-                "edge_blink": {
-                    "version_added": "79"
-                }
-            },
-            "title": "ServiceWorkerGlobalScope.onmessage"
         }
     ],
     "service-worker-global-scope-registration": [
@@ -3995,10 +3980,10 @@
             "summary": "The registration read-only property of the ServiceWorkerGlobalScope interface returns a reference to the ServiceWorkerRegistration object, which represents the service worker's registration.",
             "support": {
                 "chrome": {
-                    "version_added": "40"
+                    "version_added": "42"
                 },
                 "chrome_android": {
-                    "version_added": "40"
+                    "version_added": "42"
                 },
                 "edge": {
                     "version_added": false
@@ -4014,10 +3999,10 @@
                     "version_added": false
                 },
                 "opera": {
-                    "version_added": "24"
+                    "version_added": "26"
                 },
                 "opera_android": {
-                    "version_added": "24"
+                    "version_added": "26"
                 },
                 "safari": {
                     "version_added": "11.1"
@@ -4029,7 +4014,7 @@
                     "version_added": "4.0"
                 },
                 "webview_android": {
-                    "version_added": "40"
+                    "version_added": "42"
                 },
                 "edge_blink": {
                     "version_added": "79"
@@ -4038,7 +4023,7 @@
             "title": "ServiceWorkerGlobalScope.registration"
         }
     ],
-    "dom-serviceworkerglobalscope-skipwaiting": [
+    "service-worker-global-scope-skipwaiting": [
         {
             "engines": [
                 "blink",
@@ -4051,10 +4036,10 @@
             "summary": "The ServiceWorkerGlobalScope.skipWaiting() method of the ServiceWorkerGlobalScope forces the waiting service worker to become the active service worker.",
             "support": {
                 "chrome": {
-                    "version_added": "40"
+                    "version_added": "41"
                 },
                 "chrome_android": {
-                    "version_added": "40"
+                    "version_added": "41"
                 },
                 "edge": {
                     "version_added": false
@@ -4070,10 +4055,10 @@
                     "version_added": false
                 },
                 "opera": {
-                    "version_added": "24"
+                    "version_added": "25"
                 },
                 "opera_android": {
-                    "version_added": "24"
+                    "version_added": "25"
                 },
                 "safari": {
                     "version_added": "11.1"
@@ -4085,7 +4070,7 @@
                     "version_added": "4.0"
                 },
                 "webview_android": {
-                    "version_added": "40"
+                    "version_added": "41"
                 },
                 "edge_blink": {
                     "version_added": "79"
@@ -4150,7 +4135,7 @@
             "title": "ServiceWorkerGlobalScope"
         }
     ],
-    "dom-serviceworkerregistration-active": [
+    "navigator-service-worker-active": [
         {
             "engines": [
                 "blink",
@@ -4206,7 +4191,7 @@
             "title": "ServiceWorkerRegistration.active"
         }
     ],
-    "dom-serviceworkerregistration-installing": [
+    "navigator-service-worker-installing": [
         {
             "engines": [
                 "blink",
@@ -4260,6 +4245,61 @@
                 }
             },
             "title": "ServiceWorkerRegistration.installing"
+        }
+    ],
+    "service-worker-registration-navigationpreload": [
+        {
+            "engines": [
+                "blink",
+                "gecko"
+            ],
+            "filename": "api/ServiceWorkerRegistration.json",
+            "name": "navigationPreload",
+            "slug": "API/ServiceWorkerRegistration/navigationPreload",
+            "summary": "The navigationPreload read-only property of the ServiceWorkerRegistration interface returns the NavigationPreloadManager associated with the current service worker registration.",
+            "support": {
+                "chrome": {
+                    "version_added": "59"
+                },
+                "chrome_android": {
+                    "version_added": "59"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "version_added": "44",
+                    "notes": "<a href='https://www.mozilla.org/en-US/firefox/organizations/'>Extended Support Releases (ESR)</a> before Firefox 78 ESR do not support service workers and the Push API."
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "46"
+                },
+                "opera_android": {
+                    "version_added": "43"
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "59"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "ServiceWorkerRegistration.navigationPreload"
         }
     ],
     "dom-serviceworkerregistration-onupdatefound": [
@@ -4318,7 +4358,7 @@
             "title": "ServiceWorkerRegistration.onupdatefound"
         }
     ],
-    "dom-serviceworkerregistration-scope": [
+    "service-worker-registration-scope": [
         {
             "engines": [
                 "blink",
@@ -4372,6 +4412,62 @@
                 }
             },
             "title": "ServiceWorkerRegistration.scope"
+        }
+    ],
+    "navigator-service-worker-unregister": [
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "api/ServiceWorkerRegistration.json",
+            "name": "unregister",
+            "slug": "API/ServiceWorkerRegistration/unregister",
+            "summary": "The unregister() method of the ServiceWorkerRegistration interface unregisters the service worker registration and returns a Promise. The promise will resolve to false if no registration was found, otherwise it resolves to true irrespective of whether unregistration happened or not (it may not unregister if someone else just called ServiceWorkerContainer.register() with the same scope.) The service worker will finish any ongoing operations before it is unregistered.",
+            "support": {
+                "chrome": {
+                    "version_added": "40"
+                },
+                "chrome_android": {
+                    "version_added": "40"
+                },
+                "edge": {
+                    "version_added": "17"
+                },
+                "firefox": {
+                    "version_added": "44",
+                    "notes": "<a href='https://www.mozilla.org/en-US/firefox/organizations/'>Extended Support Releases (ESR)</a> before Firefox 78 ESR do not support service workers and the Push API."
+                },
+                "firefox_android": {
+                    "version_added": "44"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": "27"
+                },
+                "opera_android": {
+                    "version_added": "27"
+                },
+                "safari": {
+                    "version_added": "11.1"
+                },
+                "safari_ios": {
+                    "version_added": "11.3"
+                },
+                "samsunginternet_android": {
+                    "version_added": "4.0"
+                },
+                "webview_android": {
+                    "version_added": "40"
+                },
+                "edge_blink": {
+                    "version_added": "79"
+                }
+            },
+            "title": "ServiceWorkerRegistration.unregister()"
         }
     ],
     "service-worker-registration-update": [
@@ -4514,7 +4610,7 @@
             "title": "ServiceWorkerRegistration.waiting"
         }
     ],
-    "serviceworkerregistration": [
+    "serviceworkerregistration-interface": [
         {
             "engines": [
                 "blink",
@@ -4570,11 +4666,12 @@
             "title": "ServiceWorkerRegistration"
         }
     ],
-    "dom-windowclient-focus": [
+    "client-focus": [
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/WindowClient.json",
             "name": "focus",
@@ -4588,7 +4685,7 @@
                     "version_added": "42"
                 },
                 "edge": {
-                    "version_added": "18"
+                    "version_added": "17"
                 },
                 "firefox": {
                     "version_added": "44",
@@ -4607,10 +4704,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -4625,11 +4722,12 @@
             "title": "WindowClient.focus()"
         }
     ],
-    "dom-windowclient-focused": [
+    "client-focused": [
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/WindowClient.json",
             "name": "focused",
@@ -4643,7 +4741,7 @@
                     "version_added": "42"
                 },
                 "edge": {
-                    "version_added": "18"
+                    "version_added": "17"
                 },
                 "firefox": {
                     "version_added": "44",
@@ -4662,10 +4760,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -4680,11 +4778,12 @@
             "title": "WindowClient.focused"
         }
     ],
-    "dom-windowclient-navigate": [
+    "client-navigate": [
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/WindowClient.json",
             "name": "navigate",
@@ -4698,7 +4797,7 @@
                     "version_added": "49"
                 },
                 "edge": {
-                    "version_added": "18"
+                    "version_added": "17"
                 },
                 "firefox": {
                     "version_added": "44",
@@ -4717,10 +4816,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -4735,11 +4834,12 @@
             "title": "WindowClient.navigate()"
         }
     ],
-    "dom-windowclient-visibilitystate": [
+    "client-visibilitystate": [
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/WindowClient.json",
             "name": "visibilityState",
@@ -4753,7 +4853,7 @@
                     "version_added": "42"
                 },
                 "edge": {
-                    "version_added": "18"
+                    "version_added": "17"
                 },
                 "firefox": {
                     "version_added": "44",
@@ -4772,10 +4872,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"
@@ -4794,7 +4894,8 @@
         {
             "engines": [
                 "blink",
-                "gecko"
+                "gecko",
+                "webkit"
             ],
             "filename": "api/WindowClient.json",
             "name": "WindowClient",
@@ -4808,7 +4909,7 @@
                     "version_added": "42"
                 },
                 "edge": {
-                    "version_added": "18"
+                    "version_added": "17"
                 },
                 "firefox": {
                     "version_added": "44",
@@ -4827,10 +4928,10 @@
                     "version_added": null
                 },
                 "safari": {
-                    "version_added": false
+                    "version_added": "11.1"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "11.3"
                 },
                 "samsunginternet_android": {
                     "version_added": "4.0"

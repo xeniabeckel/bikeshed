@@ -1,5 +1,5 @@
 {
-    "section-5.1": [
+    "header.age": [
         {
             "engines": [
                 "blink",
@@ -54,7 +54,62 @@
             "title": "Age"
         }
     ],
-    "section-5.3": [
+    "header.cache-control": [
+        {
+            "engines": [
+                "blink",
+                "gecko",
+                "webkit"
+            ],
+            "filename": "http/headers/cache-control.json",
+            "name": "Cache-Control",
+            "slug": "HTTP/Headers/Cache-Control",
+            "summary": "The Cache-Control HTTP header holds directives (instructions) for caching in both requests and responses. A given directive in a request does not mean the same directive should be in the response.",
+            "support": {
+                "chrome": {
+                    "version_added": true
+                },
+                "chrome_android": {
+                    "version_added": true
+                },
+                "edge": {
+                    "version_added": "12"
+                },
+                "firefox": {
+                    "version_added": true
+                },
+                "firefox_android": {
+                    "version_added": true
+                },
+                "ie": {
+                    "version_added": true
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": true
+                },
+                "safari_ios": {
+                    "version_added": true
+                },
+                "samsunginternet_android": {
+                    "version_added": true
+                },
+                "webview_android": {
+                    "version_added": true
+                },
+                "edge_blink": {
+                    "version_added": true
+                }
+            },
+            "title": "Cache-Control"
+        }
+    ],
+    "header.expires": [
         {
             "engines": [
                 "blink",
@@ -109,7 +164,7 @@
             "title": "Expires"
         }
     ],
-    "section-5.4": [
+    "header.pragma": [
         {
             "engines": [
                 "blink",
@@ -164,7 +219,7 @@
             "title": "Pragma"
         }
     ],
-    "section-5.5": [
+    "header.warning": [
         {
             "engines": [
                 "blink",

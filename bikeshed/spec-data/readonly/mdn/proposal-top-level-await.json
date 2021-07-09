@@ -2,7 +2,9 @@
     "introduction": [
         {
             "engines": [
-                "blink"
+                "blink",
+                "gecko",
+                "webkit"
             ],
             "filename": "javascript/operators/await.json",
             "name": "top_level",
@@ -19,24 +21,10 @@
                     "version_added": false
                 },
                 "firefox": {
-                    "version_added": false,
-                    "notes": "Available only in nightly builds. See <a href='https://bugzil.la/1681046'>bug 1681046</a>.",
-                    "flags": [
-                        {
-                            "type": "preference",
-                            "name": "javascript.options.experimental.top_level_await"
-                        }
-                    ]
+                    "version_added": "89"
                 },
                 "firefox_android": {
-                    "version_added": false,
-                    "notes": "Available only in nightly builds. See <a href='https://bugzil.la/1681046'>bug 1681046</a>.",
-                    "flags": [
-                        {
-                            "type": "preference",
-                            "name": "javascript.options.experimental.top_level_await"
-                        }
-                    ]
+                    "version_added": "89"
                 },
                 "ie": {
                     "version_added": false
@@ -57,24 +45,29 @@
                         "notes": "Not supported in CommonJS modules."
                     }
                 ],
-                "opera": {
-                    "version_added": "73",
-                    "flags": [
-                        {
-                            "type": "preference",
-                            "name": "#enable-javascript-harmony"
-                        }
-                    ]
-                },
+                "opera": [
+                    {
+                        "version_added": "75"
+                    },
+                    {
+                        "version_added": "73",
+                        "version_removed": "75",
+                        "flags": [
+                            {
+                                "type": "preference",
+                                "name": "#enable-javascript-harmony"
+                            }
+                        ]
+                    }
+                ],
                 "opera_android": {
-                    "version_added": false
+                    "version_added": "63"
                 },
                 "safari": {
-                    "version_added": false,
-                    "notes": "See <a href='https://webkit.org/b/202484'>bug 202484</a>"
+                    "version_added": "15"
                 },
                 "safari_ios": {
-                    "version_added": false
+                    "version_added": "15"
                 },
                 "samsunginternet_android": {
                     "version_added": false

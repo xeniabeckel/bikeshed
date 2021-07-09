@@ -37,7 +37,7 @@ Mike West
 -
 d:epub-33
 epub-33
-24 February 2021
+25 May 2021
 WD
 EPUB 3.3
 https://www.w3.org/TR/epub-33/
@@ -102,9 +102,43 @@ Garth Conboy
 Marisa DeMeglio
 Daniel Weck
 -
+d:epub-33-20210406
+epub-33-20210406
+6 April 2021
+WD
+EPUB 3.3
+https://www.w3.org/TR/2021/WD-epub-33-20210406/
+https://www.w3.org/TR/2021/WD-epub-33-20210406/
+
+
+
+Matt Garrish
+Ivan Herman
+Dave Cramer
+Garth Conboy
+Marisa DeMeglio
+Daniel Weck
+-
+d:epub-33-20210525
+epub-33-20210525
+25 May 2021
+WD
+EPUB 3.3
+https://www.w3.org/TR/2021/WD-epub-33-20210525/
+https://www.w3.org/TR/2021/WD-epub-33-20210525/
+
+
+
+Matt Garrish
+Ivan Herman
+Dave Cramer
+Garth Conboy
+Marisa DeMeglio
+Daniel Weck
+-
 d:epub-a11y-11
 epub-a11y-11
-23 February 2021
+25 May 2021
 WD
 EPUB Accessibility 1.1
 https://www.w3.org/TR/epub-a11y-11/
@@ -134,9 +168,69 @@ Charles LaPierre
 Gregorio Pellegrino
 Avneesh Singh
 -
+d:epub-a11y-11-20210406
+epub-a11y-11-20210406
+6 April 2021
+WD
+EPUB Accessibility 1.1
+https://www.w3.org/TR/2021/WD-epub-a11y-11-20210406/
+https://www.w3.org/TR/2021/WD-epub-a11y-11-20210406/
+
+
+
+Matt Garrish
+George Kerscher
+Charles LaPierre
+Gregorio Pellegrino
+Avneesh Singh
+-
+d:epub-a11y-11-20210525
+epub-a11y-11-20210525
+25 May 2021
+WD
+EPUB Accessibility 1.1
+https://www.w3.org/TR/2021/WD-epub-a11y-11-20210525/
+https://www.w3.org/TR/2021/WD-epub-a11y-11-20210525/
+
+
+
+Matt Garrish
+George Kerscher
+Charles LaPierre
+Gregorio Pellegrino
+Avneesh Singh
+-
+d:epub-a11y-eaa-mapping
+epub-a11y-eaa-mapping
+29 June 2021
+NOTE
+EPUB Accessibility - EU Accessibility Act Mapping
+https://www.w3.org/TR/epub-a11y-eaa-mapping/
+https://w3c.github.io/epub-specs/epub33/epub-a11y-eaa-mapping/
+
+
+
+Cristina Mussinelli
+Luc Audrain
+Gregorio Pellegrino
+-
+d:epub-a11y-eaa-mapping-20210629
+epub-a11y-eaa-mapping-20210629
+29 June 2021
+NOTE
+EPUB Accessibility - EU Accessibility Act Mapping
+https://www.w3.org/TR/2021/NOTE-epub-a11y-eaa-mapping-20210629/
+https://www.w3.org/TR/2021/NOTE-epub-a11y-eaa-mapping-20210629/
+
+
+
+Cristina Mussinelli
+Luc Audrain
+Gregorio Pellegrino
+-
 d:epub-a11y-tech-11
 epub-a11y-tech-11
-23 February 2021
+25 May 2021
 NOTE
 EPUB Accessibility Techniques 1.1
 https://www.w3.org/TR/epub-a11y-tech-11/
@@ -166,9 +260,25 @@ Charles LaPierre
 Gregorio Pellegrino
 Avneesh Singh
 -
+d:epub-a11y-tech-11-20210525
+epub-a11y-tech-11-20210525
+25 May 2021
+NOTE
+EPUB Accessibility Techniques 1.1
+https://www.w3.org/TR/2021/NOTE-epub-a11y-tech-11-20210525/
+https://www.w3.org/TR/2021/NOTE-epub-a11y-tech-11-20210525/
+
+
+
+Matt Garrish
+George Kerscher
+Charles LaPierre
+Gregorio Pellegrino
+Avneesh Singh
+-
 d:epub-multi-rend-11
 epub-multi-rend-11
-12 January 2021
+25 May 2021
 NOTE
 EPUB Multiple-Rendition Publications 1.1
 https://www.w3.org/TR/epub-multi-rend-11/
@@ -185,6 +295,18 @@ NOTE
 EPUB Multiple-Rendition Publications 1.1
 https://www.w3.org/TR/2021/NOTE-epub-multi-rend-11-20210112/
 https://www.w3.org/TR/2021/NOTE-epub-multi-rend-11-20210112/
+
+
+
+Matt Garrish
+-
+d:epub-multi-rend-11-20210525
+epub-multi-rend-11-20210525
+25 May 2021
+NOTE
+EPUB Multiple-Rendition Publications 1.1
+https://www.w3.org/TR/2021/NOTE-epub-multi-rend-11-20210525/
+https://www.w3.org/TR/2021/NOTE-epub-multi-rend-11-20210525/
 
 
 
@@ -220,9 +342,9 @@ Daniel Weck
 -
 d:epub-rs-33
 epub-rs-33
-24 February 2021
+25 May 2021
 WD
-EPUB 3.3 Reading Systems
+EPUB Reading Systems 3.3
 https://www.w3.org/TR/epub-rs-33/
 https://w3c.github.io/epub-specs/epub33/rs/
 
@@ -275,6 +397,40 @@ WD
 EPUB 3.3 Reading Systems
 https://www.w3.org/TR/2021/WD-epub-rs-33-20210224/
 https://www.w3.org/TR/2021/WD-epub-rs-33-20210224/
+
+
+
+Dave Cramer
+Matt Garrish
+Ivan Herman
+Garth Conboy
+Marisa DeMeglio
+Daniel Weck
+-
+d:epub-rs-33-20210406
+epub-rs-33-20210406
+6 April 2021
+WD
+EPUB Reading Systems 3.3
+https://www.w3.org/TR/2021/WD-epub-rs-33-20210406/
+https://www.w3.org/TR/2021/WD-epub-rs-33-20210406/
+
+
+
+Dave Cramer
+Matt Garrish
+Ivan Herman
+Garth Conboy
+Marisa DeMeglio
+Daniel Weck
+-
+d:epub-rs-33-20210525
+epub-rs-33-20210525
+25 May 2021
+WD
+EPUB Reading Systems 3.3
+https://www.w3.org/TR/2021/WD-epub-rs-33-20210525/
+https://www.w3.org/TR/2021/WD-epub-rs-33-20210525/
 
 
 

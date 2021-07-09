@@ -1,6 +1,6 @@
 "ok"
 enum-value
-webusb
+webusb-1
 webusb
 1
 current
@@ -20,17 +20,6 @@ https://fetch.spec.whatwg.org/#dom-response-ok
 1
 Response
 -
-ok
-dfn
-webpackage
-webpackage
-1
-current
-https://wicg.github.io/webpackage/loading.html#signed-exchange-report-ok
-
-1
-signed exchange report
--
 ok status
 dfn
 fetch
@@ -46,7 +35,7 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/infrastructure.html#ok-status
 
 1

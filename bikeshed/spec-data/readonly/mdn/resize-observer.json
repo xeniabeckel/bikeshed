@@ -316,7 +316,7 @@
                     "version_added": false
                 },
                 "samsunginternet_android": {
-                    "version_added": false
+                    "version_added": "14.0"
                 },
                 "webview_android": {
                     "version_added": "84"
@@ -331,7 +331,9 @@
     "dom-resizeobserverentry-contentboxsize": [
         {
             "engines": [
-                "blink",
+                "blink"
+            ],
+            "partial": [
                 "gecko"
             ],
             "filename": "api/ResizeObserverEntry.json",
@@ -349,7 +351,9 @@
                     "version_added": false
                 },
                 "firefox": {
-                    "version_added": "69"
+                    "version_added": "69",
+                    "partial_implementation": true,
+                    "notes": "Implemented as a single object representing a content box size, rather than an array of content box size objects."
                 },
                 "firefox_android": {
                     "version_added": false
@@ -370,7 +374,7 @@
                     "version_added": false
                 },
                 "samsunginternet_android": {
-                    "version_added": false
+                    "version_added": "14.0"
                 },
                 "webview_android": {
                     "version_added": "84"
@@ -542,6 +546,168 @@
                 }
             },
             "title": "ResizeObserverEntry"
+        }
+    ],
+    "dom-resizeobserversize-blocksize": [
+        {
+            "engines": [
+                "blink",
+                "gecko"
+            ],
+            "filename": "api/ResizeObserverSize.json",
+            "name": "blockSize",
+            "slug": "API/ResizeObserverSize/blockSize",
+            "summary": "The blockSize read-only property of the ResizeObserverSize interface returns the length of the observed element's border box in the block dimension. For boxes with a horizontal writing-mode, this is the vertical dimension, or height; if the writing-mode is vertical, this is the horizontal dimension, or width.",
+            "support": {
+                "chrome": {
+                    "version_added": "84"
+                },
+                "chrome_android": {
+                    "version_added": "84"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "69"
+                },
+                "firefox_android": {
+                    "version_added": "79"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "14.0"
+                },
+                "webview_android": {
+                    "version_added": "84"
+                },
+                "edge_blink": {
+                    "version_added": "84"
+                }
+            },
+            "title": "ResizeObserverSize.blockSize"
+        }
+    ],
+    "dom-resizeobserversize-inlinesize": [
+        {
+            "engines": [
+                "blink",
+                "gecko"
+            ],
+            "filename": "api/ResizeObserverSize.json",
+            "name": "inlineSize",
+            "slug": "API/ResizeObserverSize/inlineSize",
+            "summary": "The inlineSize read-only property of the ResizeObserverSize interface returns the length of the observed element's border box in the inline dimension. For boxes with a horizontal writing-mode, this is the horizontal dimension, or width; if the writing-mode is vertical, this is the vertical dimension, or height.",
+            "support": {
+                "chrome": {
+                    "version_added": "84"
+                },
+                "chrome_android": {
+                    "version_added": "84"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "69"
+                },
+                "firefox_android": {
+                    "version_added": "79"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "14.0"
+                },
+                "webview_android": {
+                    "version_added": "84"
+                },
+                "edge_blink": {
+                    "version_added": "84"
+                }
+            },
+            "title": "ResizeObserverSize.inlineSize"
+        }
+    ],
+    "resizeobserversize": [
+        {
+            "engines": [
+                "blink",
+                "gecko"
+            ],
+            "filename": "api/ResizeObserverSize.json",
+            "name": "ResizeObserverSize",
+            "slug": "API/ResizeObserverSize",
+            "summary": "The ResizeObserverSize interface of the Resize Observer API is used by the ResizeObserverEntry interface to access the box sizing properties of the element being observed.",
+            "support": {
+                "chrome": {
+                    "version_added": "84"
+                },
+                "chrome_android": {
+                    "version_added": "84"
+                },
+                "edge": {
+                    "version_added": false
+                },
+                "firefox": {
+                    "version_added": "69"
+                },
+                "firefox_android": {
+                    "version_added": "79"
+                },
+                "ie": {
+                    "version_added": false
+                },
+                "opera": {
+                    "version_added": true
+                },
+                "opera_android": {
+                    "version_added": true
+                },
+                "safari": {
+                    "version_added": false
+                },
+                "safari_ios": {
+                    "version_added": false
+                },
+                "samsunginternet_android": {
+                    "version_added": "14.0"
+                },
+                "webview_android": {
+                    "version_added": "84"
+                },
+                "edge_blink": {
+                    "version_added": "84"
+                }
+            },
+            "title": "ResizeObserverSize"
         }
     ]
 }

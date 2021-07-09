@@ -3,8 +3,8 @@ dfn
 css-text-3
 css-text
 3
-current
-https://drafts.csswg.org/css-text-3/#writing-system-japanese
+snapshot
+https://www.w3.org/TR/css-text-3/#writing-system-japanese
 
 1
 writing-system
@@ -14,22 +14,11 @@ dfn
 css-text-3
 css-text
 3
-snapshot
-https://www.w3.org/TR/css-text-3/#writing-system-japanese
+current
+https://drafts.csswg.org/css-text-3/#writing-system-japanese
 
 1
 writing-system
--
-japanese-formal
-value
-css-counter-styles-3
-css-counter-styles
-3
-current
-https://drafts.csswg.org/css-counter-styles/#japanese-formal
-1
-1
-<counter-style>
 -
 japanese-formal
 value
@@ -42,13 +31,13 @@ https://www.w3.org/TR/css-counter-styles-3/#japanese-formal
 1
 <counter-style>
 -
-japanese-informal
+japanese-formal
 value
 css-counter-styles-3
 css-counter-styles
 3
 current
-https://drafts.csswg.org/css-counter-styles/#japanese-informal
+https://drafts.csswg.org/css-counter-styles-3/#japanese-formal
 1
 1
 <counter-style>
@@ -64,12 +53,23 @@ https://www.w3.org/TR/css-counter-styles-3/#japanese-informal
 1
 <counter-style>
 -
+japanese-informal
+value
+css-counter-styles-3
+css-counter-styles
+3
+current
+https://drafts.csswg.org/css-counter-styles-3/#japanese-informal
+1
+1
+<counter-style>
+-
 javaEnabled()
 method
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/obsolete.html#dom-navigator-javaenabled
 1
 1
@@ -80,28 +80,8 @@ dfn
 navigation-timing-2
 navigation-timing
 2
-current
-https://w3c.github.io/navigation-timing/#dfn-javascript
-
-1
--
-javascript
-dfn
-navigation-timing-2
-navigation-timing
-2
 snapshot
 https://www.w3.org/TR/navigation-timing-2/#dfn-javascript
-
-1
--
-javascript
-dfn
-resource-timing-2
-resource-timing
-2
-current
-https://w3c.github.io/resource-timing/#dfn-javascript
 
 1
 -
@@ -120,28 +100,8 @@ dfn
 html
 html
 1
-current
-https://html.spec.whatwg.org/multipage/webappapis.html#javascript-engine-task-source
-
-1
--
-javascript error
-dfn
-webdriver2
-webdriver
-2
-current
-https://w3c.github.io/webdriver/#dfn-javascript-error
-
-1
--
-javascript error
-dfn
-webdriver2
-webdriver
-2
 snapshot
-https://www.w3.org/TR/webdriver2/#dfn-javascript-error
+https://html.spec.whatwg.org/multipage/webappapis.html#javascript-engine-task-source
 
 1
 -
@@ -150,7 +110,7 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/infrastructure.html#javascript-execution-context
 
 1
@@ -160,7 +120,7 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/infrastructure.html#javascript-execution-context-stack
 
 1
@@ -170,7 +130,7 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/infrastructure.html#javascript-mime-type
 
 1
@@ -190,7 +150,7 @@ dfn
 html
 html
 1
-current
+snapshot
 https://html.spec.whatwg.org/multipage/infrastructure.html#javascript-mime-type-essence-match
 
 1
@@ -210,28 +170,8 @@ dfn
 html
 html
 1
-current
-https://html.spec.whatwg.org/multipage/infrastructure.html#javascript-realm
-
-1
--
-javascript realm
-dfn
-presentation-api
-presentation-api
-1
-current
-https://w3c.github.io/presentation-api/#dfn-javascript-realm
-
-1
--
-javascript realm
-dfn
-presentation-api
-presentation-api
-1
 snapshot
-https://www.w3.org/TR/presentation-api/#dfn-javascript-realm
+https://html.spec.whatwg.org/multipage/infrastructure.html#javascript-realm
 
 1
 -
