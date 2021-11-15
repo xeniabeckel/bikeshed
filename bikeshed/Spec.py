@@ -1,5 +1,6 @@
 import glob
 import json
+import kdl
 import os
 import sys
 from collections import defaultdict
@@ -102,6 +103,7 @@ class Spec:
         self.widl = idl.getParser()
         self.testSuites = json.loads(self.dataFile.fetch("test-suites.json", str=True))
         self.languages = json.loads(self.dataFile.fetch("languages.json", str=True))
+        self.statuses = kdl.parse(self.dataFile.fetch("statuses.kdl", str=True))
         self.extraStyles = defaultdict(str)
         self.extraStyles["style-colors"] = styleColors
         self.extraStyles["style-darkmode"] = styleDarkMode
